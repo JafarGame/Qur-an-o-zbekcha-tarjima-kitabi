@@ -21,7 +21,7 @@ const myTafsir = {
   "1:7": "Bu ayatda hidoyat topganlar yo‘li bilan adashganlar va g‘azabga uchraganlar yo‘li farqlanadi."
 };
 // START
-const CHANNEL = "https://t.me/diynasillari";
+const CHANNEL = "@diynasillari";
 async function checkSub(userId) {
     try {
         const res = await bot.getChatMember(CHANNEL, userId);

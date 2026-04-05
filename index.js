@@ -1,15 +1,21 @@
 const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
+
 const token = process.env.BOT_TOKEN;
 
 const bot = new TelegramBot(token, { polling: true });
+
+// TARJIMA
 const myTranslation = {
   "1:1": "Mehribon va rahmli Allah nomi bilan."
 };
 
+// IZOH
 const myTafsir = {
   "1:1": "Bu oyat har bir ishni Allah nomi bilan boshlashga undaydi. Unda Allahning rahmati zikr qilingan."
 };
+
+// START
 bot.onText(/\/start/, (msg) => {
     bot.sendMessage(msg.chat.id, `🕌 Assalomu alaykum!
 
@@ -22,8 +28,8 @@ bot.onText(/\/start/, (msg) => {
         }
     });
 });
-const axios = require('axios');
 
+// BUTTON
 bot.on('message', async (msg) => {
     if (msg.text === "📖 Qur'an kitob") {
         try {
@@ -44,6 +50,7 @@ bot.on('message', async (msg) => {
             }
 
         } catch (err) {
+            console.log(err); // 🔥 MUHIM
             bot.sendMessage(msg.chat.id, "❌ Xatolik yuz berdi");
         }
     }

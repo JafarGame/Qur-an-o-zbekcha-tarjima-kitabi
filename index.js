@@ -29,15 +29,18 @@ bot.on('message', async (msg) => {
             const ayahs = res.data.data.ayahs;
 
             // faqat 1-oyatni chiqaramiz (test)
-            const a = ayahs[0];
-const key = `1:${a.numberInSurah}`;
+ for (let i = 0; i < ayahs.length; i++) {
+    const a = ayahs[i];
+    const key = `1:${a.numberInSurah}`;
 
-let text = `${a.numberInSurah}. ${a.text}\n\n`;
+    let text = `${a.numberInSurah}. ${a.text}\n\n`;
 
-text += `Tarjima:\n${myTranslation[key] || "..."}\n\n`;
-text += `Izoh:\n${myTafsir[key] || ""}`;
+    text += `Tarjima:\n${myTranslation[key] || "..."}\n\n`;
+    text += `Izoh:\n${myTafsir[key] || ""}\n\n`;
+    text += "───────────────";
 
-            await bot.sendMessage(msg.chat.id, text);
+    await bot.sendMessage(msg.chat.id, text);
+}
 
         } catch (err) {
             console.log(err);

@@ -47,7 +47,7 @@ bot.onText(/\/start/, async (msg) => {
         );
     }
     bot.sendMessage(msg.chat.id,
-        "🕌 Assalomu alaykum!",
+        "🕌 Assalamu alaykum!",
         {
             reply_markup: {
                 keyboard: [["📖 Qur'an kitob"]],

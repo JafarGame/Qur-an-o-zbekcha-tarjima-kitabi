@@ -16,9 +16,9 @@ const myTafsir = {
   "1:2": "Bu ayatda barcha hamd va maqtovlar faqat Allahga tegishli ekani bayon qilinadi. U olamlarning egasidur.",
   "1:3": "Bu ayatda Allahning cheksiz rahmati yana ta’kidlanadi. U barcha bandalariga mehribon va rahmlidir.",
   "1:4": "Bu ayatda Qiyomat kuni faqat Allahga tegishli ekani va barcha hisob-kitob Uning qo‘lida ekani bayon qilinadi.",
-  "1:5": "Bu oyatda bandaning faqat Allahga ibodat qilishi va faqat Undan yordam so‘rashi kerakligi bayon qilinadi.",
-  "1:6": "Bu oyatda banda Allahdan to‘g‘ri yo‘lni ko‘rsatishni va unda sobit qilishni so‘raydi.",
-  "1:7": "Bu oyatda hidoyat topganlar yo‘li bilan adashganlar va g‘azabga uchraganlar yo‘li farqlanadi."
+  "1:5": "Bu ayatda bandaning faqat Allahga ibodat qilishi va faqat Undan yordam so‘rashi kerakligi bayon qilinadi.",
+  "1:6": "Bu ayatda banda Allahdan to‘g‘ri yo‘lni ko‘rsatishni va unda sobit qilishni so‘raydi.",
+  "1:7": "Bu ayatda hidoyat topganlar yo‘li bilan adashganlar va g‘azabga uchraganlar yo‘li farqlanadi."
 };
 // START
 bot.onText(/\/start/, (msg) => {

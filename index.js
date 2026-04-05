@@ -23,28 +23,52 @@ bot.onText(/\/start/, (msg) => {
 
 // BUTTON
 bot.on('message', async (msg) => {
+    bot.on('message', async (msg) => {
+
+    // 📖 Qur'an bosilganda
     if (msg.text === "📖 Qur'an kitob") {
+        bot.sendMessage(msg.chat.id, "📚 Suralar:", {
+            reply_markup: {
+                keyboard: [["📖 Fotiha"]],
+                resize_keyboard: true
+            }
+        });
+    }
+
+    // 📖 Fotiha bosilganda
+    else if (msg.text === "📖 Fotiha") {
+        bot.sendMessage(msg.chat.id, "Fotiha surasi oyatlari:", {
+            reply_markup: {
+                keyboard: [
+                    ["1", "2", "3"],
+                    ["4", "5", "6"],
+                    ["7"]
+                ],
+                resize_keyboard: true
+            }
+        });
+    }
+
+    // 🔢 Oyat tanlanganda
+    else if (["1","2","3","4","5","6","7"].includes(msg.text)) {
         try {
             const res = await axios.get('https://api.alquran.cloud/v1/surah/1');
             const ayahs = res.data.data.ayahs;
 
-            // faqat 1-oyatni chiqaramiz (test)
- for (let i = 0; i < ayahs.length; i++) {
-    const a = ayahs[i];
-    const key = `1:${a.numberInSurah}`;
+            const number = parseInt(msg.text);
+            const a = ayahs[number - 1];
+            const key = `1:${a.numberInSurah}`;
 
-    let text = `${a.numberInSurah}. ${a.text}\n\n`;
+            let text = `${a.numberInSurah}. ${a.text}\n\n`;
 
-    text += `Tarjima:\n${myTranslation[key] || "..."}\n\n`;
-    text += `Izoh:\n${myTafsir[key] || ""}\n\n`;
-    text += "───────────────";
+            text += `Tarjima:\n${myTranslation[key] || "..."}\n\n`;
+            text += `Izoh:\n${myTafsir[key] || ""}`;
 
-    await bot.sendMessage(msg.chat.id, text);
-}
+            await bot.sendMessage(msg.chat.id, text);
 
         } catch (err) {
             console.log(err);
-            bot.sendMessage(msg.chat.id, "❌ API xato");
+            bot.sendMessage(msg.chat.id, "❌ Xatolik");
         }
     }
 });

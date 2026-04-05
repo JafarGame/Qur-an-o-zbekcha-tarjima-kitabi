@@ -21,13 +21,40 @@ const myTafsir = {
   "1:7": "Bu ayatda hidoyat topganlar yo‘li bilan adashganlar va g‘azabga uchraganlar yo‘li farqlanadi."
 };
 // START
-bot.onText(/\/start/, (msg) => {
-    bot.sendMessage(msg.chat.id, "🕌 Assalomu alaykum!", {
-        reply_markup: {
-            keyboard: [["📖 Qur'an kitob"]],
-            resize_keyboard: true
+const CHANNEL = "https://t.me/diynasillari";
+async function checkSub(userId) {
+    try {
+        const res = await bot.getChatMember(CHANNEL, userId);
+        return ["member", "creator", "administrator"].includes(res.status);
+    } catch (e) {
+        return false;
+    }
+}
+bot.onText(/\/start/, async (msg) => {
+    const userId = msg.from.id;
+    const isSub = await checkSub(userId);
+    if (!isSub) {
+        return bot.sendMessage(msg.chat.id,
+            "❗ Botdan foydalanish uchun kanalga obuna bo‘ling",
+            {
+                reply_markup: {
+                    inline_keyboard: [
+                        [{ text: "📢 Kanalga o'tish", url: "https://t.me/sening_kanaling" }],
+                        [{ text: "✅ Tekshirish", callback_data: "check_sub" }]
+                    ]
+                }
+            }
+        );
+    }
+    bot.sendMessage(msg.chat.id,
+        "🕌 Assalomu alaykum!",
+        {
+            reply_markup: {
+                keyboard: [["📖 Qur'an kitob"]],
+                resize_keyboard: true
+            }
         }
-    });
+    );
 });
 // BUTTON
 bot.on('message', async (msg) => {
@@ -68,6 +95,27 @@ bot.on('message', async (msg) => {
         } catch (err) {
             console.log(err);
             bot.sendMessage(msg.chat.id, "❌ Xatolik");
+        }
+    }
+});
+bot.on("callback_query", async (query) => {
+    if (query.data === "check_sub") {
+        const userId = query.from.id;
+        const isSub = await checkSub(userId);
+        if (isSub) {
+            bot.sendMessage(query.message.chat.id,
+                "✅ Rahmat! Endi foydalanishingiz mumkin",
+                {
+                    reply_markup: {
+                        keyboard: [["📖 Qur'an kitob"]],
+                        resize_keyboard: true
+                    }
+                }
+            );
+        } else {
+            bot.sendMessage(query.message.chat.id,
+                "❌ Siz hali obuna bo‘lmadingiz!"
+            );
         }
     }
 });

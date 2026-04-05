@@ -4,11 +4,13 @@ const token = process.env.BOT_TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 const myTranslation = {
   "1:1": "Mehribon va rahmli Allah nomi bilan.",
-  "1:2": "Hamd butun olamlarning Robbi bo‘lgan Allahgadir."
+  "1:2": "Hamd butun olamlarning Robbi bo‘lgan Allahgadir.",
+  "1:3": "O‘ta Mehribon, O‘ta Rahimli."
 };
 const myTafsir = {
   "1:1": "Bu ayat har bir ishni Allah nomi bilan boshlashga undaydi. Unda Allahning rahmati zikr qilingan.",
-  "1:2": "Bu ayatda barcha hamd va maqtovlar faqat Allahga tegishli ekani bayon qilinadi. U olamlarning egasidur."
+  "1:2": "Bu ayatda barcha hamd va maqtovlar faqat Allahga tegishli ekani bayon qilinadi. U olamlarning egasidur.",
+  "1:3": "Bu ayatda Allahning cheksiz rahmati yana ta’kidlanadi. U barcha bandalariga mehribon va rahmlidir."
 };
 // START
 bot.onText(/\/start/, (msg) => {

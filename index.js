@@ -39,7 +39,7 @@ bot.onText(/\/start/, async (msg) => {
             {
                 reply_markup: {
                     inline_keyboard: [
-                        [{ text: "📢 Kanalga o'tish", url: "https://t.me/sening_kanaling" }],
+                        [{ text: "📢 Kanalga o'tish", url: "https://t.me/diynasillari" }],
                         [{ text: "✅ Tekshirish", callback_data: "check_sub" }]
                     ]
                 }

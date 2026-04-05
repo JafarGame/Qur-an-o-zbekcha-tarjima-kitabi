@@ -1,7 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 const token = process.env.BOT_TOKEN;
-
 const bot = new TelegramBot(token, { polling: true });
 const myTranslation = {
   "1:1": "Mehribon va rahmli Allah nomi bilan.",
@@ -20,11 +19,8 @@ bot.onText(/\/start/, (msg) => {
         }
     });
 });
-
 // BUTTON
 bot.on('message', async (msg) => {
-    bot.on('message', async (msg) => {
-
     // 📖 Qur'an bosilganda
     if (msg.text === "📖 Qur'an kitob") {
         bot.sendMessage(msg.chat.id, "📚 Suralar:", {
@@ -34,7 +30,6 @@ bot.on('message', async (msg) => {
             }
         });
     }
-
     // 📖 Fotiha bosilganda
     else if (msg.text === "📖 Fotiha") {
         bot.sendMessage(msg.chat.id, "Fotiha surasi oyatlari:", {
@@ -48,24 +43,18 @@ bot.on('message', async (msg) => {
             }
         });
     }
-
     // 🔢 Oyat tanlanganda
     else if (["1","2","3","4","5","6","7"].includes(msg.text)) {
         try {
             const res = await axios.get('https://api.alquran.cloud/v1/surah/1');
             const ayahs = res.data.data.ayahs;
-
             const number = parseInt(msg.text);
             const a = ayahs[number - 1];
             const key = `1:${a.numberInSurah}`;
-
             let text = `${a.numberInSurah}. ${a.text}\n\n`;
-
             text += `Tarjima:\n${myTranslation[key] || "..."}\n\n`;
             text += `Izoh:\n${myTafsir[key] || ""}`;
-
             await bot.sendMessage(msg.chat.id, text);
-
         } catch (err) {
             console.log(err);
             bot.sendMessage(msg.chat.id, "❌ Xatolik");

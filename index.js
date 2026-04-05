@@ -3,7 +3,13 @@ const axios = require('axios');
 const token = process.env.BOT_TOKEN;
 
 const bot = new TelegramBot(token, { polling: true });
+const myTranslation = {
+  "1:1": "Mehribon va rahmli Allah nomi bilan."
+};
 
+const myTafsir = {
+  "1:1": "Bu oyat har bir ishni Allah nomi bilan boshlashga undaydi. Unda Allahning rahmati zikr qilingan."
+};
 // START
 bot.onText(/\/start/, (msg) => {
     bot.sendMessage(msg.chat.id, "🕌 Assalomu alaykum!", {
@@ -23,8 +29,12 @@ bot.on('message', async (msg) => {
 
             // faqat 1-oyatni chiqaramiz (test)
             const a = ayahs[0];
+const key = `1:${a.numberInSurah}`;
 
-            let text = `${a.numberInSurah}. ${a.text}`;
+let text = `${a.numberInSurah}. ${a.text}\n\n`;
+
+text += `Tarjima:\n${myTranslation[key] || "..."}\n\n`;
+text += `Izoh:\n${myTafsir[key] || ""}`;
 
             await bot.sendMessage(msg.chat.id, text);
 

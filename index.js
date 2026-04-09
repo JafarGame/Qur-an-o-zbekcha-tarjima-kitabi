@@ -15,7 +15,8 @@ const translations = {
     7: "Ne’mat berganlarning yo‘liga, g‘azabga uchraganlarning va adashganlarning yo‘liga emas."
   },
   2: {
-  1: "Alif. Lam. Mim."
+  1: "Alif. Lam. Mim.",
+  2: "Ana shu Kitob — unda shubha yo‘q. U taqvodorlar uchun hidoyatdir."
  }
 };    
 // CHANNEL CHECK

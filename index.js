@@ -17,7 +17,7 @@ const translations = {
   2: {
   1: "Alif. Lam. Mim.",
   2: "Ana shu Kitob — unda shubha yo‘q. U taqvodorlar uchun hidoyatdir."
- }
+}
 };    
 // CHANNEL CHECK
 const CHANNEL = "@diynasillari";

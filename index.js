@@ -4,15 +4,16 @@ const axios = require('axios');
 const token = process.env.BOT_TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 
-// TARJIMA
-const myTranslation = {
-  "1:1": "Mehribon va rahmli Allah nomi bilan.",
-  "1:2": "Hamd butun olamlarning Rabbi bo‘lgan Allahgadir.",
-  "1:3": "O‘ta Mehribon, O‘ta Rahimli.",
-  "1:4": "Jazo kunining Egasi.",
-  "1:5": "Faqat Senga ibodat qilamiz va faqat Sendan yordam so‘raymiz.",
-  "1:6": "Bizni to‘g‘ri yo‘lga hidoyat qil.",
-  "1:7": "Ne’mat berganlarning yo‘liga, g‘azabga uchraganlarning va adashganlarning yo‘liga emas."
+const translations = {
+  1: {
+    1: "Mehribon va rahmli Allah nomi bilan.",
+    2: "Hamd butun olamlarning Rabbi bo‘lgan Allahgadir.",
+    3: "O‘ta Mehribon, O‘ta Rahimli.",
+    4: "Jazo kunining Egasi.",
+    5: "Faqat Senga ibodat qilamiz va faqat Sendan yordam so‘raymiz.",
+    6: "Bizni to‘g‘ri yo‘lga hidoyat qil.",
+    7: "Ne’mat berganlarning yo‘liga, g‘azabga uchraganlarning va adashganlarning yo‘liga emas."
+  }
 };
 // CHANNEL CHECK
 const CHANNEL = "@diynasillari";

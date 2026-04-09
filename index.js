@@ -14,18 +14,6 @@ const myTranslation = {
   "1:6": "Bizni to‘g‘ri yo‘lga hidoyat qil.",
   "1:7": "Ne’mat berganlarning yo‘liga, g‘azabga uchraganlarning va adashganlarning yo‘liga emas."
 };
-
-// TAFSIR
-const myTafsir = {
-  "1:1": "Bu ayat har bir ishni Allah nomi bilan boshlashga undaydi.",
-  "1:2": "Barcha hamd faqat Allahga tegishli.",
-  "1:3": "Allahning cheksiz rahmati ta’kidlanadi.",
-  "1:4": "Qiyomat kuni faqat Allahga tegishli.",
-  "1:5": "Faqat Allahga ibodat qilinadi.",
-  "1:6": "To‘g‘ri yo‘l so‘raladi.",
-  "1:7": "Hidoyat yo‘li bayon qilinadi."
-};
-
 // CHANNEL CHECK
 const CHANNEL = "@diynasillari";
 
@@ -147,11 +135,12 @@ bot.on("callback_query", async (query) => {
             const res = await axios.get(`https://api.alquran.cloud/v1/surah/${surahId}`);
             const ayah = res.data.data.ayahs[ayahNum - 1];
 
-            const key = `${surahId}:${ayah.numberInSurah}`;
+            const surahTranslations = translations[surahId] || {};
+            const tarjima = surahTranslations[ayah.numberInSurah] || "Tarjima yo‘q";
 
             let text = `${ayah.numberInSurah}. ${ayah.text}\n\n`;
-            text += `Tarjima:\n${myTranslation[key] || "Tarjima yo‘q"}\n\n`;
-            text += `Izoh:\n${myTafsir[key] || "Izoh yo‘q"}`;
+            text += `Tarjima:\n${tarjima}\n\n`;
+            text += `Tafsir:\n......`;
 
             bot.sendMessage(msg.chat.id, text);
         }

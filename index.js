@@ -13,8 +13,11 @@ const translations = {
     5: "Faqat Senga ibodat qilamiz va faqat Sendan yordam so‘raymiz.",
     6: "Bizni to‘g‘ri yo‘lga hidoyat qil.",
     7: "Ne’mat berganlarning yo‘liga, g‘azabga uchraganlarning va adashganlarning yo‘liga emas."
-  }
-};
+  },
+  2: {
+  1: "Alif. Lam. Mim."
+ }
+};    
 // CHANNEL CHECK
 const CHANNEL = "@diynasillari";
 

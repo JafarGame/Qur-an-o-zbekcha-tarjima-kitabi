@@ -60,29 +60,37 @@ bot.onText(/\/start/, async (msg) => {
 bot.on('message', async (msg) => {
     // 📖 Qur'an bosilganda
     if (msg.text === "📖 Qur'an kitob") {
-        bot.sendMessage(msg.chat.id, "📚 Suralar:", {
-            reply_markup: {
-                keyboard: [["📖 Fotiha"]],
-                resize_keyboard: true
-            }
-        });
+
+    const surahs = [
+        "Fotiha","Baqara","Oli Imron","Niso","Moida","An'om","A'rof","Anfol","Tavba","Yunus",
+        "Hud","Yusuf","Ra'd","Ibrohim","Hijr","Nahl","Isro","Kahf","Maryam","Toha",
+        "Anbiyo","Haj","Mu'minun","Nur","Furqon","Shuaro","Naml","Qasas","Ankabut","Rum",
+        "Luqmon","Sajda","Ahzob","Saba","Fotir","Yosin","Soffot","Sod","Zumar","G'ofir",
+        "Fussilat","Shuro","Zuxruf","Duxon","Josiya","Ahqof","Muhammad","Fath","Hujurot","Qof",
+        "Zariyat","Tur","Najm","Qamar","Rahmon","Voqia","Hadid","Mujodala","Hashr","Mumtahana",
+        "Saff","Jumu'a","Munofiqun","Tag'obun","Taloq","Tahrim","Mulk","Qalam","Haqqa","Maorij",
+        "Nuh","Jin","Muzzammil","Muddassir","Qiyoma","Inson","Mursalat","Naba","Nozi'at","Abasa",
+        "Takvir","Infitor","Mutaffifin","Inshiqoq","Buruj","Toriq","A'la","G'oshiya","Fajr","Balad",
+        "Shams","Layl","Duha","Sharh","Tin","Alaq","Qadr","Bayyina","Zalzala","Odiyat",
+        "Qori'a","Takosur","Asr","Humaza","Fil","Quraysh","Ma'un","Kavsar","Kafirun","Nasr",
+        "Masad","Ixlos","Falaq","Nos"
+    ];
+
+    const buttons = [];
+
+    for (let i = 0; i < surahs.length; i++) {
+        buttons.push([{
+            text: `${i + 1}. ${surahs[i]}`,
+            callback_data: `surah_${i + 1}`
+        }]);
     }
-    // 📖 Fotiha bosilganda
-    else if (msg.text === "📖 Fotiha") {
-        bot.sendMessage(msg.chat.id, "Fotiha surasi oyatlari:", {
-            reply_markup: {
-                keyboard: [
-                    ["1", "2", "3"],
-                    ["4", "5", "6"],
-                    ["7"]
-                ],
-                resize_keyboard: true
-            }
-        });
-    }
-    // 🔢 Oyat tanlanganda
-    else if (["1","2","3","4","5","6","7"].includes(msg.text)) {
-        try {
+
+    bot.sendMessage(msg.chat.id, "📚 Suralar:", {
+        reply_markup: {
+            inline_keyboard: buttons
+        }
+    });
+}
             const res = await axios.get('https://api.alquran.cloud/v1/surah/1');
             const ayahs = res.data.data.ayahs;
             const number = parseInt(msg.text);
@@ -99,11 +107,16 @@ bot.on('message', async (msg) => {
     }
 });
 bot.on("callback_query", async (query) => {
-    if (query.data === "check_sub") {
+    const data = query.data;
+    const msg = query.message;
+
+    // OBUNA CHECK
+    if (data === "check_sub") {
         const userId = query.from.id;
         const isSub = await checkSub(userId);
+
         if (isSub) {
-            bot.sendMessage(query.message.chat.id,
+            bot.sendMessage(msg.chat.id,
                 "✅ Rahmat! Endi foydalanishingiz mumkin",
                 {
                     reply_markup: {
@@ -113,9 +126,52 @@ bot.on("callback_query", async (query) => {
                 }
             );
         } else {
-            bot.sendMessage(query.message.chat.id,
+            bot.sendMessage(msg.chat.id,
                 "❌ Siz hali obuna bo‘lmadingiz!"
             );
         }
     }
+
+    // 📖 SURA BOSILDI
+    else if (data.startsWith("surah_")) {
+        const surahId = data.split("_")[1];
+
+        try {
+            const res = await axios.get(`https://api.alquran.cloud/v1/surah/${surahId}`);
+            const ayahs = res.data.data.ayahs;
+
+            const buttons = ayahs.map(a => [{
+                text: `${a.numberInSurah}`,
+                callback_data: `ayah_${surahId}_${a.numberInSurah}`
+            }]);
+
+            bot.sendMessage(msg.chat.id, "📖 Oyatni tanlang:", {
+                reply_markup: {
+                    inline_keyboard: buttons
+                }
+            });
+
+        } catch (err) {
+            bot.sendMessage(msg.chat.id, "❌ Xatolik");
+        }
+    }
+
+    // 🔢 OYAT BOSILDI
+    else if (data.startsWith("ayah_")) {
+        const [_, surahId, ayahNum] = data.split("_");
+
+        try {
+            const res = await axios.get(`https://api.alquran.cloud/v1/surah/${surahId}`);
+            const ayah = res.data.data.ayahs[ayahNum - 1];
+
+            let text = `${ayah.numberInSurah}. ${ayah.text}`;
+
+            bot.sendMessage(msg.chat.id, text);
+
+        } catch (err) {
+            bot.sendMessage(msg.chat.id, "❌ Xatolik");
+        }
+    }
+
+    bot.answerCallbackQuery(query.id);
 });

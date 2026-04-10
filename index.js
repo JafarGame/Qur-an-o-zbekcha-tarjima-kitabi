@@ -69,9 +69,12 @@ if (/^\d+:\d+$/.test(msg.text)) {
     try {
         const res = await axios.get(`https://api.alquran.cloud/v1/surah/${surahId}`);
         const ayah = res.data.data.ayahs[ayahNum - 1];
-        let text = `${ayah.numberInSurah}. ${ayah.text}\n\n`;
-        text += `Tarjima:\n...\n\n`;
-        text += `Tafsir:\n.......`;
+        const surahTranslations = translations[surahId] || {};
+const tarjima = surahTranslations[ayah.numberInSurah] || "Tarjima yo‘q";
+
+let text = `${ayah.numberInSurah}. ${ayah.text}\n\n`;
+text += `📖 Tarjima:\n${tarjima}\n\n`;
+text += `📚 Tafsir:\n.......`;
         return bot.sendMessage(msg.chat.id, text);
     } catch {
         return bot.sendMessage(msg.chat.id, "❌ Topilmadi");

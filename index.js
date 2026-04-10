@@ -78,16 +78,31 @@ bot.on('message', async (msg) => {
             "Masad","Ixlos","Falaq","Nos"
         ];
 
-        const buttons = surahs.map((s, i) => [{
-            text: `${i + 1}. ${s}`,
-            callback_data: `surah_${i + 1}`
-        }]);
+        const page = 0;
+const pageSize = 20;
 
-        bot.sendMessage(msg.chat.id, "📚 Suralar:", {
-            reply_markup: {
-                inline_keyboard: buttons
-            }
-        });
+const start = page * pageSize;
+const end = start + pageSize;
+
+const pageSurahs = surahs.slice(start, end);
+
+const buttons = pageSurahs.map((s, i) => [{
+    text: `${start + i + 1}. ${s}`,
+    callback_data: `surah_${start + i + 1}`
+}]);
+
+// navigation
+const nav = [];
+
+if (end < surahs.length) {
+    nav.push({ text: "➡️ Keyingi", callback_data: `surah_page_1` });
+}
+
+if (nav.length) buttons.push(nav);
+
+bot.sendMessage(msg.chat.id, "📚 Suralar:", {
+    reply_markup: {
+        inline_keyboard: buttons
     }
 });
 

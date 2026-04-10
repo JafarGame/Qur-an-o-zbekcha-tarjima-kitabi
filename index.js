@@ -301,7 +301,29 @@ const translations = {
 284: "Osmonlar va yerdagi barcha narsa Allahnikidir. Ichingizdagini oshkor qilsangiz ham, yashirsangiz ham, Allah sizlardan hisob-kitob qiladi. So‘ng kimni xohlasa kechiradi, kimni xohlasa azoblaydi. Allah har narsaga qodirdir.",
 285: "Payg‘ambar Rabbisidan o‘ziga nozil qilingan narsaga iymon keltirdi va mo‘minlar ham. Barchalari Allahga, Uning farishtalariga, kitoblariga va payg‘ambarlariga iymon keltirdilar. «Payg‘ambarlaridan hech birini ajratmaymiz», dedilar va: «Eshitdik va itoat qildik. Rabbimiz, Sening mag‘firatingni so‘raymiz va qaytish faqat Senga», dedilar.",
 286: "Allah hech bir jonga kuchidan ortiq yuklamaydi. Uning qilgan yaxshiligi o‘ziga, qilgan yomonligi ham o‘ziga. «Rabbimiz! Agar unutib qo‘ysak yoki xato qilsak, bizni jazolama. Rabbimiz! Bizdan oldingilarga yuklaganing kabi og‘ir yukni bizga yuklama. Rabbimiz! Bizga kuchimiz yetmaydigan narsani yuklama. Bizni afv et, bizni kechir va bizga rahm qil. Sen bizning Mawlomizsan, kofir qavmga qarshi bizga yordam ber».",   
-    }
+ },
+  3: {
+    1: "Alif. Lam. Mim.",
+    2: "Allah — Undan boshqa iloh yo‘q. U Tirik va Qayyumdir.",
+    3: "U senga Kitobni haqiqat bilan nozil qildi — o‘zidan oldingi narsalarni tasdiqlovchi. Tavrot va Injilni ham nozil qildi.",
+    4: "Bundan oldin odamlar uchun hidoyat qilib va Furqonni nozil qildi. Albatta, Allahning oyatlariga kufr keltirganlar uchun qattiq azob bor. Allah Aziz va intiqom egasidir.",
+    5: "Albatta, yerda ham, osmondagi narsalarda ham Allahdan hech narsa yashirin qolmaydi.",
+    6: "U sizlarni bachadonlarda O‘zi xohlaganidek shakllantiradi. Undan boshqa iloh yo‘q. U Aziz va Hikmatlidir.",
+    7: "U senga Kitobni nozil qildi. Unda muhkamat oyatlar bor — ular Kitobning asosidir. Boshqalari esa mutashabihdir. Qalblarida og‘ish borlar fitna va ta’vil izlab mutashabihga ergashadilar. Holbuki uning ta’vilini faqat Allah biladi. Ilmda sobit bo‘lganlar: «Biz unga iymon keltirdik — hammasi Robbimiz huzuridan», deydilar. Buni faqat aql egalari eslaydilar.",
+    8: "Robbimiz! Bizni hidoyat qilganingdan keyin qalblarimizni og‘dirma va bizga O‘zingdan rahmat ber. Albatta, Sen beruvchisan.",
+    9: "Robbimiz! Albatta, Sen odamlarni shubha yo‘q bo‘lgan kunda jamlaysan. Albatta, Allah va’dasiga xilof qilmaydi.",
+    10: "Albatta, kufr keltirganlarga mol-mulklari ham, bolalari ham Allah huzurida hech narsaga foyda bermaydi. Ular do‘zaxning yoqilg‘isidir.",
+    11: "Fir’avn ahli va ulardan oldingilar odatidek — oyatlarimizni yolg‘on deb hisobladilar, bas, Allah ularni gunohlari sababli ushladi. Allah azobi qattiqdir.",
+    12: "Kofirlarga ayting: «Albatta, sizlar yengilasizlar va jahannamga jamlanasizlar. Qanday yomon joy!»",
+    13: "Albatta, sizlar uchun to‘qnashgan ikki guruhda belgi bor edi: biri Allah yo‘lida urushayotgan edi, boshqasi kofir edi. Ular ularni ko‘zlari bilan ikki barobar ko‘rdilar. Allah O‘z yordamini kimga xohlasa, o‘shanga beradi. Albatta, bunda ko‘zi borlar uchun ibrat bor.",
+    14: "Odamlarga ayollarga, bolalarga, oltin-kumush xazinalarga, zotdor otlarga, chorva va ekinlarga muhabbat ziynatli qilib ko‘rsatildi. Bu dunyo hayotining matosidir. Allah huzurida esa eng yaxshi qaytish joyi bor.",
+    15: "Ayting: «Sizlarga bundan yaxshiroq narsani aytaymi?» Taqvodorlar uchun Robblari huzurida ostidan daryolar oqadigan jannatlar bor — ular unda abadiy qoladilar, pok juftlar va Allahning roziligi bor. Allah bandalarni ko‘rib turuvchidir.",
+    16: "Ular: «Robbimiz! Biz iymon keltirdik, bas, gunohlarimizni kechir va bizni do‘zax azobidan saqla», deydilar.",
+    17: "Sabr qiluvchilar, rostgo‘ylar, itoatkorlar, sadaqa qiluvchilar va saharlarda mag‘firat so‘rovchilardir.",
+    18: "Allah guvohlik berdi — Undan boshqa iloh yo‘q. Farishtalar va ilm egalari ham adolat bilan (guvohlik berdilar). Undan boshqa iloh yo‘q — U Aziz va Hikmatlidir.",
+    19: "Albatta, Allah huzurida din — Islomdir. Kitob berilganlar o‘zlariga ilm kelganidan keyin hasad sabab ixtilof qildilar. Kim Allahning oyatlariga kufr keltirsa — albatta, Allah tez hisob qiluvchidir.",
+    20: "Agar ular sen bilan tortishsalar, ayt: «Men yuzimni Allahga taslim qildim va menga ergashganlar ham». Kitob berilganlar va ummiylarga ayt: «Taslim bo‘ldingizlarmi?» Agar taslim bo‘lsalar — hidoyat topadilar. Agar yuz o‘girsalar — senga faqat yetkazish bor. Allah bandalarni ko‘rib turuvchidir.",
+  }  
  };
 // 🌍 GLOBAL SURA LIST (MUHIM!)
 const surahs = [

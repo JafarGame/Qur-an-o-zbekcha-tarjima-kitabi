@@ -24,16 +24,50 @@ const surahs = [
 bot.onText(/\/start/, (msg) => {
     bot.sendMessage(msg.chat.id, "👋 Assalomu alaykum!", {
         reply_markup: {
-            keyboard: [["📖 Qur'an kitob"]],
+            keyboard: [
+                ["📖 Qur'an", "🔍 Qidiruv"],
+                ["⬅️ Ortga"]
+            ],
             resize_keyboard: true
         }
     });
 });
-
 // 🟢 MESSAGE
 bot.on("message", async (msg) => {
+// 🔙 ORTGA
+if (msg.text === "⬅️ Ortga") {
+    return bot.sendMessage(msg.chat.id, "🏠 Asosiy menyu", {
+        reply_markup: {
+            keyboard: [
+                ["📖 Qur'an", "🔍 Qidiruv"],
+                ["⬅️ Ortga"]
+            ],
+            resize_keyboard: true
+        }
+    });
+}
 
-    if (msg.text === "📖 Qur'an kitob") {
+// 🔍 QIDIRUV BOSHLASH
+if (msg.text === "🔍 Qidiruv") {
+    return bot.sendMessage(msg.chat.id, "🔎 Qidirish uchun yozing:\n\nMasalan:\n2:255");
+}
+
+// 🔎 QIDIRUV ISHLASH
+if (/^\d+:\d+$/.test(msg.text)) {
+    const surahId = Number(msg.text.split(":")[0]);
+    const ayahNum = Number(msg.text.split(":")[1]);
+    try {
+        const res = await axios.get(`https://api.alquran.cloud/v1/surah/${surahId}`);
+        const ayah = res.data.data.ayahs[ayahNum - 1];
+        let text = `${ayah.numberInSurah}. ${ayah.text}\n\n`;
+        text += `Tarjima:\n...\n\n`;
+        text += `Tafsir:\n.......`;
+        return bot.sendMessage(msg.chat.id, text);
+    } catch {
+        return bot.sendMessage(msg.chat.id, "❌ Topilmadi");
+    }
+}
+    if (msg.text === "📖 Qur'an") {
 
         const page = 0;
         const pageSize = 20;

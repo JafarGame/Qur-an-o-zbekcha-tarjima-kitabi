@@ -316,7 +316,7 @@ const surahs = [
 "Takvir","Infitar","Mutaffifin","Inshiqaq","Buruj","Tariq","A'la","G'oshiya","Fajr","Balad",
 "Shams","Layl","Duha","Sharh","Tin","Alaq","Qadr","Bayyina","Zalzala","Odiyat",
 "Qari'a","Takasur","Asr","Humaza","Fil","Quraysh","Ma'un","Kavsar","Kafirun","Nasr",
-"Masad","Ixlas","Falaq","Nos"
+"Masad","Ixlas","Falaq","Nas"
 ];
 
 // 🟢 START

@@ -3,7 +3,17 @@ const axios = require('axios');
 
 const token = process.env.BOT_TOKEN;
 const bot = new TelegramBot(token, { polling: true });
-
+const translations = {
+    1: {
+        1: "Mehribon va rahmli Allah nomi bilan.",
+        2: "Hamd butun olamlarning Robbi bo‘lgan Allohgadir.",
+        3: "U Mehribon va Rahmlidir.",
+        4: "Jazo kunining Egasi.",
+        5: "Faqat Senga ibodat qilamiz va faqat Sendan yordam so‘raymiz.",
+        6: "Bizni to‘g‘ri yo‘lga hidoyat qil.",
+        7: "Ne’mat berganlarning yo‘liga, g‘azabga uchraganlar va adashganlarning yo‘liga emas."
+    }
+};
 // 🌍 GLOBAL SURA LIST (MUHIM!)
 const surahs = [
 "Fotiha","Baqara","Oli Imron","Niso","Moida","An'om","A'rof","Anfol","Tavba","Yunus",
@@ -228,9 +238,12 @@ bot.on("callback_query", async (query) => {
             const res = await axios.get(`https://api.alquran.cloud/v1/surah/${surahId}`);
             const ayah = res.data.data.ayahs[ayahNum - 1];
 
-            let text = `${ayah.numberInSurah}. ${ayah.text}\n\n`;
-            text += `Tarjima:\n...\n\n`;
-            text += `Tafsir:\n.......`;
+            const surahTranslations = translations[surahId] || {};
+const tarjima = surahTranslations[ayah.numberInSurah] || "Tarjima yo‘q";
+
+let text = `${ayah.numberInSurah}. ${ayah.text}\n\n`;
+text += `📖 Tarjima:\n${tarjima}\n\n`;
+text += `📚 Tafsir:\n.......`;
 
             bot.sendMessage(msg.chat.id, text);
         }

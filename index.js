@@ -132,7 +132,46 @@ bot.on("callback_query", async (query) => {
                 }
             });
         }
+// PAGINATION
+else if (data.startsWith("page_")) {
+    const [_, surahIdRaw, pageRaw] = data.split("_");
+    const surahId = Number(surahIdRaw);
+    const page = Number(pageRaw);
+    const pageSize = 50;
 
+    const res = await axios.get(`https://api.alquran.cloud/v1/surah/${surahId}`);
+    const ayahs = res.data.data.ayahs;
+
+    const start = page * pageSize;
+    const end = start + pageSize;
+
+    const pageAyahs = ayahs.slice(start, end);
+
+    const buttons = pageAyahs.map(a => [{
+        text: `${a.numberInSurah}`,
+        callback_data: `ayah_${surahId}_${a.numberInSurah}`
+    }]);
+
+    const nav = [];
+
+    if (page > 0) {
+        nav.push({ text: "⬅️ Oldingi", callback_data: `page_${surahId}_${page - 1}` });
+    }
+
+    if (end < ayahs.length) {
+        nav.push({ text: "➡️ Keyingi", callback_data: `page_${surahId}_${page + 1}` });
+    }
+
+    if (nav.length) buttons.push(nav);
+
+    bot.editMessageText("📖 Oyatlar:", {
+        chat_id: msg.chat.id,
+        message_id: msg.message_id,
+        reply_markup: {
+            inline_keyboard: buttons
+        }
+    });
+}
         // AYAH
         else if (data.startsWith("ayah_")) {
             const [_, surahId, ayahNum] = data.split("_");

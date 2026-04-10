@@ -34,8 +34,7 @@ const translations = {
     17: "Ularning misoli xuddi olov yoqqan kimsaga o‘xshaydi. Atrofini yoritgach, Allah ularning nurini olib qo‘ydi va ularni zulmatlarda qoldirdi, ular ko‘rmaydilar.",
     18: "Kar, soqov va ko‘rdirlar — bas, ular qaytmaydilar.",
     19: "Yoki (ular) osmondan tushayotgan yomg‘irga o‘xshaydi, unda zulmatlar, momaqaldiroq va chaqmoq bor..."
-  }
-};
+}
 // 🌍 GLOBAL SURA LIST (MUHIM!)
 const surahs = [
 "Fatiha","Baqara","Ali Imran","Nisa","Maida","An'am","A'raf","Anfal","Tavba","Yunus",

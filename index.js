@@ -12,8 +12,8 @@ const translations = {
         5: "Faqat Senga ibodat qilamiz va faqat Sendan yordam so‘raymiz.",
         6: "Bizni to‘g‘ri yo‘lga hidoyat qil.",
         7: "Ne’mat berganlarning yo‘liga, g‘azabga uchraganlar va adashganlarning yo‘liga emas."
-    }
-};
+    },
+
 2: {
     1: "Alif, Lam, Mim.",
     2: "Bu Kitob — unda shubha yo‘q. Muttaqilar uchun hidoyatdir.",
@@ -34,7 +34,8 @@ const translations = {
     17: "Ularning misoli xuddi olov yoqqan kimsaga o‘xshaydi. Atrofini yoritgach, Allah ularning nurini olib qo‘ydi va ularni zulmatlarda qoldirdi, ular ko‘rmaydilar.",
     18: "Kar, soqov va ko‘rdirlar — bas, ular qaytmaydilar.",
     19: "Yoki (ular) osmondan tushayotgan yomg‘irga o‘xshaydi, unda zulmatlar, momaqaldiroq va chaqmoq bor...",
-}
+    }
+ };
 // 🌍 GLOBAL SURA LIST (MUHIM!)
 const surahs = [
 "Fatiha","Baqara","Ali Imran","Nisa","Maida","An'am","A'raf","Anfal","Tavba","Yunus",

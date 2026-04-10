@@ -121,11 +121,33 @@ bot.on("callback_query", async (query) => {
             const res = await axios.get(`https://api.alquran.cloud/v1/surah/${surahId}`);
             const ayahs = res.data.data.ayahs;
 
-            const buttons = ayahs.map(a => [{
-                text: `${a.numberInSurah}`,
-                callback_data: `ayah_${surahId}_${a.numberInSurah}`
-            }]);
+            const page = 0;
+const pageSize = 50;
 
+const start = page * pageSize;
+const end = start + pageSize;
+
+const pageAyahs = ayahs.slice(start, end);
+
+const buttons = pageAyahs.map(a => [{
+    text: `${a.numberInSurah}`,
+    callback_data: `ayah_${surahId}_${a.numberInSurah}`
+}]);
+
+// navigation
+const nav = [];
+
+if (end < ayahs.length) {
+    nav.push({ text: "➡️ Keyingi", callback_data: `page_${surahId}_1` });
+}
+
+if (nav.length) buttons.push(nav);
+
+bot.sendMessage(msg.chat.id, "📖 Oyatlar:", {
+    reply_markup: {
+        inline_keyboard: buttons
+    }
+});
             bot.sendMessage(msg.chat.id, "📖 Oyatlar:", {
                 reply_markup: {
                     inline_keyboard: buttons

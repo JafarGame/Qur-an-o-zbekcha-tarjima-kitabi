@@ -6,7 +6,7 @@ const bot = new TelegramBot(token, { polling: true });
 const translations = {
     1: {
         1: "Mehribon va rahmli Allah nomi bilan.",
-        2: "Hamd butun olamlarning Robbi bo‘lgan Allohgadir.",
+        2: "Hamd butun olamlarning Rabbi bo‘lgan Allahgadir.",
         3: "U Mehribon va Rahmlidir.",
         4: "Jazo kunining Egasi.",
         5: "Faqat Senga ibodat qilamiz va faqat Sendan yordam so‘raymiz.",
@@ -16,23 +16,23 @@ const translations = {
 };
 // 🌍 GLOBAL SURA LIST (MUHIM!)
 const surahs = [
-"Fotiha","Baqara","Oli Imron","Niso","Moida","An'om","A'rof","Anfol","Tavba","Yunus",
-"Hud","Yusuf","Ra'd","Ibrohim","Hijr","Nahl","Isro","Kahf","Maryam","Toha",
-"Anbiyo","Haj","Mu'minun","Nur","Furqon","Shuaro","Naml","Qasas","Ankabut","Rum",
-"Luqmon","Sajda","Ahzob","Saba","Fotir","Yosin","Soffot","Sod","Zumar","G'ofir",
-"Fussilat","Shuro","Zuxruf","Duxon","Josiya","Ahqof","Muhammad","Fath","Hujurot","Qof",
-"Zariyat","Tur","Najm","Qamar","Rahmon","Voqia","Hadid","Mujodala","Hashr","Mumtahana",
-"Saff","Jumu'a","Munofiqun","Tag'obun","Taloq","Tahrim","Mulk","Qalam","Haqqa","Maorij",
-"Nuh","Jin","Muzzammil","Muddassir","Qiyoma","Inson","Mursalat","Naba","Nozi'at","Abasa",
-"Takvir","Infitor","Mutaffifin","Inshiqoq","Buruj","Toriq","A'la","G'oshiya","Fajr","Balad",
+"Fatiha","Baqara","Ali Imran","Nisa","Maida","An'am","A'raf","Anfal","Tavba","Yunus",
+"Hud","Yusuf","Ra'd","Ibrahim","Hijr","Nahl","Isra","Kahf","Maryam","Taha",
+"Anbiya","Haj","Mu'minun","Nur","Furqan","Shuara","Naml","Qasas","Ankabut","Rum",
+"Luqman","Sajda","Ahzab","Saba","Fatir","Yasin","Saffat","Sad","Zumar","G'afir",
+"Fussilat","Shura","Zuxruf","Duxan","Josiya","Ahqaf","Muhammad","Fath","Hujurat","Qaf",
+"Zariyat","Tur","Najm","Qamar","Rahman","Vaqia","Hadid","Mujadala","Hashr","Mumtahana",
+"Saff","Jumu'a","Munafiqun","Tag'abun","Talaq","Tahrim","Mulk","Qalam","Haqqa","Maarij",
+"Nuh","Jin","Muzzammil","Muddassir","Qiyamah","Inson","Mursalat","Naba","Nazi'at","Abasa",
+"Takvir","Infitar","Mutaffifin","Inshiqaq","Buruj","Tariq","A'la","G'oshiya","Fajr","Balad",
 "Shams","Layl","Duha","Sharh","Tin","Alaq","Qadr","Bayyina","Zalzala","Odiyat",
-"Qori'a","Takosur","Asr","Humaza","Fil","Quraysh","Ma'un","Kavsar","Kafirun","Nasr",
-"Masad","Ixlos","Falaq","Nos"
+"Qari'a","Takasur","Asr","Humaza","Fil","Quraysh","Ma'un","Kavsar","Kafirun","Nasr",
+"Masad","Ixlas","Falaq","Nos"
 ];
 
 // 🟢 START
 bot.onText(/\/start/, (msg) => {
-    bot.sendMessage(msg.chat.id, "👋 Assalomu alaykum!", {
+    bot.sendMessage(msg.chat.id, "👋 Assalamu alaykum!", {
         reply_markup: {
             keyboard: [
                 ["📖 Qur'an", "🔍 Qidiruv"],

@@ -681,8 +681,20 @@ const translations = {
 174: "Ey insonlar! Sizlarga Rabbingizdan aniq dalil keldi va Biz sizlarga yorug‘ nur nozil qildik.",
 175: "Allahga iymon keltirib, Unga yopishganlarni O‘z rahmatiga va fazliga kiritadi va ularni O‘ziga to‘g‘ri yo‘lga hidoyat qiladi.",
 176: "Sizdan fatvo so‘raydilar. Ayting: «Allah sizlarga kalala haqida fatvo beradi: agar bir erkak o‘lsa va uning farzandi bo‘lmasa, lekin singlisi bo‘lsa — unga merosning yarmi tegadi. Agar u (ayol) o‘lsa va farzandi bo‘lmasa, u (aka) unga merosxo‘r bo‘ladi. Agar ikki singil bo‘lsa — ularga uchdan ikki. Agar aka-uka va opa-singillar bo‘lsa — erkakka ikki ayol ulushi kabi». Allah sizlarga adashib ketmasligingiz uchun bayon qiladi. Allah har narsani biluvchidir.",
- }
- };
+ },  
+ 5: {
+  1: "Ey iymon keltirganlar! Ahdnomalarga vafo qiling! Sizga, keyin tilovat qilinadiganlaridan boshqa, chorva hayvonlari halol qilindi, ehromdalik vaqtingizda ovni halol sanamagan holda. Albatta, Allah nimani iroda etsa, shuni hukm qiladur.",
+  2: "Ey iymon keltirganlar! Allahning dini alomatlarini, harom oyini, qurbonlikni, osilgan belgilari va Robbilaridan fazl va rozilik izlab Baitul Haromga yo‘l olganlarni to‘sib qo‘ymang. Ehromdan chiqqaningizdan keyin ov qiling. Masjidul Haromdan to‘sib qo‘ygan qavmni yomon ko‘rishingiz sizni adolatsizlikka olib bormasin. Yaxshilik va taqvo yo‘lida hamkorlik qiling, gunoh va tajovuz yo‘lida hamkorlik qilmang. Allahdan qo‘rqing, albatta, Allah azobda qat’iydir.",
+  3: "Sizlarga o‘lik jon, qon, cho‘chqa go‘shti, Allohdan boshqaning nomi bilan so‘yilgan, bo‘g‘ilib o‘ldirilgan, urib o‘ldirilgan, yiqilib o‘ldirilgan, suzib o‘ldirilgan, yirtqichlar tomonidan o‘ldirilgan hayvonlarning go‘shti harom qilindi. Magar, (tirik holda) so‘yilganlari haloldir. Va butlarga so‘yilganlar ham, cho‘p bilan fol ochish ham harom qilindi. Bunday harakatlar fosoqlikdir. Bugun kufr keltirganlar sizning dindingizga zarar yetkazishdan umid uzdilar. Ularni qo‘rqitishdan qo‘rqmang, Men'dan qo‘rqing! Bugun sizning diningizni mukammal qildim va ne’matimni to‘la qildim. Va Islomni sizlar uchun din deb qabul qildim. Kimki ochlikdan muztar bo‘lsa, lekin gunoh qilmasdan, Allah mag‘firatli va rahmli zotdir.",
+  4: "Ular sizdan nima halol ekanini so‘rashadi. Ayting: “Sizlarga pok narsalar halol qilindi. O‘rgatilgan ovchi itlar orqali tutgan narsalar ham haloldir. Ularga Allahning nomini ayting, Allahdan qo‘rqing, Albatta, Allah hisobni tez qiladi.”",
+  5: "Bugun sizga pok narsalar halol qilindi. Ahl‑kitobning taomi sizlar uchun haloldir va sizning taomingiz ularning taomi uchun haloldir. Mumin ayollar va sizdan oldin ahl‑kitobdan bo‘lgan mumin ayollar ham haloldir, agar ularni to‘y haqini to‘lab, halol turmush uchun olsangiz. Kim iymonni inkor qilsa, uning amali bekor bo‘ladi va oxiratda u zarar ko‘rgan bo‘ladi.",
+  6: "Ey iymon keltirganlar! Namoz o‘qishga turganingizda yuzlaringizni va qo‘llaringizni yuvib tozalang, boshlaringizni masx qiling, oyoqlaringizni tozalang. Agar junoob bo‘lsangiz, to‘liq holatda tozalansin. Agar kasal bo‘lsangiz yoki safarda bo‘lsangiz yoki tuxbalikdan bo‘lsangiz va suv topa olmasangiz, pok tuproq bilan tayammum qiling — yuzlaringizni va qo‘llaringizni silang. Albatta, Allah mag‘firatli va rahmdil zotdir.",
+  7: "Va Allahning sizga bergan ne’matini yodlang, siz ‘eshtik va itoat qildik’ deb ahd qilgandingiz, va Allohdan qo‘rqing. Albatta, Allah qalblardagi sirlarni biluvchidir.",
+  8: "Ey iymon keltirganlar! Allah uchun haqda turing, adolatli guvoh bo‘linglar. Bir qavmni yomon ko‘rishingiz sizni adolatsizlikka olib bormasin! Yaxshilik va taqvo yo‘lida hamkorlik qiling, gunoh va tajovuz yo‘lida hamkorlik qilmang. Allohdan qo‘rqing, albatta, Alloh jazoda qat’iydir.",
+  9: "Allah mo‘minlarga va solih amallar qilganlarga mag‘firat va rahmat va’da qilgan — uning ostidan daryolar oqadi. Bu Allah huzuridagi ulkan yutuqdir.",
+ 10: "Va kufr keltirganlar va oyatlarimizni inkor qilganlar — ularning amallari jahannam olovi kabi. Ular unda abadiy qoladilar.",
+    }
+};
 // 🌍 GLOBAL SURA LIST (MUHIM!)
 const surahs = [
 "Fatiha","Baqara","Ali Imran","Nisa","Maida","An'am","A'raf","Anfal","Tavba","Yunus",

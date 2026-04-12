@@ -681,40 +681,7 @@ const translations = {
 174: "Ey insonlar! Sizlarga Rabbingizdan aniq dalil keldi va Biz sizlarga yorug‘ nur nozil qildik.",
 175: "Allahga iymon keltirib, Unga yopishganlarni O‘z rahmatiga va fazliga kiritadi va ularni O‘ziga to‘g‘ri yo‘lga hidoyat qiladi.",
 176: "Sizdan fatvo so‘raydilar. Ayting: «Allah sizlarga kalala haqida fatvo beradi: agar bir erkak o‘lsa va uning farzandi bo‘lmasa, lekin singlisi bo‘lsa — unga merosning yarmi tegadi. Agar u (ayol) o‘lsa va farzandi bo‘lmasa, u (aka) unga merosxo‘r bo‘ladi. Agar ikki singil bo‘lsa — ularga uchdan ikki. Agar aka-uka va opa-singillar bo‘lsa — erkakka ikki ayol ulushi kabi». Allah sizlarga adashib ketmasligingiz uchun bayon qiladi. Allah har narsani biluvchidir.",
- },
- 5: {
-    1: "Ey iymon keltirganlar! Alloh sizlarga o‘zining fazlidan hidoyat berganidan keyin, Allahni va Uning payg‘ambarini inkor qilganlarni do‘st tutmanglar. Kim sizlar orasida birorta mo‘minni do‘st tutsa, u haqida Allahning hukmi bor.",
-    2: "Ey iymon keltirganlar! Namozga turishda sizlarga uydan ko‘ra yengilroq ekanligini qabul qilgan joylarga borib, faqat o‘zingizni Allahdan to‘g‘ri yo‘lga hidoyat qilganlar bilan aloqada bo‘linglar. Hamma holatda tasdiqlashdan buyuk — Xabariy namozni to‘g‘ri bajaringlar va ular bilan sodiqlikni saqlanglar.",
-    3: "Shaytonning fitnalari bilan yaxshiliklarga qarshi chiqmay, dinimizni erkinlik qilsinlar. Ulardan nafi bor bo‘lgan narsalarni kiydirishga mayli bo‘lsin deb avval boshlashga qadar bo‘lg‘ilar.",
-    4: "Erkaklar qachon ixtiyoriy ajratilsa, ular afsuslanib qalbini ortiq faqat qarab turmay, tuzuklikni qimmatga aytishga shuni anglagandan keyin qaysi kalidagi tug‘ma barchaga ularni aytadi.",
-    5: "Alloh huquqi ikki xil o‘limni belgilagan bo‘lib, sizni farz qilib uzoq gaplar kutishingiz kerak bo‘lgan holatlar bo‘ladi.",
-    6: "Namozni yaxshi niyat bilan qiling, chunki bu bilan ibodatning qimmatligini yana qayta ochishingiz mumkin.",
-    7: "Ehtiyot bo‘ling, faqat o‘zingizning do‘stlaringiz bilan do‘st bo‘ling.",
-    8: "Sizlardan ba’zi kishilar ichkilik qilishga qiziqar, ammo faqat bu haqda tafakkur qilish mumkin.",
-    9: "Muqaddas kitobni yig‘ish va takrorlashga yordam bera boshlang.",
-    10: "Ammo faqat yengillikda qo‘llashdan qochish kerak.",
-    11: "Keyin eng yaxshi niyatni so‘ranglar.",
-    12: "Ishlarni yaxshi saqlab chiqishda, eng yuqori darajada bo‘lishga harakat qiling.",
-    13: "Sizlarning aksariyat holatingizda, hayotni faqat tasdiqlash orqali boshlashingiz mumkin.",
-    14: "Namozni to‘g‘ri ado qilishni unutmasdan, faqat hukmni bajarishga qaratilgan harakatlarni amalga oshiring.",
-    15: "Eslatma: kitobni o‘rganishda albatta ehtiyotkorlikni saqlab qoling.",
-    16: "Agar hali ham yangi yulda o‘qish uchun o‘rganmoqchi bo‘lsangiz, faqat Allohdan umid qiling.",
-    17: "Kelinglar, ilmni o‘rganishga davom etamiz.",
-    18: "Dinimizni to‘g‘ri o‘rganib, yaxshi usullarda ishlaylik.",
-    19: "Bo‘lgan barqarorlikni saqlab qolish uchun sizlarga bu voqeani qayta boshqaring.",
-    20: "Shuningdek, imkoniyatlarimizda eng yaxshi imkoniyatni yaratish uchun yetarli vaqt ajrating.",
-    21: "Haqiqatan ham, odamlarning haqiqiy iymoni sizni yaxshi holatda olib boradi.",
-    22: "So‘nggi natijani olish uchun oxirgi vazifangizni qiling.",
-    23: "Va nihoyat, yaxshi ishlovlar bilan qadam bosamiz.",
-    24: "Sizning harakatlaringizni ehtiyotkorlik bilan to‘liq o‘rganing.",
-    25: "Har bir xato yoki o‘zgartirish uchun kuchli strategiyalarni ishlab chiqing.",
-    26: "Agar biror narsani yo‘qotgan bo‘lsangiz, sizga qayta tiklanish imkoniyati beriladi.",
-    27: "Muqaddas ayatlarni to‘liq yig‘ish va bu bilan tahrir qilishni davom eting.",
-    28: "Shunday qilib, sizlarni yakuniy tashabbusga tayyorlaymiz.",
-    29: "Namozni muvaffaqiyatli tarzda yakunlashga qaratilgan amallarni davom ettirganingizda, bu sizning ijobiy ko‘rsatkichlaringizni yaratadi.",
-    30: "Shuningdek, maslahatlarni ochiq qilib olish va bu orqali xatoliklarni tuzatish kerak.",
-     
-  }  
+ }
  };
 // 🌍 GLOBAL SURA LIST (MUHIM!)
 const surahs = [

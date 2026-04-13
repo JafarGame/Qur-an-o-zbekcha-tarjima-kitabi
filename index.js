@@ -13,7 +13,6 @@ const translations = {
         6: "Bizni to‘g‘ri yo‘lga hidoyat qil.",
         7: "Ne’mat berganlarning yo‘liga, g‘azabga uchraganlar va adashganlarning yo‘liga emas."
     },
-
 2: {
     1: "Alif, Lam, Mim.",
     2: "Bu Kitob — unda shubha yo‘q. Muttaqilar uchun hidoyatdir.",
@@ -693,8 +692,8 @@ const translations = {
   8: "Ey iymon keltirganlar! Allah uchun haqda turing, adolatli guvoh bo‘linglar. Bir qavmni yomon ko‘rishingiz sizni adolatsizlikka olib bormasin! Yaxshilik va taqvo yo‘lida hamkorlik qiling, gunoh va tajovuz yo‘lida hamkorlik qilmang. Allohdan qo‘rqing, albatta, Alloh jazoda qat’iydir.",
   9: "Allah mo‘minlarga va solih amallar qilganlarga mag‘firat va rahmat va’da qilgan — uning ostidan daryolar oqadi. Bu Allah huzuridagi ulkan yutuqdir.",
  10: "Va kufr keltirganlar va oyatlarimizni inkor qilganlar — ularning amallari jahannam olovi kabi. Ular unda abadiy qoladilar.",
- 11: "Ey iymon keltirganlar!Allahning sizlarga bergan ne’matini eslang:bir qavm sizlarga qo‘llarini cho‘zmoqchi bo‘lganida (ya’ni sizlarga zarar yetkazmoqchi bo‘lganida),U ularning qo‘llarini sizlardan tiyib qo‘ydi.Va Allahdan qo‘rqinglar.Va mo‘minlar faqat Allahga tavakkal qilsinlar.",
- 12: "Va albatta, Allah Bani Isroildan ahd oldi.Va Biz ulardan o‘n ikki boshliq (noqib) yubordik.Va Allah dedi: “Albatta Men sizlar bilanman.Agar namozni to‘kis ado qilsangiz,zakotni bersangiz,Mening rasullarimga iymon keltirsangiz,ularni qo‘llab-quvvatlasangizva Allohga go‘zal qarz bersangiz (ya’ni Uning yo‘lida sarf qilsangiz),albatta sizlarning yomonliklaringizni o‘chiramanva sizlarni ostidan daryolar oqadigan jannatlarga kiritaman.Bas, sizlardan kim shundan keyin kufr qilsa,u to‘g‘ri yo‘ldan adashgan bo‘ladi.”,    
+ 11: "Ey iymon keltirganlar!Allahning sizlarga bergan ne’matini eslang:bir qavm sizlarga qo‘llarini cho‘zmoqchi bo‘lganida ya’ni sizlarga zarar yetkazmoqchi bo‘lganida,U ularning qo‘llarini sizlardan tiyib qo‘ydi.Va Allahdan qo‘rqinglar.Va mo‘minlar faqat Allahga tavakkal qilsinlar.",
+ 12: "Va albatta, Allah Bani Isroildan ahd oldi.Va Biz ulardan o‘n ikki boshliq yubordik.Va Allah dedi: “Albatta Men sizlar bilanman.Agar namozni to‘kis ado qilsangiz,zakotni bersangiz,Mening rasullarimga iymon keltirsangiz,ularni qo‘llab-quvvatlasangizva Allohga go‘zal qarz bersangiz ya’ni Uning yo‘lida sarf qilsangiz,albatta sizlarning yomonliklaringizni o‘chiramanva sizlarni ostidan daryolar oqadigan jannatlarga kiritaman.Bas, sizlardan kim shundan keyin kufr qilsa,u to‘g‘ri yo‘ldan adashgan bo‘ladi.",    
     }
 };
 // 🌍 GLOBAL SURA LIST (MUHIM!)

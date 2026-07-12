@@ -696,7 +696,23 @@ const translations = {
  12: "Va albatta, Allah Bani Isroildan ahd oldi.Va Biz ulardan o‘n ikki boshliq yubordik.Va Allah dedi: “Albatta Men sizlar bilanman.Agar namozni to‘kis ado qilsangiz,zakotni bersangiz,Mening rasullarimga iymon keltirsangiz,ularni qo‘llab-quvvatlasangizva Allohga go‘zal qarz bersangiz ya’ni Uning yo‘lida sarf qilsangiz,albatta sizlarning yomonliklaringizni o‘chiramanva sizlarni ostidan daryolar oqadigan jannatlarga kiritaman.Bas, sizlardan kim shundan keyin kufr qilsa,u to‘g‘ri yo‘ldan adashgan bo‘ladi.",
  13: "Ularning ahdlarini buzganlari sababli Biz ularni la'natladik va qalblarini qattiq qilib qo‘ydik. Ular so‘zlarni o‘z o‘rinlaridan o‘zgartiradilar va eslatilgan narsaning bir qismini unutdilar. Sen ulardan ozchiligidan tashqari doimo xiyonatni bilib turasan. Ularni afv et va kechir. Albatta, Allah yaxshilik qiluvchilarni yaxshi ko‘radi.",
  14: "«Biz nasroniymiz», deganlardan ham ahd olgan edik. Ular ham eslatilgan narsaning bir qismini unutdilar. Bas, Biz ular orasiga qiyomat kunigacha adovat va nafrat soldi. Tezda Allah ularga qilgan ishlari haqida xabar beradi.",
- 15: "Ey Ahlul Kitob! Sizlarga Rasulimiz keldi, u sizlarga Kitobdan yashirib kelgan narsalaringizning ko‘pini bayon qiladi va ko‘pini kechib yuboradi. Sizlarga Allahdan nur va ochiq Kitob keldi.",   
+ 15: "Ey Ahlul Kitob! Sizlarga Rasulimiz keldi, u sizlarga Kitobdan yashirib kelgan narsalaringizning ko‘pini bayon qiladi va ko‘pini kechib yuboradi. Sizlarga Allahdan nur va ochiq Kitob keldi.",
+ 16: "U bilan ALLAH O‘z roziligiga ergashganlarni tinchlik yo‘llariga hidoyat qiladi va ularni O‘z izni bilan zulmatlardan nurga chiqaradi hamda ularni to‘g‘ri yo‘lga hidoyat qiladi.",
+ 17: "Albatta, «Allah — Maryam o‘g‘li Masihdir», deganlar kofir bo‘ldilar. Ayting: «Agar Allah Maryam o‘g‘li Masihni, uning onasini va yer yuzidagi barcha kishilarni halok qilishni istasa, ALLAHdan kim biror narsani qaytara oladi?!» Osmonlar, yer va ular orasidagi narsalar hukmronligi ALLAH uchundir. U xohlagan narsasini yaratadi. ALLAH har narsaga qodirdir.",
+ 18: "Yahudiylar va nasroniylar: «Biz Allahning o‘g‘illari va Uning sevimlilarimiz», dedilar. Ayting: «Unda nega U sizlarni gunohlaringiz sababli azoblaydi? Yo‘q, sizlar U yaratgan insonlardansiz. U xohlagan kishisini mag‘firat qiladi va xohlagan kishisini azoblaydi. Osmonlar, yer va ular orasidagi narsalar hukmronligi ALLAH uchundir. Qaytish ham Uning huzurigadir».",
+ 19: "Ey Ahlul Kitob! Sizlarga Rasulimiz kelganidan so‘ng, «Bizga na bir xushxabar beruvchi va na ogohlantiruvchi keldi», deb aytmasligingiz uchun, sizlarga (haqiqatni) bayon qiluvchi Rasulimiz keldi. ALLAH har narsaga qodirdir.",
+ 20: "Eslang, Muso o‘z qavmiga dedi: «Ey qavmim! ALLAHning sizlarga bergan ne’matini eslang. U sizlardan payg‘ambarlar chiqardi, sizlarni podshohlar qildi va olamlardan hech kimga bermagan narsalarini sizlarga berdi».",
+ 21: "Ey qavmim! ALLAH sizlarga yozib qo‘ygan muqaddas yerga kiringlar va ortingizga qaytmanglar, aks holda ziyon ko‘ruvchilardan bo‘lib qolasizlar».",
+ 22: "Ular dedilar: «Ey Muso! U yerda kuchli zolim qavm bor. Ular u yerdan chiqmagunlaricha biz u yerga aslo kirmaymiz. Agar ular chiqib ketsalar, biz kiramiz».",
+ 23: "ALLAHdan qo‘rqadigan va ALLAH ne’mat bergan ikki kishi dedilar: «Ularning ustiga darvozadan kiringlar. Agar unga kirsangizlar, albatta g‘olib bo‘lasizlar. Agar mo‘min bo‘lsangizlar, faqat ALLAHga tavakkul qilinglar».",
+ 24: "Ular dedilar: «Ey Muso! Ular u yerda ekan, biz u yerga hech qachon kirmaymiz. Bas, sen va Robbing borib jang qilinglar. Biz esa shu yerda o‘tiruvchilarmiz».",
+ 25: "U dedi: «Ey Robbim! Men faqat o‘zimga va birodarimga egalik qilaman. Bas, bizni fosiq qavmdan ajratgin».",
+ 26: "U dedi: «Bas, u yer ularga qirq yil harom qilindi. Ular yer yuzida sarson bo‘lib yuradilar. Bas, fosiq qavm uchun qayg‘urma».",
+ 27: "Ularga Odamning ikki o‘g‘li haqidagi xabarni haq ila o‘qib ber. Ikkovlari qurbonlik qilganlarida, biridan qabul qilindi, boshqasidan qabul qilinmadi. U: «Albatta, seni o‘ldiraman», dedi. U esa dedi: «Albatta, ALLAH faqat taqvodorlardan qabul qiladi».",
+ 28: "Agar sen meni o‘ldirish uchun qo‘lingni menga uzatsang ham, men seni o‘ldirish uchun qo‘limni senga uzatmayman. Albatta, men olamlarning Robbi bo‘lgan ALLAHdan qo‘rqaman.",
+ 29: "Men istaymanki, sen mening gunohimni ham, o‘z gunohingni ham ko‘tarib borishing va do‘zax ahlidan bo‘lishing. Zolimlarning jazosi shudir».",
+ 30: "Bas, uning nafsi unga birodarini o‘ldirishni yengil ko‘rsatdi. Shunday qilib, uni o‘ldirdi va ziyon ko‘ruvchilardan bo‘ldi.",   
+     
     }
 };
 // 🌍 GLOBAL SURA LIST (MUHIM!)

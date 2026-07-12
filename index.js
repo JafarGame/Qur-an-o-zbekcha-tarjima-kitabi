@@ -711,7 +711,43 @@ const translations = {
  27: "Ularga Odamning ikki o‘g‘li haqidagi xabarni haq ila o‘qib ber. Ikkovlari qurbonlik qilganlarida, biridan qabul qilindi, boshqasidan qabul qilinmadi. U: «Albatta, seni o‘ldiraman», dedi. U esa dedi: «Albatta, ALLAH faqat taqvodorlardan qabul qiladi».",
  28: "Agar sen meni o‘ldirish uchun qo‘lingni menga uzatsang ham, men seni o‘ldirish uchun qo‘limni senga uzatmayman. Albatta, men olamlarning Robbi bo‘lgan ALLAHdan qo‘rqaman.",
  29: "Men istaymanki, sen mening gunohimni ham, o‘z gunohingni ham ko‘tarib borishing va do‘zax ahlidan bo‘lishing. Zolimlarning jazosi shudir».",
- 30: "Bas, uning nafsi unga birodarini o‘ldirishni yengil ko‘rsatdi. Shunday qilib, uni o‘ldirdi va ziyon ko‘ruvchilardan bo‘ldi.",   
+ 30: "Bas, uning nafsi unga birodarini o‘ldirishni yengil ko‘rsatdi. Shunday qilib, uni o‘ldirdi va ziyon ko‘ruvchilardan bo‘ldi.",
+ 31: "So‘ngra ALLAH unga birodarining jasadini qanday ko‘mishni ko‘rsatish uchun yer kovlayotgan qarg‘ani yubordi. U dedi: «Voy holimga! Birodarimning jasadini ko‘mishda shu qarg‘achalik ham ojiz bo‘ldimmi?» Bas, u pushaymon bo‘lganlardan bo‘ldi.",
+ 32: "Shuning uchun Bani Isroilga shunday yozdik: «Kim bir jonni (qasos yoki yer yuzidagi buzg‘unchilik sabablarisiz) o‘ldirsa, go‘yo barcha odamlarni o‘ldirgandek bo‘ladi. Kim uni tiriltirsa, go‘yo barcha odamlarni tiriltirgandek bo‘ladi». Ularga Rasulimiz ochiq bayonotlar bilan keldilar. Shundan keyin ham ulardan ko‘plari yer yuzida haddan oshuvchilardir.",
+ 33: "Albatta, ALLAH va Uning Rasuliga qarshi urush qiladigan va yer yuzida buzg‘unchilik qilishga harakat qiladiganlarning jazosi — o‘ldirilishlari yoki osilishlari yoki qo‘l-oyoqlarining qarama-qarshi tomonidan kesilishi yoki yurtdan haydalishlaridir. Bu ular uchun dunyodagi xorlikdir. Oxiratda esa ular uchun ulkan azob bordir.",
+ 34: "Faqat qo‘lga tushishingizdan oldin tavba qilganlar bundan mustasnodirlar. Bas, bilinglarki, ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+35: "Ey iymon keltirganlar! ALLAHdan qo‘rqinglar va Unga yaqinlik izlanglar hamda Uning yo‘lida jihod qilinglar, shoyad najot topsangizlar.",
+
+36: "Albatta, kufr keltirganlar, agar yer yuzidagi barcha narsalar va u bilan birga yana shunchasi ularniki bo‘lsa va qiyomat kunidagi azobdan qutulish uchun uni fidya qilsalar ham, ulardan qabul qilinmaydi. Ular uchun alamli azob bordir.",
+
+37: "Ular do‘zaxdan chiqishni xohlaydilar, lekin undan chiquvchi emaslar. Ular uchun doimiy azob bordir.",
+
+38: "O‘g‘ri erkak va o‘g‘ri ayolning qo‘llarini kesinglar. Bu qilgan ishlariga yarasha ALLAH tomonidan berilgan jazo va ibratdir. ALLAH G‘olib va Hikmat Egasi.",
+
+39: "Kim zulmidan keyin tavba qilsa va o‘zini tuzatsa, albatta ALLAH uning tavbasini qabul qiladi. Albatta, ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+40: "Osmonlar va yer hukmronligi ALLAHga tegishli ekanini bilmadingmi? U xohlagan kishisini azoblaydi va xohlagan kishisini mag‘firat qiladi. ALLAH har narsaga qodirdir.",
+
+41: "Ey Rasul! Og‘izlari bilan «imon keltirdik» degan, lekin qalblari bilan imon keltirmaganlardan va yahudiylardan kufrda shoshayotganlar seni xafa qilmasin. Ular yolg‘onni ko‘p tinglaydilar va senga kelmagan boshqa qavm uchun tinglovchidirlar.",
+
+42: "Ular yolg‘onga quloq soluvchilardir, haromni ko‘p yeyuvchilardir. Agar oldingga kelsalar, ular orasida hukm qil yoki ulardan yuz o‘gir. Agar ulardan yuz o‘girsang, ular senga hech qanday zarar yetkaza olmaydi. Agar hukm qilsang, ular orasida adolat bilan hukm qil. Albatta, ALLAH adolat qiluvchilarni sevadi.",
+
+43: "Ular ichida ALLAHning hukmi bo‘lgan Tavrot bor bo‘la turib, qanday qilib seni hukm chiqaruvchi qiladilar? So‘ngra undan keyin ham yuz o‘giradilar. Ana o‘shalar mo‘min emaslar.",
+
+44: "Albatta, Biz Tavrotni nozil qildik. Unda hidoyat va nur bor edi. U bilan yahudiylarga itoatkor payg‘ambarlar, Robbilar va olimlar hukm qilardilar. Chunki ular ALLAHning Kitobini saqlashga buyurilgan edilar va unga guvoh edilar. Bas, odamlardan qo‘rqmanglar, Mendan qo‘rqinglar va oyatlarimni ozgina qiymatga almashtirmanglar. Kim ALLAH nozil qilgan narsa bilan hukm qilmasa, ana o‘shalar kofirlardir.",
+
+45: "Unda ularga jon evaziga jon, ko‘z evaziga ko‘z, burun evaziga burun, quloq evaziga quloq, tish evaziga tish va jarohatlar uchun qasos yozdik. Kim undan sadaqa qilsa, bu uning uchun kafforatdir. Kim ALLAH nozil qilgan narsa bilan hukm qilmasa, ana o‘shalar zolimlardir.",
+
+46: "Ularning izidan Maryam o‘g‘li Iysoni o‘zidan oldingi Tavrotni tasdiqlovchi qilib yubordik. Unga ichida hidoyat va nur bo‘lgan Injilni berdik. U o‘zidan oldingi Tavrotni tasdiqlovchi va taqvodorlar uchun hidoyat va nasihat edi.",
+
+47: "Injil ahli ALLAH unda nozil qilgan narsa bilan hukm qilsinlar. Kim ALLAH nozil qilgan narsa bilan hukm qilmasa, ana o‘shalar fosiqlardir.",
+
+48: "Senga esa Kitobni haq ila, o‘zidan oldingi Kitoblarni tasdiqlovchi va ularni muhofaza qiluvchi qilib nozil qildik. Bas, ular orasida ALLAH nozil qilgan narsa bilan hukm qil. Senga kelgan haqdan yuz o‘girib, ularning havoyi nafslariga ergashma. Sizlardan har biringiz uchun shariat va yo‘l belgiladik. Agar ALLAH xohlasa, sizlarni bir ummat qilgan bo‘lardi. Lekin sizlarga bergan narsalarida sinash uchun shunday qildi. Bas, yaxshiliklarda o‘zaro musobaqalashinglar. Barchangizning qaytishingiz ALLAH huzurigadir. U sizlarga ixtilof qilgan narsalaringizni xabar qiladi.",
+
+49: "Ular orasida ALLAH nozil qilgan narsa bilan hukm qil va ularning havoyi nafslariga ergashma. ALLAH senga nozil qilgan narsaning ayrim qismidan seni burib qo‘yishlaridan ehtiyot bo‘l. Agar ular yuz o‘girsalar, bilgilki, ALLAH ularni ba’zi gunohlari sababli musibatga solishni xohlaydi. Albatta, odamlarning ko‘plari fosiqlardir.",
+
+50: "Ular johiliyat hukmini istaydilarmi? Ishonuvchi qavm uchun hukm qilishda ALLAHdan yaxshiroq kim bor?"   
      
     }
 };

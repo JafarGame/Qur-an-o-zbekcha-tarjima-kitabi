@@ -2663,7 +2663,9076 @@ const translations = {
 42: "Ulardan oldingilar ham makr qilgan edilar. Barcha makrlar ALLAHning ixtiyoridadir. U har bir jon nima qilayotganini biladi. Kofirlar oxirat diyori kimga tegishli ekanini bilib oladilar.",
 
 43: "Kofir bo‘lganlar: «Sen Rasul emassan», deydilar. Ayting: «Men bilan sizlarning orangizda guvoh sifatida ALLAH va Kitob ilmini bilgan kishi kifoyadir».",
+},
+14: {
+1: "Alif, Lam, Ro. Bu Biz seni odamlarni Robbilarining izni bilan zulmatlardan nurga — G‘olib va Hamdga loyiq Zotning yo‘liga chiqarishing uchun nozil qilgan Kitobdir.",
+
+2: "U Zotki, osmonlaru yerdagi narsalar Unikidir. Kofirlar uchun qattiq azobdan voy bo‘lsin.",
+
+3: "Ular oxiratdan ko‘ra dunyo hayotini yaxshi ko‘radilar, ALLAH yo‘lidan to‘sadilar va uni egri qilishni istaydilar. Ana o‘shalar uzoq adashishdadirlar.",
+
+4: "Biz har bir Rasulni faqat o‘z qavmining tilida yubordik, toki ularga bayon qilib bersin. So‘ngra ALLAH xohlagan kishisini adashtiradi va xohlagan kishisini hidoyat qiladi. U G‘olib va Hikmat Egasi.",
+
+5: "Albatta, Biz Musoni oyatlarimiz bilan yubordik: «Qavmingni zulmatlardan nurga chiqar va ularga ALLAHning kunlarini eslat». Albatta, bunda har bir sabrli va shukr qiluvchi uchun oyatlar bordir.",
+
+6: "Muso qavmiga dedi: «ALLAHning sizlarga bergan ne’matini eslanglar. U sizlarni Fir’avn ahlidan qutqardi. Ular sizlarni eng yomon azob bilan qiynar, o‘g‘illaringizni so‘yar va ayollaringizni tirik qoldirar edilar. Bunda Robbingizdan ulkan sinov bor edi».",
+
+7: "Robbingiz e’lon qilgan edi: «Agar shukr qilsangizlar, albatta sizlarga ziyoda qilaman. Agar noshukrlik qilsangizlar, albatta azobim qattiqdir».",
+
+8: "Muso dedi: «Agar sizlar va yer yuzidagi barcha kishilar kofir bo‘lsangizlar ham, albatta ALLAH behojat va Hamdga loyiq Zotdir».",
+
+9: "Sizlarga sizlardan oldingilarning — Nuh qavmi, Od va Samud qavmlarining hamda ulardan keyingi qavmlarning xabari kelmadimi? Ularni faqat ALLAH biladi. Ularga Rasulchilari ochiq dalillar bilan kelgan edilar, lekin ular qo‘llarini og‘izlariga qo‘ydilar va: «Biz sizlar bilan yuborilgan narsaga kofirmiz va biz sizlar da’vat qilayotgan narsadan chuqur shubhadamiz», dedilar.",
+
+10: "Rasullari dedilar: «Osmonlaru yerning Yaratuvchisi bo‘lgan ALLAH haqida shubha bormi? U sizlarni gunohlaringizni kechirish uchun chaqiradi va sizlarga belgilangan muddatgacha muhlat beradi». Ular dedilar: «Sizlar ham bizga o‘xshagan insonlarsiz. Bizni ota-bobolarimiz ibodat qilgan narsalardan qaytarmoqchisizlar. Bas, bizga aniq dalil keltiringlar».",
+
+11: "Rasullari ularga dedilar: «Biz faqat sizlarga o‘xshagan insonlarmiz, lekin ALLAH bandalaridan xohlaganiga ne’matini beradi. ALLAHning iznisiz sizlarga dalil keltirish bizning qo‘limizda emas. Mo‘minlar faqat ALLAHga tavakkul qilsinlar».",
+
+12: "«Bizga nima bo‘ldiki, ALLAHga tavakkul qilmaymiz? Holbuki, U bizga yo‘llarimizni ko‘rsatdi. Bizga yetkazadigan ozorlarga sabr qilamiz. Tavakkul qiluvchilar faqat ALLAHga tavakkul qilsinlar».",
+
+13: "Kofir bo‘lganlar Rasulchilariga dedilar: «Sizlarni albatta yurtimizdan chiqaramiz yoki bizning dinimizga qaytasizlar». Bas, Robblari ularga vahiy qildi: «Albatta, Biz zolimlarni halok qilamiz».",
+
+14: "«Va ulardan keyin sizlarni yerda joylashtiramiz. Bu Mening maqomimdan qo‘rqqan va va’damdan qo‘rqqan kishilar uchundir».",
+
+15: "Ular g‘alaba so‘radilar va har bir o‘jar zolim noumid bo‘ldi.",
+
+16: "Uning ortida jahannam bor va unga yiringli suv ichiriladi.",
+
+17: "U uni yutishga urinadi, lekin zo‘rg‘a yutadi. Unga har tomondan o‘lim keladi, ammo u o‘la olmaydi. Uning ortidan qattiq azob bordir.",
+
+18: "Robblariga kofir bo‘lganlarning amallari bo‘ronli kunda shamol uchirib yuborgan kulga o‘xshaydi. Ular qilgan narsalaridan hech narsaga ega bo‘la olmaydilar. Bu uzoq adashishdir.",
+
+19: "ALLAH osmonlaru yerni haq bilan yaratganini ko‘rmadingmi? Agar xohlasa, sizlarni ketkazib, yangi yaratishni keltiradi.",
+
+20: "Bu ALLAH uchun qiyin emasdir.",
+ 21: "Ularning barchasi ALLAH huzurida paydo bo‘ladilar. Zaiflar kibrlanganlarga aytadilar: «Biz sizlarga ergashgan edik. Bas, endi ALLAHning azobidan biror narsani bizdan qaytara olasizlarmi?» Ular: «Agar ALLAH bizni hidoyat qilganida, biz ham sizlarni hidoyat qilgan bo‘lardik. Endi biz sabr qilsak ham, bezovta bo‘lsak ham, biz uchun barobar. Bizda qochadigan joy yo‘q», deydilar.",
+
+22: "Ish hukm qilinganida, shayton deydi: «Albatta, ALLAH sizlarga haq va’dani bergan edi. Men ham sizlarga va’da bergandim, lekin sizlarga xilof qildim. Men sizlarga faqat chaqirdim, sizlar esa menga javob berdingizlar. Bas, meni ayblamanglar, o‘zingizni ayblanglar. Men sizlarga yordam bera olmayman, sizlar ham menga yordam bera olmaysizlar. Men ilgari meni ALLAHga sherik qilganingizni inkor qilaman». Albatta, zolimlar uchun alamli azob bordir.",
+
+23: "Iymon keltirgan va yaxshi amallar qilganlar esa ostidan anhorlar oqadigan jannatlarga kiritiladilar. Ular Robblarining izni bilan unda abadiy qoladilar. Ularning u yerdagi salomlashishi: «Salom» bo‘ladi.",
+
+24: "ALLAH qanday go‘zal so‘zga misol keltirganini ko‘rmadingmi? U yaxshi daraxt kabidir: ildizi mustahkam va shoxlari osmonda.",
+
+25: "U Robbisining izni bilan har vaqt mevasini beradi. ALLAH odamlar eslatma olishlari uchun misollar keltiradi.",
+
+26: "Yomon so‘z esa yomon daraxt kabidir: u yer ustidan sug‘urib olingan, uning qarori yo‘qdir.",
+
+27: "ALLAH iymon keltirganlarni dunyo hayotida ham, oxiratda ham sobit so‘z bilan mustahkamlaydi. ALLAH zolimlarni adashtiradi. ALLAH xohlaganini qiladi.",
+
+28: "ALLAHning ne’matini kufrga almashtirgan va qavmlarini halokat diyoriga tushirganlarni ko‘rmadingmi?",
+
+29: "Jahannamga. Ular unga kiradilar. U naqadar yomon qarorgohdir.",
+
+30: "Ular ALLAHga tengdoshlar qildilar, Uning yo‘lidan adashtirish uchun. Ayting: «Dunyo hayotidan foydalanib turinglar. Albatta, qaytishingiz do‘zaxgadir».",
+
+31: "Iymon keltirgan bandalarimga ayt: «Namozni ado qilsinlar va na savdo-sotiq, na do‘stlik bo‘lmaydigan kun kelishidan oldin Biz ularga bergan rizqlardan yashirin va oshkora sarflasinlar».",
+
+32: "ALLAH osmonlaru yerni yaratgan, osmondan suv tushirib, u bilan sizlar uchun rizq bo‘ladigan mevalarni chiqargan Zotdir. U kemalarni Uning amri bilan dengizda yurishi uchun sizlarga bo‘ysundirdi va daryolarni ham sizlarga bo‘ysundirdi.",
+
+33: "U doimiy ravishda harakat qiluvchi quyosh va oyni sizlarga bo‘ysundirdi. Kechani va kunduzni ham sizlarga bo‘ysundirdi.",
+
+34: "U sizlarga so‘ragan barcha narsalaringizdan berdi. Agar ALLAHning ne’matlarini sanasangizlar, sanab tugata olmaysizlar. Albatta, inson juda zolim va noshukrdir.",
+
+35: "Ibrohim aytdi: «Ey Robbim! Bu shaharni tinch qilgin va meni hamda o‘g‘illarimni butlarga ibodat qilishdan uzoq qilgin».",
+
+36: "«Ey Robbim! Albatta, ular ko‘p odamlarni adashtirdilar. Kim menga ergashsa, u mendandir. Kim menga osiy bo‘lsa, albatta, Sen Mag‘firat qiluvchi va Rahmlisan».",
+
+37: "«Ey Robbimiz! Men zurriyotimdan ba’zilarini ekinsiz vodiyda, Sening hurmatli uying oldida joylashtirdim. Ey Robbimiz! Namozni ado qilsinlar. Bas, odamlarning qalblarini ularga moyil qilgin va ularni mevalardan rizqlantirgin. Shoyad ular shukr qilsalar».",
+
+38: "«Ey Robbimiz! Albatta, Sen biz yashirganimizni ham, oshkor qilganimizni ham bilursan. Yerda ham, osmonda ham hech narsa ALLAHga maxfiy emas».",
+
+39: "«Keksayganimda menga Ismoil va Ishoqni bergan ALLAHga hamd bo‘lsin. Albatta, Robbim duoni Eshituvchidir».",
+
+40: "«Ey Robbim! Meni va zurriyotimdan bo‘lganlarni namozni ado qiluvchilardan qilgin. Ey Robbimiz! Duoyimni qabul qilgin».",
+
+41: "Ey Robbimiz! Hisob qilinadigan kuni meni, ota-onamni va mo‘minlarni mag‘firat qilgin.",
+
+42: "Zolimlarning qilayotgan ishlaridan ALLAHni g‘ofil deb o‘ylama. U faqat ularni ko‘zlar dahshatdan qotib qoladigan kungacha kechiktirmoqda.",
+
+43: "Ular boshlarini ko‘targan holda yuguradilar, ko‘zlari o‘zlariga qaytmaydi va qalblari bo‘shdir.",
+
+44: "Odamlarni azob keladigan kun bilan ogohlantirgin. Zolimlar: «Ey Robbimiz! Bizga ozgina muddat bergin, da’vatingga javob beramiz va Rasulchilarga ergashamiz», deydilar. «Oldin hech qachon yo‘q bo‘lmaymiz deb qasam ichmagan edingizlarmi?»",
+
+45: "«Sizlar o‘zlariga zulm qilganlarning maskanlarida yashadingizlar va ularga qanday munosabat qilganimiz sizlarga ayon bo‘ldi. Sizlarga misollar ham keltirdik».",
+
+46: "Ular o‘z makrlarini qildilar. Holbuki, ularning makrlari ALLAH huzurida edi, garchi ularning makrlari tog‘larni yo‘qotadigan bo‘lsa ham.",
+
+47: "Bas, ALLAH Rasulchilariga bergan va’dasiga xilof qiladi deb o‘ylama. Albatta, ALLAH G‘olib va intiqom Egasi.",
+
+48: "U kun yer boshqa yerga, osmonlar ham boshqa osmonlarga almashtiriladi va ular yagona Qahhor ALLAH huzurida paydo bo‘ladilar.",
+
+49: "U kuni jinoyatchilarni kishanlangan holda ko‘rasan.",
+
+50: "Ularning kiyimlari qatronlardan bo‘ladi va yuzlarini olov qoplaydi.",
+
+51: "Toki ALLAH har bir jonni qilganiga yarasha mukofotlasin. Albatta, ALLAH hisobni tez qiluvchidir.",
+
+52: "Bu insonlarga yetkaziladigan bir bayondir. Ular u bilan ogohlantirilsinlar, U yagona iloh ekanini bilsinlar va aql egalari eslatma olsinlar.",
+},
+15: {
+1: "Alif, Lom, Ro. Bular Kitobning va ochiq-oydin Qur’onning oyatlaridir.",
+
+2: "Kofir bo‘lganlar ba’zan musulmon bo‘lishni orzu qiladilar.",
+
+3: "Ularni qo‘yib tur, yesinlar, bahramand bo‘lsinlar va orzu ularni mashg‘ul qilsin. Tez orada bilib oladilar.",
+
+4: "Biz biror shaharni halok qilganimizda, uning uchun ma’lum yozilgan muddat bo‘lgan.",
+
+5: "Hech bir ummat o‘z muddatidan oldinga ham o‘ta olmaydi, ortga ham qola olmaydi.",
+
+6: "Ular dedilar: «Ey o‘ziga zikr tushirilgan kishi! Albatta, sen majnunsan».",
+
+7: "«Agar rostgo‘ylardan bo‘lsang, bizga malaikalarni keltirsang edi».",
+
+8: "Biz malaikalarni faqat haq bilan tushiramiz va o‘shanda ularga muhlat berilmaydi.",
+
+9: "Albatta, Biz Zikrni O‘zimiz nozil qildik va albatta, uni Biz saqlovchimiz.",
+
+10: "Albatta, Biz sendan oldin ham avvalgi qavmlar ichiga Rasulchilar yuborganmiz.",
+
+11: "Ularga biror Rasul kelmasin, uni masxara qilmagan bo‘lsalar.",
+
+12: "Shunday qilib, uni jinoyatchilarning qalblariga kiritamiz.",
+
+13: "Ular unga iymon keltirmaydilar. Avvalgilarining odati ham shunday o‘tgan.",
+
+14: "Agar Biz ularga osmondan bir eshik ochsak va ular u yerda ko‘tarilib yursalar ham,",
+
+15: "«Ko‘zlarimiz bog‘landi, balki biz sehrlangan qavmmiz», degan bo‘lardilar.",
+
+16: "Albatta, Biz osmonda burjlar yaratdik va uni qarovchilar uchun bezadik.",
+
+17: "Uni har qanday quvilgan shaytondan saqladik.",
+
+18: "Lekin kim yashirincha eshitishga urinsa, uni ochiq olovli yulduz quvib boradi.",
+
+19: "Yerni yoydik, unda mustahkam tog‘lar o‘rnatdik va unda har bir narsani o‘lchov bilan o‘stirdik.",
+
+20: "Unda sizlar uchun ham, sizlar rizqlantirmaydigan mavjudotlar uchun ham tirikchilik vositalari yaratdik.",
+
+21: "Bizning huzurimizda uning xazinalari bo‘lmagan hech narsa yo‘qdir. Biz uni faqat ma’lum o‘lchov bilan tushiramiz.",
+
+22: "Biz shamollarni urug‘lantiruvchi qilib yubordik va osmondan suv tushirdik. Bas, sizlarga uni ichirdik. Sizlar esa uning xazinadorlari emassizlar.",
+
+23: "Albatta, Biz tiriltiramiz va o‘ldiramiz. Biz voris bo‘luvchilarmiz.",
+
+24: "Albatta, Biz sizlardan oldin o‘tganlarni ham bilamiz va keyin keluvchilarni ham bilamiz.",
+
+25: "Albatta, Robbing ularni jamlaydi. Albatta, U Hikmat Egasi va Biluvchidir.",
+
+26: "Albatta, Biz insonni qurigan loydan, o‘zgargan qora balchiqdan yaratdik.",
+
+27: "Jinni esa bundan oldin tutunsiz olovdan yaratdik.",
+
+28: "Eslang, Robbing malaikalarga dedi: «Men qurigan loydan, o‘zgargan qora balchiqdan inson yaratuvchiman».",
+
+29: "«Bas, uni to‘liq yaratganimda va unga O‘z ruhimdan puflaganimda, unga sajda qilgan holda yiqilinglar».",
+
+30: "Shunda barcha malaikalar birgalikda sajda qildilar.",
+
+31: "Faqat Iblis bundan bosh tortdi va sajda qiluvchilardan bo‘lmadi.",
+
+32: "U dedi: «Ey Iblis! Nima uchun sajda qiluvchilardan bo‘lmading?»",
+
+33: "U dedi: «Men qurigan loydan, o‘zgargan qora balchiqdan yaratgan insoningga sajda qiluvchi emasman».",
+
+34: "U dedi: «Bas, undan chiq! Albatta, sen quvilgansan».",
+
+35: "«Albatta, qiyomat kunigacha senga la’nat bordir».",
+
+36: "U dedi: «Ey Robbim! Bas, menga ular tiriltiriladigan kungacha muhlat ber».",
+
+37: "U dedi: «Albatta, sen muhlat berilganlardansan».",
+
+38: "«Ma’lum vaqtgacha».",
+
+39: "U dedi: «Ey Robbim! Meni adashtirganing sababli, men ularga yer yuzida (gunohlarni) chiroyli ko‘rsataman va ularning barchasini albatta adashtiraman».",
+
+40: "«Faqat ular orasidagi ixlosli bandalaring bundan mustasno».",
+
+41: "U dedi: «Bu Menga olib boradigan to‘g‘ri yo‘ldir».",
+
+42: "«Albatta, Mening bandalarim ustidan sening hech qanday hukmronliging yo‘qdir. Faqat adashganlardan senga ergashganlar bundan mustasno».",
+
+43: "Albatta, ularning barchasiga va’da qilingan joy jahannamdir.",
+
+44: "Uning yetti eshigi bor. Har bir eshik uchun ulardan bir qismi ajratilgandir.",
+
+45: "Albatta, taqvodorlar bog‘larda va buloqlar ustidadirlar.",
+
+46: "Ularga: «Unga tinchlik va omonlik bilan kiringlar», deyiladi.",
+
+47: "Biz ularning ko‘kslaridagi g‘ill-u g‘ashni chiqarib tashlaymiz. Ular birodarlar bo‘lib, so‘rilarda bir-birlariga qarama-qarshi o‘tiradilar.",
+
+48: "U yerda ularga charchoq yetmaydi va ular undan chiqarilmaydilar.",
+
+49: "Bandalarimga xabar bergin: Albatta, Men Mag‘firat qiluvchi va Rahmliman.",
+
+50: "Va albatta, Mening azobim alamli azobdir.",
+
+51: "Ularga Ibrohimning mehmonlari haqida xabar ber.",
+
+52: "Ular uning huzuriga kirib: «Salom», dedilar. U: «Biz sizlardan qo‘rqmoqdamiz», dedi.",
+
+53: "Ular dedilar: «Qo‘rqma. Biz senga bilimdon bir o‘g‘il haqida xushxabar keltirdik».",
+
+54: "U dedi: «Menga keksalik yetganida ham xushxabar berasizlarmi? Menga nimaning xushxabarini bermoqdasizlar?»",
+
+55: "Ular dedilar: «Biz senga haq xushxabarini berdik. Bas, noumidlardan bo‘lma».",
+
+56: "U dedi: «Adashganlardan boshqa kim Robbisining rahmatidan noumid bo‘ladi?»",
+
+57: "U dedi: «Ey elchilar! Sizlarning vazifangiz nima?»",
+
+58: "Ular dedilar: «Albatta, biz jinoyatchi qavmga yuborildik».",
+
+59: "«Faqat Lutning oilasidan boshqa. Biz ularning barchasini albatta najot beruvchilarmiz».",
+
+60: "«Faqat uning xotini bundan mustasno. Biz uning qoluvchilardan bo‘lishini taqdir qildik».",
+
+61: "Elchilar Lut oilasining huzuriga kelganlarida,",
+
+62: "U dedi: «Sizlar notanish kishilarsiz».",
+
+63: "Ular dedilar: «Yo‘q, biz senga ular shubha qilgan narsani olib keldik».",
+
+64: "«Biz senga haqni olib keldik va albatta, biz rostgo‘ylarmiz».",
+
+65: "«Bas, kechaning bir qismida oilang bilan chiqib ket. O‘zing ularning ortidan bor va sizlardan hech kim ortiga qaramasin. Sizlarga buyurilgan joyga boringlar».",
+
+66: "Biz unga bu ishning hukmini vahiy qildik: ertalab ulardan oxirgi kishilar qolmaydi.",
+
+67: "Shahar ahli xursand bo‘lgan holda keldilar.",
+
+68: "U dedi: «Albatta, bular mening mehmonlarimdir. Bas, meni sharmanda qilmanglar».",
+
+69: "«ALLAHdan qo‘rqinglar va meni xor qilmanglar».",
+
+70: "Ular dedilar: «Biz seni olamdagilardan mehmon qabul qilishdan qaytarmaganmidik?»",
+
+71: "U dedi: «Agar bir ish qilmoqchi bo‘lsangizlar, mana bu qizlarim bor».",
+
+72: "Umringga qasamki, ular o‘z mastliklarida sarson edilar.",
+
+73: "Bas, ularni tong otganda dahshatli ovoz tutdi.",
+
+74: "Biz uning ustini ostiga aylantirdik va ustlariga pishirilgan loydan toshlar yog‘dirdik.",
+
+75: "Albatta, bunda farosatli kishilar uchun oyatlar bordir.",
+
+76: "U (shahar) doimiy yo‘l ustidadir.",
+
+77: "Albatta, bunda mo‘minlar uchun oyat bordir.",
+
+78: "Eyka ahli ham zolimlardan edi.",
+
+79: "Bas, Biz ulardan intiqom oldik. Albatta, bu ikki shahar ochiq yo‘l ustidadir.",
+
+80: "Albatta, Hijr ahli ham Rasullarni yolg‘onchi qildilar.",
+
+81: "Biz ularga oyatlarimizni berdik, lekin ular ulardan yuz o‘giruvchi bo‘ldilar.",
+
+82: "Ular tog‘larda xavfsiz uylar o‘yib qurardilar.",
+
+83: "Bas, ularni tong paytida dahshatli ovoz tutdi.",
+
+84: "Qilgan kasblari ulardan hech narsani qaytara olmadi.",
+
+85: "Biz osmonlaru yerni va ular orasidagi narsalarni faqat haq bilan yaratdik. Albatta, Soat keluvchidir. Bas, chiroyli kechirim bilan kechir.",
+
+86: "Albatta, Robbing barcha yaratilgan narsalarning Yaratuvchisi va Biluvchisidir.",
+
+87: "Albatta, Biz senga takror-takror o‘qiladigan yetti oyatni va ulug‘ Qur’onni berdik.",
+
+88: "Ulardan ba’zilariga bergan narsalarimizga ko‘z tikma va ular uchun g‘amgin bo‘lma. Mo‘minlarga qanotingni tushirgin.",
+
+89: "Va ayt: «Albatta, men ochiq-oydin ogohlantiruvchiman».",
+
+90: "Xuddi bo‘lib oluvchilarga tushirganimiz kabi.",
+
+91: "Ular Qur’onni bo‘laklarga ajratgan edilar.",
+
+92: "Robbingga qasamki, Biz ularning barchasidan so‘raymiz.",
+
+93: "Qilgan ishlari haqida.",
+
+94: "Bas, senga buyurilgan narsani ochiq e’lon qilgin va mushriklardan yuz o‘girgin.",
+
+95: "Albatta, Biz seni masxara qiluvchilardan kifoya qilamiz.",
+
+96: "Ular ALLAH bilan birga boshqa ilohni qo‘shadilar. Tez orada bilib oladilar.",
+
+97: "Albatta, Biz ularning aytayotgan narsalaridan ko‘ksing siqilishini bilamiz.",
+
+98: "Bas, Robbingni hamd bilan poklagin va sajda qiluvchilardan bo‘lgin.",
+
+99: "Va senga aniq narsa (o‘lim) kelgunicha Robbingga ibodat qilgin.",
+    },
+16: {
+1: "ALLAHning amri keldi. Bas, uni tezlashtirmanglar. U pokdir va ular shirk keltirayotgan narsalardan oliydir.",
+
+2: "U O‘z amri bilan malaikalarni vahiy bilan bandalaridan xohlaganiga tushiradi: «Mendan boshqa iloh yo‘qligini ogohlantiringlar va Mendan qo‘rqinglar».",
+
+3: "U osmonlaru yerni haq bilan yaratdi. Ular shirk keltirayotgan narsalardan U oliydir.",
+
+4: "U insonni bir tomchidan yaratdi. Bas, u ochiq tortishuvchi bo‘lib qoldi.",
+
+5: "U chorva hayvonlarini yaratdi. Ularda sizlar uchun issiqlik va manfaatlar bor. Ulardan yeysizlar ham.",
+
+6: "Ular sizlar uchun kechqurun olib kelganingizda va ertalab chiqarganingizda go‘zallikdir.",
+
+7: "Ular yuklaringizni sizlar faqat qiyinchilik bilan yetib boradigan shaharlarga olib boradilar. Albatta, Robbingiz mehribon va Rahmlidir.",
+
+8: "U otlar, xachirlar va eshaklarni sizlar minishingiz va ziynat uchun yaratdi. U sizlar bilmaydigan narsalarni ham yaratadi.",
+
+9: "To‘g‘ri yo‘lni ko‘rsatish ALLAHning zimmasidadir. Undan egri yo‘llar ham bordir. Agar U xohlasa, barchangizni hidoyat qilgan bo‘lardi.",
+
+10: "U osmondan sizlar uchun suv tushirdi. Undan ichasizlar va undan daraxtlar o‘sadi, sizlar chorvangizni boqadigan o‘simliklar ham undandir.",
+
+11: "U bilan sizlar uchun ekin, zaytun, xurmo, uzum va barcha mevalardan o‘stiradi. Albatta, bunda tafakkur qiladigan qavm uchun oyat bordir.",
+
+12: "U kecha va kunduzni, quyosh va oyni sizlarga bo‘ysundirdi. Yulduzlar ham Uning amri bilan bo‘ysundirilgandir. Albatta, bunda aql ishlatadigan qavm uchun oyatlar bordir.",
+
+13: "Yer yuzida sizlar uchun turli ranglarda yaratgan narsalarini ham bo‘ysundirdi. Albatta, bunda eslatma oladigan qavm uchun oyat bordir.",
+
+14: "U dengizni sizlar undan yangi go‘sht yeyishingiz va taqadigan ziynatlaringizni chiqarishingiz uchun bo‘ysundirdi. Unda kemalar suvni yorib ketayotganini ko‘rasan. Bu Uning fazlidan izlashingiz va shukr qilishingiz uchundir.",
+
+15: "U sizlarni tebratmasligi uchun yerga mustahkam tog‘larni qo‘ydi, daryolar va yo‘llar yaratdi, shoyad hidoyat topsangizlar.",
+
+16: "Va belgilar yaratdi. Ular yulduzlar bilan ham yo‘l topadilar.",
+
+17: "Yaratadigan Zot yaratmaydigan zot kabi bo‘ladimi? Nahotki eslatma olmasangizlar?",
+
+18: "Agar ALLAHning ne’matlarini sanasangizlar, sanab tugata olmaysizlar. Albatta, ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+19: "ALLAH yashirganlaringizni ham, oshkor qilganlaringizni ham biladi.",
+
+20: "Ular ALLAHni qo‘yib chaqirayotgan narsalar hech narsani yarata olmaydilar, balki o‘zlari yaratilgandirlar.",
+21: "Ular o‘liklardir, tirik emaslar. Qachon tiriltirilishlarini ham bilmaydilar.",
+
+22: "Sizlarning ilohingiz yagona ilohdir. Oxiratga iymon keltirmaydiganlarning qalblari inkor qiluvchidir va ular kibrlanuvchilardir.",
+
+23: "Shubhasiz, ALLAH ularning yashirganlarini ham, oshkor qilganlarini ham biladi. Albatta, U kibrlanuvchilarni sevmaydi.",
+
+24: "Ularga: «Robbingiz nimani nozil qildi?» deyilsa, ular: «Oldingilarning afsonalarini», deydilar.",
+
+25: "Qiyomat kuni ular o‘z gunohlarini to‘liq ko‘taradilar va bilmasdan adashtirgan kishilarining gunohlaridan ham bir qismini ko‘taradilar. Ogoh bo‘linglar! Ularning ko‘taradigan narsalari naqadar yomondir.",
+
+26: "Ulardan oldingilar ham hiyla qilgan edilar. Bas, ALLAH ularning binolariga poydevoridan keldi va tomlari ustilariga qulab tushdi. Ularga azob o‘zlari kutmagan tomondan keldi.",
+
+27: "So‘ngra qiyomat kuni U ularni xor qiladi va aytadi: «Men bilan sheriklarim deb tortishgan narsalaringiz qayerda?» Ilm berilganlar aytadilar: «Bugun kofirlar uchun xorlik va yomonlik bordir».",
+
+28: "Ular o‘zlariga zulm qilgan holda malaikalar jonlarini olayotgan paytda: «Biz hech qanday yomonlik qilmagan edik», deydilar. Yo‘q, albatta, ALLAH sizlar qilgan ishlaringizni Biluvchidir.",
+
+29: "Bas, jahannam eshiklaridan kiringlar, unda abadiy qolinglar. Kibrlanuvchilarning joyi naqadar yomondir.",
+
+30: "Taqvo qilganlarga: «Robbingiz nimani nozil qildi?» deyilsa, ular: «Yaxshilikni», deydilar. Bu dunyoda yaxshilik qilganlarga yaxshilik bordir. Oxirat diyori esa yanada yaxshiroqdir. Taqvodorlarning diyori naqadar go‘zaldir.",
+
+31: "Ular Adn jannatlariga kiradilar. Ularning ostidan anhorlar oqadi. Ular uchun unda xohlagan narsalari bordir. ALLAH taqvodorlarni shunday mukofotlaydi.",
+
+32: "Malaikalar ularning jonlarini pok holda olayotganlarida: «Sizlarga salom bo‘lsin. Qilgan amallaringiz sababli jannatga kiringlar», deydilar.",
+
+33: "Ular faqat malaikalar kelishini yoki Robbingning amri kelishini kutmoqdalar. Ulardan oldingilar ham shunday qilgan edilar. ALLAH ularga zulm qilmadi, balki ular o‘zlariga zulm qildilar.",
+
+34: "Bas, qilgan yomonliklari ularga yetdi va masxara qilgan narsalari ularni o‘rab oldi.",
+
+35: "Mushriklar dedilar: «Agar ALLAH xohlaganida, biz ham, ota-bobolarimiz ham Undan boshqa hech narsaga ibodat qilmagan va Uning iznisiz hech narsani harom qilmagan bo‘lardik». Ulardan oldingilar ham shunday dedilar. Rasulchilarga faqat ochiq yetkazish vazifasi bormi?",
+
+36: "Albatta, Biz har bir ummatga: «ALLAHga ibodat qilinglar va tog‘utdan chetlaninglar», degan Rasul yubordik. Bas, ulardan ba’zilarini ALLAH hidoyat qildi, ba’zilariga esa zalolat haqli bo‘ldi. Yer yuzida yurib, yolg‘onchilarning oqibati qanday bo‘lganiga qaranglar.",
+
+37: "Agar sen ularning hidoyat topishini juda istasang ham, albatta, ALLAH adashtirgan kishini hidoyat qilmaydi. Ular uchun yordamchilar yo‘qdir.",
+
+38: "Ular: «ALLAH o‘lgan kishini tiriltirmaydi», deb eng qattiq qasamlarini ichdilar. Yo‘q, bu Uning zimmasidagi haq va’dadir. Lekin odamlarning ko‘pchiligi bilmaydilar.",
+
+39: "U ular ixtilof qilgan narsalarini ularga bayon qilishi va kofir bo‘lganlar yolg‘onchi ekanlarini bilishi uchundir.",
+
+40: "Biz biror narsani iroda qilganimizda, Bizning so‘zimiz faqat: «Bo‘l», deyishdir. Bas, u bo‘ladi.",
+
+41: "Zulmga uchraganlaridan keyin ALLAH yo‘lida hijrat qilganlarni albatta dunyoda yaxshi joylashtiramiz. Oxirat mukofoti esa yanada buyukdir. Agar bilsalar edi.",
+
+42: "Ular sabr qilgan va faqat Robbilariga tavakkul qilganlardir.",
+
+43: "Sendan oldin ham faqat vahiy qilgan erkaklarni yubordik. Agar bilmasangizlar, Zikr ahllaridan so‘ranglar.",
+
+44: "Ularni ochiq dalillar va Kitoblar bilan yubordik. Senga esa odamlarga ularga nozil qilingan narsani bayon qilishing uchun Zikrni nozil qildik, shoyad ular tafakkur qilsalar.",
+
+45: "Yomonliklarni makr qilganlar ALLAH ularni yerga yutqazib yuborishidan yoki ularga kutmagan tomondan azob kelishidan xotirjammilar?",
+
+46: "Yoki ularni yurib-turgan paytlarida ushlashidan? Ular Uni ojiz qila olmaydilar.",
+
+47: "Yoki ularni qo‘rquv ichida ushlashidan? Albatta, Robbingiz Mehribon va Rahmlidir.",
+
+48: "Ular ALLAH yaratgan narsalardan soyalarining o‘ng va chap tomonga og‘ib, ALLAHga sajda qilgan holda bo‘ysunayotganini ko‘rmaydilarmi?",
+
+49: "Osmonlardagi va yerdagi barcha jonli mavjudotlar va malaikalar ALLAHga sajda qiladilar va ular kibrlanmaydilar.",
+
+50: "Ular o‘zlarining ustidagi Robbilaridan qo‘rqadilar va buyurilgan narsani bajaradilar.",
+
+51: "ALLAH dedi: «Ikki iloh tutmanglar. U faqat yagona ilohdir. Bas, faqat Mendan qo‘rqinglar».",
+
+52: "Osmonlaru yerdagi barcha narsa Unikidir. Din ham doimo Unikidir. Bas, ALLAHdan boshqadan qo‘rqasizlarmi?",
+
+53: "Sizlarda bo‘lgan har bir ne’mat ALLAHdandir. So‘ngra sizlarga zarar yetganida, faqat Unga iltijo qilasizlar.",
+
+54: "So‘ngra U sizlardan zararni ketkazganida, orangizdan bir guruh Robbilariga shirk keltiradi.",
+
+55: "Biz ularga bergan narsalarimizga noshukrlik qilishlari uchun. Bas, foydalanib turinglar. Tez orada bilib olasizlar.",
+
+56: "Ular Biz bergan rizqlardan o‘zlari bilmagan narsalarga ulush ajratadilar. ALLAHga qasamki, to‘qib chiqargan narsalaringiz haqida albatta so‘ralasizlar.",
+
+57: "Ular ALLAHga qizlarni nisbat beradilar. U pokdir. O‘zlari esa xohlagan narsalarini oladilar.",
+
+58: "Ulardan biriga qiz tug‘ilgani haqida xushxabar berilsa, yuzi qorayib, g‘amga to‘ladi.",
+
+59: "U berilgan yomon xushxabardan odamlar orasidan yashirinadi. Uni xorlik bilan ushlab qoladimi yoki tuproqqa ko‘mib yuboradimi? Ogoh bo‘linglar! Ularning hukmlari naqadar yomon.",
+
+60: "Oxiratga iymon keltirmaydiganlar uchun yomon sifat bordir. Eng oliy sifat esa ALLAH uchundir. U G‘olib va Hikmat Egasi.",
+
+61: "Agar ALLAH odamlarni zulmlari sababli ushlaganida edi, yer yuzida biror jonivorni qoldirmagan bo‘lardi. Lekin U ularni belgilangan muddatgacha kechiktiradi. Ularning muddati kelganida, ular bir soat ham kechiktira olmaydilar va oldinga ham sura olmaydilar.",
+
+62: "Ular ALLAHga o‘zlari yoqtirmagan narsalarni nisbat beradilar. Tillari esa yolg‘onni gapirib: «Ularga eng yaxshi narsa bordir», deydi. Shubhasiz, ular uchun olov bordir va ular unga oldindan yuborilganlardir.",
+
+63: "ALLAHga qasamki, Biz sendan oldingi ummatlarga ham Rasulchilar yubordik. Shayton ularga amallarini chiroyli ko‘rsatdi. Bugun u ularning do‘stidir va ular uchun alamli azob bordir.",
+
+64: "Biz senga Kitobni faqat ular ixtilof qilgan narsalarini ularga bayon qilishing va iymon keltirgan qavm uchun hidoyat va rahmat bo‘lishi uchun nozil qildik.",
+
+65: "ALLAH osmondan suv tushirdi va u bilan o‘lik yerni tiriltirdi. Albatta, bunda eshitadigan qavm uchun oyat bordir.",
+
+66: "Albatta, chorvalarda ham sizlar uchun ibrat bor. Biz sizlarga ularning qorinlaridagi narsadan — najosat va qon orasidan — ichuvchilar uchun yoqimli toza sut ichiramiz.",
+
+67: "Xurmo va uzum mevalaridan mast qiluvchi ichimlik va yaxshi rizq olasizlar. Albatta, bunda aql ishlatadigan qavm uchun oyat bordir.",
+
+68: "Robbing asalariga vahiy qildi: «Tog‘larda, daraxtlarda va odamlar quradigan uyalarda uylar tutinglar».",
+
+69: "«So‘ngra barcha mevalardan yenglar va Robbingiz yo‘llaridan bo‘ysungan holda yuringlar». Ularning qorinlaridan turli rangdagi ichimlik chiqadi. Unda odamlar uchun shifo bordir. Albatta, bunda tafakkur qiladigan qavm uchun oyat bordir.",
+
+70: "ALLAH sizlarni yaratdi, so‘ngra jonlaringizni oladi. Sizlardan ba’zilar bilimdan keyin hech narsani bilmaydigan holga qaytariladigan umrning eng past davriga yetkaziladi. Albatta, ALLAH Biluvchi va Qodirdir.",
+
+71: "ALLAH rizqda ba’zilaringizni ba’zilaridan ustun qildi. Lekin ustun qilinganlar o‘z rizqlarini qo‘l ostidagilarga berib, ular bilan teng bo‘lishni istamaydilar. Bas, ALLAHning ne’matini inkor qiladilarmi?",
+
+72: "ALLAH sizlar uchun o‘zlaringizdan juftlar yaratdi va juftlaringizdan sizlarga farzandlar va nabiralar berdi. Sizlarni pok narsalar bilan rizqlantirdi. Nahotki ular botilga iymon keltirib, ALLAHning ne’matini inkor qilsalar?",
+
+73: "Ular ALLAHni qo‘yib, osmonlaru yerdan ularga hech qanday rizq bera olmaydigan va bunga qodir bo‘lmagan narsalarga ibodat qiladilar.",
+
+74: "Bas, ALLAHga o‘xshatishlar keltirmanglar. Albatta, ALLAH biladi, sizlar esa bilmaysizlar.",
+
+75: "ALLAH bir qul va hech narsaga qodir bo‘lmagan kishini hamda Biz unga go‘zal rizq bergan va undan yashirin va oshkora sarflaydigan kishini misol qildi. Ular teng bo‘ladilarmi? Hamd ALLAH uchundir. Lekin ularning ko‘pchiligi bilmaydilar.",
+
+76: "ALLAH ikki kishini ham misol qildi: biri soqov bo‘lib, hech narsaga qodir emas va xo‘jayiniga og‘ir yukdir. Uni qayerga yuborsa ham yaxshilik keltirmaydi. U adolat bilan buyuradigan va to‘g‘ri yo‘lda bo‘lgan kishi bilan teng bo‘ladimi?",
+
+77: "Osmonlaru yerning g‘aybi ALLAH uchundir. Soatning kelishi faqat ko‘z ochib yumguncha yoki undan ham tezdir. Albatta, ALLAH har narsaga Qodirdir.",
+
+78: "ALLAH sizlarni onalaringiz qornidan hech narsani bilmagan holingizda chiqardi va sizlarga quloqlar, ko‘zlar va qalblar berdi. Shoyad shukr qilsangizlar.",
+
+79: "Ular osmon bo‘shlig‘ida bo‘ysundirilgan qushlarga qaramaydilarmi? Ularni faqat ALLAH ushlab turadi. Albatta, bunda iymon keltiradigan qavm uchun oyatlar bordir.",
+
+80: "ALLAH sizlarga uylaringizni yashash joyi qildi. Chorva terilaridan ko‘chish kuningizda ham, qolish kuningizda ham yengil ko‘tariladigan uylar, ularning junlari, yunglari va tuklaridan esa ma’lum vaqtgacha foydalanadigan buyumlar yaratdi.",
+
+81: "ALLAH sizlar uchun O‘zi yaratgan narsalardan soyalar qildi, tog‘lardan sizlar uchun boshpanalar qildi, sizlarga issiqdan saqlaydigan kiyimlar va urushda himoya qiladigan kiyimlar berdi. Shunday qilib, U sizlarga ne’matini to‘liq qiladi. Shoyad musulmon bo‘lsangizlar.",
+
+82: "Agar ular yuz o‘girsalar, senga faqat ochiq yetkazish vazifasi bor.",
+
+83: "Ular ALLAHning ne’matini biladilar, so‘ngra uni inkor qiladilar. Ularning ko‘pchiligi kofirlardir.",
+
+84: "Har bir ummatdan bir guvoh keltiradigan kunimizda, kofirlarga izn berilmaydi va ulardan uzr so‘rash ham talab qilinmaydi.",
+
+85: "Zulm qilganlar azobni ko‘rganlarida, u ulardan yengillashtirilmaydi va ularga muhlat berilmaydi.",
+
+86: "Mushriklar sheriklarini ko‘rganlarida: «Ey Robbimiz! Mana bular biz Sendan boshqa chaqirgan sheriklarimizdir», deydilar. Ular esa ularga: «Sizlar yolg‘onchilarsiz», deb javob qaytaradilar.",
+
+87: "U kuni ular ALLAHga bo‘ysunishni taklif qiladilar va to‘qib chiqargan narsalari ulardan yo‘qoladi.",
+
+88: "Kofir bo‘lgan va ALLAH yo‘lidan to‘sganlarga, buzg‘unchilik qilganlari sababli azob ustiga azob ziyoda qilamiz.",
+
+89: "Har bir ummat ichidan o‘zlariga qarshi bir guvoh keltiradigan va seni ularga guvoh qiladigan kunimizda, senga barcha narsani bayon qiluvchi, hidoyat, rahmat va musulmonlar uchun xushxabar bo‘lgan Kitobni nozil qildik.",
+
+90: "Albatta, ALLAH adolatni, yaxshilik qilishni va qarindoshlarga berishni buyuradi. U buzuqlikdan, yomonlikdan va tajovuzdan qaytaradi. U sizlarga eslatma beradi, shoyad eslatma olsangizlar.",
+
+91: "ALLAH bilan ahdlashganingizda, ahdni bajaringlar. Qasamlarni mustahkam qilganingizdan keyin buzmanglar. Holbuki, ALLAHni o‘zingizga kafil qilgansizlar. Albatta, ALLAH qilayotgan ishlaringizni biladi.",
+
+92: "Ipini pishitib, so‘ngra uni parcha-parcha qilgan ayol kabi bo‘lmanglar. Sizlar qasamlaringizni orangizda aldov vositasi qilasizlar, bir guruh boshqa guruhdan ko‘proq bo‘lgani uchun. ALLAH sizlarni bu bilan sinaydi. Qiyomat kuni sizlarga ixtilof qilgan narsalaringizni albatta bayon qiladi.",
+
+93: "Agar ALLAH xohlasa, sizlarni yagona ummat qilgan bo‘lardi. Lekin U xohlagan kishisini adashtiradi va xohlagan kishisini hidoyat qiladi. Sizlar qilgan ishlaringiz haqida albatta so‘ralasizlar.",
+
+94: "Qasamlaringizni orangizda aldov vositasi qilmanglar. Aks holda, qadam mustahkam bo‘lganidan keyin toyadi va ALLAH yo‘lidan to‘sganingiz sababli yomonlikni totasizlar. Sizlar uchun ulkan azob bordir.",
+
+95: "ALLAHning ahdini ozgina qiymatga almashtirmanglar. Agar bilsangizlar, ALLAH huzuridagi narsa sizlar uchun yaxshiroqdir.",
+
+96: "Sizlardagi narsa tugaydi, ALLAH huzuridagi narsa esa boqiydir. Biz sabr qilganlarni qilgan amallarining eng yaxshisi bilan mukofotlaymiz.",
+
+97: "Erkak yoki ayoldan kim mo‘min bo‘lgan holda yaxshi amal qilsa, albatta, unga pok hayot beramiz va ularni qilgan amallarining eng yaxshisi bilan mukofotlaymiz.",
+
+98: "Qur’on o‘qiganingda quvilgan shaytondan ALLAHga panoh so‘ra.",
+
+99: "Albatta, uning iymon keltirgan va Robbilariga tavakkul qilganlar ustidan hukmi yo‘qdir.",
+
+100: "Uning hukmi faqat uni do‘st tutganlar va u sababli shirk keltirganlar ustidadir.",
+101: "Agar Biz bir oyat o‘rniga boshqa oyatni almashtirsak — ALLAH nimani nozil qilayotganini yaxshiroq biluvchi bo‘lsa ham — ular: «Sen faqat to‘qib chiqaruvchisan», deydilar. Yo‘q, ularning ko‘pchiligi bilmaydilar.",
+
+102: "Ayting: «Uni Robbingdan haq bilan Muqaddas Ruh tushirdi. Bu iymon keltirganlarni sobit qilish, musulmonlarga hidoyat va xushxabar bo‘lish uchundir».",
+
+103: "Albatta, Biz ularning: «Unga bir inson o‘rgatmoqda», deganlarini bilamiz. Ular ishora qilayotgan kishining tili ajamiydir, bu esa ochiq-oydin arabiy tildir.",
+
+104: "ALLAHning oyatlariga iymon keltirmaydiganlarni ALLAH hidoyat qilmaydi va ular uchun alamli azob bordir.",
+
+105: "Yolg‘onni faqat ALLAHning oyatlariga iymon keltirmaydiganlar to‘qiydilar. Ana o‘shalar yolg‘onchilardir.",
+
+106: "Kim iymonidan keyin ALLAHga kufr keltirsa — qalbi iymon bilan xotirjam bo‘lgan holda majburlangan kishi bundan mustasno — lekin kim kufrga ko‘ksini ochsa, ularga ALLAHdan g‘azab va ulkan azob bordir.",
+
+107: "Bu ularning dunyo hayotini oxiratdan ustun qo‘yganlari sababli. Albatta, ALLAH kofir qavmni hidoyat qilmaydi.",
+
+108: "Ana o‘shalar ALLAH qalblarini, quloqlarini va ko‘zlarini muhrlagan kishilardir. Ana o‘shalar g‘ofillardir.",
+
+109: "Shubhasiz, ular oxiratda ziyon ko‘ruvchilardir.",
+
+110: "So‘ngra Robbing sinovga uchraganlaridan keyin hijrat qilgan, jihod qilgan va sabr qilganlar bilan birgadir. Albatta, Robbing bundan keyin Mag‘firat qiluvchi va Rahmlidir.",
+
+111: "Har bir jon o‘zini himoya qilish uchun keladigan, har bir jonga qilgan amali to‘liq beriladigan va ularga zulm qilinmaydigan kunni eslang.",
+
+112: "ALLAH bir shaharni misol qildi: u tinch va xotirjam edi, uning rizqi har tomondan mo‘l kelar edi. Lekin u ALLAHning ne’matlariga noshukrlik qildi. Bas, ALLAH ularga qilgan ishlari sababli ochlik va qo‘rquv kiyimini tottirdi.",
+
+113: "Ularga o‘zlaridan bo‘lgan Rasul keldi, lekin uni yolg‘onchi qildilar. Bas, zulm qilayotgan hollarida azob ularni tutdi.",
+
+114: "Bas, ALLAH sizlarga bergan halol va pok narsalardan yenglar va agar Unga ibodat qilsangizlar, ALLAHning ne’matiga shukr qilinglar.",
+
+115: "U sizlarga faqat o‘lik hayvonni, qonni, cho‘chqa go‘shtini va ALLAHdan boshqaning nomi aytilgan narsani harom qildi. Kim majbur bo‘lsa, haddan oshmagan va tajovuz qilmagan holda, albatta, ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+116: "Tillaringiz yolg‘on sifatlagani sababli: «Bu halol, bu harom», demanglar. Chunki ALLAH haqida yolg‘on to‘qigan bo‘lasizlar. Albatta, ALLAH haqida yolg‘on to‘qiydiganlar najot topmaydilar.",
+
+117: "Ozginagina foydalanish bor, ular uchun esa alamli azob bordir.",
+
+118: "Yahudiy bo‘lganlarga oldin senga aytgan narsalarimizni harom qilgan edik. Biz ularga zulm qilmadik, lekin ular o‘zlariga zulm qildilar.",
+
+119: "So‘ngra bilmasdan yomonlik qilgan, keyin undan keyin tavba qilib isloh qilganlar uchun, albatta, Robbing shundan keyin Mag‘firat qiluvchi va Rahmlidir.",
+
+120: "Albatta, Ibrohim ALLAHga itoat qiluvchi, haq yo‘ldagi, mushriklardan bo‘lmagan bir ummat edi.",
+
+121: "U Uning ne’matlariga shukr qiluvchi edi. U uni tanladi va uni to‘g‘ri yo‘lga hidoyat qildi.",
+
+122: "Biz unga dunyoda yaxshilik berdik. Albatta, u oxiratda ham solihlardandir.",
+
+123: "So‘ngra Biz senga: «Haq yo‘lga moyil bo‘lgan Ibrohimning diniga ergashgin. U mushriklardan emas edi», deb vahiy qildik.",
+
+124: "Shanba kuni faqat u haqida ixtilof qilganlarga yuklatildi. Albatta, Robbing qiyomat kuni ular ixtilof qilgan narsalari haqida ular orasida hukm qiladi.",
+
+125: "Robbingning yo‘liga hikmat va chiroyli nasihat bilan da’vat qilgin. Ular bilan eng go‘zal usulda munozara qilgin. Albatta, Robbing Uning yo‘lidan kim adashganini ham, kim hidoyat topganini ham yaxshiroq Biluvchidir.",
+
+126: "Agar jazolamoqchi bo‘lsangizlar, sizlarga yetkazilgan narsaga teng miqdorda jazolanglar. Agar sabr qilsangizlar, albatta, bu sabr qiluvchilar uchun yaxshiroqdir.",
+
+127: "Sabr qilgin. Sabring faqat ALLAH bilandir. Ular uchun g‘amgin bo‘lma va qilayotgan hiylalaridan ko‘ksing siqilmasin.",
+
+128: "Albatta, ALLAH taqvo qilganlar va yaxshilik qiluvchilar bilan birgadir.",
+},
+17: {
+1: "O‘z bandasini kechasi Masjidul Haromdan atrofini barakotli qilganimiz Masjidul Aqsoga sayr qildirgan Zot pokdir. Unga oyatlarimizdan ko‘rsatish uchun. Albatta, U Eshituvchi va Ko‘ruvchidir.",
+
+2: "Biz Musoga Kitob berdik va uni Bani Isroil uchun hidoyat qildik: «Mendan boshqa vakil tutmanglar».",
+
+3: "Ey Nuh bilan birga ko‘targanlarimizning zurriyotlari! Albatta, u shukr qiluvchi banda edi.",
+
+4: "Biz Bani Isroilga Kitobda: «Albatta, yer yuzida ikki marta buzg‘unchilik qilasizlar va katta kibrga ko‘tarilasizlar», deb xabar berdik.",
+
+5: "Birinchi va’da kelganida, sizlarga qarshi kuchli bandalarimizni yubordik. Ular uylarning ichlariga kirib bordilar. Bu bajariladigan va’da edi.",
+
+6: "So‘ngra ularga qarshi yana sizlarga ustunlik berdik, sizlarga mol va farzandlar bilan yordam berdik va son jihatidan ko‘paytirdik.",
+
+7: "Agar yaxshilik qilsangizlar, o‘zlaringiz uchun yaxshilik qilasizlar. Agar yomonlik qilsangizlar, o‘zingiz uchundir. Ikkinchi va’da kelganida, yuzlaringizni yomon qilishlari, avval kirganlari kabi Masjidga kirishlari va egallagan narsalarini butunlay vayron qilishlari uchun (dushmanlaringizni yubordik).",
+
+8: "Shoyad Robbingiz sizlarga rahm qilsa. Agar yana qaytsangizlar, Biz ham qaytamiz. Biz jahannamni kofirlar uchun qamoq joyi qildik.",
+
+9: "Albatta, bu Qur’on eng to‘g‘ri yo‘lga hidoyat qiladi va yaxshi amallar qiladigan mo‘minlarga ular uchun ulkan mukofot borligini xushxabar beradi.",
+
+10: "Oxiratga iymon keltirmaydiganlar uchun esa alamli azob tayyorlaganimizni bildiradi.",
+
+11: "Inson yaxshilikni so‘ragani kabi yomonlikni ham so‘raydi. Inson shoshqaloqdir.",
+
+12: "Biz kecha va kunduzni ikki oyat qildik. Robbingizning fazlini izlashingiz va yillar hamda hisobni bilishingiz uchun kechaning oyatini o‘chirdik, kunduzning oyatini esa ko‘rsatuvchi qildik. Biz har bir narsani batafsil bayon qildik.",
+
+13: "Har bir insonning amalini bo‘yniga bog‘ladik. Qiyomat kuni unga ochiq holda topadigan kitobini chiqaramiz.",
+
+14: "«Kitobingni o‘qi! Bugun o‘zing o‘zingga hisobchi bo‘lishing kifoyadir», deyiladi.",
+
+15: "Kim hidoyat topsa, faqat o‘zi uchun hidoyat topadi. Kim adashsa, faqat o‘z zarariga adashadi. Hech bir yuk ko‘taruvchi boshqa birovning yukini ko‘tarmaydi. Biz Rasul yubormagunimizcha azob bermaymiz.",
+
+16: "Biror shaharni halok qilishni xohlaganimizda, u yerdagi ne’mat ichida yashaganlariga buyruq beramiz. Lekin ular itoatsizlik qiladilar, shunda ularga so‘z haq bo‘ladi va uni butunlay vayron qilamiz.",
+
+17: "Nuhdan keyin qancha avlodlarni halok qildik. Robbing bandalarining gunohlarini biluvchi va ko‘ruvchi sifatida kifoya qiladi.",
+
+18: "Kim tez o‘tuvchi dunyoni istasa, Biz xohlaganimizga xohlaganimizcha beramiz. So‘ngra unga jahannamni tayyorlaymiz. U xorlangan va quvilgan holda kiradi.",
+
+19: "Kim oxiratni istasa va unga munosib harakat qilsa, mo‘min bo‘lgan holda, ana o‘shalarning harakati maqbuldir.",
+
+20: "Barchasiga — bularga ham, ularga ham — Robbingning ne’matidan beramiz. Robbingning ne’mati to‘silgan emas.",
+
+21: "Qarang, qanday qilib Biz ba’zilarini ba’zilaridan ustun qildik. Albatta, oxirat darajalari va ustunliklari yanada kattaroqdir.",
+
+22: "ALLAH bilan birga boshqa iloh qo‘ymagin, aks holda malomatlangan va tashlab qo‘yilgan holda qolasan.",
+
+23: "Robbing faqat Unga ibodat qilishingizni va ota-onaga yaxshilik qilishingizni buyurdi. Agar ularning biri yoki ikkalasi sening huzuringda keksalikka yetsa, ularga «uff» ham dema, ularni koyima va ularga chiroyli so‘z ayt.",
+
+24: "Ularga mehribonlik bilan kamtarlik qanotingni tushir va: «Ey Robbim! Ular meni kichikligimda tarbiya qilganlaridek, Sen ham ularga rahm qilgin», deb ayt.",
+
+25: "Robbingiz ko‘ngillaringizdagi narsani yaxshiroq biladi. Agar solih bo‘lsangizlar, albatta, U tavba qiluvchilar uchun Mag‘firat qiluvchidir.",
+
+26: "Qarindoshga haqqini ber, miskin va yo‘lovchiga ham. Isrof qilma.",
+
+27: "Albatta, isrof qiluvchilar shaytonlarning birodarlaridir. Shayton esa Robbiga juda noshukr bo‘lgan.",
+
+28: "Agar Robbingdan kutayotgan rahmat sababli ulardan yuz o‘girishga majbur bo‘lsang, ularga yumshoq so‘z ayt.",
+
+29: "Qo‘lingni bo‘yningga bog‘lab qo‘yma va uni butunlay yoyib ham yuborma. Aks holda malomatlangan va pushaymon bo‘lgan holda qolasan.",
+
+30: "Albatta, Robbing xohlagan kishisining rizqini keng qiladi va toraytiradi. U bandalaridan Xabardor va Ko‘ruvchidir.",
+
+31: "Kambag‘allikdan qo‘rqib farzandlaringizni o‘ldirmanglar. Biz ularga ham, sizlarga ham rizq beramiz. Albatta, ularni o‘ldirish katta gunohdir.",
+
+32: "Zinoga yaqinlashmanglar. Albatta, u buzuqlikdir va yomon yo‘ldir.",
+
+33: "ALLAH harom qilgan jonni nohaq o‘ldirmanglar. Kim zulm bilan o‘ldirilsa, uning valiyiga hokimiyat berdik. Lekin u o‘ldirishda haddan oshmasin. Albatta, unga yordam berilgan.",
+
+34: "Yetimning moliga, u balog‘at yoshiga yetgunicha, faqat eng yaxshi yo‘l bilan yaqinlashinglar. Ahdga vafo qilinglar. Albatta, ahd haqida so‘raladi.",
+
+35: "O‘lchaganingizda o‘lchovni to‘liq qilinglar va to‘g‘ri tarozi bilan tortinglar. Bu yaxshi va oqibati chiroyliroqdir.",
+
+36: "Bilmagan narsang ortidan ergashma. Albatta, quloq, ko‘z va qalb — bularning barchasi haqida so‘raladi.",
+
+37: "Yer yuzida kibrlanib yurma. Sen yerni yorib yubora olmaysan va tog‘lar bo‘yicha ham balandlikka yetolmaysan.",
+
+38: "Bularning barchasi Robbing huzurida yomon ko‘rilgan ishlardir.",
+
+39: "Bu Robbing senga hikmatdan vahiy qilgan narsalaridandir. ALLAH bilan birga boshqa iloh qo‘yma, aks holda malomatlangan va quvilgan holda jahannamga tashlanasan.",
+
+40: "Robbingiz sizlarga o‘g‘illarni tanlab berdi-yu, O‘ziga malaikalardan qizlarni oldimi? Albatta, sizlar ulkan so‘z aytyapsizlar.",
+
+41: "Biz bu Qur’onda odamlar eslatma olishlari uchun turli misollarni bayon qildik. Lekin bu ularning faqat nafratini ziyoda qildi.",
+
+42: "Ayting: «Agar ular aytganidek, U bilan birga boshqa ilohlar bo‘lganida edi, ular Arsh Egasi tomon yo‘l izlagan bo‘lardilar».",
+
+43: "Ular aytayotgan narsalardan U pok va juda oliy bo‘ldi.",
+
+44: "Yetti osmon, yer va ulardagi barcha narsa Uni poklaydi. Hech narsa yo‘qki, Uni hamd bilan poklamasa. Lekin sizlar ularning tasbehini tushunmaysizlar. Albatta, U Halim va Mag‘firat qiluvchidir.",
+
+45: "Qur’on o‘qiganingda, Biz sen bilan oxiratga iymon keltirmaydiganlar orasiga yashirin parda qo‘yamiz.",
+
+46: "Biz ularning qalblariga uni anglamasliklari uchun pardalar qo‘ydik va quloqlariga og‘irlik berdik. Qur’onda Robbingni yolg‘iz eslasang, ular nafrat bilan orqalariga o‘girilib ketadilar.",
+
+47: "Biz ularning seni tinglaganlarida nimaga quloq tutayotganlarini va zolimlar o‘zaro: «Sizlar faqat sehrlangan bir kishiga ergashyapsizlar», deganlarida nimalarni pichirlashayotganini yaxshiroq bilamiz.",
+
+48: "Qara, ular senga qanday misollar keltirdilar. Bas, ular adashdilar va yo‘l topa olmaydilar.",
+
+49: "Ular dedilar: «Biz suyaklar va maydalangan tuproq bo‘lganimizdan keyin ham yangi yaratilgan holda tiriltirilamizmi?»",
+
+50: "Ayting: «Tosh yoki temir bo‘lsangizlar ham».",
+
+51: "«Yoki ko‘nglingizda kattaroq bo‘lib ko‘ringan boshqa bir maxluq bo‘lsangizlar ham». Ular: «Bizni kim qayta tiriltiradi?» deydilar. Ayting: «Sizlarni birinchi marta yaratgan Zot». Ular boshlarini silkitib: «Bu qachon bo‘ladi?» deydilar. Ayting: «Balki yaqin bo‘lsa kerak».",
+
+52: "U sizlarni chaqiradigan kuni, sizlar Uni hamd bilan javob berasizlar va ozgina vaqt turgandek o‘ylaysizlar.",
+
+53: "Bandalarimga ayt: «Eng chiroyli so‘zni aytsinlar. Albatta, shayton ularning orasiga nizo soladi. Chunki shayton inson uchun ochiq dushmandir».",
+
+54: "Robbingiz sizlarni yaxshiroq biladi. Agar xohlasa, sizlarga rahm qiladi yoki xohlasa, sizlarni azoblaydi. Biz seni ularga vakil qilib yubormadik.",
+
+55: "Osmonlaru yerdagi kim borligini Robbing yaxshiroq biladi. Biz ba’zi payg‘ambarlarni ba’zilaridan ustun qildik va Dovudga Zaburni berdik.",
+
+56: "Ayting: «Undan boshqa deb gumon qilganlaringizni chaqiringlar. Ular sizlardan zararni ketkaza olmaydilar va o‘zgartira olmaydilar».",
+
+57: "Ular chaqirayotganlarning o‘zlari ham Robbilariga yaqinlashish uchun vosita izlaydilar, Uning rahmatidan umid qiladilar va Uning azobidan qo‘rqadilar. Albatta, Robbingning azobi qo‘rqiladigan narsadir.",
+
+58: "Hech bir shahar yo‘qki, qiyomat kunidan oldin Biz uni halok qilmaymiz yoki qattiq azoblamaymiz. Bu Kitobda yozilgan.",
+
+59: "Bizni oyatlar yuborishdan faqat avvalgilar ularni yolg‘on qilganlari to‘sdi. Samud qavmiga ko‘zga ko‘rinadigan bir mo‘jiza sifatida tuyani berdik, lekin ular unga zulm qildilar. Biz oyatlarni faqat qo‘rqitish uchun yuboramiz.",
+
+60: "Eslang, Biz senga: «Albatta, Robbing odamlarni o‘rab olgandir», degan edik. Biz senga ko‘rsatgan tushni va Qur’onda la’natlangan daraxtni odamlar uchun sinov qildik. Biz ularni qo‘rqitamiz, lekin bu ularda faqat katta tug‘yonni ziyoda qiladi.",
+
+61: "Eslang, Biz malaikalarga: «Odamga sajda qilinglar», deganimizda, ular sajda qildilar, faqat Iblis bundan bosh tortdi. U: «Men loydan yaratganingga sajda qilamanmi?» dedi.",
+
+62: "U dedi: «Menga qaragin, mana buni mendan ulug‘ qildingmi? Agar menga qiyomat kunigacha muhlat bersang, uning zurriyotidan ozginadan boshqa hammasini albatta o‘zimga bo‘ysundiraman».",
+
+63: "U dedi: «Bor, kim ulardan senga ergashsa, albatta, jahannam sizlarning jazolaringizdir. Bu to‘liq jazo».",
+
+64: "«Ularning ichidan ovozing bilan qo‘lingdan kelganini qo‘zg‘at, otliqlaring va piyodalaring bilan ularga hujum qil, mol va farzandlarda ularga sherik bo‘l va ularga va’dalar ber. Shayton ularga faqat aldov va’dalarini beradi».",
+
+65: "«Albatta, Mening bandalarim ustidan sening hukming yo‘qdir. Robbing vakil sifatida kifoyadir».",
+
+66: "Robbingiz fazlidan izlashlaringiz uchun dengizda kemalarni yurdiradigan Zotdir. Albatta, U sizlarga Rahmlidir.",
+
+67: "Dengizda sizlarga zarar yetganida, Undan boshqa chaqirganlaringiz yo‘qoladi. U sizlarni quruqlikka qutqarganida esa yuz o‘girasizlar. Inson juda noshukrdir.",
+
+68: "U sizlarni quruqlikning bir tomoniga yutib yuborishidan yoki ustingizga toshli shamol yuborishidan xotirjammisiz? So‘ngra o‘zingizga hech qanday vakil topa olmaysiz.",
+
+69: "Yoki U sizlarni yana dengizga qaytarib, ustingizga kuchli shamol yuborib, kufringiz sababli cho‘ktirib yuborishidan va Bizdan o‘zingiz uchun qasos oluvchi topa olmasligingizdan xotirjammisiz?",
+
+70: "Albatta, Biz Odam farzandlarini ulug‘ladik, ularni quruqlik va dengizda ko‘tardik, ularga pok narsalardan rizq berdik va yaratganlarimizning ko‘pchiligidan ularni afzal qildik.",
+
+71: "Har bir inson guruhini o‘z imomi bilan chaqiradigan kunni eslang. Kimning kitobi o‘ng qo‘lidan berilsa, ana o‘shalar kitoblarini o‘qiydilar va ularga zarracha zulm qilinmaydi.",
+
+72: "Kim bu dunyoda ko‘r bo‘lsa, oxiratda ham ko‘r va yo‘ldan yanada adashgan bo‘ladi.",
+
+73: "Ular seni Biz senga vahiy qilgan narsadan burib yuborishlari uchun harakat qildilar, toki Bizga qarshi boshqa narsani to‘qib chiqarishing uchun. Ana o‘shanda seni do‘st tutgan bo‘lardilar.",
+
+74: "Agar Biz seni sobit qilmaganimizda edi, sen ularga ozgina moyil bo‘lishing mumkin edi.",
+
+75: "Agar shunday qilganingda, Biz senga hayotda ham, o‘limda ham azobni ikki barobar tottirgan bo‘lardik. So‘ngra Bizga qarshi o‘zing uchun yordamchi topa olmagan bo‘larding.",
+
+76: "Ular seni bu yurtdan chiqarib yuborish uchun bezovta qildilar. Agar shunday qilsalar, sendan keyin ular ham oz vaqt qolurlar.",
+
+77: "Sendan oldin yuborgan Rasulchilarimizning yo‘li ham shunday edi. Bizning yo‘limizda o‘zgarish topmaysan.",
+
+78: "Quyosh og‘ishidan tun qorong‘usigacha namozni ado qil va tonggi Qur’onni ham. Albatta, tonggi Qur’on guvoh bo‘linuvchidir.",
+
+79: "Kechaning bir qismida u bilan tahajjud qilgin. Bu sen uchun qo‘shimcha ibodatdir. Shoyad Robbing seni maqtalgan maqomga ko‘tarsa.",
+
+80: "Ayting: «Ey Robbim! Meni rost kirish bilan kirgizgin va rost chiqish bilan chiqargin. Menga O‘z huzuringdan yordam beruvchi qudrat bergin».",
+
+81: "Ayting: «Haq keldi va botil yo‘qoldi. Albatta, botil yo‘qoluvchidir».",
+
+82: "Biz Qur’ondan mo‘minlar uchun shifo va rahmat bo‘lgan narsani nozil qilamiz. Zolimlarga esa u faqat ziyonni ziyoda qiladi.",
+
+83: "Insonga ne’mat berganimizda, yuz o‘giradi va chetga tortiladi. Unga yomonlik tegsa, noumid bo‘ladi.",
+
+84: "Ayting: «Har kim o‘z holicha amal qiladi. Robbingiz kim eng to‘g‘ri yo‘lda ekanini yaxshiroq biladi».",
+
+85: "Sendan Ruh haqida so‘raydilar. Ayting: «Ruh Robbimning ishlaridandir. Sizlarga ilm juda oz berilgandir».",
+
+86: "Agar xohlasak, senga vahiy qilgan narsamizni olib qo‘yar edik. So‘ngra Bizga qarshi o‘zing uchun biror vakil topa olmaysan.",
+
+87: "Faqat Robbingning rahmati bilangina. Albatta, Uning senga bergan fazli ulkandir.",
+
+88: "Ayting: «Agar insonlar va jinlar bu Qur’onga o‘xshashini keltirish uchun jam bo‘lsalar ham, bir-birlariga yordamchi bo‘lsalar ham, uning o‘xshashini keltira olmaydilar».",
+
+89: "Albatta, Biz bu Qur’onda odamlar uchun har xil misollarni bayon qildik, lekin odamlarning ko‘pchiligi inkordan boshqa narsani istamadilar.",
+
+90: "Ular dedilar: «Biz senga ishonmaymiz, toki biz uchun yerdan buloq chiqarib bermaguningcha».",
+
+91: "«Yoki sening xurmo va uzum bog‘ing bo‘lib, ularning orasidan ko‘plab daryolar oqizmaguningcha».",
+
+92: "«Yoki osmonni ustimizga bo‘lak-bo‘lak qilib tushirmaguningcha, yoki ALLAHni va malaikalarni yuzma-yuz keltirmaguningcha».",
+
+93: "«Yoki oltindan bir uyga ega bo‘lmaguningcha, yoki osmonga chiqmaguningcha. Biz sening chiqishingga ham ishonmaymiz, toki bizga o‘qiydigan bir kitob tushirmaguningcha». Ayting: «Robbim pokdir! Men faqat Rasul bo‘lgan inson emasmanmi?»",
+
+94: "Odamlarga hidoyat kelganida, ularning iymon keltirishlariga faqat: «ALLAH insonni Rasul qilib yubordimi?» degan so‘zlari to‘sqinlik qildi.",
+
+95: "Ayting: «Agar yerda malaikalar yurib, xotirjam yashaganlarida edi, ularga osmondan malaika Rasul yuborgan bo‘lardik».",
+
+96: "Ayting: «Men bilan sizlarning orangizda guvoh sifatida ALLAHning O‘zi kifoya qiladi. Albatta, U bandalaridan Xabardor va Ko‘ruvchidir».",
+
+97: "ALLAH kimni hidoyat qilsa, u hidoyat topgandir. Kimni adashtirsa, ular uchun Undan boshqa do‘stlarni topa olmaysan. Biz ularni qiyomat kuni yuzlari bilan sudralgan, ko‘r, soqov va kar holda jamlaymiz. Ularning joylari jahannamdir. Har safar uning alangasi pasaysa, Biz ularga alangani ziyoda qilamiz.",
+
+98: "Bu ularning oyatlarimizni inkor qilganlari va: «Biz suyaklar va maydalangan tuproq bo‘lganimizdan keyin yangi yaratilishda tiriltirilamizmi?» deganlari sababli.",
+
+99: "Ular osmonlaru yerni yaratgan ALLAH ularga o‘xshashlarni yaratishga qodir ekanini ko‘rmaydilarmi? U ularga belgilangan muddat berdi, bunda shubha yo‘q. Lekin zolimlar inkordan boshqa narsani istamadilar.",
+
+100: "Ayting: «Agar sizlar Robbimning rahmat xazinalariga ega bo‘lsangizlar ham, sarflab tugashidan qo‘rqib ushlab qolardingizlar». Inson juda baxildir.",
+
+101: "Albatta, Biz Musoga to‘qqizta ochiq oyat berdik. Bani Isroildan so‘ra, u ularga kelganida Fir’avn unga: «Ey Muso! Men seni sehrlangan deb o‘ylayman», degan edi.",
+
+102: "U dedi: «Sen bilasan, bularni faqat osmonlaru yerning Robbisi aniq dalillar qilib tushirdi. Ey Fir’avn! Men seni halokatga uchragan deb bilaman».",
+
+103: "U ularni yurtdan chiqarishni istadi. Bas, Biz uni va u bilan birga bo‘lganlarning barchasini g‘arq qildik.",
+
+104: "Undan keyin Bani Isroilga aytdik: «Yerda yashanglar. Oxirat va’dasi kelganida, sizlarni hammasini jam qilamiz».",
+
+105: "Biz uni haq bilan nozil qildik va u haq bilan tushdi. Biz seni faqat xushxabar beruvchi va ogohlantiruvchi qilib yubordik.",
+
+106: "Biz Qur’onni odamlar orasida asta-sekin o‘qib berishing uchun bo‘lib-bo‘lib nozil qildik va uni bosqichma-bosqich tushirdik.",
+
+107: "Ayting: «Unga iymon keltiringlar yoki iymon keltirmanglar. Albatta, undan oldin ilm berilganlarga o‘qib berilganda, ular yuzlari bilan sajda qilib yiqiladilar».",
+
+108: "Va aytadilar: «Robbimiz pokdir! Albatta, Robbimizning va’dasi bajariluvchidir».",
+
+109: "Ular yig‘lagan holda yuzlari bilan sajdaga yiqiladilar va bu ularning xushu’ini ziyoda qiladi.",
+
+110: "Ayting: «ALLAH deb chaqiringlar yoki Rahmon deb chaqiringlar. Qaysi biri bilan chaqirsangizlar ham, eng go‘zal ismlar Unikidir». Namozingda ovozingni juda baland ham, juda past ham qilma, ikkisining orasida yo‘l tut.",
+
+111: "Va ayt: «Hamd farzand tutmagan, mulkda sherigi bo‘lmagan va xorlikdan himoyachiga muhtoj bo‘lmagan ALLAH uchundir». Uni ulug‘lab takbir ayt.",
+    },
+18: {
+ 1: "Hamd O‘z bandasiga Kitobni nozil qilgan va unda hech qanday qiyshiqlik qilmagan ALLAH uchundir.",
+
+2: "Uni to‘g‘ri qilib nozil qildi, O‘z huzuridan keladigan qattiq azobdan ogohlantirish va yaxshi amallar qiladigan mo‘minlarga ular uchun go‘zal mukofot borligini xushxabar qilish uchun.",
+
+3: "Ular unda abadiy qoladilar.",
+
+4: "Va: «ALLAH farzand tutdi», deganlarni ogohlantirish uchun.",
+
+5: "Bu haqda na ularning o‘zlarida, na ota-bobolarida ilm bor edi. Ularning og‘izlaridan chiqayotgan so‘z naqadar katta. Ular faqat yolg‘on gapirmoqdalar.",
+
+6: "Agar ular bu so‘zga iymon keltirmasalar, ularning ortidan qayg‘urib o‘zingni halok qilishing mumkin.",
+
+7: "Albatta, Biz yer yuzidagi narsalarni uning ziynati qildik, odamlarni sinash uchun: ularning qaysi biri amalda yaxshiroq ekanini bilishimiz uchun.",
+
+8: "Albatta, Biz uning ustidagi narsalarni quruq tuproqqa aylantiruvchimiz.",
+
+9: "Kahf va Raqim ahllarini Bizning oyatlarimizdan ajabtovur deb o‘yladingmi?",
+
+10: "O‘sha yoshlar g‘orga panoh topganlarida: «Ey Robbimiz! Bizga O‘z huzuringdan rahmat ato etgin va ishimizda biz uchun to‘g‘ri yo‘l tayyorlagin», degan edilar.",
+
+11: "Bas, Biz g‘orda ularning quloqlariga bir necha yil urdik.",
+
+12: "So‘ngra ikki guruhdan qaysi biri ularning qolgan muddatini yaxshiroq hisoblashini bilish uchun ularni uyg‘otdik.",
+
+13: "Biz senga ularning xabarini haq bilan aytib beramiz. Albatta, ular Robbilariga iymon keltirgan yoshlar edilar va Biz ularga hidoyatni ziyoda qildik.",
+
+14: "Biz ularning qalblarini mustahkamladik. Ular turib: «Bizning Robbimiz osmonlaru yerning Robbidir. Biz Undan boshqaga iloh deb duo qilmaymiz. Aks holda, albatta, nohaq so‘z aytgan bo‘lamiz», dedilar.",
+
+15: "«Mana shu qavmimiz Undan boshqa ilohlar tutdilar. Ular haqida ochiq dalil keltirsalar edi. ALLAH haqida yolg‘on to‘qigan kishidan ham zolimroq kim bor?»",
+
+16: "«Modomiki, ulardan va ular ibodat qilayotgan narsalardan chetlashgan ekansizlar, g‘orga panoh topinglar. Robbingiz sizlarga rahmatini yoyadi va ishingizda sizlar uchun yengillik tayyorlaydi».",
+
+17: "Quyosh chiqqanida ularning g‘oridan o‘ng tomonga og‘ib o‘tganini, botayotganida esa ularni chap tomondan kesib o‘tganini ko‘rarding. Ular g‘orning keng joyidadirlar. Bu ALLAHning oyatlaridandir. Kimni ALLAH hidoyat qilsa, u hidoyat topuvchidir. Kimni adashtirsa, unga yo‘l ko‘rsatuvchi do‘st topolmaysan.",
+
+18: "Ularni uyg‘oq deb o‘ylarding, holbuki ular uxlab yotgan edilar. Biz ularni o‘ng va chap tomonlariga aylantirib turardik. Ularning iti esa kirish joyida oldingi oyoqlarini cho‘zib yotardi. Agar ularni ko‘rganingda, albatta, ulardan qo‘rqib qochgan bo‘larding va seni vahima qoplagan bo‘lardi.",
+
+19: "Shunday qilib, Biz ularni uyg‘otdik, ular o‘zaro so‘rashdilar. Ulardan biri: «Qancha turdingizlar?» dedi. Ular: «Bir kun yoki kunning bir qismi turdik», dedilar. «Qancha turganingizni Robbingiz yaxshiroq biladi. Biringizni mana bu kumushingiz bilan shaharga yuboring. Eng pokiza taom qaysi ekanini ko‘rsin va undan sizlarga rizq keltirsin. Ehtiyot bo‘lsin va sizlardan hech kimni bildirmasin».",
+
+20: "«Agar ular sizlardan xabar topsalar, sizlarni toshbo‘ron qiladilar yoki o‘z dinlariga qaytaradilar. Shunda hech qachon najot topolmaysizlar».",
+
+21: "Shunday qilib, Biz odamlar ularning holidan xabardor bo‘lishlari uchun ularni topdirdik. Toki ALLAHning va’dasi haq ekanini va Qiyomat soatida shubha yo‘qligini bilsinlar. Ular o‘zaro ularning ishini muhokama qildilar. Ba’zilari: «Ularning ustiga bino quringlar. Robblari ularni yaxshiroq biladi», dedilar. Ularning ishida g‘olib bo‘lganlar esa: «Albatta, ularning ustiga masjid quramiz», dedilar.",
+
+22: "Ular: «Uchta edi, to‘rtinchisi itlari edi», deydilar. Yana: «Beshta edi, oltinchisi itlari edi», deydilar. Bu g‘ayb haqida taxmin qilishdir. Yana: «Yettita edi, sakkizinchisi itlari edi», deydilar. Ayting: «Ularning sonini Robbim yaxshiroq biladi. Ularni juda oz kishidan boshqa hech kim bilmaydi». Bas, ular haqida faqat ochiq ma’lum bo‘lgan narsadan tashqari tortishma va ular haqida ulardan hech kimdan so‘rama.",
+
+23: "Hech bir narsa haqida: «Men buni ertaga albatta qilaman», deb aytma.",
+
+24: "Faqat: «Agar ALLAH xohlasa», degin. Unutganingda Robbingni esla va: «Robbim meni bundan ham yaqinroq to‘g‘ri yo‘lga boshlashi mumkin», degin.",
+
+25: "Ular g‘orda uch yuz yil turdilar va yana to‘qqiz yil ziyoda qildilar.",
+
+26: "Ayting: «Ularning qancha turganini ALLAH yaxshiroq biladi. Osmonlaru yerning g‘aybi Unikidir. U naqadar yaxshi Ko‘ruvchi va Eshituvchidir. Ular uchun Undan boshqa valiy yo‘qdir. U O‘z hukmiga hech kimni sherik qilmaydi».",
+
+27: "Robbingning Kitobidan senga vahiy qilingan narsani tilovat qilgin. Uning so‘zlarini o‘zgartiruvchi yo‘qdir. Undan boshqa panoh topolmaysan.",
+
+28: "Robbilarining roziligini istab ertayu kech Unga duo qiladiganlar bilan o‘zingni sabrli tutgin. Dunyo hayotining ziynatini istab ko‘zlaringni ulardan burma. Qalbini Bizning zikrimizdan g‘ofil qilgan va havosiga ergashgan kimsaga itoat qilma. Uning ishi haddan oshishdir.",
+
+29: "Ayting: «Haq Robbingizdandir. Bas, kim xohlasa iymon keltirsin, kim xohlasa kofir bo‘lsin». Albatta, Biz zolimlar uchun alangasi ularni o‘rab oladigan olovni tayyorladik. Agar ular yordam so‘rasalar, ularga eritilgan metall kabi yuzlarni kuydiradigan suv bilan yordam beriladi. U naqadar yomon ichimlik va naqadar yomon joydir.",
+
+30: "Albatta, iymon keltirgan va yaxshi amallar qilganlarning — Biz yaxshi amal qiluvchilarning ajrini zoye qilmaymiz.",
+
+31: "Ana o‘shalar uchun ostidan anhorlar oqadigan Adn jannatlari bordir. U yerda oltin bilaguzuklar bilan bezanadilar, nozik va qalin ipakdan yashil kiyimlar kiyadilar va so‘rilarda suyanib o‘tiradilar. U naqadar yaxshi mukofot va naqadar go‘zal joydir.",
+
+32: "Ularga ikki kishini misol qilib keltir: Biz ulardan biriga ikki uzum bog‘i berdik, ularni xurmo daraxtlari bilan o‘radik va ular orasiga ekinzorlar joylashtirdik.",
+
+33: "Har ikki bog‘ o‘z hosilini berdi va undan hech narsani kamaytirmadi. Ularning orasidan daryo oqizdik.",
+
+34: "Uning ko‘p mevasi bor edi. U suhbatdoshiga gapirar ekan: «Men sendan mol jihatidan ham, odamlar jihatidan ham ko‘proqman», dedi.",
+
+35: "U o‘ziga zulm qilgan holda bog‘iga kirdi va dedi: «Men buni hech qachon yo‘q bo‘ladi deb o‘ylamayman».",
+
+36: "«Qiyomat soati keladi deb ham o‘ylamayman. Agar Robbim huzuriga qaytarilsam ham, bundan yaxshiroq joy topaman».",
+
+37: "Uning suhbatdoshi u bilan gaplashib dedi: «Seni tuproqdan, so‘ng tomchidan yaratgan, keyin seni inson qilib shakllantirgan Zotga kofir bo‘ldingmi?»",
+
+38: "«Lekin men — ALLAH mening Robbimdir. Men Robbimga hech kimni sherik qilmayman».",
+
+39: "«Bog‘ingga kirganingda: “ALLAH xohladi, kuch faqat ALLAH bilandir”, deganingda edi. Agar meni sendan mol va farzand jihatidan kamroq ko‘rsang ham».",
+
+40: "«Balki Robbim menga sening bog‘ingdan yaxshiroq narsani beradi va unga osmondan balo yuboradi, bas u sirpanchiq yerga aylanadi».",
+     
+41: "«Yoki uning suvi yer qa’riga singib ketadi va sen uni hech qachon topa olmaysan»,",
+
+42: "Uning mevalari halok qilindi. U bog‘iga sarflagan narsalari uchun qo‘llarini ishqalab qoldi. U bog‘ shoxlari bilan qulab yotgan edi. U dedi: «Qani edi, men Robbimga hech kimni sherik qilmagan bo‘lsam edi».",
+
+43: "Unga ALLAHdan boshqa yordam beradigan bir guruh ham bo‘lmadi va u o‘zini himoya qila olmadi.",
+
+44: "Bu yerda yordam faqat Haq bo‘lgan ALLAHgadir. U mukofot berish jihatidan ham, oqibat jihatidan ham yaxshiroqdir.",
+
+45: "Ularga dunyo hayotining misolini keltir: u Biz osmondan tushirgan suvga o‘xshaydi. U bilan yer o‘simliklari aralashib, so‘ng shamollar uchirib ketadigan quruq narsaga aylanadi. ALLAH har narsaga Qodirdir.",
+
+46: "Mol va farzandlar dunyo hayotining ziynatidir. Boqiy qoluvchi yaxshi amallar esa Robbing huzurida savob jihatidan ham, umid jihatidan ham yaxshiroqdir.",
+
+47: "Biz tog‘larni yuritadigan va yerni ochiq ko‘rinishda qoldiradigan kunni eslang. Biz ularning barchasini jamlaymiz va ulardan hech birini qoldirmaymiz.",
+
+48: "Ular Robbing huzurida saf tortgan holda keltiriladilar. «Sizlar Bizning huzurimizga sizlarni birinchi marta yaratganimizdek keldingizlar. Holbuki, sizlar Biz sizlar uchun uchrashuv vaqtini belgilamasmiz deb o‘ylagan edingizlar».",
+
+49: "Kitob qo‘yiladi. Jinoyatchilar undagi narsalardan qo‘rqib: «Voy holimizga! Bu qanday Kitobki, kichik va katta gunohni ham qoldirmay sanab qo‘yibdi», deydilar. Ular qilganlarini hozir topadilar. Robbing hech kimga zulm qilmaydi.",
+
+50: "Eslang, Biz malaikalarga: «Odamga sajda qilinglar», deganimizda, ular sajda qildilar, faqat Iblis bundan bosh tortdi. U jinlardan edi va Robbisining amridan chiqdi. Endi uni va uning zurriyotini Mendan boshqa do‘st tutasizlarmi? Holbuki, ular sizlarga dushmandir. Zolimlar uchun naqadar yomon almashtirishdir.",
+
+51: "Men ularni osmonlaru yerning yaratilishiga ham, o‘zlarining yaratilishiga ham guvoh qilmaganman. Men adashtiruvchilarni yordamchi qilib olmaganman.",
+
+52: "U kun U: «Mening sheriklarim deb gumon qilganlaringizni chaqiringlar», deydi. Ular ularni chaqiradilar, lekin ular javob bermaydilar. Biz ularning orasiga halokat joyi qo‘ydik.",
+
+53: "Jinoyatchilar olovni ko‘radilar va unga tushishlarini biladilar. Undan qochadigan joy topa olmaydilar.",
+
+54: "Albatta, Biz bu Qur’onda odamlar uchun har xil misollarni bayon qildik. Lekin inson eng ko‘p tortishuvchi mavjudotdir.",
+
+55: "Odamlarga hidoyat kelganidan va Robbilaridan mag‘firat so‘rashdan ularni faqat avvalgilarining yo‘li ularga kelishi yoki azob yuzma-yuz kelishi to‘sdi.",
+
+56: "Biz Rasulchilarni faqat xushxabar beruvchi va ogohlantiruvchi qilib yuboramiz. Kofir bo‘lganlar esa botil bilan tortishadilar, u bilan haqni yo‘q qilishga urinadilar va oyatlarim hamda ogohlantirilgan narsalarni masxara qiladilar.",
+
+57: "Robbining oyatlari bilan eslatilganda undan yuz o‘girgan va qo‘llari bilan qilgan narsalarini unutgan kimsadan ham zolimroq kim bor? Albatta, Biz ularning qalblariga uni anglamasliklari uchun pardalar, quloqlariga esa og‘irlik qo‘ydik. Agar ularni hidoyatga chaqirsang ham, ular hech qachon hidoyat topmaydilar.",
+
+58: "Robbing Mag‘firat Egasi va rahmat sohibidir. Agar ularni qilgan ishlari sababli ushlaganida, ularga azobni tezlashtirgan bo‘lardi. Lekin ular uchun belgilangan vaqt bor, undan qochadigan joy topa olmaydilar.",
+
+59: "Mana shu shaharlarni zulm qilganlarida halok qildik. Ularning halok bo‘lishi uchun belgilangan vaqtni tayinlagan edik.",
+
+60: "Eslang, Muso o‘z yigitiga dedi: «Ikki dengiz qo‘shilgan joyga yetmagunimcha yoki uzoq vaqt yurmagunimcha to‘xtamayman».",
+
+61: "Ikkovlari ikki dengiz qo‘shilgan joyga yetganlarida, baliqlarini unutdilar. U esa dengizda yo‘l olib ketdi.",
+
+62: "Ular o‘tib ketganlarida, Muso yigitiga dedi: «Ertalabki taomimizni keltirgin. Bu safarimizdan charchadik».",
+
+63: "U dedi: «Ko‘rdingmi, qoyaning yonida dam olganimizda baliqni unutibman. Uni eslashimni faqat shayton unuttirdi. U ajabtovur tarzda dengizga yo‘l oldi».",
+
+64: "U dedi: «Mana shu biz izlagan narsamiz edi». Bas, ular izlari bo‘ylab qaytdilar.",
+
+65: "Bas, ular bandalarimizdan bir bandani topdilar. Biz unga O‘z huzurimizdan rahmat bergan va O‘z huzurimizdan ilm o‘rgatgan edik.",
+
+66: "Muso unga dedi: «Senga o‘rgatilgan to‘g‘ri yo‘ldan menga ham o‘rgatishing uchun senga ergashaymi?»",
+
+67: "U dedi: «Albatta, sen men bilan sabr qila olmaysan».",
+
+68: "«O‘zing bilmagan narsaga qanday sabr qilarding?»",
+
+69: "U dedi: «Agar ALLAH xohlasa, meni sabr qiluvchi holda topasan va sening hech bir amringga qarshi chiqmayman».",
+
+70: "U dedi: «Agar menga ergashsang, men o‘zim aytmagunimcha biror narsa haqida mendan so‘rama».",
+
+71: "Bas, ular yo‘lga tushdilar. Nihoyat, kemaga chiqqanlarida, u kemani teshib qo‘ydi. Muso dedi: «Uni ichidagilarni cho‘ktirish uchun teshdingmi? Haqiqatan ham, sen katta ish qilding».",
+
+72: "U dedi: «Men senga men bilan sabr qila olmaysan degan emasmidim?»",
+
+73: "U dedi: «Unutganim sababli meni koyima va ishimda menga qiyinchilik tug‘dirma».",
+
+74: "So‘ng ular yana yo‘lga tushdilar. Nihoyat, bir bolaga duch kelganlarida, u uni o‘ldirdi. Muso dedi: «Pok Zotdir ALLAH! Hech qanday jon evaziga bo‘lmagan holda begunoh jonni o‘ldirdingmi? Haqiqatan, sen yomon ish qilding».",
+
+75: "U dedi: «Men senga men bilan sabr qila olmaysan degan emasmidim?»",
+
+76: "U dedi: «Agar bundan keyin sendan biror narsa haqida so‘rasam, meni o‘zing bilan yurishdan ozod qil. Men tomondan uzr yetarli bo‘ldi».",
+
+77: "Bas, ular yana yo‘lga tushdilar. Nihoyat, bir shahar ahliga kelib, ulardan taom so‘radilar. Lekin ular ularni mehmon qilishdan bosh tortdilar. So‘ngra u yerda qulab tushay degan devorni ko‘rdilar va u uni tikladi. Muso dedi: «Agar xohlasang, buning uchun haq olishing mumkin edi».",
+
+78: "U dedi: «Mana shu men bilan sening ajralishimizdir. Endi sen sabr qila olmagan narsalarning ta’vilini senga aytib beraman».",
+
+79: "«Kema dengizda ishlaydigan miskin kishilarniki edi. Men uni nuqsonli qilishni istadim, chunki ularning ortida har bir kemani zo‘rlik bilan tortib oladigan podshoh bor edi».",
+
+80: "«Bolaga kelsak, uning ota-onasi mo‘min kishilar edi. Bas, uning ularni haddan oshish va kufrga majbur qilishidan qo‘rqdik».",
+
+81: "«Bas, Robbimiz unga undan ham pokroq va rahmliroq zurriyot berishini xohladik».",
+
+82: "«Devor esa shahardagi ikki yetim bolaniki edi. Uning ostida ularga tegishli xazina bor edi. Ularning otasi solih kishi edi. Bas, Robbing ular balog‘atga yetib, xazinalarini chiqarib olishlarini xohladi. Bu Robbingning rahmatidir. Men buni o‘z ixtiyorim bilan qilganim yo‘q. Mana, sen sabr qila olmagan narsalarning ta’vilidir».",
+
+83: "Sendan Zulqarnayn haqida so‘raydilar. Ayting: «Sizlarga undan bir xabar o‘qib beraman».",
+
+84: "Albatta, Biz unga yer yuzida imkoniyat berdik va unga har bir narsadan yo‘l berdik.",
+
+85: "Bas, u bir yo‘lga ergashdi.",
+
+86: "Nihoyat, quyosh botadigan joyga yetganida, uni qora loyqa buloqqa botayotgandek ko‘rdi va uning oldida bir qavmni topdi. Biz dedik: «Ey Zulqarnayn! Ularni azoblashga ham, ularga yaxshilik qilishga ham imkoning bor».",
+
+87: "U dedi: «Kim zulm qilsa, uni azoblaymiz. So‘ngra u Robbisiga qaytariladi va U uni qattiq azob bilan azoblaydi».",
+
+88: "«Kim iymon keltirsa va yaxshi amal qilsa, unga eng go‘zal mukofot bordir. Biz unga ishimizdan osonini aytamiz».",
+
+89: "So‘ngra u boshqa bir yo‘lga ergashdi.",
+
+90: "Nihoyat, quyosh chiqadigan joyga yetganida, uni Biz quyoshdan himoya vositasi bermagan bir qavm ustiga chiqayotganini ko‘rdi.",
+
+91: "Shunday edi. Biz uning huzuridagi narsalarni to‘liq bilardik.",
+
+92: "So‘ngra u yana bir yo‘lga ergashdi.",
+
+93: "Nihoyat, ikki tog‘ orasiga yetganida, ularning narigi tomonida deyarli so‘z tushunmaydigan bir qavmni topdi.",
+
+94: "Ular dedilar: «Ey Zulqarnayn! Ya’juj va Ma’juj yer yuzida buzg‘unchilik qiluvchilardir. Biz bilan ular orasiga to‘siq qurib berishing uchun senga haq to‘laylikmi?»",
+
+95: "U dedi: «Robbim menga bergan narsa yaxshiroqdir. Bas, menga kuch bilan yordam beringlar, sizlar bilan ular orasiga to‘siq quraman».",
+
+96: "«Menga temir bo‘laklarini keltiringlar». Ikki tog‘ oralig‘ini tenglashtirgach, dedi: «Puflanglar». Uni olovga aylantirgach, dedi: «Menga eritilgan mis keltiringlar, ustiga quyaman».",
+
+97: "Bas, ular na uni oshib o‘ta oldilar va na teshib kira oldilar.",
+
+98: "U dedi: «Bu Robbimning rahmatidir. Robbimning va’dasi kelganida, U uni yer bilan yakson qiladi. Robbimning va’dasi haqdir».",
+
+99: "O‘sha kuni Biz ularning ba’zilarini ba’zilariga to‘lqin kabi aralashtirib yuboramiz. Sur chalinganida esa ularning barchasini jamlaymiz.",
+
+100: "O‘sha kuni jahannamni kofirlarga ochiq holda ko‘rsatamiz.",
+
+101: "Ularning ko‘zlari Mening zikrimdan parda ichida edi va ular eshita olmas edilar.",
+
+102: "Kofir bo‘lganlar Mening bandalarimni Mendan boshqa do‘stlar qilib olishlarini o‘yladilarmi? Albatta, Biz jahannamni kofirlar uchun mehmon joy qilib tayyorladik.",
+
+103: "Ayting: «Sizlarga amallari jihatidan eng katta ziyon ko‘ruvchilar haqida xabar beraylikmi?»",
+
+104: "«Ular dunyo hayotida qilgan sa’y-harakatlari yo‘qqa ketgan, holbuki, o‘zlarini yaxshi ish qiluvchilar deb hisoblagan kishilardir».",
+
+105: "Ana o‘shalar Robbilarining oyatlariga va Unga ro‘baro‘ bo‘lishga kofir bo‘lganlardir. Bas, ularning amallari behuda ketdi. Qiyomat kuni ular uchun hech qanday vazn o‘rnatmaymiz.",
+
+106: "Bu ularning jazosi jahannamdir, chunki ular kofir bo‘ldilar va oyatlarim hamda Rasulchilarimni masxara qildilar.",
+
+107: "Albatta, iymon keltirgan va yaxshi amallar qilganlar uchun Firdavs bog‘lari mehmon joy bo‘ladi.",
+
+108: "Ular unda abadiy qoladilar va undan boshqa joyga ko‘chishni istamaydilar.",
+
+109: "Ayting: «Agar Robbimning so‘zlari uchun dengiz siyoh bo‘lsa va yana shuncha dengiz yordamga kelsa ham, Robbimning so‘zlari tugashidan oldin dengizlar tugab qoladi».",
+
+110: "Ayting: «Men faqat sizlar kabi insonman. Menga ilohingiz yagona iloh ekani vahiy qilinadi. Bas, kim Robbisi bilan uchrashishni umid qilsa, yaxshi amal qilsin va Robbisiga ibodat qilishda hech kimni sherik qilmasin».",
+     },
+19: {
+1: "Kaf, Ha, Ya, Ayn, Sod.",
+
+2: "Bu Robbingning bandasi Zakariyoga qilgan rahmatini eslashidir.",
+
+3: "U Robbiga yashirin holda duo qilgan edi.",
+
+4: "U dedi: «Ey Robbim! Albatta, suyaklarim zaiflashdi va boshim oqardi. Ey Robbim! Men Senga qilgan duoyimda hech qachon noumid bo‘lmaganman».",
+
+5: "«Men ortimdan qoladigan qarindoshlarimdan qo‘rqdim. Xotinim esa tug‘maydi. Bas, menga O‘z huzuringdan bir valiy ato etgin».",
+
+6: "«U menga va Ya’qub oilasiga merosxo‘r bo‘lsin va ey Robbim, uni roziligingga erishganlardan qilgin».",
+
+7: "«Ey Zakariyo! Biz senga Yahyo ismli bir o‘g‘il bilan xushxabar beramiz. Bundan oldin unga hech kimni ism qilmagan edik».",
+
+8: "U dedi: «Ey Robbim! Menga qanday qilib o‘g‘il bo‘ladi? Xotinim tug‘maydi, men esa keksalikning nihoyasiga yetganman».",
+
+9: "U dedi: «Shundaydir. Robbing aytdi: “Bu Men uchun osondir. Axir seni ilgari hech narsa emasligingda yaratgan edim”».",
+
+10: "U dedi: «Ey Robbim! Menga bir belgi ber». U dedi: «Sening belging — sog‘lom bo‘la turib uch kecha odamlar bilan gaplasha olmasligingdir».",
+
+11: "Bas, u ibodatxonadan qavmi oldiga chiqib, ularga ertalab va kechqurun tasbeh aytishni ishora qildi.",
+
+12: "«Ey Yahyo! Kitobni mahkam tutgin». Biz unga bolalik chog‘ida hikmat berdik.",
+
+13: "Va O‘z huzurimizdan mehr-shafqat hamda poklik berdik. U taqvodor edi.",
+
+14: "U ota-onasiga yaxshilik qiluvchi edi va zolim, osiy bo‘lmagan edi.",
+
+15: "Unga tug‘ilgan kunida ham, vafot etadigan kunida ham, tiriltiriladigan kunida ham salom bo‘lsin.",
+
+16: "Kitobda Maryamni ham esla. U oilasidan sharq tomondagi bir joyga ajralib chiqdi.",
+
+17: "U ular bilan o‘zi orasiga parda tutdi. Bas, Biz unga Ruhimizni yubordik va u unga to‘liq inson qiyofasida ko‘rindi.",
+
+18: "U dedi: «Agar taqvodor bo‘lsang, sendan Rahmonga panoh so‘rayman».",
+
+19: "U dedi: «Men faqat senga pok bir o‘g‘il hadya qilish uchun Robbingning elchisiman».",
+
+20: "U dedi: «Menga qanday qilib o‘g‘il bo‘ladi? Menga hech bir inson tegmagan va men buzuq ayol ham emasman-ku».",
     
+21: "U dedi: «Shundaydir. Robbing aytdi: “Bu Men uchun osondir. Biz uni insonlar uchun oyat va Bizdan bo‘lgan rahmat qilamiz. Bu hukm qilingan ishdir”».",
+
+22: "Bas, u unga homilador bo‘ldi va u bilan uzoq bir joyga chetlandi.",
+
+23: "Tug‘ish og‘rig‘i uni xurmo daraxtining tanasiga olib keldi. U dedi: «Qani edi, bundan oldin o‘lgan bo‘lsam va butunlay unutilgan bo‘lsam edi!»",
+
+24: "Bas, uning ostidan unga nido qilindi: «G‘amgin bo‘lma. Robbing ostingdan bir ariq oqizdi».",
+
+25: "«Xurmo daraxtining tanasini o‘zingga silkitgin, u senga yangi pishgan xurmolarni tushiradi».",
+
+26: "«Bas, ye, ich va ko‘zing quvonsin. Agar insonlardan birortasini ko‘rsang: “Men Rahmon uchun sukut qilishga nazr qildim, bugun hech bir inson bilan gaplashmayman”, degin».",
+
+27: "Bas, uni ko‘tarib qavmi oldiga keldi. Ular dedilar: «Ey Maryam! Sen juda g‘alati ish qilding».",
+
+28: "«Ey Horun singlisi! Otang yomon odam emas edi, onang ham buzuq ayol emas edi».",
+
+29: "Bas, u bolaga ishora qildi. Ular dedilar: «Beshikdagi go‘dak bilan qanday gaplashamiz?»",
+
+30: "U dedi: «Albatta, men ALLAHning bandasiman. U menga Kitob berdi va meni payg‘ambar qildi».",
+
+31: "«U meni qayerda bo‘lsam ham muborak qildi va tirik ekanman, menga namoz va zakotni buyurdi».",
+
+32: "«Va meni onamga yaxshilik qiluvchi qildi. U meni zolim va baxtsiz qilmadi».",
+
+33: "«Menga tug‘ilgan kunimda ham, o‘ladigan kunimda ham va tiriltiriladigan kunimda ham salom bo‘lsin».",
+
+34: "Mana shu Maryam o‘g‘li Iso haqidagi haq so‘zdir. Ular u haqida shubha qiladilar.",
+
+35: "ALLAH uchun farzand tutish mumkin emas. U pokdir. Biror ishni hukm qilsa, unga faqat: «Bo‘l», deydi va u bo‘ladi.",
+
+36: "Albatta, ALLAH mening ham, sizlarning ham Robbingizdir. Bas, Unga ibodat qilinglar. Bu to‘g‘ri yo‘ldir.",
+
+37: "So‘ngra guruhlar o‘zaro ixtilof qildilar. Bas, ulkan kunning guvohligidan kofir bo‘lganlarga voy bo‘lsin.",
+
+38: "Bizning huzurimizga keladigan kunida ular naqadar yaxshi eshituvchi va ko‘ruvchi bo‘ladilar! Lekin bugun zolimlar ochiq adashishdadirlar.",
+
+39: "Ularni hasrat kuni bilan ogohlantirgin. Ish hukm qilinadi, holbuki ular beparvolikda va iymon keltirmaydilar.",
+
+40: "Albatta, Biz yerga va undagi narsalarga voris bo‘lamiz va ular Bizning huzurimizga qaytariladilar.",
+41: "Kitobda Ibrohimni esla. Albatta, u rostgo‘y payg‘ambar edi.",
+
+42: "U otasiga dedi: «Ey otajonim! Nima uchun eshitmaydigan, ko‘rmaydigan va senga hech qanday foyda bera olmaydigan narsaga ibodat qilasan?»",
+
+43: "«Ey otajonim! Menga senga kelmagan ilm keldi. Bas, menga ergashgin, seni to‘g‘ri yo‘lga boshlayman».",
+
+44: "«Ey otajonim! Shaytonga ibodat qilma. Albatta, shayton Rahmonga osiy bo‘lgan».",
+
+45: "«Ey otajonim! Men senga Rahmon tomonidan azob tegib, shaytonga do‘st bo‘lib qolishingdan qo‘rqaman».",
+
+46: "U dedi: «Ey Ibrohim! Sen mening ilohlarimdan yuz o‘giryapsanmi? Agar to‘xtamasang, seni albatta toshbo‘ron qilaman. Mendan uzoq bo‘l».",
+
+47: "U dedi: «Senga salom bo‘lsin. Men Robbimdan sen uchun mag‘firat so‘rayman. Albatta, U menga mehribondir».",
+
+48: "«Men sizlardan ham, ALLAHni qo‘yib chaqirayotgan narsalaringizdan ham chetlanaman va Robbimga duo qilaman. Shoyad Robbimga duo qilish bilan baxtsiz bo‘lmasam».",
+
+49: "Bas, u ulardan va ALLAHdan boshqa ibodat qilayotgan narsalaridan ajralganida, Biz unga Ishoqni va Ya’qubni berdik va har birini payg‘ambar qildik.",
+
+50: "Biz ularga O‘z rahmatimizdan berdik va ular uchun oliy rostgo‘ylik tilini yaratdik.",
+
+51: "Kitobda Musoni esla. Albatta, u tanlangan edi va Rasul, payg‘ambar edi.",
+
+52: "Biz unga Tur tog‘ining o‘ng tomonidan nido qildik va uni maxfiy suhbat uchun yaqin qildik.",
+
+53: "Biz unga O‘z rahmatimizdan birodari Horunni payg‘ambar qilib berdik.",
+
+54: "Kitobda Ismoilni esla. Albatta, u va’dasiga sodiq edi va Rasul, payg‘ambar edi.",
+
+55: "U o‘z oilasiga namoz va zakotni buyurar edi va Robbisi huzurida rozi bo‘lingan edi.",
+
+56: "Kitobda Idrisni esla. Albatta, u rostgo‘y payg‘ambar edi.",
+
+57: "Biz uni yuksak maqomga ko‘tardik.",
+
+58: "Ana o‘shalar ALLAH ne’mat bergan payg‘ambarlardir: Odam zurriyotidan, Nuh bilan birga ko‘targanlarimizdan, Ibrohim va Ismoil zurriyotidan va Biz hidoyat qilgan hamda tanlagan kishilardan. Ularga Rahmonning oyatlari tilovat qilinganda, yig‘lagan holda sajda qilib yiqilardilar.",
+
+59: "So‘ngra ulardan keyin namozni tark qilgan va shahvatlarga ergashgan avlodlar keldi. Tez orada ular zalolatga duch keladilar.",
+
+60: "Faqat tavba qilgan, iymon keltirgan va yaxshi amal qilganlar bundan mustasno. Ana o‘shalar jannatga kiradilar va ularga hech qanday zulm qilinmaydi.",
+
+61: "Ular Rahmon O‘z bandalariga g‘oyibona va’da qilgan Adn jannatlariga kiradilar. Albatta, Uning va’dasi keluvchidir.",
+
+62: "Ular u yerda behuda so‘z emas, faqat salom eshitadilar. Ular uchun u yerda ertayu kech rizqlari bordir.",
+
+63: "Bu Biz taqvodor bandalarimizga meros qilib beradigan jannatdir.",
+
+64: "Biz faqat Robbingning amri bilan tushamiz. Oldimizdagi, ortimizdagi va ular orasidagi narsalar Unikidir. Robbing unutuvchi emasdir.",
+
+65: "U osmonlaru yerning va ular orasidagi narsalarning Robbidir. Bas, Unga ibodat qil va Uning ibodatida sabrli bo‘l. Unga teng biror narsani bilasanmi?",
+
+66: "Inson aytadi: «Men o‘lganimdan keyin tirik holda chiqarilamanmi?»",
+
+67: "Inson oldin hech narsa emas bo‘lganini eslamaydimi?",
+
+68: "Robbingga qasamki, Biz ularni va shaytonlarni albatta jamlaymiz. So‘ngra ularni jahannam atrofida tiz cho‘kkan holda hozir qilamiz.",
+
+69: "So‘ngra har bir guruhdan Rahmonga eng ko‘p qarshi chiqqanlarini ajratib olamiz.",
+
+70: "So‘ngra Biz unda kuyishga eng loyiq bo‘lganlarni yaxshiroq biluvchimiz.",
+
+71: "Sizlardan hech kim yo‘qki, unga (jahannamga) kelmaydigan bo‘lsin. Bu Robbing huzurida qat’iy hukm qilingan ishdir.",
+
+72: "So‘ngra Biz taqvodorlarni najot qilamiz va zolimlarni unda tiz cho‘kkan holda qoldiramiz.",
+
+73: "Ularga Bizning ochiq oyatlarimiz tilovat qilinganda, kofir bo‘lganlar mo‘minlarga: «Ikki guruhning qaysi biri joy va majlis jihatidan yaxshiroq?» deydilar.",
+
+74: "Biz ulardan oldin qancha avlodlarni halok qildik. Ular mol va ko‘rinish jihatidan ulardan ham yaxshiroq edilar.",
+
+75: "Ayting: «Kim zalolatda bo‘lsa, Rahmon unga muhlatni uzaytirsin. Nihoyat, ular o‘zlariga va’da qilingan narsani — azobni yoki Soatni — ko‘rganlarida, kimning joyi yomonroq va qo‘shini zaifroq ekanini biladilar».",
+
+76: "ALLAH hidoyat topganlarning hidoyatini ziyoda qiladi. Boqiy qoluvchi yaxshi amallar esa Robbing huzurida savob jihatidan ham, oqibat jihatidan ham yaxshiroqdir.",
+
+77: "Bizning oyatlarimizni inkor qilgan va: «Menga albatta mol va farzand beriladi», degan kishini ko‘rdingmi?",
+
+78: "U g‘aybni bildimi yoki Rahmon huzuridan ahd oldimi?",
+
+79: "Yo‘q! Biz uning aytganlarini yozamiz va unga azobni yanada ziyoda qilamiz.",
+
+80: "Biz uning aytayotgan narsalariga merosxo‘r bo‘lamiz va u Bizning huzurimizga yolg‘iz holda keladi.",
+    
+81: "Ular ALLAHni qo‘yib, o‘zlariga izzat bo‘lsin deb boshqa ilohlarni tutdilar.",
+
+82: "Yo‘q! Ular ularning ibodatlarini inkor qiladilar va ularga qarshi bo‘ladilar.",
+
+83: "Ko‘rmadingmi, Biz kofirlar ustiga shaytonlarni yubordik, ular ularni gunohga undaydilar.",
+
+84: "Bas, ular haqida shoshma. Biz ular uchun faqat sanalgan muddatni sanamoqdamiz.",
+
+85: "Taqvodorlarni Rahmon huzuriga hurmat bilan jamlaydigan kunni esla.",
+
+86: "Jinoyatchilarni esa jahannamga chanqoq holda haydaymiz.",
+
+87: "Ular Rahmon huzurida ahd olgan kishilardan boshqa hech kim shafoatga ega bo‘la olmaydi.",
+
+88: "Ular: «Rahmon farzand tutdi», dedilar.",
+
+89: "Sizlar juda dahshatli narsani keltirdingiz.",
+
+90: "U sababli osmonlar yorilib, yer yorilib ketayozadi va tog‘lar qulab tushadi.",
+
+91: "Chunki ular Rahmonga farzand nisbat berdilar.",
+
+92: "Holbuki, Rahmon uchun farzand tutish munosib emas.",
+
+93: "Osmonlaru yerdagi barcha mavjudot Rahmon huzuriga banda holida keluvchidir.",
+
+94: "Albatta, U ularning barchasini hisoblab sanab qo‘ygan.",
+
+95: "Qiyomat kuni ularning har biri Uning huzuriga yolg‘iz holda keladi.",
+
+96: "Albatta, iymon keltirgan va yaxshi amallar qilganlarga Rahmon muhabbat yaratadi.",
+
+97: "Bas, Biz uni sening tilingda osonlashtirdik, toki u bilan taqvodorlarni xushxabar qilgin va qattiq qarshilik qiluvchi qavmni ogohlantirgin.",
+
+98: "Ulardan oldin qancha avlodlarni halok qildik. Ulardan biror kishini his qilasanmi yoki ulardan biror tovush eshitasanmi?",
+ },
+20: {
+1: "To Ha.",
+
+2: "Biz Qur’onni senga qiynalishing uchun nozil qilmadik.",
+
+3: "Faqat qo‘rquvchi kishiga eslatma bo‘lishi uchun.",
+
+4: "Uni yerni va yuksak osmonlarni yaratgan Zot nozil qildi.",
+
+5: "Rahmon Arsh ustida hukmron bo‘ldi.",
+
+6: "Osmonlardagi, yerdagi, ular orasidagi va tuproq ostidagi narsalar Unikidir.",
+
+7: "Agar so‘zni oshkor qilsang ham, albatta, U sirni ham, undan ham yashirin narsani ham biladi.",
+
+8: "ALLAH — Undan boshqa iloh yo‘qdir. Eng go‘zal ismlar Unikidir.",
+
+9: "Senga Musoning xabari yetdimi?",
+
+10: "U olovni ko‘rganida oilasiga dedi: «To‘xtab turinglar! Men olov ko‘rdim. Balki undan sizlarga bir cho‘g‘ olib kelarman yoki olov oldida yo‘l ko‘rsatuvchi toparman».",
+
+11: "Bas, u olov oldiga kelganida, unga nido qilindi: «Ey Muso!»",
+
+12: "«Albatta, Men sening Robbingman. Bas, oyoq kiyimingni yech. Chunki sen muqaddas Tuvo vodiysidassan».",
+
+13: "«Men seni tanladim. Bas, vahiy qilinayotgan narsaga quloq sol».",
+
+14: "«Albatta, Men ALLAHman. Mendan boshqa iloh yo‘qdir. Bas, Menga ibodat qil va Meni eslash uchun namozni ado qil».",
+
+15: "«Albatta, Soat keluvchidir. Uni deyarli yashiraman. Har bir jon qilgan sa’y-harakatiga yarasha mukofot olishi uchundir».",
+
+16: "«Bas, unga iymon keltirmaydigan va havosiga ergashgan kishi seni undan to‘smasin, aks holda halok bo‘lasan».",
+
+17: "«Ey Muso! O‘ng qo‘lingdagi nima?»",
+
+18: "U dedi: «Bu mening asoyimdir. Unga suyanaman, qo‘ylarim uchun barg qoqaman va unda boshqa ehtiyojlarim ham bor».",
+
+19: "U dedi: «Ey Muso! Uni tashlagin».",
+
+20: "Bas, u uni tashladi va birdan u harakatlanuvchi ilonga aylandi.",
+
+21: "U dedi: «Uni olgin va qo‘rqma. Biz uni avvalgi holiga qaytaramiz».",
+
+22: "«Qo‘lingni qo‘ltig‘ingga tiqgin, u hech qanday yomonliksiz oppoq holda chiqadi. Bu boshqa bir mo‘jizadir».",
+
+23: "«Senga katta oyatlarimizdan ba’zilarini ko‘rsatish uchun».",
+
+24: "«Fir’avnga bor. Albatta, u haddan oshdi».",
+
+25: "U dedi: «Ey Robbim! Ko‘ksimni keng qilgin».",
+
+26: "«Ishimni oson qilgin».",
+
+27: "«Tilimdagi tugunni yechgin».",
+
+28: "«Toki ular so‘zimni anglasinlar».",
+
+29: "«Menga oilamdan bir vazir bergin».",
+
+30: "«Horun — akamni».",
+
+31: "«U bilan kuchimni mustahkamlagin».",
+
+32: "«Uni ishimga sherik qilgin».",
+
+33: "«Toki Seni ko‘p poklasak».",
+
+34: "«Va Seni ko‘p eslasak».",
+
+35: "«Albatta, Sen bizni Ko‘ruvchisan».",
+
+36: "U dedi: «Ey Muso! So‘raganing berildi».",
+
+37: "«Ey Muso! Biz senga yana bir marta ne’mat bergan edik».",
+
+38: "«Onangga vahiy qilinadigan narsani vahiy qilganimizda».",
+
+39: "«Uni sandiqqa solgin va uni daryoga tashlagin. Daryo uni qirg‘oqqa chiqaradi. Uni Mening ham, uning ham dushmani olib oladi». «Men sendan O‘z tarafimdan muhabbat qo‘ydim. Toki ko‘zim ostida tarbiyalansin».",
+
+40: "«Opa-singling yurib: “Sizlarga unga qaraydigan kishini ko‘rsatayinmi?” der edi. Shunday qilib, seni onangga qaytardik, toki ko‘zi quvonsin va g‘amgin bo‘lmasin. Sen bir jonni o‘ldirib qo‘ygan eding, Biz seni g‘amdan qutqardik va seni sinovlardan o‘tkazdik. So‘ngra bir necha yil Mad’yanda yashading. Keyin, ey Muso, taqdir qilingan vaqtda kelding».",
+    
+41: "Men seni O‘zim uchun tanladim.",
+
+42: "Sen va akang oyatlarim bilan boringlar va Meni zikr qilishda sustlik qilmanglar.",
+
+43: "Fir’avnga boringlar. Albatta, u haddan oshdi.",
+
+44: "Unga yumshoq so‘z aytinglar. Shoyad u eslatma olsa yoki qo‘rqsa.",
+
+45: "Ular dedilar: «Ey Robbimiz! Biz uning bizga tajovuz qilishidan yoki haddidan oshishidan qo‘rqamiz».",
+
+46: "U dedi: «Qo‘rqmanglar. Albatta, Men sizlar bilan birgaman. Eshitaman va ko‘raman».",
+
+47: "Bas, uning oldiga boringlar va aytinglar: «Biz Robbingning Rasulchilarimiz. Bas, Bani Isroilni biz bilan birga yuborgin va ularni azoblama. Biz senga Robbingdan oyat keltirdik. Hidoyatga ergashgan kishiga salom bo‘lsin».",
+
+48: "«Bizga vahiy qilindiki, azob yolg‘onchi bo‘lgan va yuz o‘girgan kishiga bo‘lur».",
+
+49: "U dedi: «Ey Muso! Sizlarning Robbingiz kim o‘zi?»",
+
+50: "U dedi: «Robbimiz har bir narsaga uning yaratilishini berdi, so‘ngra hidoyat qildi».",
+
+51: "U dedi: «Unda avvalgi avlodlarning holi nima bo‘ladi?»",
+
+52: "U dedi: «Ularning ilmi Robbim huzuridagi Kitobdadir. Robbim adashmaydi ham, unutmaydi ham».",
+
+53: "U sizlar uchun yerni beshik qildi, unda yo‘llar ochdi va osmondan suv tushirdi. Bas, Biz u bilan turli o‘simliklardan juft-juft chiqardik.",
+
+54: "Yenglar va chorvalaringizni boqinglar. Albatta, bunda aql egalari uchun oyatlar bordir.",
+
+55: "Undan sizlarni yaratdik, unga qaytaramiz va undan sizlarni yana bir bor chiqaramiz.",
+
+56: "Biz unga barcha oyatlarimizni ko‘rsatdik, lekin u yolg‘onladi va bosh tortdi.",
+
+57: "U dedi: «Ey Muso! Sehring bilan bizni yerimizdan chiqarish uchun keldingmi?»",
+
+58: "«Biz ham senga o‘xshash sehr keltiramiz. Bas, sen bilan bizning o‘rtamizda bir vaqt va joy belgilagin. Biz ham, sen ham undan chetga chiqmaylik».",
+
+59: "U dedi: «Sizlarning va’dangiz bayram kuni bo‘lsin. Odamlar kunduz payt to‘planadigan joyda bo‘lsin».",
+
+60: "Bas, Fir’avn ketdi, hiylasini jamladi, so‘ngra qaytib keldi.",
+
+61: "Muso ularga dedi: «Holingizga voy bo‘lsin! ALLAHga yolg‘on to‘qimanglar, aks holda U sizlarni azob bilan yo‘q qiladi. Albatta, yolg‘on to‘qigan kishi ziyon ko‘rdi».",
+
+62: "Bas, ular o‘zaro ishlarini muhokama qildilar va yashirincha maslahatlashdilar.",
+
+63: "Ular dedilar: «Bu ikkalasi sehrgar bo‘lib, o‘z sehrlari bilan sizlarni yurtingizdan chiqarishni va eng oliy yo‘lingizni yo‘q qilishni istaydilar».",
+
+64: "«Bas, hiylalaringizni jamlanglar, so‘ngra saf bo‘lib kelinglar. Bugun ustun kelgan kishi najot topadi».",
+
+65: "Ular dedilar: «Ey Muso! Sen tashlaysanmi yoki biz birinchi tashlovchi bo‘laylikmi?»",
+
+66: "U dedi: «Yo‘q, sizlar tashlanglar». Bas, ularning arqonlari va tayoqlari sehrlari sababli unga harakat qilayotgandek tuyuldi.",
+
+67: "Shunda Muso ichida qo‘rquv sezdi.",
+
+68: "Biz dedik: «Qo‘rqma! Albatta, sen ustun bo‘lursan».",
+
+69: "«O‘ng qo‘lingdagi narsani tashla. U ularning qilgan narsalarini yutib yuboradi. Ularning qilganlari faqat sehrgarning hiylasidir. Sehrgar qayerda bo‘lmasin, najot topmaydi».",
+
+70: "Bas, sehrgarlar sajda qilgan holda yiqildilar va dedilar: «Horun va Musoning Robbisiga iymon keltirdik».",
+
+71: "Fir’avn dedi: «Men sizlarga izn bermasdan oldin unga iymon keltirdingizmi? Albatta, u sizlarga sehrni o‘rgatgan kattangizdir. Endi men sizlarning qo‘l va oyoqlaringizni qarama-qarshi tomonlardan kesaman va sizlarni xurmo daraxtlarining tanalariga osaman. Qaysimizning azobi qattiqroq va davomliroq ekanini bilib olasizlar».",
+
+72: "Ular dedilar: «Bizga kelgan ochiq dalillardan va bizni yaratgan Zotdan seni ustun qo‘ymaymiz. Bas, hukmingni qil. Sen faqat bu dunyo hayotida hukm qila olasan».",
+
+73: "«Albatta, biz Robbimizga iymon keltirdik, toki U xatolarimizni va sen bizni majburlagan sehrni mag‘firat qilsin. ALLAH yaxshiroq va boqiyroqdir».",
+
+74: "Albatta, kim Robbisi huzuriga jinoyatchi holida kelsa, unga jahannam bordir. U unda na o‘ladi va na yashaydi.",
+
+75: "Kim Unga mo‘min holda, yaxshi amallar qilgan holda kelsa, ana o‘shalar uchun eng oliy darajalar bordir.",
+
+76: "Adn jannatlari, ostidan anhorlar oqadi. Ular unda abadiy qoladilar. Bu poklangan kishining mukofotidir.",
+
+77: "Biz Musoga vahiy qildik: «Bandalarim bilan kechasi yo‘lga chiq va ular uchun dengizda quruq yo‘l ochgin. Yetib olishdan qo‘rqma va xavotir olma».",
+
+78: "Fir’avn o‘z lashkari bilan ularning ortidan quvdi. Bas, dengiz ularni o‘rab oladigan narsasi bilan o‘rab oldi.",
+
+79: "Fir’avn o‘z qavmini adashtirdi va hidoyat qilmadi.",
+
+80: "Ey Bani Isroil! Biz sizlarni dushmaningizdan qutqardik, Tur tog‘ining o‘ng tomonida sizlarga va’da berdik va sizlarga manna va bedana tushirdik.",
+    
+81: "«Sizlarga bergan pok rizqlarimizdan yenglar va bu borada haddan oshmanglar, aks holda sizlarga g‘azabim tushadi. Kimga g‘azabim tushsa, u halok bo‘ladi».",
+
+82: "«Albatta, Men tavba qilgan, iymon keltirgan, yaxshi amal qilgan va hidoyat topgan kishilarni Mag‘firat qiluvchiman».",
+
+83: "«Ey Muso! Seni qavmingdan oldinroq kelishga nima shoshirdi?»",
+
+84: "U dedi: «Ular mening izimdan kelmoqdalar. Men esa, ey Robbim, roziligingga erishish uchun oldingga shoshildim».",
+
+85: "U dedi: «Biz sendan keyin qavmingni sinadik. Samiriy ularni adashtirdi».",
+
+86: "Bas, Muso g‘azablangan va qayg‘uli holda qavmiga qaytdi. U dedi: «Ey qavmim! Robbingiz sizlarga go‘zal va’da bermaganmidi? Sizlarga uzoq muddat tuyuldimi yoki Robbingizning g‘azabi ustingizga tushishini istadingizlarmi, shuning uchun menga bergan va’dangizga xilof qildingizlarmi?»",
+
+87: "Ular dedilar: «Biz senga bergan va’damizga o‘z ixtiyorimiz bilan xilof qilganimiz yo‘q. Lekin qavmning ziynatlaridan og‘ir yuklarni ko‘targan edik, ularni tashladik. Samiriy ham shunday tashladi».",
+
+88: "Bas, u ular uchun bo‘kiradigan bir buzoq haykalini chiqardi. Ular: «Mana shu sizlarning ham, Musoning ham ilohingizdir, lekin u unutdi», dedilar.",
+
+89: "Ular buzoq ularga biror so‘z qaytara olmasligini va ularga zarar ham, foyda ham bera olmasligini ko‘rmaydilarmi?",
+
+90: "Horun esa ularga oldindan: «Ey qavmim! Sizlar faqat u bilan sinov qilindingizlar. Albatta, Robbingiz Rahmondir. Bas, menga ergashinglar va amrimga itoat qilinglar», degan edi.",
+
+91: "Ular dedilar: «Muso bizga qaytmaguncha unga ibodat qilishdan to‘xtamaymiz».",
+
+92: "U dedi: «Ey Horun! Ularning adashganlarini ko‘rganingda seni nima to‘sdi?»",
+
+93: "«Menga ergashmadingmi? Yoki amrimga qarshi chiqdingmi?»",
+
+94: "U dedi: «Ey onamning o‘g‘li! Soqolimdan ham, boshimdan ham ushlama. Men Bani Isroil orasiga bo‘linish solib qo‘yishingdan va mening so‘zimga quloq solmaganingni aytishingdan qo‘rqdim».",
+
+95: "U dedi: «Ey Samiriy! Sening ishing nima edi?»",
+
+96: "U dedi: «Men ular ko‘rmagan narsani ko‘rdim. Bas, Rasulning izidan bir hovuch oldim va uni tashladim. Shunday qilib, nafsim menga buni chiroyli ko‘rsatdi».",
+
+97: "U dedi: «Ket! Albatta, hayoting davomida: “Menga tegmanglar”, deb aytishing bor. Senga va’da qilingan vaqt ham bor, undan qocholmaysan. O‘zing sig‘ingan ilohingga qara. Biz uni albatta kuydiramiz, so‘ngra uni dengizga sochamiz».",
+
+98: "«Sizlarning ilohingiz faqat ALLAHdir. Undan boshqa iloh yo‘qdir. Uning ilmi barcha narsani qamrab olgan».",
+
+99: "Shunday qilib, Biz senga avval o‘tganlarning xabarlaridan aytib beramiz. Senga O‘z huzurimizdan Zikr berdik.",
+
+100: "Kim undan yuz o‘girsa, albatta, qiyomat kuni og‘ir yuk ko‘taradi.",
+    
+101: "Ular unda abadiy qoladilar. Qiyomat kuni ular uchun bu qanday og‘ir yukdir.",
+
+102: "Sur chalinadigan kunni esla. O‘sha kuni Biz jinoyatchilarni ko‘zlari ko‘kargan holda jamlaymiz.",
+
+103: "Ular o‘zaro pichirlashadilar: «Sizlar dunyoda faqat o‘n kun turgan edingizlar».",
+
+104: "Ularning aytganlarini Biz yaxshiroq bilamiz. Ularning yo‘li eng to‘g‘ri bo‘lgani: «Sizlar faqat bir kun turgan edingizlar», deganidir.",
+
+105: "Sendan tog‘lar haqida so‘raydilar. Ayting: «Robbim ularni butunlay sochib yuboradi».",
+
+106: "«Bas, ularni tekis, silliq yerga aylantiradi».",
+
+107: "«Unda na qiyshiklik va na balandlik ko‘rasan».",
+
+108: "O‘sha kuni ular chaqiruvchiga ergashadilar. Unda hech qanday burilish yo‘qdir. Rahmon oldida ovozlar pasayadi va faqat pichirlashni eshitasan.",
+
+109: "O‘sha kuni Rahmon izn bergan va so‘zidan rozi bo‘lgan kishidan boshqa hech kimning shafoati foyda bermaydi.",
+
+110: "U ularning oldidagi va ortidagi narsalarni biladi. Ular esa Uni ilm bilan qamrab ololmaydilar.",
+
+111: "Yuzlar Hayy va Qayyum bo‘lgan Zotga bo‘ysunadi. Zulm yukini ko‘targan kishi noumid bo‘ladi.",
+
+112: "Kim mo‘min bo‘lgan holda yaxshi amallar qilsa, u zulmdan ham, kamayishdan ham qo‘rqmaydi.",
+
+113: "Shunday qilib, Biz uni arabiy Qur’on qilib nozil qildik va unda turli ogohlantirishlarni bayon qildik. Shoyad ular taqvo qilsalar yoki ularga eslatma bersa.",
+
+114: "Haqiqiy Podshoh bo‘lgan ALLAH oliydir. Qur’on senga to‘liq vahiy qilinishidan oldin uni o‘qishga shoshma va: «Ey Robbim! Ilmimni ziyoda qilgin», degin.",
+
+115: "Darhaqiqat, Biz ilgari Odam bilan ahdlashgan edik. U unutdi va Biz unda qat’iyat topmadik.",
+
+116: "Eslang, Biz malaikalarga: «Odamga sajda qilinglar», deganimizda, ular sajda qildilar, faqat Iblis bosh tortdi.",
+
+117: "Bas, Biz dedik: «Ey Odam! Albatta, bu sening va xotiningning dushmanidir. Bas, u sizlarni jannatdan chiqarmasin, aks holda baxtsiz bo‘lasan».",
+
+118: "«Albatta, unda sen och qolmaysan va yalang‘och ham qolmaysan».",
+
+119: "«Va unda chanqamaysan ham, quyosh issig‘ida qolmaysan».",
+
+120: "So‘ngra shayton unga vasvasa qildi. U dedi: «Ey Odam! Senga abadiylik daraxtini va tugamaydigan mulkni ko‘rsatayinmi?»",
+
+121: "Bas, ikkovlari undan yedilar. Shunda ularga avratlari ochildi va ular ustilariga jannat barglarini yopishtira boshladilar. Odam Robbisiga osiy bo‘ldi va adashdi.",
+
+122: "So‘ngra Robbisi uni tanladi, tavbasini qabul qildi va uni hidoyat qildi.",
+
+123: "U dedi: «Undan (jannatdan) barchangiz tushinglar. Ba’zilaringiz ba’zilaringizga dushmandirsizlar. Agar sizlarga Mendan hidoyat kelsa, kim Mening hidoyatimga ergashsa, adashmaydi va baxtsiz bo‘lmaydi».",
+
+124: "«Kim Mening zikrimdan yuz o‘girsa, albatta, uning uchun tor hayot bordir va qiyomat kuni uni ko‘r holda tiriltiramiz».",
+
+125: "U deydi: «Ey Robbim! Nima uchun meni ko‘r holda tiriltirding? Holbuki, men ko‘ruvchi edim».",
+
+126: "U deydi: «Shunday. Senga Bizning oyatlarimiz keldi, sen esa ularni unutding. Bugun sen ham xuddi shunday unutilasan».",
+
+127: "Biz haddan oshgan va Robbisining oyatlariga iymon keltirmagan kishini shunday jazolaymiz. Oxirat azobi esa yanada qattiqroq va davomliroqdir.",
+
+128: "Ulardan oldin qancha avlodlarni halok qilganimiz ularga hidoyat bo‘lmadimi? Ular ularning maskanlarida yuradilar. Albatta, bunda aql egalari uchun oyatlar bordir.",
+
+129: "Agar Robbingdan oldinroq chiqadigan bir so‘z va belgilangan muddat bo‘lmaganida edi, azob ularga albatta yetgan bo‘lardi.",
+
+130: "Bas, ular aytayotgan narsalarga sabr qilgin va quyosh chiqishidan oldin ham, botishidan oldin ham Robbingni hamd bilan poklagin. Kechaning ayrim vaqtlarida va kunduzning chetlarida ham Uni poklagin. Shoyad rozi bo‘larsan.",
+
+131: "Ko‘zlaringni Biz ulardan ba’zilariga bergan dunyo hayotining ziynatlariga tikma. Biz ularni sinash uchun bergan narsalarimizdir. Robbingning rizqi yaxshiroq va boqiyroqdir.",
+
+132: "Ahl-ingga namozni buyur va o‘zing ham unga sabr qil. Biz sendan rizq so‘ramaymiz. Biz seni rizqlantiramiz. Yaxshi oqibat taqvo uchundir.",
+
+133: "Ular: «U bizga Robbisidan bir oyat keltirsa edi», dedilar. Ularga avvalgi kitoblardagi aniq dalillar kelmaganmi?",
+
+134: "Agar Biz ularni undan oldin biror azob bilan halok qilganimizda edi, albatta: «Ey Robbimiz! Bizga bir Rasul yuborganingda edi, xor va rasvo bo‘lishimizdan oldin Sening oyatlaringga ergashgan bo‘lardik», degan bo‘lardilar.",
+
+135: "Ayting: «Har kim kutmoqda, bas, sizlar ham kutinglar. Tez orada to‘g‘ri yo‘lda kim ekanini va hidoyat topganlar kim ekanini bilib olasizlar».",
+},
+21: {
+1: "Odamlarga hisoblari yaqinlashdi, holbuki ular g‘aflatda yuz o‘giruvchilardir.",
+
+2: "Ularga Robbilaridan yangi bir eslatma kelmasin, uni faqat o‘yin qilib, beparvo holda tinglaydilar.",
+
+3: "Ularning qalblari beparvodir. Zolimlar yashirincha: «Bu sizlar kabi insondan boshqa narsa emasmi? Ko‘rib turib sehrga ergashasizlarmi?» deydilar.",
+
+4: "U dedi: «Robbim osmon va yerdagi har bir so‘zni biladi. U Eshituvchi va Biluvchidir».",
+
+5: "Ular dedilar: «Yo‘q, bu tushlarning aralashmasidir. Yo‘q, uni o‘zi to‘qib chiqardi. Yo‘q, u shoirdir. Bas, avvalgilar yuborilganidek, bizga bir oyat keltirsin».",
+
+6: "Ulardan oldin Biz halok qilgan biror shahar iymon keltirmadi. Endi ular iymon keltiradilarmi?",
+
+7: "Biz sendan oldin ham faqat vahiy qilgan erkaklarni yubordik. Agar bilmasangizlar, Zikr ahllaridan so‘ranglar.",
+
+8: "Biz ularni taom yemaydigan jasadlar qilmaganmiz va ular abadiy qoluvchi ham emas edilar.",
+
+9: "So‘ngra Biz ularga bergan va’damizni bajardik. Ularni va xohlagan kishilarimizni najot qildik, haddan oshganlarni esa halok qildik.",
+
+10: "Albatta, Biz sizlarga sizlar uchun eslatma bo‘lgan Kitobni nozil qildik. Nahotki aql ishlatmasangizlar?",
+
+11: "Biz zulm qilgan qancha shaharlarni parcha-parcha qildik va ulardan keyin boshqa qavmlarni paydo qildik.",
+
+12: "Ular Bizning azobimizni sezganlarida, undan qochishga shoshildilar.",
+
+13: "«Qochmanglar! Sizlarga berilgan ne’matlarga va uylaringizga qaytinglar. Balki sizlardan so‘ralarsizlar».",
+
+14: "Ular dedilar: «Voy holimizga! Albatta, biz zolim bo‘lgan ekanmiz».",
+
+15: "Bas, ularning bu so‘zlari Biz ularni o‘rilgan ekin kabi va so‘ngan olov kabi qilib qo‘ymagunimizcha davom etdi.",
+
+16: "Biz osmonlaru yerni va ular orasidagi narsalarni o‘yin uchun yaratmadik.",
+
+17: "Agar Biz o‘yin-kulgi istaganimizda edi, uni O‘z huzurimizdan olgan bo‘lardik, agar qiluvchi bo‘lganimizda.",
+
+18: "Yo‘q, Biz haqni botil ustiga uramiz, bas, u uni yo‘q qiladi. Bir vaqt kelib, sizlarning vasflaringiz sababli holingizga voy bo‘ladi.",
+
+19: "Osmonlaru yerdagi barcha narsalar Unikidir. Uning huzuridagi zotlar Unga ibodat qilishdan kibrlanmaydilar va charchamaydilar.",
+
+20: "Ular kecha-kunduz Uni poklaydilar va sustlashmaydilar.",
+
+21: "Yerdan olingan narsalardan o‘zlariga ilohlar qildilarmi? Ular o‘liklarni tiriltira oladilarmi?",
+
+22: "Agar osmonlaru yerda ALLAHdan boshqa ilohlar bo‘lganida edi, ikkalasi ham buzilib ketgan bo‘lardi. Bas, Arsh Egasi bo‘lgan ALLAH ularning sifatlaridan pokdir.",
+
+23: "U qilgan narsasi haqida so‘ralmaydi, ular esa so‘raladilar.",
+
+24: "Yoki Undan boshqa ilohlar oldilarmi? Ayting: «Dalilingizni keltiringlar. Bu men bilan birga bo‘lganlarning ham, mendan oldingilarning ham eslatmasidir». Yo‘q, ularning ko‘pchiligi haqni bilmaydilar, shuning uchun yuz o‘giradilar.",
+
+25: "Sendan oldin yuborgan har bir Rasulga: «Mendan boshqa iloh yo‘qdir. Bas, Menga ibodat qilinglar», deb vahiy qilganmiz.",
+
+26: "Ular: «Rahmon farzand tutdi», dedilar. U pokdir. Balki ular hurmatli bandalardir.",
+
+27: "Ular Undan oldin gapirmaydilar va faqat Uning amri bilan amal qiladilar.",
+
+28: "U ularning oldidagi va ortidagi narsalarni biladi. Ular faqat U rozi bo‘lgan kishilargagina shafoat qiladilar va Uning qo‘rquvidan haybatdadirlar.",
+
+29: "Ulardan kim: «Men Undan boshqa ilohman», desa, uni jahannam bilan jazolaymiz. Zolimlarni shunday jazolaymiz.",
+
+30: "Kofir bo‘lganlar osmonlaru yer bir butun bo‘lganini, Biz ularni ajratganimizni va har bir tirik narsani suvdan yaratganimizni ko‘rmadilarmi? Shunda ham iymon keltirmaydilarmi?",
+
+31: "Biz yerda ularni tebratmasligi uchun mustahkam tog‘lar qo‘ydik va ular yo‘l topishlari uchun unda keng yo‘llar qildik.",
+
+32: "Biz osmonni himoyalangan tom qildik. Ular esa uning oyatlaridan yuz o‘giruvchilardir.",
+
+33: "U kecha va kunduzni, quyosh va oyni yaratdi. Har biri o‘z falagida suzib yuradi.",
+
+34: "Biz sendan oldin hech bir insonga abadiylik bermadik. Agar sen vafot etsang, ular abadiy qoladilarmi?",
+
+35: "Har bir jon o‘limni totuvchidir. Biz sizlarni yaxshilik va yomonlik bilan sinov qilib ko‘ramiz. Va sizlar Bizga qaytarilursizlar.",
+
+36: "Kofir bo‘lganlar seni ko‘rganlarida faqat masxara qiladilar: «Mana shu sizlarning ilohlaringizni yomonlayotgan kishimi?» Holbuki, ular Rahmonning zikrini inkor qiluvchilardir.",
+
+37: "Inson shoshqaloq qilib yaratildi. Men sizlarga oyatlarimni ko‘rsataman. Bas, Mendan shoshilishni so‘ramanglar.",
+
+38: "Ular: «Agar rostgo‘y bo‘lsangizlar, bu va’da qachon bo‘ladi?» deydilar.",
+
+39: "Agar kofirlar yuzlaridan ham, orqalaridan ham olovni to‘sa olmasalar va ularga yordam berilmasa edi, bilgan bo‘lardilar.",
+
+40: "Yo‘q, u ularga to‘satdan keladi va ularni hayratda qoldiradi. Uni qaytara olmaydilar va ularga muhlat ham berilmaydi.",
+
+41: "Sendan oldin ham Rasulchilar masxara qilingan edi. Bas, ularni masxara qilganlarni o‘zlari masxara qilgan narsalari o‘rab oldi.",
+
+42: "Ayting: «Sizlarni kechasi va kunduz Rahmondan kim saqlaydi?» Yo‘q, ular Robbilarining zikridan yuz o‘giruvchilardir.",
+
+43: "Yoki ularning Bizdan himoya qiladigan ilohlari bormi? Ular o‘zlariga ham yordam bera olmaydilar va Bizdan ham himoyalana olmaydilar.",
+
+44: "Yo‘q, Biz ularga va ota-bobolariga umr berdik, hatto umr ular uchun uzoq bo‘lib ketdi. Ular yerning chetlaridan kamaytirayotganimizni ko‘rmaydilarmi? Bas, ular g‘olib bo‘la oladilarmi?",
+
+45: "Ayting: «Men sizlarni faqat vahiy bilan ogohlantiraman». Karlar esa ogohlantirilganlarida chaqiriqni eshitmaydilar.",
+
+46: "Agar ularga Robbingning azobidan birgina nafas tegsa, albatta: «Voy holimizga! Biz zolim bo‘lgan ekanmiz», deydilar.",
+
+47: "Qiyomat kuni uchun adolat tarozilarini qo‘yamiz. Hech bir jonga zarracha zulm qilinmaydi. Agar xantal donasidek bo‘lsa ham, uni keltiramiz. Hisob qiluvchi sifatida Biz kifoyamiz.",
+
+48: "Albatta, Biz Muso va Horunga Furqonni, taqvodorlar uchun nur va eslatma bo‘lgan Kitobni berdik.",
+
+49: "Ular Robbilaridan g‘oyibona qo‘rqadilar va Soatdan xavotirdadirlar.",
+
+50: "Bu Biz nozil qilgan muborak Zikrdir. Bas, uni inkor qiluvchilarmisizlar?",
+
+51: "Albatta, Biz ilgari Ibrohimga uning to‘g‘ri yo‘lini bergan edik va Biz uni biluvchi edik.",
+
+52: "U otasi va qavmiga dedi: «Sizlar sig‘inayotgan bu haykallar nima?»",
+
+53: "Ular dedilar: «Biz ota-bobolarimizni ularga ibodat qilayotgan holda topdik».",
+
+54: "U dedi: «Sizlar ham, ota-bobolaringiz ham ochiq adashishda bo‘lgansizlar».",
+
+55: "Ular dedilar: «Sen bizga haqni keltirdingmi yoki hazillashuvchilardansanmi?»",
+
+56: "U dedi: «Yo‘q, sizlarning Robbingiz osmonlaru yerning Robbidir. Ularni yaratgan Zotdir. Men bunga guvohlik beruvchilardandirman».",
+
+57: "«ALLAHga qasamki, sizlar ketganingizdan keyin butlaringizga albatta bir hiyla qilaman».",
+
+58: "Bas, ularni katta butdan boshqa hammasini parcha-parcha qildi. Shoyad unga qaytsalar.",
+
+59: "Ular dedilar: «Kim bizning ilohlarimizga bunday ish qildi? Albatta, u zolimlardan biridir».",
+
+60: "Ular dedilar: «Ibrohim deb ataladigan bir yigitni eshitgan edik, ularni yomonlab gapirardi».",
+    
+ 61: "Ular dedilar: «Bas, uni odamlar ko‘z o‘ngiga keltiringlar, shoyad ular guvohlik bersalar».",
+
+62: "Ular dedilar: «Ey Ibrohim! Bizning ilohlarimizga buni sen qildingmi?»",
+
+63: "U dedi: «Yo‘q, buni ularning mana bu kattasi qildi. Agar gapira olsalar, ulardan so‘ranglar».",
+
+64: "Bas, ular o‘zlariga qaytdilar va dedilar: «Albatta, sizlarning o‘zlaringiz zolimsizlar».",
+
+65: "So‘ngra boshlarini egib: «Sen bilasan, bular gapirmaydilar», dedilar.",
+
+66: "U dedi: «Bas, sizlar ALLAHni qo‘yib, sizlarga hech qanday foyda ham, zarar ham bera olmaydigan narsalarga ibodat qilasizlarmi?»",
+
+67: "«Sizlarga ham, ALLAHni qo‘yib ibodat qilayotgan narsalaringizga ham voy bo‘lsin! Nahotki aql ishlatmasangizlar?»",
+
+68: "Ular dedilar: «Agar biror ish qilmoqchi bo‘lsangizlar, uni yoqinglar va ilohlaringizga yordam beringlar».",
+
+69: "Biz dedik: «Ey olov! Ibrohimga salqin va omon bo‘lgin».",
+
+70: "Ular unga hiyla qilmoqchi bo‘ldilar, lekin Biz ularni eng katta ziyon ko‘ruvchilar qildik.",
+
+71: "Biz uni va Lutni olamlar uchun baraka bergan yerga najot qildik.",
+
+72: "Biz unga Ishoqni va qo‘shimcha ravishda Ya’qubni berdik. Ularning barchasini solihlardan qildik.",
+
+73: "Biz ularni amrimiz bilan hidoyat qiluvchi imomlar qildik va ularga yaxshi amallar qilishni, namozni ado etishni va zakot berishni vahiy qildik. Ular Bizga ibodat qiluvchilar edilar.",
+
+74: "Lutga esa hukm va ilm berdik va uni yomon ishlar qiladigan shahardan najot qildik. Albatta, ular buzuq qavm edilar.",
+
+75: "Biz uni rahmatimizga kiritdik. Albatta, u solihlardan edi.",
+
+76: "Nuhni ham esla. U ilgari duo qilgan edi. Bas, Biz uning duosini qabul qildik va uni hamda oilasini katta g‘amdan qutqardik.",
+
+77: "Uni oyatlarimizni yolg‘on qilgan qavmdan himoya qildik. Albatta, ular yomon qavm edilar. Bas, ularning barchasini g‘arq qildik.",
+
+78: "Dovud va Sulaymonni ham esla. Ular ekinzor haqida hukm qilayotgan edilar, qavmning qo‘ylari kechasi unda yoyilib ketgan edi. Biz ularning hukmiga guvoh edik.",
+
+79: "Bas, uni Sulaymonga anglatdik. Har biriga hukm va ilm berdik. Tog‘lar va qushlarni Dovud bilan birga tasbeh aytishga bo‘ysundirdik. Biz bularni qiluvchilarmiz.",
+
+80: "Biz unga sizlarni urushdagi qattiqligingizdan himoya qiladigan sovut yasashni o‘rgatdik. Bas, shukr qiluvchilarmisizlar?",
+
+81: "Sulaymonga kuchli shamolni bo‘ysundirdik. U uning amri bilan Biz baraka bergan yerga oqardi. Biz har narsani Biluvchimiz.",
+
+82: "Va shaytonlardan uning uchun dengizga sho‘ng‘iydigan va bundan boshqa ishlarni qiladiganlarini ham bo‘ysundirdik. Biz ularni qo‘riqlab turuvchi edik.",
+
+83: "Ayyubni ham esla. U Robbisiga nido qilib: «Menga zarar yetdi. Sen rahm qiluvchilarning eng Rahmlisisan», degan edi.",
+
+84: "Bas, Biz uning duosini qabul qildik, unga yetgan zararni ketkazdik va unga oilasini hamda ular bilan birga yana shunchasini rahmatimizdan berdik. Bu ibodat qiluvchilar uchun eslatmadir.",
+
+85: "Ismoil, Idris va Zul-Kiflni ham esla. Ularning barchasi sabr qiluvchilardan edi.",
+
+86: "Biz ularni rahmatimizga kiritdik. Albatta, ular solihlardandir.",
+
+87: "Baliq egasini ham esla. U g‘azablangan holda ketgan edi va Biz uni hech qachon qiynamaymiz deb o‘yladi. Bas, zulmatlar ichida: «Sendan boshqa iloh yo‘q. Sen poksan. Albatta, men zolimlardan bo‘ldim», deb nido qildi.",
+
+88: "Bas, Biz uning duosini qabul qildik va uni g‘amdan qutqardik. Mo‘minlarni shunday najot qilamiz.",
+
+89: "Zakariyoni ham esla. U Robbisiga nido qilib: «Ey Robbim! Meni yolg‘iz qoldirma. Sen vorislarning eng yaxshisisan», degan edi.",
+
+90: "Bas, Biz uning duosini qabul qildik, unga Yahyoni berdik va xotinini uning uchun tuzatdik. Albatta, ular yaxshiliklarga shoshilar va Bizga umid hamda qo‘rquv bilan duo qilardilar. Ular Bizga kamtar edilar.",
+
+91: "Nomusini saqlagan ayolni ham esla. Biz unga Ruhimizdan pufladik va uni hamda o‘g‘lini olamlar uchun oyat qildik.",
+
+92: "Albatta, bu sizlarning ummatingiz — yagona ummatdir. Men esa sizlarning Robbingizman. Bas, Menga ibodat qilinglar.",
+
+93: "Ular o‘z ishlarini o‘zaro bo‘lib oldilar. Barchalari Bizning huzurimizga qaytuvchidirlar.",
+
+94: "Kim mo‘min bo‘lgan holda yaxshi amallar qilsa, uning sa’y-harakati inkor qilinmaydi. Albatta, Biz uni yozib boruvchilarmiz.",
+
+95: "Biz halok qilgan biror shahar ahliga qaytmasliklari haqida hukm qilingan.",
+
+96: "Nihoyat, Ya’juj va Ma’juj ochilib, ular har bir tepalikdan oqib kelganlarida.",
+
+97: "Haq va’da yaqinlashdi. Bas, kofir bo‘lganlarning ko‘zlari qotib qoladi: «Voy holimizga! Biz bundan g‘aflatda edik. Yo‘q, biz zolim bo‘lgan ekanmiz», deydilar.",
+
+98: "Albatta, sizlar ham, ALLAHni qo‘yib ibodat qilayotgan narsalaringiz ham jahannam yoqilg‘isisizlar. Sizlar unga kirasizlar.",
+
+99: "Agar ular haqiqiy ilohlar bo‘lganida, unga kirmagan bo‘lardilar. Ularning barchasi unda abadiy qoladilar.",
+
+100: "Ular unda ingraydilar va u yerda hech narsani eshitmaydilar.",
+    
+101: "Albatta, Bizdan ularga go‘zal va’da berilgan kishilar jahannamdan uzoqlashtirilganlardir.",
+
+102: "Ular uning ovozini eshitmaydilar va ular ko‘ngillari istagan narsalar ichida abadiy qoladilar.",
+
+103: "Ularni eng katta qo‘rquv ham g‘amga solmaydi. Malaikalar ularni kutib olib: «Mana shu sizlarga va’da qilingan kuningizdir», deydilar.",
+
+104: "U kuni Biz osmonni kitob varaqlarini o‘ragandek o‘raymiz. Birinchi yaratishni boshlaganimiz kabi uni yana qaytaramiz. Bu Bizning zimmamizdagi va’dadir. Albatta, Biz qiluvchilarmiz.",
+
+105: "Darhaqiqat, Zikrda (Tavrotdan keyingi yozuvlarda) yerga Mening solih bandalarim merosxo‘r bo‘lishlari haqida yozdik.",
+
+106: "Albatta, bunda ibodat qiluvchi qavm uchun yetarli xabar bordir.",
+
+107: "Biz seni faqat olamlarga rahmat qilib yubordik.",
+
+108: "Ayting: «Menga faqat shunday vahiy qilinadi: sizlarning ilohingiz yagona ilohdir. Bas, sizlar musulmon bo‘lasizlarmi?»",
+
+109: "Agar ular yuz o‘girsalar, ayting: «Men sizlarga birdek e’lon qildim. Sizlarga va’da qilingan narsa yaqinmi yoki uzoqmi, bilmayman».",
+
+110: "«Albatta, U oshkor aytilgan so‘zni ham biladi va sizlar yashirayotgan narsalarni ham biladi».",
+
+111: "«Bilmayman, balki bu sizlar uchun sinov va ma’lum vaqtgacha foydalanishdir».",
+
+112: "U dedi: «Ey Robbim! Haq bilan hukm qilgin. Bizning Robbimiz Rahmondir. Sizlar aytayotgan narsalarga qarshi Undan yordam so‘raladi».",
+    },
+ 22: {
+1: "Ey insonlar! Robbingizdan qo‘rqinglar. Albatta, Qiyomat soatining zilzilasi ulkan narsadir.",
+
+2: "Uni ko‘radigan kuningizda har bir emizuvchi emizayotgan bolasini unutadi va har bir homilador o‘z yukini tashlaydi. Odamlarni mast holda ko‘rasan, holbuki ular mast emaslar. Lekin ALLAHning azobi qattiqdir.",
+
+3: "Odamlardan shundaylari borki, bilmasdan ALLAH haqida tortishadilar va har bir isyonkor shaytonga ergashadilar.",
+
+4: "U haqida yozilganki, kim uni do‘st tutsa, u albatta uni adashtiradi va alangali azobga boshlaydi.",
+
+5: "Ey insonlar! Agar tirilish haqida shubhada bo‘lsangizlar, albatta, Biz sizlarni tuproqdan, so‘ng tomchidan, so‘ng laxta qondan, so‘ng shakllangan va shakllanmagan go‘sht bo‘lagidan yaratganimizni bayon qilamiz. Bu sizlarga tushuntirish uchundir. Biz bachadonlarda xohlagan narsamizni belgilangan muddatgacha qoldiramiz. So‘ngra sizlarni go‘dak holida chiqaramiz, keyin kuchga yetishingiz uchun. Sizlardan ba’zilaringiz vafot etadi, ba’zilaringiz esa eng zaif umrga qaytariladi, toki bilgandan keyin hech narsani bilmay qoladi. Yerning quruq ekanini ko‘rasan. Bas, unga suv tushirganimizda u qimirlaydi, ko‘tariladi va har xil go‘zal o‘simliklarni undiradi.",
+
+6: "Bu shundandirki, ALLAHning O‘zi Haqdir va U o‘liklarni tiriltiradi hamda U har narsaga Qodirdir.",
+
+7: "Albatta, Soat keluvchidir. Unda shubha yo‘qdir. Albatta, ALLAH qabrlardagi kishilarni tiriltiradi.",
+
+8: "Odamlardan shundaylari borki, ilm, hidoyat yoki nurli Kitobsiz ALLAH haqida tortishadi.",
+
+9: "U bo‘ynini burib, odamlarni ALLAH yo‘lidan adashtirish uchun (shunday qiladi). U uchun dunyoda xorlik bordir va Qiyomat kuni unga kuydiruvchi azobni tottiramiz.",
+
+10: "Bu sening qo‘llaring oldindan qilgan narsalaring sababli. Albatta, ALLAH bandalariga zulm qiluvchi emasdir.",
+
+11: "Odamlardan shundaylari borki, ALLAHga chekka holda ibodat qiladi. Agar unga yaxshilik yetsa, xotirjam bo‘ladi. Agar unga sinov yetsa, yuz o‘giradi. U dunyoni ham, oxiratni ham boy beradi. Bu aniq ziyonning o‘zidir.",
+
+12: "U ALLAHni qo‘yib, unga zarar ham, foyda ham bera olmaydigan narsalarga duo qiladi. Bu uzoq adashishdir.",
+
+13: "U zarari foydasidan yaqinroq bo‘lgan narsaga duo qiladi. U naqadar yomon yordamchi va naqadar yomon hamrohdir.",
+
+14: "Albatta, ALLAH iymon keltirgan va yaxshi amallar qilganlarni ostidan anhorlar oqadigan jannatlarga kiritadi. Albatta, ALLAH xohlagan narsasini qiladi.",
+
+15: "Kim ALLAH unga dunyoda ham, oxiratda ham yordam bermaydi deb o‘ylasa, bir sabab bilan osmonga cho‘zilsin, so‘ng uzib tashlasin va qarasin: uning hiylasi g‘azabini ketkaza oladimi?",
+
+16: "Shunday qilib, Biz uni ochiq oyatlar sifatida nozil qildik. Albatta, ALLAH xohlagan kishisini hidoyat qiladi.",
+
+17: "Albatta, iymon keltirganlar, yahudiylar, sobiiylar, nasroniylar, majusiylar va shirk keltirganlar orasida ALLAH Qiyomat kuni hukm qiladi. Albatta, ALLAH har narsaga guvohdir.",
+
+18: "Osmonlardagi va yerdagi kim bo‘lsa ham, quyosh, oy, yulduzlar, tog‘lar, daraxtlar, jonivorlar va ko‘p insonlar ALLAHga sajda qilayotganini ko‘rmadingmi? Ko‘p kishilarga esa azob haq bo‘ldi. Kimni ALLAH xor qilsa, uni hurmat qiluvchi yo‘qdir. Albatta, ALLAH xohlaganini qiladi.",
+
+19: "Mana bular Robbilari haqida tortishgan ikki qarama-qarshi guruhdir. Kofir bo‘lganlar uchun olovdan kiyimlar bichildi. Ularning boshlaridan qaynoq suv quyiladi.",
+
+20: "U bilan qorinlaridagi narsalar va terilari eritiladi.",
+    
+ 21: "Ular uchun temir qamchilar bordir.",
+
+22: "Har safar undan, g‘amdan chiqmoqchi bo‘lsalar, unga qaytariladilar va ularga: «Kuydiruvchi azobni totib ko‘ringlar», deyiladi.",
+
+23: "Albatta, ALLAH iymon keltirgan va yaxshi amallar qilganlarni ostidan anhorlar oqadigan jannatlarga kiritadi. U yerda oltin bilaguzuklar va marvaridlar bilan bezanadilar, u yerdagi kiyimlari ipakdir.",
+
+24: "Ular go‘zal so‘zga hidoyat qilindilar va Hamid bo‘lgan Zotning yo‘liga hidoyat qilindilar.",
+
+25: "Albatta, kofir bo‘lganlar va odamlarni ALLAH yo‘lidan hamda Biz odamlar uchun barobar qilgan Masjidul Haromdan to‘sayotganlar... Kim u yerda zulm bilan og‘ish istasa, Biz unga alamli azobni tottiramiz.",
+
+26: "Eslang, Biz Ibrohimga Uyning joyini tayyorlab: «Menga hech narsani sherik qilma va Mening Uyimni tavof qiluvchilar, tik turuvchilar, ruku’ va sajda qiluvchilar uchun pokla», degan edik.",
+
+27: "«Odamlar orasida hajni e’lon qilgin. Ular piyoda va har qanday ozg‘in tuyalar ustida uzoq yo‘llardan oldingga keladilar».",
+
+28: "«Toki ular o‘zlari uchun foydalarni ko‘rsinlar va ma’lum kunlarda ularga rizq qilib bergan chorva hayvonlari ustida ALLAHning ismini zikr qilsinlar. Bas, undan yenglar va faqir miskinni ham yediringlar».",
+
+29: "«So‘ngra ular kirlarini ketkazsinlar, nazrlarini ado etsinlar va qadimiy Uyni tavof qilsinlar».",
+
+30: "Ana shunday. Kim ALLAHning hurmatli narsalarini ulug‘lasa, bu uning Robbisi huzurida o‘zi uchun yaxshidir. Sizlarga tilovat qilinadiganlardan tashqari chorva hayvonlari halol qilindi. Bas, butlardan bo‘lgan najosatdan uzoq bo‘linglar va yolg‘on so‘zdan uzoq bo‘linglar.",
+
+31: "ALLAHga xolis bo‘lgan holda, Unga shirk keltirmagan holda. Kim ALLAHga shirk keltirsa, go‘yo u osmondan qulagan va qushlar uni olib ketgan yoki shamol uni uzoq joyga uloqtirgan kabidir.",
+
+32: "Ana shunday. Kim ALLAHning shiorlarini ulug‘lasa, albatta, bu qalblarning taqvosidandir.",
+
+33: "Sizlar uchun ularda belgilangan muddatgacha foydalar bor. So‘ngra ularning joyi qadimiy Uy tomonidir.",
+
+34: "Har bir ummat uchun Biz ularga rizq qilib bergan chorva hayvonlari ustida ALLAHning ismini zikr qilishlari uchun ibodat marosimini belgiladik. Bas, sizlarning ilohingiz yagona ilohdir. Unga bo‘ysuninglar. Kamtar kishilarga xushxabar ber.",
+
+35: "Ular — ALLAH zikr qilinganda qalblari qo‘rqadigan, o‘zlariga yetgan narsalarga sabr qiladigan, namozni ado qiladigan va Biz ularga bergan narsalardan sarflaydigan kishilardir.",
+
+36: "Katta hayvonlarni (qurbonliklarni) sizlar uchun ALLAHning shiorlaridan qildik. Sizlar uchun ularda yaxshilik bor. Bas, ular saf tortgan holda turganlarida ustilarida ALLAHning ismini zikr qilinglar. Yonboshlari tushganida esa ulardan yenglar va qanoat qiluvchi hamda so‘rovchini yediringlar. Shunday qilib, Biz ularni sizlarga bo‘ysundirdik. Shoyad shukr qilsangizlar.",
+
+37: "Ularning go‘shtlari ham, qonlari ham ALLAHga yetmaydi. Lekin Unga sizlarning taqvolaringiz yetadi. U sizlarni hidoyat qilgani uchun ALLAHni ulug‘lashingiz uchun ularni sizlarga bo‘ysundirdi. Yaxshilik qiluvchilarga xushxabar ber.",
+
+38: "Albatta, ALLAH iymon keltirganlarni himoya qiladi. Albatta, ALLAH xiyonatkor va noshukr kishilarni sevmaydi.",
+
+39: "O‘zlariga qarshi urush qilinayotganlari uchun (jangga) izn berildi. Chunki ularga zulm qilindi. Albatta, ALLAH ularga yordam berishga Qodirdir.",
+
+40: "Ular faqat: «Robbimiz ALLAHdir», deganlari uchun nohaq yurtlaridan chiqarib yuborilgan kishilardir. Agar ALLAH odamlarning ba’zilarini ba’zilari bilan daf qilmaganida edi, unda ALLAHning ismi ko‘p zikr qilinadigan monastirlar, cherkovlar, ibodatxonalar va masjidlar vayron qilingan bo‘lardi. Albatta, ALLAH O‘ziga yordam beradiganlarga yordam beradi. Albatta, ALLAH Kuchli va G‘olibdir.",
+
+41: "Ular shunday kishilarki, agar Biz ularni yer yuzida hokim qilsak, namozni ado etadilar, zakot beradilar, yaxshilikka buyuradilar va yomonlikdan qaytaradilar. Ishlarning oqibati ALLAHgadir.",
+
+42: "Agar ular seni yolg‘onchi qilsalar, ulardan oldin Nuh qavmi, Od va Samud ham yolg‘onchi qilgan edi.",
+
+43: "Ibrohim qavmi va Lut qavmi ham.",
+
+44: "Mad’yandagi kishilar ham. Muso ham yolg‘onchi qilindi. Bas, Men kofirlarga muhlat berdim, so‘ngra ularni ushladim. Mening inkorim qanday bo‘lganini ko‘rdingmi?",
+
+45: "Biz qancha shaharlarni halok qildik. Ular zulm qilgan edilar. Bas, ularning tomlari qulab tushdi va tashlab qo‘yilgan quduqlar hamda mustahkam qasrlar vayron bo‘ldi.",
+
+46: "Ular yer yuzida yurmadilarmi, toki ular bilan anglaydigan qalblar va eshitadigan quloqlar bo‘lsin? Albatta, ko‘zlar ko‘r bo‘lmaydi, balki ko‘krakdagi qalblar ko‘r bo‘ladi.",
+
+47: "Ular sendan azobni tezlashtirishni so‘raydilar. ALLAH o‘z va’dasiga aslo xilof qilmaydi. Albatta, Robbing huzuridagi bir kun sizlar sanayotgan ming yil kabidir.",
+
+48: "Qancha shaharlarni zulm qilgan hollarida ularga muhlat berdim. So‘ngra ularni ushladim. Qaytish faqat Mening huzurimgadir.",
+
+49: "Ayting: «Ey insonlar! Men sizlar uchun faqat ochiq ogohlantiruvchiman».",
+
+50: "Bas, iymon keltirgan va yaxshi amallar qilganlar uchun Mag‘firat va ulug‘ rizq bordir.",
+
+51: "Bizning oyatlarimizni yo‘qqa chiqarishga harakat qilganlar esa — ana o‘shalar jahannam ahllaridir.",
+
+52: "Sendan oldin yuborgan hech bir Rasul va payg‘ambar yo‘qki, u tilovat qilganida shayton uning tilovatiga biror narsa tashlamagan bo‘lsin. Lekin ALLAH shayton tashlagan narsani bekor qiladi, so‘ngra ALLAH O‘z oyatlarini mustahkam qiladi. ALLAH Biluvchi va Hikmat Egasi.",
+
+53: "Bu shayton tashlagan narsani qalblarida kasallik bo‘lganlar va qalblari qotib qolganlar uchun sinov qilish uchundir. Albatta, zolimlar uzoq qarama-qarshilikdadirlar.",
+
+54: "Va ilm berilganlar uning Robbingdan bo‘lgan haq ekanini bilishlari, unga iymon keltirishlari va qalblari unga bo‘ysunishi uchundir. Albatta, ALLAH iymon keltirganlarni to‘g‘ri yo‘lga boshlovchidir.",
+
+55: "Kofir bo‘lganlar esa, ularga Soat to‘satdan kelgunicha yoki bepusht kunning azobi kelgunicha undan shubhada qoladilar.",
+
+56: "O‘sha kuni mulk ALLAHnikidir. U ular orasida hukm qiladi. Bas, iymon keltirgan va yaxshi amallar qilganlar ne’mat bog‘laridadirlar.",
+
+57: "Kofir bo‘lgan va oyatlarimizni yolg‘on qilganlar uchun esa xor qiluvchi azob bordir.",
+
+58: "ALLAH yo‘lida hijrat qilib, so‘ngra o‘ldirilgan yoki vafot etganlarga ALLAH albatta go‘zal rizq beradi. Albatta, ALLAH rizq beruvchilarning eng yaxshisidir.",
+
+59: "Ularni o‘zlari rozi bo‘ladigan joyga kiritadi. Albatta, ALLAH Biluvchi va Halimdir.",
+
+60: "Ana shunday. Kim o‘ziga qilingan zulmga teng miqdorda javob qaytarsa, so‘ngra unga yana zulm qilinsa, albatta, ALLAH unga yordam beradi. Albatta, ALLAH Afv etuvchi va Mag‘firat qiluvchidir.",
+
+61: "Bu shundandirki, ALLAH kechani kunduzga kiritadi va kunduzni kechaga kiritadi. Albatta, ALLAH Eshituvchi va Ko‘ruvchidir.",
+
+62: "Bu shundandirki, ALLAHning O‘zi Haqdir. Ular Undan boshqa duo qilayotgan narsalari esa botildir. Albatta, ALLAH Oliy va Buyukdir.",
+
+63: "ALLAH osmondan suv tushirib, yer yashillikka kirganini ko‘rmadingmi? Albatta, ALLAH Mehribon va Xabardordir.",
+
+64: "Osmonlaru yerdagi narsalar Unikidir. Albatta, ALLAH Behojat va Hamdga loyiqdir.",
+
+65: "ALLAH yerdagi narsalarni va Uning amri bilan dengizda suzuvchi kemalarni sizlarga bo‘ysundirganini ko‘rmadingmi? U osmonni O‘z iznisiz yerga tushib ketishidan ushlab turadi. Albatta, ALLAH odamlarga Mehribon va Rahmlidir.",
+
+66: "U sizlarga hayot berdi, so‘ngra sizlarni o‘ldiradi, so‘ngra tiriltiradi. Albatta, inson juda noshukrdir.",
+
+67: "Har bir ummat uchun Biz ular amal qiladigan ibodat yo‘lini belgiladik. Bas, ular bu ishda sen bilan tortishmasinlar. Robbingga da’vat qilgin. Albatta, sen to‘g‘ri hidoyat ustidasan.",
+
+68: "Agar ular sen bilan tortishsalar, ayt: «ALLAH qilayotgan ishlaringizni yaxshiroq biladi».",
+
+69: "«Qiyomat kuni ALLAH sizlar ixtilof qilgan narsalar haqida orangizda hukm qiladi».",
+
+70: "ALLAH osmondagi va yerdagi narsalarni bilishini bilmaysanmi? Albatta, bu Kitobdadir. Albatta, bu ALLAH uchun osondir.",
+
+71: "Ular ALLAHni qo‘yib, U hech qanday dalil tushirmagan va o‘zlari haqida ilmga ega bo‘lmagan narsalarga ibodat qiladilar. Zolimlar uchun yordamchi yo‘qdir.",
+
+72: "Ularga Bizning ochiq oyatlarimiz tilovat qilinganda, kofir bo‘lganlarning yuzlarida inkorni ko‘rasan. Ular Bizning oyatlarimizni o‘qiyotganlarga tashlanishga yaqin bo‘ladilar. Ayting: «Sizlarga bundan ham yomonrog‘ini xabar qilaymi? U — ALLAH kofir bo‘lganlarga va’da qilgan olovdir. U naqadar yomon oqibatdir».",
+
+73: "Ey insonlar! Bir misol keltirildi, unga quloq solinglar. Sizlar ALLAHni qo‘yib duo qilayotgan narsalar, agar barchasi jam bo‘lsalar ham, bir pashshani yarata olmaydilar. Agar pashsha ulardan biror narsani tortib olsa, uni undan qutqara olmaydilar. Talab qiluvchi ham, talab qilinuvchi ham zaifdir.",
+
+74: "Ular ALLAHni haqiqiy ulug‘lash bilan ulug‘lamadilar. Albatta, ALLAH Kuchli va G‘olibdir.",
+
+75: "ALLAH malaikalardan ham, insonlardan ham Rasulchilar tanlaydi. Albatta, ALLAH Eshituvchi va Ko‘ruvchidir.",
+
+76: "U ularning oldidagi va ortidagi narsalarni biladi. Barcha ishlar ALLAHga qaytariladi.",
+
+77: "Ey iymon keltirganlar! Ruku’ qilinglar, sajda qilinglar, Robbingizga ibodat qilinglar va yaxshilik qilinglar. Shoyad najot topsangizlar.",
+
+78: "ALLAH yo‘lida haqiqiy jihod bilan harakat qilinglar. U sizlarni tanladi va dinda sizlarga qiyinchilik qilmadi. Otangiz Ibrohimning diniga ergashinglar. U sizlarni ilgari ham, bu Qur’onda ham «musulmonlar» deb atadi. Rasul sizlarga guvoh bo‘lishi va sizlar odamlarga guvoh bo‘lishingiz uchun. Bas, namozni ado qilinglar, zakot beringlar va ALLAHga bog‘laninglar. U sizlarning homiyingizdir. U naqadar yaxshi homiy va naqadar yaxshi yordamchidir.",
+    },
+ 23: {
+1: "Albatta, mo‘minlar najot topdilar.",
+
+2: "Ular namozlarida xushu’ qiluvchilardir.",
+
+3: "Ular behuda so‘zlardan yuz o‘giruvchilardir.",
+
+4: "Ular zakotni ado qiluvchilardir.",
+
+5: "Ular o‘z farjlarini saqlovchilardir.",
+
+6: "Faqat o‘z juftlari yoki qo‘llari egalik qilganlar bundan mustasnodir. Albatta, ular malomat qilinuvchilar emas.",
+
+7: "Bas, kim bundan ortig‘ini istasa, ana o‘shalar haddan oshuvchilardir.",
+
+8: "Ular omonatlari va ahdlariga rioya qiluvchilardir.",
+
+9: "Ular namozlarini saqlovchilardir.",
+
+10: "Ana o‘shalar vorislardir.",
+
+11: "Ular Firdavsga voris bo‘ladilar. Ular unda abadiy qoladilar.",
+
+12: "Albatta, Biz insonni loyning aslidan yaratdik.",
+
+13: "So‘ngra uni mustahkam joydagi tomchi qildik.",
+
+14: "So‘ngra tomchini laxta qonga aylantirdik, laxta qonni go‘sht bo‘lagiga aylantirdik, go‘sht bo‘lagidan suyaklar yaratdik, suyaklarni go‘sht bilan qopladik. So‘ngra uni boshqa bir yaratish bilan paydo qildik. Bas, yaratuvchilarning eng go‘zali bo‘lgan ALLAH barakotlidir.",
+
+15: "So‘ngra bundan keyin albatta o‘lasizlar.",
+
+16: "So‘ngra Qiyomat kuni albatta tiriltirilasizlar.",
+
+17: "Albatta, Biz sizlarning ustingizda yetti yo‘l yaratdik va Biz yaratishdan g‘ofil emasmiz.",
+
+18: "Biz osmondan o‘lchov bilan suv tushirdik va uni yerda joylashtirdik. Albatta, Biz uni ketkazishga ham Qodirmiz.",
+
+19: "Bas, u bilan sizlar uchun xurmo va uzum bog‘larini o‘stirdik. Unda sizlar uchun ko‘p mevalar bor va undan yeysizlar.",
+
+20: "Va Tur tog‘idan chiqadigan daraxtni ham yaratdik. U yog‘ va yeguvchilar uchun ziravor bilan o‘sadi.",
+    
+21: "Albatta, chorva hayvonlarida sizlar uchun ibrat bordir. Biz sizlarni ularning qorinlaridagi narsalardan sug‘oramiz. Ularda sizlar uchun ko‘p foydalar bor va ulardan yeysizlar.",
+
+22: "Ularning ustida va kemalarda tashilursizlar.",
+
+23: "Albatta, Biz Nuhni uning qavmiga yubordik. U dedi: «Ey qavmim! ALLAHga ibodat qilinglar. Sizlar uchun Undan boshqa iloh yo‘qdir. Nahotki qo‘rqmasangizlar?»",
+
+24: "Uning qavmidan kofir bo‘lgan zodagonlar dedilar: «Bu sizlarga o‘xshagan insondan boshqa narsa emas. U sizlardan ustun bo‘lishni istaydi. Agar ALLAH xohlaganida, albatta, malaikalarni tushirgan bo‘lardi. Biz buni avvalgi ota-bobolarimizdan eshitmaganmiz».",
+
+25: "«U faqat jinni bo‘lgan bir kishidir. Bas, uni ma’lum vaqtgacha kuzatinglar».",
+
+26: "U dedi: «Ey Robbim! Meni yolg‘onchi qilganlariga qarshi menga yordam ber».",
+
+27: "Bas, Biz unga vahiy qildik: «Ko‘z o‘ngimizda va vahyimiz bilan kemani yasagin. Bizning amrimiz kelib, tandir qaynaganida, har bir juftdan ikkitadan va oilangdan ustiga hukm kelganlardan tashqari kishilarni olgin. Zulm qilganlar haqida Menga gapirma. Albatta, ular g‘arq qilinuvchilardir».",
+
+28: "Sen va sen bilan birga bo‘lganlar kemaga joylashganingizda: «Bizni zolim qavmdan qutqargan ALLAHga hamd bo‘lsin», degin.",
+
+29: "Va ayt: «Ey Robbim! Meni muborak tushadigan joyga tushirgin. Sen tushiruvchilarning eng yaxshisisan».",
+
+30: "Albatta, bunda oyatlar bor. Albatta, Biz sinov qiluvchimiz.",
+
+31: "So‘ngra ulardan keyin boshqa avlodni paydo qildik.",
+
+32: "Ularga o‘zlaridan bo‘lgan Rasul yubordik: «ALLAHga ibodat qilinglar. Sizlar uchun Undan boshqa iloh yo‘qdir. Nahotki qo‘rqmasangizlar?»",
+
+33: "Uning qavmidan kofir bo‘lgan va oxirat uchrashuvini yolg‘on qilgan hamda Biz ularga dunyo hayotida farovonlik bergan zodagonlar dedilar: «Bu sizlarga o‘xshagan insondan boshqa narsa emas. U sizlar yeyayotgan narsadan yeydi va sizlar ichayotgan narsadan ichadi».",
+
+34: "«Agar sizlar o‘zingizga o‘xshagan insonga itoat qilsangizlar, albatta, ziyon ko‘ruvchilardan bo‘lasizlar».",
+
+35: "«U sizlarga o‘lib, tuproq va suyak bo‘lganingizdan keyin chiqarilishingizni va’da qiladimi?»",
+
+36: "«Sizlarga va’da qilinayotgan narsa juda uzoq, juda uzoqdir».",
+
+37: "«Bu faqat dunyo hayotimizdir. O‘lamiz va yashaymiz. Biz qayta tiriltirilmaymiz».",
+
+38: "«U faqat ALLAH haqida yolg‘on to‘qigan kishidir. Biz unga ishonmaymiz».",
+
+39: "U dedi: «Ey Robbim! Meni yolg‘onchi qilganlariga qarshi menga yordam ber».",
+
+40: "U dedi: «Oz vaqt ichida ular albatta pushaymon bo‘ladilar».",
+
+41: "Bas, ularni haq bilan qattiq ovoz tutdi va Biz ularni oqimga aylangan chiqindiga aylantirdik. Zolim qavm uzoq bo‘lsin.",
+
+42: "So‘ngra ulardan keyin boshqa avlodlarni paydo qildik.",
+
+43: "Hech bir ummat o‘z muddatidan oldinga ham o‘ta olmaydi, ortga ham qololmaydi.",
+
+44: "So‘ngra Biz Rasulchilarimizni ketma-ket yubordik. Har safar bir ummatga uning Rasuli kelganida, ular uni yolg‘onchi qildilar. Bas, Biz ularni bir-birining ortidan halok qildik va ularni rivoyatlarga aylantirdik. Iymon keltirmaydigan qavm uzoq bo‘lsin.",
+
+45: "So‘ngra Muso va uning birodari Horunni oyatlarimiz va aniq dalil bilan yubordik.",
+
+46: "Fir’avn va uning zodagonlariga. Bas, ular kibr qildilar va mutakabbir qavm edilar.",
+
+47: "Ular dedilar: «Biz kabi inson bo‘lgan ikki kishiga iymon keltiramizmi? Holbuki, ularning qavmi bizga qullik qiluvchilardir».",
+
+48: "Bas, ular ikkovlarini yolg‘onchi qildilar va halok qilinganlardan bo‘ldilar.",
+
+49: "Darhaqiqat, Biz Musoga Kitob berdik, shoyad ular hidoyat topsalar.",
+
+50: "Maryam o‘g‘lini va uning onasini ham bir oyat qildik va ikkovlarini oqar suvli, baland va osoyishta joyga joylashtirdik.",
+
+51: "Ey Rasulchilar! Pok narsalardan yenglar va yaxshi amal qilinglar. Albatta, Men qilayotgan ishlaringizni Biluvchiman.",
+
+52: "Albatta, bu sizlarning ummatingiz — yagona ummatdir. Men esa sizlarning Robbingizman. Bas, Mendan qo‘rqinglar.",
+
+53: "Ammo ular o‘z ishlarini o‘zaro bo‘lib tashladilar. Har bir guruh o‘zidagi narsadan xursanddir.",
+
+54: "Bas, ularni o‘z g‘aflatlari ichida bir muddatgacha qoldirgin.",
+
+55: "Ular Biz ularga mol va farzandlar bilan yordam berganimizni",
+
+56: "ularga yaxshiliklarni tezlashtirib berayotganimiz deb o‘ylaydilarmi? Yo‘q, ular anglamaydilar.",
+
+57: "Albatta, Robbilaridan qo‘rqib hayiqadiganlar",
+
+58: "Robbilarining oyatlariga iymon keltiradiganlar",
+
+59: "Robbilariga shirk keltirmaydiganlar",
+
+60: "Va beradigan narsalarini berib turib, qalblari Robbilariga qaytuvchi bo‘lgan kishilardir.",
+
+61: "Ana o‘shalar yaxshiliklarga shoshiladilar va ular unda oldindadirlar.",
+
+62: "Biz hech bir jonni uning quvvati yetmaydigan narsaga yuklamaymiz. Bizning huzurimizda haqni so‘zlaydigan Kitob bor va ularga zulm qilinmaydi.",
+
+63: "Yo‘q, ularning qalblari bundan g‘aflatdadir. Bundan tashqari, ular qiluvchi boshqa ishlari ham bor.",
+
+64: "Nihoyat, ulardan farovonlikda yashayotganlarini azob bilan ushlaganimizda, ular faryod qiladilar.",
+
+65: "Bugun faryod qilmanglar. Albatta, sizlarga Bizdan yordam berilmaydi.",
+
+66: "Darhaqiqat, oyatlarim sizlarga tilovat qilinar edi, sizlar esa ortingizga qaytib ketar edingizlar.",
+
+67: "Kibr qilgan holda, kechasi u haqda behuda so‘zlar aytardingizlar.",
+
+68: "Ular bu So‘z (Qur’on) haqida tafakkur qilmadilarmi? Yoki ularga avvalgi ota-bobolariga kelmagan narsa keldimi?",
+
+69: "Yoki ular o‘z Rasulini tanimadilar, shuning uchun uni inkor qilmoqdalar?",
+
+70: "Yoki: «Unda jinnilik bor», deydilarmi? Yo‘q, u ularga haqni keltirdi. Holbuki, ularning ko‘pchiligi haqni yomon ko‘radilar.",
+
+71: "Agar haq ularning havolariga ergashganida edi, osmonlaru yer va ulardagi narsalar buzilib ketgan bo‘lardi. Yo‘q, Biz ularga Zikrlarini berdik, ammo ular o‘z Zikrlaridan yuz o‘giruvchilardir.",
+
+72: "Yoki sen ulardan biror haq so‘rayapsanmi? Robbingning rizqi yaxshiroqdir. U rizq beruvchilarning eng yaxshisidir.",
+
+73: "Albatta, sen ularni to‘g‘ri yo‘lga da’vat qilmoqdasan.",
+
+74: "Albatta, oxiratga iymon keltirmaydiganlar yo‘ldan og‘uvchilardir.",
+
+75: "Agar Biz ularga rahm qilib, ulardagi zararni ketkazganimizda ham, ular o‘z tug‘yonlarida adashib yurishda davom etardilar.",
+
+76: "Darhaqiqat, Biz ularni azob bilan ushladik, lekin ular Robbilariga bo‘yin egmadilar va yolvormadilar.",
+
+77: "Nihoyat, ularga qattiq azob eshigini ochganimizda, ular birdan undan noumid bo‘lib qoladilar.",
+
+78: "U sizlar uchun quloqlarni, ko‘zlarni va qalblarni yaratgan Zotdir. Sizlar juda oz shukr qilasizlar.",
+
+79: "U sizlarni yer yuzida tarqatgan Zotdir va sizlar Uning huzuriga jamlanasizlar.",
+
+80: "U tiriltiradigan va o‘ldiradigan Zotdir. Kecha va kunduzning almashishi Uning ishidir. Nahotki aql ishlatmasangizlar?",
+
+81: "Yo‘q, ular avvalgilar aytganlarini aytdilar.",
+
+82: "Ular dedilar: «Biz o‘lib, tuproq va suyak bo‘lganimizdan keyin ham tiriltirilamizmi?»",
+
+83: "«Bu va’da bizga ham, ota-bobolarimizga ham ilgari berilgan edi. Bu faqat avvalgilar afsonalaridir».",
+
+84: "Ayting: «Agar bilsangizlar, yer va undagi narsalar kimniki?»",
+
+85: "Ular: «ALLAHniki», deydilar. Ayting: «Nahotki eslatma olmasangizlar?»",
+
+86: "Ayting: «Yetti osmonning Robbisi va ulug‘ Arshning Robbisi kim?»",
+
+87: "Ular: «ALLAH», deydilar. Ayting: «Nahotki taqvo qilmasangizlar?»",
+
+88: "Ayting: «Agar bilsangizlar, har bir narsaning mulki qo‘lida bo‘lgan, O‘zi himoya qiluvchi, Undan himoya qilinmaydigan Zot kim?»",
+
+89: "Ular: «ALLAH», deydilar. Ayting: «Qanday qilib sehrlanib qolgansizlar?»",
+
+90: "Yo‘q, Biz ularga haqni keltirdik. Ular esa, albatta, yolg‘onchilardir.",
+
+91: "ALLAH farzand tutmagan va U bilan birga boshqa iloh ham yo‘qdir. Agar shunday bo‘lganida, har bir iloh o‘zi yaratgan narsasi bilan ketgan va ba’zilari ba’zilaridan ustun bo‘lishga harakat qilgan bo‘lardi. ALLAH ularning sifatlaridan pokdir.",
+
+92: "U g‘aybni ham, oshkorani ham Biluvchidir. U ularning shirk keltirgan narsalaridan oliydir.",
+
+93: "Ayting: «Ey Robbim! Agar ularga va’da qilinayotgan narsani menga ko‘rsatsang ham...»",
+
+94: "«Ey Robbim! Meni zolim qavm orasida qoldirma».",
+
+95: "Albatta, Biz ularga va’da qilinayotgan narsani senga ko‘rsatishga Qodirmiz.",
+
+96: "Yomonlikni eng yaxshi yo‘l bilan daf qil. Biz ularning aytayotgan narsalarini yaxshiroq bilamiz.",
+
+97: "Va ayt: «Ey Robbim! Shaytonlarning vasvasalaridan Senga panoh so‘rayman».",
+
+98: "«Ey Robbim! Ularning huzurimga kelishidan Senga panoh so‘rayman».",
+
+99: "Nihoyat, ulardan biriga o‘lim kelganida, u aytadi: «Ey Robbim! Meni qaytargin».",
+
+100: "«Shoyad men tark qilgan narsamda yaxshi amal qilsam». Yo‘q! Bu faqat uning aytgan so‘zidir. Ularning ortida esa ular tiriltiriladigan kungacha to‘siq bordir.",
+
+101: "Sur chalingan kuni ular orasida nasablar bo‘lmaydi va ular bir-birlaridan so‘ramaydilar.",
+
+102: "Bas, kimning tarozilari og‘ir kelsa, ana o‘shalar najot topuvchilardir.",
+
+103: "Kimning tarozilari yengil kelsa, ana o‘shalar o‘zlariga zarar yetkazganlardir. Ular jahannamda abadiy qoladilar.",
+
+104: "Olov ularning yuzlarini kuydiradi va ular unda xunuk holatda qoladilar.",
+
+105: "«Sizlarga oyatlarim tilovat qilinmaganmidiki, sizlar ularni yolg‘on der edingizlar?»",
+
+106: "Ular deydilar: «Ey Robbimiz! Bizning baxtsizligimiz bizni bosib ketdi va biz adashgan qavm bo‘ldik».",
+
+107: "«Ey Robbimiz! Bizni undan chiqargin. Agar yana qaytsak, albatta, zolimlardan bo‘lamiz».",
+
+108: "U aytadi: «Unda xor holda qolinglar va Men bilan gaplashmanglar».",
+
+109: "Albatta, bandalarimdan bir guruhi: «Ey Robbimiz! Biz iymon keltirdik, bas, bizni mag‘firat qilgin va bizga rahm qilgin. Sen rahm qiluvchilarning eng yaxshisisan», der edilar.",
+
+110: "Sizlar esa ularni masxara qildingizlar, toki ular sizlarga Mening zikrimni unutdirdilar. Sizlar ulardan kulardingizlar.",
+
+111: "Albatta, Men bugun ularga sabr qilganlari sababli mukofot berdim. Albatta, ular najot topuvchilardir.",
+
+112: "U aytadi: «Yer yuzida necha yil turdingizlar?»",
+
+113: "Ular deydilar: «Bir kun yoki kunning bir qismi turdik. Bas, hisoblovchilardan so‘ragin».",
+
+114: "U aytadi: «Sizlar juda oz turgan ekansizlar. Agar bilganingizda edi».",
+
+115: "«Sizlarni Biz bekorga yaratdik va sizlar Bizning huzurimizga qaytarilmaysizlar deb o‘yladingizlarmi?»",
+
+116: "Bas, Haqiqiy Podshoh bo‘lgan ALLAH oliydir. Undan boshqa iloh yo‘qdir. U ulug‘ Arshning Robbidir.",
+
+117: "Kim ALLAH bilan birga boshqa ilohga duo qilsa — buning uchun unda hech qanday dalil yo‘q — uning hisobi faqat Robbisi huzuridadir. Albatta, kofirlar najot topmaydilar.",
+
+118: "Va ayt: «Ey Robbim! Mag‘firat qilgin va rahm qilgin. Sen rahm qiluvchilarning eng yaxshisisan».",
+    },
+24: {
+1: "Bu Biz nozil qilgan va hukmlarini farz qilgan suradir. Unda ochiq oyatlar nozil qildik. Shoyad eslatma olsangizlar.",
+
+2: "Zino qilgan ayol va zino qilgan erkakning har birini yuz darra uringlar. Agar ALLAHga va oxirat kuniga iymon keltirsangizlar, ALLAHning dinida ularga nisbatan rahm-shafqat sizlarni to‘smasin. Ularning azoblanishiga mo‘minlardan bir guruhi guvoh bo‘lsin.",
+
+3: "Zino qiluvchi erkak faqat zino qiluvchi ayol yoki mushrika ayolga uylanadi. Zino qiluvchi ayolga esa faqat zino qiluvchi erkak yoki mushrik uylanadi. Bu mo‘minlarga harom qilingan.",
+
+4: "Pok ayollarni ayblab, so‘ngra to‘rt guvoh keltira olmagan kishilarni sakson darra uringlar va ularning guvohligini abadiy qabul qilmanglar. Ana o‘shalar fosiqlardir.",
+
+5: "Faqat bundan keyin tavba qilgan va isloh qilganlar bundan mustasnodir. Albatta, ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+6: "O‘z xotinlarini ayblab, o‘zlaridan boshqa guvohlari bo‘lmagan kishilarning guvohligi — ularning har biri ALLAH nomi bilan to‘rt marta guvohlik berishidir: «Albatta, men rostgo‘ylardandirman».",
+
+7: "Beshinchisida esa: «Agar yolg‘onchilardan bo‘lsam, ALLAHning la’nati menga bo‘lsin», deydi.",
+
+8: "Ayolning esa azobdan qutulishi uchun, agar u ALLAH nomi bilan to‘rt marta: «Albatta, u yolg‘onchilardandir», deb guvohlik bersa bo‘ladi.",
+
+9: "Beshinchisida esa: «Agar u rostgo‘ylardan bo‘lsa, ALLAHning g‘azabi menga bo‘lsin», deydi.",
+
+10: "Agar sizlarga ALLAHning fazli va rahmati bo‘lmaganida edi va ALLAH Tavbalarni qabul qiluvchi, Hikmat Egasi bo‘lmaganida edi, holingiz qanday bo‘lardi?",
+
+11: "Albatta, katta bo‘htonni keltirganlar sizlardan bir guruhdir. Uni sizlar uchun yomonlik deb o‘ylamanglar, balki u sizlar uchun yaxshilikdir. Ulardan har biriga qilgan gunohiga yarasha jazo bor. Ularning kattasiga esa ulkan azob bordir.",
+
+12: "Uni eshitganingizda, mo‘min erkaklar va mo‘min ayollar o‘zlari haqida yaxshi gumonda bo‘lib: «Bu ochiq bo‘hton», desalar edi.",
+
+13: "Nega ular unga to‘rt guvoh keltirmadilar? Bas, guvohlarni keltira olmaganlar ALLAH huzurida yolg‘onchilardir.",
+
+14: "Agar dunyoda ham, oxiratda ham ALLAHning fazli va rahmati sizlarga bo‘lmaganida edi, unga kirishgan narsangiz sababli sizlarga ulkan azob yetgan bo‘lardi.",
+
+15: "O‘sha paytda uni tillaringiz bilan qabul qilardingizlar va bilmagan narsangizni og‘izlaringiz bilan gapirardingizlar. Uni arzimas deb o‘ylardingizlar, holbuki u ALLAH huzurida ulkan narsadir.",
+
+16: "Uni eshitganingizda: «Bizga bu haqda gapirish yarashmaydi. Poksan Sen! Bu ulkan bo‘htondir», desangiz edi.",
+
+17: "Agar mo‘min bo‘lsangizlar, ALLAH sizlarga bunday narsaga qaytmaslikni nasihat qiladi.",
+
+18: "ALLAH sizlarga oyatlarni bayon qiladi. ALLAH Biluvchi va Hikmat Egasi.",
+
+19: "Mo‘minlar orasida buzuqlik tarqalishini istaganlar uchun dunyoda ham, oxiratda ham alamli azob bordir. ALLAH biladi, sizlar esa bilmaysizlar.",
+
+20: "Agar sizlarga ALLAHning fazli va rahmati bo‘lmaganida edi va ALLAH Mehribon va Rahmli bo‘lmaganida edi, holingiz qanday bo‘lardi?",
+    
+ 21: "Ey iymon keltirganlar! Shaytonning izidan ergashmanglar. Kim shaytonning izidan ergashsa, albatta, u buzuqlik va yomonlikka buyuradi. Agar sizlarga ALLAHning fazli va rahmati bo‘lmaganida edi, sizlardan hech kim poklana olmagan bo‘lardi. Lekin ALLAH xohlagan kishisini poklaydi. ALLAH Eshituvchi va Biluvchidir.",
+
+22: "Sizlardan fazl va boylik egalari qarindoshlar, miskinlar va hijrat qilganlarga bermaslikka qasam ichmasinlar. Ular afv etsinlar va kechirsinlar. Nahotki ALLAH sizlarni mag‘firat qilishini istamaysizlarmi? ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+23: "Albatta, pokiza, bexabar mo‘min ayollarni ayblaganlar dunyoda ham, oxiratda ham la’natlangandirlar. Ular uchun ulkan azob bordir.",
+
+24: "U kuni ularning tillari, qo‘llari va oyoqlari qilgan ishlari haqida ularga guvohlik beradi.",
+
+25: "O‘sha kuni ALLAH ularga haqiqiy jazolarini to‘liq beradi va ular ALLAHning Ochiq Haq ekanini biladilar.",
+
+26: "Yomon ayollar yomon erkaklar uchundir, yomon erkaklar yomon ayollar uchundir. Pok ayollar pok erkaklar uchundir, pok erkaklar pok ayollar uchundir. Ular aytilgan narsalardan pokdirlar. Ular uchun mag‘firat va ulug‘ rizq bordir.",
+
+27: "Ey iymon keltirganlar! O‘z uylaringizdan boshqa uylarga izn so‘ramasdan va ahliga salom bermasdan kirmanglar. Bu sizlar uchun yaxshiroqdir. Shoyad eslatma olsangizlar.",
+
+28: "Agar uylarda hech kimni topmasangizlar, sizlarga izn berilmaguncha kirmanglar. Agar sizlarga: «Qaytinglar», deyilsa, qaytinglar. Bu sizlar uchun pokroqdir. ALLAH qilayotgan ishlaringizni biluvchidir.",
+
+29: "Yashash uchun bo‘lmagan, ichida o‘zingizga tegishli narsalar bo‘lgan uylarga kirishingizda sizlarga gunoh yo‘qdir. ALLAH oshkor qilayotgan narsalaringizni ham, yashirayotgan narsalaringizni ham biladi.",
+
+30: "Mo‘min erkaklarga ayt: ko‘zlarini haromdan saqlasinlar va farjlarini himoya qilsinlar. Bu ular uchun pokroqdir. Albatta, ALLAH qilayotgan ishlaridan Xabardordir.",
+
+31: "Mo‘min ayollarga ham ayt: ko‘zlarini haromdan saqlasinlar, farjlarini himoya qilsinlar va ziynatlarini ko‘rsatmasinlar, faqat ko‘rinib turganidan tashqari. Ro‘mollarini ko‘kraklari ustiga tashlasinlar. Ziynatlarini erlari, otalari, erlarining otalari, o‘g‘illari, erlarining o‘g‘illari, aka-ukalari, aka-ukalarining o‘g‘illari, opa-singillarining o‘g‘illari, ayollari, qo‘llari egalik qilganlar, shahvati yo‘q erkaklar va ayollarning avratlarini bilmaydigan bolalardan boshqa hech kimga ko‘rsatmasinlar. Yashirgan ziynatlari bilinishi uchun oyoqlarini urmasinlar. Ey mo‘minlar! Barchangiz ALLAHga tavba qilinglar, shoyad najot topsangizlar.",
+
+32: "Orangizdagi yolg‘izlarni va solih qullaringiz hamda cho‘rilaringizni uylantiringlar. Agar kambag‘al bo‘lsalar, ALLAH ularni O‘z fazli bilan boy qiladi. ALLAH Keng va Biluvchidir.",
+
+33: "Nikoh topa olmaydiganlar ALLAH ularni O‘z fazli bilan boy qilgunicha iffatlarini saqlasinlar. Qo‘llaringiz egalik qilganlardan ozodlik shartnomasi istaganlar bo‘lsa, agar ularda yaxshilik bilsangizlar, ular bilan shartnoma qilinglar va ALLAH sizlarga bergan molidan ularga beringlar. Dunyo hayotining manfaatini istab, pok bo‘lishni xohlagan cho‘rilaringizni zinoga majburlamanglar. Kim ularni majburlasa, albatta, majburlanganidan keyin ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+34: "Albatta, Biz sizlarga ochiq oyatlar, sizlardan oldingi o‘tganlardan misollar va taqvodorlar uchun nasihat nozil qildik.",
+
+35: "ALLAH osmonlar va yerning nuridir. Uning nurining misoli ichida chiroq bo‘lgan tokchaga o‘xshaydi. Chiroq shishadadir. Shisha go‘yo yorqin yulduzdir. U sharqiy ham, g‘arbiy ham bo‘lmagan muborak zaytun daraxtidan yoqiladi. Uning yog‘i olov tegmasa ham yorishishga yaqin. Nur ustiga nur. ALLAH xohlagan kishisini O‘z nuriga hidoyat qiladi. ALLAH odamlar uchun misollar keltiradi. ALLAH har narsani Biluvchidir.",
+
+36: "Uylarda ALLAH yuksaltirilishiga va Uning nomi zikr qilinishiga izn bergan. U yerda ertayu kech Uni poklaydilar.",
+
+37: "Ular shunday kishilarki, tijorat ham, oldi-sotdi ham ularni ALLAH zikridan, namozni ado etishdan va zakot berishdan chalg‘itmaydi. Ular qalblar va ko‘zlar ag‘dariladigan kundan qo‘rqadilar.",
+
+38: "Toki ALLAH ularni qilgan amallarining eng go‘zaliga yarasha mukofotlasin va ularga O‘z fazlidan ziyoda bersin. ALLAH xohlagan kishisiga hisobsiz rizq beradi.",
+
+39: "Kofirlarning amallari esa sahrodagi sarob kabidir. Chanqagan kishi uni suv deb o‘ylaydi. Nihoyat, unga yetib kelganida hech narsa topmaydi va ALLAHni o‘z huzurida topadi. U esa uning hisobini to‘liq beradi. ALLAH hisobni tez qiluvchidir.",
+
+40: "Yoki ularning amallari chuqur dengizdagi zulmatlarga o‘xshaydi. Uni to‘lqin ustidagi to‘lqin va ustidan bulut qoplagan. Zulmatlar bir-birining ustidadir. Kishi qo‘lini chiqarsa, uni ham ko‘ra olmaydi. Kimga ALLAH nur bermasa, unga hech qanday nur yo‘qdir.",
+
+41: "Osmonlaru yerdagi va saf tortib uchayotgan qushlarni ALLAH poklab turganini ko‘rmadingmi? Har biri o‘zining duosi va tasbehini biladi. ALLAH ularning qilayotgan ishlarini Biluvchidir.",
+
+42: "Osmonlaru yerning mulki ALLAHnikidir. Qaytish ham ALLAH huzuriga bo‘ladi.",
+
+43: "Ko‘rmadingmi, ALLAH bulutlarni haydaydi, so‘ng ularni birlashtiradi, so‘ng ularni to‘playdi. Bas, ular orasidan yomg‘ir chiqayotganini ko‘rasan. U osmondagi tog‘lardan do‘l tushiradi va uni xohlagan kishisiga yetkazadi, xohlaganidan buradi. Uning chaqmog‘ining yorug‘ligi ko‘zlarni olib ketishga yaqin.",
+
+44: "ALLAH kecha va kunduzni almashtiradi. Albatta, bunda ko‘zi borlar uchun ibrat bordir.",
+
+45: "ALLAH har bir jonivorni suvdan yaratdi. Ulardan ba’zilari qorni bilan yuradi, ba’zilari ikki oyoqda yuradi, ba’zilari esa to‘rt oyoqda yuradi. ALLAH xohlagan narsasini yaratadi. Albatta, ALLAH har narsaga Qodirdir.",
+
+46: "Darhaqiqat, Biz ochiq oyatlar nozil qildik. ALLAH xohlagan kishisini to‘g‘ri yo‘lga hidoyat qiladi.",
+
+47: "Ular: «Biz ALLAHga va Rasulga iymon keltirdik va itoat qildik», deydilar. So‘ngra ulardan bir guruhi bundan keyin yuz o‘giradi. Ana o‘shalar mo‘min emaslar.",
+
+48: "Ular orasida hukm qilish uchun ALLAH va Uning Rasuliga chaqirilganlarida, ulardan bir guruhi yuz o‘giruvchilardir.",
+
+49: "Agar haq ular tomonida bo‘lsa, unga bo‘ysunib keladilar.",
+
+50: "Ularning qalblarida kasallik bormi? Yoki shubha qildilarmi? Yoki ALLAH va Uning Rasuli ularga zulm qilishidan qo‘rqadilarmi? Yo‘q, ana o‘shalar zolimlardir.",
+
+51: "Mo‘minlarning so‘zi esa, ular ALLAH va Uning Rasuli huzurida hukm qilinishga chaqirilganlarida: «Eshitdik va itoat qildik», deyishlaridir. Ana o‘shalar najot topuvchilardir.",
+
+52: "Kim ALLAHga va Uning Rasuliga itoat qilsa, ALLAHdan qo‘rqsa va Undan taqvo qilsa, ana o‘shalar yutuqqa erishuvchilardir.",
+
+53: "Ular: «Agar buyursang, albatta, chiqamiz», deb ALLAH nomi bilan kuchli qasam ichdilar. Ayting: «Qasam ichmanglar. Ma’lum bo‘lgan itoat yaxshiroqdir. Albatta, ALLAH qilayotgan ishlaringizdan Xabardordir».",
+
+54: "Ayting: «ALLAHga itoat qilinglar, Rasulga itoat qilinglar». Agar yuz o‘girsangizlar, uning zimmasida unga yuklangan narsa, sizlarning zimmangizda esa sizlarga yuklangan narsa bor. Agar unga itoat qilsangizlar, hidoyat topasizlar. Rasulning zimmasida esa faqat ochiq yetkazish bor.",
+
+55: "ALLAH sizlardan iymon keltirgan va yaxshi amallar qilganlarga, ulardan oldingilarni yer yuzida xalifa qilgani kabi, ularni ham xalifa qilishni va’da qildi. Ular uchun rozi bo‘lgan dinlarini mustahkam qilishni va qo‘rquvlaridan keyin ularga omonlik berishni va’da qildi. Ular Menga ibodat qiladilar va Menga hech narsani sherik qilmaydilar. Kim bundan keyin kufr qilsa, ana o‘shalar fosiqlardir.",
+
+56: "Namozni ado qilinglar, zakot beringlar va Rasulga itoat qilinglar. Shoyad rahm qilinsangizlar.",
+
+57: "Kofir bo‘lganlar yer yuzida qochib qutula olamiz deb o‘ylamasinlar. Ularning joyi jahannamdir. U naqadar yomon qaytish joyidir.",
+
+58: "Ey iymon keltirganlar! Qo‘llaringiz egalik qilganlar va balog‘atga yetmaganlaringiz uch vaqtda sizlardan izn so‘rasinlar: bomdod namozidan oldin, peshin paytida kiyimlaringizni yechadigan vaqtingizda va xufton namozidan keyin. Bu sizlarning avratingiz bo‘lgan uch vaqtdir. Ulardan keyin sizlarga ham, ularga ham gunoh yo‘q. Ular sizlarning oldingizda aylanib yuruvchilardir. ALLAH oyatlarni sizlarga shunday bayon qiladi. ALLAH Biluvchi va Hikmat Egasi.",
+
+59: "Bolalaringiz balog‘atga yetganlarida, ulardan oldingilar izn so‘raganidek, ular ham izn so‘rasinlar. ALLAH oyatlarini sizlarga shunday bayon qiladi. ALLAH Biluvchi va Hikmat Egasi.",
+
+60: "Nikohga umidi qolmagan keksa ayollarga ziynatlarini ko‘rsatmagan holda ustki kiyimlarini qo‘yishlarida gunoh yo‘qdir. Lekin iffat saqlashlari ular uchun yaxshiroqdir. ALLAH Eshituvchi va Biluvchidir.",
+
+61: "Ko‘zi ojizga gunoh yo‘q, cho‘loqqa gunoh yo‘q, bemorga gunoh yo‘q va o‘z uylaringizda yoki otalaringiz uylarida yoki onalaringiz uylarida yoki aka-ukalaringiz uylarida yoki opa-singillaringiz uylarida yoki amakilaringiz uylarida yoki xolalaringiz uylarida yoki kalitlari sizlarga topshirilgan uylarda yoki do‘stlaringiz uylarida ovqatlanishingizda ham gunoh yo‘q. Birgalikda yoki alohida ovqatlanishingizda sizlarga gunoh yo‘q. Uyga kirganingizda, ALLAH huzuridan muborak va pok salom bilan salomlashinglar. ALLAH oyatlarni sizlarga shunday bayon qiladi, shoyad aql ishlatsangizlar.",
+
+62: "Mo‘minlar faqat ALLAHga va Uning Rasuliga iymon keltirgan kishilardir. Ular u bilan birga umumiy ish ustida bo‘lganlarida, undan izn so‘ramaguncha ketmaydilar. Sendan izn so‘raydiganlar ana o‘shalar ALLAHga va Uning Rasuliga iymon keltirganlardir. Bas, ular ba’zi ishlari uchun sendan izn so‘rasalar, ulardan xohlaganingga izn ber va ular uchun ALLAHdan mag‘firat so‘ra. Albatta, ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+63: "Rasulni o‘z orangizda bir-biringizni chaqirgandek chaqirmanglar. ALLAH sizlardan yashirincha sirg‘alib chiqib ketuvchilarni biladi. Uning amriga xilof qiladiganlar ularga fitna yoki alamli azob yetishidan ehtiyot bo‘lsinlar.",
+
+64: "Ogoh bo‘linglar! Osmonlaru yerdagi narsalar ALLAHnikidir. U sizlarning holingizni biladi. Unga qaytariladigan kuningizda qilgan ishlaringizni sizlarga xabar beradi. ALLAH har narsani Biluvchidir.",
+},
+25: {
+1: "Olamlarga ogohlantiruvchi bo‘lishi uchun bandasi Muhammadga Furqonni nozil qilgan Zot barakotlidir.",
+
+2: "U osmonlaru yerning mulki O‘ziga tegishli bo‘lgan Zotdir. U farzand tutmadi va mulkida Unga sherik yo‘qdir. U har narsani yaratdi va uni aniq o‘lchov bilan taqdir qildi.",
+
+3: "Ular esa Undan boshqa hech narsani yarata olmaydigan, o‘zlari yaratilgan, o‘zlariga zarar ham, foyda ham bera olmaydigan, o‘limga ham, hayotga ham, tiriltirishga ham ega bo‘lmagan narsalarni iloh qilib oldilar.",
+
+4: "Kofir bo‘lganlar: «Bu faqat uning o‘zi to‘qib olgan yolg‘onidir va bunga boshqa qavm yordam berdi», dedilar. Bas, ular zulm va yolg‘on keltirdilar.",
+
+5: "Ular yana: «Bu avvalgilarning afsonalaridir, uni o‘zi yozdirib olgan. U unga ertayu kech o‘qib beriladi», dedilar.",
+
+6: "Ayting: «Uni osmonlaru yerning sirlarini biluvchi Zot nozil qildi. Albatta, U Mag‘firat qiluvchi va Rahmlidir».",
+
+7: "Ular dedilar: «Bu qanday Rasulki, taom yeydi va bozorlarda yuradi? Unga biror malaika tushirilsa edi, u bilan birga ogohlantiruvchi bo‘lsa edi».",
+
+8: "«Yoki unga xazina tashlanganida edi yoki uning yeydigan bog‘i bo‘lganida edi». Zolimlar: «Sizlar faqat sehrlangan kishiga ergashyapsizlar», dedilar.",
+
+9: "Qara, ular senga qanday misollar keltirdilar! Bas, adashdilar va yo‘l topa olmaydilar.",
+
+10: "Agar xohlasa, senga bundan yaxshiroq narsani — ostidan anhorlar oqadigan jannatlarni va qasrlarni beradigan Zot barakotlidir.",
+
+11: "Yo‘q, ular Soatni yolg‘on qildilar. Soatni yolg‘on qilganlar uchun alangali olov tayyorladik.",
+
+12: "U ularni uzoq joydan ko‘rganida, uning g‘azabli ovozini va nafasini eshitadilar.",
+
+13: "Ular bog‘langan holda uning tor joyiga tashlanganlarida, o‘sha yerda halokatni chaqiradilar.",
+
+14: "Bugun bir halokatni chaqirmanglar, ko‘p halokatlarni chaqiringlar.",
+
+15: "Ayting: «Bu yaxshimi yoki taqvodorlarga va’da qilingan abadiy jannatmi? Ular uchun mukofot va qaytish joyidir».",
+
+16: "Ular uchun unda istagan narsalari abadiy bordir. Bu Robbing zimmasidagi so‘ralgan va’dadir.",
+
+17: "Ularni va ALLAHni qo‘yib ibodat qilgan narsalarini jamlaydigan kunida U aytadi: «Sizlar Mening bandalarimni adashtirdingizlarmi yoki ular o‘zlari yo‘ldan adashdilarmi?»",
+
+18: "Ular aytadilar: «Sen poksan! Bizga Sendan boshqa homiylar tutish yarashmas edi. Lekin Sen ularga va ota-bobolariga ne’mat berding, natijada ular Zikrni unutgan qavm bo‘ldilar va halok bo‘ldilar».",
+
+19: "Bas, ular sizlar aytgan narsalaringizni yolg‘on qildilar. Endi na azobni qaytara olasizlar va na yordam topa olasizlar. Sizlardan kim zulm qilsa, unga katta azobni tottiramiz.",
+
+20: "Biz sendan oldin ham faqat taom yeydigan va bozorlarda yuradigan Rasulchilarni yubordik. Biz ba’zilaringizni ba’zilaringizga sinov qildik. Sabr qilasizlarmi? Robbing Ko‘ruvchidir.",
+ 
+21: "Bizga uchrashishni umid qilmaydiganlar: «Bizga malaikalar tushirilsa edi yoki Robbimizni ko‘rsak edi», dedilar. Ular o‘zlarini katta ko‘rdilar va haddan tashqari kibr qildilar.",
+
+22: "Ular malaikalarni ko‘radigan kun — o‘sha kuni jinoyatchilar uchun xushxabar bo‘lmaydi va ular: «To‘silgan, man etilgan», deydilar.",
+
+23: "Biz ularning qilgan ishlariga yuzlanamiz va uni sochilgan chang kabi qilib qo‘yamiz.",
+
+24: "O‘sha kuni jannat ahlining joyi yaxshiroq va dam olish joyi chiroyliroqdir.",
+
+25: "Osmon bulutlar bilan yorilib, malaikalar tushiriladigan kunni esla.",
+
+26: "O‘sha kuni haqiqiy mulk Rahmonga tegishlidir. U kun kofirlar uchun og‘ir kundir.",
+
+27: "O‘sha kuni zolim qo‘llarini tishlab: «Koshki edi, Rasul bilan birga yo‘l tutganimda edi», deydi.",
+
+28: "«Voy holimga! Koshki falonchini do‘st tutmaganimda edi».",
+
+29: "«Darhaqiqat, u menga Zikr kelganidan keyin undan to‘sdi. Shayton insonni tashlab qo‘yuvchidir».",
+
+30: "Rasul: «Ey Robbim! Albatta, qavmim bu Qur’onni tark qilingan narsa qildilar», deydi.",
+
+31: "Shunday qilib, Biz har bir payg‘ambarga jinoyatchilardan dushmanlar qildik. Hidoyat qiluvchi va yordamchi sifatida Robbing kifoyadir.",
+
+32: "Kofir bo‘lganlar: «Unga Qur’on bir yo‘la tushirilsa edi», dedilar. Biz uni sening qalbingni mustahkamlash uchun shunday bosqichma-bosqich nozil qildik va uni tartibli ravishda o‘qib berdik.",
+
+33: "Ular senga qanday misol keltirmasinlar, Biz senga haqni va eng yaxshi tafsirni keltiramiz.",
+
+34: "Yuzlari bilan jahannamga haydaladiganlar — ana o‘shalar joy jihatidan eng yomon va yo‘l jihatidan eng adashganlardir.",
+
+35: "Darhaqiqat, Biz Musoga Kitob berdik va uning bilan birga akasi Horunni yordamchi qildik.",
+
+36: "Bas, ularga: «Bizning oyatlarimizni yolg‘on qilgan qavm oldiga boringlar», dedik. So‘ngra ularni butunlay halok qildik.",
+
+37: "Nuh qavmini ham, ular Rasulchilarni yolg‘on qilganlarida, g‘arq qildik va ularni odamlar uchun ibrat qildik. Zolimlar uchun alamli azob tayyorladik.",
+
+38: "Od, Samud va Rass ahlini hamda ular orasidagi ko‘p avlodlarni ham.",
+
+39: "Biz ularning har biriga misollar keltirdik va barchasini butunlay yo‘q qildik.",
+
+40: "Ular ustiga yomon yomg‘ir yog‘dirilgan shaharga kelgan edilar. Nahotki uni ko‘rmagan bo‘lsalar? Yo‘q, ular tirilishga umid qilmas edilar.",
+
+41: "Ular seni ko‘rganlarida faqat masxara qiladilar: «ALLAH Rasul qilib yuborgan kishi shumi?»",
+
+42: "«Agar biz sabr qilganimizda edi, albatta, bizni ilohlarimizdan adashtirishiga oz qolgan edi». Ular azobni ko‘rganlarida kim ko‘proq yo‘ldan adashganini bilib oladilar.",
+
+43: "Havoyi nafsini o‘ziga iloh qilib olgan kishini ko‘rdingmi? Sen unga vakil bo‘la olasanmi?",
+
+44: "Yoki ularning ko‘pchiligi eshitadi yoki anglaydi deb o‘ylaysanmi? Ular faqat chorva hayvonlari kabidirlar, balki yo‘l jihatidan yanada adashganroqdirlar.",
+
+45: "Robbing soyani qanday yoyganini ko‘rmadingmi? Agar xohlasa, uni sokin qilgan bo‘lardi. So‘ngra quyoshni unga dalil qildik.",
+
+46: "So‘ngra uni Bizga oson ravishda tortib olamiz.",
+
+47: "U sizlar uchun kechani libos, uyquni orom va kunduzni tarqalish vaqti qilgan Zotdir.",
+
+48: "U rahmatidan oldin shamollarni xushxabar qilib yuboradi. Biz osmondan poklovchi suv tushirdik.",
+
+49: "Toki u bilan o‘lik yerni tiriltiraylik va yaratgan chorva hamda ko‘p insonlarni undan sug‘oraylik.",
+
+50: "Biz uni ular orasida eslatma olishlari uchun turli-tuman taqsimladik. Lekin odamlarning ko‘pchiligi faqat noshukrlikni qabul qildilar.",
+
+51: "Agar xohlasak, har bir shaharga ogohlantiruvchi yuborgan bo‘lardik.",
+
+52: "Bas, kofirlarga itoat etma va u bilan (Qur’on bilan) ularga qarshi katta kurash qil.",
+
+53: "U ikki dengizni qo‘shib qo‘ygan Zotdir. Bu biri chuchuk va chanqoqni bosuvchi, bu biri sho‘r va achchiqdir. Ularning orasiga to‘siq va mustahkam parda qo‘ydi.",
+
+54: "U suvdan inson yaratdi va uni nasab va quda-andachilik egasi qildi. Robbing Qodirdir.",
+
+55: "Ular ALLAHni qo‘yib, ularga foyda ham, zarar ham bera olmaydigan narsalarga ibodat qiladilar. Kofir o‘z Robbisiga qarshi yordamchi bo‘ladi.",
+
+56: "Biz seni faqat xushxabar beruvchi va ogohlantiruvchi qilib yubordik.",
+
+57: "Ayting: «Men buning uchun sizlardan haq so‘ramayman. Faqat kim xohlasa, Robbisi tomon yo‘l tutsin».",
+
+58: "Va o‘lmaydigan Tirik Zotga tavakkul qilgin va Uni hamd bilan poklagin. U bandalarining gunohlaridan xabardor bo‘lishi kifoyadir.",
+
+59: "U osmonlaru yerni va ular orasidagi narsalarni olti kunda yaratgan Zotdir. So‘ngra Arsh ustida hukmron bo‘ldi. U Rahmondir. Bas, U haqda Biluvchidan so‘ra.",
+
+60: "Ularga: «Rahmonga sajda qilinglar», deyilganda, ular: «Rahmon nima? Biz sen buyurgan narsaga sajda qilamizmi?» dedilar va bu ularning nafratini ziyoda qildi.",
+
+61: "Osmonlarda burjlar yaratgan, unda chiroq (quyosh) va nur sochuvchi oy yaratgan Zot barakotlidir.",
+
+62: "U kecha va kunduzni bir-birining o‘rniga keluvchi qildi. Kim eslatma olishni yoki shukr qilishni xohlasa, buning uchun (ibrat) bordir.",
+
+63: "Rahmonning bandalari yer yuzida kamtarona yuradigan va johillar ularga gapirganlarida: «Salom», deydigan kishilardir.",
+
+64: "Ular kechalarini Robbilariga sajda va tik turish bilan o‘tkazadilar.",
+
+65: "Ular: «Ey Robbimiz! Bizdan jahannam azobini burgin. Albatta, uning azobi doimiydir», deydilar.",
+
+66: "«Albatta, u naqadar yomon joy va naqadar yomon maskandir».",
+
+67: "Ular sarflaganlarida isrof ham qilmaydilar, xasislik ham qilmaydilar. Bu ikkisining o‘rtasida o‘rtacha yo‘l tutadilar.",
+
+68: "Ular ALLAH bilan birga boshqa ilohga duo qilmaydilar, ALLAH harom qilgan jonni nohaq o‘ldirmaydilar va zino qilmaydilar. Kim bularni qilsa, gunohga duch keladi.",
+
+69: "Qiyomat kuni unga azob ko‘paytiriladi va u unda xor holda abadiy qoladi.",
+
+70: "Faqat tavba qilgan, iymon keltirgan va yaxshi amal qilgan kishilar bundan mustasno. Ana o‘shalarning yomonliklarini ALLAH yaxshiliklarga almashtiradi. ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+71: "Kim tavba qilib, yaxshi amal qilsa, albatta, u ALLAHga chin tavba bilan qaytadi.",
+
+72: "Ular yolg‘on guvohlik bermaydilar va behuda narsalar yonidan o‘tganlarida, hurmat bilan o‘tadilar.",
+
+73: "Ular Robbilarining oyatlari eslatilganda, ularga kar va ko‘r holda yiqilmaydilar.",
+
+74: "Ular: «Ey Robbimiz! Bizga juftlarimiz va farzandlarimizdan ko‘z quvonchi ato etgin va bizni taqvodorlarga peshvo qilgin», deydilar.",
+
+75: "Ana o‘shalar sabr qilganlari sababli oliy xonalar bilan mukofotlanadilar va u yerda salom va tinchlik bilan kutib olinadilar.",
+
+76: "Ular unda abadiy qoladilar. U naqadar yaxshi maskan va joydir.",
+
+77: "Ayting: «Agar duolaringiz bo‘lmaganida, Robbim sizlarga qanday e’tibor berardi? Sizlar haqiqatan yolg‘onladilaringiz. Bas, bu albatta ajralmas azob bo‘ladi».",
+},
+26: {
+1: "To Sin Mim.",
+
+2: "Bular ochiq-oydin Kitob oyatlaridir.",
+
+3: "Ular iymon keltirmaydilar deb, balki sen o‘zingni halok qilishing mumkin.",
+
+4: "Agar xohlasak, ularga osmondan bir oyat tushiramiz, bas, ularning bo‘yinlari unga bo‘ysungan holda qoladi.",
+
+5: "Ularga Rahmondan yangi bir eslatma kelmasinki, ular undan yuz o‘giruvchi bo‘lmasinlar.",
+
+6: "Bas, ular yolg‘on qildilar. Tez orada ular masxara qilgan narsalarining xabarlari ularga keladi.",
+
+7: "Ular yerga qaramadilarmi? Unda qancha turli go‘zal o‘simliklardan o‘stirdik.",
+
+8: "Albatta, bunda oyat bordir. Lekin ularning ko‘pchiligi mo‘min bo‘lmadilar.",
+
+9: "Albatta, Robbing O‘zi Aziz va Rahmlidir.",
+
+10: "Eslang, Robbing Musoga nido qilgan edi: «Zolim qavm oldiga bor».",
+
+11: "«Fir’avn qavmiga. Nahotki ular taqvo qilmasalar?»",
+
+12: "U dedi: «Ey Robbim! Men ular meni yolg‘onchi qilishlaridan qo‘rqaman».",
+
+13: "«Ko‘ksim torayadi, tilim ravon gapirmaydi. Bas, Horunga ham yuborgin».",
+
+14: "«Ular mening ustimda bir gunoh da’vosi bor. Bas, ular meni o‘ldirishlaridan qo‘rqaman».",
+
+15: "U dedi: «Yo‘q! Ikkovingiz Bizning oyatlarimiz bilan boringlar. Albatta, Biz sizlar bilan birgamiz, eshituvchimiz».",
+
+16: "«Bas, Fir’avnga borib aytinglar: “Biz olamlarning Robbisi yuborgan Rasulchilarmiz”».",
+
+17: "«Bani Isroilni biz bilan birga yuborgin».",
+
+18: "Fir’avn dedi: «Biz seni bolaligingda tarbiyalamadikmi? Umringning ko‘p yillarini oramizda o‘tkazmadingmi?»",
+
+19: "«So‘ng qilgan ishingni qilding. Sen noshukrlardansan».",
+
+20: "Muso dedi: «Men uni o‘shanda bilmasdan qilgan edim».",
+    
+21: "Bas, sizlardan qo‘rqqanimda, sizlardan qochdim. So‘ngra Robbim menga hikmat berdi va meni Rasullardan qildi.",
+
+22: "Bu sening menga minnat qilayotgan ne’matingmi? Holbuki, sen Bani Isroilni qul qilib olgansan.",
+
+23: "Fir’avn dedi: «Olamlarning Robbisi nima?»",
+
+24: "U dedi: «U osmonlaru yerning va ular orasidagi narsalarning Robbidir, agar aniq ishonadigan bo‘lsangizlar».",
+
+25: "U atrofidagi zodagonlarga dedi: «Eshitmayapsizlarmi?»",
+
+26: "Muso dedi: «U sizlarning ham, avvalgi ota-bobolaringizning ham Robbidir».",
+
+27: "U dedi: «Sizlarga yuborilgan Rasulning jinni ekaniga ishonaman».",
+
+28: "Muso dedi: «U sharq va g‘arbning hamda ular orasidagi narsalarning Robbidir, agar aql ishlatsangizlar».",
+
+29: "Fir’avn dedi: «Agar mendan boshqa iloh qilsang, albatta, seni zindonbandlardan qilaman».",
+
+30: "Muso dedi: «Agar senga ochiq bir narsa keltirsam-chi?»",
+
+31: "U dedi: «Agar rostgo‘ylardan bo‘lsang, uni keltir».",
+
+32: "Bas, u asoyini tashladi va birdan u ochiq-oydin ilonga aylandi.",
+
+33: "Qo‘lini chiqardi va birdan u qarab turganlar uchun oppoq bo‘lib qoldi.",
+
+34: "Fir’avn atrofidagi zodagonlarga dedi: «Albatta, bu bilimdon sehrgardir».",
+
+35: "«U o‘z sehri bilan sizlarni yurtingizdan chiqarishni istaydi. Bas, nima maslahat berasizlar?»",
+
+36: "Ular dedilar: «Uni va akasini kutib tur, shaharlarga yig‘uvchilar yuborgin».",
+
+37: "«Ular senga barcha bilimdon sehrgarlarni olib kelishsin».",
+
+38: "Sehrgarlar belgilangan vaqtda, ma’lum bir kunda jamlandilar.",
+
+39: "Odamlarga: «Sizlar ham to‘planasizlarmi?» deyildi.",
+
+40: "Ular: «Agar sehrgarlar g‘olib bo‘lsalar, balki biz ularga ergasharmiz», dedilar.",
+
+41: "Sehrgarlar kelganlarida Fir’avnga: «Agar biz g‘olib bo‘lsak, bizga albatta mukofot bormi?» dedilar.",
+
+42: "U dedi: «Ha, sizlar albatta yaqinlardan bo‘lasizlar».",
+
+43: "Muso ularga dedi: «Nimani tashlamoqchi bo‘lsangizlar, tashlanglar».",
+
+44: "Bas, ular arqonlari va tayoqlarini tashladilar va: «Fir’avnning qudrati bilan, albatta, biz g‘olib bo‘luvchilarmiz», dedilar.",
+
+45: "So‘ngra Muso o‘z asoyini tashladi. Bas, u ularning soxta narsalarini yutib yubordi.",
+
+46: "Shunda sehrgarlar sajda qilgan holda yiqildilar.",
+
+47: "Ular dedilar: «Olamlarning Robbisiga iymon keltirdik».",
+
+48: "«Muso va Horunning Robbisiga».",
+
+49: "Fir’avn dedi: «Men sizlarga izn bermasdan oldin unga iymon keltirdingizmi? Albatta, u sizlarga sehrni o‘rgatgan kattangizdir. Tez orada bilib olasizlar. Albatta, men sizlarning qo‘l va oyoqlaringizni qarama-qarshi tomonlardan kesaman va barchangizni osaman».",
+
+50: "Ular dedilar: «Zarar yo‘q. Biz Robbimizga qaytuvchilarmiz».",
+
+51: "«Biz Robbimizga iymon keltirganimiz sababli xatolarimizni mag‘firat qilishini umid qilamiz».",
+
+52: "Biz Musoga vahiy qildik: «Bandalarim bilan kechasi yo‘lga chiq. Albatta, sizlar quviluvchisizlar».",
+
+53: "Bas, Fir’avn shaharlarga yig‘uvchilar yubordi.",
+
+54: "«Albatta, bular oz sonli bir guruhdir».",
+
+55: "«Va ular bizni g‘azablantirgan kishilardir».",
+
+56: "«Biz esa barchamiz hushyor va tayyormiz».",
+
+57: "Bas, Biz ularni bog‘lardan va buloqlardan chiqardik.",
+
+58: "Xazinalar va go‘zal joylardan ham.",
+
+59: "Shunday qilib, Biz ularni Bani Isroilga meros qilib berdik.",
+
+60: "Bas, ular quyosh chiqayotgan paytda ularning ortidan quvib yetdilar.",
+
+61: "Ikki guruh bir-birini ko‘rganida, Musoning hamrohlari: «Albatta, biz yetib olinamiz», dedilar.",
+
+62: "U dedi: «Yo‘q! Albatta, Robbim men bilan. U menga yo‘l ko‘rsatadi».",
+
+63: "Bas, Biz Musoga: «Asong bilan dengizga urgin», deb vahiy qildik. Shunda u yorildi va har bir bo‘lak ulkan tog‘ kabi bo‘ldi.",
+
+64: "So‘ngra ularning boshqalarini ham yaqinlashtirdik.",
+
+65: "Musoni va u bilan birga bo‘lganlarning barchasini najot qildik.",
+
+66: "So‘ngra boshqalarni g‘arq qildik.",
+
+67: "Albatta, bunda oyat bordir. Lekin ularning ko‘pchiligi mo‘min bo‘lmadilar.",
+
+68: "Albatta, Robbing O‘zi Aziz va Rahmlidir.",
+
+69: "Ularga Ibrohimning xabarini tilovat qilgin.",
+
+70: "U otasiga va qavmiga: «Nimaga ibodat qilasizlar?» degan edi.",
+
+71: "Ular dedilar: «Butlarga ibodat qilamiz va ularga doimo sig‘inuvchilarmiz».",
+
+72: "U dedi: «Ularni duo qilganingizda, ular sizlarni eshitadilarmi?»",
+
+73: "«Yoki sizlarga foyda beradilarmi yoki zarar yetkazadilarmi?»",
+
+74: "Ular dedilar: «Yo‘q, biz ota-bobolarimizni shunday qilayotganlarini topdik».",
+
+75: "U dedi: «Sizlar va avvalgi ota-bobolaringiz nimaga ibodat qilayotganingizni ko‘rdingizmi?»",
+
+76: "«Albatta, ular mening dushmanlarimdir, faqat olamlarning Robbisi bundan mustasno».",
+
+77: "«U meni yaratgan Zotdir. Bas, U menga hidoyat qiladi».",
+
+78: "«U meni ovqatlantiradi va sug‘oradi».",
+
+79: "«Agar kasal bo‘lsam, U menga shifo beradi».",
+
+80: "«U meni o‘ldiradi, so‘ngra tiriltiradi».",
+ 
+81: "«U meni o‘ldiradi, so‘ngra tiriltiradi».",
+
+82: "«Va U Qiyomat kuni xatolarimni mag‘firat qilishini umid qilaman».",
+
+83: "«Ey Robbim! Menga hukm ato etgin va meni solihlarga qo‘shgin».",
+
+84: "«Va keyingilar orasida men uchun yaxshi nom qoldirgin».",
+
+85: "«Va meni ne’mat jannatining vorislaridan qilgin».",
+
+86: "«Va otamni ham mag‘firat qilgin. Albatta, u adashganlardan bo‘ldi».",
+
+87: "«Va odamlar tiriltiriladigan kunda meni xor qilmagin».",
+
+88: "«U kunda na mol foyda beradi, na farzandlar».",
+
+89: "«Faqat ALLAH huzuriga sog‘lom qalb bilan kelgan kishigina (najot topadi)».",
+
+90: "Jannat taqvodorlarga yaqinlashtiriladi.",
+
+91: "Va jahannam adashganlarga ko‘rsatiladi.",
+
+92: "Ularga: «Sizlar ibodat qilgan narsalaringiz qayerda?» deyiladi.",
+
+93: "«ALLAHni qo‘yib (ibodat qilganlaringiz) sizlarga yordam bera oladilarmi yoki o‘zlariga yordam bera oladilarmi?»",
+
+94: "Bas, ular va adashtiruvchilar unda yuzlari bilan tashlanadilar.",
+
+95: "Va Iblisning barcha askarlari ham.",
+
+96: "Ular unda o‘zaro tortishib: ",
+
+97: "«ALLAHga qasamki, biz aniq ochiq xatoda edik».",
+
+98: "«Chunki biz sizlarni olamlarning Robbisi bilan tenglashtirgan edik».",
+
+99: "«Bizni faqat jinoyatchilar adashtirdilar».",
+
+100: "«Endi biz uchun hech qanday shafoatchilar yo‘q».",
+
+101: "«Va yaqin do‘stdan ham».",
+
+102: "«Bas, agar biz uchun bir marta qaytish bo‘lganida edi, mo‘minlardan bo‘lardik».",
+
+103: "Albatta, bunda oyat bordir. Lekin ularning ko‘pchiligi mo‘min bo‘lmadilar.",
+
+104: "Albatta, Robbing O‘zi Aziz va Rahmlidir.",
+
+105: "Nuh qavmi ham Rasulchilarni yolg‘onchi qildi.",
+
+106: "Ularning birodari Nuh ularga dedi: «Nahotki taqvo qilmasangizlar?»",
+
+107: "«Albatta, men sizlar uchun ishonchli Rasulman».",
+
+108: "«Bas, ALLAHdan qo‘rqinglar va menga itoat qilinglar».",
+
+109: "«Men buning uchun sizlardan haq so‘ramayman. Mening mukofotim faqat olamlarning Robbisi zimmasidadir».",
+
+110: "«Bas, ALLAHdan qo‘rqinglar va menga itoat qilinglar».",
+
+111: "Ular dedilar: «Senga past kishilar ergashgan bo‘lsa, biz senga iymon keltiramizmi?»",
+
+112: "U dedi: «Ularning qilgan ishlarini bilmayman».",
+
+113: "«Ularning hisobi faqat Robbim zimmasidadir, agar tushunsangizlar».",
+
+114: "«Men mo‘minlarni haydab yuboruvchi emasman».",
+
+115: "«Men faqat ochiq ogohlantiruvchiman».",
+
+116: "Ular dedilar: «Ey Nuh! Agar to‘xtamasang, albatta, toshbo‘ron qilinganlardan bo‘lasan».",
+
+117: "U dedi: «Ey Robbim! Albatta, qavmim meni yolg‘onchi qildi».",
+
+118: "«Bas, men bilan ular orasida hukm qilgin va meni hamda men bilan birga bo‘lgan mo‘minlarni najot qilgin».",
+
+119: "Bas, Biz uni va u bilan birga bo‘lganlarni to‘la yuklangan kemada najot qildik.",
+
+120: "So‘ngra undan keyin qolganlarni g‘arq qildik.",
+ 
+121: "Albatta, bunda oyat bordir. Lekin ularning ko‘pchiligi mo‘min bo‘lmadilar.",
+
+122: "Albatta, Robbing O‘zi Aziz va Rahmlidir.",
+
+123: "Od qavmi ham Rasulchilarni yolg‘onchi qildi.",
+
+124: "Ularning birodari Hud ularga dedi: «Nahotki taqvo qilmasangizlar?»",
+
+125: "«Albatta, men sizlar uchun ishonchli Rasulman».",
+
+126: "«Bas, ALLAHdan qo‘rqinglar va menga itoat qilinglar».",
+
+127: "«Men buning uchun sizlardan haq so‘ramayman. Mening mukofotim faqat olamlarning Robbisi zimmasidadir».",
+
+128: "«Sizlar har bir baland joyga behuda belgi quraverasizlarmi?»",
+
+129: "«Va go‘yo abadiy qoladigandek, qasrlar bunyod qilasizlarmi?»",
+
+130: "«Va ushlaganingizda zolimlar kabi ushlaysizlarmi?»",
+
+131: "«Bas, ALLAHdan qo‘rqinglar va menga itoat qilinglar».",
+
+132: "«Sizlarga bilgan narsalaringiz bilan yordam bergan Zotdan qo‘rqinglar».",
+
+133: "«U sizlarga chorvalar va farzandlar bilan yordam berdi».",
+
+134: "«Bog‘lar va buloqlar bilan ham».",
+
+135: "«Albatta, men sizlarga ulkan kunning azobidan qo‘rqaman».",
+
+136: "Ular dedilar: «Sen nasihat qiluvchilardan bo‘lsang ham, bo‘lmasang ham biz uchun baribir».",
+
+137: "«Bu faqat avvalgilarning odatidir».",
+
+138: "«Biz azoblanadigan emasmiz».",
+
+139: "Bas, ular uni yolg‘onchi qildilar. Shuning uchun Biz ularni halok qildik. Albatta, bunda oyat bordir. Lekin ularning ko‘pchiligi mo‘min bo‘lmadilar.",
+
+140: "Albatta, Robbing O‘zi Aziz va Rahmlidir.",
+
+141: "Samud qavmi ham Rasulchilarni yolg‘onchi qildi.",
+
+142: "Ularning birodari Solih ularga dedi: «Nahotki taqvo qilmasangizlar?»",
+
+143: "«Albatta, men sizlar uchun ishonchli Rasulman».",
+
+144: "«Bas, ALLAHdan qo‘rqinglar va menga itoat qilinglar».",
+
+145: "«Men buning uchun sizlardan haq so‘ramayman. Mening mukofotim faqat olamlarning Robbisi zimmasidadir».",
+
+146: "«Sizlar bu yerdagi narsalarda xotirjam holda qoldirilasizlarmi?»",
+
+147: "«Bog‘larda va buloqlarda».",
+
+148: "«Ekinzorlar va nozik mevali xurmolar orasida».",
+
+149: "«Va tog‘lardan mahorat bilan uylar o‘yib olasizlarmi?»",
+
+150: "«Bas, ALLAHdan qo‘rqinglar va menga itoat qilinglar».",
+
+151: "«Haddan oshuvchilarning amriga itoat qilmanglar».",
+
+152: "«Ular yer yuzida buzg‘unchilik qiladilar va isloh qilmaydilar».",
+
+153: "Ular dedilar: «Sen faqat sehrlanganlardansan».",
+
+154: "«Sen ham bizga o‘xshagan insonsan. Agar rostgo‘ylardan bo‘lsang, bir oyat keltir».",
+
+155: "U dedi: «Mana bu tuya. Uning uchun ichish kuni bor, sizlar uchun ham ma’lum kuni ichish bor».",
+
+156: "«Unga yomonlik bilan tegmanglar, aks holda sizlarni ulkan kunning azobi tutadi».",
+
+157: "Bas, ular uning oyoqlarini kesdilar, so‘ng pushaymon bo‘ldilar.",
+
+158: "Bas, ularni azob tutdi. Albatta, bunda oyat bordir. Lekin ularning ko‘pchiligi mo‘min bo‘lmadilar.",
+
+159: "Albatta, Robbing O‘zi Aziz va Rahmlidir.",
+
+160: "Lut qavmi ham Rasulchilarni yolg‘onchi qildi.",
+
+161: "Ularning birodari Lut ularga dedi: «Nahotki taqvo qilmasangizlar?»",
+
+162: "«Albatta, men sizlar uchun ishonchli Rasulman».",
+
+163: "«Bas, ALLAHdan qo‘rqinglar va menga itoat qilinglar».",
+
+164: "«Men buning uchun sizlardan haq so‘ramayman. Mening mukofotim faqat olamlarning Robbisi zimmasidadir».",
+
+165: "«Olamlardan erkaklarga yaqinlashasizlarmi?»",
+
+166: "«Va Robbingiz sizlar uchun yaratgan juftlaringizni tark qilasizlarmi? Yo‘q, sizlar haddan oshgan qavmsizlar».",
+
+167: "Ular dedilar: «Ey Lut! Agar to‘xtamasang, albatta, haydalganlardan bo‘lasan».",
+
+168: "U dedi: «Albatta, men sizlarning bu ishlaringizdan nafratlanuvchilardandirman».",
+
+169: "«Ey Robbim! Meni va oilamni ularning qilayotgan ishlaridan najot qilgin».",
+
+170: "Bas, Biz uni va butun oilasini najot qildik.",
+
+171: "Faqat ortda qoluvchilardan bo‘lgan keksa ayoldan tashqari.",
+
+172: "So‘ngra boshqalarni halok qildik.",
+
+173: "Ularning ustiga yomg‘ir yog‘dirdik. Ogohlantirilganlarning yomg‘iri naqadar yomon bo‘ldi.",
+
+174: "Albatta, bunda oyat bordir. Lekin ularning ko‘pchiligi mo‘min bo‘lmadilar.",
+
+175: "Albatta, Robbing O‘zi Aziz va Rahmlidir.",
+
+176: "Ayka ahli ham Rasulchilarni yolg‘onchi qildi.",
+
+177: "Shu’ayb ularga dedi: «Nahotki taqvo qilmasangizlar?»",
+
+178: "«Albatta, men sizlar uchun ishonchli Rasulman».",
+
+179: "«Bas, ALLAHdan qo‘rqinglar va menga itoat qilinglar».",
+
+180: "«Men buning uchun sizlardan haq so‘ramayman. Mening mukofotim faqat olamlarning Robbisi zimmasidadir».",
+
+181: "O‘lchovni to‘liq qilinglar va kamaytiruvchilardan bo‘lmanglar.",
+
+182: "To‘g‘ri tarozi bilan tortinglar.",
+
+183: "Odamlarning narsalarini kamaytirmanglar va yer yuzida buzg‘unchilik qilib yurmaylar.",
+
+184: "Sizlarni va avvalgi avlodlarni yaratgan Zotdan qo‘rqinglar.",
+
+185: "Ular dedilar: «Sen faqat sehrlanganlardansan».",
+
+186: "«Sen ham bizga o‘xshagan insonsan. Biz seni yolg‘onchilardan deb o‘ylaymiz».",
+
+187: "«Agar rostgo‘ylardan bo‘lsang, ustimizga osmondan bir parcha tushir».",
+
+188: "U dedi: «Robbim qilayotgan ishlaringizni yaxshiroq biluvchidir».",
+
+189: "Bas, ular uni yolg‘onchi qildilar. Shunda ularni soya kuni azobi tutdi. Albatta, u ulkan kunning azobi edi.",
+
+190: "Albatta, bunda oyat bordir. Lekin ularning ko‘pchiligi mo‘min bo‘lmadilar.",
+
+191: "Albatta, Robbing O‘zi Aziz va Rahmlidir.",
+
+192: "Albatta, bu (Qur’on) olamlarning Robbisi tomonidan nozil qilingandir.",
+
+193: "Uni ishonchli Ruh tushirdi.",
+
+194: "Uni sening qalbingga tushirdi, toki ogohlantiruvchilardan bo‘lgin.",
+
+195: "U ochiq arab tilidadir.",
+
+196: "Albatta, u avvalgilarning kitoblarida ham bor edi.",
+
+197: "Bani Isroil olimlari uni bilishlari ular uchun dalil emasmi?",
+
+198: "Agar Biz uni arab bo‘lmagan kishilardan biriga tushirganimizda edi.",
+
+199: "Bas, u ularga uni o‘qib berganida ham, ular unga iymon keltirmagan bo‘lardilar.",
+
+200: "Shunday qilib, Biz uni jinoyatchilarning qalblariga kiritdik.",
+
+201: "Ular unga iymon keltirmaydilar, toki alamli azobni ko‘rmagunlaricha.",
+
+202: "U ularga to‘satdan keladi, ular esa sezmay qoladilar.",
+
+203: "Bas, ular: «Bizga muhlat beriladimi?» deydilar.",
+
+204: "Ular Bizning azobimizni tezlashtirishni so‘rayaptimi?",
+
+205: "Xabar bergin: «Agar Biz ularga yillar davomida foydalanish bersak ham»,",
+
+206: "«So‘ngra ularga va’da qilingan narsa kelsa ham»,",
+
+207: "«Ularga berilgan narsalar ularni hech qutqara olmaydi».",
+
+208: "Biz hech bir shaharni ogohlantiruvchilarsiz halok qilmadik.",
+
+209: "Eslatma uchun (ogohlantirdik). Biz zolim bo‘lgan emasmiz.",
+
+210: "Uni shaytonlar tushirmadilar.",
+
+211: "Bu ularga yarashmaydi ham, bunga qodir ham emaslar.",
+
+212: "Albatta, ular eshitishdan chetlatilganlardir.",
+
+213: "Bas, ALLAH bilan birga boshqa ilohga duo qilma, aks holda azoblanganlardan bo‘lasan.",
+
+214: "Yaqin qarindoshlaringni ogohlantirgin.",
+
+215: "Mo‘minlardan senga ergashganlarga qanotingni past qilgin.",
+
+216: "Agar ular senga osiy bo‘lsalar, ayt: «Men sizlarning qilayotgan ishlaringizdan pokman».",
+
+217: "Aziz va Rahmli Zotga tavakkul qilgin.",
+
+218: "U seni turganingda ko‘radi.",
+
+219: "Va sajda qiluvchilar orasida aylanishingni ham (ko‘radi).",
+
+220: "Albatta, U Eshituvchi va Biluvchidir.",
+    
+ 221: "Sizlarga shaytonlar kimlarga tushishini xabar beraymi?",
+
+222: "Ular har bir yolg‘onchi va gunohkorga tushadilar.",
+
+223: "Ular eshitgan narsalarini yetkazadilar. Ularning ko‘pchiligi yolg‘onchilardir.",
+
+224: "Shoirlar ortidan adashganlar ergashadilar.",
+
+225: "Ularning har bir vodiyda sarson yurishlarini ko‘rmadingmi?",
+
+226: "Va ular qilmaydigan narsalarini aytadilar.",
+
+227: "Faqat iymon keltirgan, yaxshi amallar qilgan, ALLAHni ko‘p zikr qilgan va zulm ko‘rganidan keyin o‘zini himoya qilganlar bundan mustasnodir. Zolimlar esa qanday oqibatga qaytishlarini tez orada bilib oladilar.",
+},
+27: {
+1: "To Sin. Bular Qur’on va ochiq-oydin Kitob oyatlaridir.",
+
+2: "U mo‘minlar uchun hidoyat va xushxabardir.",
+
+3: "Ular namozni ado qiladilar, zakot beradilar va oxiratga qat’iy ishonadilar.",
+
+4: "Albatta, oxiratga iymon keltirmaydiganlarning amallarini Biz ularga chiroyli ko‘rsatdik. Bas, ular adashib yuradilar.",
+
+5: "Ana o‘shalar uchun yomon azob bordir va oxiratda eng katta ziyon ko‘ruvchilar ham o‘shalardir.",
+
+6: "Albatta, sen Qur’onni Hikmatli va Biluvchi Zot huzuridan olmoqdasan.",
+
+7: "Eslang, Muso o‘z oilasiga: «Men bir olovni ko‘rdim. Undan sizlarga bir xabar yoki isitinish uchun cho‘g‘ olib kelarman», degan edi.",
+
+8: "Unga yetib kelganida nido qilindi: «Olov yonidagi va uning atrofidagi kishi muborak qilindi. Olamlarning Robbisi ALLAH pokdir».",
+
+9: "«Ey Muso! Albatta, Men Aziz va Hikmat Egasi bo‘lgan ALLAHman».",
+
+10: "«Asongni tashlagin». Bas, uni ilon kabi harakat qilayotganini ko‘rganida, ortiga qaramay qochdi. «Ey Muso! Qo‘rqma. Albatta, Mening huzurimda Rasulchilar qo‘rqmaydilar».",
+
+11: "«Faqat zulm qilgan, so‘ng yomonlikdan keyin yaxshilikka almashtirgan kishi bundan mustasno. Albatta, Men Mag‘firat qiluvchi va Rahmliman».",
+
+12: "«Qo‘lingni ko‘ksingga qo‘y, u hech qanday yomonliksiz oppoq holda chiqadi. Bu Fir’avn va uning qavmiga to‘qqiz oyat bilan borishing uchundir. Albatta, ular fosiq qavmdir».",
+
+13: "Ularga Bizning ochiq oyatlarimiz kelganida, ular: «Bu ochiq sehrdir», dedilar.",
+
+14: "Ular qalblari ishonib turgan holda, zulm va kibr sababli ularni inkor qildilar. Bas, buzg‘unchilarning oqibati qanday bo‘lganiga qaragin.",
+
+15: "Darhaqiqat, Biz Dovud va Sulaymonga ilm berdik. Ular: «Bizni ko‘p mo‘min bandalaridan ustun qilgan ALLAHga hamd bo‘lsin», dedilar.",
+
+16: "Sulaymon Dovudga voris bo‘ldi va dedi: «Ey insonlar! Bizga qushlarning tili o‘rgatildi va bizga har narsadan berildi. Albatta, bu ochiq fazldir».",
+
+17: "Sulaymon uchun jinlardan, insonlardan va qushlardan bo‘lgan lashkarlari to‘plandi va ular tartib bilan saf qilinar edi.",
+
+18: "Nihoyat, chumolilar vodiysiga kelganlarida, bir chumoli dedi: «Ey chumolilar! Uylaringizga kiringlar, Sulaymon va uning lashkarlari bilmagan holda sizlarni bosib ketmasin».",
+
+19: "Bas, u uning so‘zidan tabassum qilib kuldi va dedi: «Ey Robbim! Menga va ota-onamga bergan ne’matingga shukr qilishimni va Sen rozi bo‘ladigan yaxshi amal qilishimni ilhom qilgin. Meni rahmating bilan solih bandalaring qatoriga kiritgin».",
+
+20: "U qushlarni tekshirdi va dedi: «Menga nima bo‘ldi? Nega hudhudni ko‘rmayapman yoki u yo‘qolganlardanmi?»",
+
+21: "Albatta, uni qattiq azoblayman yoki so‘yaman, yoki u menga aniq dalil keltirsin.",
+
+22: "U ko‘p vaqt o‘tmay keldi va dedi: «Men sen bilmagan narsani bildim. Senga Sabodan ishonchli xabar keltirdim».",
+
+23: "«Men u yerda bir ayolni ko‘rdim, u ularga podshohlik qilmoqda. Unga har narsadan berilgan va uning ulkan taxti bor».",
+
+24: "«Men uni va uning qavmini ALLAHni qo‘yib quyoshga sajda qilayotgan holda topdim. Shayton ularga amallarini chiroyli ko‘rsatgan va ularni yo‘ldan to‘sgan. Bas, ular hidoyat topmaydilar».",
+
+25: "«Ular osmonlaru yerning yashirin narsalarini chiqaradigan va yashirayotgan hamda oshkor qilayotganlaringizni biladigan ALLAHga sajda qilmasliklari uchun (shayton shunday qilgan)».",
+
+26: "ALLAH — Undan boshqa iloh yo‘qdir. U ulug‘ Arshning Robbidir.",
+
+27: "U (Sulaymon) dedi: «Ko‘ramiz, rost aytdingmi yoki yolg‘onchilardan bo‘ldingmi».",
+
+28: "«Mana bu maktubimni olib borib ularga tashla. So‘ng ulardan chetga chiqib, nima javob qaytarishlarini kuzat».",
+
+29: "U (malika) dedi: «Ey zodagonlar! Menga ulug‘ bir maktub tashlandi».",
+
+30: "«U Sulaymondandir va u: “Rahmon va Rahmli ALLAH nomi bilan” deb boshlanadi».",
+
+31: "«Menga qarshi kibr qilmanglar va menga bo‘ysungan holda kelinglar».",
+
+32: "U dedi: «Ey zodagonlar! Menga bu ishimda maslahat beringlar. Sizlar huzurimda bo‘lmasangizlar, men biror ishni hal qilmayman».",
+
+33: "Ular dedilar: «Biz kuch-quvvat egalarimiz va qattiq jangchilarimiz. Buyruq sening qo‘lingdadir. Bas, nima buyurishingni o‘yla».",
+
+34: "U dedi: «Albatta, podshohlar biror shaharga kirganlarida uni buzadilar va uning aziz kishilarini xor qiladilar. Ular shunday qiladilar».",
+
+35: "«Men ularga sovg‘a yuboraman va elchilarim nima bilan qaytishlarini ko‘raman».",
+
+36: "U (elchi) Sulaymonning huzuriga kelganida, u dedi: «Menga mol bilan yordam bermoqchimisizlar? ALLAH menga bergani sizlarga berganidan yaxshiroqdir. Balki sizlar sovg‘angiz bilan xursand bo‘larsizlar».",
+
+37: "«Ularga qaytib bor. Albatta, biz ularga o‘zlari bardosh bera olmaydigan lashkarlar bilan boramiz va ularni xorlangan holda chiqaramiz».",
+
+38: "U dedi: «Ey zodagonlar! Ular menga bo‘ysungan holda kelishlaridan oldin, qaysingiz menga uning taxtini olib keladi?»",
+
+39: "Jinlardan bir ifrit dedi: «Men uni sen o‘rningdan turishingdan oldin olib kelaman. Albatta, men bunga kuchliman va ishonchliman».",
+
+40: "Kitobdan ilmi bo‘lgan kishi dedi: «Men uni ko‘zingni yumib ochishingdan oldin olib kelaman». Bas, u uni o‘z huzurida turgan holda ko‘rganida dedi: «Bu Robbimning fazlidandir. Menga shukr qilamanmi yoki noshukrlik qilamanmi, meni sinash uchundir. Kim shukr qilsa, faqat o‘zi uchun shukr qiladi. Kim noshukrlik qilsa, albatta, Robbim Behojat va Karimdir».",
+
+41: "U dedi: «Uning taxtini o‘zgartirib qo‘yinglar, ko‘ramiz, u hidoyat topadimi yoki hidoyat topmaydiganlardan bo‘ladimi».",
+
+42: "U kelganida: «Sening taxting shundaymi?» deyiladi. U dedi: «Go‘yo o‘sha». Bizga bundan oldin ilm berilgan edi va biz musulmon bo‘lgan edik.",
+
+43: "Uni ALLAHni qo‘yib ibodat qilayotgan narsalari to‘sib qo‘ygan edi. Chunki u kofir qavmdan edi.",
+
+44: "Unga: «Saroyga kir», deyilganda, uni suv deb o‘yladi va oyoqlarini ochdi. U dedi: «Bu oynadan yasalgan silliq saroydir». U dedi: «Ey Robbim! Men o‘zimga zulm qilgan edim. Sulaymon bilan birga olamlarning Robbisi ALLAHga bo‘ysundim».",
+
+45: "Darhaqiqat, Samud qavmiga ularning birodari Solihni yubordik: «ALLAHga ibodat qilinglar», dedi. Bas, ular ikki guruh bo‘lib tortishuvchilar bo‘ldilar.",
+
+46: "U dedi: «Ey qavmim! Nega yaxshilikdan oldin yomonlikni tezlashtirasizlar? Nega ALLAHdan mag‘firat so‘ramaysizlar? Shoyad rahm qilinsangizlar».",
+
+47: "Ular dedilar: «Sen va sen bilan birga bo‘lganlar sababli yomonlikka uchradik». U dedi: «Sizlarning yomonligingiz ALLAH huzuridadir. Yo‘q, sizlar sinov qilinayotgan qavmsizlar».",
+
+48: "Shaharda to‘qqizta guruh bor edi, ular yer yuzida buzg‘unchilik qilar va isloh qilmas edilar.",
+
+49: "Ular dedilar: «ALLAH nomi bilan qasam ichinglar: kechasi unga va oilasiga hujum qilamiz, so‘ng uning yaqiniga: “Biz uning oilasining halokatiga guvoh bo‘lmadik”, deymiz. Biz rostgo‘ylarmiz».",
+
+50: "Ular hiyla qildilar, Biz ham ular bilmagan holda hiyla qildik.",
+
+51: "Ularning hiylalari oqibati qanday bo‘lganiga qaragin. Biz ularni va qavmlarini barchasini halok qildik.",
+
+52: "Mana, ularning zulmlari sababli bo‘m-bo‘sh qolgan uylaridir. Albatta, bunda biladigan qavm uchun oyat bordir.",
+
+53: "Iymon keltirgan va taqvo qilganlarni esa najot qildik.",
+
+54: "Lutni ham esla. U o‘z qavmiga dedi: «Ko‘rib turib fahsh ishni qilasizlarmi?»",
+
+55: "«Sizlar ayollarni qo‘yib, shahvat bilan erkaklarga yaqinlashasizlarmi? Yo‘q, sizlar johil qavmsizlar».",
+
+56: "Uning qavmining javobi faqat: «Lutning oilasini shaharingizdan chiqarib yuboringlar. Ular poklikni da’vo qiladigan kishilardir», degan so‘z bo‘ldi.",
+
+57: "Bas, Biz uni va oilasini najot qildik, faqat xotinidan boshqa. Uni qoluvchilardan qildik.",
+
+58: "Ularning ustiga yomg‘ir yog‘dirdik. Ogohlantirilganlarning yomg‘iri naqadar yomon bo‘ldi.",
+
+59: "Ayting: «Hamd ALLAHgadir va U tanlagan bandalariga salom bo‘lsin. ALLAH yaxshimi yoki ular shirk keltirayotgan narsalarmi?»",
+
+60: "Yoki osmonlaru yerni yaratgan va sizlar uchun osmondan suv tushirgan Zot yaxshimi? Biz u bilan go‘zal bog‘larni o‘stirdik. Sizlar ularning daraxtlarini o‘stira olmas edingizlar. ALLAH bilan birga boshqa iloh bormi? Yo‘q, ular adashgan qavmdir.",
+
+61: "Yoki yerni qarorgoh qilgan, uning orasidan anhorlar chiqargan, unga mustahkam tog‘lar o‘rnatgan va ikki dengiz orasiga to‘siq qo‘ygan Zot yaxshimi? ALLAH bilan birga boshqa iloh bormi? Yo‘q, ularning ko‘pchiligi bilmaydilar.",
+
+62: "Yoki qiyinchilikka tushgan kishi duo qilganida unga javob beradigan, yomonlikni ketkazadigan va sizlarni yer yuzining xalifalari qiladigan Zot yaxshimi? ALLAH bilan birga boshqa iloh bormi? Sizlar juda oz eslatma olasizlar.",
+
+63: "Yoki quruqlik va dengiz zulmatlarida sizlarga yo‘l ko‘rsatadigan va rahmati oldidan shamollarni xushxabar qilib yuboradigan Zot yaxshimi? ALLAH bilan birga boshqa iloh bormi? ALLAH ular shirk keltirayotgan narsalardan oliydir.",
+
+64: "Yoki yaratishni boshlaydigan, so‘ngra uni qaytaradigan va sizlarga osmonu yerdan rizq beradigan Zot yaxshimi? ALLAH bilan birga boshqa iloh bormi? Ayting: «Agar rostgo‘y bo‘lsangizlar, dalilingizni keltiringlar».",
+
+65: "Ayting: «Osmonlaru yerda g‘aybni ALLAHdan boshqa hech kim bilmaydi. Ular qachon tiriltirilishlarini ham bilmaydilar».",
+
+66: "Yo‘q, ularning oxirat haqidagi ilmi yetishmay qoldi. Balki ular undan shubhadadirlar. Balki ular undan ko‘rdirlar.",
+
+67: "Kofir bo‘lganlar dedilar: «Biz va ota-bobolarimiz tuproq bo‘lganimizdan keyin chiqarilamizmi?»",
+
+68: "«Bu va’da bizga ham, ota-bobolarimizga ham ilgari berilgan edi. Bu faqat avvalgilar afsonalaridir».",
+
+69: "Ayting: «Yer yuzida yurib, jinoyatchilarning oqibati qanday bo‘lganiga qaranglar».",
+
+70: "Ular uchun qayg‘urma va ularning qilayotgan hiylalaridan siqilma.",
+
+71: "Ular: «Agar rostgo‘y bo‘lsangizlar, bu va’da qachon bo‘ladi?» deydilar.",
+
+72: "Ayting: «Sizlar shoshayotgan narsaning bir qismi balki sizlarga yaqinlashib qolgandir».",
+
+73: "Albatta, Robbing odamlarga fazl sohibidir, lekin ularning ko‘pchiligi shukr qilmaydilar.",
+
+74: "Albatta, Robbing ko‘kslari yashirayotgan narsalarni ham, oshkor qilayotgan narsalarini ham biladi.",
+
+75: "Osmonda va yerda hech bir yashirin narsa yo‘qki, u ochiq Kitobda bo‘lmasa.",
+
+76: "Albatta, bu Qur’on Bani Isroilga ular ixtilof qilayotgan narsalarning ko‘pini bayon qiladi.",
+
+77: "Va u mo‘minlar uchun hidoyat va rahmatdir.",
+
+78: "Albatta, Robbing ular orasida O‘z hukmi bilan hukm qiladi. U Aziz va Biluvchidir.",
+
+79: "Bas, ALLAHga tavakkul qil. Albatta, sen ochiq Haq ustidasan.",
+
+80: "Albatta, sen o‘liklarga eshittira olmaysan va karlarni ham ular ortiga yuz o‘girib ketganlarida chaqiriqni eshittira olmaysan.",
+ 
+81: "Sen ko‘rlarni ham ularning adashishidan hidoyat qila olmaysan. Sen faqat Bizning oyatlarimizga iymon keltiradiganlarga eshittira olasan. Bas, ular musulmonlardir.",
+
+82: "So‘z ularga vojib bo‘lganida, Biz ular uchun yerdan bir jonivor chiqaramiz. U ularga odamlar Bizning oyatlarimizga ishonmaganlarini gapiradi.",
+
+83: "O‘sha kuni har bir ummatdan Bizning oyatlarimizni yolg‘on qilganlardan bir guruhni to‘playmiz va ular tartibga solinadilar.",
+
+84: "Ular kelganlarida, U aytadi: «Sizlar Mening oyatlarimni ilm bilan qamrab olmagan holda yolg‘on qildingizlarmi? Yoki nima qilayotgan edingizlar?»",
+
+85: "Zulm qilganlari sababli ularga so‘z haq bo‘ldi. Bas, ular gapira olmaydilar.",
+
+86: "Ular kechani unda dam olishlari uchun, kunduzni esa ko‘rishlari uchun qilganimizni ko‘rmadilarmi? Albatta, bunda iymon keltiradigan qavm uchun oyatlar bordir.",
+
+87: "Sur chalinadigan kunni esla. ALLAH xohlaganlardan boshqa osmonlardagi va yerdagi kim bo‘lsa, qo‘rqib ketadi. Ularning barchasi Unga bo‘ysungan holda keladilar.",
+
+88: "Tog‘larni ko‘rib, ularni joyida qotib turibdi deb o‘ylaysan. Holbuki, ular bulutlar yurgandek yuradilar. Bu har narsani mukammal qilgan ALLAHning yaratishidir. Albatta, U qilayotgan ishlaringizdan Xabardordir.",
+
+89: "Kim yaxshilik bilan kelsa, unga undan yaxshiroq narsa bor. Ular o‘sha kuni qo‘rquvdan omondadirlar.",
+
+90: "Kim yomonlik bilan kelsa, yuzlari bilan olovga tashlanadilar. «Sizlar faqat qilgan amallaringizga yarasha jazolanasizlar».",
+
+91: "«Menga faqat mana shu shaharning Robbisiga ibodat qilish buyurildi. U uni hurmatli qilgan. Barcha narsa Unikidir. Menga musulmonlardan bo‘lish buyurildi».",
+
+92: "«Va Qur’onni tilovat qilishim (buyurildi). Bas, kim hidoyat topsa, o‘zi uchun hidoyat topadi. Kim adashsa, ayt: “Men faqat ogohlantiruvchilardanman”».",
+
+93: "Ayting: «Hamd ALLAHga xosdir. U sizlarga O‘z oyatlarini ko‘rsatadi, bas, sizlar ularni taniysizlar. Robbingiz qilayotgan ishlaringizdan g‘ofil emasdir».",
+    },
+ 28: {
+1: "To Sin Mim.",
+
+2: "Bular ochiq-oydin Kitob oyatlaridir.",
+
+3: "Biz senga Muso va Fir’avn xabaridan haq bilan tilovat qilamiz, iymon keltiradigan qavm uchun.",
+
+4: "Albatta, Fir’avn yer yuzida o‘zini katta tutdi va uning aholisini guruhlarga bo‘ldi. Ulardan bir guruhni zaiflashtirar, ularning o‘g‘illarini so‘yar va ayollarini tirik qoldirar edi. Albatta, u buzg‘unchilardan edi.",
+
+5: "Biz esa yer yuzida zaiflashtirilganlarga ne’mat berishni, ularni peshvo qilishni va ularni merosxo‘rlar qilishni xohladik.",
+
+6: "Va ularni yer yuzida mustahkam qilishni hamda Fir’avn, Homon va ularning lashkarlariga ulardan qo‘rqib turgan narsalarini ko‘rsatishni xohladik.",
+
+7: "Muso onasiga vahiy qildik: «Uni emizgin. Agar undan qo‘rqsang, uni daryoga tashlagin va qo‘rqma ham, g‘amgin bo‘lma ham. Albatta, Biz uni senga qaytaramiz va uni Rasulchilardan qilamiz».",
+
+8: "Bas, Fir’avn oilasi uni topib oldi. U ularga dushman va g‘am bo‘lishi uchun. Albatta, Fir’avn, Homon va ularning lashkarlar xato qiluvchilar edi.",
+
+9: "Fir’avnning xotini dedi: «Bu men va sen uchun ko‘z quvonchi bo‘lsin. Uni o‘ldirmanglar. Balki bizga foyda berar yoki uni farzand qilib olar edik». Ular sezmas edilar.",
+
+10: "Muso onasining qalbi bo‘shab qoldi. Agar Biz uning qalbini mustahkamlamaganimizda edi, u uni oshkor qilib yuborishga yaqin edi. U mo‘minlardan bo‘lishi uchun shunday qildik.",
+
+11: "U Musoning opasiga: «Uning ortidan kuzat», dedi. Ular sezmagan holda uni uzoqdan kuzatdi.",
+
+12: "Biz ilgari unga emizuvchilarni man qilgan edik. Shunda opasi: «Sizlarga uni boqib beradigan va unga yaxshi munosabatda bo‘ladigan bir oilani ko‘rsatib beraymi?» dedi.",
+
+13: "Shunday qilib, Biz uni onasiga qaytardik, toki uning ko‘zi quvonsin, g‘amgin bo‘lmasin va ALLAHning va’dasi haq ekanini bilsin. Lekin ularning ko‘pchiligi bilmaydilar.",
+
+14: "Muso voyaga yetib, kuchga to‘lganida, Biz unga hukm va ilm berdik. Yaxshilik qiluvchilarni shunday mukofotlaymiz.",
+
+15: "U shahar aholisining g‘aflatda bo‘lgan paytida shaharga kirdi va u yerda ikki kishining urishayotganini ko‘rdi. Biri uning tarafdori, biri dushmanlaridan edi. Tarafdoridan bo‘lgan kishi dushmaniga qarshi undan yordam so‘radi. Muso uni urib yubordi va bu uning o‘limiga sabab bo‘ldi. U dedi: «Bu shaytonning ishidir. Albatta, u ochiq adashtiruvchi dushmandir».",
+
+16: "U dedi: «Ey Robbim! Men o‘zimga zulm qildim. Bas, meni mag‘firat qilgin». Shunda U uni mag‘firat qildi. Albatta, U Mag‘firat qiluvchi va Rahmlidir.",
+
+17: "U dedi: «Ey Robbim! Menga bergan ne’mating haqqi, endi hech qachon jinoyatchilarga yordamchi bo‘lmayman».",
+
+18: "Shaharda qo‘rquv bilan tong ottirdi va u kuzatib yurdi. Kecha undan yordam so‘ragan kishi yana undan yordam so‘rab qichqirdi. Muso unga dedi: «Albatta, sen aniq adashgan kishisan».",
+
+19: "U ikkovining dushmanini ushlamoqchi bo‘lganida, u dedi: «Ey Muso! Kecha bir kishini o‘ldirganing kabi meni ham o‘ldirmoqchimisan? Sen faqat yer yuzida zo‘ravon bo‘lishni istaysan va isloh qiluvchilardan bo‘lishni istamaysan».",
+
+20: "Shaharning narigi tomonidan bir kishi yugurib kelib dedi: «Ey Muso! Zodagonlar seni o‘ldirish uchun maslahatlashmoqdalar. Bas, chiqib ket. Men senga nasihat qiluvchilardandirman».",
+
+21: "Bas, u yerdan qo‘rqib chiqib ketdi va: «Ey Robbim! Meni zolim qavmdan najot qilgin», dedi.",
+
+22: "Madyan tomonga yuzlandi va: «Robbim meni to‘g‘ri yo‘lga boshlashiga umid qilaman», dedi.",
+
+23: "Madyan suviga kelganida, u yerda bir guruh odamlar chorvalarini sug‘orayotganini ko‘rdi. Ulardan chetda ikki ayolni ko‘rdi. U dedi: «Sizlarning ishingiz nima?» Ular dedilar: «Cho‘ponlar qaytmaguncha biz sug‘ormaymiz. Otamiz esa keksa kishidir».",
+
+24: "Bas, u ikkovlari uchun sug‘orib berdi. So‘ngra soyaga qaytib: «Ey Robbim! Menga tushiradigan yaxshiligingga muhtojman», dedi.",
+
+25: "Ularning biri hayo bilan yurib kelib dedi: «Otam seni bizga sug‘orib bergan haqingni berish uchun chaqirmoqda». Bas, u uning oldiga kelganida va voqeani aytib berganida, u dedi: «Qo‘rqma. Sen zolim qavmdan najot topding».",
+
+26: "Ularning biri dedi: «Ey otajon! Uni ishga olgin. Albatta, sen ishga oladigan eng yaxshisi kuchli va ishonchli kishidir».",
+
+27: "U dedi: «Men senga mana shu ikki qizimdan birini nikohlab berishni xohlayman, agar sakkiz yil menga xizmat qilsang. Agar o‘n yilni to‘ldirsang, bu sening ixtiyoringdir. Men seni qiynashni istamayman. In shaa ALLAH, meni solihlardan topasan».",
+
+28: "U dedi: «Bu men bilan sening o‘rtamizdagi kelishuvdir. Ikki muddatdan qaysi birini ado qilsam, menga qarshi da’vo bo‘lmasin. ALLAH aytayotganimizga Vakildir».",
+
+29: "Muso muddatni tugatib, oilasi bilan yo‘lga chiqqanida, Tur tomoni tarafida bir olovni ko‘rdi. U oilasiga dedi: «Kutib turinglar. Men bir olovni ko‘rdim. Balki undan sizlarga xabar yoki isitinish uchun cho‘g‘ olib kelarman».",
+
+30: "Unga yetib kelganida, muborak joydagi vodiyning o‘ng tomonidan, daraxt tomondan nido qilindi: «Ey Muso! Albatta, Men olamlarning Robbisi ALLAHman».",
+
+31: "«Asongni tashlagin». Bas, uni ilon kabi harakat qilayotganini ko‘rganida, ortiga qaramay qochdi. «Ey Muso! Oldinga kel va qo‘rqma. Albatta, sen omonlikdasan».",
+
+32: "«Qo‘lingni ko‘ksingga qo‘y, u hech qanday yomonliksiz oppoq holda chiqadi. Qo‘rquvdan qanotingni o‘zingga tortgin. Mana bular Robbing tomonidan Fir’avn va uning zodagonlariga ikki dalildir. Albatta, ular fosiq qavmdir».",
+
+33: "U dedi: «Ey Robbim! Men ulardan bir kishini o‘ldirganman. Bas, ular meni o‘ldirishlaridan qo‘rqaman».",
+
+34: "«Akam Horun mendan ko‘ra tili ravonroqdir. Uni ham men bilan birga yordamchi qilib yuborgin, u meni tasdiqlasin. Albatta, ular meni yolg‘onchi qilishlaridan qo‘rqaman».",
+
+35: "U dedi: «Biz sening qo‘lingni akang bilan mustahkamlaymiz va sizlarga kuch beramiz. Bas, ular sizlarga yetisha olmaydilar. Bizning oyatlarimiz bilan sizlar va sizlarga ergashganlar g‘olib bo‘lasizlar».",
+
+36: "Muso ularga Bizning ochiq oyatlarimizni keltirganida, ular dedilar: «Bu faqat to‘qib chiqarilgan sehrdir. Biz buni avvalgi ota-bobolarimizdan eshitmaganmiz».",
+
+37: "Muso dedi: «Robbim O‘z huzuridan hidoyat bilan kelgan va oxirat uyining oqibati kimniki bo‘lishini yaxshi biladi. Albatta, zolimlar najot topmaydilar».",
+
+38: "Fir’avn dedi: «Ey zodagonlar! Men sizlar uchun mendan boshqa iloh borligini bilmayman. Ey Homon! Men uchun loy yoqib, baland qasr qur. Balki Musoning ilohiga qararman. Albatta, men uni yolg‘onchilardan deb o‘ylayman».",
+
+39: "U va uning lashkarlari yer yuzida nohaq kibrlanib, Bizning huzurimizga qaytarilmasmiz deb o‘yladilar.",
+
+40: "Bas, Biz uni va uning lashkarlarini ushlab, dengizga tashladik. Zolimlarning oqibati qanday bo‘lganiga qaragin.",
+    
+ 41: "Biz ularni do‘zaxga chaqiruvchi peshvolar qildik. Qiyomat kuni ularga yordam berilmaydi.",
+
+42: "Bu dunyoda ularning ortidan la’nat ergashtirdik. Qiyomat kuni esa ular yomon ko‘rilganlardan bo‘ladilar.",
+
+43: "Darhaqiqat, Biz avvalgi avlodlarni halok qilganimizdan keyin Musoga Kitob berdik. U insonlar uchun qalblarini ochuvchi, hidoyat va rahmat edi. Shoyad ular eslatma olsalar.",
+
+44: "Muso uchun amrimizni belgilaganimizda sen g‘arbiy tomonda emas eding va guvohlardan ham emas eding.",
+
+45: "Lekin Biz ko‘plab avlodlarni yaratdik va ularga uzoq umrlar o‘tdi. Sen Madyan ahli orasida yashamagan eding, ularga oyatlarimizni o‘qib bergan emassan. Lekin Biz Rasul yuboruvchilardan bo‘ldik.",
+
+46: "Muso uchun nido qilganimizda sen tog‘ yonida ham emas eding. Lekin bu Robbing tomonidan rahmatdir. Shoyad sendan oldin ularga biror ogohlantiruvchi kelmagan qavmni ogohlantirsang.",
+
+47: "Qo‘llari bilan qilgan ishlari sababli ularga musibat yetganida: «Ey Robbimiz! Bizga bir Rasul yuborganingda edi, oyatlaringga ergashgan va mo‘minlardan bo‘lgan bo‘lardik», demasliklari uchun.",
+
+48: "Ularga Bizning huzurimizdan haq kelganida: «Muso berilgan narsaga o‘xshash narsa unga ham berilganida edi», dedilar. Axir ular ilgari Musoga berilgan narsani ham inkor qilmaganmidilar? Ular: «Ikki sehr bir-birini qo‘llab-quvvatladi», dedilar va: «Biz barchasini inkor qiluvchilarmiz», dedilar.",
+
+49: "Ayting: «Agar rostgo‘y bo‘lsangizlar, ALLAH huzuridan ulardan ko‘ra yaxshiroq hidoyat qiluvchi bir Kitob keltiringlar, men unga ergashaman».",
+
+50: "Agar ular senga javob bermasalar, bilgin: ular faqat havoyi nafslariga ergashmoqdalar. ALLAHdan kelgan hidoyatsiz o‘z havosiga ergashgan kishidan ham adashganroq kim bor? Albatta, ALLAH zolim qavmni hidoyat qilmaydi.",
+
+51: "Darhaqiqat, Biz ularga So‘zni ketma-ket yetkazdik, shoyad ular eslatma olsalar.",
+
+52: "Biz undan oldin Kitob bergan kishilar unga iymon keltiradilar.",
+
+53: "Ularga u tilovat qilinganda: «Biz unga iymon keltirdik. Albatta, u Robbimiz tomonidan kelgan Haqdir. Biz bundan oldin ham musulmon bo‘lganmiz», deydilar.",
+
+54: "Ana o‘shalarga sabr qilganlari sababli mukofotlari ikki marta beriladi. Ular yomonlikni yaxshilik bilan daf qiladilar va Biz ularga bergan narsalardan sarflaydilar.",
+
+55: "Ular behuda so‘zni eshitganlarida undan yuz o‘giradilar va: «Bizning amallarimiz bizga, sizlarning amallaringiz sizlarga. Sizlarga salom bo‘lsin. Biz johillarni istamaymiz», deydilar.",
+
+56: "Albatta, sen sevgan kishini hidoyat qila olmaysan. Lekin ALLAH xohlagan kishisini hidoyat qiladi. U hidoyat topuvchilarni yaxshiroq biladi.",
+
+57: "Ular dedilar: «Agar sen bilan birga hidoyatga ergashsak, yurtimizdan chiqarib yuborilamiz». Biz ularga O‘z huzurimizdan rizq sifatida har narsaning mevalari to‘planadigan xavfsiz Haramni bermadikmi? Lekin ularning ko‘pchiligi bilmaydilar.",
+
+58: "Biz farovonlikda yashagan qancha shaharlarni halok qildik. Mana, ularning maskanlari ulardan keyin oz yashaldi. Biz merosxo‘r bo‘ldik.",
+
+59: "Robbing shaharlarni halok qiluvchi emasdir, toki ularning markaziga oyatlarimizni o‘qib beruvchi Rasul yubormaguncha. Biz faqat aholisi zolim bo‘lgan shaharlarni halok qilamiz.",
+
+60: "Sizlarga berilgan har qanday narsa dunyo hayotining matohi va ziynatidir. ALLAH huzuridagi narsa esa yaxshiroq va boqiyroqdir. Nahotki aql ishlatmasangizlar?",
+    
+61: "Axir Biz unga go‘zal va’da bergan, u esa unga erishadigan kishi dunyo hayotining matohini bergan va so‘ngra Qiyomat kuni hozir qilinadiganlardan bo‘lgan kishiga o‘xshaydimi?",
+
+62: "U kuni U ularga nido qilib: «Menga sherik deb gumon qilganlarim qani?» deydi.",
+
+63: "Ular haqida so‘z haq bo‘lganlar: «Ey Robbimiz! Biz mana bularni adashtirdik. O‘zimiz adashganimiz kabi ularni ham adashtirdik. Biz Sendan pokmiz. Ular bizga ibodat qilmagan edilar», deydilar.",
+
+64: "Ularga: «Sheriklaringizni chaqiringlar», deyiladi. Bas, ular chaqiradilar, lekin ularga javob bermaydilar va azobni ko‘radilar. Qani edi ular hidoyat topgan bo‘lsalar.",
+
+65: "U kuni U ularga nido qilib: «Rasullarga nima deb javob berdingizlar?» deydi.",
+
+66: "O‘sha kuni ularga xabarlar ko‘r bo‘lib qoladi va ular bir-birlaridan ham so‘ray olmaydilar.",
+
+67: "Ammo tavba qilgan, iymon keltirgan va yaxshi amal qilgan kishi najot topuvchilardan bo‘lishi umid qilinadi.",
+
+68: "Robbing xohlagan narsasini yaratadi va tanlaydi. Ularda tanlash ixtiyori yo‘qdir. ALLAH pok va ular shirk keltirayotgan narsalardan oliydir.",
+
+69: "Robbing ularning ko‘kslari yashirayotgan narsalarni ham, oshkor qilayotgan narsalarni ham biladi.",
+
+70: "U — ALLAHdir. Undan boshqa iloh yo‘qdir. Avvalda ham, oxiratda ham hamd Unga xosdir. Hukm Unikidir va sizlar Uning huzuriga qaytarilasizlar.",
+
+71: "Ayting: «Agar ALLAH kechani Qiyomat kunigacha uzluksiz qilib qo‘ysa, ALLAHdan boshqa sizlarga nur keltiradigan iloh kim?» Nahotki eshitmaysizlar?",
+
+72: "Ayting: «Agar ALLAH kunduzni Qiyomat kunigacha uzluksiz qilib qo‘ysa, ALLAHdan boshqa sizlarga dam oladigan kechani keltiradigan iloh kim?» Nahotki ko‘rmayapsizlar?",
+
+73: "U O‘z rahmatidan kechani sizlar unda orom olishingiz uchun, kunduzni esa Uning fazlidan rizq izlashingiz uchun yaratdi. Shoyad shukr qilsangizlar.",
+
+74: "U kuni U ularga nido qilib: «Menga sherik deb gumon qilganlaringiz qani?» deydi.",
+
+75: "Har bir ummatdan bir guvoh chiqaramiz va: «Dalilingizni keltiringlar», deymiz. Bas, ular haq faqat ALLAHniki ekanini biladilar va to‘qib chiqargan narsalari ulardan yo‘qolib ketadi.",
+
+76: "Albatta, Qorun Muso qavmidan edi, lekin ularga zulm qildi. Biz unga shunday xazinalar bergan edikki, ularning kalitlari kuchli kishilar guruhiga ham og‘irlik qilardi. Qavmi unga: «Haddan oshib quvonma. Albatta, ALLAH haddan oshib quvonganlarni sevmaydi», degan edi.",
+
+77: "ALLAH senga bergan narsa bilan oxirat uyini istagin va dunyodagi nasibangni ham unutma. ALLAH senga yaxshilik qilgani kabi, sen ham yaxshilik qilgin. Yer yuzida buzg‘unchilik istama. Albatta, ALLAH buzg‘unchilarni sevmaydi.",
+
+78: "U dedi: «Bu menga faqat o‘zimdagi ilm sababli berildi». Axir u ALLAH undan oldin avlodlardan kuch jihatidan undan ham qudratli va moli ko‘proq kishilarni halok qilganini bilmasmidi? Gunohkorlardan gunohlari haqida so‘ralmaydi.",
+
+79: "Bas, u o‘z ziynati bilan qavmi oldiga chiqdi. Dunyo hayotini istaganlar: «Qani edi bizga ham Qorunga berilgan narsa berilsa edi. Albatta, u ulkan nasiba egasidir», dedilar.",
+
+80: "Ilm berilganlar esa: «Voy holingizga! ALLAHning savobi iymon keltirgan va yaxshi amal qilgan kishilar uchun yaxshiroqdir. Unga faqat sabr qiluvchilar erishadilar», dedilar.",
+    
+81: "Bas, Biz uni ham, uning uyini ham yerga yutqazdik. Uning ALLAHdan boshqa yordam beradigan guruhi ham yo‘q edi va u o‘zini himoya qila oladiganlardan ham bo‘lmadi.",
+
+82: "Kecha uning o‘rnida bo‘lishni istaganlar tong otgach: «Voy holimizga! ALLAH bandalaridan xohlaganiga rizqni kengaytirar va toraytirar ekan. Agar ALLAH bizga marhamat qilmaganida edi, bizni ham yerga yutqazgan bo‘lardi. Voy holimizga! Kofirlar najot topmas ekan», dedilar.",
+
+83: "Ana shu oxirat uyini yer yuzida kibr va buzg‘unchilik istamaydigan kishilar uchun qilamiz. Oqibat taqvodorlarnikidir.",
+
+84: "Kim yaxshilik bilan kelsa, unga undan ham yaxshirog‘i bor. Kim yomonlik bilan kelsa, yomonlik qilganlar faqat qilganlariga yarasha jazolanadilar.",
+
+85: "Albatta, senga Qur’onni farz qilgan Zot seni qaytadigan joyga qaytaruvchidir. Ayting: «Robbim kim hidoyat bilan kelganini va kim ochiq adashishda ekanini yaxshiroq biluvchidir».",
+
+86: "Sen bu Kitob senga tushirilishini umid qilmagan eding. Bu faqat Robbing tomonidan rahmatdir. Bas, kofirlarga yordamchi bo‘lma.",
+
+87: "Va ALLAHning oyatlari senga nozil qilinganidan keyin ular seni ulardan to‘smasinlar. Robbingga da’vat qilgin va mushriklardan bo‘lma.",
+
+88: "ALLAH bilan birga boshqa ilohga duo qilma. Undan boshqa iloh yo‘qdir. Uning Zoti dan boshqa barcha narsa halok bo‘luvchidir. Hukm Unikidir va sizlar Uning huzuriga qaytarilasizlar.",
+},
+29: {    
+1: "Alif Lam Mim.",
+
+2: "Odamlar: «Iymon keltirdik», deyishlari bilan sinalmasdan qo‘yib yuborilamiz deb o‘ylaydilarmi?",
+
+3: "Darhaqiqat, Biz ulardan oldingilarni ham sinadik. Bas, ALLAH rostgo‘ylarni ham, yolg‘onchilarni ham albatta biladi.",
+
+4: "Yoki yomonliklar qilganlar Bizdan o‘zib ketamiz deb o‘ylaydilarmi? Ularning hukmi naqadar yomon.",
+
+5: "Kim ALLAH bilan uchrashishni umid qilsa, albatta, ALLAHning belgilagan vaqti keluvchidir. U Eshituvchi va Biluvchidir.",
+
+6: "Kim jihod qilsa, faqat o‘zi uchun jihod qiladi. Albatta, ALLAH olamlardan Behojatdir.",
+
+7: "Iymon keltirgan va yaxshi amallar qilganlarning yomonliklarini albatta o‘chirib yuboramiz va ularni qilgan amallarining eng go‘zaliga yarasha mukofotlaymiz.",
+
+8: "Biz insonga ota-onasiga yaxshilik qilishni buyurdik. Agar ular seni Menga sen bilmagan narsani sherik qilishga majburlasalar, ularga itoat qilma. Qaytishingiz Mening huzurimga. Bas, qilgan ishlaringizdan sizlarga xabar beraman.",
+
+9: "Iymon keltirgan va yaxshi amallar qilganlarni albatta solihlar qatoriga kiritamiz.",
+
+10: "Odamlardan shundaylari borki: «ALLAHga iymon keltirdik», deydi. Ammo ALLAH yo‘lida ozor ko‘rsa, odamlarning fitnasini ALLAHning azobidek ko‘radi. Agar Robbingdan yordam kelsa, albatta: «Biz sizlar bilan birga edik», deydilar. ALLAH olamlarning ko‘kslaridagi narsalarni yaxshiroq biluvchi emasmi?",
+
+11: "Albatta, ALLAH iymon keltirganlarni ham, munofiqlarni ham biladi.",
+
+12: "Kofir bo‘lganlar iymon keltirganlarga: «Bizning yo‘limizga ergashinglar, gunohlaringizni biz ko‘taramiz», dedilar. Holbuki, ular ularning gunohlaridan hech narsani ko‘taruvchi emaslar. Albatta, ular yolg‘onchilardir.",
+
+13: "Ular o‘z yuklarini ham, o‘z yuklari bilan birga boshqa yuklarni ham ko‘taradilar. Qiyomat kuni ular to‘qib chiqargan narsalari haqida albatta so‘raladilar.",
+
+14: "Darhaqiqat, Biz Nuhni uning qavmiga yubordik. U ular orasida ming yildan ellik yil kam yashadi. So‘ngra ularni zulm qilgan hollarida to‘fon tutdi.",
+
+15: "Bas, Biz uni va kemadagi kishilarni najot qildik va uni olamlar uchun oyat qildik.",
+
+16: "Ibrohimni ham esla. U o‘z qavmiga dedi: «ALLAHga ibodat qilinglar va Undan qo‘rqinglar. Agar bilsangizlar, bu sizlar uchun yaxshiroqdir».",
+
+17: "«Sizlar faqat ALLAHni qo‘yib butlarga ibodat qilasizlar va yolg‘on to‘qiyapsizlar. Sizlar ALLAHni qo‘yib ibodat qilayotgan narsalar sizlarga rizq berishga qodir emaslar. Bas, rizqni ALLAH huzuridan izlanglar, Unga ibodat qilinglar va Unga shukr qilinglar. Sizlar Uning huzuriga qaytarilasizlar».",
+
+18: "Agar yolg‘on qilsangizlar, sizlardan oldingi ummatlar ham yolg‘on qilgan edilar. Rasulning zimmasida faqat ochiq yetkazish bor.",
+
+19: "Ular ALLAH yaratishni qanday boshlashini, so‘ngra uni qaytarishini ko‘rmaganmidilar? Albatta, bu ALLAH uchun osondir.",
+
+20: "Ayting: «Yer yuzida yurib, yaratishni qanday boshlaganiga qaranglar. So‘ngra ALLAH oxirat yaratishini paydo qiladi. Albatta, ALLAH har narsaga Qodirdir».",
+    
+21: "U xohlagan kishisini azoblaydi va xohlagan kishisiga rahm qiladi. Sizlar Uning huzuriga qaytarilasizlar.",
+
+22: "Sizlar yer yuzida ham, osmonlarda ham (ALLAHni) ojiz qila olmaysizlar. Sizlar uchun ALLAHdan boshqa hech qanday do‘st ham, yordamchi ham yo‘qdir.",
+
+23: "ALLAHning oyatlarini va Unga uchrashishni inkor qilganlar — ana o‘shalar Mening rahmatimdan umid uzganlardir. Ular uchun alamli azob bordir.",
+
+24: "Uning qavmining javobi faqat: «Uni o‘ldiringlar yoki yoqinglar», degan so‘z bo‘ldi. Bas, ALLAH uni olovdan najot qildi. Albatta, bunda iymon keltiradigan qavm uchun oyatlar bordir.",
+
+25: "U dedi: «Sizlar dunyo hayotida ALLAHni qo‘yib butlarni faqat orangizdagi muhabbat sababli tutdingizlar. So‘ngra Qiyomat kuni ba’zilaringiz ba’zilarini inkor qiladi va ba’zilaringiz ba’zilarini la’natlaydi. Joyingiz do‘zaxdir va sizlarga yordamchilar yo‘qdir».",
+
+26: "Bas, Lut unga iymon keltirdi. Ibrohim dedi: «Men Robbim tomon hijrat qiluvchiman. Albatta, U Aziz va Hikmat Egasi».",
+
+27: "Biz unga Ishoq va Ya’qubni berdik va uning zurriyotida payg‘ambarlik va Kitob qildik. Unga dunyodagi mukofotini berdik. Albatta, u oxiratda ham solihlardandir.",
+
+28: "Lutni ham esla. U o‘z qavmiga dedi: «Sizlar haqiqatan ham olamlardan hech kim qilmagan buzuq ishni qilmoqdasizlar».",
+
+29: "«Sizlar erkaklarga yaqinlashasizlar, yo‘lni to‘sasizlar va majlislaringizda munkar ish qilasizlar». Uning qavmining javobi: «Agar rostgo‘ylardan bo‘lsang, bizga ALLAHning azobini keltir», deyishdan boshqa bo‘lmadi.",
+
+30: "U dedi: «Ey Robbim! Menga buzuq qavm ustidan yordam ber».",
+
+31: "Bizning elchilarimiz Ibrohimga xushxabar bilan kelganlarida: «Biz bu shahar ahlini halok qilamiz. Albatta, uning ahli zolim bo‘lganlar», dedilar.",
+
+32: "U dedi: «Unda Lut bor-ku». Ular dedilar: «Biz u yerda kim borligini yaxshiroq bilamiz. Uni va oilasini najot qilamiz, faqat xotinidan boshqa. U qoluvchilardan bo‘ladi».",
+
+33: "Elchilarimiz Lutga kelganlarida, u ular sababli g‘amgin bo‘ldi va ular uchun ojizlandi. Ular dedilar: «Qo‘rqma va g‘amgin bo‘lma. Biz seni va oilangni najot qilamiz, faqat xotiningdan boshqa. U qoluvchilardan bo‘ladi».",
+
+34: "«Albatta, biz bu shahar ahli ustiga osmondan ularning fosiqliklari sababli azob tushiruvchimiz».",
+
+35: "Darhaqiqat, Biz undan aql ishlatadigan qavm uchun ochiq bir oyat qoldirdik.",
+
+36: "Madyanga esa ularning birodari Shu’aybni yubordik. U dedi: «Ey qavmim! ALLAHga ibodat qilinglar, oxirgi kunni umid qilinglar va yer yuzida buzg‘unchilik qilib yurmanglar».",
+
+37: "Bas, ular uni yolg‘on qildilar. Shunda ularni dahshatli zilzila tutdi va ular o‘z uylarida yiqilgan holda tong ottirdilar.",
+
+38: "Od va Samudni ham (halok qildik). Sizlarga ularning maskanlaridan ayon bo‘ldi. Shayton ularga amallarini chiroyli ko‘rsatdi va ularni yo‘ldan to‘sdi. Holbuki, ular ko‘ra oladigan edilar.",
+
+39: "Qorun, Fir’avn va Homonni ham (halok qildik). Darhaqiqat, Muso ularga ochiq dalillar bilan keldi, ammo ular yer yuzida kibr qildilar va o‘tib keta olmadilar.",
+
+40: "Bas, ularning har birini gunohi sababli tutdik. Ulardan ba’zilariga tosh yog‘diruvchi shamol yubordik, ba’zilarini dahshatli ovoz tutdi, ba’zilarini yer yutdi va ba’zilarini g‘arq qildik. ALLAH ularga zulm qiluvchi bo‘lmadi, lekin ular o‘zlariga zulm qilardilar.",
+
+41: "ALLAHni qo‘yib o‘zlariga do‘st tutganlarning misoli o‘rgimchak misolidir. U uy qurdi. Albatta, uylarning eng zaifi o‘rgimchak uyidir. Agar bilsalar edi.",
+
+42: "Albatta, ALLAH ularning Undan boshqa nimalarga duo qilayotganlarini biladi. U Aziz va Hikmat Egasi Zotdir.",
+
+43: "Bu misollarni Biz odamlar uchun keltiramiz. Ularni faqat bilim egalari anglaydilar.",
+
+44: "ALLAH osmonlaru yerni haq bilan yaratdi. Albatta, bunda mo‘minlar uchun oyat bordir.",
+
+45: "Senga Kitobdan vahiy qilingan narsani tilovat qil va namozni ado et. Albatta, namoz fahsh va munkar ishlardan qaytaradi. ALLAHni zikr qilish esa eng ulug‘dir. ALLAH qilayotgan ishlaringizni biladi.",
+
+46: "Kitob ahllari bilan faqat eng chiroyli usulda munozara qilinglar. Faqat ulardan zulm qilganlari bundan mustasno. Aytinglar: «Biz bizga nozil qilingan narsaga ham, sizlarga nozil qilingan narsaga ham iymon keltirdik. Bizning ilohimiz ham, sizlarning ilohingiz ham birdir. Biz Unga bo‘ysunuvchilarmiz».",
+
+47: "Shuningdek, Biz senga Kitobni nozil qildik. Biz Kitob berganlar unga iymon keltiradilar. Ana shulardan ba’zilari ham unga iymon keltiradilar. Bizning oyatlarimizni faqat kofirlar inkor qiladilar.",
+
+48: "Sen bundan oldin biror Kitob o‘qimas eding va uni o‘ng qo‘ling bilan yozmas eding. Aks holda, botil tarafdorlari shubha qilgan bo‘lardilar.",
+
+49: "Yo‘q, u ilm berilganlarning ko‘kslaridagi ochiq-oydin oyatlardir. Bizning oyatlarimizni faqat zolimlar inkor qiladilar.",
+
+50: "Ular: «Unga Robbisidan mo‘jizalar tushirilsa edi», dedilar. Ayting: «Mo‘jizalar faqat ALLAH huzuridadir. Men esa faqat ochiq ogohlantiruvchiman».",
+
+51: "Ularga o‘qib berilayotgan Kitobni senga nozil qilganimiz ular uchun yetarli emasmi? Albatta, bunda iymon keltiradigan qavm uchun rahmat va eslatma bordir.",
+
+52: "Ayting: «Men bilan sizlarning o‘rtangizda guvoh sifatida ALLAHning O‘zi kifoyadir. U osmonlaru yerdagi narsalarni biladi. Botilga iymon keltirgan va ALLAHni inkor qilganlar — ana o‘shalar ziyon ko‘ruvchilardir».",
+
+53: "Ular sendan azobni tezlashtirishni so‘raydilar. Agar belgilangan vaqt bo‘lmaganida edi, ularga azob kelgan bo‘lardi. U ularga to‘satdan keladi va ular sezmay qoladilar.",
+
+54: "Ular sendan azobni tezlashtirishni so‘raydilar. Albatta, jahannam kofirlarni qamrab oluvchidir.",
+
+55: "U kuni azob ularni ustlaridan va oyoqlari ostidan o‘rab oladi. U: «Qilgan ishlaringizni totib ko‘ringlar», deydi.",
+
+56: "Ey iymon keltirgan bandalarim! Albatta, Mening yerim kengdir. Bas, faqat Menga ibodat qilinglar.",
+
+57: "Har bir jon o‘limni totuvchidir. So‘ngra Bizning huzurimizga qaytarilasizlar.",
+
+58: "Iymon keltirgan va yaxshi amallar qilganlarni albatta jannatda ostidan anhorlar oqadigan xonalarga joylashtiramiz. Ular unda abadiy qoladilar. Amal qiluvchilarning mukofoti naqadar go‘zaldir.",
+
+59: "Ular sabr qilgan va Robbilariga tavakkul qilgan kishilardir.",
+
+60: "Qancha jonivorlar borki, o‘z rizqini ko‘tara olmaydi. Ularni ham, sizlarni ham ALLAH rizqlantiradi. U Eshituvchi va Biluvchidir.",
+    
+61: "Agar ulardan: «Osmonlaru yerni kim yaratdi va quyosh hamda oyni kim bo‘ysundirdi?» deb so‘rasang, albatta: «ALLAH», deydilar. Bas, qanday qilib yuz o‘giriladilar?",
+
+62: "ALLAH bandalaridan xohlaganiga rizqni kengaytiradi va xohlaganiga toraytiradi. Albatta, ALLAH har narsani Biluvchidir.",
+
+63: "Agar ulardan: «Osmondan suv tushirib, u bilan o‘lgan yerni kim tiriltirdi?» deb so‘rasang, albatta: «ALLAH», deydilar. Ayting: «Hamd ALLAHga xosdir». Lekin ularning ko‘pchiligi aql ishlatmaydilar.",
+
+64: "Bu dunyo hayoti faqat o‘yin-kulgi va ermakdir. Albatta, oxirat diyori haqiqiy hayotdir. Agar bilsalar edi.",
+
+65: "Ular kemaga minganlarida, dinni faqat Unga xos qilib ALLAHga duo qiladilar. Ammo U ularni quruqlikka chiqarib najot berganida, birdan shirk keltiradilar.",
+
+66: "Biz ularga bergan narsalarimizga noshukrlik qilishlari va foydalanib qolishlari uchun shunday qiladilar. Tez orada bilib oladilar.",
+
+67: "Axir ular atrofidagi odamlar tortib olinayotgan bo‘lsa-da, Biz Haramni xavfsiz joy qilib qo‘yganimizni ko‘rmadilarmi? Nahotki ular botilga iymon keltirib, ALLAHning ne’matini inkor qilsalar?",
+
+68: "ALLAHga nisbatan yolg‘on to‘qigan yoki o‘ziga kelgan Haqni yolg‘on qilgan kishidan ham zolimroq kim bor? Jahannamda kofirlar uchun joy yo‘qmi?",
+
+69: "Bizning yo‘limizda jihod qilganlarni albatta O‘z yo‘llarimizga hidoyat qilamiz. Albatta, ALLAH yaxshilik qiluvchilar bilandir.",
+},
+30: {
+1: "Alif Lam Mim.",
+
+2: "Rum mag‘lub bo‘ldi.",
+
+3: "Yaqin yerda. Ular bu mag‘lubiyatlaridan keyin g‘olib bo‘ladilar.",
+
+4: "Bir necha yil ichida. Avval ham, keyin ham ish ALLAHning ixtiyoridadir. O‘sha kuni mo‘minlar xursand bo‘ladilar.",
+
+5: "ALLAHning yordami bilan. U xohlagan kishisiga yordam beradi. U Aziz va Rahmlidir.",
+
+6: "Bu ALLAHning va’dasidir. ALLAH O‘z va’dasiga xilof qilmaydi. Lekin odamlarning ko‘pchiligi bilmaydilar.",
+
+7: "Ular dunyo hayotining zohirini biladilar, ammo oxiratdan ular g‘ofildirlar.",
+
+8: "Ular o‘z ichlarida: «ALLAH osmonlaru yerni va ular orasidagi narsalarni faqat haq bilan va belgilangan muddat uchun yaratganini» o‘ylamaydilarmi? Albatta, odamlarning ko‘pchiligi Robbilari bilan uchrashishni inkor qiluvchilardir.",
+
+9: "Ular yer yuzida yurib, o‘zlaridan oldingilarning oqibati qanday bo‘lganiga qaramadilarmi? Ular ulardan kuchliroq edilar. Ular yerni obod qildilar va uni bular obod qilganidan ko‘ra ko‘proq obod qildilar. Ularga Rasulchilari ochiq dalillar bilan keldilar. Bas, ALLAH ularga zulm qiluvchi bo‘lmadi, balki ular o‘zlariga zulm qilardilar.",
+
+10: "So‘ngra yomonlik qilganlarning oqibati yomon bo‘ldi. Chunki ular ALLAHning oyatlarini yolg‘on qildilar va ularni masxara qildilar.",
+
+11: "ALLAH yaratishni boshlaydi, so‘ngra uni qaytaradi. So‘ngra sizlar Uning huzuriga qaytarilasizlar.",
+
+12: "Soat keladigan kuni jinoyatchilar noumid bo‘ladilar.",
+
+13: "Ularning sheriklaridan ular uchun shafoatchilar bo‘lmaydi va ular o‘z sheriklarini inkor qiladilar.",
+
+14: "Soat keladigan kuni o‘sha kuni ular ajralib ketadilar.",
+
+15: "Iymon keltirgan va yaxshi amallar qilganlar esa jannat bog‘larida xursand qilinadilar.",
+
+16: "Kofir bo‘lgan va Bizning oyatlarimizni hamda oxirat uchrashuvini yolg‘on qilganlar — ana o‘shalar azobga hozir qilinadilar.",
+
+17: "Bas, kech kirganda ham, tong otganda ham ALLAHni poklanglar.",
+
+18: "Osmonlaru yerda hamd Unikidir. Kunning oxirida va peshin paytingizda ham Uni poklanglar.",
+
+19: "U o‘likdan tirikni chiqaradi va tirikdan o‘likni chiqaradi. Yerni o‘limidan keyin tiriltiradi. Sizlar ham shunday chiqarilasizlar.",
+
+20: "Uning oyatlaridan biri — sizlarni tuproqdan yaratganidir. So‘ngra sizlar inson bo‘lib tarqaldingizlar.",
+ 
+21: "Uning oyatlaridan biri — sizlar taskin topishingiz uchun o‘zlaringizdan juftlar yaratgani va orangizda muhabbat hamda rahmat paydo qilganidir. Albatta, bunda tafakkur qiladigan qavm uchun oyatlar bordir.",
+
+22: "Uning oyatlaridan biri — osmonlaru yerning yaratilishi va tillaringiz hamda ranglaringizning turlichaligidir. Albatta, bunda bilim egalari uchun oyatlar bordir.",
+
+23: "Uning oyatlaridan biri — kechasi va kunduzda uxlashingiz hamda Uning fazlidan rizq izlashingizdir. Albatta, bunda eshitadigan qavm uchun oyatlar bordir.",
+
+24: "Uning oyatlaridan biri — sizlarga qo‘rquv va umid uchun chaqmoqni ko‘rsatishi hamda osmondan suv tushirib, u bilan o‘lgan yerni tiriltirishidir. Albatta, bunda aql ishlatadigan qavm uchun oyatlar bordir.",
+
+25: "Uning oyatlaridan biri — osmon va yer Uning amri bilan turishidir. So‘ngra U sizlarni yerdan bir chaqiriq bilan chaqirsa, birdan chiqasizlar.",
+
+26: "Osmonlaru yerdagi barcha narsa Unikidir. Barchasi Unga bo‘ysunuvchidir.",
+
+27: "U yaratishni boshlaydi, so‘ngra uni qaytaradi. Bu Unga juda osondir. Osmonlaru yerda eng oliy sifat Unikidir. U Aziz va Hikmat Egasi.",
+
+28: "U sizlarga o‘zingizdan bir misol keltirdi: qo‘llaringiz egalik qilganlar orasida sizlarga bergan rizqimizda sizlar teng sherik bo‘lib, ulardan o‘zingizdan qo‘rqqaningiz kabi qo‘rqasizlarmi? Shunday qilib, Biz oyatlarni aql ishlatadigan qavm uchun bayon qilamiz.",
+
+29: "Yo‘q, zolimlar hech qanday ilmsiz havoyi nafslariga ergashdilar. ALLAH adashtirgan kishini kim hidoyat qila oladi? Ular uchun yordamchilar yo‘qdir.",
+
+30: "Bas, yuzingni to‘g‘ri din tomon burgin. ALLAH insonlarni yaratgan fitratga (mos bo‘lgan) dinni tutgin. ALLAHning yaratishida o‘zgarish yo‘qdir. Mana shu to‘g‘ri dindir. Lekin odamlarning ko‘pchiligi bilmaydilar.",
+
+31: "Unga qaytuvchi bo‘lgan holda Unga taqvo qilinglar, namozni ado qilinglar va mushriklardan bo‘lmanglar.",
+
+32: "Ular dinlarini bo‘lib yuborgan va guruhlarga ajralgan kishilardir. Har bir guruh o‘zidagi narsa bilan xursanddir.",
+
+33: "Odamlarga zarar yetganida, ular Robbilariga qaytgan holda Unga duo qiladilar. So‘ngra U ularga O‘z rahmatidan totirganida, ulardan bir guruhi darhol Robbilariga shirk keltiradilar.",
+
+34: "Biz ularga bergan narsalarimizga noshukrlik qilishlari uchun shunday qiladilar. Bas, foydalanib turinglar, tez orada bilib olasizlar.",
+
+35: "Yoki Biz ularga shirk keltirishlari haqida gapiradigan bir hujjat tushirdikmi?",
+
+36: "Qachonki odamlarga rahmat totirsak, ular undan xursand bo‘ladilar. Agar qilgan ishlari sababli ularga bir yomonlik yetsa, birdan noumid bo‘ladilar.",
+
+37: "Ular ALLAH xohlagan kishisiga rizqni kengaytirishini va toraytirishini ko‘rmaydilarmi? Albatta, bunda iymon keltiradigan qavm uchun oyatlar bordir.",
+
+38: "Bas, qarindoshga, miskinga va yo‘lovchiga haqqini ber. Bu ALLAHning roziligini istaganlar uchun yaxshiroqdir. Ana o‘shalar najot topuvchilardir.",
+
+39: "Odamlarning mollarida ko‘payishi uchun bergan ribo ALLAH huzurida ko‘paymaydi. ALLAHning roziligini istab bergan zakotlaringiz esa — ana o‘shalar ko‘paytiruvchilardir.",
+
+40: "ALLAH sizlarni yaratgan, so‘ngra sizlarga rizq bergan, so‘ngra sizlarni o‘ldiradigan, so‘ngra tiriltiradigan Zotdir. Sizlar shirk keltirayotgan sheriklaringizdan shunday qiladigan birortasi bormi? U pokdir va ular shirk keltirayotgan narsalardan oliydir.",
+
+41: "Odamlarning qo‘llari qilgan ishlari sababli quruqlikda ham, dengizda ham buzg‘unchilik paydo bo‘ldi. Bu ularga qilgan ishlarining ba’zisini totishlari uchundir. Shoyad ular qaytsalar.",
+
+42: "Ayting: «Yer yuzida yurib, avvalgilarning oqibati qanday bo‘lganiga qaranglar. Ularning ko‘pchiligi mushriklar edi».",
+
+43: "ALLAH tomonidan qaytarilmaydigan kun kelishidan oldin yuzingni to‘g‘ri dinga burgin. O‘sha kuni ular bo‘linib ketadilar.",
+
+44: "Kim kufr qilsa, kufri o‘z zarariga bo‘ladi. Kim yaxshi amal qilsa, o‘zlari uchun joy tayyorlaydilar.",
+
+45: "U iymon keltirgan va yaxshi amallar qilganlarni O‘z fazlidan mukofotlash uchun. Albatta, U kofirlarni sevmaydi.",
+
+46: "Uning oyatlaridan biri — sizlarga rahmatidan totirishi, Uning amri bilan kemalar yurishi va Uning fazlidan rizq izlashingiz uchun shamollarni xushxabar qilib yuborishidir. Shoyad shukr qilsangizlar.",
+
+47: "Darhaqiqat, Biz sendan oldin ham o‘z qavmlariga Rasulchilar yubordik. Ular ularga ochiq dalillar keltirdilar. Bas, jinoyat qilganlardan intiqom oldik. Mo‘minlarga yordam berish Bizning zimmamizdagi haqdir.",
+
+48: "ALLAH shamollarni yuboradi, ular bulutlarni qo‘zg‘atadi. So‘ng U ularni osmonda xohlaganicha yoyadi va bo‘laklarga ajratadi. Bas, ular orasidan yomg‘ir chiqayotganini ko‘rasan. U uni bandalaridan xohlaganiga yetkazsa, ular xursand bo‘ladilar.",
+
+49: "Holbuki, ular bundan oldin, ularga yomg‘ir tushishidan avval, noumid edilar.",
+
+50: "Bas, ALLAH rahmatining izlariga qaragin: yer o‘lgandan keyin uni qanday tiriltiradi. Albatta, U o‘liklarni tiriltiruvchidir. U har narsaga Qodirdir.",
+
+51: "Agar Biz shamol yuborsak-u, ular uni sarg‘aygan holda ko‘rsalar, undan keyin ham kufrda davom etadilar.",
+
+52: "Albatta, sen o‘liklarga eshittira olmaysan va karlarni ham ular ortiga yuz o‘girib ketganlarida chaqiriqni eshittira olmaysan.",
+
+53: "Sen ko‘rlarni ham adashishidan hidoyat qila olmaysan. Sen faqat Bizning oyatlarimizga iymon keltiradiganlarga eshittira olasan. Bas, ular musulmonlardir.",
+
+54: "ALLAH sizlarni zaif narsadan yaratdi. So‘ng zaiflikdan keyin kuch berdi. So‘ng kuchdan keyin zaiflik va qarilik berdi. U xohlagan narsasini yaratadi. U Biluvchi va Qodirdir.",
+
+55: "Qiyomat soati keladigan kuni jinoyatchilar bir soatdan ortiq turmaganliklariga qasam ichadilar. Ular shunday burilib ketardilar.",
+
+56: "Ilm va iymon berilganlar esa: «Sizlar ALLAHning Kitobida yozilganidek, tirilish kunigacha turdingizlar. Mana shu tirilish kunidir. Lekin sizlar bilmas edingizlar», deydilar.",
+
+57: "O‘sha kuni zolimlarga uzrlarining foydasi bo‘lmaydi va ulardan rozilik talab qilinmaydi.",
+
+58: "Darhaqiqat, Biz bu Qur’onda odamlar uchun har xil misollar keltirdik. Agar ularga biror oyat keltirsang ham, kofirlar: «Sizlar faqat botilga ergashuvchilarsiz», deydilar.",
+
+59: "Shunday qilib, ALLAH bilmaydiganlarning qalblarini muhrlaydi.",
+
+60: "Bas, sabr qilgin. Albatta, ALLAHning va’dasi haqdir. Ishonmaydiganlar seni yengil fikrli qilmasinlar.",
+    },
+ 31: {
+1: "Alif Lam Mim.",
+
+2: "Bular Hikmatli Kitob oyatlaridir.",
+
+3: "U yaxshilik qiluvchilar uchun hidoyat va rahmatdir.",
+
+4: "Ular namozni ado qiladilar, zakot beradilar va oxiratga qat’iy ishonadilar.",
+
+5: "Ana o‘shalar Robbilari tomonidan hidoyat ustidadirlar va ana o‘shalar najot topuvchilardir.",
+
+6: "Odamlardan shundaylari borki, bilmasdan odamlarni ALLAH yo‘lidan adashtirish va uni masxara qilish uchun behuda so‘zlarni sotib oladilar. Ana o‘shalar uchun xor qiluvchi azob bordir.",
+
+7: "Unga Bizning oyatlarimiz tilovat qilinganda, go‘yo ularni eshitmagandek, quloqlarida og‘irlik bordek kibrlanib yuz o‘giradi. Bas, unga alamli azob bilan xushxabar ber.",
+
+8: "Albatta, iymon keltirgan va yaxshi amallar qilganlar uchun ne’mat jannatlari bordir.",
+
+9: "Ular unda abadiy qoladilar. Bu ALLAHning haq va’dasidir. U Aziz va Hikmat Egasi.",
+
+10: "U osmonlarni ko‘rganingizdek ustunsiz yaratdi va yerda sizlarni silkitmasligi uchun mustahkam tog‘larni qo‘ydi. Unda har xil jonivorlarni tarqatdi. Biz osmondan suv tushirdik va unda har xil go‘zal juft o‘simliklarni o‘stirdik.",
+
+11: "Bu ALLAHning yaratganidir. Bas, Mendan boshqa yaratganlar nima yaratganini ko‘rsatinglar. Yo‘q, zolimlar ochiq adashishdadirlar.",
+
+12: "Darhaqiqat, Biz Luqmonga hikmat berdik: «ALLAHga shukr qilgin». Kim shukr qilsa, faqat o‘zi uchun shukr qiladi. Kim noshukrlik qilsa, albatta, ALLAH Behojat va Maqtovga loyiqdir.",
+
+13: "Luqmon o‘g‘liga nasihat qilib dedi: «Ey o‘g‘lim! ALLAHga shirk keltirma. Albatta, shirk ulkan zulmdir».",
+
+14: "Biz insonga ota-onasini buyurdik. Onasi uni zaiflik ustiga zaiflik bilan ko‘tardi. Uni sutdan ajratish ikki yilda bo‘ladi. «Menga va ota-onangga shukr qil. Qaytish Mening huzurimgadir».",
+
+15: "Agar ular seni Menga sen bilmagan narsani sherik qilishga majburlasalar, ularga itoat qilma. Dunyoda ularga yaxshilik bilan hamroh bo‘l. Menga qaytgan kishilarning yo‘liga ergash. So‘ngra qaytishingiz Mening huzurimga bo‘ladi va qilgan ishlaringizdan sizlarga xabar beraman.",
+
+16: "«Ey o‘g‘lim! Agar xantal donasicha bo‘lsa ham, u bir tosh ichida yoki osmonlarda yoki yerda bo‘lsa ham, ALLAH uni keltiradi. Albatta, ALLAH Nozik Biluvchi va Xabardordir».",
+
+17: "«Ey o‘g‘lim! Namozni ado qilgin, yaxshilikka buyurgin, yomonlikdan qaytargin va yetgan narsaga sabr qilgin. Albatta, bu qat’iyatli ishlardandir».",
+
+18: "«Odamlarga yuzingni burib kibr bilan qaramagin va yer yuzida mag‘rurlanib yurma. Albatta, ALLAH barcha kibrli va maqtanchoqlarni sevmaydi».",
+
+19: "«Yurishingda o‘rtacha bo‘lgin va ovozingni pasaytirgin. Albatta, ovozlarning eng yomonrog‘i eshaklar ovozidir».",
+
+20: "Osmonlaru yerdagi narsalarni ALLAH sizlarga bo‘ysundirganini va U sizlarga oshkor va yashirin ne’matlarini to‘liq berganini ko‘rmadingizmi? Odamlardan shundaylari borki, hech qanday ilm, hidoyat va nurli Kitobsiz ALLAH haqida bahslashadilar.",
+
+21: "Ularga: «ALLAH nozil qilgan narsaga ergashinglar», deyilsa, ular: «Yo‘q, biz ota-bobolarimizni nimada topsak, shunga ergashamiz», deydilar. Hatto shayton ularni alangali olov azobiga chaqirayotgan bo‘lsa hammi?",
+
+22: "Kim yaxshilik qiluvchi bo‘lgan holda yuzini ALLAHga topshirsa, albatta, u eng mustahkam tutqichni ushlabdi. Barcha ishlarning oqibati ALLAH huzurigadir.",
+
+23: "Kim kufr qilsa, uning kufri seni g‘amgin qilmasin. Ularning qaytishi Bizning huzurimizgadir. Bas, qilgan ishlaridan ularga xabar beramiz. Albatta, ALLAH ko‘kslardagi narsalarni Biluvchidir.",
+
+24: "Biz ularga ozgina foydalanish beramiz, so‘ngra ularni og‘ir azobga majbur qilamiz.",
+
+25: "Agar ulardan: «Osmonlaru yerni kim yaratdi?» deb so‘rasang, albatta: «ALLAH», deydilar. Ayting: «Hamd ALLAHgadir». Lekin ularning ko‘pchiligi bilmaydilar.",
+
+26: "Osmonlaru yerdagi narsalar ALLAHnikidir. Albatta, ALLAH Behojat va Maqtovga loyiqdir.",
+
+27: "Agar yerdagi barcha daraxtlar qalam bo‘lsa va dengizdan keyin yana yettita dengiz yordamga kelsa ham, ALLAHning so‘zlari tugamas edi. Albatta, ALLAH Aziz va Hikmat Egasi.",
+
+28: "Sizlarni yaratish ham, tiriltirish ham faqat bir jonni yaratish va tiriltirish kabidir. Albatta, ALLAH Eshituvchi va Ko‘ruvchidir.",
+
+29: "ALLAH kechani kunduzga kiritishini va kunduzni kechaga kiritishini, quyosh va oyni bo‘ysundirganini ko‘rmadingmi? Har biri belgilangan muddatgacha yuradi. Albatta, ALLAH qilayotgan ishlaringizdan Xabardordir.",
+
+30: "Bu shuning uchundirki, ALLAH — Haqdir, Undan boshqa duo qilayotganlaringiz esa botildir. Albatta, ALLAH U Zotning O‘zi Oliy va Buyukdir.",
+
+31: "Uning oyatlaridan biri — kemalar dengizda ALLAHning ne’mati bilan yurishidir. U sizlarga O‘z oyatlarini ko‘rsatadi. Albatta, bunda har bir sabrli va shukr qiluvchi uchun oyatlar bordir.",
+
+32: "Ularni to‘lqinlar soyadek qoplaganida, ular dinni faqat Unga xos qilib ALLAHga duo qiladilar. Bas, U ularni quruqlikka chiqarganida, ulardan ba’zilari o‘rtacha yo‘l tutadi. Bizning oyatlarimizni faqat har bir xiyonatkor va noshukr inkor qiladi.",
+
+33: "Ey insonlar! Robbingizdan qo‘rqinglar va ota farzandiga, farzand otasiga hech narsa bilan yordam bera olmaydigan kundan qo‘rqinglar. Albatta, ALLAHning va’dasi haqdir. Bas, dunyo hayoti sizlarni aldamasin va aldamchi sizlarni ALLAH haqida aldamasin.",
+
+34: "Albatta, Soat ilmi faqat ALLAH huzuridadir. U yomg‘irni tushiradi va bachadonlardagi narsani biladi. Hech bir jon ertaga nima qilishini bilmaydi va hech bir jon qaysi yerda o‘lishini bilmaydi. Albatta, ALLAH Biluvchi va Xabardordir.",
+},
+32: {
+1: "Alif Lam Mim.",
+
+2: "Bu Kitobning nozil qilinishi olamlarning Robbisi tomonidan ekanida hech qanday shubha yo‘qdir.",
+
+3: "Yoki ular: «Uni o‘zi to‘qib chiqardi», deydilarmi? Yo‘q, u Robbing tomonidan kelgan Haqdir. Toki sendan oldin ularga ogohlantiruvchi kelmagan qavmni ogohlantirgin. Shoyad ular hidoyat topsalar.",
+
+4: "ALLAH osmonlaru yerni va ular orasidagi narsalarni olti kunda yaratgan, so‘ng Arsh ustida hukmron bo‘lgan Zotdir. Sizlar uchun Undan boshqa na do‘st, na shafoatchi bor. Nahotki eslatma olmasangizlar?",
+
+5: "U osmondan yerga bo‘lgan ishni boshqaradi. So‘ngra u bir kunda Unga ko‘tariladi. Uning miqdori sizlar sanaydigan ming yilga tengdir.",
+
+6: "Ana shu g‘aybni va oshkor narsalarni Biluvchi, Aziz va Rahmli Zotdir.",
+
+7: "U yaratgan har bir narsasini go‘zal yaratdi va inson yaratishni loydan boshladi.",
+
+8: "So‘ngra uning zurriyotini tuban suvdan yaratdi.",
+
+9: "So‘ngra uni mukammal qildi va unga O‘z ruhidan pufladi. Sizlarga quloq, ko‘zlar va qalblar berdi. Sizlar juda oz shukr qilasizlar.",
+
+10: "Ular dedilar: «Biz yerda yo‘q bo‘lib ketganimizdan keyin yana yangi yaratilamizmi?» Yo‘q, ular Robbilari bilan uchrashishni inkor qiluvchilardir.",
+
+11: "Ayting: «Sizlarga vakil qilingan o‘lim malaikasi jonlaringizni oladi. So‘ngra Robbingiz huzuriga qaytarilasizlar».",
+
+12: "Agar jinoyatchilar Robbilari huzurida boshlarini egib: «Ey Robbimiz! Biz ko‘rdik va eshitdik. Bizni qaytargin, yaxshi amal qilaylik. Albatta, biz endi qat’iy ishonuvchilarmiz», deganlarini ko‘rsang edi.",
+
+13: "Agar xohlaganimizda, har bir jonga hidoyatini bergan bo‘lardik. Lekin Mendan: «Jinlar va insonlardan jahannamni albatta to‘ldiraman», degan so‘z haq bo‘ldi.",
+
+14: "Bas, bugungi kuningizdagi uchrashuvni unutganingiz sababli azobni totib ko‘ringlar. Albatta, Biz ham sizlarni unutdik. Qilgan ishlaringiz sababli abadiy azobni totib ko‘ringlar.",
+
+15: "Bizning oyatlarimizga faqat shunday kishilar iymon keltiradilar-ki, ularga eslatilganida sajda qilgan holda yiqiladilar va Robbilariga hamd bilan tasbeh aytadilar hamda kibr qilmaydilar.",
+
+16: "Ularning yonlari yotoqlardan uzoqlashadi. Ular qo‘rquv va umid bilan Robbilariga duo qiladilar va Biz ularga bergan narsalardan sarflaydilar.",
+
+17: "Bas, qilgan amallari uchun ularga ko‘z quvonchi qilib yashirilgan narsalarni hech bir jon bilmaydi.",
+
+18: "Iymonli kishi fosiq kishi kabi bo‘ladimi? Ular teng bo‘lmaydilar.",
+
+19: "Iymon keltirgan va yaxshi amallar qilganlar uchun qilgan ishlari sababli maskan sifatida Ma’vo jannatlari bordir.",
+
+20: "Fosiq bo‘lganlarning joyi esa do‘zaxdir. Har safar undan chiqmoqchi bo‘lsalar, unga qaytariladilar va ularga: «Yolg‘on qilgan do‘zax azobini totib ko‘ringlar», deyiladi.",
+    
+ 21: "Ularga katta azobdan oldin yaqinroq azobni albatta tottiramiz. Shoyad ular qaytsalar.",
+
+22: "Robbining oyatlari bilan eslatilgandan keyin ulardan yuz o‘girgan kishidan ham zolimroq kim bor? Albatta, Biz jinoyatchilardan intiqom oluvchilarmiz.",
+
+23: "Darhaqiqat, Biz Musoga Kitob berdik. Bas, sen u bilan uchrashishdan shubhada bo‘lma. Uni Bani Isroil uchun hidoyat qildik.",
+
+24: "Ular sabr qilganlari va oyatlarimizga qat’iy ishonganlari sababli, ulardan Bizning amrimiz bilan hidoyat qiladigan peshvolar qildik.",
+
+25: "Albatta, Robbing Qiyomat kuni ular ixtilof qilgan narsalarida ular orasida hukm qiladi.",
+
+26: "Ulardan oldin qancha avlodlarni halok qilganimiz ularga hidoyat bo‘lmadi-mi? Ular ularning maskanlarida yuradilar. Albatta, bunda oyatlar bordir. Nahotki ular eshitmasalar?",
+
+27: "Ular Biz quruq yerga suv haydab, u bilan chorvalari va o‘zlari yeydigan ekinlarni chiqarayotganimizni ko‘rmaydilarmi? Nahotki ular ko‘rmasalar?",
+
+28: "Ular: «Agar rostgo‘y bo‘lsangizlar, bu g‘alaba qachon bo‘ladi?» deydilar.",
+
+29: "Ayting: «G‘alaba kuni kofir bo‘lganlarga iymonlari foyda bermaydi va ularga muhlat ham berilmaydi».",
+
+30: "Bas, ulardan yuz o‘girgin va kutgin. Albatta, ular ham kutuvchilardir.",
+},
+33: {
+1: "Ey Nabiy! ALLAHdan qo‘rqqin va kofirlar hamda munofiqlarga itoat qilma. Albatta, ALLAH Biluvchi va Hikmat Egasi.",
+
+2: "Robbing tomonidan senga vahiy qilingan narsaga ergashgin. Albatta, ALLAH qilayotgan ishlaringizdan Xabardordir.",
+
+3: "ALLAHga tavakkul qilgin. Vakil sifatida ALLAHning O‘zi kifoyadir.",
+
+4: "ALLAH hech bir kishining ichida ikki qalb qilmagan. Sizlar «zihor» qilgan xotinlaringizni onalaringiz qilib qo‘ymadi va asrab olgan farzandlaringizni haqiqiy farzandlaringiz qilib qo‘ymadi. Bu sizlarning og‘izlaringizdagi so‘zlaringizdir. ALLAH esa haqni aytadi va to‘g‘ri yo‘lga hidoyat qiladi.",
+
+5: "Ularni otalari nomi bilan chaqiringlar. Bu ALLAH huzurida adolatliroqdir. Agar ularning otalarini bilmasangizlar, ular din birodarlaringiz va yaqinlaringizdir. Bilmasdan qilgan xatolaringizda sizlarga gunoh yo‘q, lekin qalblaringiz qasd qilgan narsada gunoh bor. ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+6: "Nabiy mo‘minlarga o‘zlaridan ko‘ra yaqinroqdir. Uning xotinlari esa ularning onalaridir. Qarindoshlar ALLAHning Kitobida bir-birlariga boshqa mo‘minlar va hijrat qilganlardan ko‘ra haqliroqdirlar. Faqat do‘stlaringizga yaxshilik qilishingiz bundan mustasno. Bu Kitobda yozilgan hukmdir.",
+
+7: "Eslang, Biz payg‘ambarlardan ahd olgan edik: sendan, Nuhdan, Ibrohimdan, Musodan va Maryam o‘g‘li Isodan. Biz ulardan mustahkam ahd oldik.",
+
+8: "Toki U rostgo‘ylarni rostgo‘yligi sababli so‘rasin. Kofirlar uchun esa alamli azob tayyorladi.",
+
+9: "Ey iymon keltirganlar! ALLAHning sizlarga bergan ne’matini eslanglar. Sizlarga lashkarlar kelganida, Biz ularga shamol va sizlar ko‘rmagan lashkarlarni yubordik. ALLAH qilayotgan ishlaringizni Ko‘ruvchidir.",
+
+10: "Ular sizlarning ustingizdan ham, ostingizdan ham kelganlarida, ko‘zlar og‘ib, qalblar tomoqqa yetganida va sizlar ALLAH haqida turli gumonlar qilgan edingizlar.",
+
+11: "O‘sha yerda mo‘minlar sinaldilar va qattiq silkinish bilan silkindilar.",
+
+12: "Munofiqlar va qalblarida kasallik bo‘lganlar: «ALLAH va Uning Rasuli bizga faqat aldanish va’dasini berdi», degan edilar.",
+
+13: "Ulardan bir guruhi: «Ey Yasrib ahli! Sizlarga turish joyi yo‘q. Qaytinglar», degan edi. Ulardan yana bir guruhi esa: «Uylarimiz ochiq qolgan», deb Rasuldan izn so‘rar edi. Holbuki, ular ochiq emas edi. Ular faqat qochishni istardilar.",
+
+14: "Agar shahar tomonlaridan ularga kirilganida va so‘ng fitna qilish so‘ralganida, ular bunga albatta rozi bo‘lardilar va bunda ozgina ham kechikmas edilar.",
+
+15: "Holbuki, ular bundan oldin orqa o‘girib qochmaslik haqida ALLAHga ahd bergan edilar. ALLAHga berilgan ahd haqida albatta so‘raladi.",
+
+16: "Ayting: «Agar o‘limdan yoki o‘ldirilishdan qochsangizlar, qochish sizlarga foyda bermaydi. Shunda ham ozgina foydalanasizlar».",
+
+17: "Ayting: «Agar ALLAH sizlarga yomonlik istasa yoki sizlarga rahmat istasa, sizlarni ALLAHdan kim himoya qila oladi?» Ular o‘zlari uchun ALLAHdan boshqa na do‘st, na yordamchi topa olmaydilar.",
+
+18: "ALLAH sizlardan to‘suvchilarni va birodarlariga: «Bizning oldimizga kelinglar», deguvchilarni biladi. Ular jangga juda oz keladilar.",
+
+19: "Ular sizlarga baxillik qiluvchilardir. Qo‘rquv kelganida, ularning ko‘zlari o‘limdan hushidan ketayotgan kishidek aylanib qarayotganini ko‘rasan. Qo‘rquv ketgach, yaxshilikka baxillik qilgan holda sizlarni o‘tkir tillari bilan ranjitadilar. Ana o‘shalar iymon keltirmaganlardir. Bas, ALLAH ularning amallarini bekor qildi. Bu ALLAH uchun osondir.",
+
+20: "Ular ittifoqchilar ketmagan deb o‘ylaydilar. Agar ittifoqchilar yana keladigan bo‘lsa, ular sahrodagi badaviylar orasida bo‘lishni va sizlarning xabarlaringizni so‘rashni xohlardilar. Agar orangizda bo‘lganlarida ham juda oz jang qilardilar.",
+    
+21: "Albatta, sizlar uchun — ALLAH va oxirat kunidan umid qilgan hamda ALLAHni ko‘p zikr qilgan kishilar uchun — ALLAH Rasulida go‘zal namuna bordir.",
+
+22: "Mo‘minlar ittifoqchilarni ko‘rganlarida: «Bu ALLAH va Uning Rasuli bizga va’da qilgan narsadir. ALLAH va Uning Rasuli rost aytdilar», dedilar. Bu ularning iymonlari va taslim bo‘lishlarini yanada ziyoda qildi.",
+
+23: "Mo‘minlar orasida ALLAHga bergan ahdiga sodiq kishilar bordir. Ulardan ba’zilari ahdini ado etdi, ba’zilari esa kutmoqda. Ular hech qanday o‘zgarish bilan o‘zgartirmadilar.",
+
+24: "Toki ALLAH rostgo‘ylarni rostgo‘yligi sababli mukofotlasin va xohlasa munofiqlarni azoblasin yoki ularga tavba nasib qilsin. Albatta, ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+25: "ALLAH kofirlarni g‘azablari bilan qaytardi. Ular hech qanday yaxshilikka erisha olmadilar. Jangda mo‘minlarga ALLAHning O‘zi kifoya qildi. ALLAH Kuchli va Azizdir.",
+
+26: "U Kitob ahllaridan ularga yordam berganlarni qal’alaridan tushirdi va qalblariga qo‘rquv soldi. Sizlar ularning bir qismini o‘ldirdingizlar, bir qismini asir oldingizlar.",
+
+27: "Va sizlarga ularning yerlarini, uylarini, mol-mulklarini hamda hali qadam bosmagan yerlarni meros qilib berdi. ALLAH har narsaga Qodirdir.",
+
+28: "Ey Nabiy! Xotinlaringga ayt: «Agar dunyo hayotini va uning ziynatini istasangizlar, kelinglar, sizlarga hadya beraman va chiroyli tarzda qo‘yib yuboraman».",
+
+29: "«Agar ALLAHni, Uning Rasulini va oxirat diyorini istasangizlar, albatta, ALLAH sizlardan yaxshilik qiluvchilar uchun ulkan mukofot tayyorlagan».",
+
+30: "Ey Nabiy xotinlari! Sizlardan kim ochiq fahsh ish qilsa, unga azob ikki barobar qilinadi. Bu ALLAH uchun osondir.",
+
+31: "Sizlardan kim ALLAHga va Uning Rasuliga itoat qilsa va yaxshi amal qilsa, unga mukofotini ikki marta beramiz va unga ulug‘ rizq tayyorlaganmiz.",
+
+32: "Ey Nabiy xotinlari! Sizlar boshqa ayollardan biri kabi emassizlar. Agar taqvo qilsangizlar, mayin ovoz bilan gapirmanglar, toki qalbida kasallik bo‘lgan kishi tama qilmasin. Yaxshi so‘z aytinglar.",
+
+33: "Uylaringizda qaror topinglar va avvalgi johiliyat davridagi kabi ziynatlaringizni ko‘rsatib yurmanglar. Namozni ado qilinglar, zakot beringlar va ALLAHga hamda Uning Rasuliga itoat qilinglar. Ey ahl ul-bayt! ALLAH sizlardan faqat nopoklikni ketkazishni va sizlarni butunlay poklashni istaydi.",
+
+34: "Uylaringizda tilovat qilinadigan ALLAH oyatlari va hikmatni eslanglar. Albatta, ALLAH Nozik va Xabardordir.",
+
+35: "Albatta, musulmon erkaklar va musulmon ayollar, mo‘min erkaklar va mo‘min ayollar, itoatkor erkaklar va itoatkor ayollar, rostgo‘y erkaklar va rostgo‘y ayollar, sabrli erkaklar va sabrli ayollar, tavozeli erkaklar va tavozeli ayollar, sadaqa qiluvchi erkaklar va sadaqa qiluvchi ayollar, ro‘za tutuvchi erkaklar va ro‘za tutuvchi ayollar, avratlarini saqlovchi erkaklar va ayollar, ALLAHni ko‘p zikr qiluvchi erkaklar va ayollar — ular uchun ALLAH mag‘firat va ulkan mukofot tayyorlagandir.",
+
+36: "ALLAH va Uning Rasuli bir ishni hukm qilganida, mo‘min erkak va mo‘mina ayol uchun o‘z ishlarida ixtiyor bo‘lishi mumkin emas. Kim ALLAH va Uning Rasuliga osiy bo‘lsa, aniq adashgan bo‘ladi.",
+
+37: "ALLAH ne’mat bergan va sen ham ne’mat bergan kishiga: «Xotiningni o‘zingda saqla va ALLAHdan qo‘rq», degan eding. Sen ichingda ALLAH oshkor qiladigan narsani yashirarding va odamlardan qo‘rqarding. Holbuki, ALLAHdan qo‘rqishing haqliroq edi. Bas, Zayd undan ehtiyojini tugatganida, Biz uni senga nikohladik. Toki asrab olingan farzandlari xotinlaridan ehtiyojlarini tugatganlarida, mo‘minlarga ular bilan nikohlanishda qiyinchilik bo‘lmasin. ALLAHning amri bajariluvchi bo‘ldi.",
+
+38: "Nabiyga ALLAH farz qilgan narsada unga qiyinchilik yo‘qdir. Bu ALLAHning avval o‘tganlar orasidagi sunnatidir. ALLAHning amri belgilangan taqdirdir.",
+
+39: "Ular ALLAHning xabarlarini yetkazadilar, Undan qo‘rqadilar va ALLAHdan boshqa hech kimdan qo‘rqmaydilar. Hisob qiluvchi sifatida ALLAHning O‘zi kifoyadir.",
+
+40: "Muhammad sizlardan biror kishining otasi emasdir. Lekin u ALLAHning Rasuli va payg‘ambarlarning muhridir. ALLAH har narsani Biluvchidir.",
+ 
+41: "Ey iymon keltirganlar! ALLAHni ko‘p zikr qilinglar.",
+
+42: "Va Uni ertayu kech poklab yod etinglar.",
+
+43: "U sizlarni zulmatlardan nurga chiqarish uchun sizlarga rahmat qiladi. Uning malaikalari ham (sizlar uchun duo qiladilar). U mo‘minlarga Rahmlidir.",
+
+44: "Ular bilan uchrashadigan kuni ularning salomi: «Salom» bo‘ladi. Ular uchun ulug‘ mukofot tayyorlagandir.",
+
+45: "Ey Nabiy! Albatta, Biz seni guvoh, xushxabar beruvchi va ogohlantiruvchi qilib yubordik.",
+
+46: "Va Uning izni bilan ALLAHga chaqiruvchi hamda nur sochuvchi chiroq qilib yubordik.",
+
+47: "Mo‘minlarga xushxabar ber: ular uchun ALLAH tomonidan ulkan fazl bordir.",
+
+48: "Kofirlar va munofiqlarga itoat qilma, ularning ozorlarini tark qil va ALLAHga tavakkul qil. Vakil sifatida ALLAHning O‘zi kifoyadir.",
+
+49: "Ey iymon keltirganlar! Agar mo‘mina ayollarni nikohlab, so‘ng ularga tegmasdan oldin taloq qilsangizlar, ular uchun sizlar sanaydigan idda muddati yo‘qdir. Bas, ularga hadya beringlar va chiroyli tarzda qo‘yib yuboringlar.",
+
+50: "Ey Nabiy! Biz senga mahrlarini bergan xotinlaringni, ALLAH senga o‘lja qilib bergan narsalardan qo‘ling ostida bo‘lganlarni, amaking, ammang, tog‘ang va xolang qizlaridan sen bilan hijrat qilganlarni halol qildik. Va o‘zini Nabiyga hadya qilgan mo‘mina ayolni ham, agar Nabiy unga uylanishni istasa. Bu faqat senga xosdir, boshqa mo‘minlarga emas. Biz ularga xotinlari va qo‘llari ostida bo‘lgan narsalari haqida nimani farz qilganimizni bilamiz. Bu senga qiyinchilik bo‘lmasligi uchundir. ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+51: "Ulardan xohlaganingni keyinga qoldirishing va xohlaganingni huzuringga olishing mumkin. Ajratganlaringdan birini istasang, bunda ham senga gunoh yo‘qdir. Bu ularning ko‘zlari quvonishi, g‘amgin bo‘lmasligi va sen berganingga barchalari rozi bo‘lishlari uchun yaqinroqdir. ALLAH qalblaringizdagini biladi. ALLAH Biluvchi va Halimdir.",
+
+52: "Bundan keyin boshqa ayollar senga halol emas va ularni go‘zalligi seni hayratga solsa ham, o‘rniga boshqa xotin olish ham mumkin emas. Faqat qo‘ling ostida bo‘lganlar bundan mustasno. ALLAH har narsani Kuzatuvchidir.",
+
+53: "Ey iymon keltirganlar! Nabiy uylariga sizlarga taomga ruxsat berilgan vaqtdan boshqa kirmanglar. Lekin chaqirilganingizda kiringlar. Ovqatlanganingizdan keyin tarqalib ketinglar va gapga berilib o‘tirmanglar. Bu Nabiyga ozor berar edi, u sizlardan uyaladi. ALLAH esa haqni aytishdan uyalmaydi. Agar ulardan biror narsa so‘rasangizlar, parda ortidan so‘ranglar. Bu sizlarning qalblaringiz va ularning qalblari uchun pokroqdir. ALLAH Rasuliga ozor berishingiz va undan keyin uning xotinlariga uylanishlaringiz abadiy harom qilindi. Albatta, bu ALLAH huzurida ulkan gunohdir.",
+
+54: "Agar biror narsani oshkor qilsangizlar yoki yashirsangizlar, albatta, ALLAH har narsani Biluvchidir.",
+
+55: "Ular uchun otalari, o‘g‘illari, aka-ukalari, aka-ukalarining o‘g‘illari, opa-singillarining o‘g‘illari, o‘z ayollari va qo‘llari ostida bo‘lganlar oldida gunoh yo‘qdir. Ey ayollar! ALLAHdan qo‘rqinglar. Albatta, ALLAH har narsaga guvohdir.",
+
+56: "Albatta, ALLAH va Uning malaikalari Nabiyga salovot aytadilar. Ey iymon keltirganlar! Unga salovot aytinglar va to‘liq salom yo‘llanglar.",
+
+57: "Albatta, ALLAH va Uning Rasuliga ozor beradiganlarni ALLAH dunyoda ham, oxiratda ham la’natlagan va ular uchun xor qiluvchi azob tayyorlagan.",
+
+58: "Mo‘min erkaklar va mo‘mina ayollarga qilmagan ishlari bilan ozor beradiganlar bo‘hton va ochiq gunohni o‘z zimmalariga olgan bo‘ladilar.",
+
+59: "Ey Nabiy! Xotinlaringga, qizlaringga va mo‘minlarning ayollariga ayt: ustlariga yopinchig‘larini tushirsinlar. Bu ularning tanilishlari va ozor berilmasliklari uchun yaqinroqdir. ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+60: "Agar munofiqlar, qalblarida kasallik bo‘lganlar va shaharda mish-mish tarqatuvchilar to‘xtamasalar, albatta, seni ularga qarshi qo‘zg‘atamiz. So‘ngra ular sen bilan unda ozgina qo‘shnichilik qila oladilar.",
+ 
+61: "Ular la’natlangan holda qayerda topilsa, ushlanadilar va qattiq o‘ldiriladilar.",
+
+62: "Bu ALLAHning avval o‘tganlar orasidagi sunnatidir. ALLAHning sunnatida hech qanday o‘zgarish topmaysan.",
+
+63: "Odamlar sendan Soat haqida so‘raydilar. Ayting: «Uning ilmi faqat ALLAH huzuridadir». Sen qayerdan bilarding, balki Soat yaqin bo‘lgandir.",
+
+64: "Albatta, ALLAH kofirlarni la’natladi va ular uchun alangali olov tayyorladi.",
+
+65: "Ular unda abadiy qoladilar. Ular uchun na do‘st, na yordamchi topadilar.",
+
+66: "Ularning yuzlari olovda aylantiriladigan kuni: «Qani edi biz ALLAHga itoat qilganimizda va Rasulga itoat qilganimizda edi», deydilar.",
+
+67: "Va ular: «Ey Robbimiz! Biz boshliqlarimizga va kattalarimizga itoat qildik, ular esa bizni yo‘ldan ozdirdilar», deydilar.",
+
+68: "«Ey Robbimiz! Ularga ikki barobar azob bergin va ularni katta la’nat bilan la’natlagin».",
+
+69: "Ey iymon keltirganlar! Musoga ozor berganlar kabi bo‘lmanglar. ALLAH uni ular aytgan narsalardan pokladi. U ALLAH huzurida obro‘li edi.",
+
+70: "Ey iymon keltirganlar! ALLAHdan qo‘rqinglar va to‘g‘ri so‘z aytinglar.",
+
+71: "U sizlarning amallaringizni isloh qiladi va gunohlaringizni mag‘firat qiladi. Kim ALLAHga va Uning Rasuliga itoat qilsa, albatta, ulkan g‘alabaga erishadi.",
+
+72: "Albatta, Biz omonatni osmonlar, yer va tog‘larga taklif qildik. Ular uni ko‘tarishdan bosh tortdilar va undan qo‘rqdilar. Uni inson ko‘tardi. Albatta, u juda zolim va juda johildir.",
+
+73: "Toki ALLAH munofiq erkaklar va munofiq ayollarni, mushrik erkaklar va mushrik ayollarni azoblasin. Mo‘min erkaklar va mo‘mina ayollarning tavbalarini qabul qilsin. ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+},
+34: {
+ 1: "Hamd osmonlaru yerdagi barcha narsalar O‘ziga tegishli bo‘lgan ALLAHgadir. Oxiratda ham hamd Unikidir. U Hikmat Egasi va Xabardordir.",
+
+2: "U yerga kiradigan va undan chiqadigan narsalarni, osmondan tushadigan va unga ko‘tariladigan narsalarni biladi. U Rahmlidir va Mag‘firat qiluvchidir.",
+
+3: "Kofir bo‘lganlar: «Bizga Soat kelmaydi», dedilar. Ayting: «Yo‘q, g‘aybni Biluvchi Robbimga qasamki, u albatta sizlarga keladi. Osmonlaru yerda zarracha og‘irlikdagi narsa ham Undan yashirin emas. Undan kichikroq yoki kattaroq narsa ham yo‘qki, ochiq Kitobda bo‘lmasa».",
+
+4: "Toki U iymon keltirgan va yaxshi amallar qilganlarni mukofotlasin. Ana o‘shalar uchun mag‘firat va ulug‘ rizq bordir.",
+
+5: "Bizning oyatlarimizni ojiz qoldirishga uringanlarga esa yomon azobdan alamli jazo bordir.",
+
+6: "Ilm berilgan kishilar Robbingdan senga nozil qilingan narsaning Haq ekanini va u Aziz va Hamdga loyiq Zotning yo‘liga hidoyat qilishini biladilar.",
+
+7: "Kofir bo‘lganlar dedilar: «Sizlarga parchalanib ketganingizdan keyin yangi yaratilish bilan qaytishingizni xabar qiladigan bir kishini ko‘rsataylikmi?»",
+
+8: "«U ALLAH haqida yolg‘on to‘qidimi yoki unda jinnilik bormi?» Yo‘q, oxiratga iymon keltirmaganlar azob va uzoq adashishdadirlar.",
+
+9: "Ular osmon va yer oldilaridagi narsalarni va orqalaridagi narsalarni ko‘rmaydilarmi? Agar xohlasak, ularni yerga yutqazamiz yoki osmondan ustilariga bo‘lak tushiramiz. Albatta, bunda har bir qaytuvchi banda uchun oyat bordir.",
+
+10: "Darhaqiqat, Biz Dovudga O‘z huzurimizdan fazl berdik: «Ey tog‘lar va qushlar! U bilan birga tasbeh aytinglar», dedik. Va unga temirni yumshatdik.",
+
+11: "«Keng sovutlar yasagin va halqalarni o‘lchov bilan bog‘lagin. Yaxshi amal qilinglar. Albatta, Men qilayotgan ishlaringizni Ko‘ruvchiman».",
+
+12: "Sulaymonga esa shamolni bo‘ysundirdik. Uning ertalabgi yurishi bir oy, kechki yurishi bir oy edi. U uchun erigan mis buloqni oqizdik. Robbisining izni bilan uning oldida ishlaydigan jinlar ham bor edi. Ulardan kim Bizning amrimizdan chetlashsa, unga alangali azobdan totiramiz.",
+
+13: "Ular unga xohlagan narsalarini: ibodatxonalar, haykallar, katta idishlar va o‘rnidan ko‘chmaydigan qozonlar yasab berardilar. «Ey Dovud ahli! Shukr qilib amal qilinglar». Bandalarimdan shukr qiluvchilar ozdir.",
+
+14: "Sulaymonning o‘limini hukm qilganimizda, jinlarga uning o‘limini faqat yerni yeb turgan hasharot ko‘rsatdi. U yiqilgach, jinlar agar g‘aybni bilganlarida, xor qiluvchi azobda qolmagan bo‘lardilar.",
+
+15: "Darhaqiqat, Saba qavmi uchun o‘z maskanlarida bir oyat bor edi: o‘ng va chap tomonda ikki bog‘. «Robbingizning rizqidan yenglar va Unga shukr qilinglar. Go‘zal yurt va Mag‘firat qiluvchi Robb».",
+
+16: "Ammo ular yuz o‘girdilar. Bas, Biz ularga Arim to‘g‘onining selini yubordik va ularning ikki bog‘ini achchiq mevali, yovvoyi daraxtli va ozgina sidr daraxtli bog‘larga almashtirdik.",
+
+17: "Bu ularning noshukrligi sababli bergan jazomizdir. Biz faqat noshukrlik qiluvchilarni jazolaymiz.",
+
+18: "Ular bilan Biz baraka bergan shaharlar orasida ko‘rinib turadigan qishloqlar qildik va ularda safar qilishni o‘lchab qo‘ydik: «Unda kechalari va kunduzlari xotirjam yuringlar».",
+
+19: "Ular esa: «Ey Robbimiz! Safarlarimiz orasini uzoq qilgin», dedilar va o‘zlariga zulm qildilar. Bas, Biz ularni afsonalarga aylantirdik va butunlay parchalab yubordik. Albatta, bunda har bir sabrli va shukr qiluvchi uchun oyatlar bordir.",
+
+20: "Darhaqiqat, Iblis ular haqidagi gumonini rost topdi. Bas, mo‘minlardan bir guruhdan boshqa hammasi unga ergashdilar.",
+     
+21: "Uning ular ustidan hech qanday hukmi yo‘q edi. Lekin Biz oxiratga iymon keltirgan kishini undan shubhada bo‘lgan kishidan ajratish uchun (unga ergashishga imkon berdik). Robbing har narsani saqlovchidir.",
+
+22: "Ayting: «ALLAHni qo‘yib, osmonlaru yerda zarracha narsaga egalik qilmaydigan, ularda sherikchiligi bo‘lmagan va Unda ulardan biror yordamchi bo‘lmagan narsalarga duo qilinglar».",
+
+23: "Uning huzurida faqat U ruxsat bergan kishiga shafoat foyda beradi. Nihoyat, ularning qalblaridan qo‘rquv ketkazilgach, ular: «Robbingiz nima dedi?» deydilar. Ular: «Haqni aytdi. U Oliy va Buyukdir», deydilar.",
+
+24: "Ayting: «Sizlarga osmonlaru yerdan kim rizq beradi?» Ayting: «ALLAH. Albatta, biz yoki sizlar hidoyatda yoki ochiq adashishdamiz».",
+
+25: "Ayting: «Biz qilgan gunohlarimiz haqida sizlardan so‘ralmaysizlar, sizlar qilgan narsalar haqida bizdan so‘ralmaymiz».",
+
+26: "Ayting: «Robbimiz barchamizni jamlaydi, so‘ngra oramizda Haq bilan hukm qiladi. U Hukm qiluvchi va Biluvchidir».",
+
+27: "Ayting: «Menga Unga sherik qilganlaringizni ko‘rsatinglar. Yo‘q! U Aziz va Hikmat Egasi bo‘lgan ALLAHdir».",
+
+28: "Biz seni barcha insonlarga faqat xushxabar beruvchi va ogohlantiruvchi qilib yubordik. Lekin odamlarning ko‘pchiligi bilmaydilar.",
+
+29: "Ular: «Agar rostgo‘y bo‘lsangizlar, bu va’da qachon bo‘ladi?» deydilar.",
+
+30: "Ayting: «Sizlar uchun bir kun belgilangan bo‘lib, undan bir soat ham ortga qololmaysizlar va oldinga ham o‘ta olmaysizlar».",
+
+31: "Kofir bo‘lganlar: «Biz bu Qur’onga ham, undan oldingi narsalarga ham aslo iymon keltirmaymiz», dedilar. Zolimlar Robbilari huzurida turganlarida bir-birlariga gap qaytarayotganlarini ko‘rsang edi. Zaiflar kibrlanganlarga: «Agar sizlar bo‘lmaganingizda edi, biz mo‘min bo‘lardik», deydilar.",
+
+32: "Kibr qilganlar zaiflarga: «Sizlarga hidoyat kelganidan keyin sizlarni undan biz to‘sib qo‘ydikmi? Yo‘q, sizlar o‘zingiz jinoyatchilar edingizlar», deydilar.",
+
+33: "Zaiflar kibrlanganlarga: «Yo‘q, bu kecha-kunduz qilgan hiylangiz edi. Sizlar bizga ALLAHga kufr keltirishni va Unga tengdoshlar qilishni buyurar edingizlar», deydilar. Ular azobni ko‘rganlarida pushaymonlarini yashiradilar. Biz kofirlarning bo‘yinlariga kishanlar qo‘yamiz. Ular faqat qilgan ishlariga yarasha jazolanadilar.",
+
+34: "Biz qaysi shaharga ogohlantiruvchi yuborgan bo‘lsak, uning farovon kishilari: «Biz sizlar bilan yuborilgan narsaga kofirmiz», dedilar.",
+
+35: "Va dedilar: «Biz molimiz va farzandlarimiz ko‘proq bo‘lgan kishilarmiz. Biz azoblanadigan emasmiz».",
+
+36: "Ayting: «Albatta, Robbim xohlagan kishisiga rizqni kengaytiradi va toraytiradi. Lekin odamlarning ko‘pchiligi bilmaydilar».",
+
+37: "Sizlarning mollaringiz va farzandlaringiz Bizga yaqinlashtiruvchi emasdir. Faqat iymon keltirgan va yaxshi amal qilgan kishilar bundan mustasno. Ana o‘shalarga qilgan ishlari sababli mukofotlari ikki barobar beriladi va ular oliy xonalarda omonda bo‘ladilar.",
+
+38: "Bizning oyatlarimizni ojiz qoldirishga uringanlar esa azobga hozir qilinadilar.",
+
+39: "Ayting: «Albatta, Robbim bandalaridan xohlaganiga rizqni kengaytiradi va toraytiradi. Sizlar nimani sarflasangizlar, U uning o‘rnini bosadi. U rizq beruvchilarning eng yaxshisidir».",
+
+40: "U kuni U ularning barchalarini jamlaydi, so‘ngra malaikalarga: «Bular sizlarga ibodat qilgan edilarmi?» deydi.",
+ 
+41: "Ular: «Sen poksan! Bizning do‘stimiz ular emas, balki ular jinlarga ibodat qilardilar. Ularning ko‘pchiligi ularga iymon keltirgan edi», deydilar.",
+
+42: "Bugun sizlarning ba’zilaringiz ba’zilariga na foyda, na zarar yetkaza oladi. Biz zulm qilganlarga: «Yolg‘on qilgan do‘zax azobini totib ko‘ringlar», deymiz.",
+
+43: "Ularga Bizning ochiq oyatlarimiz tilovat qilinganda, ular: «Bu sizlarni ota-bobolaringiz ibodat qilgan narsalardan qaytarmoqchi bo‘lgan kishidir», dedilar. Yana: «Bu faqat to‘qib chiqarilgan yolg‘ondir», dedilar. Kofirlar ularga kelgan Haq haqida: «Bu faqat ochiq sehrdir», dedilar.",
+
+44: "Holbuki, Biz ularga o‘qiydigan kitoblar bermadik va sendan oldin ularga biror ogohlantiruvchi yubormagan edik.",
+
+45: "Ulardan oldingilar ham yolg‘on qildilar. Ularga bergan narsalarimizning o‘ndan biriga ham ular yetmagan edilar. Shunda ular Mening Rasulchilarimni yolg‘on qildilar. Mening inkorim qanday bo‘lganiga qaragin.",
+
+46: "Ayting: «Men sizlarga faqat bir narsani nasihat qilaman: ALLAH uchun ikkitadan yoki bittadan turib, so‘ngra tafakkur qilinglar. Sizlarning hamrohingizda hech qanday jinnilik yo‘q. U faqat qattiq azobdan oldin sizlarni ogohlantiruvchidir».",
+
+47: "Ayting: «Men sizlardan biror haq so‘rasam, u sizlarniki bo‘lsin. Mening mukofotim faqat ALLAH zimmasidadir. U har narsaga guvohdir».",
+
+48: "Ayting: «Albatta, Robbim Haqni uloqtiradi. U g‘ayblarni Biluvchidir».",
+
+49: "Ayting: «Haq keldi va botil yo‘qoldi. Albatta, botil yo‘qoluvchidir».",
+
+50: "Ayting: «Agar adashsam, faqat o‘z zararimga adashaman. Agar hidoyat topsam, Robbim menga vahiy qilayotgan narsa sababli topaman. Albatta, U Eshituvchi va Yaqindir».",
+
+51: "Ularning qo‘rqib ketganlarini, qochib qutula olmaydiganlarini va yaqin joydan ushlanganlarini ko‘rsang edi.",
+
+52: "Ular: «Unga iymon keltirdik», deydilar. Lekin uzoq joydan turib unga qanday erisha oladilar?",
+
+53: "Holbuki, ular ilgari uni inkor qilgan edilar va uzoq joydan gumon bilan gapirar edilar.",
+
+54: "Ular bilan istagan narsalari orasiga to‘siq qo‘yildi. Xuddi ulardan oldingi o‘xshashlariga qilinganidek. Albatta, ular shubhali gumonda edilar.",
+     },
+35: {
+1: "Hamd osmonlaru yerning yaratuvchisi, malaikalarni qanotli elchilar qilgan ALLAHgadir. U qanotlarda ikkitadan, uchtadan va to‘rttadan qiladi. U yaratishda xohlaganini ziyoda qiladi. Albatta, ALLAH har narsaga Qodirdir.",
+
+2: "ALLAH odamlar uchun ochgan rahmatni hech kim to‘sib qo‘ya olmaydi. U to‘sgan narsani esa Undan keyin hech kim yubora olmaydi. U Aziz va Hikmat Egasi.",
+
+3: "Ey insonlar! Sizlarga ALLAHning ne’matini eslanglar. Sizlarga osmon va yerdan rizq beruvchi ALLAHdan boshqa yaratuvchi bormi? Undan boshqa iloh yo‘qdir. Bas, qayerga burilib ketmoqdasizlar?",
+
+4: "Agar ular seni yolg‘onchi qilsalar, sendan oldingi Rasulchilar ham yolg‘on qilingan edilar. Barcha ishlar ALLAHga qaytariladi.",
+
+5: "Ey insonlar! Albatta, ALLAHning va’dasi haqdir. Bas, dunyo hayoti sizlarni aldamasin va aldamchi sizlarni ALLAH haqida aldamasin.",
+
+6: "Albatta, shayton sizlarga dushmandir. Bas, uni dushman tutinglar. U faqat o‘z guruhini alangali olov ahlidan bo‘lishga chaqiradi.",
+
+7: "Kofir bo‘lganlar uchun qattiq azob bordir. Iymon keltirgan va yaxshi amallar qilganlar uchun esa mag‘firat va ulkan mukofot bordir.",
+
+8: "Yomon amali unga chiroyli ko‘rsatilgan va uni yaxshi deb ko‘rgan kishi (hidoyat topgan kishi bilan tengmi)? Albatta, ALLAH xohlaganini adashtiradi va xohlaganini hidoyat qiladi. Bas, ular uchun qayg‘udan o‘zingni halok qilma. Albatta, ALLAH ularning qilayotgan ishlarini Biluvchidir.",
+
+9: "ALLAH shamollarni yuboruvchi Zotdir. Ular bulutlarni qo‘zg‘atadi. So‘ng Biz uni o‘lgan yurtga haydaymiz va u bilan yerni o‘limidan keyin tiriltiramiz. Qayta tirilish ham shundaydir.",
+
+10: "Kim izzatni istasa, barcha izzat ALLAHnikidir. Go‘zal so‘zlar Unga ko‘tariladi va yaxshi amal uni ko‘taradi. Yomonliklarni rejalashtiradiganlar uchun esa qattiq azob bordir. Ularning hiylalari barbod bo‘ladi.",
+
+11: "ALLAH sizlarni tuproqdan, so‘ng tomchidan yaratdi. So‘ngra sizlarni juftlar qildi. Uning ilmisiz hech bir ayol homilador bo‘lmaydi va tug‘maydi. Umr ko‘rgan kishining umri uzaytirilishi ham, qisqartirilishi ham Kitobdadir. Albatta, bu ALLAH uchun osondir.",
+
+12: "Ikki dengiz teng bo‘lmaydi. Bu shirin, chanqoqni bosuvchi va ichishga yoqimli; bunisi esa sho‘r va achchiqdir. Har ikkala dengizdan yangi go‘sht yeysizlar va taqadigan ziynat chiqarasizlar. Kemalarni unda suvni yorib ketayotgan holda ko‘rasan. Bu Uning fazlidan izlashingiz va shukr qilishingiz uchundir.",
+
+13: "U kechani kunduzga kiritadi va kunduzni kechaga kiritadi. Quyosh va oyni bo‘ysundirdi. Har biri belgilangan muddatgacha yuradi. Ana shu sizlarning Robbingiz ALLAHdir. Hukm Unikidir. Undan boshqa duo qilayotganlaringiz esa xurmo danagining po‘chog‘iga ham egalik qilmaydilar.",
+
+14: "Agar ularga duo qilsangizlar, ular duolaringizni eshitmaydilar. Agar eshitsalar ham, sizlarga javob bera olmaydilar. Qiyomat kuni esa ular sizlarning shirklaringizni inkor qiladilar. Senga hamma narsadan Xabardor Zot kabi xabar beruvchi yo‘qdir.",
+
+15: "Ey insonlar! Sizlar ALLAHga muhtojsizlar. ALLAH esa Behojat va Hamdga loyiqdir.",
+
+16: "Agar xohlasa, sizlarni ketkazadi va yangi yaratishni keltiradi.",
+
+17: "Bu ALLAH uchun qiyin emasdir.",
+
+18: "Hech bir gunohkor jon boshqa jonning yukini ko‘tarmaydi. Agar og‘ir yukli jon yukini ko‘tarishga chaqirsa ham, undan hech narsa ko‘tarilmaydi, hatto yaqin qarindoshi bo‘lsa ham. Sen faqat ko‘rmasdan turib Robbilaridan qo‘rqqan va namozni ado qilganlarni ogohlantira olasan. Kim poklansa, faqat o‘zi uchun poklanadi. Qaytish ALLAH huzuriga.",
+
+19: "Ko‘r bilan ko‘ruvchi teng emas.",
+
+20: "Zulmatlar bilan nur ham teng emas.",
+
+21: "Soya bilan issiq ham teng emas.",
+
+22: "Tiriklar bilan o‘liklar ham teng emas. Albatta, ALLAH xohlagan kishisiga eshittiradi. Sen esa qabrlardagilarga eshittira olmaysan.",
+
+23: "Sen faqat ogohlantiruvchisan.",
+
+24: "Albatta, Biz seni Haq bilan xushxabar beruvchi va ogohlantiruvchi qilib yubordik. Har bir ummat ichida albatta ogohlantiruvchi o‘tgan.",
+
+25: "Agar ular seni yolg‘onchi qilsalar, ulardan oldingilar ham yolg‘on qilgan edilar. Ularning Rasulchilari ularga ochiq dalillar, sahifalar va nurli Kitob bilan kelgan edilar.",
+
+26: "So‘ngra Men kofir bo‘lganlarni tutdim. Mening inkorim qanday bo‘lganiga qaragin.",
+
+27: "ALLAH osmondan suv tushirganini ko‘rmadingmi? Biz u bilan turli rangdagi mevalarni chiqardik. Tog‘larda ham oq, qizil va turli rangdagi yo‘llar, hatto juda qora rangdagilari bor.",
+
+28: "Insonlar, jonivorlar va chorvalardan ham shunday turli rangdagilari bor. ALLAHdan faqat Uning bandalari orasidagi bilim egalari qo‘rqadilar. Albatta, ALLAH Aziz va Mag‘firat qiluvchidir.",
+
+29: "Albatta, ALLAHning Kitobini tilovat qiladigan, namozni ado qiladigan va Biz ularga bergan narsalardan yashirin va oshkor sarflaydiganlar hech qachon zavol topmaydigan savdodan umid qiladilar.",
+
+30: "Toki U ularga mukofotlarini to‘liq bersin va O‘z fazlidan ziyoda qilsin. Albatta, U Mag‘firat qiluvchi va shukrni qadrlovchidir.",
+
+31: "Biz senga vahiy qilgan Kitob Haqdir, o‘zidan oldingi narsalarni tasdiqlovchidir. Albatta, ALLAH bandalaridan Xabardor va Ko‘ruvchidir.",
+
+32: "So‘ngra Biz Kitobni bandalarimizdan tanlagan kishilarimizga meros qildik. Ulardan o‘ziga zulm qiluvchi ham bor, ulardan o‘rtacha yo‘l tutuvchi ham bor, ulardan ALLAHning izni bilan yaxshiliklarda oldinga o‘tuvchi ham bor. Ana shu katta fazldir.",
+
+33: "Ular Adn jannatlariga kiradilar. U yerda oltin bilakuzuklar va marvaridlar bilan bezanadilar. Ularning kiyimlari u yerda ipakdir.",
+
+34: "Ular aytadilar: «Bizdan g‘amni ketkazgan ALLAHga hamd bo‘lsin. Albatta, Robbimiz Mag‘firat qiluvchi va shukrni qadrlovchidir».",
+
+35: "«U O‘z fazli bilan bizni doimiy turar joyga joylashtirdi. U yerda bizga na charchoq yetadi va na holdan toyish yetadi».",
+
+36: "Kofir bo‘lganlar uchun esa jahannam olovi bordir. Ularga o‘lim hukm qilinmaydi va ulardan jahannam azobi ham yengillashtirilmaydi. Har bir noshukrni shunday jazolaymiz.",
+
+37: "Ular u yerda: «Ey Robbimiz! Bizni chiqar, oldin qilganimizdan boshqa yaxshi amal qilaylik», deb qichqiradilar. «Sizlarga eslatma oladigan kishiga yetarli umr bermadikmi? Sizlarga ogohlantiruvchi ham kelgan edi. Bas, totib ko‘ringlar. Zolimlar uchun yordamchi yo‘qdir».",
+
+38: "Albatta, ALLAH osmonlaru yerning g‘aybini Biluvchidir. Albatta, U ko‘kslardagi narsalarni biluvchidir.",
+
+39: "U sizlarni yer yuzida xalifalar qildi. Bas, kim kufr qilsa, uning kufri o‘z zarariga bo‘ladi. Kofirlarning kufri Robbilari huzurida faqat g‘azabni ziyoda qiladi. Kofirlarning kufri faqat ziyonni ziyoda qiladi.",
+
+40: "Ayting: «ALLAHni qo‘yib duo qilayotgan sheriklaringizni ko‘rdingizmi? Ular yerda nimani yaratganlarini menga ko‘rsatinglar yoki osmonlarda ularga sheriklik bormi? Yoki Biz ularga bir Kitob berdikmi va ular undan aniq dalilda turibdilarmi?» Yo‘q, zolimlar bir-birlariga faqat aldov va’dalarini beradilar.",
+
+41: "Albatta, ALLAH osmonlaru yerni buzilib ketishidan saqlab turadi. Agar ular buzilib ketsa, Undan keyin hech kim ularni ushlab tura olmaydi. Albatta, U Halim va Mag‘firat qiluvchidir.",
+
+42: "Ular ALLAH nomi bilan eng kuchli qasamlarini ichib: «Agar bizga bir ogohlantiruvchi kelsa, albatta, boshqa ummatlardan ko‘ra to‘g‘riroq yo‘lda bo‘lamiz», degan edilar. Ammo ularga ogohlantiruvchi kelganida, bu ularda faqat nafratni ziyoda qildi.",
+
+43: "Yer yuzida kibrlanish va yomon hiyla sababli. Yomon hiyla faqat uni qilgan kishilarni o‘rab oladi. Ular avvalgilar sunnatidan boshqa narsani kutmaydilar. ALLAHning sunnatida hech qanday o‘zgarish topmaysan va ALLAHning sunnatida burilish ham topmaysan.",
+
+44: "Ular yer yuzida yurib, o‘zlaridan oldingilarning oqibati qanday bo‘lganiga qaramadilarmi? Holbuki, ular bulardan kuchliroq edilar. Osmonlaru yerdagi hech narsa ALLAHni ojiz qila olmaydi. Albatta, U Biluvchi va Qodirdir.",
+
+45: "Agar ALLAH odamlarni qilgan ishlari sababli ushlaganida edi, yer yuzida birorta jonivorni ham qoldirmagan bo‘lardi. Lekin U ularni belgilangan muddatgacha kechiktiradi. Bas, ularning muddati kelganida, albatta, ALLAH bandalarini Ko‘ruvchidir.",
+    },
+36: {
+1: "Ya Sin.",
+
+2: "Hikmatli Qur’on bilan qasam.",
+
+3: "Albatta, sen Rasulchilardansan.",
+
+4: "To‘g‘ri yo‘ldasan.",
+
+5: "Bu Aziz va Rahmli Zot tomonidan nozil qilingandir.",
+
+6: "Toki sen ota-bobolari ogohlantirilmagan, shuning uchun g‘aflatda qolgan qavmni ogohlantirgin.",
+
+7: "Darhaqiqat, ularning ko‘pchiligiga so‘z haq bo‘ldi. Bas, ular iymon keltirmaydilar.",
+
+8: "Albatta, Biz ularning bo‘yinlariga iyaklarigacha yetadigan kishanlar qo‘ydik. Shuning uchun ular boshlarini ko‘tarib qolganlardir.",
+
+9: "Biz ularning oldilaridan ham to‘siq, ortlaridan ham to‘siq qildik va ularni o‘rab qo‘ydik. Bas, ular ko‘rmaydilar.",
+
+10: "Sen ularni ogohlantirsang ham, ogohlantirmasang ham baribirdir. Ular iymon keltirmaydilar.",
+
+11: "Sen faqat Zikrga ergashgan va Rahmondan ko‘rmasdan qo‘rqqan kishini ogohlantira olasan. Bas, unga mag‘firat va ulug‘ mukofot bilan xushxabar ber.",
+
+12: "Albatta, Biz o‘liklarni tiriltiramiz va ular oldindan qilgan ishlarini hamda qoldirgan izlarini yozamiz. Har bir narsani ochiq Kitobda sanab qo‘yganmiz.",
+
+13: "Ularga o‘sha shahar ahlini misol qilib keltir. U yerga Rasulchilar kelgan edi.",
+
+14: "Biz ularga ikki Rasul yubordik. Ular ikkovini yolg‘onchi qildilar. So‘ngra uchinchisi bilan quvvatladik. Ular: «Albatta, biz sizlarga yuborilgan kishilarmiz», dedilar.",
+
+15: "Ular dedilar: «Sizlar ham bizga o‘xshagan insonlarsiz. Rahmon hech narsa nozil qilmagan. Sizlar faqat yolg‘on gapiryapsizlar».",
+
+16: "Ular dedilar: «Robbimiz biladiki, biz sizlarga yuborilganmiz».",
+
+17: "«Bizning zimmamizda faqat ochiq yetkazish bor».",
+
+18: "Ular dedilar: «Biz sizlardan yomonlik alomatini ko‘rdik. Agar to‘xtamasangizlar, sizlarni albatta toshbo‘ron qilamiz va sizlarga bizdan alamli azob yetadi».",
+
+19: "Ular dedilar: «Sizlarning yomonligingiz o‘zlaringiz bilandir. Sizlarga eslatma berilgani uchunmi? Yo‘q, sizlar haddan oshgan qavmsizlar».",
+
+20: "Shaharning narigi tomonidan bir kishi yugurib kelib dedi: «Ey qavmim! Rasulchilarga ergashinglar».",
+ 
+21: "«Sizlardan haq so‘ramaydigan va o‘zlari hidoyatda bo‘lgan kishilarga ergashinglar».",
+
+22: "«Menga nima bo‘ldiki, meni yaratgan Zotga ibodat qilmayman? Sizlar ham Uning huzuriga qaytarilasizlar».",
+
+23: "«Men Undan o‘zga ilohlarni tutaymi? Agar Rahmon menga zarar yetkazishni istasa, ularning shafoati menga hech narsa bilan foyda bermaydi va ular meni qutqara olmaydilar».",
+
+24: "«Agar shunday qilsam, albatta, ochiq adashishda bo‘laman».",
+
+25: "«Albatta, men Robbingizga iymon keltirdim. Bas, meni eshitinglar».",
+
+26: "Unga: «Jannatga kir», deyilganda, u dedi: «Qani edi, qavmim bilsa edi».",
+
+27: "«Robbim meni mag‘firat qilganini va meni hurmat qilinganlardan qilganini».",
+
+28: "Undan keyin uning qavmiga qarshi osmondan biror lashkar tushirmadik va tushiruvchi ham emas edik.",
+
+29: "Faqat birgina dahshatli ovoz bo‘ldi. Bas, ular birdan o‘chirilgan kabi bo‘ldilar.",
+
+30: "Bandalarga nadomat! Ularga qaysi Rasul kelsa ham, albatta, uni masxara qilardilar.",
+
+31: "Ular o‘zlaridan oldin qancha avlodlarni halok qilganimizni ko‘rmaydilarmi? Ular endi ularga qaytmaydilar.",
+
+32: "Albatta, ularning barchasi Bizning huzurimizga hozir qilinuvchilardir.",
+
+33: "Ular uchun o‘lik yer ham bir oyatdir. Biz uni tiriltirdik va undan don chiqardik. Bas, undan yeydilar.",
+
+34: "Biz unda xurmo va uzum bog‘larini yaratdik va undan buloqlar otilib chiqardik.",
+
+35: "Toki ular uning mevasidan yesinlar. Uni ularning qo‘llari yaratmagan. Nahotki shukr qilmasalar?",
+
+36: "Yer o‘stirgan narsalardan, o‘zlaridan va bilmagan narsalaridan barcha juftlarni yaratgan Zot pokdir.",
+
+37: "Ular uchun kecha ham bir oyatdir. Biz undan kunduzni sug‘urib olamiz, bas, ular zulmatda qoladilar.",
+
+38: "Quyosh o‘ziga belgilangan joyiga qarab yuradi. Bu Aziz va Biluvchi Zotning taqdiridir.",
+
+39: "Oyni ham Biz manzillarga bo‘lib qo‘ydik, toki u eski xurmo shoxidek bo‘lib qoladi.",
+
+40: "Na quyosh oyga yetib olishi mumkin va na kecha kunduzdan o‘tib ketishi mumkin. Har biri o‘z falakida suzib yuradi.",
+
+41: "Ular uchun yana bir oyat — Biz ularning zurriyotlarini to‘la kemada ko‘targanimizdir.",
+
+42: "Va ular uchun shunga o‘xshash minadigan narsalarni yaratdik.",
+
+43: "Agar xohlasak, ularni g‘arq qilamiz. Shunda ular uchun yordam beruvchi ham bo‘lmaydi va najot topmaydilar.",
+
+44: "Faqat Bizning rahmatimiz va ma’lum vaqtgacha foydalanish bo‘lsa, boshqa.",
+
+45: "Ularga: «Oldingizdagi va ortingizdagi narsalardan qo‘rqinglar, shoyad sizlarga rahm qilinsa», deyilganda ham yuz o‘giradilar.",
+
+46: "Ularga Robbilarining oyatlaridan biror oyat kelsa ham, undan yuz o‘giradilar.",
+
+47: "Ularga: «ALLAH sizlarga bergan rizqdan sarflanglar», deyilganda, kofir bo‘lganlar iymon keltirganlarga: «Agar ALLAH xohlaganida O‘zi boqadigan kishini biz boqarmidik? Sizlar faqat ochiq adashishdasizlar», deydilar.",
+
+48: "Ular: «Agar rostgo‘y bo‘lsangizlar, bu va’da qachon bo‘ladi?» deydilar.",
+
+49: "Ular faqat birgina dahshatli ovozni kutmoqdalar. U ularni tortishib turgan paytlarida tutadi.",
+
+50: "Bas, ular na vasiyat qila oladilar va na oilalariga qayta oladilar.",
+
+51: "Sur chalinadi. Bas, ular qabrlardan Robbilariga tomon shoshilib chiqadilar.",
+
+52: "Ular: «Voy holimizga! Bizni yotgan joyimizdan kim tiriltirdi?» deydilar. «Bu Rahmon va’da qilgan narsa ekan. Rasulchilar rost aytgan ekanlar».",
+
+53: "Faqat birgina ovoz bo‘ladi. Bas, ularning barchasi Bizning huzurimizga hozir qilinadilar.",
+
+54: "Bugun hech bir jonga hech qanday zulm qilinmaydi. Sizlar faqat qilgan ishlaringizga yarasha jazolanasizlar.",
+
+55: "Albatta, jannat ahli bugun xursandchilik bilan mashg‘uldurlar.",
+
+56: "Ular va juftlari soyalar ostida, taxtlarda suyanib o‘tirurlar.",
+
+57: "Ular uchun u yerda mevalar bor va ular uchun so‘ragan narsalari bordir.",
+
+58: "Rahmli Robbdan ularga: «Salom», deyiladi.",
+
+59: "Ey jinoyatchilar! Bugun ajralib turinglar.",
+
+60: "Ey Odam farzandlari! Men sizlardan: «Shaytonga ibodat qilmanglar, albatta, u sizlarga ochiq dushmandir», deb ahd olmaganmidim?",
+
+61: "«Menga ibodat qilinglar. Mana shu to‘g‘ri yo‘ldir».",
+
+62: "Darhaqiqat, u sizlardan ko‘p avlodlarni adashtirdi. Nahotki aql yuritmasangizlar?",
+
+63: "Mana shu sizlarga va’da qilingan jahannamdir.",
+
+64: "Bugun inkor qilganingiz sababli unga kiringlar.",
+
+65: "Bugun Biz ularning og‘izlarini muhrlaymiz. Qo‘llari Bizga gapiradi va oyoqlari qilgan ishlariga guvohlik beradi.",
+
+66: "Agar xohlasak, ularning ko‘zlarini ko‘r qilgan bo‘lardik. Shunda ular yo‘lga intilardilar, ammo qanday ko‘rardilar?",
+
+67: "Agar xohlasak, ularni joylarida boshqa shaklga aylantirgan bo‘lardik. Shunda ular na oldinga yura olardilar va na qayta olardilar.",
+
+68: "Kimga uzoq umr bersak, uni yaratishda teskari holatga qaytaramiz. Nahotki ular aql qilmasalar?",
+
+69: "Biz unga she’r o‘rgatmadik va bu unga loyiq ham emas. Bu faqat eslatma va ochiq Qur’ondir.",
+
+70: "Tirik bo‘lgan kishini ogohlantirish va kofirlarga so‘z haq bo‘lishi uchun.",
+
+71: "Ular Biz O‘z qo‘limiz bilan yaratgan narsalarimizdan chorvalarni yaratganimizni ko‘rmaydilarmi? Ular ularga egadirlar.",
+
+72: "Biz ularni ularga bo‘ysundirdik. Ulardan minadiganlari ham bor, ulardan yeydiganlari ham bor.",
+
+73: "Ularda ular uchun foydalar va ichimliklar bor. Nahotki shukr qilmasalar?",
+
+74: "Ular ALLAHni qo‘yib, ularga yordam beriladi deb boshqa ilohlarni tutdilar.",
+
+75: "Holbuki, ular ularga yordam bera olmaydilar. Ular (butlar uchun) hozir qilingan lashkardekdirlar.",
+
+76: "Bas, ularning so‘zlari seni g‘amgin qilmasin. Albatta, Biz ularning yashirganlarini ham, oshkor qilganlarini ham bilamiz.",
+
+77: "Inson Biz uni tomchidan yaratganimizni ko‘rmaydimi? Shunday bo‘lsa ham, u ochiq tortishuvchi bo‘lib qoladi.",
+
+78: "U Bizga misol keltirdi va o‘z yaratilishini unutdi. U: «Chirib ketgan suyaklarni kim tiriltiradi?» dedi.",
+
+79: "Ayting: «Ularni birinchi marta yaratgan Zot tiriltiradi. U har bir yaratishni Biluvchidir».",
+
+80: "U sizlar uchun yashil daraxtdan olov chiqargan Zotdir. Bas, sizlar undan yoqasizlar.",
+
+81: "Osmonlaru yerni yaratgan Zot ularga o‘xshashini yaratishga Qodir emasmi? Albatta, U Yaratuvchi va Biluvchidir.",
+
+82: "U biror narsani iroda qilsa, Uning ishi faqat: «Bo‘l!» deyishidir. Bas, u bo‘ladi.",
+
+83: "Bas, har narsaning mulki qo‘lida bo‘lgan Zot pokdir. Sizlar Uning huzuriga qaytarilasizlar.",
+},
+37: {
+1: "Saf-saf bo‘lib turuvchilar bilan qasam.",
+
+2: "Qaytarib haydovchilar bilan qasam.",
+
+3: "Zikrni tilovat qiluvchilar bilan qasam.",
+
+4: "Albatta, sizlarning ilohingiz birdir.",
+
+5: "U osmonlaru yerning va ular orasidagi narsalarning Robbidir, mashriqlarning Robbidir.",
+
+6: "Albatta, Biz eng yaqin osmonni yulduzlar ziynati bilan bezadik.",
+
+7: "Va uni har bir itoatsiz shaytondan himoya qildik.",
+
+8: "Ular oliy majlisni tinglay olmaydilar va har tomondan haydalurlar.",
+
+9: "Ular haydalgan holda quviladilar. Ular uchun doimiy azob bordir.",
+
+10: "Ammo kim yashirincha bir so‘zni ilib olsa, uni yorib kiruvchi yorqin yulduz quvib yetadi.",
+
+11: "Bas, ulardan so‘ra: ularni yaratish qiyinroqmi yoki Biz yaratgan narsalarni? Albatta, Biz ularni yopishqoq loydan yaratdik.",
+
+12: "Yo‘q, sen hayratlanasan, ular esa masxara qiladilar.",
+
+13: "Ularga eslatma berilsa, eslamaydilar.",
+
+14: "Biror oyat ko‘rsalar, uni masxara qiladilar.",
+
+15: "Va: «Bu faqat ochiq sehrdir», deydilar.",
+
+16: "«Biz o‘lib, tuproq va suyak bo‘lganimizdan keyin yana tiriltirilamizmi?»",
+
+17: "«Avvalgi ota-bobolarimiz hammi?»",
+
+18: "Ayting: «Ha, sizlar xor bo‘lgan holda tiriltirilasizlar».",
+
+19: "U faqat birgina dahshatli ovozdir. Bas, ular birdan qarab qoladilar.",
+
+20: "Ular: «Voy holimizga! Bu hisob kuni ekan», deydilar.",
+
+21: "Mana shu ajratish kunidir, sizlar uni yolg‘on qilgan edingizlar.",
+
+22: "Zolimlarni, ularning juftlarini va ALLAHni qo‘yib ibodat qilgan narsalarini jamlanglar.",
+
+23: "Bas, ularni jahannam yo‘liga boshlanglar.",
+
+24: "Ularni to‘xtatinglar, albatta, ular so‘raluvchilardir.",
+
+25: "Sizlarga nima bo‘ldi, bir-biringizga yordam bermaysizlarmi?",
+
+26: "Yo‘q, bugun ular taslim bo‘lganlardir.",
+
+27: "Ular bir-birlariga yuzlanib, so‘rashadilar.",
+
+28: "Ular deydilar: «Sizlar bizga o‘ng tomondan kelar edingizlar».",
+
+29: "Ular deydilar: «Yo‘q, sizlar o‘zingiz iymon keltiruvchi emas edingizlar».",
+
+30: "«Bizning sizlar ustingizdan hech qanday hokimiyatimiz yo‘q edi. Balki sizlar tajovuzkor qavm edingizlar».",
+
+31: "«Bas, Robbimizning so‘zi bizga haq bo‘ldi. Albatta, biz totuvchilarmiz».",
+
+32: "«Biz sizlarni adashtirdik, chunki o‘zimiz ham adashgan edik».",
+
+33: "Bas, ular o‘sha kuni azobda sherikdirlar.",
+
+34: "Albatta, Biz jinoyatchilarga shunday qilamiz.",
+
+35: "Chunki ularga: «ALLAHdan boshqa iloh yo‘q», deyilganda, ular kibr qilardilar.",
+
+36: "Va: «Biz bir majnun shoir uchun ilohlarimizni tark qilamizmi?» der edilar.",
+
+37: "Yo‘q, u Haq bilan keldi va Rasulchilarni tasdiqladi.",
+
+38: "Albatta, sizlar alamli azobni totuvchilardirsizlar.",
+
+39: "Sizlar faqat qilgan ishlaringizga yarasha jazolanasizlar.",
+
+40: "Faqat ALLAHning ixlosli bandalari bundan mustasno.",
+ 
+41: "Ana o‘shalar uchun ma’lum rizq bordir.",
+
+42: "Mevalar bor va ular hurmat qilingan kishilardir.",
+
+43: "Ne’mat jannatlarida.",
+
+44: "Ular bir-birlariga qarama-qarshi taxtlarda o‘tiradilar.",
+
+45: "Ularga oqar buloqdan to‘ldirilgan qadahlar aylantiriladi.",
+
+46: "U oq rangli, ichuvchilar uchun lazzatli ichimlikdir.",
+
+47: "Unda aqlni ketkazuvchi narsa yo‘qdir va ular undan mast bo‘lmaydilar.",
+
+48: "Ular uchun ko‘zlarini tiyuvchi, chiroyli ko‘zli juftlar bordir.",
+
+49: "Go‘yo ular yashirilgan tuxumlardekdir.",
+
+50: "Bas, ular bir-birlariga yuzlanib, so‘rashadilar.",
+
+51: "Ulardan biri aytadi: «Mening bir hamrohim bor edi».",
+
+52: "«U: “Sen ham tasdiqlovchilardanmisan?” der edi».",
+
+53: "«Biz o‘lib, tuproq va suyak bo‘lganimizdan keyin ham hisob qilinuvchilardan bo‘lamizmi?»",
+
+54: "U aytadi: «Sizlar qaraysizlarmi?»",
+
+55: "Bas, u qaraydi va uni jahannamning o‘rtasida ko‘radi.",
+
+56: "U aytadi: «ALLAHga qasamki, sen meni halokatga tushirishga oz qolgan ekansan».",
+
+57: "«Agar Robbimning ne’mati bo‘lmaganida, men ham hozir hozir qilinuvchilardan bo‘lardim».",
+
+58: "«Axir biz endi o‘lmaymizmi?»",
+
+59: "«Faqat avvalgi o‘limimizdan boshqa. Biz azoblanadiganlardan emasmizmi?»",
+
+60: "Albatta, mana shu ulkan yutuqdir.",
+
+61: "Amal qiluvchilar shunday mukofot uchun amal qilsinlar.",
+
+62: "Bu yaxshiroq mehmonnavozlikmi yoki Zaqqum daraxtimi?",
+
+63: "Albatta, Biz uni zolimlar uchun sinov qilib qo‘ydik.",
+
+64: "Albatta, u jahannam tubidan chiqadigan bir daraxtdir.",
+
+65: "Uning mevalari go‘yo shaytonlarning boshlaridir.",
+
+66: "Albatta, ular undan yeydilar va undan qorinlarini to‘ldiradilar.",
+
+67: "So‘ngra ular uchun uning ustiga qaynoq suv aralashtirilgan ichimlik bor.",
+
+68: "So‘ngra ularning qaytishi albatta jahannamgadir.",
+
+69: "Albatta, ular ota-bobolarini adashgan holda topdilar.",
+
+70: "Bas, ular ularning izidan shoshilib ketdilar.",
+
+71: "Darhaqiqat, ulardan oldin avvalgi ko‘pchiliklar adashgan edilar.",
+
+72: "Biz ularga ogohlantiruvchilar yuborgan edik.",
+
+73: "Bas, ogohlantirilganlarning oqibati qanday bo‘lganiga qaragin.",
+
+74: "Faqat ALLAHning ixlosli bandalari bundan mustasno.",
+
+75: "Darhaqiqat, Nuh Bizga duo qilgan edi. Biz naqadar yaxshi javob beruvchimiz.",
+
+76: "Biz uni va uning oilasini ulkan kulfatdan najot qildik.",
+
+77: "Va uning zurriyotini qoluvchilar qildik.",
+
+78: "Keyingilar orasida unga yaxshi nom qoldirdik.",
+
+79: "Olamlarda Nuhga salom bo‘lsin.",
+
+80: "Albatta, Biz yaxshilik qiluvchilarni shunday mukofotlaymiz.",
+
+81: "Albatta, u Bizning mo‘min bandalarimizdan edi.",
+
+82: "So‘ngra boshqalarni g‘arq qildik.",
+
+83: "Albatta, Ibrohim uning yo‘lidan bo‘lganlardandir.",
+
+84: "U Robbiga pok qalb bilan kelgan edi.",
+
+85: "U otasiga va qavmiga: «Nimaga ibodat qilmoqdasizlar?» degan edi.",
+
+86: "«ALLAHni qo‘yib yolg‘on ilohlarni xohlaysizlarmi?»",
+
+87: "«Olamlarning Robbisi haqida gumoningiz nima?»",
+
+88: "Bas, u yulduzlarga bir nazar tashladi.",
+
+89: "Va dedi: «Men kasalman».",
+
+90: "Bas, ular undan yuz o‘girib ketdilar.",
+
+91: "Shunda u ularning ilohlariga borib: «Yemaysizlarmi?» dedi.",
+
+92: "«Sizlarga nima bo‘ldiki, gapirmaysizlar?»",
+
+93: "So‘ng o‘ng qo‘li bilan ularni urib sindira boshladi.",
+
+94: "Bas, ular uning oldiga yugurib keldilar.",
+
+95: "U dedi: «Sizlar o‘yib yasagan narsalaringizga ibodat qilasizlarmi?»",
+
+96: "«Holbuki, ALLAH sizlarni ham, qilayotgan narsalaringizni ham yaratgan».",
+
+97: "Ular dedilar: «U uchun bir bino quringlar va uni olovga tashlanglar».",
+
+98: "Ular unga hiyla qilmoqchi bo‘ldilar, lekin Biz ularni eng past bo‘lganlar qildik.",
+
+99: "U dedi: «Men Robbim tomon ketuvchiman. U meni albatta hidoyat qiladi».",
+
+100: "«Ey Robbim! Menga solihlardan bo‘lgan farzand ato etgin».",
+    
+101: "Bas, Biz unga halim bo‘lgan bir o‘g‘il bilan xushxabar berdik.",
+
+102: "U u bilan birga yuradigan yoshga yetgach, u dedi: «Ey o‘g‘lim! Men tushimda seni so‘yishimni ko‘rdim. Bas, nima deb o‘ylaysan?» U dedi: «Ey otajon! Sizga buyurilgan narsani qiling. In shaa ALLAH, meni sabr qiluvchilardan topasiz».",
+
+103: "Ikkalasi ham taslim bo‘lgach va u uni peshonasi bilan yotqizganida,",
+
+104: "Biz unga: «Ey Ibrohim!» deb nido qildik.",
+
+105: "«Sen tushni tasdiqlading. Albatta, Biz yaxshilik qiluvchilarni shunday mukofotlaymiz».",
+
+106: "Albatta, bu ochiq sinov edi.",
+
+107: "Va Biz unga buyuk qurbonlik evaziga fidya berdik.",
+
+108: "Keyingilar orasida unga yaxshi nom qoldirdik.",
+
+109: "Ibrohimga salom bo‘lsin.",
+
+110: "Biz yaxshilik qiluvchilarni shunday mukofotlaymiz.",
+
+111: "Albatta, u Bizning mo‘min bandalarimizdandir.",
+
+112: "Biz unga Ishoq haqida ham xushxabar berdik: u payg‘ambar bo‘ladi, solihlardan bo‘ladi.",
+
+113: "Biz unga ham, Ishoqka ham baraka berdik. Ularning zurriyotlaridan yaxshilik qiluvchilar ham, o‘ziga ochiq zulm qiluvchilar ham bor.",
+
+114: "Darhaqiqat, Biz Muso va Horunga ham ne’mat berdik.",
+
+115: "Ularni va qavmlarini ulkan kulfatdan najot qildik.",
+
+116: "Ularga yordam berdik va ular g‘olib bo‘ldilar.",
+
+117: "Biz ularga aniq Kitob berdik.",
+
+118: "Ularni to‘g‘ri yo‘lga hidoyat qildik.",
+
+119: "Keyingilar orasida ularga yaxshi nom qoldirdik.",
+
+120: "Muso va Horunga salom bo‘lsin.",
+
+121: "Albatta, Biz yaxshilik qiluvchilarni shunday mukofotlaymiz.",
+
+122: "Albatta, ikkalasi ham Bizning mo‘min bandalarimizdandir.",
+
+123: "Albatta, Ilyos ham Rasulchilardandir.",
+
+124: "U o‘z qavmiga dedi: «Taqvo qilmaysizlarmi?»",
+
+125: "«Baalga duo qilasizlarmi va eng yaxshi Yaratuvchini tark qilasizlarmi?»",
+
+126: "«Sizlarning Robbingiz va avvalgi ota-bobolaringizning Robbisi bo‘lgan ALLAHni».",
+
+127: "Bas, ular uni yolg‘on qildilar. Albatta, ular hozir qilinuvchilardandir.",
+
+128: "Faqat ALLAHning ixlosli bandalari bundan mustasno.",
+
+129: "Keyingilar orasida unga yaxshi nom qoldirdik.",
+
+130: "Ilyosga salom bo‘lsin.",
+
+131: "Albatta, Biz yaxshilik qiluvchilarni shunday mukofotlaymiz.",
+
+132: "Albatta, u Bizning mo‘min bandalarimizdandir.",
+
+133: "Albatta, Lut ham Rasulchilardandir.",
+
+134: "Biz uni va uning oilasini barchasini najot qildik.",
+
+135: "Faqat qoluvchilardan bo‘lgan bir kampirdan boshqa.",
+
+136: "So‘ngra boshqalarni halok qildik.",
+
+137: "Albatta, sizlar ularning oldidan ertalab o‘tib turasizlar.",
+
+138: "Va kechasi ham. Nahotki aql ishlatmasangizlar?",
+
+139: "Albatta, Yunus ham Rasulchilardandir.",
+
+140: "U to‘la yuklangan kemaga qochib ketgan edi.",
+
+141: "Bas, u qur’a tashlashda ishtirok etdi va yutqazganlardan bo‘ldi.",
+
+142: "Bas, uni baliq yutib yubordi, u esa ayblangan edi.",
+
+143: "Agar u tasbeh aytuvchilardan bo‘lmaganida edi,",
+
+144: "Albatta, ular tiriltiriladigan kungacha uning qornida qolgan bo‘lardi.",
+
+145: "Bas, Biz uni yalang‘och bir qirg‘oqqa tashladik, u esa kasal edi.",
+
+146: "Va uning ustida qovoq daraxtidan o‘stirdik.",
+
+147: "Uni yuz ming yoki undan ham ko‘proq kishiga Rasul qilib yubordik.",
+
+148: "Bas, ular iymon keltirdilar. Shunda Biz ularga ma’lum vaqtgacha foydalanish berdik.",
+
+149: "Bas, ulardan so‘ra: qizlar Robbing uchun, o‘g‘illar ular uchunmi?",
+
+150: "Yoki Biz malaikalarni ayollar qilib yaratganmizmi, ular guvoh bo‘lganlarmi?",
+
+151: "Ogoh bo‘linglar! Ular o‘z to‘qimalari bilan:",
+
+152: "«ALLAH tug‘di», deyishadi. Albatta, ular yolg‘onchilardir.",
+
+153: "U o‘g‘illarni qizlardan ustun qo‘yganmi?",
+
+154: "Sizlarga nima bo‘ldi? Qanday hukm qilmoqdasizlar?",
+
+155: "Nahotki eslatma olmasangizlar?",
+
+156: "Yoki sizlarda ochiq hujjat bormi?",
+
+157: "Agar rostgo‘y bo‘lsangizlar, Kitobingizni keltiringlar.",
+
+158: "Ular ALLAH bilan jinlar o‘rtasida nasab borligini qildilar. Holbuki, jinlar o‘zlari ham ularning hozir qilinuvchilar ekanini biladilar.",
+
+159: "ALLAH ular aytayotgan narsalardan pokdir.",
+
+160: "Faqat ALLAHning ixlosli bandalari bundan mustasno.",
+
+161: "Bas, sizlar ham, ibodat qilayotgan narsalaringiz ham",
+
+162: "Unga qarshi fitna qiluvchilardan boshqa hech kimni Unga qarshi majburlay olmaysizlar.",
+
+163: "Faqat jahannamga kiruvchi kishidan boshqa.",
+
+164: "Bizdan har birimiz uchun ma’lum maqom bordir.",
+
+165: "Va albatta, biz saf-saf turuvchilarmiz.",
+
+166: "Va albatta, biz tasbeh aytuvchilarmiz.",
+
+167: "Ular ilgari: «Agar bizda avvalgilar haqida bir eslatma bo‘lganida edi», der edilar.",
+
+168: "«Albatta, biz ALLAHning ixlosli bandalari bo‘lardik».",
+
+169: "Ammo ular unga kofir bo‘ldilar. Tez orada bilib oladilar.",
+
+170: "Darhaqiqat, Bizning kalimamiz Rasulchi bandalarimiz uchun avval o‘tgan edi:",
+
+171: "Albatta, ular yordam berilganlardir.",
+
+172: "Va albatta, Bizning lashkarlarimiz g‘olib bo‘luvchilardir.",
+
+173: "Bas, ulardan bir muddat yuz o‘girgin.",
+
+174: "Va ularni kuzatgin. Tez orada ular ham ko‘radilar.",
+
+175: "Ular Bizning azobimizni tezlashtirmoqdalarmi?",
+
+176: "Azobimiz ularning hovlisiga tushganida, ogohlantirilganlarning tongi naqadar yomon bo‘ladi.",
+
+177: "Bas, ulardan bir muddat yuz o‘girgin.",
+
+178: "Va kuzatgin. Tez orada ular ham ko‘radilar.",
+
+179: "Ular Bizning azobimizni tezlashtirmoqdalarmi?",
+
+180: "Ular aytayotgan narsalardan Robbing — qudrat Egasi — pokdir.",
+
+181: "Va Rasulchilarga salom bo‘lsin.",
+
+182: "Va hamd olamlarning Robbisi ALLAHgadir.",
+    },
+38: {
+1: "Sod. Zikr egasi bo‘lgan Qur’on bilan qasam.",
+
+2: "Yo‘q, kofir bo‘lganlar kibr va qarshilikdadirlar.",
+
+3: "Ulardan oldin qancha avlodlarni halok qildik. Ular faryod qilgan edilar, ammo qutulish vaqti o‘tib ketgan edi.",
+
+4: "Ular o‘zlaridan ogohlantiruvchi kelganidan ajablandilar. Kofirlar: «Bu yolg‘onchi sehrgar», dedilar.",
+
+5: "«U barcha ilohlarni bitta iloh qilib qo‘ydimi? Bu juda ajablanarli narsadir».",
+
+6: "Ularning boshliqlari: «Yuringlar va ilohlaringizga sabr qilinglar. Bu albatta ko‘zlangan narsadir», deb ketdilar.",
+
+7: "«Biz buni oxirgi dinda eshitganimiz yo‘q. Bu faqat to‘qib chiqarilgan narsadir».",
+
+8: "«Oramizdan unga Zikr nozil qilindimi?» Yo‘q, ular Mening Zikrimdan shubhadadirlar. Yo‘q, ular hali azobimni totmaganlar.",
+
+9: "Yoki ular Aziz va Ko‘p beruvchi Robbingning rahmat xazinalariga egalik qiladilarmi?",
+
+10: "Yoki osmonlaru yer va ular orasidagi narsalar mulki ularnikimi? Bas, ular sabablarni izlab yuqoriga ko‘tarilsinlar.",
+
+11: "U yerda bo‘lgan barcha guruhlar mag‘lub bo‘ladigan lashkardir.",
+
+12: "Ulardan oldin Nuh qavmi, Od va qoziqlar egasi Fir’avn ham yolg‘on qilgan edi.",
+
+13: "Samud, Lut qavmi va daraxtzor egalari ham. Ana o‘shalar guruhlardir.",
+
+14: "Ularning har biri Rasulchilarni yolg‘on qildi. Bas, Mening azobim haq bo‘ldi.",
+
+15: "Ular faqat birgina ovozni kutmoqdalar. U bir lahza ham kechiktirilmaydi.",
+
+16: "Ular: «Ey Robbimiz! Bizning hisob kunimizdan oldin bizga ulushimizni tezlashtirgin», deydilar.",
+
+17: "Ularning aytayotganlariga sabr qilgin va qudrat egasi bo‘lgan bandamiz Dovudni eslagin. Albatta, u ko‘p tavba qiluvchi edi.",
+
+18: "Albatta, Biz tog‘larni unga bo‘ysundirdik. Ular kechqurun va tongda u bilan birga tasbeh aytardilar.",
+
+19: "Va qushlarni ham jamlangan holda bo‘ysundirdik. Ularning barchasi unga qaytuvchi edi.",
+
+20: "Biz uning saltanatini mustahkam qildik, unga hikmat berdik va aniq ajratuvchi so‘z berdik.",
+    
+ 21: "Senga da’vogarlar xabari keldimi? Ular mehrob devoridan oshib Dovud huzuriga kirgan edilar.",
+
+22: "Ular Dovudning oldiga kirganlarida, u ulardan qo‘rqdi. Ular: «Qo‘rqma! Biz ikki da’vogarmiz. Ba’zimiz ba’zilarimizga zulm qildi. Bas, oramizda Haq bilan hukm qilgin va adolatdan chetga chiqma, bizni to‘g‘ri yo‘lga hidoyat qilgin», dedilar.",
+
+23: "«Bu mening birodarimdir. Uning to‘qson to‘qqizta qo‘yi bor, mening esa bitta qo‘yim bor. Shunday bo‘lsa ham: “Uni menga topshir”, dedi va so‘zda menga ustun keldi».",
+
+24: "U dedi: «U sening qo‘yingni o‘z qo‘ylariga qo‘shishni so‘rab, senga zulm qilgan. Albatta, sheriklarning ko‘pchiligi bir-birlariga zulm qiladilar. Faqat iymon keltirgan va yaxshi amallar qilganlar bundan mustasno. Ular esa juda ozdir». Dovud Biz uni sinaganimizni bildi va Robbisidan mag‘firat so‘radi, ruku’ qilgan holda yiqildi va tavba qildi.",
+
+25: "Bas, Biz uni mag‘firat qildik. Albatta, uning Bizning huzurimizda yaqinligi va go‘zal joyi bordir.",
+
+26: "Ey Dovud! Biz seni yer yuzida xalifa qildik. Bas, odamlar orasida Haq bilan hukm qilgin va havoyi nafsga ergashma. U seni ALLAH yo‘lidan adashtiradi. Albatta, ALLAH yo‘lidan adashadiganlar uchun hisob kunini unutganlari sababli qattiq azob bordir.",
+
+27: "Biz osmonu yerni va ular orasidagi narsalarni behuda yaratmadik. Bu kofir bo‘lganlarning gumonidir. Bas, kofir bo‘lganlarga do‘zaxdan halokat bo‘lsin.",
+
+28: "Yoki Biz iymon keltirgan va yaxshi amallar qilganlarni yer yuzida buzg‘unchilik qiluvchilar kabi qilamizmi? Yoki taqvodorlarni fojirlar kabi qilamizmi?",
+
+29: "Bu Biz senga nozil qilgan muborak Kitobdir. Toki ular uning oyatlarini tafakkur qilsinlar va aql egalari eslatma olsinlar.",
+
+30: "Biz Dovudga Sulaymonni berdik. U naqadar yaxshi banda edi. Albatta, u ko‘p tavba qiluvchi edi.",
+
+31: "Unga kechqurun yaxshi zotli, chopqir otlar ko‘rsatilgan edi.",
+
+32: "U dedi: «Men Robbimning zikridan ko‘ra bu mol-dunyoni sevib qo‘ydim, toki quyosh parda ortiga yashirindi».",
+
+33: "«Ularni menga qaytaringlar». Bas, u ularning oyoqlari va bo‘yinlarini silay boshladi.",
+
+34: "Darhaqiqat, Biz Sulaymonni sinadik va uning taxti ustiga bir jasad tashladik. So‘ngra u tavba qildi.",
+
+35: "U dedi: «Ey Robbim! Meni mag‘firat qilgin va menga mendan keyin hech kimga loyiq bo‘lmaydigan saltanat bergin. Albatta, Sen Ko‘p beruvchisan».",
+
+36: "Bas, Biz shamolni unga bo‘ysundirdik. U uning amri bilan yumshoq holda xohlagan joyiga oqardi.",
+
+37: "Va shaytonlardan har bir quruvchi va g‘avvosni ham.",
+
+38: "Va boshqalarni kishanlangan holda unga bo‘ysundirdik.",
+
+39: "«Bu Bizning hadyamizdir. Bas, xohlaganingga ber yoki o‘zingda saqla, hisob qilinmaydi».",
+
+40: "Albatta, uning Bizning huzurimizda yaqinligi va go‘zal joyi bordir.",
+    
+41: "Bandamiz Ayyubni ham eslagin. U Robbisiga nido qilib: «Albatta, shayton menga mashaqqat va azob bilan tegdi», dedi.",
+
+42: "«Oyog‘ing bilan yerga urgin. Mana sovuq suvli cho‘milish va ichimlik».",
+
+43: "Biz unga oilasini va ular bilan birga yana shunchasini berdik. Bu Bizning rahmatimiz va aql egalari uchun eslatmadir.",
+
+44: "«Qo‘lingga bir dasta olgin va u bilan urgin, qasamingni buzma». Albatta, Biz uni sabrli topdik. U naqadar yaxshi banda edi. Albatta, u ko‘p tavba qiluvchi edi.",
+
+45: "Bizning bandalarimiz Ibrohim, Ishoq va Ya’qubni eslagin. Ular kuch va idrok egalari edilar.",
+
+46: "Albatta, Biz ularni sof bir xislat — oxirat diyorini eslash bilan ajratdik.",
+
+47: "Albatta, ular Bizning huzurimizda tanlangan va yaxshilardan edilar.",
+
+48: "Ismoil, Al-Yasa’ va Zul-Kiflni ham eslagin. Ularning barchasi yaxshilardandir.",
+
+49: "Bu bir eslatmadir. Albatta, taqvodorlar uchun go‘zal qaytish joyi bordir.",
+
+50: "Adn jannatlari. Ularning eshiklari ular uchun ochiqdir.",
+
+51: "Ular u yerda suyanib o‘tirgan holda ko‘p mevalar va ichimliklar so‘raydilar.",
+
+52: "Ularning huzurida ko‘zlarini tiyuvchi, tengdosh juftlar bordir.",
+
+53: "Mana shu sizlarga hisob kuni uchun va’da qilingan narsadir.",
+
+54: "Albatta, bu Bizning rizqimizdir, u tugamaydigan narsadir.",
+
+55: "Bu shunday. Albatta, haddan oshganlar uchun eng yomon qaytish joyi bordir.",
+
+56: "Jahannam. Unga kiradilar. U naqadar yomon joydir.",
+
+57: "Mana shu qaynoq suv va yiringdir. Bas, uni totib ko‘rsinlar.",
+
+58: "Va unga o‘xshash boshqa turli azoblar ham bordir.",
+
+59: "Mana bir guruh sizlar bilan birga kiruvchidir. Ularga xush kelmasin. Albatta, ular do‘zaxga kiruvchilardir.",
+
+60: "Ular aytadilar: «Yo‘q, sizlarga xush kelmasin. Uni bizga tayyorlab qo‘ygan sizlardirsizlar. U naqadar yomon joydir».",
+    
+ 61: "Ular aytadilar: «Ey Robbimiz! Kim bizga buni tayyorlagan bo‘lsa, uning do‘zaxdagi azobini ikki barobar qilgin».",
+
+62: "Ular aytadilar: «Bizga nima bo‘ldiki, biz yomon deb hisoblagan kishilarni ko‘rmayapmiz?»",
+
+63: "«Biz ularni masxara qilgan edikmi yoki ko‘zlarimiz ulardan chetga burilib qolganmi?»",
+
+64: "Albatta, bu jahannam ahlining o‘zaro tortishuvi haqdir.",
+
+65: "Ayting: «Men faqat ogohlantiruvchiman. Yagona va Qahhor bo‘lgan ALLAHdan boshqa iloh yo‘qdir».",
+
+66: "«U osmonlaru yerning va ular orasidagi narsalarning Robbisi, Aziz va Mag‘firat qiluvchidir».",
+
+67: "Ayting: «Bu ulkan xabardir».",
+
+68: "«Sizlar esa undan yuz o‘giruvchilarsiz».",
+
+69: "«Men oliy majlis tortishayotgan paytda ular haqida hech qanday ilmga ega emas edim».",
+
+70: "«Menga faqat ochiq ogohlantiruvchi bo‘lishim uchun vahiy qilinadi».",
+
+71: "Robbing malaikalarga: «Men loydan bir inson yaratuvchiman», deganida.",
+
+72: "«Bas, uni mukammal qilib, unga O‘z ruhimdan puflaganimda, unga sajda qilgan holda yiqilinglar».",
+
+73: "Shunda barcha malaikalar birgalikda sajda qildilar.",
+
+74: "Faqat Iblis bundan mustasno. U kibrlanib, kofirlardan bo‘ldi.",
+
+75: "U dedi: «Ey Iblis! Men O‘z qo‘llarim bilan yaratgan narsamga sajda qilishdan seni nima to‘sdi? Kibr qildingmi yoki oliylardan bo‘ldingmi?»",
+
+76: "U dedi: «Men undan yaxshiroqman. Meni olovdan yaratding, uni esa loydan yaratding».",
+
+77: "U dedi: «Bas, undan chiq. Albatta, sen quvilgansan».",
+
+78: "«Albatta, Qiyomat kunigacha Mening la’natim sening ustingdadir».",
+
+79: "U dedi: «Ey Robbim! Menga ular tiriltiriladigan kungacha muhlat bergin».",
+
+80: "U dedi: «Bas, sen muhlat berilganlardansan».",
+
+81: "«Ma’lum vaqtgacha» dedi.",
+
+82: "U dedi: «Sening izzatingga qasamki, men ularning barchasini albatta yo‘ldan ozdiraman».",
+
+83: "«Faqat Sen tanlagan ixlosli bandalaring bundan mustasno».",
+
+84: "U dedi: «Bas, Haqdir. Men Haqni aytaman».",
+
+85: "«Albatta, jahannamni sendan va senga ergashganlarning barchasidan to‘ldiraman».",
+
+86: "Ayting: «Men buning uchun sizlardan hech qanday haq so‘ramayman va men o‘zini majburlovchilardan ham emasman».",
+
+87: "«Bu faqat olamlar uchun eslatmadir».",
+
+88: "«Va uning xabarini bir muddatdan keyin albatta bilib olasizlar».",
+    },
+ 39: {
+1: "Bu Kitobning nozil qilinishi Aziz va Hikmat Egasi bo‘lgan ALLAH tomondandir.",
+
+2: "Albatta, Biz senga Kitobni Haq bilan nozil qildik. Bas, dinni Unga xolis qilgan holda ALLAHga ibodat qilgin.",
+
+3: "Ogoh bo‘linglar! Xolis din faqat ALLAH uchundir. Undan boshqa do‘stlar tutganlar: «Biz ularga faqat bizni ALLAHga yaqinlashtirishlari uchun ibodat qilamiz», deydilar. Albatta, ALLAH ular ixtilof qilayotgan narsalarida ular orasida hukm qiladi. Albatta, ALLAH yolg‘onchi va kofir bo‘lgan kishini hidoyat qilmaydi.",
+
+4: "Agar ALLAH farzand tutishni istaganida, yaratgan narsalaridan xohlaganini tanlagan bo‘lardi. U pokdir. U yagona va Qahhordir.",
+
+5: "U osmonlaru yerni Haq bilan yaratdi. U kechani kunduz ustiga o‘raydi va kunduzni kecha ustiga o‘raydi. U quyosh va oyni bo‘ysundirdi. Har biri belgilangan muddatgacha yuradi. Ogoh bo‘linglar! U Aziz va Mag‘firat qiluvchidir.",
+
+6: "U sizlarni bir jondan yaratdi, so‘ng undan juftini yaratdi. Sizlar uchun chorvalardan sakkiz juft tushirdi. U sizlarni onalaringiz qornida uch zulmat ichida yaratishdan yaratishga o‘tkazadi. Mana shu sizlarning Robbingiz ALLAHdir. Mulk Unikidir. Undan boshqa iloh yo‘qdir. Bas, qayerga burilib ketmoqdasizlar?",
+
+7: "Agar kufr qilsangizlar, albatta, ALLAH sizlardan behojatdir. U bandalari uchun kufrga rozi bo‘lmaydi. Agar shukr qilsangizlar, bundan sizlar uchun rozi bo‘ladi. Hech bir yuk ko‘taruvchi boshqa birovning yukini ko‘tarmaydi. So‘ngra qaytishingiz Robbingiz huzuriga bo‘ladi. U sizlarga qilgan ishlaringizni xabar qiladi. Albatta, U ko‘kslardagi narsalarni Biluvchidir.",
+
+8: "Insonga zarar yetganda, u Robbisiga qaytib Unga duo qiladi. So‘ngra U unga O‘zidan ne’mat berganida, oldin Unga duo qilganini unutadi va ALLAH yo‘lidan adashtirish uchun Unga tengdoshlar qiladi. Ayting: «Kufring bilan ozgina foydalanib tur. Albatta, sen do‘zax ahlidansan».",
+
+9: "Yoki kechalari sajda qilib va tik turib ibodat qiluvchi, oxiratdan qo‘rqadigan va Robbisining rahmatidan umid qiladigan kishi (shunday emasmi)? Ayting: «Biladiganlar bilan bilmaydiganlar teng bo‘ladimi?» Faqat aql egalari eslatma oladilar.",
+
+10: "Ayting: «Ey iymon keltirgan bandalarim! Robbingizdan qo‘rqinglar. Bu dunyoda yaxshilik qilganlar uchun yaxshilik bordir. ALLAHning yeri kengdir. Sabr qiluvchilarga mukofotlari hisobsiz beriladi».",
+
+11: "Ayting: «Men dinni Unga xolis qilgan holda faqat ALLAHga ibodat qilishga buyurildim».",
+
+12: "«Va men musulmonlarning birinchisi bo‘lishga buyurildim».",
+
+13: "Ayting: «Agar Robbimga osiy bo‘lsam, ulkan kunning azobidan qo‘rqaman».",
+
+14: "Ayting: «Men dinimni Unga xolis qilgan holda faqat ALLAHga ibodat qilaman».",
+
+15: "«Bas, Undan boshqa xohlaganingizga ibodat qilinglar». Ayting: «Albatta, haqiqiy ziyon ko‘ruvchilar Qiyomat kuni o‘zlarini va oilalarini ziyon qilganlardir. Ogoh bo‘linglar! Mana shu ochiq ziyonning o‘zidir».",
+
+16: "Ularning ustilarida olovdan soyabonlar, ostilarida ham soyabonlar bor. Bu ALLAH bandalarini u bilan qo‘rqitadigan narsadir. Ey bandalarim! Bas, Mendan qo‘rqinglar.",
+
+17: "Tog‘utga ibodat qilishdan chetlangan va ALLAHga qaytganlar uchun xushxabar bor. Bas, bandalarimga xushxabar ber.",
+
+18: "Ular so‘zni tinglab, uning eng go‘zaliga ergashadiganlardir. Ana o‘shalar ALLAH hidoyat qilgan kishilardir. Ana o‘shalar aql egalaridir.",
+
+19: "Azob so‘zi haq bo‘lgan kishini sen qutqara olasanmi?",
+
+20: "Lekin Robbilaridan qo‘rqqanlar uchun ustma-ust qurilgan xonalar bordir, ostidan anhorlar oqadi. Bu ALLAHning va’dasidir. ALLAH va’dasiga xilof qilmaydi.",
+
+21: "ALLAH osmondan suv tushirib, uni yer yuzidagi manbalarga oqizganini ko‘rmadingmi? So‘ngra u bilan turli rangdagi ekinlarni chiqaradi. So‘ngra ular quriydi, bas, sen uni sarg‘aygan holda ko‘rasan. So‘ngra uni maydalangan holga keltiradi. Albatta, bunda aql egalari uchun eslatma bordir.",
+
+22: "ALLAH kimning ko‘ksini Islom uchun keng qilgan bo‘lsa, u Robbidan bo‘lgan nur ustidadir. Bas, ALLAHning zikridan qalblari qattiqlashganlarga voy bo‘lsin. Ana o‘shalar ochiq adashishdadirlar.",
+
+23: "ALLAH so‘zlarning eng go‘zalini — o‘xshash va takrorlanuvchi Kitobni nozil qildi. Undan Robbilaridan qo‘rquvchi kishilarning terilari junjikadi. So‘ngra ularning terilari va qalblari ALLAHning zikriga yumshaydi. Bu ALLAHning hidoyatidir. U bilan xohlagan kishisini hidoyat qiladi. Kimni ALLAH adashtirsa, unga hidoyat qiluvchi yo‘qdir.",
+
+24: "Qiyomat kuni yuzini yomon azobdan saqlayotgan kishi (omon qolgan kishi kabi bo‘ladimi)? Zolimlarga: «Qilganlaringizni totib ko‘ringlar», deyiladi.",
+
+25: "Ulardan oldingilar ham yolg‘on qildilar. Bas, ularga azob o‘zlari sezmagan tomondan keldi.",
+
+26: "Bas, ALLAH ularga dunyo hayotida xorlikni tottirdi. Oxirat azobi esa kattaroqdir. Agar bilganlarida edi.",
+
+27: "Darhaqiqat, Biz bu Qur’onda odamlar uchun har xil misollar keltirdik. Shoyad ular eslatma olsalar.",
+
+28: "U arabiy Qur’ondir, unda hech qanday qiyshiklik yo‘qdir. Shoyad ular taqvo qilsalar.",
+
+29: "ALLAH bir-biri bilan tortishadigan bir necha xo‘jayinlari bor kishining va faqat bitta kishiga tegishli bo‘lgan kishining misolini keltirdi. Ularning holi tengmi? Hamd ALLAHgadir. Lekin ularning ko‘pchiligi bilmaydilar.",
+
+30: "Albatta, sen ham o‘lasan va ular ham o‘ladilar.",
+
+31: "So‘ngra sizlar Qiyomat kuni Robbingiz huzurida tortishasizlar.",
+
+32: "ALLAHga nisbatan yolg‘on to‘qigan yoki o‘ziga kelgan Haqni yolg‘on qilgan kishidan ham zolimroq kim bor? Jahannamda kofirlar uchun joy yo‘qmi?",
+
+33: "Haqni keltirgan va uni tasdiqlaganlar — ana o‘shalar taqvodorlardir.",
+
+34: "Ular uchun Robbilari huzurida xohlagan narsalari bordir. Bu yaxshilik qiluvchilarning mukofotidir.",
+
+35: "Toki ALLAH ularning qilgan eng yomon ishlarini o‘chirib yuborsin va qilgan eng yaxshi amallariga yarasha mukofotlasin.",
+
+36: "ALLAH O‘z bandasiga kifoya qiluvchi emasmi? Ular esa seni Undan boshqa narsalar bilan qo‘rqitadilar. Kimni ALLAH adashtirsa, unga hidoyat qiluvchi yo‘qdir.",
+
+37: "Kimni ALLAH hidoyat qilsa, uni adashtiruvchi yo‘qdir. ALLAH Aziz va qasos olish Egasi emasmi?",
+
+38: "Agar ulardan: «Osmonlaru yerni kim yaratdi?» deb so‘rasang, albatta: «ALLAH», deydilar. Ayting: «ALLAHdan boshqa duo qilayotgan narsalaringiz haqida o‘ylab ko‘rdingizmi? Agar ALLAH menga zarar istasa, ular Uning zararini ketkaza oladilarmi? Yoki menga rahmat istasa, ular Uning rahmatini to‘sa oladilarmi?» Ayting: «Menga ALLAHning O‘zi kifoya. Tavakkul qiluvchilar Unga tavakkul qiladilar».",
+
+39: "Ayting: «Ey qavmim! O‘z holingizda amal qilaveringlar. Men ham amal qiluvchiman. Tez orada bilib olasizlar».",
+
+40: "«Kimga xor qiluvchi azob kelishini va ustiga doimiy azob tushishini bilib olasizlar».",    
+ 
+41: "Albatta, Biz senga Kitobni odamlar uchun Haq bilan nozil qildik. Bas, kim hidoyat topsa, o‘zi uchun hidoyat topadi. Kim adashsa, faqat o‘z zarariga adashadi. Sen ularga vakil emassan.",
+
+42: "ALLAH jonlarni o‘limlari vaqtida oladi, o‘lmaganlarni esa uyqularida oladi. So‘ngra o‘limiga hukm qilinganlarini ushlab qoladi, boshqalarini esa belgilangan muddatgacha qo‘yib yuboradi. Albatta, bunda tafakkur qiladigan qavm uchun oyatlar bordir.",
+
+43: "Yoki ular ALLAHni qo‘yib shafoatchilar tutdilarmi? Ayting: «Agar ular hech narsaga ega bo‘lmasalar va aql qilmasalar hammi?»",
+
+44: "Ayting: «Barcha shafoat ALLAHnikidir. Osmonlaru yer mulki Unikidir. So‘ngra sizlar Uning huzuriga qaytarilasizlar».",
+
+45: "Qachonki yolg‘iz ALLAH zikr qilinsa, oxiratga iymon keltirmaydiganlarning qalblari jirkanadi. Undan boshqa narsalar zikr qilinganda esa, birdan xursand bo‘lib ketadilar.",
+
+46: "Ayting: «Ey osmonlaru yerning Yaratuvchisi, g‘aybni va oshkor narsalarni Biluvchi ALLAH! Sen bandalaring orasida ular ixtilof qilgan narsalarida hukm qilasan».",
+
+47: "Agar yer yuzidagi barcha narsa va yana uning o‘rniga shuncha narsa zolimlarning qo‘lida bo‘lganida edi, Qiyomat kuni yomon azobdan qutulish uchun uni berib yuborgan bo‘lardilar. Ularga ALLAH tomonidan ular o‘ylamagan narsa ko‘rinadi.",
+
+48: "Ularning qilgan yomonliklari ularga ayon bo‘ladi va masxara qilgan narsalari ularni o‘rab oladi.",
+
+49: "Insonga zarar yetganda, Bizga duo qiladi. So‘ngra unga O‘zimizdan ne’mat berganimizda: «Bu menga faqat ilmim sababli berildi», deydi. Yo‘q, bu sinovdir. Lekin ularning ko‘pchiligi bilmaydilar.",
+
+50: "Ulardan oldingilar ham shunday degan edilar. Ammo topgan narsalari ularga foyda bermadi.",
+
+51: "Bas, qilgan yomonliklari ularga yetdi. Bu zulm qilganlarning ham yomonliklari ularga yetadi. Ular qutula olmaydilar.",
+
+52: "Ular ALLAH kimga xohlaganicha rizqni kengaytirishini va toraytirishini bilmaydilarmi? Albatta, bunda iymon keltiradigan qavm uchun oyatlar bordir.",
+
+53: "Ayting: «Ey o‘z jonlariga haddan oshgan bandalarim! ALLAHning rahmatidan noumid bo‘lmanglar. Albatta, ALLAH barcha gunohlarni mag‘firat qiladi. Albatta, U Mag‘firat qiluvchi va Rahmlidir».",
+
+54: "Sizlarga azob kelishidan oldin Robbingizga qaytinglar va Unga taslim bo‘linglar. So‘ngra sizlarga yordam berilmaydi.",
+
+55: "Sizlarga azob to‘satdan kelib qolishidan oldin, o‘zingizga nozil qilingan narsaning eng go‘zaliga ergashinglar, sizlar sezmay qolishingiz mumkin.",
+
+56: "Biror jon: «ALLAHning haqqida qilgan beparvoligimga afsus! Men masxara qiluvchilardan bo‘ldim», demasidan oldin.",
+
+57: "Yoki: «Agar ALLAH meni hidoyat qilganida edi, taqvodorlardan bo‘lardim», demasidan oldin.",
+
+58: "Yoki azobni ko‘rganida: «Qani edi, menga yana bir bor imkon berilsa edi, yaxshilik qiluvchilardan bo‘lardim», demasidan oldin.",
+
+59: "Yo‘q, senga oyatlarim keldi, sen esa ularni yolg‘on qilding, kibr qilding va kofirlardan bo‘lding.",
+
+60: "Qiyomat kuni ALLAHga nisbatan yolg‘on gapirganlarning yuzlari qorayganini ko‘rasan. Kibr qiluvchilar uchun jahannamda joy yo‘qmi?",
+    
+ 61: "Taqvo qilganlarni ALLAH najotlari bilan qutqaradi. Ularga yomonlik tegmaydi va ular g‘amgin bo‘lmaydilar.",
+
+62: "ALLAH har narsaning Yaratuvchisidir. U har narsaga Vakildir.",
+
+63: "Osmonlaru yerning kalitlari Unikidir. ALLAHning oyatlariga kofir bo‘lganlar — ana o‘shalar ziyon ko‘ruvchilardir.",
+
+64: "Ayting: «Ey johillar! Menga ALLAHdan boshqasiga ibodat qilishni buyurasizlarmi?»",
+
+65: "Darhaqiqat, senga va sendan oldingilarga vahiy qilindi: «Agar shirk qilsang, albatta, amaling behuda bo‘ladi va ziyon ko‘ruvchilardan bo‘lasan».",
+
+66: "Yo‘q, faqat ALLAHga ibodat qilgin va shukr qiluvchilardan bo‘lgin.",
+
+67: "Ular ALLAHni Uning haqiqiy qadricha qadrlamadilar. Qiyomat kuni butun yer Uning qabzasidadir, osmonlar esa Uning o‘ng qo‘li bilan o‘ralgan bo‘ladi. U ularning shirklaridan pok va oliydir.",
+
+68: "Sur chalinadi. Bas, osmonlaru yerdagi kim bo‘lsa, ALLAH xohlaganlardan boshqa hammasi hushidan ketadi. So‘ngra yana bir bor chalinadi. Bas, ular turib qarab qoladilar.",
+
+69: "Yer Robbining nuri bilan yorishadi, Kitob qo‘yiladi, payg‘ambarlar va guvohlar keltiriladi. Ular orasida Haq bilan hukm qilinadi va ularga zulm qilinmaydi.",
+
+70: "Har bir jonga qilgan amali to‘liq beriladi. U ularning qilayotgan ishlarini Biluvchidir.",
+
+71: "Kofir bo‘lganlar guruh-guruh qilib jahannamga haydaladilar. Unga yetganlarida, uning eshiklari ochiladi va qo‘riqchilari ularga: «Sizlarga o‘zlaringizdan Rasulchilar kelib, Robbingizning oyatlarini tilovat qilib, mana shu kuningizga duch kelishingiz haqida ogohlantirmaganmidi?» deydilar. Ular: «Ha», deydilar. Lekin kofirlarga azob so‘zi haq bo‘ldi.",
+
+72: "Ularga: «Jahannam eshiklaridan kiringlar, unda abadiy qolinglar», deyiladi. Kibr qiluvchilarning joyi naqadar yomon!",
+
+73: "Robbilaridan qo‘rqqanlar esa guruh-guruh qilib jannatga haydaladilar. Unga yetganlarida, eshiklari ochiladi va qo‘riqchilari ularga: «Sizlarga salom bo‘lsin! Pok bo‘ldingizlar. Bas, unda abadiy qolish uchun kiringlar», deydilar.",
+
+74: "Ular: «Bizga bergan va’dasini rost qilgan va bizni bu yerga merosxo‘r qilgan ALLAHga hamd bo‘lsin. Biz jannatdan xohlagan joyimizda joylashamiz. Amal qiluvchilarning mukofoti naqadar go‘zal», deydilar.",
+
+75: "Malaikalarni Arsh atrofini o‘rab, Robbilariga hamd bilan tasbeh aytayotganlarini ko‘rasan. Ular orasida Haq bilan hukm qilinadi va: «Hamd olamlarning Robbisi ALLAHgadir», deyiladi.",
+},
+40: {
+1: "Ha Mim.",
+
+2: "Bu Kitobning nozil qilinishi Aziz va Biluvchi ALLAH tomondandir.",
+
+3: "U gunohni Mag‘firat qiluvchi, tavbani qabul qiluvchi, azobi qattiq va fazl egasidir. Undan boshqa iloh yo‘q. Qaytish Uning huzuriga.",
+
+4: "ALLAHning oyatlari haqida faqat kofir bo‘lganlar tortishadilar. Bas, ularning shaharlarda yurib-turishi seni aldamasin.",
+
+5: "Ulardan oldin Nuh qavmi va ulardan keyingi guruhlar ham yolg‘on qildilar. Har bir ummat o‘z Rasulini ushlashga urindi va botil bilan tortishib, Haqni yo‘q qilishni xohladi. Bas, Men ularni tutdim. Mening azobim qanday bo‘lganiga qaragin.",
+
+6: "Shunday qilib, Robbingning kofir bo‘lganlar haqidagi so‘zi haq bo‘ldi. Albatta, ular do‘zax ahlidir.",
+
+7: "Arshni ko‘tarib turuvchi va uning atrofidagilar Robbilariga hamd bilan tasbeh aytadilar, Unga iymon keltiradilar va mo‘minlar uchun mag‘firat so‘raydilar: «Ey Robbimiz! Sen rahmat va ilm jihatidan har narsani qamrab olgansan. Bas, tavba qilgan va Sening yo‘lingga ergashganlarni mag‘firat qilgin va ularni jahannam azobidan saqlagin».",
+
+8: "«Ey Robbimiz! Ularni va ularning ota-bobolari, juftlari va zurriyotlaridan solih bo‘lganlarni o‘zing va’da qilgan Adn jannatlariga kirgizgin. Albatta, Sen Aziz va Hikmat Egasisan».",
+
+9: "«Ularni yomonliklardan saqlagin. Kimni o‘sha kuni yomonliklardan saqlasang, albatta, unga rahm qilgansan. Mana shu ulkan yutuqdir».",
+
+10: "Albatta, kofir bo‘lganlarga nido qilinadi: «ALLAHning sizlarga bo‘lgan nafrati o‘zingizga bo‘lgan nafratingizdan kattaroqdir. Chunki sizlar iymonga chaqirilganingizda kofir bo‘ldingizlar».",
+
+11: "Ular aytadilar: «Ey Robbimiz! Bizni ikki marta o‘ldirding va ikki marta tiriltirding. Bas, biz gunohlarimizni tan oldik. Endi chiqish yo‘li bormi?»",
+
+12: "«Bu shunday bo‘ldi: qachonki yolg‘iz ALLAHga duo qilinganida, sizlar inkor qildingizlar. Agar Unga shirk keltirilsa, iymon keltirardingizlar. Bas, hukm Oliy va Buyuk ALLAHnikidir».",
+
+13: "U sizlarga O‘z oyatlarini ko‘rsatadi va sizlar uchun osmondan rizq tushiradi. Faqat qaytuvchi kishi eslatma oladi.",
+
+14: "Bas, kofirlar yomon ko‘rsalar ham, dinni Unga xolis qilgan holda ALLAHga duo qilinglar.",
+
+15: "U darajalarni ko‘taruvchi, Arsh egasidir. U O‘z amridan xohlagan bandasiga Ruhni yuboradi, toki u uchrashuv kuni haqida ogohlantirsin.",
+
+16: "U kuni ular oshkor bo‘ladilar. Ulardan hech narsa ALLAHga yashirin qolmaydi. Bugun mulk kimniki? Yagona va Qahhor bo‘lgan ALLAHnikidir.",
+
+17: "Bugun har bir jon qilganiga yarasha jazolanadi. Bugun zulm yo‘qdir. Albatta, ALLAH tez hisob qiluvchidir.",
+
+18: "Ularni yaqin kelayotgan kun bilan ogohlantirgin. O‘sha paytda qalblar bo‘g‘izlarga keladi va ular g‘amga to‘ladilar. Zolimlar uchun na yaqin do‘st va na itoat qilinadigan shafoatchi bor.",
+
+19: "U ko‘zlarning xiyonatini va ko‘kslar yashirgan narsalarni biladi.",
+
+20: "ALLAH Haq bilan hukm qiladi. Undan boshqa duo qilayotganlari esa hech narsa bilan hukm qila olmaydi. Albatta, ALLAH Eshituvchi va Ko‘ruvchidir.",
+
+21: "Ular yer yuzida yurib, o‘zlaridan oldingilarning oqibati qanday bo‘lganiga qaramadilarmi? Ular bulardan kuchliroq edilar va yer yuzida ko‘proq iz qoldirgan edilar. Bas, ularni gunohlari sababli ALLAH tutdi. Ularga ALLAHdan himoya qiluvchi bo‘lmadi.",
+
+22: "Bu shuning uchundirki, ularga Rasulchilar ochiq dalillar bilan kelgan edilar, ammo ular kofir bo‘ldilar. Bas, ALLAH ularni tutdi. Albatta, U Kuchli va azobi qattiq Zotdir.",
+
+23: "Darhaqiqat, Biz Musoni oyatlarimiz va aniq hujjat bilan yubordik.",
+
+24: "Fir’avn, Homon va Qorunga. Bas, ular: «Bu yolg‘onchi sehrgardir», dedilar.",
+
+25: "U ularga Bizning huzurimizdan Haqni keltirganida, ular: «U bilan birga iymon keltirganlarning o‘g‘illarini o‘ldiringlar, ayollarini tirik qoldiringlar», dedilar. Kofirlarning hiylasi faqat adashishdadir.",
+
+26: "Fir’avn dedi: «Meni qo‘yinglar, Musoni o‘ldiray. U Robbisiga duo qilsin. Men uning diningizni o‘zgartirishidan yoki yer yuzida buzg‘unchilik chiqarishidan qo‘rqaman».",
+
+27: "Muso dedi: «Men hisob kuniga iymon keltirmaydigan har bir kibrlanuvchidan Robbim va Robbingiz panohini so‘radim».",
+
+28: "Fir’avn oilasidan bo‘lgan, iymonini yashirgan bir mo‘min kishi dedi: «Robbim ALLAHdir, degan kishini o‘ldirasizlarmi? Holbuki, u sizlarga Robbingizdan aniq dalillar keltirdi. Agar u yolg‘onchi bo‘lsa, yolg‘oni o‘ziga bo‘ladi. Agar rostgo‘y bo‘lsa, sizlarga va’da qilgan narsalarning ba’zilari sizlarga yetadi. Albatta, ALLAH haddan oshuvchi va yolg‘onchi kishini hidoyat qilmaydi».",
+
+29: "«Ey qavmim! Bugun mulk sizniki, yer yuzida g‘olibsizlar. Agar bizga ALLAHning azobi kelsa, kim bizga yordam beradi?» Fir’avn dedi: «Men sizlarga faqat ko‘rganimni ko‘rsataman va sizlarni faqat to‘g‘ri yo‘lga boshlayman».",
+
+30: "Iymon keltirgan kishi dedi: «Ey qavmim! Men sizlar uchun oldingi guruhlarning kuni kabi bir kun kelishidan qo‘rqaman».",
+
+31: "«Nuh qavmi, Od, Samud va ulardan keyingilarning holiga o‘xshash kundan. ALLAH bandalariga zulm qilishni istamaydi».",
+
+32: "«Ey qavmim! Men sizlar uchun bir-biringizga nido qiladigan kundan qo‘rqaman».",
+
+33: "«U kuni orqaga qochadigan bo‘lasizlar. Sizlarni ALLAHdan himoya qiluvchi yo‘qdir. Kimni ALLAH adashtirsa, unga hidoyat qiluvchi yo‘qdir».",
+
+34: "Oldin Yusuf sizlarga aniq dalillar bilan kelgan edi. Ammo sizlar u keltirgan narsaga shubhada qolgan edingizlar. U vafot etgach: «ALLAH undan keyin hech qanday Rasul yubormaydi», dedingizlar. ALLAH haddan oshuvchi va shubha qiluvchi kishini shunday adashtiradi.",
+
+35: "ALLAHning oyatlari haqida o‘zlariga kelgan hujjatsiz tortishadiganlarning ko‘kslarida faqat kibr bor. Ular bunga erisha olmaydilar. Bas, ALLAHdan panoh so‘ra. Albatta, U Eshituvchi va Ko‘ruvchidir.",
+
+36: "Fir’avn dedi: «Ey Homon! Men uchun baland bir bino qur, balki yo‘llarga yetarman».",
+
+37: "«Osmonlarning yo‘llariga. Musoning ilohini ko‘ray. Men uni yolg‘onchi deb o‘ylayman». Shunday qilib, Fir’avnga o‘zining yomon amali chiroyli ko‘rsatildi va u yo‘ldan to‘sildi. Fir’avnning hiylasi faqat halokatdadir.",
+
+38: "Iymon keltirgan kishi dedi: «Ey qavmim! Menga ergashinglar, men sizlarni to‘g‘ri yo‘lga boshlayman».",
+
+39: "«Ey qavmim! Bu dunyo hayoti faqat vaqtinchalik foydalanishdir. Albatta, oxirat doimiy turar joydir».",
+
+40: "«Kim bir yomonlik qilsa, faqat shunga teng jazo oladi. Kim erkak yoki ayol bo‘lib mo‘min holda yaxshi amal qilsa, ana o‘shalar jannatga kiradilar. U yerda ularga hisobsiz rizq beriladi».",
+
+41: "Ey qavmim! Nima uchun men sizlarni najotga chaqirayotgan bo‘lsam, sizlar meni olovga chaqiryapsizlar?",
+
+42: "Sizlar meni ALLAHga kufr keltirishga va men bilmagan narsalarni Unga sherik qilishga chaqiryapsizlar. Men esa sizlarni Aziz va Mag‘firat qiluvchiga chaqiraman.",
+
+43: "Shubhasiz, sizlar meni chaqirayotgan narsalaringiz bu dunyoda ham, oxiratda ham duo qilishga loyiq emasdir. Albatta, qaytishimiz ALLAH huzuriga bo‘ladi. Albatta, haddan oshuvchilar do‘zax ahlidir.",
+
+44: "Sizlarga aytayotgan narsalarimni tez orada eslaysizlar. Men o‘z ishimni ALLAHga topshiraman. Albatta, ALLAH bandalarni Ko‘ruvchidir.",
+
+45: "Bas, ALLAH uni ularning yomon hiylalaridan saqladi. Fir’avn oilasini esa yomon azob o‘rab oldi.",
+
+46: "Ular ertayu kech olovga ro‘baro‘ qilinadilar. Qiyomat kuni kelganida: «Fir’avn oilasini eng qattiq azobga kiritinglar», deyiladi.",
+
+47: "Ular do‘zaxda bir-birlari bilan tortishayotganlarida, zaiflar kibr qilganlarga: «Biz sizlarga ergashgan edik. Endi bizdan olovning bir qismini olib tashlay olasizlarmi?» deydilar.",
+
+48: "Kibr qilganlar: «Biz hammamiz undamiz. Albatta, ALLAH bandalar orasida hukm qilib bo‘ldi», deydilar.",
+
+49: "Olovdagilar jahannam qo‘riqchilariga: «Robbingizga duo qilinglar, bizdan bir kunlik azobni yengillashtirsin», deydilar.",
+
+50: "Ular: «Sizlarga Rasulchilaringiz aniq dalillar bilan kelmaganmidilar?» deydilar. Ular: «Ha», deydilar. Ular: «Bas, duo qilinglar», deydilar. Kofirlarning duosi faqat adashishdadir.",
+
+51: "Albatta, Biz Rasulchilarimizga va iymon keltirganlarga dunyo hayotida ham, guvohlar turadigan kunda ham yordam beramiz.",
+
+52: "U kuni zolimlarga uzrlari foyda bermaydi. Ular uchun la’nat bordir va ular uchun yomon joy bordir.",
+
+53: "Darhaqiqat, Biz Musoga hidoyat berdik va Bani Isroilga Kitobni meros qildik.",
+
+54: "Aql egalari uchun hidoyat va eslatma qilib.",
+
+55: "Bas, sabr qilgin. Albatta, ALLAHning va’dasi haqdir. Gunohing uchun mag‘firat so‘ra va kechayu kunduz Robbingga hamd bilan tasbeh ayt.",
+
+56: "Albatta, ALLAHning oyatlari haqida o‘zlariga kelgan aniq dalilsiz tortishadiganlarning ko‘kslarida faqat yetolmaydigan kibr bor. Bas, ALLAHdan panoh so‘ra. Albatta, U Eshituvchi va Ko‘ruvchidir.",
+
+57: "Osmonlaru yerning yaratilishi insonlarning yaratilishidan buyukroqdir. Lekin odamlarning ko‘pchiligi bilmaydilar.",
+
+58: "Ko‘r bilan ko‘ruvchi teng emas. Iymon keltirgan va yaxshi amal qilganlar bilan yomonlik qiluvchilar ham teng emas. Juda oz eslatma olasizlar.",
+
+59: "Albatta, Soat keluvchidir. Bunda shubha yo‘qdir. Lekin odamlarning ko‘pchiligi iymon keltirmaydilar.",
+
+60: "Robbingiz dedi: «Menga duo qilinglar, sizlarga javob beraman. Menga ibodat qilishdan kibrlanganlar xorlangan holda jahannamga kiradilar».",
+    
+61: "ALLAH sizlar uchun kechani unda orom olishingiz, kunduzni esa ko‘rishingiz uchun yaratgan Zotdir. Albatta, ALLAH insonlarga fazl egasidir. Lekin odamlarning ko‘pchiligi shukr qilmaydilar.",
+
+62: "Mana shu sizlarning Robbingiz ALLAHdir. U har narsaning Yaratuvchisidir. Undan boshqa iloh yo‘qdir. Bas, qayerga burilib ketmoqdasizlar?",
+
+63: "ALLAHning oyatlarini inkor qiladiganlar shunday burilib ketadilar.",
+
+64: "ALLAH sizlar uchun yerni qarorgoh, osmonni bino qildi. Sizlarga shakl berdi va shakllaringizni go‘zal qildi. Sizlarga pok narsalardan rizq berdi. Mana shu sizlarning Robbingiz ALLAHdir. Olamlarning Robbisi bo‘lgan ALLAH barakotlidir.",
+
+65: "U tirik Zotdir. Undan boshqa iloh yo‘qdir. Bas, dinni Unga xolis qilgan holda Unga duo qilinglar. Hamd olamlarning Robbisi ALLAHgadir.",
+
+66: "Ayting: «Menga Robbimdan aniq dalillar kelganida, sizlar ALLAHni qo‘yib duo qilayotgan narsalaringizga ibodat qilishdan qaytarildim va olamlarning Robbiga taslim bo‘lishga buyurildim».",
+
+67: "U sizlarni tuproqdan, so‘ng tomchidan, so‘ng laxtalangan qondan yaratgan Zotdir. So‘ngra sizlarni go‘dak qilib chiqaradi, keyin kuch-quvvatga yetkazadi, so‘ngra qari bo‘lasizlar. Sizlardan ba’zilaringiz bundan oldin vafot etadi. Va belgilangan muddatga yetishingiz uchun. Shoyad aql yurgizsangizlar.",
+
+68: "U tiriltiradigan va o‘ldiradigan Zotdir. Biror ishni hukm qilsa, unga faqat: «Bo‘l», deydi, bas u bo‘ladi.",
+
+69: "ALLAHning oyatlari haqida tortishadiganlarni ko‘rmadingmi? Qanday qilib ular burilib ketmoqdalar?",
+
+70: "Ular Kitobni va Biz Rasulchilarimiz bilan yuborgan narsalarimizni yolg‘on qilganlardir. Tez orada bilib oladilar.",
+
+71: "Bo‘yinlarida kishanlar va zanjirlar bo‘lgan holda sudraladilar.",
+
+72: "Qaynoq suvda, so‘ngra olovda kuydiriladilar.",
+
+73: "So‘ngra ularga: «Qayerda shirk qilgan narsalaringiz?» deyiladi.",
+
+74: "«ALLAHni qo‘yib (ibodat qilgan narsalaringizni)». Ular: «Ular bizdan yo‘qoldilar. Yo‘q, biz oldin hech narsaga duo qilmagan ekanmiz», deydilar. Shunday qilib, ALLAH kofirlarni adashtiradi.",
+
+75: "«Bu yer yuzida nohaq xursand bo‘lganingiz va kibrlanganingiz sababli bo‘ldi».",
+
+76: "Jahannam eshiklaridan kiringlar, unda abadiy qolinglar. Kibr qiluvchilarning joyi naqadar yomon!",
+
+77: "Bas, sabr qilgin. Albatta, ALLAHning va’dasi haqdir. Biz ularga va’da qilgan narsalarimizning ba’zisini senga ko‘rsatsak ham yoki seni vafot ettirsak ham, ular Bizning huzurimizga qaytariladilar.",
+
+78: "Darhaqiqat, Biz sendan oldin ham Rasulchilar yubordik. Ulardan ba’zilarining qissalarini senga aytdik, ba’zilarini esa aytmadik. Hech bir Rasul ALLAHning iznisiz biror oyat keltira olmaydi. ALLAHning amri kelganida, Haq bilan hukm qilinadi va o‘sha paytda botil tarafdorlari ziyon ko‘radilar.",
+
+79: "ALLAH sizlar uchun chorvalarni yaratgan Zotdir. Ulardan ba’zilariga minishingiz va ba’zilaridan yeyishingiz uchun.",
+
+80: "Sizlar uchun ularda boshqa manfaatlar ham bor. Ularning ustida ko‘kslaringizdagi ehtiyojlarga yetasizlar. Ular ustida va kemalarda tashilursizlar.",
+
+81: "U sizlarga O‘z oyatlarini ko‘rsatadi. Bas, ALLAHning qaysi oyatlarini inkor qilasizlar?",
+
+82: "Ular yer yuzida yurib, o‘zlaridan oldingilarning oqibati qanday bo‘lganiga qaramadilarmi? Ular bulardan ko‘proq va kuchliroq edilar. Yerda qoldirgan izlari ham ko‘proq edi. Ammo topgan narsalari ularga foyda bermadi.",
+
+83: "Ularga Rasulchilari aniq dalillar bilan kelganlarida, o‘zlaridagi ilm bilan xursand bo‘ldilar. Va ularni masxara qilgan narsalari o‘rab oldi.",
+
+84: "Bas, Bizning azobimizni ko‘rganlarida: «Yolg‘iz ALLAHga iymon keltirdik va Unga shirk keltirgan narsalarimizni inkor qildik», dedilar.",
+
+85: "Lekin Bizning azobimizni ko‘rganlaridan keyingi iymonlari ularga foyda bermadi. Bu ALLAHning bandalari orasida o‘tgan sunnatidir. Ana o‘sha yerda kofirlar ziyon ko‘rdilar.",
+},
+41: {
+1: "Ha Mim.",
+
+2: "Bu Rahmon va Rahmlidan nozil qilingandir.",
+
+3: "Bu oyatlari bayon qilingan arabiy Qur’ondir, biladigan qavm uchun.",
+
+4: "U xushxabar beruvchi va ogohlantiruvchidir. Ammo ularning ko‘pchiligi yuz o‘girdilar. Bas, ular eshitmaydilar.",
+
+5: "Ular: «Qalblarimiz sen bizni chaqirayotgan narsangdan to‘siqdadir, quloqlarimizda og‘irlik bor va biz bilan sening orangda parda bor. Bas, amal qilaver, biz ham amal qiluvchilarmiz», dedilar.",
+
+6: "Ayting: «Men ham sizlar kabi insonman. Menga ilohingiz yagona iloh ekani vahiy qilinadi. Bas, Unga to‘g‘ri yuzlaninglar va Undan mag‘firat so‘ranglar. Mushriklarga voy bo‘lsin».",
+
+7: "Ular zakotni bermaydilar va oxiratni inkor qiluvchilardir.",
+
+8: "Albatta, iymon keltirgan va yaxshi amallar qilganlar uchun tugamaydigan mukofot bordir.",
+
+9: "Ayting: «Sizlar yerni ikki kunda yaratgan Zotga kufr keltirib, Unga tengdoshlar qilasizlarmi? U olamlarning Robbidir».",
+
+10: "U unda ustidan tog‘lar o‘rnatdi, unga baraka berdi va unda oziqlarini to‘rt kunda belgiladi — so‘raguvchilar uchun tengdir.",
+
+11: "So‘ngra U tutun holatidagi osmonga yuzlandi va unga hamda yerga: «Ixtiyor bilan yoki majburan kelinglar», dedi. Ular: «Ixtiyor bilan keldik», dedilar.",
+
+12: "Bas, U ularni ikki kunda yetti osmon qilib tugatdi va har bir osmonga uning ishini vahiy qildi. Biz yaqin osmonni chiroqlar bilan bezadik va uni himoya qildik. Bu Aziz va Biluvchi Zotning taqdiridir.",
+
+13: "Agar ular yuz o‘girsalar, ayt: «Men sizlarni Od va Samudga kelgan chaqmoq kabi bir chaqmoqdan ogohlantirdim».",
+
+14: "Ularga oldilaridan ham, ortlaridan ham Rasulchilar kelgan edilar: «Faqat ALLAHga ibodat qilinglar», degan edilar. Ular: «Agar Robbimiz xohlaganida, albatta, malaikalarni tushirgan bo‘lardi. Biz sizlar keltirgan narsaga kofirmiz», dedilar.",
+
+15: "Od qavmi yer yuzida nohaq kibrlanib: «Bizdan kuchliroq kim bor?» dedilar. Ular o‘zlarini yaratgan ALLAH ulardan kuchliroq ekanini ko‘rmaydilarmi? Ular Bizning oyatlarimizni inkor qilar edilar.",
+
+16: "Bas, Biz ularga dunyo hayotida xorlik azobini tottirish uchun baxtsiz kunlarda sovuq shamol yubordik. Oxirat azobi esa yanada xor qiluvchidir. Ularga yordam berilmaydi.",
+
+17: "Samudga kelsak, Biz ularga hidoyat qildik, ammo ular ko‘rlikni hidoyatdan afzal ko‘rdilar. Bas, qilgan ishlari sababli xor qiluvchi azob chaqmog‘i ularni tutdi.",
+
+18: "Biz iymon keltirgan va taqvo qilganlarni najot qildik.",
+
+19: "ALLAHning dushmanlari do‘zaxga jamlanadigan kuni ular guruh-guruh qilib haydaladilar.",
+
+20: "Nihoyat, unga yetganlarida, ularning quloqlari, ko‘zlari va terilari qilgan ishlari haqida ularga guvohlik beradi.",
+ 
+21: "Ular terilariga: «Nega bizga qarshi guvohlik berdingizlar?» deydilar. Ular aytadilar: «Bizni har narsani gapirtirgan ALLAH gapirtirdi. U sizlarni birinchi marta yaratdi va sizlar Uning huzuriga qaytarilasizlar».",
+
+22: "Sizlar quloqlaringiz, ko‘zlaringiz va terilaringiz sizlarga qarshi guvohlik berishidan yashirina olmas edingizlar. Lekin sizlar ALLAH qilayotgan ishlaringizning ko‘pini bilmaydi deb o‘ylardingizlar.",
+
+23: "Mana shu Robbingiz haqidagi gumoningiz sizlarni halokatga olib keldi. Bas, ziyon ko‘ruvchilardan bo‘ldingizlar.",
+
+24: "Agar ular sabr qilsalar ham, ularning joylari olovdir. Agar ular rozi bo‘lishni istasalar ham, ular rozi qilinmaydilar.",
+
+25: "Biz ularga yaqin do‘stlarni tayin qildik. Bas, ular oldilaridagi va ortlaridagi narsalarni ularga chiroyli ko‘rsatdilar. Ularga ham, ulardan oldin o‘tgan jin va insonlardan bo‘lgan ummatlarga ham so‘z haq bo‘ldi. Albatta, ular ziyon ko‘ruvchilardir.",
+
+26: "Kofir bo‘lganlar: «Bu Qur’onni tinglamanglar va u o‘qilayotganda shovqin qilinglar. Shoyad g‘olib bo‘lsangizlar», dedilar.",
+
+27: "Bas, Biz kofir bo‘lganlarga albatta qattiq azobni tottiramiz va ularni qilgan eng yomon ishlari bilan jazolaymiz.",
+
+28: "Bu ALLAHning dushmanlari jazosi bo‘lgan jahannamdir. Ular uchun unda abadiy qolish joyi bordir. Bu Bizning oyatlarimizni inkor qilganlari uchun jazodir.",
+
+29: "Kofir bo‘lganlar jahannamda: «Ey Robbimiz! Bizni adashtirgan jin va insonlardan bo‘lganlarni bizga ko‘rsatgin, ularni oyoqlarimiz ostiga tashlaylik, toki ular eng pastlardan bo‘lsinlar», deydilar.",
+
+30: "Albatta, «Robbimiz ALLAHdir», degan, so‘ngra to‘g‘ri bo‘lganlarga malaikalar tushib: «Qo‘rqmanglar va g‘amgin bo‘lmanglar. Sizlarga va’da qilingan jannat bilan xursand bo‘linglar», deydilar.",
+
+31: "«Biz dunyo hayotida ham, oxiratda ham sizlarning do‘stlaringizmiz. Sizlar uchun u yerda ko‘ngillaringiz istagan narsa bordir va sizlar uchun so‘ragan narsangiz bordir».",
+
+32: "«Mag‘firat qiluvchi va Rahmli Zot tomonidan mehmondorchilik sifatida».",
+
+33: "ALLAHga da’vat qilgan, yaxshi amal qilgan va: «Albatta, men musulmonlardanman», degan kishining so‘zidan ham chiroyliroq so‘z kimniki?",
+
+34: "Yaxshilik bilan yomonlik teng bo‘lmaydi. Yomonlikni eng go‘zal yo‘l bilan daf qilgin. Shunda sen bilan orasida dushmanlik bo‘lgan kishi go‘yo yaqin do‘st bo‘lib qoladi.",
+
+35: "Bunga faqat sabr qilganlar erishadilar. Bunga faqat ulkan nasibaga ega bo‘lganlar erishadilar.",
+
+36: "Agar shayton tomonidan bir vasvasa seni qo‘zg‘atsa, ALLAHdan panoh so‘ra. Albatta, U Eshituvchi va Biluvchidir.",
+
+37: "Uning oyatlaridan tun, kunduz, quyosh va oy bordir. Quyoshga ham, oyga ham sajda qilmanglar. Agar Unga ibodat qiluvchi bo‘lsangizlar, ularni yaratgan ALLAHga sajda qilinglar.",
+
+38: "Agar ular kibrlansalar, Robbing huzuridagi zotlar kechayu kunduz Unga tasbeh aytadilar va charchamaydilar.",
+
+39: "Uning oyatlaridan biri — sen yerning quruq holatda ekanini ko‘rasan. Bas, Biz unga suv tushirganimizda u harakatlanadi va ko‘tariladi. Albatta, uni tiriltirgan Zot o‘liklarni ham tiriltiruvchidir. U har narsaga Qodirdir.",
+
+40: "Bizning oyatlarimizni buzishga urinadiganlar Bizdan yashirin emaslar. Do‘zaxga tashlangan yaxshiroqmi yoki Qiyomat kuni omon kelgan kishi yaxshiroqmi? Xohlaganingizni qilinglar. Albatta, U qilayotgan ishlaringizni Ko‘ruvchidir.",
+   
+41: "Albatta, Zikr ularga kelganida uni inkor qilganlar (jazolanadilar). Holbuki, u ulug‘ Kitobdir.",
+
+42: "Unga oldidan ham, ortidan ham botil kela olmaydi. U Hikmat Egasi va Hamdga loyiq Zot tomonidan nozil qilingandir.",
+
+43: "Senga aytilayotgan narsa sendan oldingi Rasulchilarga aytilgan narsalardandir. Albatta, Robbing mag‘firat egasi va alamli azob egasidir.",
+
+44: "Agar Biz uni ajamiy Qur’on qilganimizda, ular: «Uning oyatlari batafsil bayon qilinishi kerak edi-ku! Ajamiy va arabiy (bo‘ladimi)?» der edilar. Ayting: «U iymon keltirganlar uchun hidoyat va shifodir. Iymon keltirmaydiganlarning quloqlarida og‘irlik bor va u ularga ko‘rlikdir. Ular uzoq joydan chaqirilayotgandekdirlar».",
+
+45: "Darhaqiqat, Biz Musoga Kitob berdik, ammo unda ham ixtilof qilindi. Agar Robbing tomonidan avvaldan aytilgan so‘z bo‘lmaganida edi, ular orasida hukm chiqarilgan bo‘lardi. Albatta, ular undan shubhali gumondadirlar.",
+
+46: "Kim yaxshi amal qilsa, o‘zi uchun qiladi. Kim yomonlik qilsa, o‘z zarariga qiladi. Robbing bandalariga zulm qiluvchi emasdir.",
+
+47: "Soat ilmi faqat Unga qaytariladi. Uning ilmisiz hech qanday meva qobig‘idan chiqmaydi, hech bir urg‘ochi homilador bo‘lmaydi va tug‘maydi. U kuni ularga: «Mening sheriklarim qayerda?» deb nido qiladi. Ular: «Biz Senga hech kim guvoh emasligini bildirdik», deydilar.",
+
+48: "Oldin duo qilgan narsalari ulardan yo‘qoladi va ular qochish joyi yo‘qligini biladilar.",
+
+49: "Inson yaxshilik so‘rashdan charchamaydi. Agar unga yomonlik yetsa, noumid va umidsiz bo‘lib qoladi.",
+
+50: "Agar unga yetgan zararidan keyin Biz undan rahmatni tottirsak, albatta: «Bu meniki, men bunga loyiqman. Men Soat keladi deb o‘ylamayman. Agar Robbim huzuriga qaytarilsam ham, albatta, Uning huzurida men uchun yaxshilik bordir», deydi. Biz kofir bo‘lganlarga qilgan ishlarini albatta xabar qilamiz va ularga qattiq azobdan tottiramiz.",
+
+51: "Insonga ne’mat berganimizda yuz o‘giradi va chetga ketadi. Unga yomonlik tegsa esa, uzoq duo qiluvchiga aylanadi.",
+
+52: "Ayting: «Agar u ALLAH huzuridan bo‘lsa, so‘ngra sizlar unga kofir bo‘lsangizlar, holingiz nima bo‘ladi? Unga qarshi uzoq qarshilikda bo‘lgan kishidan ham adashganroq kim bor?»",
+
+53: "Biz ularga ufqlarda va o‘zlarida oyatlarimizni ko‘rsatamiz, toki ularga uning Haq ekani ayon bo‘ladi. Robbing har narsaga guvoh ekani kifoya emasmi?",
+
+54: "Ogoh bo‘linglar! Ular Robbilariga uchrashish haqida shubhadadirlar. Ogoh bo‘linglar! Albatta, U har narsani qamrab oluvchidir.",
+},
+42: {
+1: "Ha Mim.",
+
+2: "Ayn Sin Qof.",
+
+3: "Shunday qilib, Aziz va Hikmat Egasi bo‘lgan ALLAH sendan oldingilarga va senga vahiy qiladi.",
+
+4: "Osmonlaru yerdagi narsalar Unikidir. U Oliy va Buyuk Zotdir.",
+
+5: "Osmonlar deyarli ularning ustidan yorilib ketadi. Malaikalar Robbilariga hamd bilan tasbeh aytadilar va yer yuzidagilar uchun mag‘firat so‘raydilar. Ogoh bo‘linglar! Albatta, ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+6: "Undan boshqa do‘stlar tutganlar ustidan ALLAH kuzatuvchidir. Sen ular ustidan vakil emassan.",
+
+7: "Shunday qilib, Biz senga arabiy Qur’onni vahiy qildik, toki sen shaharlar onasini va uning atrofidagilarni ogohlantirgin hamda shubhasiz keladigan jamlanish kunidan ogohlantirgin. Bir guruh jannatda, bir guruh esa alangali olovdadir.",
+
+8: "Agar ALLAH xohlaganida, ularni bitta ummat qilgan bo‘lardi. Lekin U xohlagan kishisini rahmatiga kiritadi. Zolimlar uchun na do‘st va na yordamchi bor.",
+
+9: "Yoki ular Undan boshqa do‘stlar tutdilarmi? Holbuki, do‘st faqat ALLAHdir. U o‘liklarni tiriltiradi va U har narsaga Qodirdir.",
+
+10: "Sizlar ixtilof qilgan narsalaringizning hukmi ALLAHga tegishlidir. Mana shu mening Robbim ALLAHdir. Men Unga tavakkul qildim va Unga qaytaman.",
+
+11: "U osmonlaru yerning Yaratuvchisidir. U sizlar uchun o‘zlaringizdan juftlar va chorvalardan ham juftlar yaratdi. U sizlarni shu yo‘l bilan ko‘paytiradi. Unga o‘xshash hech narsa yo‘qdir. U Eshituvchi va Ko‘ruvchidir.",
+
+12: "Osmonlaru yer xazinalari Unikidir. U xohlagan kishisiga rizqni kengaytiradi va toraytiradi. Albatta, U har narsani Biluvchidir.",
+
+13: "U sizlarga dindan Nuhga buyurgan narsasini, senga vahiy qilganimizni va Ibrohim, Muso hamda Isoga buyurgan narsamizni shariat qildi: «Dinni barpo qilinglar va unda bo‘linmanglar». Mushriklarga sen ularni chaqirayotgan narsa og‘ir keldi. ALLAH xohlagan kishisini O‘ziga tanlaydi va O‘ziga qaytuvchini hidoyat qiladi.",
+
+14: "Ular faqat o‘zlariga ilm kelganidan keyin, o‘zaro hasad sababli bo‘lindilar. Agar Robbingdan belgilangan muddatgacha bo‘lgan so‘z bo‘lmaganida edi, ular orasida hukm chiqarilgan bo‘lardi. Ulardan keyin Kitobga merosxo‘r qilinganlar ham undan shubhali gumondadirlar.",
+
+15: "Bas, shuning uchun da’vat qilgin va buyurilganingdek to‘g‘ri bo‘lgin. Ularning havoyi nafslariga ergashma va ayt: «Men ALLAH nozil qilgan Kitobga iymon keltirdim. Men sizlarning orangizda adolat qilishga buyurildim. ALLAH bizning ham, sizlarning ham Robbingizdir. Bizning amallarimiz bizga, sizlarning amallaringiz sizlarga. Biz bilan sizlarning orangizda tortishuv yo‘qdir. ALLAH barchamizni jamlaydi va qaytish Uning huzuriga bo‘ladi».",
+
+16: "ALLAH haqida qabul qilinganidan keyin tortishadiganlarning hujjati Robbilari huzurida botildir. Ularga g‘azab bordir va ular uchun qattiq azob bordir.",
+
+17: "ALLAH Haq bilan Kitobni va mezonni nozil qilgan Zotdir. Sen qayerdan bilarding, balki Soat yaqin bo‘lgandir.",
+
+18: "Unga ishonmaydiganlar uni tezlashtirishni xohlaydilar. Iymon keltirganlar esa undan qo‘rqadilar va uning Haq ekanini biladilar. Ogoh bo‘linglar! Soat haqida tortishadiganlar uzoq adashishdadirlar.",
+
+19: "ALLAH bandalariga mehribondir. U xohlagan kishisiga rizq beradi. U Kuchli va Azizdir.",
+
+20: "Kim oxirat hosilini istasa, Biz unga hosilini ziyoda qilamiz. Kim dunyo hosilini istasa, unga undan beramiz, lekin oxiratda uning nasibasi bo‘lmaydi.",
+    
+21: "Yoki ularning ALLAH ruxsat bermagan narsani din qilib qo‘ygan sheriklari bormi? Agar ajratish haqidagi so‘z bo‘lmaganida edi, ular orasida hukm chiqarilgan bo‘lardi. Albatta, zolimlar uchun alamli azob bordir.",
+
+22: "Zolimlarni qilgan ishlari sababli qo‘rqib turganlarini ko‘rasan. U (azob) ularga albatta yetadi. Iymon keltirgan va yaxshi amallar qilganlar esa jannat bog‘laridadirlar. Ular uchun Robbilari huzurida xohlagan narsalari bordir. Mana shu ulkan fazldir.",
+
+23: "Mana shu ALLAH iymon keltirgan va yaxshi amallar qilgan bandalariga xushxabar beradigan narsadir. Ayting: «Men buning uchun sizlardan qarindoshlikdagi muhabbatni istamayman». Kim yaxshilik qilsa, Biz unga unda yaxshilikni ziyoda qilamiz. Albatta, ALLAH Mag‘firat qiluvchi va shukrni qadrlovchidir.",
+
+24: "Yoki ular: «U ALLAHga yolg‘on to‘qidi», deydilarmi? Agar ALLAH xohlasa, qalbingni muhrlab qo‘yar edi. ALLAH botilni o‘chiradi va O‘z so‘zlari bilan Haqni qaror toptiradi. Albatta, U ko‘kslardagi narsalarni Biluvchidir.",
+
+25: "U bandalaridan tavbani qabul qiladigan, yomonliklarni kechiradigan va qilayotgan ishlaringizni biladigan Zotdir.",
+
+26: "U iymon keltirgan va yaxshi amallar qilganlarning duosini qabul qiladi hamda ularga O‘z fazlidan ziyoda beradi. Kofirlar uchun esa qattiq azob bordir.",
+
+27: "Agar ALLAH bandalariga rizqni keng qilib yuborganida edi, ular yer yuzida haddan oshgan bo‘lardilar. Lekin U xohlagan miqdorda tushiradi. Albatta, U bandalaridan Xabardor va Ko‘ruvchidir.",
+
+28: "Ular umidsizlikka tushganlaridan keyin yomg‘irni tushiradigan va O‘z rahmatini yoyadigan Zotdir. U Hamdga loyiq Do‘stdir.",
+
+29: "Osmonlaru yerning yaratilishi va ularda tarqatgan jonivorlar Uning oyatlaridandir. U xohlaganida ularni jamlashga Qodirdir.",
+
+30: "Sizlarga yetgan har qanday musibat o‘z qo‘llaringiz bilan qilgan narsalaringiz sababli bo‘ladi. U ko‘pini afv etadi.",
+
+31: "Sizlar yer yuzida Uni ojiz qila olmaysizlar. Sizlarga ALLAHdan boshqa na do‘st va na yordamchi bor.",
+
+32: "Dengizda tog‘lardek suzib yuruvchi kemalar ham Uning oyatlaridandir.",
+
+33: "Agar U xohlasa, shamolni to‘xtatib qo‘yadi, bas ular dengiz yuzida harakatsiz qoladilar. Albatta, bunda har bir sabrli va shukr qiluvchi uchun oyatlar bordir.",
+
+34: "Yoki ularni qilgan ishlari sababli halok qiladi. Ko‘pini esa afv etadi.",
+
+35: "Bizning oyatlarimiz haqida tortishadiganlar bilsinlarki, ular uchun qochadigan joy yo‘qdir.",
+
+36: "Sizlarga berilgan narsa faqat dunyo hayotining matoidir. ALLAH huzuridagi narsa esa iymon keltirgan va Robbilariga tavakkul qiladiganlar uchun yaxshiroq va boqiyroqdir.",
+
+37: "Ular katta gunohlardan va fahsh ishlardan chetlanadilar. G‘azablanganlarida esa kechiradilar.",
+
+38: "Ular Robbilariga javob berganlar, namozni ado qilganlar va ishlari o‘zaro maslahat bilan bo‘lganlardir. Biz ularga bergan narsalarimizdan sarflaydilar.",
+
+39: "Ularga zulm yetganda, ular o‘zlarini himoya qiladilar.",
+
+40: "Yomonlikning jazosi unga teng yomonlikdir. Kim afv etsa va isloh qilsa, uning mukofoti ALLAH zimmasidadir. Albatta, U zolimlarni sevmaydi.",
+
+41: "Kim zulm ko‘rganidan keyin o‘zini himoya qilsa, ana o‘shalarga qarshi yo‘l yo‘qdir.",
+
+42: "Yo‘l faqat odamlarga zulm qiladigan va yer yuzida nohaq tajovuz qiladiganlar uchundir. Ana o‘shalar uchun alamli azob bordir.",
+
+43: "Kim sabr qilsa va kechirsa, albatta, bu azm talab qilinadigan ishlardandir.",
+
+44: "Kimni ALLAH adashtirsa, undan keyin unga hech qanday do‘st yo‘qdir. Zolimlarni azobni ko‘rganlarida: «Qaytish yo‘li bormi?» deganlarini ko‘rasan.",
+
+45: "Ular xorlangan holda olovga ro‘baro‘ qilinganlarida, ko‘z qiri bilan qaraydilar. Iymon keltirganlar: «Albatta, ziyon ko‘ruvchilar Qiyomat kuni o‘zlarini va oilalarini ziyon qilganlardir», deydilar. Ogoh bo‘linglar! Zolimlar doimiy azobdadirlar.",
+
+46: "Ular uchun ALLAHdan boshqa yordam beruvchi do‘stlar yo‘qdir. Kimni ALLAH adashtirsa, unga hech qanday yo‘l yo‘qdir.",
+
+47: "Robbingizga javob beringlar, ALLAH tomonidan qaytarib bo‘lmaydigan kun kelishidan oldin. U kuni sizlar uchun boshpana yo‘qdir va inkor qilish uchun imkon ham yo‘qdir.",
+
+48: "Agar ular yuz o‘girsalar, Biz seni ularga qo‘riqchi qilib yubormadik. Sening zimmangda faqat yetkazish bor. Albatta, Biz insonga O‘z rahmatimizdan tottirsak, u bundan xursand bo‘ladi. Agar qo‘llari bilan qilganlari sababli ularga yomonlik yetsa, albatta, inson noshukr bo‘ladi.",
+
+49: "Osmonlaru yer mulki ALLAHnikidir. U xohlagan narsasini yaratadi. U xohlagan kishisiga qiz farzandlar beradi va xohlagan kishisiga o‘g‘il farzandlar beradi.",
+
+50: "Yoki ularga o‘g‘il va qizlarni juft qilib beradi. Xohlagan kishisini esa befarzand qiladi. Albatta, U Biluvchi va Qodirdir.",
+
+51: "Biror inson uchun ALLAH unga vahiy qilishi yoki parda ortidan gapirishi yoki bir Rasul yuborib, Uning izni bilan xohlagan narsasini vahiy qilishi mumkin. Albatta, U Oliy va Hikmat Egasi.",
+
+52: "Shunday qilib, Biz senga O‘z amrimizdan Ruhni vahiy qildik. Sen Kitob nima ekanini va iymon nima ekanini bilmas eding. Lekin Biz uni bandalarimizdan xohlagan kishimizni hidoyat qiladigan nur qildik. Albatta, sen to‘g‘ri yo‘lga hidoyat qilasan.",
+
+53: "Osmonlaru yerdagi narsalar Uniki bo‘lgan ALLAHning yo‘liga. Ogoh bo‘linglar! Barcha ishlar ALLAHga qaytadi.",
+},
+43: {
+1: "Ha Mim.",
+
+2: "Ochiq Kitob bilan qasam.",
+
+3: "Albatta, Biz uni arabiy Qur’on qilib nozil qildik, shoyad aql yurgizsangizlar.",
+
+4: "Albatta, u Bizning huzurimizdagi Asl Kitobda yuksak va hikmatga to‘ladir.",
+
+5: "Sizlar haddan oshuvchi qavm bo‘lganingiz uchun Zikrni sizlardan burib qo‘yamizmi?",
+
+6: "Biz avvalgilar orasida ham qancha payg‘ambarlar yubordik.",
+
+7: "Ularga biror payg‘ambar kelmasin, uni masxara qilgan edilar.",
+
+8: "Bas, Biz ulardan kuchliroq bo‘lganlarni halok qildik. Avvalgilar haqida misollar o‘tdi.",
+
+9: "Agar ulardan: «Osmonlaru yerni kim yaratdi?» deb so‘rasang, albatta: «Ularni Aziz va Biluvchi Zot yaratgan», deydilar.",
+
+10: "U sizlar uchun yerni beshik qilib qo‘ydi va unda yo‘llar yaratdi, shoyad yo‘l topsangizlar.",
+
+11: "U osmondan o‘lchov bilan suv tushirdi va u bilan o‘lik yerni tiriltirdi. Sizlar ham shunday chiqarilursizlar.",
+
+12: "U barcha juftlarni yaratdi va sizlar uchun kemalar hamda chorvalardan minadigan narsalar yaratdi.",
+
+13: "Toki ularning ustiga joylashganingizda Robbingizning ne’matini eslab: «Buni bizga bo‘ysundirgan Zot pokdir. Biz bunga qodir emas edik», desangizlar.",
+
+14: "«Albatta, biz Robbimizga qaytuvchilarmiz».",
+
+15: "Ular Uning bandalaridan bir qismini Uning uchun bo‘lak qildilar. Albatta, inson ochiq noshukrdir.",
+
+16: "Yoki U yaratgan narsalaridan O‘ziga qizlarni tanlab oldimi va sizlarni o‘g‘illar bilan ajratdimi?",
+
+17: "Ulardan biriga Rahmonga misol qilgan narsasi (qiz farzand) bilan xushxabar berilsa, yuzi qorayib, g‘amga to‘ladi.",
+
+18: "«Ziynat ichida o‘stiriladigan va tortishuvda ochiq gapira olmaydigan (qiz)nimi?»",
+
+19: "Ular Rahmonning bandalari bo‘lgan malaikalarni ayol deb hisobladilar. Ularning yaratilishiga guvoh bo‘lganmilar? Ularning guvohliklari yoziladi va so‘raladilar.",
+
+20: "Ular: «Agar Rahmon xohlaganida, biz ularga ibodat qilmagan bo‘lardik», dedilar. Ularning bunga hech qanday ilmi yo‘q. Ular faqat gumon qilmoqdalar.",
+
+21: "Yoki Biz ularga bundan oldin biror Kitob berdikmi-yu, ular unga mahkam yopishib oldilarmi?",
+
+22: "Yo‘q, ular: «Biz ota-bobolarimizni bir yo‘lda topdik va biz ularning izidan hidoyat topganmiz», dedilar.",
+
+23: "Shunday qilib, Biz sendan oldin qaysi shaharga biror ogohlantiruvchi yubormaylik, uning farovonlari: «Biz ota-bobolarimizni bir yo‘lda topdik va biz ularning izidan yuruvchilarmiz», deganlar.",
+
+24: "U (ogohlantiruvchi): «Agar men sizlarga ota-bobolaringiz topgan yo‘ldan ko‘ra to‘g‘riroq yo‘l keltirgan bo‘lsam hammi?» dedi. Ular: «Biz sizlar bilan yuborilgan narsaga kofirmiz», dedilar.",
+
+25: "Bas, Biz ulardan intiqom oldik. Bas, yolg‘onchilarning oqibati qanday bo‘lganiga qaragin.",
+
+26: "Ibrohim otasiga va qavmiga: «Men sizlar ibodat qilayotgan narsalaringizdan pokman», deganida.",
+
+27: "«Faqat meni yaratgan Zot bundan mustasno. Albatta, U meni hidoyat qiladi».",
+
+28: "Va u bu so‘zni o‘zidan keyingi avlodlarida qoluvchi so‘z qildi, shoyad ular qaytsalar.",
+
+29: "Yo‘q, Men ularga va ota-bobolariga Haq va ochiq Rasul kelgunicha foydalanish berdim.",
+
+30: "Ularga Haq kelganida: «Bu sehrdir, biz unga kofirmiz», dedilar.",
+
+31: "Ular: «Nega bu Qur’on ikki shahardan birining ulug‘ kishisiga nozil qilinmadi?» dedilar.",
+
+32: "Robbingning rahmatini ular taqsimlaydilarmi? Dunyo hayotida ularning rizqlarini Biz taqsimladik va ba’zilarini ba’zilaridan darajalar bilan ustun qildik, toki ba’zilari ba’zilarini xizmat qildirsin. Robbingning rahmati esa ular to‘playotgan narsalaridan yaxshiroqdir.",
+
+33: "Agar odamlar bir ummat bo‘lib qolish xavfi bo‘lmaganida edi, Rahmonga kofir bo‘lganlarning uylariga kumushdan tomlar va ular chiqadigan zinapoyalar qilgan bo‘lardik.",
+
+34: "Ularning uylariga eshiklar va suyanadigan kursilar ham qilgan bo‘lardik.",
+
+35: "Va oltindan ham. Bular faqat dunyo hayotining matoidir. Oxirat esa Robbing huzurida taqvodorlar uchundir.",
+
+36: "Kim Rahmonning zikridan yuz o‘girsa, Biz unga bir shaytonni yaqin qilib qo‘yamiz, bas u unga hamroh bo‘ladi.",
+
+37: "Albatta, ular ularni yo‘ldan to‘sadilar, ular esa o‘zlarini hidoyat topgan deb o‘ylaydilar.",
+
+38: "Nihoyat, u Bizning huzurimizga kelganida: «Qani edi, men bilan sening orangda mashriq va mag‘rib orasicha masofa bo‘lganida edi. Sen qanday yomon hamroh ekansan», deydi.",
+
+39: "Bugun sizlarga zulm qilganingiz sababli pushaymonliklaringiz sizlarga foyda bermaydi. Albatta, sizlar azobda sheriksizlar.",
+
+40: "Sen karlarni eshittira olasanmi yoki ko‘rlarni va ochiq adashishda bo‘lganlarni hidoyat qila olasanmi?",
+
+41: "Agar Biz seni olib ketsak ham, albatta, ulardan intiqom olamiz.",
+
+42: "Yoki ularga va’da qilgan narsamizni senga ko‘rsatamiz. Albatta, Biz ularga qodirmiz.",
+
+43: "Bas, senga vahiy qilingan narsaga mahkam yopishgin. Albatta, sen to‘g‘ri yo‘ldasan.",
+
+44: "Albatta, u sen va qavming uchun bir eslatmadir. Tez orada so‘ralursizlar.",
+
+45: "Sendan oldin yuborgan Rasulchilarimizdan so‘ra: «Biz Rahmondan boshqa ibodat qilinadigan ilohlar qilganmizmi?»",
+
+46: "Darhaqiqat, Biz Musoni oyatlarimiz bilan Fir’avn va uning boshliqlariga yubordik. U dedi: «Albatta, men olamlarning Robbisining Rasuliman».",
+
+47: "U ularga oyatlarimizni keltirganida, ular birdaniga ulardan kuldilar.",
+
+48: "Biz ularga qaysi oyatni ko‘rsatmaylik, u avvalgisidan kattaroq edi. Ularni azob bilan tutdik, shoyad qaytsalar.",
+
+49: "Ular: «Ey sehrgar! Biz uchun Robbingga duo qil, sen bilan bergan ahdi sababli. Albatta, biz hidoyat topuvchilarmiz», dedilar.",
+
+50: "Ammo Biz ulardan azobni ketkazganimizda, ular ahdlarini buzardilar.",
+
+51: "Fir’avn o‘z qavmiga nido qilib dedi: «Ey qavmim! Misr mulki va ostimdan oqayotgan mana bu daryolar meniki emasmi? Nahotki ko‘rmayapsizlar?»",
+
+52: "«Men mana bu xor va deyarli gapira olmaydigan kishidan yaxshiroq emasmanmi?»",
+
+53: "«Unga oltin bilaguzuklar tashlanishi yoki u bilan birga malaikalar hamroh bo‘lib kelishi kerak emasmi edi?»",
+
+54: "Shunday qilib, u o‘z qavmini ahmoq qildi, bas ular unga itoat qildilar. Albatta, ular fosiq qavm edilar.",
+
+55: "Bas, ular Bizni g‘azablantirganlarida, Biz ulardan intiqom oldik va ularning barchasini g‘arq qildik.",
+
+56: "Bas, ularni keyingilar uchun o‘tgan misol va ibrat qildik.",
+
+57: "Maryam o‘g‘li misol qilib keltirilganida, sening qavming birdan shovqin ko‘tardilar.",
+
+58: "Ular: «Bizning ilohlarimiz yaxshimi yoki u (Iso)mi?» dedilar. Ular uni faqat tortishuv uchun keltirdilar. Haqiqatda ular tortishuvchan qavmdirlar.",
+
+59: "U faqat Biz ne’mat bergan bir bandadir. Va Biz uni Bani Isroilga ibrat qildik.",
+
+60: "Agar xohlasak, sizlarning o‘rningizga yerda o‘rinbosar bo‘ladigan malaikalarni yaratgan bo‘lardik.",
+    
+ 61: "Albatta, u (Iso) Soatning alomatidir. Bas, u haqida shubha qilmanglar va Menga ergashinglar. Bu to‘g‘ri yo‘ldir.",
+
+62: "Shayton sizlarni to‘smasin. Albatta, u sizlar uchun ochiq dushmandir.",
+
+63: "Iso aniq dalillar bilan kelganida dedi: «Men sizlarga hikmat keltirdim va sizlar ixtilof qilayotgan narsalaringizning ba’zisini bayon qilish uchun keldim. Bas, ALLAHdan qo‘rqinglar va menga itoat qilinglar».",
+
+64: "«Albatta, ALLAH mening ham Robbim, sizlarning ham Robbingizdir. Bas, Unga ibodat qilinglar. Bu to‘g‘ri yo‘ldir».",
+
+65: "So‘ngra guruhlar o‘zaro ixtilof qildilar. Bas, zolimlarga alamli kunning azobidan voy bo‘lsin.",
+
+66: "Ular faqat Soatning o‘zlari sezmagan holda to‘satdan kelishini kutmoqdalar.",
+
+67: "O‘sha kuni taqvodorlardan boshqa do‘stlar bir-birlariga dushmandirlar.",
+
+68: "Ey bandalarim! Bugun sizlarga qo‘rquv yo‘qdir va sizlar g‘amgin bo‘lmaysizlar.",
+
+69: "Ular Bizning oyatlarimizga iymon keltirgan va musulmon bo‘lgan kishilardir.",
+
+70: "«Sizlar va juftlaringiz xursand bo‘lgan holda jannatga kiringlar».",
+
+71: "Ularning ustilarida oltin laganlar va qadahlar aylantiriladi. U yerda ko‘ngillar istagan va ko‘zlar lazzatlanadigan narsalar bordir. Sizlar unda abadiy qoluvchisizlar.",
+
+72: "Mana shu sizlarga qilgan amallaringiz sababli meros qilib berilgan jannatdir.",
+
+73: "U yerda sizlar uchun ko‘p mevalar bor, ulardan yeysizlar.",
+
+74: "Albatta, jinoyatchilar jahannam azobida abadiy qoluvchilardir.",
+
+75: "Ulardan azob yengillashtirilmaydi va ular unda noumid holda qoladilar.",
+
+76: "Biz ularga zulm qilmadik, balki ular o‘zlari zolim edilar.",
+
+77: "Ular: «Ey Molik! Robbing bizni tugatsin», deb nido qiladilar. U: «Albatta, sizlar qoluvchisizlar», deydi.",
+
+78: "Darhaqiqat, Biz sizlarga Haqni keltirdik, lekin ko‘pchiligingiz Haqni yomon ko‘rdingizlar.",
+
+79: "Yoki ular bir ishni mahkam qildilarmi? Bas, Biz ham mahkam qiluvchilarmiz.",
+
+80: "Yoki ular Biz ularning sirlarini va yashirin suhbatlarini eshitmaymiz deb o‘ylaydilarmi? Ha, Bizning elchilarimiz ularning huzurlarida yozib turadilar.",
+
+81: "Ayting: «Agar Rahmonning farzandi bo‘lsa, men unga birinchi bo‘lib ibodat qiluvchi bo‘lardim».",
+
+82: "Osmonlaru yerning Robbisi, Arshning Robbisi — ular aytayotgan narsalardan pokdir.",
+
+83: "Bas, ularni tark etgin, ular va’da qilingan kunlariga duch kelgunlaricha behuda gaplarga sho‘ng‘ib o‘ynab yuraversinlar.",
+
+84: "U osmonlarda ham ilohdir, yerda ham ilohdir. U Hikmat Egasi va Biluvchidir.",
+
+85: "Osmonlaru yer va ular orasidagi narsalar mulki bo‘lgan Zot barakotlidir. Soat ilmi Uning huzuridadir va sizlar Uning huzuriga qaytarilasizlar.",
+
+86: "Undan boshqa duo qilayotganlari shafoatga ega emaslar. Faqat Haqqa guvohlik bergan va bilgan kishilargina bundan mustasnodir.",
+
+87: "Agar ulardan: «Ularni kim yaratdi?» deb so‘rasang, albatta: «ALLAH», deydilar. Bas, qanday qilib burilib ketmoqdalar?",
+
+88: "Va (Rasulning): «Ey Robbim! Albatta, bular iymon keltirmaydigan qavmdirlar», degan so‘ziga qasam.",
+
+89: "Bas, ulardan yuz o‘girgin va: «Salom», degin. Tez orada bilib oladilar.",
+},
+44: {
+1: "Ha Mim.",
+
+2: "Ochiq Kitob bilan qasam.",
+
+3: "Albatta, Biz uni muborak kechada nozil qildik. Albatta, Biz ogohlantiruvchilarmiz.",
+
+4: "Unda har bir hikmatli ish ajratib qo‘yiladi.",
+
+5: "Bizning huzurimizdan bo‘lgan buyruq bilan. Albatta, Biz yuboruvchilarmiz.",
+
+6: "Robbing tomonidan rahmat sifatida. Albatta, U Eshituvchi va Biluvchidir.",
+
+7: "Agar ishonuvchilar bo‘lsangizlar, osmonlaru yerning va ular orasidagi narsalarning Robbidir.",
+
+8: "Undan boshqa iloh yo‘q. U tiriltiradi va o‘ldiradi. U sizlarning ham, avvalgi ota-bobolaringizning ham Robbidir.",
+
+9: "Yo‘q, ular shubha ichida o‘ynab yurmoqdalar.",
+
+10: "Bas, osmon aniq bir tutun keltiradigan kunni kutgin.",
+
+11: "U odamlarni o‘rab oladi. Bu alamli azobdir.",
+
+12: "«Ey Robbimiz! Bizdan azobni ketkazgin. Albatta, biz iymon keltiruvchilarmiz».",
+
+13: "Ularga eslatma qayerdan bo‘lsin? Holbuki, ularga ochiq bayon qiluvchi Rasul kelgan edi.",
+
+14: "So‘ngra undan yuz o‘girdilar va: «O‘rgatilgan majnun», dedilar.",
+
+15: "Biz azobni ozgina vaqtga ketkazamiz. Albatta, sizlar yana qaytuvchisizlar.",
+
+16: "Eng katta zarba bilan ushlaydigan kunimizda, albatta, Biz intiqom oluvchilarmiz.",
+
+17: "Darhaqiqat, ulardan oldin Fir’avn qavmini sinadik. Ularga ulug‘ Rasul kelgan edi.",
+
+18: "U: «ALLAHning bandalarini menga topshiringlar. Albatta, men sizlarga ishonchli Rasulman», degan edi.",
+
+19: "«ALLAHga qarshi kibrlanmanglar. Albatta, men sizlarga aniq dalil bilan keldim».",
+
+20: "«Men Robbim va Robbingizdan meni toshbo‘ron qilishingizdan panoh so‘radim».",
+    
+ 21: "Agar iymon keltiruvchi bo‘lsangizlar, menga iymon keltiringlar.",
+
+22: "Bas, u Robbisiga: «Albatta, bular jinoyatchi qavmdirlar», deb duo qildi.",
+
+23: "Bas, (ALLAH dedi): «Bandalarimni kechasi olib chiqgin. Albatta, sizlar quviluvchisizlar».",
+
+24: "«Dengizni ochiq holda tark etgin. Albatta, ular g‘arq qilinadigan lashkardir».",
+
+25: "Ular qancha bog‘lar va buloqlarni qoldirdilar.",
+
+26: "Va ekinzorlar hamda go‘zal joylarni.",
+
+27: "Va rohatda bo‘lgan ne’matlarni.",
+
+28: "Shunday qilib, Biz ularni boshqa qavmga meros qilib berdik.",
+
+29: "Osmon ham, yer ham ular uchun yig‘lamadi va ularga muhlat berilmadi.",
+
+30: "Darhaqiqat, Biz Bani Isroilni xor qiluvchi azobdan najot qildik.",
+
+31: "Fir’avndan. Albatta, u kibrlanuvchilardan va haddan oshuvchilardan edi.",
+
+32: "Biz ularni bilgan holda olamlar ustidan tanladik.",
+
+33: "Va ularga ichida ochiq sinov bo‘lgan oyatlarni berdik.",
+
+34: "Albatta, ana bular: «Birinchi o‘limimizdan boshqa o‘lim yo‘qdir va biz tiriltirilmaymiz», deydilar.",
+
+35: "«Agar rostgo‘y bo‘lsangizlar, ota-bobolarimizni keltiringlar».",
+
+36: "Ular kuchliroqmi yoki Tubba’ qavmi va ulardan oldingilarmi? Biz ularni halok qildik. Albatta, ular jinoyatchilar edilar.",
+
+37: "Biz osmonlaru yerni va ular orasidagi narsalarni o‘yin uchun yaratmadik.",
+
+38: "Biz ularni faqat Haq bilan yaratdik. Lekin ularning ko‘pchiligi bilmaydilar.",
+
+39: "Albatta, ajratish kuni ularning barchasining va’dasidir.",
+
+40: "U kun bir-biriga yordam bera olmaydigan kundir va ularga yordam berilmaydi.",
+
+41: "U kun hech bir do‘st o‘z do‘stidan hech narsani daf qila olmaydi va ularga yordam berilmaydi.",
+
+42: "Faqat ALLAH rahm qilgan kishilar bundan mustasno. Albatta, U Aziz va Rahmlidir.",
+
+43: "Albatta, Zaqqum daraxti",
+
+44: "Gunohkorning taomidir.",
+
+45: "U eritilgan mis kabi qorinlarda qaynaydi.",
+
+46: "Qaynoq suv qaynagani kabi.",
+
+47: "Uni ushlanglar va jahannamning o‘rtasiga sudrab boringlar.",
+
+48: "So‘ngra uning boshiga qaynoq suv azobidan quyinglar.",
+
+49: "«Totib ko‘r! Albatta, sen o‘zingcha qudratli va hurmatli eding».",
+
+50: "«Mana shu sizlar shubha qilgan narsadir».",
+
+51: "Albatta, taqvodorlar omon joydadirlar.",
+
+52: "Bog‘lar va buloqlar ichidadirlar.",
+
+53: "Yupqa va qalin ipak kiyimlar kiyib, qarama-qarshi o‘tirurlar.",
+
+54: "Shundaydir. Va Biz ularni katta ko‘zli hur juftlarga uylantiramiz.",
+
+55: "Ular u yerda xotirjam holda har turli mevalarni so‘raydilar.",
+
+56: "Ular u yerda birinchi o‘limdan boshqa o‘limni totmaydilar. Va U ularni jahannam azobidan saqlagan.",
+
+57: "Bu Robbing tomonidan fazl sifatida berilgan narsadir. Mana shu ulkan yutuqdir.",
+
+58: "Biz uni sening tiling bilan oson qildik, shoyad ular eslatma olsalar.",
+
+59: "Bas, kutgin. Albatta, ular ham kutuvchilardir.",
+},    
+45: {    
+1: "Ha Mim.",
+
+2: "Bu Kitobning nozil qilinishi Aziz va Hikmat Egasi bo‘lgan ALLAH tomondandir.",
+
+3: "Albatta, osmonlaru yerda mo‘minlar uchun oyatlar bordir.",
+
+4: "Sizlarning yaratilishingizda va U tarqatgan jonivorlarda qat’iy ishonadigan qavm uchun oyatlar bordir.",
+
+5: "Kecha va kunduzning almashishida, ALLAH osmondan tushirgan rizqda va u bilan o‘lgandan keyin yerni tiriltirishida, shamollarning o‘zgarishida aql yuritadigan qavm uchun oyatlar bordir.",
+
+6: "Bular ALLAHning oyatlaridir. Biz ularni senga Haq bilan tilovat qilamiz. Bas, ular ALLAH va Uning oyatlaridan keyin qaysi so‘zga iymon keltiradilar?",
+
+7: "Har bir yolg‘onchi va gunohkorga voy bo‘lsin.",
+
+8: "U ALLAHning oyatlari unga tilovat qilinayotganini eshitadi, so‘ngra go‘yo uni eshitmagandek kibrlangan holda turib oladi. Bas, unga alamli azobning xushxabarini ber.",
+
+9: "U Bizning oyatlarimizdan biror narsani bilsa, uni masxara qiladi. Ana o‘shalar uchun xor qiluvchi azob bordir.",
+
+10: "Ularning ortida jahannam bordir. Ularning topganlari ham, ALLAHni qo‘yib tutgan do‘stlari ham ularga foyda bermaydi. Ular uchun ulkan azob bordir.",
+
+11: "Bu hidoyatdir. Robbilarining oyatlariga kofir bo‘lganlar uchun esa alamli azobdan iborat jazodir.",
+
+12: "ALLAH sizlarga dengizni bo‘ysundirgan Zotdir, toki Uning amri bilan unda kemalar yursin va sizlar Uning fazlidan izlasangizlar hamda shukr qilsangizlar.",
+
+13: "U osmonlaru yerdagi narsalarning barchasini O‘z tomonidan sizlarga bo‘ysundirdi. Albatta, bunda tafakkur qiladigan qavm uchun oyatlar bordir.",
+
+14: "Iymon keltirganlarga ayt: ALLAHning kunlarini umid qilmaydiganlarni kechirsinlar. Toki U har bir qavmni qilgan ishlariga yarasha jazolasin.",
+
+15: "Kim yaxshi amal qilsa, o‘zi uchun qiladi. Kim yomonlik qilsa, o‘z zarariga qiladi. So‘ngra Robbingiz huzuriga qaytarilasizlar.",
+
+16: "Darhaqiqat, Biz Bani Isroilga Kitob, hukm, nubuvvat berdik va ularni pok narsalar bilan rizqlantirdik hamda olamlar ustidan afzal qildik.",
+
+17: "Ularga ish haqida aniq dalillar berdik. Ular faqat o‘zlariga ilm kelganidan keyin o‘zaro hasad sababli ixtilof qildilar. Albatta, Robbing Qiyomat kuni ular ixtilof qilgan narsalari haqida ular orasida hukm qiladi.",
+
+18: "So‘ngra Biz seni din ishida bir shariat ustiga qo‘ydik. Bas, unga ergashgin va bilmaydiganlarning havoyi nafslariga ergashma.",
+
+19: "Albatta, ular ALLAHdan seni hech narsada qutqara olmaydilar. Zolimlar bir-birlarining do‘stlaridir. ALLAH esa taqvodorlarning Do‘stidir.",
+
+20: "Bu odamlar uchun ko‘zlarni ochuvchi dalillar va aniq ishonadigan qavm uchun hidoyat va rahmatdir.",
+
+21: "Yoki yomonlik qilganlar Biz ularni iymon keltirgan va yaxshi amallar qilganlar bilan hayotlari va o‘limlari teng qilamiz deb o‘ylaydilarmi? Ularning hukmi naqadar yomondir.",
+
+22: "ALLAH osmonlaru yerni Haq bilan yaratdi, toki har bir jon qilgan ishiga yarasha jazolansin va ularga zulm qilinmasin.",
+
+23: "Havoyi nafsini o‘ziga iloh qilib olgan, ALLAH uni bilgan holda adashtirgan, qulog‘i va qalbiga muhr bosgan, ko‘ziga parda qo‘ygan kishini ko‘rdingmi? ALLAHdan keyin uni kim hidoyat qiladi? Nahotki eslatma olmasangizlar?",
+
+24: "Ular: «Bu faqat dunyo hayotimizdir. O‘lamiz va tirilamiz. Bizni faqat zamon halok qiladi», dedilar. Holbuki, bu haqda ularning hech qanday ilmi yo‘q. Ular faqat gumon qilmoqdalar.",
+
+25: "Ularga Bizning aniq oyatlarimiz tilovat qilinganda, ularning hujjati faqat: «Agar rostgo‘y bo‘lsangizlar, ota-bobolarimizni keltiringlar», degan so‘z bo‘ladi.",
+
+26: "Ayting: «ALLAH sizlarga hayot beradi, so‘ngra sizlarni o‘ldiradi, so‘ngra shubhasiz Qiyomat kuni jamlaydi. Lekin odamlarning ko‘pchiligi bilmaydilar».",
+
+27: "Osmonlaru yer mulki ALLAHnikidir. Soat keladigan kuni ana o‘sha kuni botil tarafdorlari ziyon ko‘radilar.",
+
+28: "Har bir ummatni tiz cho‘kkan holda ko‘rasan. Har bir ummat o‘z Kitobiga chaqiriladi. Bugun sizlarga qilgan amallaringiz bilan jazolanishingiz aytiladi.",
+
+29: "Mana Bizning Kitobimiz sizlarga Haq bilan gapiradi. Albatta, Biz qilgan ishlaringizni yozib borar edik.",
+
+30: "Iymon keltirgan va yaxshi amallar qilganlarga kelsak, Robbilari ularni O‘z rahmatiga kiritadi. Mana shu ochiq yutuqdir.",
+
+31: "Kofir bo‘lganlarga esa: «Sizlarga Mening oyatlarim tilovat qilinmaganmidiki, sizlar kibrlanib, jinoyatchi qavm bo‘ldingizlar?» deyiladi.",
+
+32: "«Albatta, ALLAHning va’dasi haq va Soatda shubha yo‘q», deyilganda, sizlar: «Soat nima ekanini bilmaymiz, biz faqat gumondamiz, biz bunga ishonmaymiz», dedingizlar.",
+
+33: "Ularning qilgan yomonliklari ularga ayon bo‘ladi va masxara qilgan narsalari ularni o‘rab oladi.",
+
+34: "Va ularga: «Sizlar bu kuningizga uchrashishni unutganingiz kabi, Biz ham bugun sizlarni unutamiz. Joyingiz olovdir va sizlar uchun yordamchilar yo‘qdir», deyiladi.",
+
+35: "«Bu sizlarning ALLAHning oyatlarini masxara qilganingiz va dunyo hayoti sizlarni aldagani sababli bo‘ldi». Bas, bugun undan chiqarilmaydilar va uzrlari qabul qilinmaydi.",
+
+36: "Bas, hamd osmonlar Robbisi, yer Robbisi va olamlarning Robbisi bo‘lgan ALLAHgadir.",
+
+37: "Osmonlaru yerda ulug‘lik Unikidir. U Aziz va Hikmat Egasi Zotdir.",
+},
+46: {
+1: "Ha Mim.",
+
+2: "Bu Kitobning nozil qilinishi Aziz va Hikmat Egasi bo‘lgan ALLAH tomondandir.",
+
+3: "Biz osmonlaru yerni va ular orasidagi narsalarni faqat Haq bilan va belgilangan muddatgacha yaratdik. Kofir bo‘lganlar esa o‘zlariga ogohlantirilgan narsadan yuz o‘giruvchilardir.",
+
+4: "Ayting: «ALLAHni qo‘yib duo qilayotgan narsalaringiz haqida o‘ylab ko‘rdingizmi? Menga ko‘rsatinglar: ular yerda nimani yaratganlar? Yoki osmonlarda ular uchun biror sheriklik bormi? Agar rostgo‘y bo‘lsangizlar, bundan oldingi biror Kitobni yoki ilmga asoslangan biror izni menga keltiringlar».",
+
+5: "ALLAHdan boshqa, Qiyomat kunigacha unga javob bera olmaydigan narsalarga duo qiladigan kishidan ham adashganroq kim bor? Holbuki, ular ularning duosidan bexabardirlar.",
+
+6: "Odamlar jamlangan kuni ular ularga dushman bo‘ladilar va ularning ibodatlarini inkor qiladilar.",
+
+7: "Ularga Bizning aniq oyatlarimiz tilovat qilinganda, Haq ularga kelganida, kofir bo‘lganlar: «Bu ochiq sehrdir», dedilar.",
+
+8: "Yoki ular: «U uni to‘qib chiqardi», deydilarmi? Ayting: «Agar men uni to‘qib chiqargan bo‘lsam, sizlar meni ALLAHdan himoya qila olmaysizlar. U sizlar uning haqida gapirayotgan narsangizni yaxshiroq biladi. Men bilan sizlarning orangizda guvoh sifatida U kifoyadir. U Mag‘firat qiluvchi va Rahmlidir».",
+
+9: "Ayting: «Men Rasulchilardan yangilik bo‘lgan emasman va menga ham, sizlarga ham nima qilinishini bilmayman. Men faqat menga vahiy qilinayotgan narsaga ergashaman. Men faqat ochiq ogohlantiruvchiman».",
+
+10: "Ayting: «Agar u ALLAH huzuridan bo‘lsa va sizlar unga kofir bo‘lsangizlar, Bani Isroildan bir guvoh uning o‘xshashiga guvohlik berib, iymon keltirgan bo‘lsa-yu, sizlar kibrlansangizlar, holingiz qanday bo‘ladi? Albatta, ALLAH zolim qavmni hidoyat qilmaydi».",
+
+11: "Kofir bo‘lganlar iymon keltirganlar haqida: «Agar unda yaxshilik bo‘lganida, ular bizdan oldin unga erishmagan bo‘lardilar», dedilar. Ular u bilan hidoyat topmagach: «Bu qadimgi yolg‘ondir», deydilar.",
+
+12: "Undan oldin Musoning Kitobi imom va rahmat bo‘lgan edi. Bu esa uni tasdiqlovchi arabiy tildagi Kitob bo‘lib, zolimlarni ogohlantirish va yaxshilik qiluvchilarga xushxabar berish uchundir.",
+
+13: "Albatta: «Robbimiz ALLAHdir», deb, so‘ngra to‘g‘ri bo‘lganlarga qo‘rquv yo‘qdir va ular g‘amgin bo‘lmaydilar.",
+
+14: "Ana o‘shalar jannat ahlidirlar. Qilgan amallari sababli unda abadiy qoluvchilardir.",
+
+15: "Biz insonga ota-onasiga yaxshilik qilishni buyurdik. Onasi uni qiynalib ko‘tardi va qiynalib tug‘di. Uni ko‘tarish va sutdan ajratish muddati o‘ttiz oydir. U voyaga yetib, qirq yoshga kirganda: «Ey Robbim! Menga va ota-onamga bergan ne’matingga shukr qilishimni va Sen rozi bo‘ladigan yaxshi amal qilishimni ilhom qilgin. Zurriyotimni ham isloh qilgin. Men Senga tavba qildim va men musulmonlardanman», deydi.",
+
+16: "Ana o‘shalar qilgan ishlarining eng yaxshilarini qabul qilamiz va yomonliklaridan o‘tamiz. Ular jannat ahlidandirlar. Bu ularga va’da qilingan rost va’dadir.",
+
+17: "Ota-onasiga: «Uf sizlarga! Mendan oldin avlodlar o‘tgan bo‘lsa ham, meni chiqarilaman deb va’da qilasizlarmi?» degan kishiga ular ALLAHdan yordam so‘rab: «Voy holingga! Iymon keltir! Albatta, ALLAHning va’dasi haqdir», deydilar. U esa: «Bu faqat avvalgilarning afsonalaridir», deydi.",
+
+18: "Ana o‘shalar jin va insonlardan oldin o‘tgan ummatlar qatorida ularga so‘z haq bo‘lgan kishilardir. Albatta, ular ziyon ko‘ruvchilardir.",
+
+19: "Har biri qilgan amallariga yarasha darajalarga egadir. U ularning amallarini to‘liq beradi va ularga zulm qilinmaydi.",
+
+20: "Kofir bo‘lganlar olov oldiga keltiriladigan kuni: «Sizlar dunyo hayotingizda yaxshi narsalaringizni sarf qilib bo‘ldingizlar va ulardan foydalandingizlar. Bas, bugun yer yuzida nohaq kibrlanganingiz va fosiqlik qilganingiz sababli xor qiluvchi azob bilan jazolanasizlar», deyiladi.",
+
+21: "Od qavmining birodarini eslagin. U Ahqofda o‘z qavmini ogohlantirgan edi. Undan oldin ham, keyin ham ogohlantiruvchilar o‘tgan edilar: «Faqat ALLAHga ibodat qilinglar. Men sizlar uchun ulkan kunning azobidan qo‘rqaman».",
+
+22: "Ular: «Sen bizga ilohlarimizdan yuz o‘girish uchun keldingmi? Agar rostgo‘y bo‘lsang, bizga va’da qilayotgan narsangni keltir», dedilar.",
+
+23: "U dedi: «Bu ilm faqat ALLAH huzuridadir. Men sizlarga yuborilgan narsani yetkazaman. Lekin men sizlarni johil qavm ekaningizni ko‘ryapman».",
+
+24: "Ular uni vodiylariga qarab kelayotgan bulut shaklida ko‘rganlarida: «Bu bizga yomg‘ir yog‘diradigan bulutdir», dedilar. U dedi: «Yo‘q, bu sizlar tezlashtirishni so‘ragan narsangizdir. Unda alamli azob bor bo‘lgan shamoldir».",
+
+25: "«U Robbisining amri bilan har narsani vayron qiladi». Bas, ertalab ularning uylaridan boshqa hech narsa ko‘rinmadi. Biz jinoyatchi qavmni shunday jazolaymiz.",
+
+26: "Darhaqiqat, Biz ularga sizlarga bermagan imkoniyatlarni berdik. Ularga quloqlar, ko‘zlar va qalblar berdik. Lekin quloqlari, ko‘zlari va qalblari ularga hech qanday foyda bermadi, chunki ular ALLAHning oyatlarini inkor qilar edilar. Masxara qilgan narsalari ularni o‘rab oldi.",
+
+27: "Darhaqiqat, Biz atrofingizdagi ko‘plab shaharlarni halok qildik va qaytishlari uchun oyatlarni turli shakllarda bayon qildik.",
+
+28: "Ular ALLAHdan boshqa yaqinlik uchun tutgan narsalari ularga yordam bermadi. Balki ular ulardan yo‘qoldilar. Bu ularning yolg‘oni va to‘qib chiqargan narsalaridir.",
+
+29: "Eslagin, Biz jinlardan bir guruhni Qur’onni tinglash uchun huzuringga burdik. Ular unga yetib kelganlarida: «Jim turinglar», dedilar. U tugagach, ular o‘z qavmlariga ogohlantiruvchi bo‘lib qaytdilar.",
+
+30: "Ular dedilar: «Ey qavmimiz! Biz Musodan keyin nozil qilingan, o‘zidan oldingi narsalarni tasdiqlovchi, Haqqa va to‘g‘ri yo‘lga hidoyat qiluvchi Kitobni eshitdik».",
+
+31: "«Ey qavmimiz! ALLAHning da’vatchisiga javob beringlar va unga iymon keltiringlar. U sizlarning gunohlaringizdan kechiradi va sizlarni alamli azobdan saqlaydi».",
+
+32: "Kim ALLAHning da’vatchisiga javob bermasa, yer yuzida Uni ojiz qila olmaydi va Undan boshqa yordamchilari ham bo‘lmaydi. Ana o‘shalar ochiq adashishdadirlar.",
+
+33: "Osmonlaru yerni yaratgan va ularni yaratishda charchamagan ALLAH o‘liklarni tiriltirishga Qodir ekanini ko‘rmaydilarmi? Ha, albatta, U har narsaga Qodirdir.",
+
+34: "Kofir bo‘lganlar olov oldiga keltiriladigan kuni: «Bu Haq emasmi?» deyiladi. Ular: «Ha, Robbimizga qasamki», deydilar. U: «Bas, kofir bo‘lganingiz sababli azobni totib ko‘ringlar», deydi.",
+
+35: "Bas, ulug‘ azm egalari bo‘lgan Rasulchilar sabr qilganlaridek sabr qilgin. Ular uchun azobni tezlashtirishni so‘rama. Ularga va’da qilingan narsani ko‘rgan kunlarida, ular go‘yo dunyoda faqat kunduzning bir soati turgandek bo‘ladilar. Bu yetkazishdir. Bas, faqat fosiq qavm halok qilinadi.",
+},
+47: {
+1: "Kofir bo‘lganlar va ALLAH yo‘lidan to‘sganlarning amallarini U zoye qildi.",
+
+2: "Iymon keltirgan, yaxshi amallar qilgan va Muhammadga nozil qilingan narsaga — u Robbilari tomonidan bo‘lgan Haqqa — iymon keltirganlarning esa yomonliklarini kechirdi va holatlarini isloh qildi.",
+
+3: "Bu shuning uchundirki, kofir bo‘lganlar botilga ergashdilar, iymon keltirganlar esa Robbilari tomonidan bo‘lgan Haqqa ergashdilar. Shunday qilib, ALLAH odamlarga o‘z misollarini bayon qiladi.",
+
+4: "Bas, kofirlar bilan to‘qnashganingizda bo‘yinlariga uringlar. Nihoyat, ularni qattiq yengganingizda, kishanlarni mahkamlanglar. So‘ngra urush yukini qo‘yganingizdan keyin yo minnat, yo fidya bilan ozod qilinglar. Agar ALLAH xohlasa, O‘zi ulardan intiqom olardi. Lekin sizlarning ba’zilaringizni ba’zilar bilan sinash uchun. ALLAH yo‘lida o‘ldirilganlarning amallarini U hech qachon zoye qilmaydi.",
+
+5: "Ularni hidoyat qiladi va holatlarini isloh qiladi.",
+
+6: "Va ularni o‘zlariga bildirgan jannatga kiritadi.",
+
+7: "Ey iymon keltirganlar! Agar sizlar ALLAHga yordam bersangizlar, U sizlarga yordam beradi va qadamlaringizni mustahkam qiladi.",
+
+8: "Kofir bo‘lganlarga esa halokat bo‘lsin. U ularning amallarini zoye qiladi.",
+
+9: "Bu ularning ALLAH nozil qilgan narsani yomon ko‘rganlari uchundir. Bas, U ularning amallarini bekor qildi.",
+
+10: "Ular yer yuzida yurib, o‘zlaridan oldingilarning oqibati qanday bo‘lganiga qaramadilarmi? ALLAH ularni halok qildi. Kofirlar uchun ham shunga o‘xshashi bordir.",
+
+11: "Bu shuning uchundirki, ALLAH iymon keltirganlarning Do‘stidir, kofirlarning esa do‘sti yo‘qdir.",
+
+12: "Albatta, ALLAH iymon keltirgan va yaxshi amallar qilganlarni ostidan anhorlar oqadigan jannatlarga kiritadi. Kofir bo‘lganlar esa foydalanadilar va chorvalar yegani kabi yeydilar. Ularning joylari olovdir.",
+
+13: "Seni chiqargan shahringdan kuchliroq qancha shaharlarni Biz halok qildik. Ularga yordam beruvchi bo‘lmadi.",
+
+14: "Robbisi tomonidan aniq dalilga ega bo‘lgan kishi yomon amali unga chiroyli ko‘rsatilgan va havoyi nafslariga ergashgan kishi kabi bo‘ladimi?",
+
+15: "Taqvodorlarga va’da qilingan jannatning misoli: unda aynimaydigan suvdan anhorlar, ta’mi o‘zgarmaydigan sutdan anhorlar, ichuvchilar uchun lazzatli sharobdan anhorlar va tozalangan asaldan anhorlar bor. Ular uchun u yerda barcha mevalardan va Robbilari tomonidan mag‘firat bor. Bu do‘zaxda abadiy qoluvchi va qaynoq suv ichirilib, ichaklari bo‘lak-bo‘lak bo‘ladigan kishilar kabimi?",
+
+16: "Ulardan seni tinglaydiganlar ham bor. Nihoyat, huzuringdan chiqqanlarida ilm berilganlarga: «U hozirgina nima dedi?» deydilar. Ana o‘shalar qalblariga ALLAH muhr bosgan kishilardir va ular havoyi nafslariga ergashganlardir.",
+
+17: "Hidoyat topganlarning hidoyatini U ziyoda qiladi va ularga taqvolarini beradi.",
+
+18: "Ular faqat Soatning o‘zlariga to‘satdan kelishini kutmoqdalar. Uning alomatlari allaqachon kelgan. U kelganida ularga eslatma olishlari qayerda qoladi?",
+
+19: "Bas, bilgin: ALLAHdan boshqa iloh yo‘q. Gunohing uchun va mo‘min erkaklar hamda mo‘min ayollar uchun mag‘firat so‘ra. ALLAH sizlarning yurib-turgan joylaringizni va turar joylaringizni biladi.",
+
+20: "Iymon keltirganlar: «Qani edi biror sura nozil qilinsa», deydilar. Muhkam bir sura nozil qilinib, unda jang zikr qilinganda, qalblarida kasallik bo‘lganlarni o‘lim holatidagi kabi senga qarab turganlarini ko‘rasan. Bas, ular uchun halokat yaxshidir.",
+
+21: "Itoat va yaxshi so‘z (ular uchun yaxshidir). Bas, ish qat’iy bo‘lganda, agar ular ALLAHga sodiq bo‘lganlarida edi, albatta, ular uchun yaxshiroq bo‘lardi.",
+
+22: "Agar yuz o‘girsangizlar, yer yuzida buzg‘unchilik qilishlaringiz va qarindoshlik rishtalarini uzishingiz mumkinmi?",
+
+23: "Ana o‘shalar ALLAH la’natlagan, quloqlarini kar va ko‘zlarini ko‘r qilgan kishilardir.",
+
+24: "Nahotki ular Qur’on haqida tafakkur qilmasalar? Yoki qalblarida qulflar bormi?",
+
+25: "Albatta, hidoyat ularga ayon bo‘lganidan keyin ortga qaytganlarni shayton aldab, ularga orzu-havaslarni chiroyli ko‘rsatdi.",
+
+26: "Bu ularning ALLAH nozil qilgan narsani yomon ko‘rganlarga: «Ba’zi ishlarda sizlarga itoat qilamiz», deganlari uchundir. ALLAH ularning sirlarini biladi.",
+
+27: "Malaikalar ularning yuzlari va orqalariga urib, jonlarini olayotganlarida holi qanday bo‘ladi?",
+
+28: "Bu ularning ALLAHni g‘azablantirgan narsalarga ergashganlari va Uning roziligini yomon ko‘rganlari uchundir. Bas, U ularning amallarini bekor qildi.",
+
+29: "Yoki qalblarida kasallik bo‘lganlar ALLAH ularning kinlarini oshkor qilmas deb o‘ylaydilarmi?",
+
+30: "Agar xohlasak, ularni senga ko‘rsatgan bo‘lardik, bas sen ularni belgilaridan tanirding. Albatta, sen ularni gap ohanglaridan ham taniysan. ALLAH amallaringizni biladi.",
+
+31: "Biz sizlarni albatta sinaymiz, toki ichingizdagi jihod qiluvchilarni va sabr qiluvchilarni bilamiz hamda xabarlaringizni tekshiramiz.",
+
+32: "Kofir bo‘lganlar, ALLAH yo‘lidan to‘sganlar va ularga hidoyat ayon bo‘lganidan keyin Rasulga qarshi chiqqanlar ALLAHga hech qanday zarar yetkaza olmaydilar. U ularning amallarini bekor qiladi.",
+
+33: "Ey iymon keltirganlar! ALLAHga itoat qilinglar, Rasulga itoat qilinglar va amallaringizni bekor qilmanglar.",
+
+34: "Albatta, kofir bo‘lganlar, ALLAH yo‘lidan to‘sganlar, so‘ngra kofir holida vafot etganlar — ALLAH ularni aslo mag‘firat qilmaydi.",
+
+35: "Bas, bo‘shashmanglar va ustun bo‘lgan holingizda sulhga chaqirmanglar. ALLAH sizlar bilan birgadir va U amallaringizni kamaytirmaydi.",
+
+36: "Albatta, dunyo hayoti faqat o‘yin va ko‘ngilxushlikdir. Agar iymon keltirsangizlar va taqvo qilsangizlar, U sizlarga mukofotlaringizni beradi va mollaringizni so‘ramaydi.",
+
+37: "Agar U sizlardan uni so‘rasa va sizlarni majburlasa, baxillik qilasizlar va U sizlarning kinlaringizni oshkor qiladi.",
+
+38: "Mana sizlar — ALLAH yo‘lida sarflashga chaqirilayotgan kishilarsizlar. Sizlardan ba’zilaringiz baxillik qiladilar. Kim baxillik qilsa, faqat o‘ziga baxillik qiladi. ALLAH behojatdir, sizlar esa faqirlarsizlar. Agar yuz o‘girsangizlar, U sizlarning o‘rningizga boshqa qavmni keltiradi. So‘ngra ular sizlarga o‘xshamaslar.",
+},
+48: {
+1: "Albatta, Biz senga ochiq g‘alaba berdik.",
+
+2: "Toki ALLAH sening oldingi va keyingi gunohlaringni mag‘firat qilsin, senga bo‘lgan ne’matini to‘liq qilsin va seni to‘g‘ri yo‘lga hidoyat qilsin.",
+
+3: "Va ALLAH senga qudratli yordam bilan yordam bersin.",
+
+4: "U mo‘minlarning qalblariga xotirjamlik tushirgan Zotdir, toki ular iymonlariga iymon qo‘shsinlar. Osmonlaru yer lashkarlari ALLAHnikidir. ALLAH Biluvchi va Hikmat Egasi Zotdir.",
+
+5: "Toki U mo‘min erkaklar va mo‘min ayollarni ostidan anhorlar oqadigan jannatlarga kiritib, u yerda abadiy qoldirsin va ularning yomonliklarini kechirsin. Bu ALLAH huzurida ulkan yutuqdir.",
+
+6: "Va U munofiq erkaklar va munofiq ayollarni, mushrik erkaklar va mushrik ayollarni — ALLAH haqida yomon gumonda bo‘lganlarni azoblasin. Yomonlik girdobi ularning o‘zlariga bo‘lsin. ALLAH ularga g‘azab qildi, ularni la’natladi va ular uchun jahannamni tayyorladi. U naqadar yomon joydir.",
+
+7: "Osmonlaru yer lashkarlari ALLAHnikidir. ALLAH Aziz va Hikmat Egasi Zotdir.",
+
+8: "Albatta, Biz seni guvoh, xushxabar beruvchi va ogohlantiruvchi qilib yubordik.",
+
+9: "Toki sizlar ALLAHga va Uning Rasuliga iymon keltirsangizlar, unga yordam bersangizlar, uni ulug‘lasangizlar va ertayu kech Unga tasbeh aytsangizlar.",
+
+10: "Albatta, senga bay’at qilganlar faqat ALLAHga bay’at qilgan bo‘ladilar. ALLAHning qo‘li ularning qo‘llari ustidadir. Kim ahdini buzsa, faqat o‘z zarariga buzadi. Kim ALLAH bilan qilgan ahdiga vafo qilsa, U unga ulkan mukofot beradi.",
+
+11: "Orqada qolgan a’robiylar senga: «Bizni mollarimiz va oilalarimiz mashg‘ul qildi. Biz uchun mag‘firat so‘ra», deydilar. Ular tillari bilan qalblarida bo‘lmagan narsani aytadilar. Ayting: «Agar ALLAH sizlarga zarar yetkazishni yoki foyda berishni istasa, Unga qarshi kim sizlar uchun biror narsaga ega bo‘la oladi? Yo‘q, ALLAH qilayotgan ishlaringizdan Xabardordir».",
+
+12: "Balki sizlar Rasul va mo‘minlar o‘z oilalariga hech qachon qaytmaydilar deb o‘yladingizlar. Bu qalblaringizga chiroyli ko‘rsatildi va yomon gumonda bo‘ldingizlar. Sizlar halokatga mahkum qavm bo‘ldingizlar.",
+
+13: "Kim ALLAHga va Uning Rasuliga iymon keltirmasa, albatta, Biz kofirlar uchun alangali olovni tayyorladik.",
+
+14: "Osmonlaru yer mulki ALLAHnikidir. U xohlagan kishisini mag‘firat qiladi va xohlagan kishisini azoblaydi. ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+15: "Sizlar o‘lja olish uchun ketayotganingizda, ortda qolganlar: «Bizga ham ergashishga ruxsat beringlar», deydilar. Ular ALLAHning so‘zini o‘zgartirmoqchi bo‘ladilar. Ayting: «Sizlar bizga ergashmaysizlar. ALLAH avval shunday degan». Bas, ular: «Yo‘q, sizlar bizga hasad qilmoqdasizlar», deydilar. Haqiqatda ular juda oz tushunadilar.",
+
+16: "Orqada qolgan a’robiylarga ayting: «Sizlar tez orada kuchli jangovar qavmga qarshi chaqirilasizlar. Ular bilan urushasizlar yoki ular taslim bo‘ladilar. Agar itoat qilsangizlar, ALLAH sizlarga go‘zal mukofot beradi. Agar oldin yuz o‘girganingiz kabi yuz o‘girsangizlar, U sizlarni alamli azob bilan azoblaydi».",
+
+17: "Ko‘rga gunoh yo‘q, cho‘loqqa gunoh yo‘q, kasalga ham gunoh yo‘q. Kim ALLAHga va Uning Rasuliga itoat qilsa, U uni ostidan anhorlar oqadigan jannatlarga kiritadi. Kim yuz o‘girsa, uni alamli azob bilan azoblaydi.",
+
+18: "Darhaqiqat, ALLAH daraxt ostida senga bay’at qilgan mo‘minlardan rozi bo‘ldi. U ularning qalblaridagi narsani bildi, ularga xotirjamlik tushirdi va ularga yaqin g‘alabani berdi.",
+
+19: "Va ular oladigan ko‘p o‘ljalarni ham. ALLAH Aziz va Hikmat Egasi Zotdir.",
+
+20: "ALLAH sizlarga ko‘p o‘ljalarni va’da qildi. Mana buni sizlarga tez berdi va odamlarning qo‘llarini sizlardan to‘sdi. Bu mo‘minlar uchun oyat bo‘lsin va sizlarni to‘g‘ri yo‘lga hidoyat qilsin uchundir.",
+    
+21: "Yana sizlar qodir bo‘lmagan boshqa narsalar ham bor. Ularni ALLAH qamrab olgan. ALLAH har narsaga Qodirdir.",
+
+22: "Agar kofirlar sizlar bilan urushganlarida, albatta, orqalarini o‘girib qochgan bo‘lardilar. So‘ngra ular na do‘st va na yordamchi topa olmas edilar.",
+
+23: "Bu ALLAHning avvaldan o‘tgan sunnatidir. ALLAHning sunnatida hech qanday o‘zgarish topmaysan.",
+
+24: "U sizlarni ular ustidan g‘olib qilganidan keyin Makkada ularning qo‘llarini sizlardan va sizlarning qo‘llaringizni ulardan to‘sgan Zotdir. ALLAH qilayotgan ishlaringizni Ko‘ruvchidir.",
+
+25: "Ular kofir bo‘lgan, sizlarni Masjidul Haromdan to‘sgan va qurbonliklarni o‘z joyiga yetishiga yo‘l bermagan kishilardir. Agar sizlar bilmagan mo‘min erkaklar va mo‘min ayollar bo‘lmaganida edi, ularni bilmasdan bosib ketib, sizlarga ular sababli gunoh yetishi mumkin edi. Toki ALLAH xohlagan kishisini O‘z rahmatiga kiritsin. Agar ular ajralib turganlarida edi, albatta, ulardan kofir bo‘lganlarni alamli azob bilan azoblagan bo‘lardik.",
+
+26: "Kofir bo‘lganlar o‘z qalblariga johiliyat g‘ururini joylagan paytda, ALLAH O‘z Rasuliga va mo‘minlarga xotirjamlik tushirdi va ularga taqvo so‘zini lozim qildi. Ular bunga eng haqli va munosib edilar. ALLAH har narsani Biluvchidir.",
+
+27: "Darhaqiqat, ALLAH Rasuliga tush ko‘rishini rost qildi: «Albatta, sizlar, agar ALLAH xohlasa, Masjidul Haromga xavfsiz holda, boshlaringizni qirgan va sochlaringizni qisqartirgan holda, qo‘rqmasdan kirasizlar». U sizlar bilmagan narsani bildi va bundan oldin yaqin g‘alaba berdi.",
+
+28: "U O‘z Rasulini hidoyat va Haq din bilan yubordi, toki uni barcha dinlardan ustun qilsin. Guvoh sifatida ALLAHning O‘zi kifoyadir.",
+
+29: "Muhammad ALLAHning Rasulidir. U bilan birga bo‘lganlar kofirlarga qarshi qattiq, o‘zaro esa mehribondirlar. Ularni ruku’ va sajda qilgan holda, ALLAHdan fazl va rozilik izlayotgan holda ko‘rasan. Ularning belgisi yuzlaridadir — sajda izidan. Bu ularning Tavrotdagi sifati. Injildagi misoli esa: xuddi urug‘ chiqarib, uni kuchaytirgan, so‘ng qalinlashgan va poyasida tik turgan ekinga o‘xshaydi. U dehqonlarni hayratga soladi. Ular orqali kofirlarni g‘azablantirish uchun. ALLAH ulardan iymon keltirgan va yaxshi amallar qilganlarga mag‘firat va ulkan mukofot va’da qilgan.",
+},
+49: {
+1: "Ey iymon keltirganlar! ALLAH va Uning Rasulidan oldin o‘tib ketmanglar. ALLAHdan qo‘rqinglar. Albatta, ALLAH Eshituvchi va Biluvchidir.",
+
+2: "Ey iymon keltirganlar! Ovozlaringizni Payg‘ambarning ovozidan baland ko‘tarmanglar va unga bir-biringizga baqirgandek baland ovoz bilan murojaat qilmanglar. Aks holda, bilmagan holda amallaringiz bekor bo‘lib qolishi mumkin.",
+
+3: "Albatta, ALLAHning Rasulining huzurida ovozlarini pasaytiradiganlar — ana o‘shalar qalblarini taqvo uchun sinagan kishilardir. Ular uchun mag‘firat va ulkan mukofot bordir.",
+
+4: "Albatta, hujralar ortidan seni chaqiradiganlarning ko‘pchiligi aql qilmaydilar.",
+
+5: "Agar ular sen oldilariga chiqquncha sabr qilganlarida edi, ular uchun yaxshiroq bo‘lardi. ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+6: "Ey iymon keltirganlar! Agar bir fosiq sizlarga bir xabar keltirsa, bilmagan holda biror qavmga zarar yetkazib qo‘yib, qilgan ishlaringizdan pushaymon bo‘lib qolmasligingiz uchun tekshirib ko‘ringlar.",
+
+7: "Bilinglarki, orangizda ALLAHning Rasuli bor. Agar u ko‘p ishlarda sizlarga itoat qilganida edi, albatta, qiyinchilikka tushgan bo‘lardingizlar. Lekin ALLAH sizlarga iymonni sevdirdi va uni qalblaringizda ziynatladi. Kufrni, fosiqlikni va isyonni esa sizlarga yomon ko‘rsatdi. Ana o‘shalar to‘g‘ri yo‘ldagilardir.",
+
+8: "Bu ALLAH tomonidan bo‘lgan fazl va ne’matdir. ALLAH Biluvchi va Hikmat Egasi Zotdir.",
+
+9: "Agar mo‘minlardan ikki guruh urushib qolsa, ularning orasini isloh qilinglar. Agar ulardan biri ikkinchisiga tajovuz qilsa, tajovuz qilgan guruh bilan ALLAHning amriga qaytgunicha urushinglar. Agar qaytsa, ularning orasini adolat bilan isloh qilinglar va adolat qilinglar. Albatta, ALLAH adolat qiluvchilarni sevadi.",
+
+10: "Albatta, mo‘minlar birodardirlar. Bas, ikki birodaringiz orasini isloh qilinglar va ALLAHdan qo‘rqinglar, shoyad sizlarga rahm qilinsa.",
+
+11: "Ey iymon keltirganlar! Bir qavm boshqa bir qavmni masxara qilmasin, ehtimol ular ulardan yaxshiroqdirlar. Ayollar ham boshqa ayollarni masxara qilmasinlar, ehtimol ular ulardan yaxshiroqdirlar. Bir-biringizni ayblamanglar va bir-biringizni yomon laqablar bilan chaqirmanglar. Iymondan keyingi fosiqlik qanday yomon nomdir. Kim tavba qilmasa, ana o‘shalar zolimlardir.",
+
+12: "Ey iymon keltirganlar! Ko‘p gumonlardan saqlaninglar. Albatta, ba’zi gumonlar gunohdir. Bir-biringizni josuslik qilmanglar va ba’zilaringiz ba’zilarini g‘iybat qilmasin. Sizlardan birortangiz o‘lgan birodarining go‘shtini yeyishni yaxshi ko‘radimi? Sizlar bundan jirkanasizlar. Bas, ALLAHdan qo‘rqinglar. Albatta, ALLAH tavbalarni qabul qiluvchi va Rahmlidir.",
+
+13: "Ey insonlar! Albatta, Biz sizlarni bir erkak va bir ayoldan yaratdik. Va sizlarni xalqlar va qabilalar qilib qo‘ydik, toki bir-biringizni tanishingizlar. Albatta, ALLAH huzurida eng hurmatlingiz — eng taqvodoringizdir. Albatta, ALLAH Biluvchi va Xabardordir.",
+
+14: "A’robiylar: «Iymon keltirdik», dedilar. Ayting: «Sizlar iymon keltirmadingizlar, lekin: «Taslim bo‘ldik», denglar. Hali iymon qalblaringizga kirmadi. Agar ALLAHga va Uning Rasuliga itoat qilsangizlar, U amallaringizdan hech narsani kamaytirmaydi. Albatta, ALLAH Mag‘firat qiluvchi va Rahmlidir».",
+
+15: "Albatta, haqiqiy mo‘minlar — ALLAHga va Uning Rasuliga iymon keltirgan, so‘ngra shubha qilmagan va mollari hamda jonlari bilan ALLAH yo‘lida jihod qilganlardir. Ana o‘shalar rostgo‘ylardir.",
+
+16: "Ayting: «Sizlar ALLAHga diningizni o‘rgatmoqchimisizlar? Holbuki, ALLAH osmonlaru yerdagi narsalarni biladi. ALLAH har narsani Biluvchidir».",
+
+17: "Ular Islomga kirganlarini senga minnat qiladilar. Ayting: «Islomga kirganingizni menga minnat qilmanglar. Balki agar rostgo‘y bo‘lsangizlar, sizlarni iymonga hidoyat qilgani uchun ALLAH sizlarga minnatdor bo‘lishi kerak».",
+
+18: "Albatta, ALLAH osmonlaru yerning g‘aybini biladi. ALLAH qilayotgan ishlaringizni Ko‘ruvchidir.",
+},
+50: {
+1: "Qof. Ulug‘ Qur’an bilan qasam.",
+
+2: "Yo‘q, ular orasidan ularga ogohlantiruvchi kelganidan ajablandilar. Kofirlar: «Bu ajablanarli narsadir», dedilar.",
+
+3: "«Biz o‘lib, tuproqqa aylanganimizdan keyinmi? Bu uzoq qaytishdir».",
+
+4: "Albatta, Biz yer ularni nimani kamaytirayotganini bilamiz. Bizning huzurimizda saqlovchi Kitob bor.",
+
+5: "Yo‘q, ularga Haq kelganida uni yolg‘on dedilar. Bas, ular chalkash holatdadirlar.",
+
+6: "Ustilaridagi osmonga qaramadilarmi? Uni qanday bino qilganimizni va bezaganimizni, unda hech qanday yoriq yo‘qligini ko‘rmadilarmi?",
+
+7: "Yerni esa yoydik, unga mustahkam tog‘lar tashladik va unda har xil go‘zal juftlarni o‘stirdik.",
+
+8: "Har bir qaytuvchi banda uchun ko‘z ochuvchi va eslatma sifatida.",
+
+9: "Biz osmondan barakali suv tushirdik va u bilan bog‘lar hamda o‘rim-yig‘im qilinadigan donlarni chiqardik.",
+
+10: "Va baland xurmo daraxtlarini — bir-biriga tizilgan mevalari bilan.",
+
+11: "Bandalarga rizq sifatida. Va Biz u bilan o‘lik yerni tiriltirdik. Xuddi shunday chiqish ham bo‘ladi.",
+
+12: "Ulardan oldin Nuh qavmi, Rass egalari va Samud ham yolg‘on qilgan edi.",
+
+13: "Od, Fir’avn va Lutning birodarlari ham.",
+
+14: "Va daraxtzor egalari hamda Tubba’ qavmi. Ularning barchasi Rasulchilarni yolg‘onchi qildilar. Bas, Mening va’dam haq bo‘ldi.",
+
+15: "Biz birinchi yaratishda ojiz bo‘ldikmi? Yo‘q, ular yangi yaratishdan shubhadadirlar.",
+
+16: "Darhaqiqat, insonni Biz yaratdik va uning nafsi unga nima vasvasa qilayotganini bilamiz. Biz unga bo‘yin tomiridan ham yaqinmiz.",
+
+17: "O‘ng va chap tomonda o‘tirgan ikki qabul qiluvchi uning gaplarini qabul qilib yozib turadi.",
+
+18: "U biror so‘z aytmasin, albatta, uning huzurida hozir bo‘lgan kuzatuvchi bordir.",
+
+19: "O‘lim mastligi Haq bilan keladi. «Mana shu sen qochib yurgan narsangdir», deyiladi.",
+
+20: "Sur chalinadi. Mana shu va’da qilingan kundir.",
+
+21: "Har bir jon o‘zi bilan bir haydovchi va guvoh bo‘lgan holda keladi.",
+
+22: "«Sen bundan beparvo eding. Bas, bugun sendan pardangni ochdik va bugun ko‘zing o‘tkirdir», deyiladi.",
+
+23: "Uning hamrohi: «Mana bu mening huzurimda tayyor narsadir», deydi.",
+
+24: "«Har bir qaysar kofirni jahannamga tashlanglar».",
+
+25: "«Yaxshilikka to‘sqinlik qiluvchi, tajovuzkor va shubha qiluvchini».",
+
+26: "«U ALLAH bilan birga boshqa iloh tutgan edi. Bas, uni qattiq azobga tashlanglar».",
+
+27: "Uning hamrohi (shayton): «Ey Robbimiz! Men uni haddan oshishga majburlamadim, balki u o‘zi uzoq adashishda edi», deydi.",
+
+28: "U (ALLAH): «Mening huzurimda tortishmanglar. Men sizlarga oldindan ogohlantirish yuborgan edim», deydi.",
+
+29: "«Mening huzurimda so‘z o‘zgartirilmaydi va Men bandalarga zulm qiluvchi emasman».",
+
+30: "O‘sha kuni jahannamga: «To‘ldingmi?» deymiz. U: «Yana bormi?» deydi.",
+
+31: "Jannat esa taqvodorlarga yaqinlashtiriladi, u uzoq bo‘lmagan joydadir.",
+
+32: "«Bu sizlarga va’da qilingan narsadir. U har bir qaytuvchi va saqlanuvchi kishi uchundir».",
+
+33: "«Rahmondan g‘oyibona qo‘rqqan va qaytuvchi qalb bilan kelgan kishi uchun».",
+
+34: "«Unga tinchlik bilan kiringlar. Bu abadiy qolish kunidir».",
+
+35: "Ular uchun u yerda xohlagan narsalari bordir. Bizning huzurimizda esa undan ham ziyodasi bordir.",
+
+36: "Ulardan oldin Biz ulardan kuchliroq qancha avlodlarni halok qildik. Ular shaharlarda izlab yurardilar. Qochadigan joy bormi?",
+
+37: "Albatta, bunda qalbi bor yoki quloq solib, guvoh bo‘lgan kishi uchun eslatma bordir.",
+
+38: "Darhaqiqat, Biz osmonlaru yerni va ular orasidagi narsalarni olti kunda yaratdik va Bizga charchoq yetmadi.",
+
+39: "Bas, ular aytayotgan narsalarga sabr qilgin va quyosh chiqishidan oldin hamda botishidan oldin Robbingga hamd bilan tasbeh ayt.",
+
+40: "Kechaning ba’zi vaqtlarida va sajdalardan keyin ham Uni poklab yod et.",
+
+41: "Nido qiluvchi yaqin joydan nido qiladigan kunni tinglagin.",
+
+42: "Ular Haq bo‘lgan qichqiriqni eshitadigan kun. Mana shu chiqish kunidir.",
+
+43: "Albatta, Biz tiriltiramiz va o‘ldiramiz. Qaytish Bizning huzurimizgadir.",
+
+44: "U kuni yer yorilib, ular undan tez chiqadilar. Bu Biz uchun oson jamlashdir.",
+
+45: "Biz ularning nima deyayotganlarini yaxshi bilamiz. Sen ularni majburlovchi emassan. Bas, Mening ogohlantirishimdan qo‘rqadigan kishilarga Qur’on bilan eslatma ber.",
+},
+51: {
+1: "Sochib yuboruvchi shamollar bilan qasam.",
+
+2: "Yuk ko‘taruvchi bulutlar bilan qasam.",
+
+3: "Yengil suzuvchi kemalar bilan qasam.",
+
+4: "Ishni taqsimlovchi (malaikalar) bilan qasam.",
+
+5: "Albatta, sizlarga va’da qilinayotgan narsa rostdir.",
+
+6: "Albatta, jazo albatta sodir bo‘ladi.",
+
+7: "Yo‘llarga ega bo‘lgan osmon bilan qasam.",
+
+8: "Albatta, sizlar turli-tuman so‘zlardasizlar.",
+
+9: "Undan yuz o‘giriladigan kishi undan buriladi.",
+
+10: "Yolg‘onchilarga la’nat bo‘lsin.",
+
+11: "Ular g‘aflat ichida cho‘kkanlardir.",
+
+12: "«Jazo kuni qachon?» deb so‘raydilar.",
+
+13: "U kun ular olovda sinaladilar.",
+
+14: "«Azobingizni totib ko‘ringlar. Mana shu sizlar tezlashtirishni so‘ragan narsangizdir».",
+
+15: "Albatta, taqvodorlar bog‘larda va buloqlardadir.",
+
+16: "Robbilari bergan narsalarni oluvchilardir. Chunki ular bundan oldin yaxshilik qiluvchilar edilar.",
+
+17: "Ular kechalari oz uxlar edilar.",
+
+18: "Saharlarda esa mag‘firat so‘rar edilar.",
+
+19: "Ularning mollarida so‘rovchi va mahrum uchun haq bor edi.",
+
+20: "Yerda qat’iy ishonadiganlar uchun oyatlar bordir.",
+    
+21: "Va o‘zlaringizda ham (oyatlar bordir). Nahotki ko‘rmayapsizlar?",
+
+22: "Osmondagi rizqingiz va sizlarga va’da qilinayotgan narsalar bordir.",
+
+23: "Bas, osmonu yer Robbisiga qasamki, albatta, bu sizlarning gapirishingiz kabi haqdir.",
+
+24: "Senga Ibrohimning hurmatli mehmonlari haqidagi xabar keldimi?",
+
+25: "Ular uning huzuriga kirib: «Salom», dedilar. U: «Salom, notanish qavm», dedi.",
+
+26: "So‘ng u ahli oldiga borib, semiz buzoq keltirdi.",
+
+27: "Uni ularga yaqin qo‘yib: «Yemaysizlarmi?» dedi.",
+
+28: "Ulardan qo‘rquv sezdi. Ular: «Qo‘rqma», dedilar va unga bilimli o‘g‘il haqida xushxabar berdilar.",
+
+29: "Shunda uning xotini baqirib keldi, yuziga urib: «Men keksa, bepusht ayolman», dedi.",
+
+30: "Ular: «Shunday dedi Robbing. Albatta, U Hikmat Egasi va Biluvchidir», dedilar.",
+
+31: "U: «Ey elchilar! Ishingiz nima?» dedi.",
+
+32: "Ular dedilar: «Biz jinoyatchi qavmga yuborildik».",
+
+33: "«Ularning ustiga loydan bo‘lgan toshlarni yuboramiz».",
+
+34: "«Robbing huzurida haddan oshuvchilar uchun belgilangandir».",
+
+35: "Bas, u yerdagi mo‘minlardan bo‘lganlarni chiqarib oldik.",
+
+36: "U yerda faqat bir musulmon xonadonini topdik.",
+
+37: "Va alamli azobdan qo‘rqadiganlar uchun u yerda bir oyat qoldirdik.",
+
+38: "Musoda ham (ibrat bor). Biz uni ochiq dalil bilan Fir’avnga yuborgan edik.",
+
+39: "U o‘z lashkari bilan yuz o‘girib: «Bu sehrgar yoki majnundir», dedi.",
+
+40: "Bas, Biz uni va uning lashkarlarini tutib, dengizga uloqtirdik. U ayblanuvchi edi.",
+
+41: "Odda ham (ibrat bor edi). Biz ularga halokatli shamol yuborgan edik.",
+
+42: "U tegib o‘tgan narsani hech narsasiz qoldirmas, balki uni chirigan suyak kabi qilib qo‘yardi.",
+
+43: "Samudda ham (ibrat bor edi). Ularga: «Bir muddatgacha foydalaninglar», deyilgandi.",
+
+44: "Ular Robbilarining amridan bosh tortdilar. Bas, ularni ko‘rib turgan holida chaqmoq tutdi.",
+
+45: "Ular na turishga qodir bo‘ldilar va na yordam topdilar.",
+
+46: "Nuh qavmini ham (halok qildik). Albatta, ular fosiq qavm edilar.",
+
+47: "Osmonni Biz qudrat bilan qurdik va albatta, Biz kengaytiruvchimiz.",
+
+48: "Yerni esa yoydik. Biz qanday yaxshi yoyuvchimiz.",
+
+49: "Har narsadan juft-juft yaratdik. Shoyad eslatma olsangizlar.",
+
+50: "Bas, ALLAH tomon qochinglar. Albatta, men sizlar uchun Undan ochiq ogohlantiruvchiman.",
+
+51: "ALLAH bilan birga boshqa iloh qo‘ymanglar. Albatta, men sizlar uchun Undan ochiq ogohlantiruvchiman.",
+
+52: "Shuningdek, ulardan oldingilarga ham biror Rasul kelmasin, ular: «Sehrgar yoki majnun», degan edilar.",
+
+53: "Ular bir-birlariga shuni vasiyat qildilarmi? Yo‘q, ular tajovuzkor qavmdirlar.",
+
+54: "Bas, ulardan yuz o‘girgin. Sen malomat qilinuvchi emassan.",
+
+55: "Eslatgin, albatta, eslatma mo‘minlarga foyda beradi.",
+
+56: "Men jinlar va insonlarni faqat Menga ibodat qilishlari uchun yaratdim.",
+
+57: "Men ulardan hech qanday rizq istamayman va ular Meni taomlantirishlarini ham istamayman.",
+
+58: "Albatta, ALLAHning O‘zi Rizq beruvchi, quvvat Sohibi va Mustahkam Zotdir.",
+
+59: "Bas, zulm qilganlar uchun ham ulardan oldingi hamrohlariga berilgan nasib kabi nasib bordir. Bas, ular Mendan shoshilishni so‘ramasinlar.",
+
+60: "Kofir bo‘lganlarga va’da qilingan kunlari sababli voy bo‘lsin.",
+},
+52: {
+1: "Tur bilan qasam.",
+
+2: "Yozilgan Kitob bilan qasam.",
+
+3: "Ochiq sahifaga yoyilgan (Kitob) bilan qasam.",
+
+4: "Va obod qilingan Bayt bilan qasam.",
+
+5: "Va baland ko‘tarilgan tom bilan qasam.",
+
+6: "Va to‘lib-toshgan dengiz bilan qasam.",
+
+7: "Albatta, Robbingning azobi sodir bo‘ladi.",
+
+8: "Uni qaytaruvchi hech narsa yo‘qdir.",
+
+9: "Osmon silkinib harakat qiladigan kunda.",
+
+10: "Tog‘lar yurib ketadigan kunda.",
+
+11: "Bas, o‘sha kuni yolg‘onchilarga halokat bo‘lsin.",
+
+12: "Ular behuda narsalar ichida o‘ynab yuradiganlardir.",
+
+13: "O‘sha kuni ular jahannam oloviga zo‘rlab suriladilar.",
+
+14: "«Mana shu sizlar yolg‘on deb yurgan olovdir», deyiladi.",
+
+15: "«Bu sehrmi? Yoki sizlar ko‘rmayapsizlarmi?»",
+
+16: "«Unga kiringlar! Sabr qilsangizlar ham, sabr qilmasangizlar ham sizlar uchun barobardir. Sizlar faqat qilgan amallaringiz bilan jazolanasizlar».",
+
+17: "Albatta, taqvodorlar jannatlar va ne’mat ichidadirlar.",
+
+18: "Robbilari bergan narsalaridan xursanddirlar. Robbilari ularni jahannam azobidan saqladi.",
+
+19: "«Qilgan amallaringiz sababli xotirjam holda yeb-ichinglar», (deyiladi).",
+
+20: "Ular qator tizilgan taxtlarda suyanib o‘tirurlar. Biz ularni katta ko‘zli hur juftlarga uylantiramiz.",
+
+21: "Iymon keltirgan va zurriyotlari ham iymonda ularga ergashganlarga Biz zurriyotlarini qo‘shamiz. Ularning amallaridan hech narsani kamaytirmaymiz. Har bir inson o‘z qilganiga garovdir.",
+
+22: "Biz ularga istagan mevalar va go‘shtlardan ziyoda qilamiz.",
+
+23: "Ular u yerda bir-birlariga qadah uzatadilar. Unda behuda gap ham, gunohga undovchi so‘z ham bo‘lmaydi.",
+
+24: "Ularning atrofida xuddi asralgan marvaridlardek bo‘lgan yosh xizmatkorlar aylanib yuradilar.",
+
+25: "Ular bir-birlariga yuzlanib savol beradilar.",
+
+26: "Ular aytadilar: «Biz bundan oldin oilalarimiz ichida qo‘rqib yashar edik».",
+
+27: "«Bas, ALLAH bizga marhamat qildi va bizni kuydiruvchi azobdan saqladi».",
+
+28: "«Albatta, biz oldin Unga duo qilardik. Shubhasiz, U yaxshilik qiluvchi va Rahmlidir».",
+
+29: "Bas, eslatgin. Sen Robbingning ne’mati bilan na kohin va na majnunsan.",
+
+30: "Yoki ular: «U shoirdir, biz unga zamonning ofatini kutmoqdamiz», deydilarmi?",
+
+31: "Ayting: «Kutinglar. Men ham sizlar bilan birga kutuvchilardandirman».",
+
+32: "Yoki ularni aql-idroklari shunga buyuradimi? Yoki ular tajovuzkor qavmmi?",
+
+33: "Yoki ular: «U uni to‘qib chiqardi», deydilarmi? Yo‘q, ular iymon keltirmaydilar.",
+
+34: "Bas, agar rostgo‘y bo‘lsalar, unga o‘xshash bir so‘z keltirsinlar.",
+
+35: "Yoki ular hech narsasiz yaratildilarmi? Yoki o‘zlari yaratuvchilarmi?",
+
+36: "Yoki ular osmonlaru yerni yaratdilarmi? Yo‘q, ular ishonmaydilar.",
+
+37: "Yoki Robbingning xazinalari ularning huzuridami? Yoki ular hukmronlik qiluvchilarmi?",
+
+38: "Yoki ularning eshitib oladigan bir narvoni bormi? Bas, ularning eshituvchisi ochiq hujjat keltirsin.",
+
+39: "Yoki Unga qizlar tegishlimi, sizlarga esa o‘g‘illar tegishlimi?",
+
+40: "Yoki sen ulardan haq so‘rayapsanmi, bas, ular qarz yukidan qiynalmoqdalar?",
+
+41: "Yoki ularda g‘ayb ilmi bormi, bas, ular yozib olmoqdalar?",
+
+42: "Yoki ular bir hiyla qilmoqchimi? Kofirlarning o‘zlari hiyla qilinganlardir.",
+
+43: "Yoki ularning ALLAHdan boshqa ilohi bormi? ALLAH ularning shirk qilayotgan narsalaridan pokdir.",
+
+44: "Agar ular osmondan bir bo‘lak tushayotganini ko‘rsalar ham: «Bu ustma-ust yig‘ilgan bulutdir», deydilar.",
+
+45: "Bas, ular o‘zlariga duch keladigan kunlariga yetgunlaricha ularni tark et.",
+
+46: "U kuni ularning hiylalari ularga hech narsada foyda bermaydi va ularga yordam berilmaydi.",
+
+47: "Albatta, zulm qilganlar uchun bundan boshqa ham azob bordir. Lekin ularning ko‘pchiligi bilmaydilar.",
+
+48: "Robbingning hukmiga sabr qilgin. Albatta, sen Bizning ko‘z o‘ngimizdasan. Turib turganingda Robbingni hamd bilan tasbeh ayt.",
+
+49: "Kechaning bir qismida va yulduzlar botayotgan paytda ham Uni tasbeh ayt.",
+},
+53: {
+1: "Yulduz botgan paytda qasam.",
+
+2: "Sizlarning hamrohingiz adashmadi va yo‘ldan ozmadi.",
+
+3: "U havoyi nafsidan gapirmaydi.",
+
+4: "U faqat vahiy qilinayotgan vahiydir.",
+
+5: "Unga kuchli quvvat egasi ta’lim berdi.",
+
+6: "U qudratli Zotdir. Bas, u tik turdi.",
+
+7: "U eng baland ufqda edi.",
+
+8: "So‘ng yaqinlashdi va pastladi.",
+
+9: "Ikki kamon masofasicha yoki undan ham yaqinroq bo‘ldi.",
+
+10: "Bas, U bandasiga vahiy qiladigan narsasini vahiy qildi.",
+
+11: "Qalb ko‘rgan narsasini yolg‘on demadi.",
+
+12: "Bas, sizlar u ko‘rgan narsa haqida u bilan tortishasizlarmi?",
+
+13: "Darhaqiqat, u uni boshqa bir tushishda ham ko‘rdi.",
+
+14: "Sidratul Muntaho huzurida.",
+
+15: "Uning yonida Ma’vo jannati bordir.",
+
+16: "O‘sha paytda Sidrani qoplagan narsa qopladi.",
+
+17: "Ko‘z og‘madi va haddidan oshmadi.",
+
+18: "Darhaqiqat, u Robbisining buyuk oyatlaridan ba’zilarini ko‘rdi.",
+
+19: "Lot va Uzzo haqida xabar beringlar-chi?",
+
+20: "Va uchinchisi bo‘lgan boshqa Manot haqida ham.",
+
+21: "Sizlar uchun o‘g‘illar, U uchun esa qizlar (bo‘ladimi)?",
+
+22: "Bu adolatsiz taqsimdir.",
+
+23: "Ular faqat sizlar va ota-bobolaringiz nomlagan nomlardir. ALLAH ular haqida hech qanday dalil tushirmagan. Ular faqat gumon va nafslarining istagiga ergashadilar. Holbuki, ularga Robbilari tomonidan hidoyat kelgan edi.",
+
+24: "Yoki inson uchun har xohlagan narsasi bormi?",
+
+25: "Oxirat ham, dunyo ham ALLAHnikidir.",
+
+26: "Osmonlarda qancha malaikalar bo‘lmasin, ularning shafoati hech narsaga yaramaydi. Faqat ALLAH xohlagan va rozi bo‘lgan kishiga izn berganidan keyingina (foyda beradi).",
+
+27: "Albatta, oxiratga iymon keltirmaydiganlar malaikalarni ayol nomlari bilan ataydilar.",
+
+28: "Holbuki, ular bunga hech qanday ilmga ega emaslar. Ular faqat gumonga ergashadilar. Gumon esa Haq oldida hech narsaga arzimaydi.",
+
+29: "Bas, Bizning zikrimizdan yuz o‘girgan va faqat dunyo hayotini istagan kishidan yuz o‘girgin.",
+
+30: "Mana shu ularning ilm chegarasidir. Albatta, Robbing O‘z yo‘lidan adashgan kishini yaxshi biladi va hidoyat topgan kishini ham yaxshi biladi.",
+
+31: "Osmonlaru yerdagi narsalar ALLAHnikidir. U yomonlik qilganlarni qilgan ishlariga yarasha jazolaydi va yaxshilik qilganlarni eng go‘zal mukofot bilan mukofotlaydi.",
+
+32: "Ular katta gunohlardan va fahsh ishlardan chetlanadiganlardir, faqat ba’zi kichik xatolar bundan mustasno. Albatta, Robbingning mag‘firati kengdir. U sizlarni yerda yaratgan paytingizda ham va onalaringiz qornida homila bo‘lgan paytingizda ham sizlarni yaxshi bilardi. Bas, o‘zlaringizni poklamanglar. U taqvodorni yaxshi biluvchidir.",
+
+33: "Ko‘rdingmi yuz o‘girgan kishini?",
+
+34: "U ozgina berdi va to‘xtatdi.",
+
+35: "Uning huzurida g‘ayb ilmi bormi, bas, u ko‘rib turibdimi?",
+
+36: "Yoki unga Musoning sahifalaridagi narsa xabar qilinmadimi?",
+
+37: "Va va’dasiga vafo qilgan Ibrohimning sahifalaridagi narsa hammi?",
+
+38: "Hech bir yuk ko‘taruvchi boshqa birovning yukini ko‘tarmaydi.",
+
+39: "Inson uchun faqat o‘zi qilgan harakati bordir.",
+
+40: "Va uning harakati tez orada ko‘rinadi.",
+
+41: "So‘ngra unga uning harakati to‘liq beriladi.",
+
+42: "Va albatta, oxirgi borish Robbing huzurigadir.",
+
+43: "Va albatta, U kuldiradi va yig‘latadi.",
+
+44: "Va albatta, U o‘ldiradi va tiriltiradi.",
+
+45: "Va albatta, juftlarni — erkak va ayolni yaratdi.",
+
+46: "Otib chiqariladigan bir tomchidan.",
+
+47: "Va albatta, ikkinchi yaratish Uning zimmasidadir.",
+
+48: "Va albatta, U boy qiladi va qanoatlantiradi.",
+
+49: "Va albatta, U Sirius yulduzining Robbisidir.",
+
+50: "Va albatta, U avvalgi Odni halok qildi.",
+
+51: "Va Samudni ham. Bas, hech kimni qoldirmadi.",
+
+52: "Va undan oldin Nuh qavmini ham. Albatta, ular juda zolim va haddan oshuvchi edilar.",
+
+53: "Va ag‘darilgan shaharlarni ham U qulatdi.",
+
+54: "Bas, ularni qoplagan narsa qopladi.",
+
+55: "Bas, Robbingning qaysi ne’matlari haqida shubha qilasan?",
+
+56: "Bu oldingi ogohlantiruvchilardan bir ogohlantiruvchidir.",
+
+57: "Yaqinlashuvchi (Qiyomat) yaqinlashdi.",
+
+58: "Uni ALLAHdan boshqa hech kim oshkor qila olmaydi.",
+
+59: "Sizlar mana shu so‘zdan ajablanasizlarmi?",
+
+60: "Kulib, yig‘lamaysizlarmi?",
+
+61: "Va g‘aflatda o‘ynab yuribsizlarmi?",
+
+62: "Bas, ALLAHga sajda qilinglar va ibodat qilinglar.",
+},
+54: {
+1: "Soat yaqinlashdi va oy yorildi.",
+
+2: "Agar ular biror oyatni ko‘rsalar, yuz o‘giradilar va: «Bu davom etadigan sehrdir», deydilar.",
+
+3: "Ular yolg‘onladilar va havoyi nafslariga ergashdilar. Har bir ishning qaror topadigan vaqti bordir.",
+
+4: "Darhaqiqat, ularga qaytaruvchi bo‘lgan xabarlar keldi.",
+
+5: "Mukammal hikmat. Lekin ogohlantirishlar foyda bermadi.",
+
+6: "Bas, ulardan yuz o‘girgin. Nido qiluvchi noma’lum bir narsaga chaqiradigan kunni kutgin.",
+
+7: "Ular ko‘zlari xorlangan holda qabrlardan chiqadilar, xuddi yoyilgan chigirtkalardek tarqaladilar.",
+
+8: "Nido qiluvchi tomon shoshilib boradilar. Kofirlar: «Bu og‘ir kundir», deydilar.",
+
+9: "Ulardan oldin Nuh qavmi ham yolg‘on qildi. Ular bandamizni yolg‘onchi dedilar va: «Majo‘nun», dedilar. Unga to‘sqinlik qilindi.",
+
+10: "Bas, u Robbisiga duo qildi: «Men mag‘lub bo‘ldim, menga yordam ber».",
+
+11: "Bas, Biz osmon eshiklarini quyilib keluvchi suv bilan ochdik.",
+
+12: "Va yerni buloqlar qilib otiltirdik. Bas, suv belgilangan ish uchun qo‘shildi.",
+
+13: "Uni taxtalar va mixlar bilan yasalgan narsada ko‘tardik.",
+
+14: "U Bizning ko‘z o‘ngimizda yurardi. Bu inkor qilingan kishi uchun mukofot edi.",
+
+15: "Darhaqiqat, Biz uni bir oyat qilib qoldirdik. Bas, ibrat oluvchi bormi?",
+
+16: "Bas, Mening azobim va ogohlantirishlarim qanday bo‘ldi?",
+
+17: "Darhaqiqat, Biz Qur’onni eslatma uchun oson qildik. Bas, eslatma oluvchi bormi?",
+
+18: "Od qavmi ham yolg‘on qildi. Bas, Mening azobim va ogohlantirishlarim qanday bo‘ldi?",
+
+19: "Albatta, Biz ularga davomli baxtsiz kunda sovuq shamol yubordik.",
+
+20: "U odamlarni ildizidan sug‘urilgan xurmo tanalaridek yiqitar edi.",
+    
+21: "Bas, Mening azobim va ogohlantirishlarim qanday bo‘ldi?",
+
+22: "Darhaqiqat, Biz Qur’onni eslatma uchun oson qildik. Bas, eslatma oluvchi bormi?",
+
+23: "Samud ham ogohlantirishlarni yolg‘on qildi.",
+
+24: "Ular: «Oramizdan bir insonga ergashamizmi? Unda biz adashgan va telba bo‘lib qolamiz-ku», dedilar.",
+
+25: "«Zikr oramizdan unga tushirildimi? Yo‘q, u yolg‘onchi va haddidan oshuvchidir».",
+
+26: "Ertaga ular kim yolg‘onchi va haddidan oshuvchi ekanini bilib oladilar.",
+
+27: "Albatta, Biz ularni sinash uchun urg‘ochi tuyani yuboruvchimiz. Bas, ularni kuzatgin va sabr qilgin.",
+
+28: "Ularga suvning ular bilan uning orasida taqsimlanganini xabar qilgin. Har bir ichish navbati kuzatilgandir.",
+
+29: "Bas, ular sheriklarini chaqirdilar. U esa (tuyani) oldi va uni so‘ydi.",
+
+30: "Bas, Mening azobim va ogohlantirishlarim qanday bo‘ldi?",
+
+31: "Albatta, Biz ularga birgina qichqiriq yubordik. Bas, ular qurigan daraxt shoxlaridek bo‘lib qoldilar.",
+
+32: "Darhaqiqat, Biz Qur’onni eslatma uchun oson qildik. Bas, eslatma oluvchi bormi?",
+
+33: "Lut qavmi ham ogohlantirishlarni yolg‘on qildi.",
+
+34: "Albatta, Biz ularga tosh otuvchi shamol yubordik. Faqat Lut oilasini sahar paytida najot qildik.",
+
+35: "O‘z huzurimizdan bo‘lgan ne’mat sifatida. Biz shukr qiluvchini shunday mukofotlaymiz.",
+
+36: "U ularni Bizning jazomizdan ogohlantirgan edi. Ammo ular ogohlantirishlarga shubha qildilar.",
+
+37: "Ular undan mehmonlarini talab qildilar. Bas, Biz ularning ko‘zlarini ko‘r qildik. «Azobim va ogohlantirishlarimni totib ko‘ringlar», dedik.",
+
+38: "Ertalab ularga doimiy azob yetdi.",
+
+39: "«Azobim va ogohlantirishlarimni totib ko‘ringlar».",
+
+40: "Darhaqiqat, Biz Qur’onni eslatma uchun oson qildik. Bas, eslatma oluvchi bormi?",
+    
+41: "Darhaqiqat, Fir’avn oilasiga ham ogohlantirishlar keldi.",
+
+42: "Ular Bizning barcha oyatlarimizni yolg‘on qildilar. Bas, Biz ularni Aziz va Qodir Zotning tutishi bilan tutdik.",
+
+43: "Sizlarning kofirlaringiz ulardan yaxshiroqmi? Yoki kitoblarda sizlar uchun ozodlik yozilganmi?",
+
+44: "Yoki ular: «Biz g‘olib bo‘ladigan bir jamoatmiz», deydilarmi?",
+
+45: "Tez orada o‘sha jamoat mag‘lub bo‘ladi va ular orqalarini o‘girib qochadilar.",
+
+46: "Yo‘q, Soat ularning va’dasidir. Soat yanada dahshatliroq va achchiqroqdir.",
+
+47: "Albatta, jinoyatchilar adashish va olov ichidadirlar.",
+
+48: "U kuni ular yuzlari bilan olovga sudraladilar. «Jahannam tegishini totib ko‘ringlar», deyiladi.",
+
+49: "Albatta, Biz har narsani o‘lchov bilan yaratdik.",
+
+50: "Bizning amrimiz faqat bir so‘zdir, ko‘z ochib yumguncha bo‘ladi.",
+
+51: "Darhaqiqat, Biz sizlarga o‘xshaganlarni halok qildik. Bas, eslatma oluvchi bormi?",
+
+52: "Ularning qilgan barcha ishlari kitoblarda bordir.",
+
+53: "Kichik va katta barcha narsa yozib qo‘yilgandir.",
+
+54: "Albatta, taqvodorlar bog‘lar va anhorlar ichidadirlar.",
+
+55: "Qodir Podshoh huzurida rost maqomdadirlar.",
+},
+55: {
+1: "Rahmon.",
+
+2: "U Qur’onni o‘rgatdi.",
+
+3: "Insonni yaratdi.",
+
+4: "Unga bayon qilishni o‘rgatdi.",
+
+5: "Quyosh va oy hisob bilan harakat qilur.",
+
+6: "O‘t-o‘lanlar va daraxtlar Unga sajda qilurlar.",
+
+7: "U osmonni ko‘tardi va tarozi (mezon)ni qo‘ydi.",
+
+8: "Toki tarozida haddan oshmanglar.",
+
+9: "Va o‘lchovni adolat bilan to‘liq qilinglar, tarozini kamaytirmanglar.",
+
+10: "U yerni maxluqot uchun qo‘ydi.",
+
+11: "Unda mevalar va g‘ilofli xurmo daraxtlari bordir.",
+
+12: "Va donli ekinlar hamda xushbo‘y o‘simliklar bordir.",
+
+13: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+14: "U insonni sopol kabi jarangdor loydan yaratdi.",
+
+15: "Jinni esa olov alangasidan yaratdi.",
+
+16: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+17: "U ikki mashriqning ham, ikki mag‘ribning ham Robbidir.",
+
+18: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+19: "U ikki dengizni qo‘shib yubordi, ular uchrashadilar.",
+
+20: "Ularning orasida to‘siq bor, ular oshib o‘tmaydilar.",
+    
+21: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+22: "Ulardan marvarid va marjonlar chiqadi.",
+
+23: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+24: "Dengizda tog‘lardek suzuvchi kemalar Unikidir.",
+
+25: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+26: "Yer yuzidagi barcha narsalar foniydir.",
+
+27: "Faqat ulug‘lik va ikrom Egasi bo‘lgan Robbingning Zoti boqiy qoladi.",
+
+28: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+29: "Osmonlaru yerdagi barcha mavjudot Undan so‘raydi. U har kuni bir ishda bo‘ladi.",
+
+30: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+31: "Ey ikki og‘ir yuk (insonlar va jinlar)! Tez orada sizlar bilan hisob-kitob qilamiz.",
+
+32: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+33: "Ey jinlar va insonlar jamoasi! Agar osmonlaru yer chegaralaridan o‘tishga qodir bo‘lsangizlar, o‘tinglar. Lekin qudratsiz o‘ta olmaysizlar.",
+
+34: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+35: "Sizlarga olov alangasi va tutun yuboriladi, bas, yordam bera olmaysizlar.",
+
+36: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+37: "Osmon yorilib, qizil atirgul kabi bo‘lib qolganida.",
+
+38: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+39: "U kuni na insondan, na jindan gunohi haqida so‘raladi.",
+
+40: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+    
+41: "Jinoyatchilar o‘z belgilaridan taniladilar. Bas, ularning peshonalari va oyoqlaridan ushlanurlar.",
+
+42: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+43: "Mana shu jinoyatchilar yolg‘on deb yurgan jahannamdir.",
+
+44: "Ular u bilan qaynoq suv orasida aylanib yuradilar.",
+
+45: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+46: "Robbisining huzurida turishdan qo‘rqqan kishi uchun ikki jannat bordir.",
+
+47: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+48: "Ular turli-tuman shoxli daraxtlarga egadir.",
+
+49: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+50: "U ikkala jannatda oqib turuvchi ikki buloq bordir.",
+
+51: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+52: "U ikkala jannatda har xil mevalardan ikki juft bordir.",
+
+53: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+54: "Ular astari ipakdan bo‘lgan to‘shaklarga suyanib yotadilar. Ikki jannatning mevalari yaqin qilib qo‘yilgandir.",
+
+55: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+56: "U yerda ko‘zlarini faqat juftlariga qaratgan hur ayollar bordir. Ulardan oldin ularga na inson, na jin tegmagan.",
+
+57: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+58: "Ular go‘yo yoqut va marjondirlar.",
+
+59: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+60: "Yaxshilikning mukofoti faqat yaxshilik emasmi?",
+
+61: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+62: "Bu ikkala jannatdan tashqari yana ikki jannat bordir.",
+
+63: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+64: "Ular to‘q yashil rangdadir.",
+
+65: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+66: "U ikkalasida otilib chiqadigan ikki buloq bordir.",
+
+67: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+68: "U ikkalasida mevalar, xurmo va anorlar bordir.",
+
+69: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+70: "U yerda go‘zal xulqli va chiroyli ayollar bordir.",
+
+71: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+72: "Ular chodirlarda asralgan hur ayollardir.",
+
+73: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+74: "Ulardan oldin ularga na inson, na jin tegmagan.",
+
+75: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+76: "Ular yashil yostiqlarga va go‘zal gilamlarga suyanib o‘tirurlar.",
+
+77: "Bas, Robbingizning qaysi ne’matlarini inkor qilasizlar?",
+
+78: "Ulug‘lik va ikrom Egasi bo‘lgan Robbingizning ismi barakotlidir.",
+},
+56: {
+1: "Voqea sodir bo‘lganida,",
+
+2: "Uning sodir bo‘lishini inkor qiluvchi bo‘lmas.",
+
+3: "U past qiluvchi va baland qiluvchidir.",
+
+4: "Yer qattiq silkinganida,",
+
+5: "Tog‘lar parcha-parcha maydalanganida,",
+
+6: "Bas, ular sochilgan changga aylanganida.",
+
+7: "Sizlar uch guruh bo‘lasizlar.",
+
+8: "O‘ng tomon egalari. O‘ng tomon egalari qandaydir!",
+
+9: "Chap tomon egalari. Chap tomon egalari qandaydir!",
+
+10: "Va oldinga o‘tganlar — ular oldingilardir.",
+
+11: "Ana o‘shalar yaqin qilinganlardir.",
+
+12: "Ne’mat bog‘laridadirlar.",
+
+13: "Ularning ko‘pchiligi avvalgilardandir.",
+
+14: "Va ozginasi keyingilardandir.",
+
+15: "Ular bezatilgan taxtlar ustidadirlar.",
+
+16: "Unga suyanib, bir-birlariga yuzlanib o‘tirurlar.",
+
+17: "Ularning atrofida abadiy yosh xizmatkorlar aylanib yuradilar.",
+
+18: "Qadahlar, ko‘zalar va oqar sharob kosalari bilan.",
+
+19: "Undan bosh og‘rig‘i ham, aql ketishi ham bo‘lmas.",
+
+20: "Va ular tanlagan mevalar bilan.",
+
+21: "Va ular istagan qush go‘shtlari bilan.",
+
+22: "Va katta ko‘zli hur juftlar bilan.",
+
+23: "Go‘yo ular yashirilgan marvaridlardekdir.",
+
+24: "Qilgan amallariga mukofot sifatida.",
+
+25: "U yerda behuda gap va gunohga undovchi so‘zlarni eshitmaydilar.",
+
+26: "Faqat: «Salom! Salom!» degan so‘zni (eshitadilar).",
+
+27: "O‘ng tomon egalari — o‘ng tomon egalari qandaydir!",
+
+28: "Ular tikansiz sidr daraxtlari orasidadir.",
+
+29: "Va shoxlari egilgan banan daraxtlari orasidadir.",
+
+30: "Va cho‘zilgan soyalar ostidadir.",
+
+31: "Oqib turgan suvlar yonidadir.",
+
+32: "Ko‘p mevalar orasidadir.",
+
+33: "Ular uzilmaydi va taqiqlanmaydi.",
+
+34: "Va ko‘tarilgan to‘shaklar ustidadir.",
+
+35: "Albatta, Biz ularni yangidan yaratdik.",
+
+36: "Bas, ularni bokira qildik.",
+
+37: "Erlariga mehribon va tengdosh qildik.",
+
+38: "O‘ng tomon egalari uchundir.",
+
+39: "Ularning ko‘pchiligi avvalgilardandir.",
+
+40: "Va ularning ko‘pchiligi keyingilardandir.",
+
+41: "Chap tomon egalari — chap tomon egalari qandaydir!",
+
+42: "Ular kuydiruvchi shamol va qaynoq suv ichidadirlar.",
+
+43: "Va qora tutun soyasidalar.",
+
+44: "U na salqin, na yoqimlidir.",
+
+45: "Albatta, ular bundan oldin farovonlikda haddan oshgan edilar.",
+
+46: "Va ular ulkan gunohda davom etar edilar.",
+
+47: "Ular der edilar: «Biz o‘lib, tuproq va suyak bo‘lganimizdan keyin yana tiriltirilamizmi?»",
+
+48: "«Yoki avvalgi ota-bobolarimiz hammi?»",
+
+49: "Ayting: «Albatta, avvalgilar ham, keyingilar ham».",
+
+50: "«Ma’lum bir kunning belgilangan vaqtida jamlanadilar».",
+
+51: "So‘ngra, ey adashgan va yolg‘onchilar!",
+
+52: "Albatta, sizlar Zaqqum daraxtidan yeyuvchisizlar.",
+
+53: "Bas, qorinlaringizni undan to‘ldiruvchisizlar.",
+
+54: "So‘ngra uning ustidan qaynoq suv ichuvchisizlar.",
+
+55: "Va chanqagan tuya ichgani kabi ichuvchisizlar.",
+
+56: "Mana shu ularning jazo kunidagi mehmonligidir.",
+
+57: "Sizlarni Biz yaratdik. Bas, nega tasdiqlamaysizlar?",
+
+58: "Sizlar otayotgan narsangiz haqida o‘ylab ko‘rdingizmi?",
+
+59: "Uni sizlar yaratasizlarmi yoki Biz yaratuvchimizmi?",
+
+60: "Orangizda o‘limni Biz belgiladik va Biz ojiz emasmiz.",
+
+61: "Sizlarning o‘rningizga o‘xshashlaringizni almashtirishga va sizlarni bilmagan holingizda boshqa bir yaratishda paydo qilishga.",
+
+62: "Darhaqiqat, sizlar birinchi yaratilishni bildingiz. Bas, eslatma olmaysizlarmi?",
+
+63: "Sizlar ekayotgan narsangiz haqida o‘ylab ko‘rdingizmi?",
+
+64: "Uni sizlar o‘stirasizlarmi yoki Biz o‘stiruvchimizmi?",
+
+65: "Agar xohlasak, uni quruq cho‘p qilib qo‘yardik. Bas, sizlar hayratda qolardingizlar.",
+
+66: "«Albatta, biz qarzdor bo‘lib qoldik».",
+
+67: "«Balki biz butunlay mahrum qilinganmiz», der edingizlar.",
+
+68: "Sizlar ichayotgan suvingiz haqida o‘ylab ko‘rdingizmi?",
+
+69: "Uni bulutdan sizlar tushirdingizlarmi yoki Biz tushiruvchimizmi?",
+
+70: "Agar xohlasak, uni sho‘r qilib qo‘yardik. Bas, nega shukr qilmaysizlar?",
+
+71: "Sizlar yoqayotgan olovingiz haqida o‘ylab ko‘rdingizmi?",
+
+72: "Uning daraxtini sizlar yaratdingizlarmi yoki Biz yaratuvchimizmi?",
+
+73: "Biz uni eslatma va sahrodagilar uchun foyda qilib qo‘ydik.",
+
+74: "Bas, ulug‘ Robbingning nomini poklagin.",
+
+75: "Yo‘q, yulduzlarning joylariga qasam.",
+
+76: "Agar bilsangizlar, bu ulkan qasamdir.",
+
+77: "Albatta, u ulug‘ Qur’ondir.",
+
+78: "Saqlangan Kitobdadir.",
+
+79: "Unga faqat poklanganlar tegadilar.",
+
+80: "U olamlarning Robbidan nozil qilingandir.",
+
+81: "Bas, mana shu so‘zga bepisand qarayapsizlarmi?",
+
+82: "Va rizqingizni (ALLAHdan emas) yolg‘onni tasdiqlashga aylantiryapsizlarmi?",
+
+83: "Bas, jon halqumga yetgan paytda,",
+
+84: "Sizlar o‘sha paytda qarab turasizlar.",
+
+85: "Biz esa unga sizlardan ko‘ra yaqinroqmiz, lekin sizlar ko‘rmaysizlar.",
+
+86: "Agar sizlar hisob-kitob qilinmaydigan bo‘lsangizlar,",
+
+87: "Agar rostgo‘y bo‘lsangizlar, uni (jonni) qaytarib ko‘ringlar.",
+
+88: "Bas, agar u yaqin qilinganlardan bo‘lsa,",
+
+89: "Unga rohat, xushbo‘y rizq va ne’mat bog‘i bordir.",
+
+90: "Agar u o‘ng tomon egalari ichidan bo‘lsa,",
+
+91: "«Senga o‘ng tomon egalaridan bo‘lganlardan salom bo‘lsin», (deyiladi).",
+
+92: "Agar u yolg‘onchi va adashganlardan bo‘lsa,",
+
+93: "Unga qaynoq suvdan mehmonlik bordir.",
+
+94: "Va jahannamga kirish bordir.",
+
+95: "Albatta, bu aniq Haqdir.",
+
+96: "Bas, ulug‘ Robbingning nomini poklagin.",
+},
+57: {
+1: "Osmonlaru yerdagi barcha narsa ALLAHga tasbeh aytadi. U Aziz va Hikmat Egasi Zotdir.",
+
+2: "Osmonlaru yer mulki Unikidir. U tiriltiradi va o‘ldiradi. U har narsaga Qodirdir.",
+
+3: "U Avvaldir va Oxirdir, Zohirdir va Botindir. U har narsani Biluvchidir.",
+
+4: "U osmonlaru yerni olti kunda yaratgan, so‘ng Arsh ustida O‘z hukmini o‘rnatgan Zotdir. U yerga kiradigan va undan chiqadigan narsani, osmondan tushadigan va unga ko‘tariladigan narsani biladi. Qayerda bo‘lsangizlar ham, U sizlar bilan birgadir. ALLAH qilayotgan ishlaringizni Ko‘ruvchidir.",
+
+5: "Osmonlaru yer mulki Unikidir. Barcha ishlar ALLAHga qaytariladi.",
+
+6: "U kechani kunduzga kiritadi va kunduzni kechaga kiritadi. U ko‘kslardagi narsalarni Biluvchidir.",
+
+7: "ALLAHga va Uning Rasuliga iymon keltiringlar va sizlarni o‘rinbosar qilgan narsalardan sarflanglar. Sizlardan iymon keltirgan va sarflaganlar uchun ulkan mukofot bordir.",
+
+8: "Sizlarga nima bo‘ldiki, Rasul sizlarni Robbingizga iymon keltirishga chaqirayotgan bo‘lsa ham, ALLAHga iymon keltirmaysizlar? Holbuki, agar mo‘min bo‘lsangizlar, U sizlardan ahd olgan edi.",
+
+9: "U bandasi Muhammadga sizlarni zulmatlardan nurga chiqarish uchun ochiq oyatlarni nozil qiluvchi Zotdir. Albatta, ALLAH sizlarga Mehribon va Rahmlidir.",
+
+10: "Sizlarga nima bo‘ldiki, ALLAH yo‘lida sarflamaysizlar? Holbuki, osmonlaru yer merosi ALLAHnikidir. Fathdan oldin sarflagan va jang qilganlar keyin sarflagan va jang qilganlar bilan teng emasdir. Ularning darajasi kattaroqdir. ALLAH barchasiga go‘zal va’dani bergan. ALLAH qilayotgan ishlaringizdan Xabardordir.",
+
+11: "Kim ALLAHga chiroyli qarz bersa, U uni unga bir necha barobar qilib qaytaradi va unga ulug‘ mukofot bordir.",
+
+12: "Mo‘min erkaklar va mo‘min ayollarni ko‘rasan: nurlari oldilarida va o‘ng tomonlarida yuradi. Bugun sizlarga ostidan anhorlar oqadigan jannatlar xushxabari bor. Unda abadiy qoluvchisizlar. Mana shu ulkan yutuqdir.",
+
+13: "Munofiqlar mo‘minlarga: «Bizga qaranglar, nuringizdan olaylik», deydigan kuni ularga: «Ortingizga qaytinglar va nur izlanglar», deyiladi. Bas, ularning orasiga eshigi bo‘lgan devor uriladi. Uning ichki tomonida rahmat, tashqi tomonida esa azob bordir.",
+
+14: "Ular: «Biz sizlar bilan birga emasmidik?» deydilar. Ular: «Ha, lekin sizlar o‘zlaringizni fitnaga tashladingizlar, kutdingizlar, shubha qildingizlar va xom xayollar sizlarni aldadi. Nihoyat, ALLAHning amri keldi va aldamchi sizlarni ALLAH haqida aldadi», deydilar.",
+
+15: "Bas, bugun sizlardan ham, kofir bo‘lganlardan ham fidya olinmaydi. Joyingiz do‘zaxdir. U sizlarning do‘stingizdir. U naqadar yomon joydir.",
+
+16: "Iymon keltirganlarning qalblari ALLAHning zikri va nozil bo‘lgan Haq sababli yumshash vaqti kelmadimi? Ular oldin Kitob berilgan, so‘ng oralaridan uzoq vaqt o‘tib, qalblari qotib qolgan kishilar kabi bo‘lmasinlar. Ularning ko‘pchiligi fosiqlardir.",
+
+17: "Bilinglarki, ALLAH yerni o‘limidan keyin tiriltiradi. Biz sizlarga oyatlarni bayon qildik, shoyad aql yurgizsangizlar.",
+
+18: "Albatta, sadaqa qiluvchi erkaklar va sadaqa qiluvchi ayollar hamda ALLAHga chiroyli qarz berganlar uchun u bir necha barobar qilinadi va ular uchun ulug‘ mukofot bordir.",
+
+19: "ALLAHga va Uning Rasuliga iymon keltirganlar — ana o‘shalar Robbilari huzurida rostgo‘ylar va shahidlardir. Ular uchun mukofotlari va nurlari bordir. Kofir bo‘lgan va Bizning oyatlarimizni yolg‘on deganlar esa jahannam ahlidirlar.",
+
+20: "Bilinglarki, dunyo hayoti faqat o‘yin, ko‘ngilxushlik, ziynat, o‘zaro faxrlanish va mol-dunyo hamda farzandlarni ko‘paytirishdan iboratdir. U xuddi yomg‘irga o‘xshaydi: uning o‘simligi dehqonlarni hayratga soladi, so‘ng quriydi, uni sarg‘aygan holda ko‘rasan, so‘ng u sinib ketadi. Oxiratda qattiq azob va ALLAHdan mag‘firat hamda rozilik bordir. Dunyo hayoti esa faqat aldovchi matodir.",
+    
+21: "Robbingizning mag‘firatiga va kengligi osmonlaru yer kengligidek bo‘lgan jannatga shoshilinglar. U ALLAHga va Uning Rasuliga iymon keltirganlar uchun tayyorlangan. Bu ALLAHning fazlidir. Uni xohlagan kishisiga beradi. ALLAH ulkan fazl Egasi Zotdir.",
+
+22: "Yerda ham, o‘zlaringizda ham biror musibat yuz bermaydi, magar uni Biz yaratishimizdan oldin Kitobda yozilgan bo‘lmasa. Albatta, bu ALLAH uchun osondir.",
+
+23: "Toki qo‘lingizdan ketgan narsaga qayg‘urmasligingiz va sizga berilgan narsaga haddan tashqari quvonmasligingiz uchun. ALLAH har bir kibrli va maqtanchoqni sevmaydi.",
+
+24: "Ular baxillik qiladigan va odamlarni ham baxillikka buyuradiganlardir. Kim yuz o‘girsa, bas, albatta, ALLAH behojat va hamdga loyiq Zotdir.",
+
+25: "Darhaqiqat, Biz Rasullarimizni aniq dalillar bilan yubordik va ular bilan Kitob hamda mezonni nozil qildik, toki odamlar adolatni barpo qilsinlar. Biz temirni ham tushirdik. Unda kuchli quvvat va odamlar uchun manfaatlar bordir. Bu ALLAHga va Uning Rasuliga g‘oyibona yordam beradiganlarni bilishi uchundir. Albatta, ALLAH Kuchli va Azizdir.",
+
+26: "Darhaqiqat, Biz Nuh va Ibrohimni yubordik va ularning zurriyotlariga nubuvvat va Kitob berdik. Ulardan ba’zilari hidoyat topgan, ko‘pchiligi esa fosiq bo‘lgan.",
+
+27: "So‘ngra ularning izidan Rasulchilarimizni ketma-ket yubordik. Maryam o‘g‘li Isoga ergashtirdik va unga Injil berdik. Unga ergashganlarning qalblariga mehribonlik va rahm-shafqat solib qo‘ydik. Rohiblikni esa ular o‘zlari ixtiro qildilar. Biz uni ularga buyurmagan edik. Ular buni faqat ALLAHning roziligini izlash uchun qildilar, lekin unga to‘g‘ri rioya qilmadilar. Bas, ulardan iymon keltirganlarga mukofotlarini berdik. Ularning ko‘pchiligi esa fosiqlardir.",
+
+28: "Ey iymon keltirganlar! ALLAHdan qo‘rqinglar va Uning Rasuliga iymon keltiringlar. U sizlarga O‘z rahmatidan ikki hissa beradi, sizlarga nur beradi — u bilan yurasizlar — va sizlarni mag‘firat qiladi. ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+29: "Toki Kitob ahllari ALLAHning fazlidan hech narsaga qodir emasliklarini va fazl ALLAHning qo‘lida ekanini, uni xohlagan kishisiga berishini bilsinlar. ALLAH ulkan fazl Egasi Zotdir.",
+},
+58: {
+1: "Darhaqiqat, ALLAH eri haqida sen bilan bahslashgan va ALLAHga shikoyat qilgan ayolning so‘zini eshitdi. ALLAH sizlarning suhbatingizni eshitadi. Albatta, ALLAH Eshituvchi va Ko‘ruvchidir.",
+
+2: "Sizlardan xotinlarini onalariga o‘xshatib qo‘yadiganlar — ular ularning onalari emasdir. Ularning onalari faqat ularni tug‘gan ayollardir. Albatta, ular nomaqbul va yolg‘on so‘z aytmoqdalar. Albatta, ALLAH Afv qiluvchi va Mag‘firat qiluvchidir.",
+
+3: "Xotinlarini onalariga o‘xshatib qo‘yib, so‘ngra aytgan so‘zlaridan qaytmoqchi bo‘lganlar, ular bir-biriga tegishishlaridan oldin bir qul ozod qilishlari lozim. Sizlarga shu bilan nasihat qilinmoqda. ALLAH qilayotgan ishlaringizdan Xabardordir.",
+
+4: "Kim topa olmasa, ular bir-biriga tegishlaridan oldin ikki oy ketma-ket ro‘za tutishi lozim. Kim bunga ham qodir bo‘lmasa, oltmishta miskinni to‘ydirishi lozim. Bu ALLAHga va Uning Rasuliga iymon keltirishingiz uchundir. Bu ALLAHning chegaralaridir. Kofirlar uchun alamli azob bordir.",
+
+5: "Albatta, ALLAHga va Uning Rasuliga qarshi chiqqanlar, ulardan oldingilar xor qilinganidek xor qilinadilar. Biz aniq oyatlarni nozil qildik. Kofirlar uchun xor qiluvchi azob bordir.",
+
+6: "U kuni ALLAH ularning barchalarini tiriltiradi va qilgan ishlarini ularga bildiradi. ALLAH ularni sanab qo‘ygan, ular esa unutganlar. ALLAH har narsaga Guvohdir.",
+
+7: "Osmonlaru yerdagi narsalarni ALLAH bilishini bilmadingmi? Uch kishining yashirin suhbatida U to‘rtinchisidir, besh kishining esa oltinchisidir. Bundan kam yoki ko‘p bo‘lsin, qayerda bo‘lsalar ham U ular bilan birgadir. So‘ngra Qiyomat kuni qilgan ishlarini ularga bildiradi. Albatta, ALLAH har narsani Biluvchidir.",
+
+8: "Yashirin suhbatdan qaytarilganlarni ko‘rmadingmi? So‘ngra ular qaytarilgan narsaga yana qaytadilar va gunoh, dushmanlik hamda Rasulga isyon haqida yashirincha gaplashadilar. Ular oldingga kelganlarida, ALLAH seni salomlaganidek salomlamaydilar va ichlarida: «Nega ALLAH bizni aytganimiz sababli azoblamaydi?» deydilar. Ularga jahannam kifoyadir. Unga kiradilar. U naqadar yomon qaytish joyidir.",
+
+9: "Ey iymon keltirganlar! Agar yashirincha gaplashsangizlar, gunoh, dushmanlik va Rasulga isyon haqida gaplashmanglar. Yaxshilik va taqvo haqida gaplashinglar. Va oldida jamlanadigan ALLAHdan qo‘rqinglar.",
+
+10: "Yashirin suhbat faqat shaytondandir. U iymon keltirganlarni g‘amgin qilishni xohlaydi. Holbuki, u ALLAHning iznisiz ularga hech qanday zarar yetkaza olmaydi. Mo‘minlar faqat ALLAHga tavakkul qilsinlar.",
+
+11: "Ey iymon keltirganlar! Sizlarga: «Majlislarda joy beringlar», deyilsa, joy beringlar, ALLAH sizlarga kenglik beradi. Va: «Turinglar», deyilsa, turinglar. ALLAH sizlardan iymon keltirganlar va ilm berilganlarning darajalarini ko‘taradi. ALLAH qilayotgan ishlaringizdan Xabardordir.",
+
+12: "Ey iymon keltirganlar! Rasul bilan maxfiy suhbatlashmoqchi bo‘lsangizlar, maxfiy suhbatingizdan oldin sadaqa beringlar. Bu sizlar uchun yaxshiroq va pokroqdir. Agar topa olmasangizlar, albatta, ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+13: "Maxfiy suhbatingizdan oldin sadaqa berishdan qo‘rqdingizlarmi? Agar buni qilmasangizlar va ALLAH sizlarni kechirsa, namozni ado qilinglar, zakot beringlar va ALLAHga hamda Uning Rasuliga itoat qilinglar. ALLAH qilayotgan ishlaringizdan Xabardordir.",
+
+14: "ALLAH g‘azab qilgan qavmni do‘st tutganlarni ko‘rmadingmi? Ular sizlardan ham, ulardan ham emasdirlar. Ular bilib turib yolg‘onga qasam ichadilar.",
+
+15: "ALLAH ular uchun qattiq azob tayyorladi. Albatta, ular qilayotgan ishlari naqadar yomondir.",
+
+16: "Ular qasamlarini qalqon qildilar va ALLAH yo‘lidan to‘sdilar. Bas, ular uchun xor qiluvchi azob bordir.",
+
+17: "Ularning mollari ham, farzandlari ham ALLAHdan hech narsani daf qila olmaydi. Ana o‘shalar do‘zax ahlidirlar. Ular unda abadiy qoluvchilardir.",
+
+18: "U kuni ALLAH ularning barchalarini tiriltiradi. Ular sizlarga qasam ichganlaridek Unga ham qasam ichadilar va o‘zlarini biror narsaga ega deb o‘ylaydilar. Ogoh bo‘linglar! Albatta, ular yolg‘onchilardir.",
+
+19: "Shayton ularni egallab oldi va ularga ALLAHning zikrini unutdirdi. Ana o‘shalar shaytonning guruhi. Ogoh bo‘linglar! Albatta, shaytonning guruhi ziyon ko‘ruvchilardir.",
+
+20: "Albatta, ALLAHga va Uning Rasuliga qarshi chiqqanlar eng xor bo‘lganlar ichidadirlar.",
+
+21: "ALLAH: «Men va Rasulchilarim albatta g‘olib bo‘lamiz», deb yozib qo‘ydi. Albatta, ALLAH Kuchli va Azizdir.",
+
+22: "ALLAHga va Oxirat kuniga iymon keltirgan biror qavmning ALLAH va Uning Rasuliga qarshi chiqqanlarni — ular ota-bobolari, o‘g‘illari, aka-ukalari yoki qarindoshlari bo‘lsa ham — do‘st tutganini topmaysan. Ana o‘shalarning qalblariga U iymonni yozdi va ularni O‘zidan bo‘lgan Ruh bilan quvvatladi. Ularni ostidan anhorlar oqadigan jannatlarga kiritadi. Ular unda abadiy qoladilar. ALLAH ulardan rozi bo‘ldi, ular ham Undan rozi bo‘ldilar. Ana o‘shalar ALLAHning guruhidirlar. Ogoh bo‘linglar! Albatta, ALLAHning guruhi — najot topuvchilardir.",
+},
+59: {
+1: "Osmonlaru yerdagi barcha narsa ALLAHga tasbeh aytadi. U Aziz va Hikmat Egasi Zotdir.",
+
+2: "U Kitob ahllaridan kofir bo‘lganlarni birinchi to‘planishda uylaridan chiqargan Zotdir. Sizlar ular chiqib ketadi deb o‘ylamagan edingizlar. Ular ham qal’alari ularni ALLAHdan himoya qiladi deb o‘yladilar. Bas, ALLAH ularga kutmagan tomondan keldi va qalblariga qo‘rquv soldi. Ular uylarini o‘z qo‘llari bilan hamda mo‘minlarning qo‘llari bilan vayron qildilar. Bas, ey aql egalari, ibrat olinglar.",
+
+3: "Agar ALLAH ular uchun surgunni yozmaganida edi, albatta, ularni dunyoda azoblagan bo‘lardi. Oxiratda esa ular uchun do‘zax azobi bordir.",
+
+4: "Bu ularning ALLAH va Uning Rasuliga qarshi chiqqanlari uchundir. Kim ALLAHga qarshi chiqsa, albatta, ALLAH jazosi qattiq Zotdir.",
+
+5: "Sizlar xurmo daraxtlaridan kesgan yoki ildizlarida qoldirgan narsalaringiz ALLAHning izni bilan bo‘ldi va fosiqlarni xor qilish uchundir.",
+
+6: "ALLAH ulardan Rasuliga bergan narsangiz uchun sizlar ot ham, tuya ham haydamadingizlar. Lekin ALLAH Rasulchilarini xohlagan kishilari ustidan hukmron qiladi. ALLAH har narsaga Qodirdir.",
+
+7: "ALLAH shahar ahlidan Rasuliga bergan o‘ljalar faqat ALLAH, Rasul, qarindoshlar, yetimlar, miskinlar va yo‘lda qolganlar uchundir. Toki u sizlarning orangizdagi boylar orasida aylanib yuruvchi bo‘lib qolmasin. Rasul sizlarga bergan narsani olinglar, sizlarni qaytargan narsadan qaytinglar. ALLAHdan qo‘rqinglar. Albatta, ALLAH jazosi qattiq Zotdir.",
+
+8: "Bu mol-mulk o‘z diyorlaridan va mollaridan ajratilgan holda chiqarilgan, ALLAHdan fazl va rozilik istaydigan, ALLAHga va Uning Rasuliga yordam beradigan kambag‘al muhojirlar uchundir. Ana o‘shalar rostgo‘ylardir.",
+
+9: "Ulardan oldin Madinani va iymonni maskan qilganlar esa, huzurlariga hijrat qilib kelganlarni sevadilar va ularga berilgan narsalar sababli ko‘ngillarida ehtiyoj sezmaydilar. O‘zlari muhtoj bo‘lsalar ham, ularni o‘zlaridan ustun qo‘yadilar. Kim o‘z nafsining baxilligidan saqlansa, ana o‘shalar najot topuvchilardir.",
+
+10: "Ulardan keyin kelganlar aytadilar: «Ey Robbimiz! Bizni va bizdan oldin iymon bilan o‘tgan birodarlarimizni mag‘firat qilgin. Qalblarimizda iymon keltirganlarga nisbatan adovat qilmagin. Ey Robbimiz! Albatta, Sen Mehribon va Rahmlisan».",
+
+11: "Munofiqlarning Kitob ahllaridan kofir bo‘lgan birodarlariga: «Agar sizlar chiqarilsangizlar, biz ham sizlar bilan chiqamiz va sizlarga qarshi hech kimga itoat qilmaymiz. Agar sizlar bilan urushilsa, albatta, sizlarga yordam beramiz», deganlarini ko‘rmadingmi? ALLAH ularning yolg‘onchi ekaniga guvohlik beradi.",
+
+12: "Agar ular chiqarilsalar, ular bilan birga chiqmaydilar. Agar ular bilan urushilsa, ularga yordam bermaydilar. Agar yordam bersalar ham, albatta, orqalarini o‘girib qochadilar. So‘ngra ularga yordam berilmaydi.",
+
+13: "Albatta, sizlarning qalblaringizda ulardan ko‘ra ALLAHdan qo‘rqish kuchliroqdir. Bu ularning anglamaydigan qavm ekanlari uchundir.",
+
+14: "Ular sizlar bilan faqat qal’ali shaharlarda yoki devorlar ortida bo‘lgan holda birgalikda urushadilar. Ularning o‘zaro kuchlari qattiqdir. Sen ularni birlashgan deb o‘ylaysan, holbuki, qalblari tarqoqdir. Bu ularning aql qilmaydigan qavm ekanlari uchundir.",
+
+15: "Ular o‘zlaridan oldin yaqinda ishining yomon oqibatini totganlarga o‘xshaydilar. Ular uchun alamli azob bordir.",
+
+16: "Ular shaytonga o‘xshaydilar: insonga «kofir bo‘l», deganida, u kofir bo‘lsa, «Men sendan pokman. Men olamlarning Robbisi ALLAHdan qo‘rqaman», deydi.",
+
+17: "Bas, ikkisining ham oqibati ular abadiy qoladigan olov bo‘ldi. Bu zolimlarning jazosidir.",
+
+18: "Ey iymon keltirganlar! ALLAHdan qo‘rqinglar. Har bir jon ertaga uchun nima tayyorlaganiga qarasin. ALLAHdan qo‘rqinglar. Albatta, ALLAH qilayotgan ishlaringizdan Xabardordir.",
+
+19: "ALLAHni unutgan va U ham ularga o‘zlarini unuttirgan kishilar kabi bo‘lmanglar. Ana o‘shalar fosiqlardir.",
+
+20: "Do‘zax egalari bilan jannat egalari teng emasdir. Jannat egalari — ular najot topuvchilardir.",
+    
+21: "Agar Biz bu Qur’onni bir tog‘ga nozil qilganimizda edi, albatta, uni ALLAHning qo‘rquvidan egilib, parcha-parcha bo‘lgan holda ko‘rgan bo‘larding. Biz bu misollarni odamlar tafakkur qilsinlar uchun bayon qilamiz.",
+
+22: "U ALLAHdirki, Undan o‘zga iloh yo‘qdir. U g‘aybni ham, oshkorani ham Biluvchidir. U Rahmon va Rahmlidir.",
+
+23: "U ALLAHdirki, Undan o‘zga iloh yo‘qdir. U Podshoh, Mutlaq Pok, Tinchlik Beruvchi, Ishonch Beruvchi, Kuzatuvchi, Aziz, Jabbor va Mutakabbirdir. ALLAH ularning shirk keltirayotgan narsalaridan pokdir.",
+
+24: "U ALLAHdir — Yaratguvchi, Bor qiluvchi, Shakl beruvchidir. Eng go‘zal ismlar Unikidir. Osmonlaru yerdagi barcha narsa Unga tasbeh aytadi. U Aziz va Hikmat Egasi Zotdir.",
+},
+60: {
+ 1: "Ey iymon keltirganlar! Mening dushmanim va sizlarning dushmanlaringizni do‘st tutmanglar. Sizlar ularga muhabbat ko‘rsatasizlar, holbuki, ular sizlarga kelgan Haqni inkor qildilar. Ular Rasulni va sizlarni Robbingiz ALLAHga iymon keltirganingiz uchun haydab chiqardilar. Agar sizlar Mening yo‘limda jihod qilish va roziligimni izlash uchun chiqqan bo‘lsangizlar, ularga yashirin muhabbat bildirasizlarmi? Men sizlar yashirgan va oshkor qilgan narsalaringizni biluvchiman. Sizlardan kim buni qilsa, u to‘g‘ri yo‘ldan adashgan bo‘ladi.",
+
+2: "Agar ular sizlarga ustun kelsalar, sizlarga dushman bo‘ladilar, qo‘llari va tillari bilan sizlarga yomonlik yetkazishga intiladilar va sizlarning kofir bo‘lishingizni xohlaydilar.",
+
+3: "Qarindoshlaringiz va farzandlaringiz Qiyomat kuni sizlarga foyda bermaydi. U kuni U sizlarning orangizda hukm qiladi. ALLAH qilayotgan ishlaringizni Ko‘ruvchidir.",
+
+4: "Sizlar uchun Ibrohim va u bilan birga bo‘lganlarda go‘zal namuna bordir. Ular o‘z qavmlariga: «Biz sizlardan va ALLAHni qo‘yib ibodat qilayotgan narsalaringizdan pokmiz. Biz sizlarni inkor qildik. Sizlar bilan bizning oramizda toki faqat ALLAHga iymon keltirishingizgacha abadiy adovat va nafrat paydo bo‘ldi», degan edilar. Faqat Ibrohimning otasiga: «Albatta, men sen uchun mag‘firat so‘rayman, lekin ALLAHdan senga hech narsaga ega emasman», degan so‘zi bundan mustasno. «Ey Robbimiz! Biz Senga tavakkul qildik va Senga qaytamiz. Qaytish Sengadir».",
+
+5: "«Ey Robbimiz! Bizni kofirlar uchun fitna qilma. Bizni mag‘firat qilgin, ey Robbimiz! Albatta, Sen Aziz va Hikmat Egasisan».",
+
+6: "Darhaqiqat, ularda sizlar uchun — ALLAH va Oxirat kunidan umid qilgan kishilar uchun — go‘zal namuna bor. Kim yuz o‘girsa, albatta, ALLAH behojat va hamdga loyiq Zotdir.",
+
+7: "Shoyad ALLAH sizlar bilan dushman bo‘lganlaringiz orasida muhabbat paydo qilar. ALLAH Qodirdir. ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+8: "ALLAH sizlarni din sababli sizlar bilan urushmagan va sizlarni yurtlaringizdan chiqarmagan kishilarga yaxshilik qilishdan va ularga adolatli bo‘lishdan qaytarmaydi. Albatta, ALLAH adolat qiluvchilarni sevadi.",
+
+9: "Faqat ALLAH sizlarni din sababli sizlar bilan urushgan, sizlarni yurtlaringizdan chiqargan va chiqarishda yordam bergan kishilarni do‘st tutishingizdan qaytaradi. Kim ularni do‘st tutsa, ana o‘shalar zolimlardir.",
+
+10: "Ey iymon keltirganlar! Mo‘mina ayollar hijrat qilib sizlarning huzuringizga kelganlarida, ularni sinab ko‘ringlar. ALLAH ularning iymonlarini yaxshi biladi. Agar ularni mo‘mina deb bilsangizlar, ularni kofirlarga qaytarmanglar. Ular (mo‘mina ayollar) ularga halol emaslar, ular ham bularga halol emaslar. Ularga sarflagan narsalarini beringlar. Ularning mahrlarini berganingizda, ular bilan nikohlanishingizda sizlarga gunoh yo‘qdir. Kofir ayollarning nikoh rishtalarini ushlab turmanglar. Sarflagan narsangizni so‘ranglar, ular ham sarflagan narsalarini so‘rasinlar. Bu ALLAHning hukmidir. U orangizda hukm qiladi. ALLAH Biluvchi va Hikmat Egasi Zotdir.",
+
+11: "Agar xotinlaringizdan biror narsa kofirlarga o‘tib ketsa, so‘ngra sizlarga g‘alaba kelsa, xotinlari ketganlarga sarflagan narsalariga o‘xshashini beringlar. Sizlar iymon keltirgan ALLAHdan qo‘rqinglar.",
+
+12: "Ey Payg‘ambar! Mo‘mina ayollar sen bilan ALLAHga hech narsani sherik qilmaslik, o‘g‘rilik qilmaslik, zino qilmaslik, farzandlarini o‘ldirmaslik, qo‘llari va oyoqlari orasida to‘qib chiqargan yolg‘on bilan kelmaslik va ma’ruf ishda senga osiy bo‘lmaslik haqida bay’at qilish uchun kelganlarida, ularning bay’atini qabul qil va ular uchun ALLAHdan mag‘firat so‘ra. Albatta, ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+13: "Ey iymon keltirganlar! ALLAH g‘azab qilgan qavmni do‘st tutmanglar. Ular oxiratdan umidlarini uzganlaridek, qabrlardagilardan umid uzganlardir.",
+},
+61: {
+1: "Osmonlaru yerdagi barcha narsa ALLAHga tasbeh aytadi. U Aziz va Hikmat Egasidir.",
+
+2: "Ey iymon keltirganlar! Nega qilmaydigan narsangizni gapirasizlar?",
+
+3: "Qilmaydigan narsangizni aytishingiz ALLAH huzurida katta nafratga sabab bo‘ladi.",
+
+4: "Albatta, ALLAH O‘z yo‘lida xuddi mahkam qurilgan bino kabi saf tortib jang qiladiganlarni sevadi.",
+
+5: "Muso o‘z qavmiga: «Ey qavmim! Nega menga ozor berasizlar? Holbuki, men ALLAHning sizlarga yuborgan Rasuliman», deganini eslanglar. Bas, ular og‘ishganlarida, ALLAH ularning qalblarini og‘dirdi. ALLAH fosiq qavmni hidoyat qilmaydi.",
+
+6: "Maryam o‘g‘li Iso: «Ey Bani Isroil! Men sizlarga ALLAHning Rasuliman. Mendan oldingi Tavrotni tasdiqlovchi va mendan keyin keladigan Ahmad ismli Rasul haqida xushxabar beruvchi bo‘lib keldim», deganini eslanglar. Bas, u ularga aniq dalillar bilan kelganida, ular: «Bu ochiq sehrdir», dedilar.",
+
+7: "Islomga chaqirilayotganida ALLAH haqida yolg‘on to‘qigan kishidan ham zolimroq kim bor? ALLAH zolim qavmni hidoyat qilmaydi.",
+
+8: "Ular ALLAHning nurini og‘izlari bilan o‘chirmoqchi bo‘ladilar. Kofirlar yomon ko‘rsalar ham, ALLAH O‘z nurini to‘liq qiluvchidir.",
+
+9: "U O‘z Rasulini hidoyat va Haq din bilan yubordi, toki uni barcha dinlardan ustun qilsin, mushriklar yomon ko‘rsalar ham.",
+
+10: "Ey iymon keltirganlar! Sizlarni alamli azobdan qutqaradigan bir savdoni ko‘rsataymi?",
+
+11: "ALLAHga va Uning Rasuliga iymon keltiringlar va mollaringiz hamda jonlaringiz bilan ALLAH yo‘lida jihod qilinglar. Agar bilsangizlar, bu sizlar uchun yaxshidir.",
+
+12: "U sizlarning gunohlaringizni mag‘firat qiladi va sizlarni ostidan anhorlar oqadigan jannatlarga hamda Adn jannatlaridagi pok maskanlarga kiritadi. Bu ulkan yutuqdir.",
+
+13: "Yana sizlar sevadigan boshqa bir narsani ham beradi: ALLAH tomonidan bo‘lgan yordam va yaqin g‘alaba. Mo‘minlarga xushxabar bergin.",
+
+14: "Ey iymon keltirganlar! ALLAHning yordamchilari bo‘linglar. Maryam o‘g‘li Iso havoriylarga: «ALLAH yo‘lida mening yordamchilarim kim?» deganida, havoriylar: «Biz ALLAHning yordamchilarimiz», dedilar. Bas, Bani Isroildan bir guruh iymon keltirdi, boshqa bir guruh esa kofir bo‘ldi. Biz iymon keltirganlarni dushmanlari ustidan quvvatladik va ular g‘olib bo‘ldilar.",
+},
+62: {
+1: "Osmonlaru yerdagi barcha narsa Podshoh, Mutlaq Pok, Aziz va Hikmat Egasi bo‘lgan ALLAHga tasbeh aytadi.",
+
+2: "U ummiylar ichidan ularga o‘zlaridan bo‘lgan Rasulni yubordi. U ularga Uning oyatlarini tilovat qiladi, ularni poklaydi va ularga Kitob hamda hikmatni o‘rgatadi. Holbuki, ular bundan oldin ochiq adashuvda edilar.",
+
+3: "Va ulardan hali ularga qo‘shilmagan boshqalarga ham. U Aziz va Hikmat Egasi Zotdir.",
+
+4: "Bu ALLAHning fazlidir. Uni xohlagan kishisiga beradi. ALLAH ulkan fazl Egasi Zotdir.",
+
+5: "Tavrot yuklatilgan, so‘ng uni ko‘tarmaganlarning misoli xuddi kitoblar ortilgan eshakka o‘xshaydi. ALLAHning oyatlarini yolg‘on qilgan qavmning misoli naqadar yomon! ALLAH zolim qavmni hidoyat qilmaydi.",
+
+6: "Ayting: «Ey yahudiy bo‘lganlar! Agar boshqa insonlardan ko‘ra o‘zingizni ALLAHning do‘stlari deb da’vo qilsangizlar, agar rostgo‘y bo‘lsangizlar, o‘limni orzu qilinglar».",
+
+7: "Ular qo‘llari bilan oldindan qilgan ishlari sababli uni hech qachon orzu qilmaydilar. ALLAH zolimlarni Biluvchidir.",
+
+8: "Ayting: «Sizlar qochayotgan o‘lim albatta sizlarga duch keladi. So‘ngra g‘aybni ham, oshkorani ham Biluvchi Zot huzuriga qaytarilasizlar. U sizlarga qilgan ishlaringizni bildiradi».",
+
+9: "Ey iymon keltirganlar! Juma kuni namozga nido qilinganda, ALLAHning zikriga shoshilinglar va savdoni tark qilinglar. Agar bilsangizlar, bu sizlar uchun yaxshidir.",
+
+10: "Namoz tugagach, yer yuziga tarqalinglar va ALLAHning fazlidan izlanglar. ALLAHni ko‘p zikr qilinglar, shoyad najot topsangizlar.",
+
+11: "Ular biror tijorat yoki o‘yin-kulgini ko‘rsalar, seni tik turgan holda qoldirib, unga tarqalib ketadilar. Ayting: «ALLAH huzuridagi narsa o‘yin-kulgidan ham, tijoratdan ham yaxshiroqdir. ALLAH rizq beruvchilarning eng yaxshisidir».",
+},
+63: {
+1: "Agar munofiqlar huzuringga kelsalar: «Guvohlik beramizki, albatta, sen ALLAHning Rasulisan», deydilar. ALLAH sening O‘z Rasuli ekaningni biladi va ALLAH munofiqlarning yolg‘onchi ekanliklariga guvohlik beradi.",
+
+2: "Ular qasamlarini qalqon qilib oldilar va ALLAH yo‘lidan to‘sdilar. Albatta, ularning qilgan ishlari naqadar yomondir.",
+
+3: "Bu ularning iymon keltirib, so‘ngra kofir bo‘lganlari sababli. Bas, qalblariga muhr bosildi. Endi ular tushunmaydilar.",
+
+4: "Ularni ko‘rsang, tashqi ko‘rinishlari seni hayratga soladi. Agar gapirsalar, so‘zlariga quloq solasan. Ular xuddi suyangan yog‘ochlarga o‘xshaydilar. Har bir qichqiriqni o‘zlariga qarshi deb o‘ylaydilar. Ular dushmandirlar, ulardan ehtiyot bo‘lgin. ALLAH ularni halok qilsin! Qanday qilib yuz o‘giradilar?",
+
+5: "Ularga: «Kelinglar, ALLAHning Rasuli sizlar uchun mag‘firat so‘rasin», deyilsa, boshlarini buradilar. Ularni kibrlangan holda yuz o‘girayotganlarini ko‘rasan.",
+
+6: "Sen ular uchun mag‘firat so‘rasang ham, so‘ramasang ham, ular uchun barobardir. ALLAH ularni aslo mag‘firat qilmaydi. Albatta, ALLAH fosiq qavmni hidoyat qilmaydi.",
+
+7: "Ular: «ALLAHning Rasuli huzuridagi kishilarga hech narsa bermanglar, toki ular tarqalib ketsinlar», deydilar. Holbuki, osmonlaru yer xazinalari ALLAHnikidir, lekin munofiqlar tushunmaydilar.",
+
+8: "Ular: «Agar Madinaga qaytsak, albatta, kuchli bo‘lganlar kuchsizlarni undan chiqarib yuboradi», deydilar. Holbuki, izzat ALLAHga, Uning Rasuliga va mo‘minlarga xosdir. Lekin munofiqlar bilmaydilar.",
+
+9: "Ey iymon keltirganlar! Mollaringiz va farzandlaringiz sizlarni ALLAHning zikridan chalg‘itmasin. Kim buni qilsa, ana o‘shalar ziyon ko‘ruvchilardir.",
+
+10: "Sizlardan birortangizga o‘lim kelib: «Ey Robbim! Menga ozgina muddat bersang edi, sadaqa qilsam va solihlardan bo‘lsam», demasidan oldin, sizlarga bergan rizqimizdan sarflanglar.",
+
+11: "ALLAH hech bir jonga uning muddati kelganida muhlat bermaydi. ALLAH qilayotgan ishlaringizdan Xabardordir.",
+},
+64: {
+1: "Osmonlaru yerdagi barcha narsa ALLAHga tasbeh aytadi. Mulk Unikidir va hamd Unikidir. U har narsaga Qodirdir.",
+
+2: "U sizlarni yaratgan Zotdir. Sizlardan ba’zilaringiz kofir, ba’zilaringiz mo‘mindirlar. ALLAH qilayotgan ishlaringizni Ko‘ruvchidir.",
+
+3: "U osmonlaru yerni Haq bilan yaratdi va sizlarga surat berdi, suratlaringizni go‘zal qildi. Qaytish Uning huzurigadir.",
+
+4: "U osmonlaru yerdagi narsalarni biladi. Sizlar yashirgan va oshkor qilgan narsalarni ham biladi. ALLAH ko‘kslardagi narsalarni Biluvchidir.",
+
+5: "Sizlarga oldin kofir bo‘lganlarning xabari kelmadimi? Bas, ular ishlarining yomon oqibatini totib ko‘rdilar va ular uchun alamli azob bordir.",
+
+6: "Bu ularning Rasulchilari ularga aniq dalillar bilan kelganida: «Bizga insonlar hidoyat qiladimi?» deganlari va kofir bo‘lib, yuz o‘girganlari sababli. ALLAH behojatdir va ALLAH Hamdga loyiq Zotdir.",
+
+7: "Kofir bo‘lganlar aslo tiriltirilmasliklarini da’vo qildilar. Ayting: «Yo‘q, Robbimga qasamki, albatta, tiriltirilasizlar. So‘ngra qilgan ishlaringiz sizlarga bildiriladi. Bu ALLAH uchun osondir».",
+
+8: "Bas, ALLAHga, Uning Rasuliga va Biz nozil qilgan nurga iymon keltiringlar. ALLAH qilayotgan ishlaringizdan Xabardordir.",
+
+9: "U sizlarni to‘planish kuni uchun jamlaydigan kun — ana o‘sha Tag‘obun kunidir. Kim ALLAHga iymon keltirsa va yaxshi amal qilsa, U uning yomonliklarini kechiradi va uni ostidan anhorlar oqadigan jannatlarga kiritadi. Ular unda abadiy qoladilar. Bu ulkan yutuqdir.",
+
+10: "Kofir bo‘lganlar va Bizning oyatlarimizni yolg‘on deganlar — ana o‘shalar do‘zax ahlidirlar. Ular unda abadiy qoladilar. U naqadar yomon qaytish joyidir.",
+
+11: "ALLAHning iznisiz hech qanday musibat yetmaydi. Kim ALLAHga iymon keltirsa, U uning qalbini hidoyat qiladi. ALLAH har narsani Biluvchidir.",
+
+12: "ALLAHga itoat qilinglar, Rasulga itoat qilinglar. Agar yuz o‘girsangizlar, Rasulimizning zimmasida faqat aniq yetkazish bordir.",
+
+13: "ALLAH — Undan o‘zga iloh yo‘qdir. Mo‘minlar faqat ALLAHga tavakkul qilsinlar.",
+
+14: "Ey iymon keltirganlar! Albatta, xotinlaringiz va farzandlaringizdan ba’zilari sizlarga dushmandirlar. Bas, ulardan ehtiyot bo‘linglar. Agar afv qilsangizlar, kechirsangizlar va mag‘firat qilsangizlar, albatta, ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+15: "Mol-dunyolaringiz va farzandlaringiz faqat sinovdir. Ulkan mukofot esa ALLAH huzuridadir.",
+
+16: "Bas, imkoningiz boricha ALLAHdan qo‘rqinglar, eshitinglar, itoat qilinglar va o‘zlaringiz uchun yaxshilik sarflanglar. Kim nafsining baxilligidan saqlansa, ana o‘shalar najot topuvchilardir.",
+
+17: "Agar ALLAHga chiroyli qarz bersangizlar, U uni sizlarga bir necha barobar qilib qaytaradi va sizlarni mag‘firat qiladi. ALLAH Shukrni qabul qiluvchi va Halim Zotdir.",
+
+18: "U g‘aybni ham, oshkorani ham Biluvchidir. U Aziz va Hikmat Egasi Zotdir.",
+},
+65: {
+1: "Ey Payg‘ambar! Ayollarni taloq qilganingizda, ularni iddalariga qarab taloq qilinglar va iddani hisoblanglar. Robbingiz ALLAHdan qo‘rqinglar. Ularni uylaridan chiqarmanglar va ular o‘zlari ham chiqmasinlar, faqat ochiq fahsh ish qilgan bo‘lsalar bundan mustasno. Bular ALLAHning chegaralaridir. Kim ALLAHning chegaralaridan oshsa, bas, u o‘ziga zulm qilgan bo‘ladi. Bilolmaysiz, ehtimol ALLAH bundan keyin biror ishni paydo qilur.",
+
+2: "Bas, ular muddatlariga yetganlarida, ularni yaxshilik bilan ushlab qolinglar yoki yaxshilik bilan ajratinglar. Orangizdan ikki adolatli kishini guvoh qilinglar va guvohlikni ALLAH uchun ado qilinglar. Bu ALLAHga va Oxirat kuniga iymon keltirgan kishiga nasihatdir. Kim ALLAHdan qo‘rqsa, U unga chiqish yo‘lini qiladi.",
+
+3: "Va unga o‘ylamagan tomondan rizq beradi. Kim ALLAHga tavakkul qilsa, U unga kifoya qiladi. Albatta, ALLAH O‘z ishini amalga oshiruvchidir. ALLAH har bir narsa uchun o‘lchov belgilagan.",
+
+4: "Ayollaringizdan hayzdan umidini uzgan bo‘lsalar, agar shubha qilsangizlar, ularning iddasi uch oydir. Hayz ko‘rmaganlarining ham (iddasi shunday). Homiladorlarning muddati esa yuklarini qo‘yishlaridir. Kim ALLAHdan qo‘rqsa, U uning ishini oson qiladi.",
+
+5: "Bu ALLAHning sizlarga nozil qilgan amridir. Kim ALLAHdan qo‘rqsa, U uning yomonliklarini kechiradi va mukofotini ulug‘ qiladi.",
+
+6: "Ularni imkoningiz yetgan joyda o‘zingiz yashayotgan joyingizga joylashtiringlar va ularga zarar yetkazish uchun siqmanglar. Agar homilador bo‘lsalar, tug‘ruqlarigacha ularga nafaqa beringlar. Agar sizlar uchun emizsalar, ularga haqini beringlar va o‘zaro yaxshilik bilan kelishinglar. Agar qiynalsangizlar, boshqa biri emizib bersin.",
+
+7: "Boy kishi o‘z boyligidan sarflasin. Rizqi tor qilingan kishi esa ALLAH unga bergan narsadan sarflasin. ALLAH hech bir jonni unga berganidan ortiq narsaga taklif qilmaydi. ALLAH qiyinchilikdan keyin yengillik yaratadi.",
+
+8: "Qancha shaharlar Robbisining va Uning Rasulchilarining amridan kibrlanib yuz o‘girdilar. Bas, Biz ularni qattiq hisob-kitob bilan hisobladik va ularni misli ko‘rilmagan azob bilan azobladik.",
+
+9: "Bas, ular o‘z ishlarining yomon oqibatini totib ko‘rdilar. Ishlarining oqibati zarar bo‘ldi.",
+
+10: "ALLAH ular uchun qattiq azob tayyorladi. Bas, ey aql egalari, iymon keltirganlar! ALLAHdan qo‘rqinglar. ALLAH sizlarga eslatma nozil qildi.",
+
+11: "Rasulni yubordi, sizlarga ALLAHning aniq oyatlarini tilovat qilib beradi, toki iymon keltirgan va yaxshi amal qilganlarni zulmatlardan nurga chiqarsin. Kim ALLAHga iymon keltirib, yaxshi amal qilsa, U uni ostidan anhorlar oqadigan jannatlarga kiritadi. Ular unda abadiy qoladilar. ALLAH unga go‘zal rizq bergandir.",
+
+12: "ALLAH yetti osmonni va yerdan ham ularning o‘xshashini yaratgan Zotdir. Amr ular orasida tushib turadi, toki ALLAH har narsaga Qodir ekanini va ALLAH ilmi bilan har narsani qamrab olganini bilishingizlar uchun. Albatta, ALLAH har narsani Biluvchidir.",
+},
+66: {
+1: "Ey Payg‘ambar! Nega xotinlaringning roziligini istab, ALLAH senga halol qilgan narsani harom qilasan? ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+
+2: "ALLAH sizlarga qasamlaringizni yechishni farz qildi. ALLAH sizlarning Do‘stingizdir. U Biluvchi va Hikmat Egasi Zotdir.",
+
+3: "Payg‘ambar xotinlaridan biriga bir gapni sir aytganida, u buni oshkor qilgan va ALLAH unga buni bildirganida, u uning bir qismini bildirdi, bir qismini esa yuz o‘girdi. Unga buni aytganida: «Buni senga kim bildirdi?» dedi. U: «Menga Biluvchi va Xabardor Zot bildirdi», dedi.",
+
+4: "Agar ikkovingiz ALLAHga tavba qilsangizlar, bas, qalblaringiz og‘di. Agar unga qarshi bir-biringizga yordam bersangizlar, albatta, ALLAH uning Do‘sti, Jabroil va solih mo‘minlar ham (uning yordamchisidirlar). Bundan tashqari, malaikalar ham yordamchidirlar.",
+
+5: "Agar u sizlarni taloq qilsa, ehtimol Robbi unga sizlardan yaxshiroq — musulmon, mo‘mina, itoatkor, tavba qiluvchi, ibodat qiluvchi, ro‘za tutuvchi, avval turmush qurgan va bokira ayollarni — almashtirib berar.",
+
+6: "Ey iymon keltirganlar! O‘zingizni va oilangizni yoqilg‘isi odamlar va toshlar bo‘lgan olovdan saqlanglar. Uning ustida qo‘pol va qattiqqo‘l malaikalar bor. Ular ALLAH buyurgan narsaga osiy bo‘lmaydilar va buyurilgan narsani qiladilar.",
+
+7: "Ey kofir bo‘lganlar! Bugun uzr so‘ramanglar. Sizlar faqat qilgan ishlaringiz bilan jazolanasizlar.",
+
+8: "Ey iymon keltirganlar! ALLAHga chin tavba bilan tavba qilinglar. Shoyad Robbingiz yomonliklaringizni o‘chirib, sizlarni ostidan anhorlar oqadigan jannatlarga kiritur. O‘sha kuni ALLAH Payg‘ambarni va u bilan birga iymon keltirganlarni xor qilmaydi. Ularning nuri oldilarida va o‘ng tomonlarida yuradi. Ular: «Ey Robbimiz! Nurimizni biz uchun mukammal qilgin va bizni mag‘firat qilgin. Albatta, Sen har narsaga Qodirsan», deydilar.",
+
+9: "Ey Payg‘ambar! Kofirlar va munofiqlarga qarshi kurashgin va ularga qattiqqo‘l bo‘lgin. Ularning joyi jahannamdir. U naqadar yomon qaytish joyidir.",
+
+10: "ALLAH Nuhning xotini va Lutning xotinini kofirlar uchun misol qildi. Ular ikki solih bandamizning nikohida edilar, ammo ularga xiyonat qildilar. Bas, ular (ikki ayol) uchun ALLAHdan hech narsani qaytara olmadilar. Ularga: «Kiruvchilar bilan birga olovga kiringlar», deyiladi.",
+
+11: "ALLAH iymon keltirganlar uchun Fir’avnning xotinini misol qildi. U: «Ey Robbim! Men uchun huzuringda jannatda bir uy bino qilgin, meni Fir’avndan va uning ishidan qutqargin va meni zolim qavmdan qutqargin», degan edi.",
+
+12: "Va o‘z nomusini saqlagan Imron qizi Maryamni ham (misol qildi). Bas, Biz unga Ruhimizdan pufladik. U Robbisining so‘zlarini va Kitoblarini tasdiqladi va itoat qiluvchilardan bo‘ldi.",
+},
+67: {
+1: "Mulk qo‘lida bo‘lgan Zot barakotlidir. U har narsaga Qodirdir.",
+
+2: "U o‘lim va hayotni sizlarni sinash uchun yaratdi: qaysingiz amali yaxshiroq ekanini bilish uchun. U Aziz va Mag‘firat qiluvchidir.",
+
+3: "U yetti osmonni qavat-qavat qilib yaratgan Zotdir. Rahmonning yaratishida hech qanday nomuvofiqlik ko‘rmaysan. Ko‘zingni qaytarib boq-chi, biror yoriq ko‘rasanmi?",
+
+4: "So‘ngra ko‘zingni yana ikki marta qaytarib boq. Ko‘zing xor va charchagan holda senga qaytadi.",
+
+5: "Darhaqiqat, Biz eng yaqin osmonni chiroqlar bilan bezadik va ularni shaytonlar uchun otiladigan narsalar qildik. Ular uchun alangali olov azobini tayyorladik.",
+
+6: "Robbilariga kofir bo‘lganlar uchun jahannam azobi bordir. U naqadar yomon qaytish joyidir.",
+
+7: "Unga tashlanganlarida, uning dahshatli nafas olishini eshitadilar va u qaynab turadi.",
+
+8: "G‘azabidan deyarli yorilib ketay deydi. Har safar unga bir guruh tashlansa, uning qo‘riqchilari ulardan: «Sizlarga ogohlantiruvchi kelmaganmidimi?» deb so‘raydilar.",
+
+9: "Ular aytadilar: «Ha, bizga ogohlantiruvchi kelgan edi. Lekin biz yolg‘on dedik va: «ALLAH hech narsa nozil qilmagan, sizlar faqat katta adashuvdasizlar», dedik».",
+
+10: "Va ular: «Agar eshitganimizda yoki aql qilganimizda edi, alangali olov ahlidan bo‘lmas edik», deydilar.",
+
+11: "Bas, ular gunohlarini tan oladilar. Bas, alangali olov egalari uchun uzoqlik bo‘lsin.",
+
+12: "Albatta, Robbisidan g‘oyibona qo‘rqadiganlar uchun mag‘firat va ulkan mukofot bordir.",
+
+13: "So‘zingizni yashiring yoki oshkor qiling — albatta, U ko‘kslardagi narsalarni Biluvchidir.",
+
+14: "Axir yaratgan Zot bilmasmi? U Latif va Xabardordir.",
+
+15: "U sizlar uchun yerni bo‘ysundirgan Zotdir. Bas, uning yo‘llarida yuringlar va Uning rizqidan yenglar. Qaytish Uning huzurigadir.",
+
+16: "Osmondagi Zot sizlarni yer yutishidan xotirjammisiz? Bas, u birdan tebranib ketadi.",
+
+17: "Yoki osmondagi Zot sizlarga qarshi tosh yog‘diruvchi shamol yuborishidan xotirjammisiz? Bas, Mening ogohlantirishim qanday ekanini bilib olasizlar.",
+
+18: "Darhaqiqat, ulardan oldingilar ham yolg‘on qildilar. Bas, Mening inkorim qanday bo‘ldi?",
+
+19: "Ular ustilaridagi qushlarga qaramadilarmi? Ularni qanotlarini yoygan va yig‘gan holda faqat Rahmon ushlab turadi. Albatta, U har narsani Ko‘ruvchidir.",
+
+20: "Rahmondan boshqa sizlarga yordam beradigan lashkaringiz kim? Kofirlar faqat aldov ichidadirlar.",
+    
+21: "Yoki U rizqini to‘xtatsa, sizlarga rizq beradigan kim bor? Yo‘q, ular kibr va nafratda davom etmoqdalar.",
+
+22: "Yuzini egib yuradigan kishi to‘g‘riroq yo‘ldami yoki tik holda to‘g‘ri yo‘lda yuradigan kishi?",
+
+23: "Ayting: «U sizlarni yaratgan, sizlarga quloq, ko‘z va qalblar bergan Zotdir. Sizlar juda oz shukr qilasizlar».",
+
+24: "Ayting: «U sizlarni yer yuzida tarqatgan Zotdir va Uning huzuriga jamlanasizlar».",
+
+25: "Ular: «Agar rostgo‘y bo‘lsangizlar, bu va’da qachon bo‘ladi?» deydilar.",
+
+26: "Ayting: «Bu ilm faqat ALLAH huzuridadir. Men esa faqat ochiq ogohlantiruvchiman».",
+
+27: "Ular uni yaqin ko‘rganlarida, kofir bo‘lganlarning yuzlari yomonlashadi va ularga: «Mana shu sizlar talab qilgan narsa», deyiladi.",
+
+28: "Ayting: «Ko‘rdingizmi, agar ALLAH meni va men bilan birga bo‘lganlarni halok qilsa yoki bizga rahm qilsa, kofirlarni alamli azobdan kim himoya qiladi?»",
+
+29: "Ayting: «U Rahmondir. Biz Unga iymon keltirdik va Unga tavakkul qildik. Tez orada kim ochiq adashuvda ekanini bilib olasizlar».",
+
+30: "Ayting: «Ko‘rdingizmi, agar suvingiz yer qa’riga singib ketsa, sizlarga oqar suvni kim keltiradi?»",
+},
+68: {
+1: "Nun. Qalam va ular yozayotgan narsalar bilan qasam.",
+
+2: "Robbingning ne’mati bilan sen majnun emassan.",
+
+3: "Albatta, sen uchun uzilmaydigan mukofot bordir.",
+
+4: "Va albatta, sen buyuk xulq ustidadirsan.",
+
+5: "Bas, tez orada ko‘rasan va ular ham ko‘radilar.",
+
+6: "Qaysingiz fitnaga tushganini.",
+
+7: "Albatta, Robbing O‘z yo‘lidan adashgan kishini ham, hidoyat topganlarni ham yaxshi biluvchidir.",
+
+8: "Bas, yolg‘onlovchilarga itoat qilma.",
+
+9: "Ular sening yumshoqlik qilishingni istaydilar, bas, ular ham yumshoqlik qiladilar.",
+
+10: "Har bir qasamxo‘r, pastkashga itoat qilma.",
+
+11: "G‘iybatchi, gap tashuvchi.",
+
+12: "Yaxshilikka to‘sqinlik qiluvchi, tajovuzkor va gunohkor.",
+
+13: "Qo‘pol, bundan tashqari nasli noma’lum bo‘lgan kishiga (itoat qilma).",
+
+14: "Mol-dunyo va farzandlar egasi bo‘lgani uchun.",
+
+15: "Unga Bizning oyatlarimiz tilovat qilinganda: «Avvalgilarning afsonalaridir», deydi.",
+
+16: "Tez orada Biz uning burniga belgi qo‘yamiz.",
+
+17: "Albatta, Biz ularni bog‘ egalari kabi sinadik. Ular ertalab uni albatta terib olamiz deb qasam ichgan edilar.",
+
+18: "Va istisno qilmagan edilar.",
+
+19: "Bas, ular uxlab yotgan paytda Robbing tomonidan bir ofat uni aylanib o‘tdi.",
+
+20: "Bas, u kuyib ketgan hosil kabi bo‘lib qoldi.",
+    
+21: "Bas, ular tongda bir-birlarini chaqirdilar.",
+
+22: "«Agar teradigan bo‘lsangizlar, ertalab bog‘ingizga boringlar», (dedilar).",
+
+23: "Ular past ovozda gaplashib ketdilar.",
+
+24: "«Bugun unga biror miskin kirmasin», (dedilar).",
+
+25: "Va ular bunga qodir bo‘lgan holda ertalab chiqdilar.",
+
+26: "Bas, uni ko‘rganlarida: «Albatta, biz yo‘ldan adashgan ekanmiz», dedilar.",
+
+27: "«Yo‘q, biz mahrum qilingan ekanmiz».",
+
+28: "Ularning eng yaxshisi: «Men sizlarga: «Nega tasbeh aytmaysizlar?» demaganmidim?» dedi.",
+
+29: "Ular: «Robbimiz pokdir! Albatta, biz zolim bo‘lgan ekanmiz», dedilar.",
+
+30: "So‘ngra ular bir-birlarini malomat qila boshladilar.",
+
+31: "Ular dedilar: «Voy holimizga! Albatta, biz haddan oshuvchi edik».",
+
+32: "«Shoyad Robbimiz bizga bundan yaxshirog‘ini bersa. Albatta, biz Robbimizga yuzlanuvchilarmiz».",
+
+33: "Mana shundaydir azob. Oxirat azobi esa yanada kattadir. Agar bilsalar edi.",
+
+34: "Albatta, taqvodorlar uchun Robbilari huzurida ne’mat bog‘lari bordir.",
+
+35: "Biz musulmonlarni jinoyatchilar bilan teng qilamizmi?",
+
+36: "Sizlarga nima bo‘ldi? Qanday hukm qilmoqdasizlar?",
+
+37: "Yoki sizlarda o‘qiyotgan bir kitob bormi?",
+
+38: "Unda sizlar uchun istagan narsangiz borligi yozilganmi?",
+
+39: "Yoki Qiyomat kunigacha sizlarga bizdan yetadigan qasamlarimiz bormi, ya’ni sizlar hukm qiladigan narsaga egasizlarmi?",
+
+40: "Ulardan so‘ra: qaysi biri bunga kafildir?",
+    
+41: "Yoki ularning sheriklari bormi? Bas, agar rostgo‘y bo‘lsalar, sheriklarini keltirsinlar.",
+
+42: "Boldir ochiladigan va ular sajdaga chaqiriladigan, lekin qodir bo‘lmaydigan kunni esla.",
+
+43: "Ko‘zlari xor bo‘lgan, ularni xorlik qoplagan holda turadilar. Holbuki, ular sog‘-salomat paytlarida sajdaga chaqirilar edilar.",
+
+44: "Bas, bu so‘zni yolg‘on qiladiganlarni Menga qo‘yib qo‘y. Biz ularni bilmagan tomondan asta-sekin halokatga yaqinlashtiramiz.",
+
+45: "Men ularga muhlat beraman. Albatta, Mening hiylam (tadbirim) mustahkamdir.",
+
+46: "Yoki sen ulardan biror haq so‘rayapsanmi, bas, ular qarz yukidan og‘irlashib qolganlarmi?",
+
+47: "Yoki ularda g‘ayb ilmi bor, bas, ular yozib olmoqdalar?",
+
+48: "Bas, Robbingning hukmiga sabr qilgin. Baliq egasi (Yunus) kabi bo‘lmagin. U g‘amga to‘la holda nido qilgan edi.",
+
+49: "Agar Robbisidan bir ne’mat unga yetmaganida edi, albatta, u malomat qilingan holda sahroga chiqarilgan bo‘lardi.",
+
+50: "Bas, Robbi uni tanladi va uni solihlardan qildi.",
+
+51: "Kofir bo‘lganlar Zikrni eshitganlarida seni ko‘zlari bilan yiqitishga yaqinlashadilar va: «Albatta, u majnundir», deydilar.",
+
+52: "Holbuki, u (Qur’on) olamlar uchun faqat eslatmadir.",
+},
+69: {
+1: "Haqiqiy sodir bo‘luvchi (Qiyomat)!",
+
+2: "Haqiqiy sodir bo‘luvchi nima ekanini sen qayerdan bilarding?",
+
+3: "Haqiqiy sodir bo‘luvchi nima ekanini sen qayerdan bilarding?",
+
+4: "Samud va Od qiyomat zarbasini yolg‘on qildilar.",
+
+5: "Samud haddan oshgan qichqiriq bilan halok qilindi.",
+
+6: "Od esa qattiq, dahshatli shamol bilan halok qilindi.",
+
+7: "U uni yetti kecha va sakkiz kun uzluksiz davom ettirdi. Bas, ularni u yerda ildizi sug‘urilgan xurmo tanalaridek yotganini ko‘rasan.",
+
+8: "Bas, ulardan biror qolganini ko‘ryapsanmi?",
+
+9: "Fir’avn, undan oldingilar va ag‘darilgan shaharlar ham gunoh bilan keldilar.",
+
+10: "Ular Robbilarining Rasuliga osiy bo‘ldilar. Bas, U ularni kuchli tutish bilan tutdi.",
+
+11: "Albatta, suv toshqini oshib ketganida, Biz sizlarni kemada ko‘tardik.",
+
+12: "Uni sizlarga eslatma qilish uchun va eshituvchi quloqlar uni eslab olishi uchun.",
+
+13: "Sur bir marta chalinganida,",
+
+14: "Yer va tog‘lar ko‘tarilib, bir zarba bilan parchalanib ketganida,",
+
+15: "Ana o‘sha kuni Voqea sodir bo‘ladi.",
+
+16: "Osmon yoriladi. U kuni u zaif bo‘ladi.",
+
+17: "Malaikalar uning chetlarida bo‘ladilar. Ularning ustida o‘sha kuni Robbingning Arshini sakkiztasi ko‘tarib turadi.",
+
+18: "U kuni sizlar ko‘rsatilasizlar. Sizlardan hech qanday sir yashirin qolmaydi.",
+
+19: "Bas, kitobi o‘ng qo‘liga berilgan kishi: «Mana, kitobimni o‘qinglar», deydi.",
+
+20: "«Men hisobimga ro‘baro‘ bo‘lishimni bilgan edim».",
+    
+21: "Bas, u rozi bo‘lgan hayotda bo‘ladi.",
+
+22: "Yuksak jannatda.",
+
+23: "Uning mevalari yaqin qilib qo‘yilgandir.",
+
+24: "«O‘tgan kunlarda qilgan amallaringiz sababli yeb-ichinglar, xursand bo‘linglar», (deyiladi).",
+
+25: "Ammo kitobi chap qo‘liga berilgan kishi: «Qani edi menga kitobim berilmaganida edi», deydi.",
+
+26: "«Hisobim nima ekanini bilmagan bo‘lsam edi».",
+
+27: "«Qani edi u (o‘lim) hamma narsani tugatganida edi».",
+
+28: "«Mol-davlatim menga foyda bermadi».",
+
+29: "«Hukmronligim mendan ketdi».",
+
+30: "«Uni ushlanglar va kishanlanglar».",
+
+31: "«So‘ngra uni jahannamga tashlanglar».",
+
+32: "«So‘ngra uzunligi yetmish tirsak bo‘lgan zanjirga uni kiritinglar».",
+
+33: "Albatta, u Ulug‘ ALLAHga iymon keltirmas edi.",
+
+34: "Va miskinni taomlantirishga undamas edi.",
+
+35: "Bas, bugun uning bu yerda yaqin do‘sti yo‘qdir.",
+
+36: "Va faqat yiringdan boshqa taomi ham yo‘qdir.",
+
+37: "Uni faqat xatoga yo‘l qo‘yganlar yeydi.",
+
+38: "Bas, ko‘rayotgan narsangiz bilan qasam ichaman.",
+
+39: "Va ko‘rmayotgan narsangiz bilan ham qasam ichaman.",
+
+40: "Albatta, u (Qur’on) ulug‘ Rasulning so‘zidir.",
+
+41: "U shoirning so‘zi emasdir. Sizlar juda oz iymon keltirasizlar.",
+
+42: "Va u kohinning so‘zi ham emasdir. Sizlar juda oz eslatma olasizlar.",
+
+43: "U olamlarning Robbidan nozil qilingandir.",
+
+44: "Agar u Bizga qarshi ba’zi so‘zlarni to‘qib chiqarganida edi,",
+
+45: "Albatta, Biz uni o‘ng qo‘l bilan tutgan bo‘lardik.",
+
+46: "So‘ngra uning yurak tomirini uzgan bo‘lardik.",
+
+47: "Sizlardan hech kim bunga to‘sqinlik qila olmas edi.",
+
+48: "Albatta, u taqvodorlar uchun eslatmadir.",
+
+49: "Albatta, Biz sizlardan yolg‘onlovchilar borligini bilamiz.",
+
+50: "Albatta, u kofirlar uchun nadomatdir.",
+
+51: "Va albatta, u aniq Haqdir.",
+
+52: "Bas, ulug‘ Robbingning nomini poklagin.",
+},
+70: {
+1: "Bir so‘rovchi sodir bo‘luvchi azobni so‘radi.",
+
+2: "Kofirlar uchun bo‘lgan azobni. Uni qaytaruvchi hech kim yo‘qdir.",
+
+3: "U darajalar Egasi bo‘lgan ALLAH tomondandir.",
+
+4: "Malaikalar va Ruh Unga ellik ming yil miqdoridagi bir kunda ko‘tariladilar.",
+
+5: "Bas, chiroyli sabr bilan sabr qilgin.",
+
+6: "Albatta, ular uni uzoq deb ko‘radilar.",
+
+7: "Biz esa uni yaqin deb ko‘ramiz.",
+
+8: "U kuni osmon eritilgan metall kabi bo‘ladi.",
+
+9: "Tog‘lar esa jun kabi bo‘ladi.",
+
+10: "Va hech bir yaqin do‘st yaqin do‘stidan so‘ramaydi.",
+
+11: "Ular bir-birlarini ko‘rsatadilar. Jinoyatchi o‘sha kun azobdan qutulish uchun o‘z farzandlarini fidya qilishni istaydi.",
+
+12: "Va xotinini ham, birodarini ham.",
+
+13: "Va uni himoya qilgan qarindoshlarini ham.",
+
+14: "Va yer yuzidagi barchani ham. So‘ngra bu uni qutqarsa edi.",
+
+15: "Yo‘q! Albatta, u Lovullovchi olovdir.",
+
+16: "U terini sug‘urib oluvchidir.",
+
+17: "U yuz o‘girgan va orqa qilgan kishini chaqiradi.",
+
+18: "Va mol to‘plab, uni yig‘ib qo‘ygan kishini ham.",
+
+19: "Albatta, inson sabrsiz qilib yaratilgandir.",
+
+20: "Unga yomonlik yetganda, vahimaga tushadi.",
+
+21: "Va unga yaxshilik yetganda, baxillik qiladi.",
+
+22: "Faqat namoz o‘qiydiganlar bundan mustasno.",
+
+23: "Ular namozlarida doimiydirlar.",
+
+24: "Va ularning mollarida ma’lum haq bor.",
+
+25: "So‘rovchi va mahrum uchun.",
+
+26: "Va ular jazo kunini tasdiqlaydilar.",
+
+27: "Va ular Robbilarining azobidan qo‘rqadilar.",
+
+28: "Albatta, Robbilarining azobidan xotirjam bo‘linmaydi.",
+
+29: "Va ular o‘z farjlarini saqlaydilar.",
+
+30: "Faqat xotinlari yoki o‘z mulklari bo‘lganlar bundan mustasno. Bas, ular malomat qilinmaydilar.",
+
+31: "Kim bundan boshqasini istasa, ana o‘shalar haddidan oshuvchilardir.",
+
+32: "Va ular omonatlarini hamda ahdlarini saqlaydilar.",
+
+33: "Va ular guvohliklarini to‘g‘ri ado qiladilar.",
+
+34: "Va ular namozlarini saqlaydilar.",
+
+35: "Ana o‘shalar jannatlarda hurmat qilinuvchilardir.",
+
+36: "Bas, kofirlarga nima bo‘ldiki, ular sen tomonga shoshilib kelmoqdalar?",
+
+37: "O‘ngdan ham, chapdan ham guruh-guruh bo‘lib.",
+
+38: "Ularning har biri ne’mat jannatiga kiritilishni umid qiladimi?",
+
+39: "Yo‘q! Albatta, Biz ularni o‘zlari bilgan narsadan yaratdik.",
+
+40: "Bas, mashriqlar va mag‘riblar Robbisiga qasam ichaman. Albatta, Biz qodirmiz.",
+
+41: "Ularning o‘rniga yaxshiroqlarini keltirishga. Biz ojiz emasmiz.",
+
+42: "Bas, ularni qo‘yib yubor, ular va’da qilingan kunlariga duch kelgunlaricha behuda gaplarga sho‘ng‘ib, o‘ynab yursinlar.",
+
+43: "U kuni ular qabrlardan tez chiqadilar, xuddi sanamlarga tomon yugurayotgandek.",
+
+44: "Ko‘zlari xor bo‘lgan, ularni xorlik qoplagan holda. Mana shu ularga va’da qilingan kundir.",
+},
+71: {
+1: "Albatta, Biz Nuhni uning qavmiga yubordik: «Ularga alamli azob kelishidan oldin ogohlantirgin».",
+
+2: "U dedi: «Ey qavmim! Albatta, men sizlar uchun ochiq ogohlantiruvchiman».",
+
+3: "«ALLAHga ibodat qilinglar, Undan qo‘rqinglar va menga itoat qilinglar».",
+
+4: "«U sizlarning gunohlaringizni mag‘firat qiladi va sizlarga ma’lum muddatgacha muhlat beradi. Albatta, ALLAHning muddati kelganida kechiktirilmaydi. Agar bilsangizlar edi».",
+
+5: "U dedi: «Ey Robbim! Men qavmimni kechayu kunduz da’vat qildim».",
+
+6: "«Lekin mening da’vatim ularning qochishlarini yanada oshirdi».",
+
+7: "«Men har safar ularni Sen mag‘firat qilishing uchun chaqirganimda, ular barmoqlarini quloqlariga tiqdilar, kiyimlariga o‘randilar, davom etdilar va katta kibrlanish bilan kibr qildilar».",
+
+8: "«So‘ngra men ularni oshkora da’vat qildim».",
+
+9: "«Keyin ularga ochiq ham, yashirin ham gapirdim».",
+
+10: "«Bas, men: «Robbingizdan mag‘firat so‘ranglar! Albatta, U Mag‘firat qiluvchidir», dedim».",
+
+11: "«U sizlarga osmondan mo‘l yomg‘ir yuboradi».",
+
+12: "«Va sizlarga mollar hamda farzandlar bilan yordam beradi, sizlar uchun bog‘lar qiladi va sizlar uchun anhorlar qiladi».",
+
+13: "«Sizlarga nima bo‘ldiki, ALLAH uchun ulug‘likni umid qilmayapsizlar?»",
+
+14: "«Holbuki, U sizlarni bosqichma-bosqich yaratdi».",
+
+15: "«ALLAH yetti osmonni qavat-qavat qilib qanday yaratganini ko‘rmadingizlarmi?»",
+
+16: "«Ularning ichida oyni nur va quyoshni chiroq qilib qo‘ydi».",
+
+17: "«ALLAH sizlarni yerdan o‘simlik kabi o‘stirdi».",
+
+18: "«So‘ngra sizlarni unga qaytaradi va yana chiqaradi».",
+
+19: "«ALLAH sizlar uchun yerni yoyilgan gilam qildi».",
+
+20: "«Toki unda keng yo‘llardan yursangizlar».",
+    
+21: "Nuh dedi: «Ey Robbim! Ular menga osiy bo‘ldilar va moli hamda farzandi faqat zararini oshirgan kishilarga ergashdilar».",
+
+22: "«Ular katta hiylalar qildilar».",
+
+23: "«Va dedilar: «O‘z ilohlaringizni tark etmanglar, Vadd, Suvo’, Yag‘us, Ya’uq va Nasrni ham tark etmanglar».",
+
+24: "«Ular ko‘plarni adashtirdilar. Zolimlarga faqat adashuvni ziyoda qilgin».",
+
+25: "Ular gunohlari sababli g‘arq qilindilar va olovga kiritildilar. Bas, ular o‘zlari uchun ALLAHdan boshqa yordamchilar topmadilar.",
+
+26: "Nuh dedi: «Ey Robbim! Yer yuzida kofirlardan biror tirik jon qoldirma».",
+
+27: "«Agar ularni qoldirsang, ular bandalaringni adashtiradilar va faqat buzuq, kofir farzandlarni tug‘adilar».",
+
+28: "«Ey Robbim! Meni, ota-onamni, uyimga mo‘min holda kirgan kishilarni va barcha mo‘min erkaklar hamda mo‘min ayollarni mag‘firat qilgin. Zolimlarga esa faqat halokatni ziyoda qilgin».",
+},
+72: {
+1: "Ayting: «Menga vahiy qilindiki, jinlardan bir guruh (Qur’anni) tinglab: «Albatta, biz ajoyib Qur’on eshitdik», dedilar».",
+
+2: "«U to‘g‘ri yo‘lga hidoyat qiladi. Bas, biz unga iymon keltirdik va Robbimizga hech kimni sherik qilmaymiz».",
+
+3: "«Albatta, Robbimizning ulug‘ligi yuksakdir. U na xotin, na farzand tutgan».",
+
+4: "«Bizning ahmoqlarimiz ALLAH haqida haddan oshgan so‘zlarni aytar edilar».",
+
+5: "«Biz insonlar va jinlar ALLAH haqida hech qachon yolg‘on gapirmaydi deb o‘ylagan edik».",
+
+6: "«Insonlardan ba’zi erkaklar jinlardan ba’zi erkaklarga panoh tilar edilar. Bas, ular ularga yanada ko‘proq og‘irlik qo‘shdilar».",
+
+7: "«Ular sizlar o‘ylaganingizdek, ALLAH hech kimni qayta tiriltirmaydi deb o‘yladilar».",
+
+8: "«Biz osmonga yetmoqchi bo‘ldik, ammo uni kuchli qo‘riqchilar va olovli yulduzlar bilan to‘ldirilgan holda topdik».",
+
+9: "«Biz undan tinglash uchun ba’zi joylarda o‘tirar edik. Endi kim tinglasa, o‘zini kuzatayotgan olovli yulduzni topadi».",
+
+10: "«Biz yer yuzidagilarga yomonlik iroda qilinganmi yoki Robbilari ularga yaxshilik iroda qilganmi, bilmaymiz».",
+
+11: "«Oramizda solihlar ham bor, undan past bo‘lganlar ham bor. Biz turli-tuman yo‘llarda bo‘lganmiz».",
+
+12: "«Biz yer yuzida ALLAHni ojiz qila olmasligimizni va qochib ham Unga qarshi qutula olmasligimizni bildik».",
+
+13: "«Biz hidoyatni eshitganimizda unga iymon keltirdik. Kim Robbisiga iymon keltirsa, u kamayishdan ham, zulmdan ham qo‘rqmaydi».",
+
+14: "«Oramizda musulmonlar ham bor, adolatdan chetlaganlar ham bor. Kim Islomni qabul qilsa, ana o‘shalar to‘g‘ri yo‘lni izlaganlardir».",
+
+15: "«Adolatdan chetlaganlar esa jahannam uchun o‘tin bo‘ladilar».",
+
+16: "Agar ular to‘g‘ri yo‘lda sobit turganlarida edi, Biz ularga mo‘l suv berar edik.",
+
+17: "Toki Biz ularni shu bilan sinaymiz. Kim Robbisining zikridan yuz o‘girsa, U uni og‘ir azobga kiritadi.",
+
+18: "Albatta, masjidlar ALLAH uchundir. Bas, ALLAH bilan birga hech kimga duo qilmanglar.",
+
+19: "ALLAHning bandasi (Muhammad) Unga duo qilish uchun turganida, ular uning atrofida to‘planib qolayozdilar.",
+
+20: "Ayting: «Men faqat Robbimga duo qilaman va Unga hech kimni sherik qilmayman».",
+
+21: "Ayting: «Albatta, men sizlarga zarar ham, to‘g‘ri yo‘l ham yetkazishga qodir emasman».",
+
+22: "Ayting: «Albatta, meni ALLAHdan hech kim himoya qila olmaydi va Undan boshqa panoh topa olmayman».",
+
+23: "Faqat ALLAH tomonidan bo‘lgan yetkazish va Uning xabarlarini (yetkazish) bordir. Kim ALLAHga va Uning Rasuliga osiy bo‘lsa, bas, uning uchun jahannam olovi bordir. Ular unda abadiy qoluvchilardir.",
+
+24: "Nihoyat, ular o‘zlariga va’da qilingan narsani ko‘rganlarida, kimning yordamchisi kuchsizroq va soni ozroq ekanini bilib oladilar.",
+
+25: "Ayting: «Men sizlarga va’da qilingan narsa yaqindami yoki Robbim unga uzoq muddat belgilaganmi — bilmayman».",
+
+26: "U g‘aybni Biluvchidir. U O‘z g‘aybini hech kimga oshkor qilmaydi.",
+
+27: "Faqat O‘zi rozi bo‘lgan Rasul bundan mustasno. Bas, U uning oldidan va ortidan kuzatuvchilar yuboradi.",
+
+28: "Toki ular Robbilarining xabarlarini yetkazganlarini bilsin. U ularning huzuridagi narsalarni qamrab olgan va har bir narsani sanab qo‘ygan.",
+}
+73: {
+1: "Ey o‘ranib olgan kishi!",
+
+2: "Kechaning oz qismidan tashqari turib (namoz o‘qi).",
+
+3: "Uning yarmini yoki undan ozgina kamaytir.",
+
+4: "Yoki unga qo‘shib ziyoda qil va Qur’onni tartil bilan o‘qi.",
+
+5: "Albatta, Biz senga og‘ir bir so‘zni yuklaymiz.",
+
+6: "Albatta, kechasi turish nafsni bosish uchun kuchliroq va so‘z jihatidan to‘g‘riroqdir.",
+
+7: "Albatta, kunduz kuni sen uchun uzoq mashg‘ulot bordir.",
+
+8: "Robbingning ismini zikr qil va butunlay Unga yuzlan.",
+
+9: "U mashriq va mag‘ribning Robbidir. Undan o‘zga iloh yo‘qdir. Bas, Uni vakil qilgin.",
+
+10: "Ularning aytganlariga sabr qil va ulardan go‘zal tarzda ajral.",
+
+11: "Ne’mat ichida yashayotgan yolg‘onlovchilarni Menga qo‘yib qo‘y va ularga ozgina muhlat ber.",
+
+12: "Albatta, Bizning huzurimizda kishanlar va jahannam bor.",
+
+13: "Va tomoqdan o‘tmaydigan taom hamda alamli azob bor.",
+
+14: "U kuni yer va tog‘lar titraydi, tog‘lar sochilgan qum uyumiga aylanadi.",
+
+15: "Albatta, Biz sizlarga ustingizga guvoh bo‘luvchi Rasul yubordik, xuddi Fir’avnga Rasul yuborganimiz kabi.",
+
+16: "Bas, Fir’avn Rasulga osiy bo‘ldi. Bas, Biz uni qattiq tutish bilan tutdik.",
+
+17: "Agar kofir bo‘lsangizlar, bolalarni qaritadigan kundan qanday saqlanasizlar?",
+
+18: "U sababli osmon yoriladi. Uning va’dasi albatta bajariluvchidir.",
+
+19: "Albatta, bu eslatmadir. Bas, kim xohlasa, Robbisi tomon yo‘l oladi.",
+
+20: "Albatta, Robbing sen va sen bilan birga bo‘lgan bir guruh kechaning uchdan ikki qismiga yaqinini, yarmini va uchdan birini turib o‘tkazishingizni biladi. Kechani va kunduzni ALLAH o‘lchaydi. U sizlar uni to‘liq hisoblay olmasligingizni bildi va sizlarga yengillik berdi. Bas, Qur’ondan oson bo‘lganini o‘qinglar. U orangizda kasallar, yer yuzida yurib ALLAHning fazlini izlayotganlar va ALLAH yo‘lida kurashayotganlar bo‘lishini bildi. Bas, undan oson bo‘lganini o‘qinglar, namozni ado qilinglar, zakot beringlar va ALLAHga chiroyli qarz beringlar. O‘zingiz uchun oldindan qilgan yaxshiligingizni ALLAH huzurida yaxshiroq va ulug‘roq mukofot sifatida topasizlar. ALLAHdan mag‘firat so‘ranglar. Albatta, ALLAH Mag‘firat qiluvchi va Rahmlidir.",
+ },
+74: {
+1: "Ey o‘ranib olgan kishi!",
+
+2: "Tur va ogohlantir!",
+
+3: "Robbingni ulug‘lagin.",
+
+4: "Kiyimlaringni poklagin.",
+
+5: "Nopoklikdan uzoq bo‘lgin.",
+
+6: "Ko‘paytirish umidida yaxshilik qilma.",
+
+7: "Va Robbing uchun sabr qilgin.",
+
+8: "Bas, qachon sur chalinganida,",
+
+9: "Ana o‘sha kun og‘ir kundir.",
+
+10: "Kofirlar uchun oson emasdir.",
+
+11: "Meni yaratgan kishini yolg‘iz qo‘yib qo‘y.",
+
+12: "Men unga keng mol berdim.",
+
+13: "Va hozir bo‘lgan farzandlar berdim.",
+
+14: "Va unga imkoniyatlarni keng qilib berdim.",
+
+15: "So‘ngra u yana ko‘paytirishimni umid qiladi.",
+
+16: "Yo‘q! Albatta, u Bizning oyatlarimizga qarshi edi.",
+
+17: "Men uni og‘ir bir ko‘tarilishga majbur qilaman.",
+
+18: "Albatta, u o‘yladi va reja tuzdi.",
+
+19: "Halok bo‘lsin, qanday reja tuzdi!",
+
+20: "Yana halok bo‘lsin, qanday reja tuzdi!",
+id="muddassir_21_40"
+
+21: "So‘ngra qaradi.",
+
+22: "So‘ngra qoshlarini chimirdi va yuzini burishtirdi.",
+
+23: "So‘ngra yuz o‘girib, kibrlanib ketdi.",
+
+24: "Bas, u: «Bu faqat o‘rganilgan sehrdir», dedi.",
+
+25: "«Bu faqat inson so‘zidir».",
+
+26: "Men uni Saqar (jahannam)ga kiritaman.",
+
+27: "Saqar nima ekanini sen qayerdan bilarding?",
+
+28: "U hech narsani qoldirmaydi va hech narsani tashlab ketmaydi.",
+
+29: "U terini kuydiruvchidir.",
+
+30: "Uning ustida o‘n to‘qqiz (malaika) bordir.",
+
+31: "Biz do‘zax qo‘riqchilarini faqat malaikalardan qildik. Ularning sonini kofirlar uchun sinov qildik. Toki Kitob berilganlar ishonch hosil qilsinlar, mo‘minlarning iymoni ziyoda bo‘lsin va Kitob berilganlar hamda mo‘minlar shubha qilmasinlar. Qalblarida kasallik bo‘lganlar va kofirlar: «ALLAH bu bilan nimani iroda qildi?» desinlar. Shunday qilib, ALLAH xohlagan kishisini adashtiradi va xohlagan kishisini hidoyat qiladi. Robbingning lashkarlarini faqat U biladi. Bu insonlar uchun faqat eslatmadir.",
+
+32: "Yo‘q! Oy bilan qasam.",
+
+33: "Va ketib borayotgan kecha bilan.",
+
+34: "Va yorishayotgan tong bilan.",
+
+35: "Albatta, u (Saqar) ulkan narsalardan biridir.",
+
+36: "Insonlarni ogohlantiruvchi narsadir.",
+
+37: "Sizlardan oldinga o‘tishni yoki ortda qolishni xohlagan kishilar uchun.",
+
+38: "Har bir jon o‘z qilgan amali evaziga garovdadir.",
+
+39: "Faqat o‘ng tomon egalari bundan mustasno.",
+
+40: "Ular jannatlarda bir-birlaridan so‘raydilar.",
+
+41: "Gunohkorlar haqida (so‘raydilar):",
+
+42: "«Sizlarni Saqarga nima kiritdi?»",
+
+43: "Ular aytadilar: «Biz namoz o‘qiydiganlardan emas edik».",
+
+44: "«Va miskinni taomlantirmas edik».",
+
+45: "«Va biz botil gaplarga sho‘ng‘iganlar bilan birga sho‘ng‘irdik».",
+
+46: "«Va jazo kunini yolg‘on der edik».",
+
+47: "«Nihoyat, bizga aniq narsa (o‘lim) keldi».",
+
+48: "Bas, ularga shafoatchilarning shafoati foyda bermaydi.",
+
+49: "Bas, ularga nima bo‘ldiki, eslatmadan yuz o‘giradilar?",
+
+50: "Go‘yo ular qo‘rqib qochayotgan yovvoyi eshaklardekdir.",
+
+51: "Arslondan qochayotgandek.",
+
+52: "Balki ulardan har biri ochilgan sahifalar berilishini istaydi.",
+
+53: "Yo‘q! Balki ular Oxiratdan qo‘rqmaydilar.",
+
+54: "Yo‘q! Albatta, u (Qur’on) eslatmadir.",
+
+55: "Bas, kim xohlasa, undan eslatma oladi.",
+
+56: "Ular faqat ALLAH xohlaganidagina eslatma oladilar. U taqvoga loyiq Zotdir va mag‘firat qilish Egasi Zotdir.",
+},
+75: {
+1: "Qiyomat kuni bilan qasam ichaman.",
+
+2: "Va o‘zini malomat qiluvchi nafs bilan qasam ichaman.",
+
+3: "Inson Biz uning suyaklarini jamlay olmaymiz deb o‘ylaydimi?",
+
+4: "Ha, Biz uning barmoqlarining uchlarini ham tiklashga Qodirmiz.",
+
+5: "Balki inson oldidagi hayotida ham gunoh qilishni istaydi.",
+
+6: "U: «Qiyomat kuni qachon ekan?» deb so‘raydi.",
+
+7: "Bas, ko‘z qamashganida,",
+
+8: "Oy tutilganida,",
+
+9: "Quyosh va oy birlashtirilganida,",
+
+10: "U kuni inson: «Qayerga qochish joyi bor?» deydi.",
+
+11: "Yo‘q! Hech qanday panoh joyi yo‘qdir.",
+
+12: "U kuni qaytish faqat Robbing huzurigadir.",
+
+13: "U kuni insonga oldindan qilgan va ortda qoldirgan ishlari xabar qilinadi.",
+
+14: "Balki inson o‘ziga o‘zi guvohdir.",
+
+15: "Garchi u o‘z uzrlarini tashlasa ham.",
+
+16: "Uni (Qur’onni) tezroq olish uchun tilingni u bilan harakatlantirma.",
+
+17: "Albatta, uni jamlash va o‘qitish Bizning zimmamizdadir.",
+
+18: "Bas, Biz uni o‘qiganimizda, uning o‘qilishiga ergash.",
+
+19: "So‘ngra uni bayon qilish ham Bizning zimmamizdadir.",
+
+20: "Yo‘q! Balki sizlar tez o‘tuvchi dunyo hayotini sevasizlar.",
+    
+21: "Va Oxiratni tark etasizlar.",
+
+22: "U kuni ba’zi yuzlar porloq bo‘ladi.",
+
+23: "Robbilariga boqib turadilar.",
+
+24: "Va ba’zi yuzlar esa o‘sha kuni tund bo‘ladi.",
+
+25: "Ular o‘zlariga belni sindiruvchi narsa qilinishini biladilar.",
+
+26: "Yo‘q! Qachonki jon o‘mrov suyagiga yetganida,",
+
+27: "Va: «Kim dam soluvchi (davolovchi) bor?» deyilganda,",
+
+28: "Va u ajralish ekanini anglaganida,",
+
+29: "Va boldir boldirga o‘ralganida,",
+
+30: "O‘sha kuni haydalish faqat Robbing huzuriga bo‘ladi.",
+
+31: "U na tasdiqladi va na namoz o‘qidi.",
+
+32: "Balki yolg‘onga chiqardi va yuz o‘girdi.",
+
+33: "So‘ngra ahli tomoniga kibrlanib ketdi.",
+
+34: "Senga halokat bo‘lsin, yana halokat bo‘lsin!",
+
+35: "So‘ngra senga halokat bo‘lsin, yana halokat bo‘lsin!",
+
+36: "Inson o‘z holiga tashlab qo‘yilishini o‘ylaydimi?",
+
+37: "U otiladigan bir tomchi urug‘ emas edimi?",
+
+38: "So‘ngra u laxta qonga aylandi. Bas, U uni yaratdi va mukammal qildi.",
+
+39: "Undan erkak va ayol juftlarini yaratdi.",
+
+40: "Ana shu Zot o‘liklarni tiriltirishga Qodir emasmi?",
+},
+76: {
+1: "Inson ustiga zamondan shunday bir vaqt kelmadimi-ki, u esga olinadigan narsa bo‘lmagan edi?",
+
+2: "Albatta, Biz insonni aralash bir tomchi suvdan yaratdik. Uni sinaymiz. Bas, uni eshituvchi va ko‘ruvchi qildik.",
+
+3: "Albatta, Biz unga yo‘lni ko‘rsatdik. U yo shukr qiluvchi bo‘ladi, yo noshukr bo‘ladi.",
+
+4: "Albatta, Biz kofirlar uchun zanjirlar, kishanlar va alangali olovni tayyorladik.",
+
+5: "Albatta, yaxshilar kofur aralashtirilgan qadahlardan ichadilar.",
+
+6: "U ALLAH bandalari ichadigan buloqdir. Uni ular o‘zlari xohlagan joyga oqizib chiqaradilar.",
+
+7: "Ular nazrlarini ado qiladilar va yomonligi keng tarqaladigan kundan qo‘rqadilar.",
+
+8: "Ular o‘zlari xohlab turgan taomni miskin, yetim va asirga beradilar.",
+
+9: "«Biz sizlarni faqat ALLAHning roziligi uchun taomlantiramiz. Sizlardan mukofot ham, tashakkur ham istamaymiz».",
+
+10: "«Albatta, biz Robbimizdan yuzlar qattiq burishib qoladigan, og‘ir kundan qo‘rqamiz».",
+
+11: "Bas, ALLAH ularni o‘sha kunning yomonligidan saqladi va ularga yorug‘lik hamda xursandchilik berdi.",
+
+12: "Va sabr qilganlari sababli ularni jannat va ipak bilan mukofotladi.",
+
+13: "Ular unda taxtlarga suyanib o‘tiradilar. U yerda na quyosh issig‘ini, na sovuqni ko‘radilar.",
+
+14: "Uning soyasi ularga yaqin bo‘lib, mevalari juda yaqin qilingan.",
+
+15: "Ularning atrofida kumush idishlar va billur qadahlar aylantiriladi.",
+
+16: "Kumushdan bo‘lgan billurlar — ularni aniq o‘lchaganlar.",
+
+17: "U yerda ular zanjabil aralashtirilgan qadahlardan ichiriladilar.",
+
+18: "U jannatda Salsabil deb ataluvchi buloqdir.",
+
+19: "Ularning atrofida abadiy yosh bolalar aylanib yuradilar. Ularni ko‘rganingda sochilgan marvaridlar deb o‘ylaysan.",
+
+20: "Qayerga qarasang, ne’mat va ulkan saltanatni ko‘rasan.",
+
+21: "Ularning ustilarida yashil ipak va qalin ipak kiyimlar bo‘ladi. Ular kumush bilakuzuklar bilan bezatiladilar. Robbilari ularga pok ichimlik ichiradi.",
+
+22: "«Albatta, bu sizlar uchun mukofotdir. Sizlarning sa’y-harakatlaringiz qadrlangandir».",
+
+23: "Albatta, Biz Qur’onni senga bosqichma-bosqich nozil qildik.",
+
+24: "Bas, Robbingning hukmiga sabr qilgin va ulardan gunohkor yoki kofir bo‘lgan biror kishiga itoat qilma.",
+
+25: "Va ertalab ham, kechqurun ham Robbingning ismini zikr qilgin.",
+
+26: "Va kechaning bir qismida Unga sajda qilgin va kechasi uzoq vaqt Uni tasbeh aytgin.",
+
+27: "Albatta, ular tez o‘tuvchi dunyoni sevadilar va oldilaridagi og‘ir kunni ortlariga tashlaydilar.",
+
+28: "Ularni Biz yaratdik va ularning tuzilishini mustahkam qildik. Agar xohlasak, ularning o‘rniga o‘xshashlarini almashtiramiz.",
+
+29: "Albatta, bu bir eslatmadir. Bas, kim xohlasa, Robbisi tomon yo‘l oladi.",
+
+30: "Sizlar faqat ALLAH xohlaganidagina xohlaysizlar. Albatta, ALLAH Biluvchi va Hikmat Egasi Zotdir.",
+
+31: "U xohlagan kishisini rahmatiga kiritadi. Zolimlar uchun esa alamli azob tayyorlab qo‘ygan.",
+},
+77: {
+1: "Ketma-ket yuboriladigan (shamollar) bilan qasam.",
+
+2: "Qattiq esadiganlar bilan.",
+
+3: "Tarqatib yuboradiganlar bilan.",
+
+4: "Ajratuvchilar bilan.",
+
+5: "Eslatma (vahiy)ni yetkazuvchilar bilan.",
+
+6: "Uzr yoki ogohlantirish uchun.",
+
+7: "Albatta, sizlarga va’da qilingan narsa sodir bo‘lguvchidir.",
+
+8: "Bas, yulduzlar o‘chirilganida,",
+
+9: "Osmon yorilganida,", 
+
+10: "Tog‘lar sochilganida,", 
+
+11: "Va Rasulchilar uchun vaqt belgilanganida.",
+
+12: "Qaysi kun uchun kechiktirildi?",
+
+13: "Ajratish kuni uchun.",
+
+14: "Ajratish kuni nima ekanini sen qayerdan bilarding?",
+
+15: "O‘sha kuni yolg‘onlovchilarga halokat bo‘lsin.",
+
+16: "Biz avvalgi (kofir)larni halok qilmaganmizmi?",
+
+17: "So‘ngra keyingilarni ham ularga ergashtiramiz.",
+
+18: "Jinoyatchilar bilan mana shunday qilamiz.",
+
+19: "O‘sha kuni yolg‘onlovchilarga halokat bo‘lsin.",
+
+20: "Biz sizlarni arzimas suvdan yaratmadikmi?",
+
+21: "Bas, uni mustahkam joyga qo‘ydik.",
+
+22: "Ma’lum vaqtgacha.",
+
+23: "Bas, o‘lchadik. Biz qanday yaxshi o‘lchov qiluvchilarmiz.",
+
+24: "O‘sha kuni yolg‘onlovchilarga halokat bo‘lsin.",
+
+25: "Biz yerni yig‘uvchi qilib qo‘ymadikmi?",
+
+26: "Tiriklarni ham, o‘liklarni ham.",
+
+27: "Va unda baland tog‘lar qo‘ymadikmi hamda sizlarga shirin suv ichirmadikmi?",
+
+28: "O‘sha kuni yolg‘onlovchilarga halokat bo‘lsin.",
+
+29: "«Sizlar yolg‘on deb yurgan narsaga boringlar!» (deyiladi).",
+
+30: "«Uch bo‘lakli soyaga boringlar».",
+
+31: "U na salqinlik beradi va na alangadan saqlaydi.",
+
+32: "Albatta, u qasrdek uchqunlar otadi.",
+
+33: "Go‘yo ular sariq tuyalar kabidir.",
+
+34: "O‘sha kuni yolg‘onlovchilarga halokat bo‘lsin.",
+
+35: "Bu ular gapira olmaydigan kundir.",
+
+36: "Va ularga uzr aytishga ruxsat berilmaydi.",
+
+37: "O‘sha kuni yolg‘onlovchilarga halokat bo‘lsin.",
+
+38: "Bu ajratish kunidir. Biz sizlarni va avvalgi avlodlarni jamladik.",
+
+39: "Bas, agar hiylangiz bo‘lsa, Menga qarshi hiyla qilinglar.",
+
+40: "O‘sha kuni yolg‘onlovchilarga halokat bo‘lsin.",
+
+41: "Albatta, taqvodorlar soyalar va buloqlar ichidadirlar.",
+
+42: "Va ular istagan mevalar bordir.",
+
+43: "«Qilgan ishlaringiz sababli yeb-ichinglar, huzur qilinglar», (deyiladi).",
+
+44: "Albatta, Biz yaxshilik qiluvchilarni shunday mukofotlaymiz.",
+
+45: "O‘sha kuni yolg‘onlovchilarga halokat bo‘lsin.",
+
+46: "«Yeb-ichinglar va ozgina bahra olinglar. Albatta, sizlar jinoyatchilarsizlar».",
+
+47: "O‘sha kuni yolg‘onlovchilarga halokat bo‘lsin.",
+
+48: "Ularga: «Ruku’ qilinglar», deyilganda, ruku’ qilmaydilar.",
+
+49: "O‘sha kuni yolg‘onlovchilarga halokat bo‘lsin.",
+
+50: "Endi ular bundan (Qur’ondan) keyin qaysi so‘zga iymon keltiradilar?",
+},
+78: {
+1: "Ular nima haqida bir-birlaridan so‘rashmoqda?",
+
+2: "Ulug‘ xabar haqida.",
+
+3: "Ular u haqda ixtilof qilmoqdalar.",
+
+4: "Yo‘q! Tez orada bilib oladilar.",
+
+5: "Yana yo‘q! Tez orada bilib oladilar.",
+
+6: "Biz yerni to‘shak qilib qo‘ymadikmi?",
+
+7: "Tog‘larni esa qoziqlar qilib qo‘ymadikmi?",
+
+8: "Sizlarni juft-juft qilib yaratdik.",
+
+9: "Uyqularingizni orom qilib qo‘ydik.",
+
+10: "Kechani libos qilib qo‘ydik.",
+
+11: "Kunduzni esa tirikchilik vaqti qildik.",
+
+12: "Ustingizga yetti mustahkam osmon qurdik.",
+
+13: "Va juda porloq chiroq (quyosh) yaratdik.",
+
+14: "Bulutlardan quyilib keluvchi suv tushirdik.",
+
+15: "U bilan don va o‘simliklar chiqarish uchun.",
+
+16: "Va qalin bog‘lar (paydo qilish uchun).",
+
+17: "Albatta, ajratish kuni belgilangan vaqtdir.",
+
+18: "Sur chalinadigan kun. Bas, sizlar guruh-guruh bo‘lib kelasizlar.",
+
+19: "Osmon ochilib, eshiklar bo‘lib qoladi.",
+
+20: "Tog‘lar yuritilib, sarobga aylanadi.",
+
+21: "Albatta, jahannam poylab turuvchidir.",
+
+22: "U haddan oshganlar uchun qaytish joyidir.",
+
+23: "Ular unda asrlar davomida qoladilar.",
+
+24: "U yerda na salqinlik, na ichimlik totadilar.",
+
+25: "Faqat qaynoq suv va yiringdan boshqa.",
+
+26: "Bu munosib jazodir.",
+
+27: "Albatta, ular hisob-kitobni umid qilmas edilar.",
+
+28: "Va Bizning oyatlarimizni qattiq yolg‘on der edilar.",
+
+29: "Biz esa har narsani yozib qo‘ydik.",
+
+30: "Bas, totib ko‘ringlar! Sizlarga faqat azobni ziyoda qilamiz.",
+
+31: "Albatta, taqvodorlar uchun najot bor.",
+
+32: "Bog‘lar va uzumzorlar.",
+
+33: "Va tengdosh yosh qizlar.",
+
+34: "Hamda to‘la qadahlar bor.",
+
+35: "U yerda behuda gap va yolg‘on eshitmaydilar.",
+
+36: "Bu Robbing tomonidan bo‘lgan mukofotdir. Yetarli hadyadir.",
+
+37: "U osmonlaru yerning va ular orasidagi narsalarning Robbidir. U Rahmondir. Ular Unga murojaat qilishga qodir emaslar.",
+
+38: "Ruh va malaikalar saf tortgan holda turadigan kun. Rahmon izn bergan va so‘zi to‘g‘ri bo‘lgan kishidan boshqalar gapira olmaydi.",
+
+39: "Ana shu Haq kundir. Bas, kim xohlasa, Robbisi tomon yo‘l olsin.",
+
+40: "Albatta, Biz sizlarni yaqin azobdan ogohlantirdik. U kuni inson qo‘llari oldindan qilgan ishlarini ko‘radi va kofir: «Qani edi men tuproq bo‘lganimda edi», deydi.",
+},
+79: {
+1: "Qattiq sug‘urib oluvchilar bilan qasam.",
+
+2: "Yengil torttirib oluvchilar bilan.",
+
+3: "Suzib yuruvchilar bilan.",
+
+4: "Oldinga o‘tuvchilar bilan.",
+
+5: "Ishni boshqaruvchilar bilan qasam.",
+
+6: "O‘sha kuni titroq (birinchi puflash) larzaga keltiradi.",
+
+7: "Unga ergashuvchi (ikkinchi puflash) keladi.",
+
+8: "U kuni ba’zi qalblar qo‘rquv bilan titraydi.",
+
+9: "Ularning ko‘zlari xor bo‘ladi.",
+
+10: "Ular aytadilar: «Haqiqatan ham biz avvalgi holimizga qaytarilamizmi?»",
+
+11: "«Chirigan suyaklarga aylanganimizdan keyinmi?»",
+
+12: "Ular: «Unda bu zararli qaytish bo‘ladi», deydilar.",
+
+13: "U faqat birgina qichqiriqdir.",
+
+14: "Bas, ular birdan tekis joyda bo‘ladilar.",
+
+15: "Muso haqidagi xabar senga keldimi?",
+
+16: "Qachonki Robbi unga muqaddas Tuvo vodiysida nido qilganida:",
+
+17: "«Fir’avnga bor, albatta, u haddidan oshdi».",
+
+18: "«Unga ayt: «Poklanishni xohlaysanmi?»",
+
+19: "«Va seni Robbing yo‘liga hidoyat qilay, shunda qo‘rqasanmi?»",
+
+20: "Bas, unga ulug‘ belgini ko‘rsatdi.",
+
+21: "Bas, u (Fir’avn) uni yolg‘on dedi va osiy bo‘ldi.",
+
+22: "So‘ngra ortiga o‘girilib, harakat qildi.",
+
+23: "Bas, u to‘pladi va nido qildi.",
+
+24: "Va dedi: «Men sizlarning eng oliy Robbingizman».",
+
+25: "Bas, ALLAH uni oxirat va dunyo azobi bilan tutdi.",
+
+26: "Albatta, bunda qo‘rqadigan kishi uchun ibrat bordir.",
+
+27: "Sizlarni yaratish qiyinroqmi yoki osmonnimi? Uni U bino qildi.",
+
+28: "U uning tomini ko‘tardi va uni tartibga soldi.",
+
+29: "Uning kechasini qorong‘i qildi va kunduzini chiqardi.",
+
+30: "Undan keyin yerni yoydi.",
+
+31: "Undan suvini va yaylovini chiqardi.",
+
+32: "Tog‘larni esa mustahkamladi.",
+
+33: "Sizlar va chorvalaringiz uchun manfaat sifatida.",
+
+34: "Bas, katta falokat kelganida,",
+
+35: "U kuni inson qilgan ishlarini eslaydi.",
+
+36: "Va jahannam ko‘rish uchun namoyon qilinadi.",
+
+37: "Bas, kim haddidan oshgan bo‘lsa,",
+
+38: "Va dunyo hayotini ustun qo‘ygan bo‘lsa,",
+
+39: "Albatta, uning joyi jahannamdir.",
+
+40: "Ammo kim Robbisining huzurida turishdan qo‘rqsa va nafsini havodan qaytarsa,",
+
+41: "Albatta, uning joyi jannatdir.",
+
+42: "Sendan Soat haqida so‘raydilar: «Qachon uning qaror topishi?»",
+
+43: "Uning eslatmasi (bilimi) sening Robbing huzuridadir.",
+
+44: "Sen faqat undan qo‘rqadiganlarni ogohlantiruvchisan.",
+
+45: "Go‘yo ular uni ko‘rgan kuni, faqat bir kecha yoki uning tongi qadar turgandek bo‘ladilar.",
+
+46: "Ular uni ko‘rgan kunlarida, go‘yo faqat bir kechqurun yoki uning tongi qadar qolganlaridek bo‘ladilar.",
+},
+80: {
+ 1: "U qoshlarini chimirdi va yuz o‘girdi.",
+
+2: "Chunki uning huzuriga ko‘zi ojiz keldi.",
+
+3: "Sen qayerdan bilarding, ehtimol u poklanar edi.",
+
+4: "Yoki eslatma olar edi va eslatma unga foyda berar edi.",
+
+5: "Ammo o‘zini behojat deb bilgan kishiga keladigan bo‘lsang,",
+
+6: "Sen unga e’tibor qaratding.",
+
+7: "Holbuki, uning poklanmasligi sening zimmangda emas.",
+
+8: "Ammo sening oldingga yugurib kelgan kishiga,",
+
+9: "Va u qo‘rqayotgan bo‘lsa,",
+
+10: "Sen undan chalg‘iding.",
+
+11: "Yo‘q! Albatta, bu bir eslatmadir.",
+
+12: "Bas, kim xohlasa, undan eslatma oladi.",
+
+13: "U hurmatli sahifalardadir.",
+
+14: "Yuksak va poklangan.",
+
+15: "Kotib malaikalar qo‘llaridadir.",
+
+16: "Ulug‘ va itoatkor.",
+
+17: "Inson halok bo‘lsin! U naqadar noshukrdir.",
+
+18: "U Uni nimadan yaratdi?",
+
+19: "Bir tomchi suvdan yaratdi va uni taqdir qildi.",
+
+20: "So‘ngra unga yo‘lni oson qildi.",
+
+21: "So‘ngra uni o‘ldirdi va qabrga qo‘ydi.",
+
+22: "So‘ngra xohlagan vaqtida uni tiriltiradi.",
+
+23: "Yo‘q! U Unga buyurgan narsani bajarmadi.",
+
+24: "Bas, inson o‘z taomiga qarasin.",
+
+25: "Albatta, Biz suvni mo‘l yog‘dirdik.",
+
+26: "So‘ngra yerni yorib chiqardik.",
+
+27: "Bas, unda donlar o‘stirdik.",
+
+28: "Uzumlar va o‘t-o‘lanlar.",
+
+29: "Zaytunlar va xurmolar.",
+
+30: "Qalin bog‘lar.",
+
+31: "Mevalar va yaylovlar.",
+
+32: "Sizlar va chorvalaringiz uchun manfaat sifatida.",
+
+33: "Bas, quloqni kar qiluvchi (qichqiriq) kelganida,", 
+
+34: "U kuni inson o‘z birodaridan qochadi.",
+
+35: "Onasidan va otasidan.",
+
+36: "Xotinidan va farzandlaridan.",
+
+37: "U kuni har bir kishining o‘ziga yetarli tashvishi bordir.",
+
+38: "U kuni ba’zi yuzlar yorug‘ bo‘ladi.",
+
+39: "Kuluvchi va xursand bo‘ladi.",
+
+40: "Va ba’zi yuzlar ustida chang bo‘ladi.",
+
+41: "Ularni qorong‘ulik qoplaydi.",
+
+42: "Ana o‘shalar kofir va fojir kimsalardir.",
+},
+81: {
+1: "Quyosh o‘ralib qolganida.",
+
+2: "Yulduzlar sochilib ketganida.",
+
+3: "Tog‘lar yuritilganida.",
+
+4: "Homilador tuyalar tashlab qo‘yilganida.",
+
+5: "Yovvoyi hayvonlar to‘planganida.",
+
+6: "Dengizlar alangalatilganida.",
+
+7: "Jonlar juftlashtirilganida.",
+
+8: "Tiriklayin ko‘milgan qizdan so‘ralganida.",
+
+9: "«Qaysi gunohi sababli o‘ldirildi?»",
+
+10: "Sahifalar yoyilganida.",
+
+11: "Osmon terisi shilinib ochilganida.",
+
+12: "Jahannam qizdirilganida.",
+
+13: "Jannat yaqinlashtirilganida.",
+
+14: "Har bir jon nima olib kelganini biladi.",
+
+15: "Yo‘q! Orqaga qaytuvchi yulduzlar bilan qasam ichaman.",
+
+16: "Oqib yuruvchi va yashirinuvchi yulduzlar bilan.",
+
+17: "Qorong‘u tushayotgan kecha bilan.",
+
+18: "Yorishayotgan tong bilan qasam.",
+
+19: "Albatta, u (Qur’on) ulug‘ Rasulning so‘zidir.",
+
+20: "Quvvatli, Arsh Egasi huzurida martabali (Rasul)dir.",
+
+21: "U yerda itoat qilinuvchidir, ishonchlidir.",
+
+22: "Sizlarning sohibingiz (Muhammad) majnun emasdir.",
+
+23: "Darhaqiqat, u uni (Jabroilni) ochiq ufqda ko‘rdi.",
+
+24: "U g‘ayb haqida baxil emasdir.",
+
+25: "U quvilgan shaytonning so‘zi emasdir.",
+
+26: "Bas, qayerga ketmoqdasizlar?",
+
+27: "U faqat olamlar uchun eslatmadir.",
+
+28: "Sizlardan to‘g‘ri yo‘lda bo‘lishni xohlagan kishilar uchun.",
+
+29: "Sizlar faqat olamlarning Robbisi ALLAH xohlasagina xohlaysizlar.",
+},
+82: {
+ 1: "Osmon yorilganida.",
+
+2: "Yulduzlar sochilganida.",
+
+3: "Dengizlar otilib ketganida.",
+
+4: "Qabrlar ag‘darilganida.",
+
+5: "Har bir jon oldindan qilgan va ortda qoldirgan narsalarini bilganida.",
+
+6: "Ey inson! Seni karamli Robbing haqida nima aldadi?",
+
+7: "U seni yaratdi, bas, seni mukammal qildi va seni muvozanatli qildi.",
+
+8: "U seni O‘zi xohlagan suratda tarkib qildi.",
+
+9: "Yo‘q! Balki sizlar jazo kunini yolg‘on deysizlar.",
+
+10: "Holbuki, ustingizda qo‘riqlovchilar bordir.",
+
+11: "Hurmatli yozuvchilar.",
+
+12: "Ular qilayotgan ishlaringizni biladilar.",
+
+13: "Albatta, yaxshilar ne’mat ichidadirlar.",
+
+14: "Albatta, fojirlar jahannamdadirlar.",
+
+15: "Ular unga jazo kunida kiradilar.",
+
+16: "Va undan g‘oyib bo‘la olmaydilar.",
+
+17: "Jazo kuni nima ekanini sen qayerdan bilarding?",
+
+18: "Yana jazo kuni nima ekanini sen qayerdan bilarding?",
+
+19: "U kuni hech bir jon boshqa jon uchun hech narsaga qodir bo‘lmaydi. U kuni barcha ish ALLAHgadir.",
+},
+83: {
+1: "O‘lchov va tarozida urib qoluvchilarga halokat bo‘lsin.",
+
+2: "Ular odamlardan o‘lchab olganlarida, to‘liq oladilar.",
+
+3: "Ammo ularga o‘lchab yoki tortib berganlarida, kamaytiradilar.",
+
+4: "Ular o‘ylamaydilarmi: albatta, ular tiriltiriladilar.",
+
+5: "Ulug‘ bir kun uchun.",
+
+6: "U kuni insonlar olamlarning Robbisi huzurida turadilar.",
+
+7: "Yo‘q! Albatta, fojirlarning kitobi Sijjiynidadir.",
+
+8: "Sijjiyn nima ekanini sen qayerdan bilarding?",
+
+9: "U yozilgan bir kitobdir.",
+
+10: "O‘sha kuni yolg‘onlovchilarga halokat bo‘lsin.",
+
+11: "Ular jazo kunini yolg‘on deydilar.",
+
+12: "Uni faqat har bir haddan oshuvchi, gunohkor kishi yolg‘on deydi.",
+
+13: "Unga Bizning oyatlarimiz o‘qilganda: «Avvalgilarning afsonalaridir», deydi.",
+
+14: "Yo‘q! Balki ularning qilgan ishlari qalblarini zanglatdi.",
+
+15: "Yo‘q! Albatta, ular o‘sha kuni Robbilaridan to‘silgan bo‘ladilar.",
+
+16: "So‘ngra ular albatta jahannamga kiruvchilardir.",
+
+17: "So‘ngra ularga: «Mana shu sizlar yolg‘on degan narsangizdir», deyiladi.",
+
+18: "Yo‘q! Albatta, yaxshilarning kitobi Illiyyundadir.",
+
+19: "Illiyyun nima ekanini sen qayerdan bilarding?",
+
+20: "U yozilgan bir kitobdir.",
+    
+21: "Unga yaqin qilinganlar guvoh bo‘ladilar.",
+
+22: "Albatta, yaxshilar ne’mat ichidadirlar.",
+
+23: "Taxtlar ustida qarab o‘tiradilar.",
+
+24: "Ularning yuzlarida ne’matning yorqinligini taniysan.",
+
+25: "Ularga muhrlangan pok ichimlikdan ichiriladi.",
+
+26: "Uning muhrining hidi mushkdir. Bas, musobaqalashuvchilar shunga musobaqalashsinlar.",
+
+27: "Unga Tasnimdan aralashtiriladi.",
+
+28: "U buloqdirki, undan yaqin qilinganlar ichadilar.",
+
+29: "Albatta, jinoyatchilar iymon keltirganlar ustidan kulardilar.",
+
+30: "Ularning yonidan o‘tganlarida ko‘z qisardilar.",
+
+31: "O‘z ahli oldiga qaytganlarida, xursand bo‘lib qaytardilar.",
+
+32: "Ularni ko‘rganlarida: «Albatta, bular adashganlardir», der edilar.",
+
+33: "Holbuki, ular ularning ustiga qo‘riqchi qilib yuborilmagan edilar.",
+
+34: "Bas, bugun iymon keltirganlar kofirlardan kuladilar.",
+
+35: "Taxtlar ustida qarab turadilar.",
+
+36: "Kofirlar qilgan ishlariga yarasha mukofotlanganmidilar?",
+},
+84: {    
+1: "Osmon yorilganida.",
+
+2: "Va u Robbisining amriga quloq solib, bo‘ysunganida. U shunga loyiqdir.",
+
+3: "Yer yoyilganida.",
+
+4: "Va ichidagi narsalarni chiqarib tashlab, bo‘shaganida.",
+
+5: "Va Robbisining amriga quloq solib, bo‘ysunganida. U shunga loyiqdir.",
+
+6: "Ey inson! Albatta, sen Robbing tomon mashaqqat bilan intiluvchisan va Unga yo‘liqursan.",
+
+7: "Bas, kitobi o‘ng qo‘liga berilgan kishi.",
+
+8: "U oson hisob bilan hisob qilinadi.",
+
+9: "Va u ahli oldiga xursand holda qaytadi.",
+
+10: "Ammo kitobi orqa tomonidan berilgan kishi.",
+
+11: "U halokatni chaqiradi.",
+
+12: "Va alangali olovga kiradi.",
+
+13: "Albatta, u o‘z ahli orasida xursand edi.",
+
+14: "U hech qachon qaytmasligini o‘ylagan edi.",
+
+15: "Yo‘q! Albatta, Robbi uni Ko‘ruvchi edi.",
+
+16: "Bas, shafaq bilan qasam ichaman.",
+
+17: "Kecha va u jamlagan narsalar bilan.",
+
+18: "To‘lin oy bilan qasam.",
+
+19: "Albatta, sizlar holatdan holatga o‘tasizlar.",
+
+20: "Bas, ularga nima bo‘ldiki, iymon keltirmaydilar?",
+
+21: "Ularga Qur’on o‘qilganda sajda qilmaydilar.",
+
+22: "Balki kofir bo‘lganlar yolg‘on deydilar.",
+
+23: "Holbuki, ALLAH ularning ichlarida yashirgan narsalarini yaxshi biluvchidir.",
+
+24: "Bas, ularga alamli azob xushxabarini ber.",
+
+25: "Faqat iymon keltirgan va yaxshi amallar qilganlar bundan mustasno. Ular uchun uzilmaydigan mukofot bordir.",
+},
+85: {
+1: "Burjlar egasi bo‘lgan osmon bilan qasam.",
+
+2: "Va va’da qilingan kun bilan.",
+
+3: "Va guvoh bo‘luvchi hamda guvohlik beriluvchi bilan qasam.",
+
+4: "Xandaq egalari halok qilindi.",
+
+5: "Yoqilg‘isi to‘la alangali olov egalari.",
+
+6: "Ular uning atrofida o‘tirgan edilar.",
+
+7: "Va mo‘minlarga qilayotgan ishlariga guvoh edilar.",
+
+8: "Ular ulardan faqat Aziz va Hamdga loyiq ALLAHga iymon keltirganlari uchun o‘ch oldilar.",
+
+9: "U osmonlaru yer mulki Uniki bo‘lgan Zotdir. ALLAH har narsaga guvohdir.",
+
+10: "Albatta, mo‘min erkaklar va mo‘mina ayollarni fitnaga solgan, so‘ng tavba qilmaganlar uchun jahannam azobi va kuydiruvchi azob bordir.",
+
+11: "Albatta, iymon keltirgan va yaxshi amallar qilganlar uchun ostidan anhorlar oqadigan jannatlar bordir. Bu ulkan yutuqdir.",
+
+12: "Albatta, Robbingning tutishi juda qattiqdir.",
+
+13: "Albatta, U avval yaratadi va yana qaytaradi.",
+
+14: "U Mag‘firat qiluvchi va Mehribon Zotdir.",
+
+15: "Arsh Egasi, Ulug‘ Zotdir.",
+
+16: "U xohlagan narsasini qiluvchidir.",
+
+17: "Senga lashkarlar haqidagi xabar keldimi?",
+
+18: "Fir’avn va Samud (lashkarlari) haqida.",
+
+19: "Balki kofirlar yolg‘onlashda davom etmoqdalar.",
+
+20: "Holbuki, ALLAH ularni ortlaridan o‘rab turuvchidir.",
+
+21: "Yo‘q! U ulug‘ Qur’ondir.",
+
+22: "U saqlangan lavhda (Lavhul Mahfuzda)dir.",
+},
+86: {
+1: "Osmon va Toriq bilan qasam.",
+
+2: "Toriq nima ekanini sen qayerdan bilarding?",
+
+3: "U yorqin yulduzdir.",
+
+4: "Har bir jon ustida albatta kuzatuvchi bordir.",
+
+5: "Bas, inson nimadan yaratilganiga qarasin.",
+
+6: "U otilib chiquvchi suvdan yaratilgan.",
+
+7: "U bel va ko‘krak qafasi orasidan chiqadi.",
+
+8: "Albatta, U uni qaytarishga Qodirdir.",
+
+9: "Sirlar sinovdan o‘tkaziladigan kun.",
+
+10: "Bas, u uchun na kuch va na yordamchi bo‘ladi.",
+
+11: "Qaytuvchi osmon bilan qasam.",
+
+12: "Yoriluvchi yer bilan qasam.",
+
+13: "Albatta, u (Qur’on) ajratuvchi so‘zdir.",
+
+14: "U hazil emasdir.",
+
+15: "Albatta, ular hiyla qilmoqdalar.",
+
+16: "Men ham tadbir qilmoqdaman.",
+
+17: "Bas, kofirlarga muhlat ber. Ularga ozgina muhlat ber.",
+},
+87: {
+1: "Eng oliy Robbing nomini poklagin.",
+
+2: "U yaratdi va mukammal qildi.",
+
+3: "U taqdir qildi va yo‘l ko‘rsatdi.",
+
+4: "U yaylovni chiqardi.",
+
+5: "So‘ngra uni qoramtir xas-xashakka aylantirdi.",
+
+6: "Biz senga o‘qitamiz, bas, unutmay qo‘yasan.",
+
+7: "Faqat ALLAH xohlagan narsagina bundan mustasno. Albatta, U oshkorani ham, yashirinni ham biladi.",
+
+8: "Biz seni osonlik yo‘liga muvaffaq qilamiz.",
+
+9: "Bas, agar eslatma foyda bersa, eslatgin.",
+
+10: "Qo‘rquvchi kishi eslatma oladi.",
+
+11: "Ammo eng badbaxt kishi undan chetlanadi.",
+
+12: "U ulkan olovga kiradi.",
+
+13: "So‘ngra u yerda na o‘ladi va na tiriladi.",
+
+14: "Albatta, poklangan kishi najot topdi.",
+
+15: "Va Robbisining ismini zikr qilib, namoz o‘qidi.",
+
+16: "Balki sizlar dunyo hayotini ustun qo‘yasizlar.",
+
+17: "Holbuki, Oxirat yaxshiroq va boqiyroqdir.",
+
+18: "Albatta, bu avvalgi sahifalarda ham bordir.",
+
+19: "Ibrohim va Musoning sahifalarida.",
+},
+88: {
+1: "Seni qoplab oluvchi (Qiyomat) xabari keldimi?",
+
+2: "U kuni ba’zi yuzlar xor bo‘lur.",
+
+3: "Mehnat qilgan, charchagan bo‘lur.",
+
+4: "Qizigan olovga kirar.",
+
+5: "Ularga qaynab turgan buloqdan ichirilur.",
+
+6: "Ular uchun tikanli o‘simlikdan boshqa taom yo‘qdir.",
+
+7: "U semirtirmaydi va ochlikni ham ketkazmaydi.",
+
+8: "U kuni ba’zi yuzlar ne’matli bo‘lur.",
+
+9: "O‘z sa’y-harakatidan rozi bo‘lur.",
+
+10: "Yuksak jannatda bo‘lur.",
+
+11: "U yerda behuda so‘z eshitmas.",
+
+12: "Unda oqar buloq bor.",
+
+13: "Unda baland taxtlar bor.",
+
+14: "Qo‘yilgan qadahlar bor.",
+
+15: "Saf tortilgan yostiqlar bor.",
+
+16: "To‘shalgan gilamlar bor.",
+
+17: "Ular tuyaga qarashmaydilarmi, qanday yaratilganiga?",
+
+18: "Va osmonga, qanday ko‘tarilganiga?",
+
+19: "Va tog‘larga, qanday o‘rnatilganiga?",
+
+20: "Va yerga, qanday yoyilganiga?",
+
+21: "Bas, eslatgin. Sen faqat eslatuvchisan.",
+
+22: "Sen ular ustidan hukmron emassan.",
+
+23: "Ammo kim yuz o‘girsa va kofir bo‘lsa,", 
+
+24: "ALLAH uni eng katta azob bilan azoblaydi.",
+
+25: "Albatta, ularning qaytishi Bizning huzurimizgadir.",
+
+26: "So‘ngra ularning hisobini qilish Bizning zimmamizdadir.",
+},
+89: {
+1: "Tong bilan qasam.",
+
+2: "O‘n kecha bilan.",
+
+3: "Juft va toq bilan.",
+
+4: "O‘tayotgan kecha bilan qasam.",
+
+5: "Aql egasi uchun bunda qasam yetarlimi?",
+
+6: "Robbing Od qavmiga nima qilganini ko‘rmadingmi?",
+
+7: "Ustunlari baland Iram (qavmiga).",
+
+8: "Unga o‘xshashi shaharlarda yaratilmagan edi.",
+
+9: "Vodiylarda qoyalarni kesib uylar qilgan Samud qavmiga.",
+
+10: "Va qoziqlar egasi Fir’avnga.",
+
+11: "Ularning barchasi yurtlarda haddan oshdilar.",
+
+12: "Va ularda buzg‘unchilikni ko‘paytirdilar.",
+
+13: "Bas, Robbing ularning ustiga azob qamchisini yog‘dirdi.",
+
+14: "Albatta, Robbing kuzatib turuvchidir.",
+
+15: "Ammo inson, qachon Robbisi uni sinab, unga ikrom qilib, ne’mat bersa: «Robbim meni hurmat qildi», deydi.",
+
+16: "Ammo qachon uni sinab, rizqini tor qilsa: «Robbim meni xor qildi», deydi.",
+
+17: "Yo‘q! Balki sizlar yetimni ikrom qilmaysizlar.",
+
+18: "Va miskinni taomlantirishga bir-biringizni undamaysizlar.",
+
+19: "Va merosni barcha narsani qo‘shib yeysizlar.",
+
+20: "Va mol-dunyoni haddan tashqari sevasizlar.",
+
+21: "Yo‘q! Qachon yer qattiq-qattiq silkitilib maydalanib ketganida.",
+
+22: "Va Robbing hamda malaikalar saf-saf bo‘lib kelganida.",
+
+23: "Va o‘sha kuni jahannam keltirilganida. O‘sha kuni inson eslaydi. Lekin eslash unga qayerdan foyda beradi?",
+
+24: "U: «Qani edi, hayotim uchun oldindan yaxshilik yuborgan bo‘lsam edi», deydi.",
+
+25: "Bas, o‘sha kuni Uning azobidek hech kim azoblay olmaydi.",
+
+26: "Va Uning bog‘laganidek hech kim bog‘lay olmaydi.",
+
+27: "Ey xotirjam nafs!",
+
+28: "Robbingga rozi bo‘lgan va rozi qilingan holda qayt.",
+
+29: "Bas, bandalarim qatoriga kirgin.",
+
+30: "Va jannatimga kirgin.",
+},
+90: {
+1: "Bu shahar (Makka) bilan qasam ichaman.",
+
+2: "Sen bu shaharda yashayotgan holingda.",
+
+3: "Va ota hamda undan tug‘ilgan farzand bilan qasam.",
+
+4: "Albatta, Biz insonni mashaqqat ichida yaratdik.",
+
+5: "Uning ustidan hech kimning kuchi yetmaydi deb o‘ylaydimi?",
+
+6: "U: «Ko‘p mol sarfladim», deydi.",
+
+7: "U hech kim uni ko‘rmagan deb o‘ylaydimi?",
+
+8: "Biz unga ikki ko‘z bermadikmi?",
+
+9: "Til va ikki lab bermadikmi?",
+
+10: "Va unga ikki yo‘lni ko‘rsatmadikmi?",
+
+11: "Bas, u qiyin yo‘lni bosib o‘tmadi.",
+
+12: "Qiyin yo‘l nima ekanini sen qayerdan bilarding?",
+
+13: "U bir qulni ozod qilishdir.",
+
+14: "Yoki ochlik kunida taom berishdir.",
+
+15: "Yaqin qarindosh yetimga.",
+
+16: "Yoki tuproqqa botgan miskinga.",
+
+17: "So‘ngra iymon keltirgan va bir-birlariga sabrni hamda mehr-shafqatni tavsiya qilganlardan bo‘lishdir.",
+
+18: "Ana o‘shalar o‘ng tomon egalaridir.",
+
+19: "Kofir bo‘lgan va Bizning oyatlarimizni yolg‘on deganlar esa chap tomon egalaridir.",
+
+20: "Ularning ustida yopiq olov bordir.",
+},
+91: {
+1: "Quyosh va uning ziyosi bilan qasam.",
+
+2: "Unga ergashib keluvchi oy bilan.",
+
+3: "Uni ochib ko‘rsatuvchi kunduz bilan.",
+
+4: "Uni qoplovchi tun bilan.",
+
+5: "Osmon va uni bino qilgan Zot bilan qasam.",
+
+6: "Yer va uni yoygan Zot bilan.",
+
+7: "Nafs va uni mukammal qilgan Zot bilan.",
+
+8: "Bas, unga fujurini ham, taqvosini ham ilhom qilgan Zot bilan qasam.",
+
+9: "Albatta, uni poklagan kishi najot topdi.",
+
+10: "Va uni bulg‘agan kishi ziyon ko‘rdi.",
+
+11: "Samud o‘zlarining haddan oshganliklari sababli yolg‘onladilar.",
+
+12: "Ularning eng badbaxti qo‘zg‘alganida.",
+
+13: "Bas, ALLAHning Rasuli ularga: «ALLAHning tuyasini va uning suv ichish navbatini ehtiyot qilinglar», dedi.",
+
+14: "Ammo ular uni yolg‘onladilar va tuyani so‘ydilar. Bas, Robbilari ularning gunohlari sababli ularni halok qildi va ularni tekislab yubordi.",
+
+15: "U (ALLAH) buning oqibatidan qo‘rqmaydi.",
+},
+92: {
+1: "Qoplab keluvchi tun bilan qasam.",
+
+2: "Yorishib chiqqan kunduz bilan qasam.",
+
+3: "Erkak va ayolni yaratgan Zot bilan qasam.",
+
+4: "Albatta, sizlarning sa’y-harakatlaringiz turlichadir.",
+
+5: "Bas, kim bersa va taqvo qilsa.",
+
+6: "Va eng go‘zal narsani tasdiq qilsa.",
+
+7: "Biz uni osonlikka muyassar qilamiz.",
+
+8: "Ammo kim baxillik qilsa va o‘zini behojat deb bilsa.",
+
+9: "Va eng go‘zal narsani yolg‘on desa.",
+
+10: "Biz uni qiyinchilikka muyassar qilamiz.",
+
+11: "U halokatga yuz tutganida, moli unga foyda bermaydi.",
+
+12: "Albatta, hidoyat Bizning zimmamizdadir.",
+
+13: "Va albatta, oxirat ham, dunyo ham Biznikidir.",
+
+14: "Bas, Men sizlarni alangali olovdan ogohlantirdim.",
+
+15: "Unga faqat eng badbaxt kishi kiradi.",
+
+16: "U yolg‘onlagan va yuz o‘girgan kishidir.",
+
+17: "Taqvodor kishi esa undan uzoqlashtiriladi.",
+
+18: "U o‘z molini beradi va poklanadi.",
+
+19: "Uning huzurida hech kimning qaytariladigan ne’mati yo‘qdir.",
+
+20: "Faqat ulug‘ Robbisining roziligini istab (beradi).",
+
+21: "Va albatta, u tez orada rozi bo‘ladi.",
+    },
+93: {
+1: "Choshgoh vaqtiga qasam.",
+
+2: "Va tinchigan tun bilan qasam.",
+
+3: "Robbing seni tark etmadi va sendan nafratlanmadi.",
+
+4: "Albatta, oxirat sen uchun dunyodan yaxshiroqdir.",
+
+5: "Va albatta, Robbing senga beradi, bas, rozi bo‘lasan.",
+
+6: "U seni yetim holda topib, joylashtirmadimi?",
+
+7: "Va seni yo‘l izlab yurgan holda topib, hidoyat qilmadimi?",
+
+8: "Va seni kambag‘al holda topib, boy qilmadimi?",
+
+9: "Bas, yetimga qahr qilma.",
+
+10: "Va so‘rovchini haydama.",
+
+11: "Va Robbingning ne’matini gapirgin.",
+},
+94: {
+1: "Biz sening ko‘ksingni keng qilib qo‘ymadikmi?",
+
+2: "Va sendan yukingni olib tashlamadikmi?",
+
+3: "U sening belingni og‘irlashtirgan edi.",
+
+4: "Va sening zikringni baland qilmadikmi?",
+
+5: "Bas, albatta, qiyinchilik bilan birga yengillik bordir.",
+
+6: "Albatta, qiyinchilik bilan birga yengillik bordir.",
+
+7: "Bas, qachon bo‘shasang, yana harakat qilgin.",
+
+8: "Va faqat Robbingga yuzlanib intilgin.",
+},
+95: {
+1: "Anjir va zaytun bilan qasam.",
+
+2: "Va Sinay tog‘i bilan qasam.",
+
+3: "Va bu tinch shahar (Makka) bilan qasam.",
+
+4: "Albatta, Biz insonni eng go‘zal shaklda yaratdik.",
+
+5: "So‘ngra uni eng past darajaga qaytardik.",
+
+6: "Faqat iymon keltirgan va yaxshi amallar qilganlar bundan mustasno. Ular uchun uzilmaydigan mukofot bordir.",
+
+7: "Bas, bundan keyin seni jazo kunini yolg‘on deyishga nima majbur qiladi?",
+
+8: "ALLAH hukm qiluvchilarning eng yaxshi Hukm qiluvchisi emasmi?",
+},
+96: {
+1: "Yaratgan Robbing nomi bilan o‘qi.",
+
+2: "U insonni laxtalangan qondan yaratdi.",
+
+3: "O‘qi! Robbing eng Karim Zotdir.",
+
+4: "U qalam bilan ta’lim berdi.",
+
+5: "Insonga bilmagan narsalarini o‘rgatdi.",
+
+6: "Yo‘q! Albatta, inson haddidan oshadi.",
+
+7: "O‘zini behojat ko‘rganligi sababli.",
+
+8: "Albatta, qaytish faqat Robbing huzurigadir.",
+
+9: "Namoz o‘qiyotgan bandani to‘sayotgan kishini ko‘rdingmi?",
+
+10: "Bir bandani namozdan qaytargan kishini.",
+
+11: "Ayting-chi, agar u hidoyatda bo‘lsa-chi?",
+
+12: "Yoki taqvoga buyurgan bo‘lsa-chi?",
+
+13: "Ayting-chi, agar u yolg‘on desa va yuz o‘girsa-chi?",
+
+14: "U ALLAH uni ko‘rib turganini bilmaydimi?",
+
+15: "Yo‘q! Agar u to‘xtamasa, albatta, Biz uni peshonasidan tutamiz.",
+
+16: "Yolg‘onchi, gunohkor peshonasidan.",
+
+17: "Bas, u o‘z majlisidagilarini chaqirsin.",
+
+18: "Biz ham azoblovchi malaikalarni chaqiramiz.",
+
+19: "Yo‘q! Unga itoat qilma. Sajda qil va yaqinlash.",
+},
+97: {
+1: "Albatta, Biz uni (Qur’onni) Qadr kechasida nozil qildik.",
+
+2: "Qadr kechasi nima ekanini sen qayerdan bilarding?",
+
+3: "Qadr kechasi ming oydan yaxshiroqdir.",
+
+4: "U kechada malaikalar va Ruh Robbilarining izni bilan barcha ishlar uchun tushadilar.",
+
+5: "U tong otguncha tinchlikdir.",
+},
+98: {  
+1: "Kitob ahlidan va mushriklardan bo‘lgan kofirlar ularga aniq dalil kelmaguncha (o‘z holatlaridan) ajraluvchi emas edilar.",
+
+2: "U dalil — ALLAH tomonidan yuborilgan, pok sahifalarni o‘qib beruvchi Rasuldir.",
+
+3: "Unda to‘g‘ri hukmlar yozilgandir.",
+
+4: "Kitob berilganlar faqat ularga aniq dalil kelganidan keyin bo‘linib ketdilar.",
+
+5: "Holbuki, ularga faqat ALLAHga ibodat qilish, dinni U uchun xolis qilish, hanif bo‘lib, namozni ado etish va zakot berish buyurilgan edi. Ana shu to‘g‘ri dindir.",
+
+6: "Albatta, Kitob ahlidan va mushriklardan bo‘lgan kofirlar jahannam olovidadirlar. Ular unda abadiy qoladilar. Ana o‘shalar yaratilganlarning eng yomonidirlar.",
+
+7: "Albatta, iymon keltirgan va yaxshi amallar qilganlar — ana o‘shalar yaratilganlarning eng yaxshilaridir.",
+
+8: "Ularning Robbilari huzuridagi mukofotlari ostidan anhorlar oqadigan Adn jannatlaridir. Ular unda abadiy qoladilar. ALLAH ulardan rozi bo‘ladi, ular ham Undan rozi bo‘ladilar. Bu Robbisidan qo‘rqqan kishi uchundir.",
+},
+99: {
+1: "Qachonki yer o‘zining kuchli zilzilasi bilan larzaga keltirilganida.",
+
+2: "Va yer o‘z yuklarini chiqarib tashlaganida.",
+
+3: "Va inson: «Unga nima bo‘ldi?» deganida.",
+
+4: "O‘sha kuni u o‘z xabarlarini so‘zlab beradi.",
+
+5: "Chunki Robbing unga vahiy qilgan bo‘ladi.",
+
+6: "O‘sha kuni insonlar amallari ko‘rsatilishi uchun guruh-guruh bo‘lib chiqadilar.",
+
+7: "Bas, kim zarracha yaxshilik qilsa, uni ko‘radi.",
+
+8: "Va kim zarracha yomonlik qilsa, uni ko‘radi.",
+},
+100: }
+1: "Qattiq chopib boruvchi otlar bilan qasam.",
+
+2: "Ular tuyog‘i bilan uchqun chiqaruvchilardir.",
+
+3: "Tongda hujum qiluvchilar bilan.",
+
+4: "Bas, ular unda chang-to‘zon ko‘tardilar.",
+
+5: "So‘ngra ular shu bilan birga jamoa ichiga kirib bordilar.",
+
+6: "Albatta, inson Robbisiga juda noshukrdir.",
+
+7: "Va albatta, u bunga o‘zi guvohdir.",
+
+8: "Va albatta, u mol-dunyoga muhabbati kuchlidir.",
+
+9: "U bilmaydimi, qachonki qabrlardagi narsalar chiqarilganida.",
+
+10: "Va ko‘kslardagi narsalar oshkor qilinganida.",
+
+11: "Albatta, o‘sha kuni Robbilari ular haqida Xabardordir.",
+},
+101: {
+1: "Qori’a!",
+
+2: "Qori’a nima ekanini sen qayerdan bilarding?",
+
+3: "Qori’a nima ekanini sen qayerdan bilarding?",
+
+4: "U kuni insonlar sochilib ketgan parvonalar kabi bo‘ladilar.",
+
+5: "Tog‘lar esa titilgan rangli jun kabi bo‘ladilar.",
+
+6: "Bas, kimning tarozilari og‘ir kelsa.",
+
+7: "U rozi bo‘ladigan hayotda bo‘ladi.",
+
+8: "Ammo kimning tarozilari yengil kelsa.",
+
+9: "Uning joyi Hoviya bo‘ladi.",
+
+10: "Hoviya nima ekanini sen qayerdan bilarding?",
+
+11: "U qizdirilgan olovdir.",
+},
+102: {
+1: "Ko‘paytirish bilan faxrlanish sizlarni chalg‘itdi.",
+
+2: "Hatto qabrlarga yetib borguningizcha.",
+
+3: "Yo‘q! Tez orada bilib olasizlar.",
+
+4: "Yana yo‘q! Tez orada bilib olasizlar.",
+
+5: "Yo‘q! Agar aniq bilim bilan bilganingizda edi.",
+
+6: "Albatta, jahannamni ko‘rasizlar.",
+
+7: "So‘ngra uni aniq ko‘z bilan ko‘rasizlar.",
+
+8: "So‘ngra o‘sha kuni ne’matlar haqida albatta so‘ralasizlar.",
+},
+103: {
+1: "Asr (vaqt) bilan qasam.",
+
+2: "Albatta, inson ziyon ichidadir.",
+
+3: "Faqat iymon keltirgan, yaxshi amallar qilgan, bir-birlariga Haqni tavsiya qilgan va sabrni tavsiya qilganlar bundan mustasnodir.",
+},
+104: {
+1: "Har bir masxara qiluvchi va ayblovchiga halokat bo‘lsin.",
+
+2: "U mol to‘pladi va uni sanab qo‘ydi.",
+
+3: "U moli uni abadiy qoldiradi deb o‘ylaydi.",
+
+4: "Yo‘q! Albatta, u Hutamaga tashlanadi.",
+
+5: "Hutama nima ekanini sen qayerdan bilarding?",
+
+6: "U ALLAHning yoqilgan olovidir.",
+
+7: "U qalblarga yetib boradi.",
+
+8: "Albatta, u ular ustidan yopiladi.",
+
+9: "Ular uzun ustunlarga bog‘langan holda (bo‘ladi).",
+},
+105: {
+1: "Robbing fil egalariga nima qilganini ko‘rmadingmi?",
+
+2: "Ularning hiylasini bekor qilmaganmidiki?",
+
+3: "Ularning ustiga to‘p-to‘p qushlarni yubordi.",
+
+4: "Ular ularga pishirilgan loydan bo‘lgan toshlarni otardilar.",
+
+5: "Bas, U ularni yeyilgan somon kabi qilib qo‘ydi.",
+},
+106: {
+1: "Qurayshning ulfat bo‘lishi uchun.",
+
+2: "Ularning qishda va yozda qilgan safarlaridagi ulfatlari uchun.",
+
+3: "Bas, ular ushbu uyning (Ka’baning) Robbisiga ibodat qilsinlar.",
+
+4: "U Zot ularni ochlikdan to‘ydirdi va qo‘rquvdan omon qildi.",
+},
+107: {
+ 1: "Dinni yolg‘on deb hisoblaydigan kishini ko‘rdingmi?",
+
+2: "Ana o‘sha yetimni itarib yuboradigan kishidir.",
+
+3: "Va miskinni taomlantirishga undamaydi.",
+
+4: "Bas, namoz o‘quvchilarga halokat bo‘lsin.",
+
+5: "Ular o‘z namozlaridan bexabardirlar.",
+
+6: "Ular riyo qiladilar.",
+
+7: "Va oddiy yordamni ham man qiladilar.",
+},
+108: {
+1: "Albatta, Biz senga Kavsarni berdik.",
+
+2: "Bas, Robbing uchun namoz o‘qi va qurbonlik qil.",
+
+3: "Albatta, seni yomon ko‘ruvchining o‘zi naslsiz qoluvchidir.",
+},
+109: {
+1: "Ayting: «Ey kofirlar!»",
+
+2: "«Men sizlar ibodat qilayotgan narsalarga ibodat qilmayman».",
+
+3: "«Sizlar ham men ibodat qilayotgan Zotga ibodat qiluvchi emassizlar».",
+
+4: "«Men sizlar ibodat qilgan narsalarga ibodat qiluvchi emasman».",
+
+5: "«Sizlar ham men ibodat qilayotgan Zotga ibodat qiluvchi emassizlar».",
+
+6: "«Sizlarning diningiz sizlarga, mening dinim menga».",
+    },
+110: {
+1: "Qachon ALLAHning yordami va g‘alabasi kelganida.",
+
+2: "Va odamlarning ALLAH diniga guruh-guruh bo‘lib kirayotganini ko‘rganingda.",
+
+3: "Bas, Robbingni hamd bilan poklagin va Undan mag‘firat so‘ragin. Albatta, U tavbalarni ko‘p qabul qiluvchidir.",
+},
+111: {
+1: "Abu Lahabning ikki qo‘li qurisin va o‘zi ham halok bo‘lsin.",
+
+2: "Uning moli ham, topgan narsalari ham unga foyda bermadi.",
+
+3: "U alangali olovga kiradi.",
+
+4: "Va uning xotini ham — o‘tin tashuvchi.",
+
+5: "Uning bo‘ynida eshilgan arqon bo‘ladi.",
+},
+112: {
+1: "Ayt: «U — ALLAH Yagonadir».",
+
+2: "«ALLAH behojat Zotdir».",
+
+3: "«U tug‘magan va tug‘ilmagan».",
+
+4: "«Va Unga hech kim teng bo‘lmagan».",
+    },
+113: {
+1: "Ayt: «Tong Robbisidan panoh so‘rayman».",
+
+2: "«U yaratgan narsalarning yomonligidan».",
+
+3: "«Qorong‘u tushgan kechaning yomonligidan».",
+
+4: "«Tugunlarga dam soluvchi (sehrgar)larning yomonligidan».",
+
+5: "«Va hasad qiluvchi hasad qilgan paytdagi yomonligidan».",
+},
+114: {
+1: "Ayt: «Insonlar Robbisidan panoh so‘rayman».",
+
+2: "«Insonlar Podshohidan».",
+
+3: "«Insonlar Ilohidan».",
+
+4: "«Yashirincha vasvasa qiluvchi (shayton)ning yomonligidan».",
+
+5: "«U insonlarning ko‘kslariga vasvasa soladi».",
+
+6: "«U jinlardan ham, insonlardan ham bo‘ladi».",    
 };
 // GLOBAL SURA LIST (MUHIM!)
 const surahs = [

@@ -1,0 +1,2 @@
+- [Imported single-file data-driven bots](imported-datafile-bot-quirks.md) — hardcoded data literals in imported JS can have subtle syntax corruption (missing commas, swapped `{`/`}`) that only `node -c` catches one error at a time; fix iteratively.
+- [Package firewall CVE blocks](package-firewall-cve-blocks.md) — old pinned npm deps can pull a blocked transitive CVE; installing `<pkg>@latest` often resolves it but may change the public API (e.g. import style).

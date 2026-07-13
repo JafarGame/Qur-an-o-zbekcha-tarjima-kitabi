@@ -1,4 +1,4 @@
-const TelegramBot = require('node-telegram-bot-api');
+const { TelegramBot } = require('node-telegram-bot-api');
 const axios = require('axios');
 
 const token = process.env.BOT_TOKEN;
@@ -731,7 +731,7 @@ const translations = {
  47: "Injil ahli ALLAH unda nozil qilgan narsa bilan hukm qilsinlar. Kim ALLAH nozil qilgan narsa bilan hukm qilmasa, ana o‘shalar fosiqlardir.",
  48: "Senga esa Kitobni haq ila, o‘zidan oldingi Kitoblarni tasdiqlovchi va ularni muhofaza qiluvchi qilib nozil qildik. Bas, ular orasida ALLAH nozil qilgan narsa bilan hukm qil. Senga kelgan haqdan yuz o‘girib, ularning havoyi nafslariga ergashma. Sizlardan har biringiz uchun shariat va yo‘l belgiladik. Agar ALLAH xohlasa, sizlarni bir ummat qilgan bo‘lardi. Lekin sizlarga bergan narsalarida sinash uchun shunday qildi. Bas, yaxshiliklarda o‘zaro musobaqalashinglar. Barchangizning qaytishingiz ALLAH huzurigadir. U sizlarga ixtilof qilgan narsalaringizni xabar qiladi.",
  49: "Ular orasida ALLAH nozil qilgan narsa bilan hukm qil va ularning havoyi nafslariga ergashma. ALLAH senga nozil qilgan narsaning ayrim qismidan seni burib qo‘yishlaridan ehtiyot bo‘l. Agar ular yuz o‘girsalar, bilgilki, ALLAH ularni ba’zi gunohlari sababli musibatga solishni xohlaydi. Albatta, odamlarning ko‘plari fosiqlardir.",
- 50: "Ular johiliyat hukmini istaydilarmi? Ishonuvchi qavm uchun hukm qilishda ALLAHdan yaxshiroq kim bor?"   
+ 50: "Ular johiliyat hukmini istaydilarmi? Ishonuvchi qavm uchun hukm qilishda ALLAHdan yaxshiroq kim bor?",
  51: "Ey iymon keltirganlar! Yahudiylar va nasroniylarni do‘st tutmanglar. Ularning ba’zilari ba’zilarining do‘stlaridir. Sizlardan kim ularni do‘st tutsa, albatta u ham ulardandir. Albatta, ALLAH zolim qavmni hidoyat qilmaydi.",
  52: "Qalblarida kasallik bo‘lganlarning ularga shoshilayotganlarini ko‘rasan. Ular: «Bizga biror musibat yetib qolishidan qo‘rqamiz», deydilar. Balki ALLAH g‘alabani yoki O‘z huzuridan biror ishni keltiradi. Shunda ular ichlarida yashirgan narsalaridan pushaymon bo‘lib qoladilar.",
  53: "Iymon keltirganlar: «Sizlar bilan birga ekanliklariga qasam ichganlar shularmi?» deb aytadilar. Ularning amallari bekor bo‘ldi va ular ziyon ko‘ruvchilarga aylandilar.",
@@ -2190,7 +2190,7 @@ const translations = {
 
 39: "«Bas, tez orada bilib olasizlar: kimga xor qiluvchi azob keladi va kimga doimiy azob tushadi».",
 
-40: "Nihoyat, Bizning amrimiz kelib, tandir qaynaganida, dedik: «Unga har biridan juft-juftdan va oila ahlingni — ularga nisbatan hukm o‘tganlardan boshqa — hamda iymon keltirganlarni joylashtir». U bilan birga iymon keltirganlar esa oz edi."    
+40: "Nihoyat, Bizning amrimiz kelib, tandir qaynaganida, dedik: «Unga har biridan juft-juftdan va oila ahlingni — ularga nisbatan hukm o‘tganlardan boshqa — hamda iymon keltirganlarni joylashtir». U bilan birga iymon keltirganlar esa oz edi.",
 
 41: "U dedi: «Unga mininglar. Uning yurishi ham, to‘xtashi ham ALLAH nomi bilandir. Albatta, Robbim Mag‘firat qiluvchi va Rahmlidir».",
 
@@ -10168,7 +10168,7 @@ const translations = {
 27: "Faqat O‘zi rozi bo‘lgan Rasul bundan mustasno. Bas, U uning oldidan va ortidan kuzatuvchilar yuboradi.",
 
 28: "Toki ular Robbilarining xabarlarini yetkazganlarini bilsin. U ularning huzuridagi narsalarni qamrab olgan va har bir narsani sanab qo‘ygan.",
-}
+},
 73: {
 1: "Ey o‘ranib olgan kishi!",
 
@@ -10250,7 +10250,7 @@ const translations = {
 19: "Halok bo‘lsin, qanday reja tuzdi!",
 
 20: "Yana halok bo‘lsin, qanday reja tuzdi!",
-id="muddassir_21_40"
+// id="muddassir_21_40" (removed stray malformed line)
 
 21: "So‘ngra qaradi.",
 
@@ -11539,7 +11539,7 @@ id="muddassir_21_40"
 
 8: "Va kim zarracha yomonlik qilsa, uni ko‘radi.",
 },
-100: }
+100: {
 1: "Qattiq chopib boruvchi otlar bilan qasam.",
 
 2: "Ular tuyog‘i bilan uchqun chiqaruvchilardir.",
@@ -11733,6 +11733,7 @@ id="muddassir_21_40"
 5: "«U insonlarning ko‘kslariga vasvasa soladi».",
 
 6: "«U jinlardan ham, insonlardan ham bo‘ladi».",    
+},
 };
 // GLOBAL SURA LIST (MUHIM!)
 const surahs = [

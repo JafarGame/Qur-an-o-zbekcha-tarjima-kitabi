@@ -182,6 +182,70 @@ a {
   font-size: 0.95rem;
 }
 
+/* Search results (ayah reference / text search) */
+.search-results {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-results.visible {
+  display: flex;
+}
+
+.search-section-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-gold);
+  font-weight: 700;
+  margin-bottom: -2px;
+}
+
+.ayah-hit {
+  display: block;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.ayah-hit:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(15,81,50,0.14);
+}
+
+.ayah-hit-direct {
+  border-color: var(--color-gold);
+  background: #fffaf0;
+}
+
+.ayah-hit-ref {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  margin-bottom: 8px;
+}
+
+.ayah-hit-arabic {
+  font-family: "Amiri Quran", "Amiri", "Scheherazade New", serif;
+  font-size: 1.4rem;
+  direction: rtl;
+  text-align: right;
+  line-height: 2;
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.ayah-hit-translation {
+  font-size: 0.88rem;
+  color: var(--color-muted);
+  line-height: 1.55;
+}
+
 /* Surah reading page */
 .surah-title-block {
   text-align: center;
@@ -221,47 +285,66 @@ a {
   background: var(--color-bg-alt);
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
-  padding: 20px 20px 18px;
-  margin-bottom: 16px;
+  padding: 26px 22px 22px;
+  margin-bottom: 18px;
   box-shadow: var(--shadow);
+  scroll-margin-top: 90px;
+  transition: background 0.6s ease, border-color 0.6s ease, box-shadow 0.6s ease;
+}
+
+.ayah-block.ayah-highlight {
+  background: #fff6df;
+  border-color: var(--color-gold);
+  box-shadow: 0 0 0 3px rgba(184, 134, 11, 0.18), var(--shadow);
 }
 
 .ayah-number-row {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .ayah-number {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: var(--color-primary);
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
   color: #fdfaf0;
-  font-size: 0.78rem;
-  font-weight: 600;
+  font-size: 0.82rem;
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: rotate(45deg);
+  box-shadow: 0 2px 6px rgba(15,81,50,0.25);
+}
+
+.ayah-number span {
+  transform: rotate(-45deg);
 }
 
 .ayah-arabic {
   font-family: "Amiri Quran", "Amiri", "Scheherazade New", serif;
-  font-size: 1.85rem;
-  line-height: 2.5;
+  font-size: 2.15rem;
+  line-height: 2.7;
   direction: rtl;
   text-align: right;
   color: var(--color-text);
-  margin-bottom: 14px;
+  margin-bottom: 18px;
+  letter-spacing: 0.3px;
 }
 
 .ayah-translation {
-  font-size: 0.98rem;
-  line-height: 1.7;
-  color: var(--color-muted);
-  padding-top: 12px;
+  font-size: 1.02rem;
+  line-height: 1.8;
+  color: var(--color-text);
+  padding-top: 16px;
   border-top: 1px solid var(--color-border);
+}
+
+.ayah-translation p {
+  margin: 0;
 }
 
 .ayah-translation .label {
@@ -271,7 +354,10 @@ a {
   letter-spacing: 0.06em;
   color: var(--color-gold);
   font-weight: 700;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+  background: rgba(184, 134, 11, 0.1);
+  padding: 3px 10px;
+  border-radius: 999px;
 }
 
 .nav-buttons {
@@ -305,9 +391,22 @@ a {
 
 @media (min-width: 640px) {
   .ayah-arabic {
-    font-size: 2.1rem;
+    font-size: 2.5rem;
   }
   .site-header h1 {
     font-size: 1.9rem;
+  }
+  .ayah-hit-arabic {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .ayah-arabic {
+    font-size: 1.85rem;
+    line-height: 2.4;
+  }
+  .ayah-block {
+    padding: 20px 16px 18px;
   }
 }

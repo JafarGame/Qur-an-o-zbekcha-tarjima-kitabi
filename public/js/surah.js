@@ -1,6 +1,7 @@
 (function () {
   const params = new URLSearchParams(window.location.search);
   const number = Number(params.get("number")) || 1;
+  const targetAyah = Number(params.get("ayah")) || null;
   const headerTitle = document.getElementById("headerTitle");
   const contentEl = document.getElementById("surahContent");
 
@@ -32,14 +33,14 @@
       const ayahsHtml = surah.ayahs
         .map(
           (a) => `
-        <div class="ayah-block">
+        <div class="ayah-block${a.number === targetAyah ? " ayah-highlight" : ""}" id="ayah-${a.number}">
           <div class="ayah-number-row">
-            <div class="ayah-number">${a.number}</div>
+            <div class="ayah-number"><span>${a.number}</span></div>
           </div>
           <div class="ayah-arabic">${a.arabic}</div>
           <div class="ayah-translation">
-            <span class="label">Tarjima</span><br />
-            ${a.translation}
+            <span class="label">Tarjima</span>
+            <p>${a.translation}</p>
           </div>
         </div>`
         )
@@ -57,6 +58,22 @@
         ${ayahsHtml}
         ${renderNav(surah.number, 114)}
       `;
+
+      if (targetAyah) {
+        const el = document.getElementById(`ayah-${targetAyah}`);
+        if (el) {
+          // Wait for fonts (especially Amiri Quran) to finish loading before
+          // scrolling, so cumulative line-height is stable and the scroll
+          // position is accurate even for deep ayahs (e.g. 2:255).
+          const doScroll = () => el.scrollIntoView({ behavior: "auto", block: "center" });
+          if (document.fonts && document.fonts.ready) {
+            document.fonts.ready.then(doScroll);
+          } else {
+            setTimeout(doScroll, 400);
+          }
+          setTimeout(() => el.classList.remove("ayah-highlight"), 4000);
+        }
+      }
     })
     .catch(() => {
       headerTitle.textContent = "Xatolik";

@@ -1,0 +1,77 @@
+Update quran.json.
+
+Replace the missing translation placeholders for Surah Al-A'raf (7:61-80) with the Uzbek translations below.
+
+Important:
+- Modify only Surah Al-A'raf ayahs 61-80 translation fields.
+- Do not change any Arabic text.
+- Do not modify any other surahs or ayahs.
+- Do not modify index.js.
+- Do not modify the Telegram bot.
+
+Translations:
+
+7:61
+"U dedi: «Ey qavmim! Menda hech qanday adashish yo‘q. Lekin men olamlarning Rabbidan bo‘lgan elchiman.»"
+
+7:62
+"Va men sizlarga Rabbimning risolatlarini yetkazaman hamda sizlarga nasihat qilaman. Men Allah tomonidan sizlar bilmaydigan narsalarni bilaman."
+
+7:63
+"Sizlarga o‘zlaringizdan bo‘lgan bir kishi orqali Rabbingizdan eslatma kelganiga ajablandingizmi? U sizlarni ogohlantirishi, taqvo qilishingiz va sizlarga rahm qilinishiga umid qilishingiz uchun yuborildi."
+
+7:64
+"Bas, ular uni yolg‘onchiga chiqardilar. Shunda Biz unga va u bilan birga bo‘lganlarni kemada najot berdik. Oyatlarimizni yolg‘on deganlarni esa g‘arq qildik. Albatta, ular ko‘r qavm edilar."
+
+7:65
+"Od qavmiga ularning birodari Hudni yubordik. U dedi: «Ey qavmim! Allahga ibodat qilinglar. Sizlar uchun Undan boshqa iloh yo‘q. Nahotki taqvo qilmasangizlar?»"
+
+7:66
+"Uning qavmidan kufr qilgan zodagonlari dedilar: «Albatta, biz seni nodonlikda deb bilamiz va albatta, seni yolg‘onchilardan deb gumon qilamiz»."
+
+7:67
+"U dedi: «Ey qavmim! Menda hech qanday nodonlik yo‘q. Lekin men olamlarning Rabbidan bo‘lgan elchiman.»"
+
+7:68
+"Men sizlarga Rabbimning risolatlarini yetkazaman va men sizlarga ishonchli nasihat qiluvchiman."
+
+7:69
+"Sizlarga o‘zlaringizdan bo‘lgan bir kishi orqali Rabbingizdan eslatma kelganiga ajablandingizmi? U sizlarni ogohlantirishi uchun yuborilgan. Nuh qavmidan keyin sizlarni o‘rinbosarlar qilganini va yaratishda sizlarga kuch-quvvat ziyoda qilganini eslanglar. Bas, Allahning ne’matlarini eslanglar, shoyad najot topsangizlar."
+
+7:70
+"Ular dedilar: «Bizga faqat Allahga ibodat qilishimiz va ota-bobolarimiz ibodat qilib kelgan narsalarni tark qilishimiz uchun keldingmi? Agar rostgo‘ylardan bo‘lsang, bizga va’da qilayotgan narsangni keltir.»"
+
+7:71
+"U dedi: «Sizlarga Rabbingiz tomonidan jirkanch azob va g‘azab yetdi. Sizlar va ota-bobolaringiz nomlagan, Allah ular haqida hech qanday dalil tushirmagan nomlar haqida men bilan bahslashasizlarmi? Bas, kutinglar! Albatta, men ham sizlar bilan birga kutuvchilardandirman.»"
+
+7:72
+"Bas, Biz unga va u bilan birga bo‘lganlarga O‘z rahmatimiz bilan najot berdik. Oyatlarimizni yolg‘on deganlarning ildizini qirdik va ular mo‘min emas edilar."
+
+7:73
+"Samud qavmiga ularning birodari Solihni yubordik. U dedi: «Ey qavmim! Allahga ibodat qilinglar. Sizlar uchun Undan boshqa iloh yo‘q. Sizlarga Rabbingizdan aniq dalil keldi. Mana bu — Allahning tuyasi, sizlar uchun bir belgidir. Bas, uni Allahning yerida yeb yurishiga qo‘yib beringlar va unga yomonlik bilan tegmanglar, aks holda sizlarni alamli azob tutadi.»"
+
+7:74
+"Od qavmidan keyin sizlarni o‘rinbosarlar qilganini va yerda joylashtirganini eslanglar. Sizlar uning tekisliklaridan qasrlar qurasizlar va tog‘lardan uylar o‘yib olasizlar. Bas, Allahning ne’matlarini eslanglar va yer yuzida buzg‘unchilik qilgan holda yurmaylar."
+
+7:75
+"Uning qavmidan kibrlangan zodagonlari zaif sanalgan va ulardan iymon keltirganlarga dedilar: «Solih o‘z Rabbidan yuborilgan elchi ekanini bilasizlarmi?» Ular dedilar: «Albatta, biz u bilan yuborilgan narsaga iymon keltiruvchilarmiz.»"
+
+7:76
+"Kibrlanganlar dedilar: «Albatta, biz sizlar iymon keltirgan narsani inkor qiluvchilarmiz.»"
+
+7:77
+"Bas, ular tuyani so‘yib tashladilar va Rabbilarining amridan bosh tortdilar. Ular dedilar: «Ey Solih! Agar elchilardan bo‘lsang, bizga va’da qilayotgan narsangni keltir.»"
+
+7:78
+"Bas, ularni zilzila tutdi va ular o‘z uylarida jonsiz holda qolib ketdilar."
+
+7:79
+"Bas, u ulardan yuz o‘girdi va dedi: «Ey qavmim! Men sizlarga Rabbimning risolatini yetkazdim va sizlarga nasihat qildim. Lekin sizlar nasihat qiluvchilarni sevmaysizlar.»"
+
+7:80
+"Lutni ham (yubordik). U o‘z qavmiga deganida: «Sizlardan oldin olamlardan hech kim qilmagan fahsh ishni qilasizlarmi?»"
+
+After updating:
+- Verify Surah Al-A'raf 7:61-80 no longer have missing translations.
+- Confirm Arabic text is unchanged.
+- Confirm index.js and Telegram bot are untouched.

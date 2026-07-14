@@ -17,6 +17,10 @@ author = "agent"
 task = "workflow.run"
 args = "Quran Bot"
 
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Quran Web"
+
 [[workflows.workflow]]
 name = "Quran Bot"
 author = "agent"
@@ -27,3 +31,20 @@ args = "node index.js"
 
 [workflows.workflow.metadata]
 outputType = "console"
+
+[[workflows.workflow]]
+name = "Quran Web"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node web-server.js"
+waitForPort = 5000
+
+[[workflows.workflow.ports]]
+localPort = 5000
+externalPort = 80
+
+[[ports]]
+localPort = 5000
+externalPort = 80

@@ -448,3 +448,357 @@ a {
     padding: 20px 16px 18px;
   }
 }
+
+/* ─── Hamburger button ──────────────────────────────────────────── */
+.hamburger-btn {
+  position: absolute;
+  right: 16px;
+  top: 18px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: rgba(255,255,255,0.12);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  z-index: 10;
+  transition: background 0.2s ease;
+}
+
+.hamburger-btn:hover {
+  background: rgba(255,255,255,0.24);
+}
+
+.hamburger-btn span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: #fdfaf0;
+  border-radius: 2px;
+}
+
+/* Prevent title from sliding under the hamburger on surah page */
+.site-header:has(.back-link) h1 {
+  padding: 0 58px;
+}
+
+/* ─── Menu overlay ──────────────────────────────────────────────── */
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.52);
+  z-index: 200;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.menu-overlay.open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+body.menu-open {
+  overflow: hidden;
+}
+
+/* ─── Sliding drawer ────────────────────────────────────────────── */
+.menu-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  max-width: 88vw;
+  height: 100%;
+  background: var(--color-bg);
+  z-index: 300;
+  transform: translateX(100%);
+  transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+  box-shadow: -6px 0 40px rgba(0,0,0,0.18);
+  overflow-y: auto;
+}
+
+.menu-drawer.open {
+  transform: translateX(0);
+}
+
+.menu-drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 20px;
+  background: linear-gradient(120deg, var(--color-primary), var(--color-primary-dark));
+  color: #fdfaf0;
+  flex-shrink: 0;
+}
+
+.menu-drawer-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0.5px;
+}
+
+.menu-close-btn {
+  width: 34px;
+  height: 34px;
+  border: none;
+  background: rgba(255,255,255,0.12);
+  color: #fdfaf0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+  flex-shrink: 0;
+}
+
+.menu-close-btn:hover {
+  background: rgba(255,255,255,0.26);
+}
+
+/* ─── Menu items ────────────────────────────────────────────────── */
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  flex: 1;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 13px 22px;
+  font-size: 0.96rem;
+  color: var(--color-text);
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.menu-item:hover:not(.menu-item-disabled) {
+  background: rgba(15,81,50,0.08);
+  color: var(--color-primary-dark);
+}
+
+.menu-item-active {
+  background: rgba(15,81,50,0.1);
+  color: var(--color-primary-dark);
+  font-weight: 600;
+}
+
+.menu-item-icon {
+  width: 28px;
+  font-size: 1.15rem;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.menu-item-label {
+  flex: 1;
+}
+
+.menu-item-disabled {
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
+}
+
+.menu-item-btn {
+  cursor: pointer;
+}
+
+.menu-badge-soon {
+  margin-left: auto;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--color-gold);
+  background: rgba(184,134,11,0.12);
+  padding: 2px 9px;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+  flex-shrink: 0;
+}
+
+/* ─── Drawer footer ─────────────────────────────────────────────── */
+.menu-drawer-footer {
+  padding: 16px 22px;
+  font-size: 0.76rem;
+  color: var(--color-muted);
+  border-top: 1px solid var(--color-border);
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.menu-drawer-footer p {
+  margin: 0;
+}
+
+/* ─── Library page ──────────────────────────────────────────────── */
+.library-intro {
+  text-align: center;
+  color: var(--color-muted);
+  font-size: 0.95rem;
+  margin: 0 0 24px;
+}
+
+.library-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.library-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.library-card-active {
+  border-color: var(--color-primary);
+  border-left: 4px solid var(--color-primary);
+}
+
+.library-card-active:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(15,81,50,0.15);
+}
+
+.library-card-soon {
+  opacity: 0.75;
+}
+
+.library-card-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(15,81,50,0.07);
+  border-radius: 12px;
+}
+
+.library-card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.library-card-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--color-primary-dark);
+  margin-bottom: 3px;
+}
+
+.library-card-desc {
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  line-height: 1.5;
+}
+
+.library-card-arrow {
+  color: var(--color-primary);
+  font-size: 1.1rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.library-badge-soon {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--color-gold);
+  background: rgba(184,134,11,0.12);
+  padding: 3px 10px;
+  border-radius: 999px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* ─── Dark mode ─────────────────────────────────────────────────── */
+html.dark {
+  --color-bg: #111a13;
+  --color-bg-alt: #182018;
+  --color-text: #e4e0d0;
+  --color-muted: #8a9082;
+  --color-border: #253025;
+}
+
+html.dark body {
+  background: linear-gradient(180deg, #111a13 0%, #0d1710 100%);
+}
+
+html.dark .site-header {
+  background: linear-gradient(120deg, #0c3d24 0%, #071910 100%);
+}
+
+html.dark .search-bar input {
+  background: #182018;
+  color: #e4e0d0;
+  border-color: #253025;
+}
+
+html.dark .search-bar input::placeholder {
+  color: #8a9082;
+}
+
+html.dark .menu-drawer {
+  background: #111a13;
+  border-left: 1px solid #253025;
+}
+
+html.dark .menu-drawer-header {
+  background: linear-gradient(120deg, #0c3d24, #071910);
+}
+
+html.dark .menu-item:hover:not(.menu-item-disabled) {
+  background: rgba(255,255,255,0.06);
+  color: #e4e0d0;
+}
+
+html.dark .menu-item-active {
+  background: rgba(255,255,255,0.07);
+  color: #e4e0d0;
+}
+
+html.dark .library-card-icon {
+  background: rgba(255,255,255,0.06);
+}
+
+html.dark .ayah-hit-direct {
+  background: #1e2a1a;
+}
+
+/* Mobile: keep hamburger absolute even inside the flex-column surah header */
+@media (max-width: 639px) {
+  .site-header:has(.back-link) h1 {
+    padding: 0 52px 0 0;
+  }
+}

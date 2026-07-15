@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>QUR'AN KARIM | Arab matni va o'zbekcha tarjimasi</title>
-<meta name="description" content="Qur'on Karim — arabcha Qur'on matni va o'zbekcha tarjimasi bilan o'qish platformasi." />
+<title>Kutubxona | QUR'AN KARIM</title>
+<meta name="description" content="Qur'on Karim, Hadis kitoblari, Tafsirlar va Aqida ilm kitoblaridan iborat islomiy kutubxona." />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,20 +13,58 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="back-link" href="/">← Suralar</a>
-    <h1 id="headerTitle">Yuklanmoqda...</h1>
+    <a class="back-link" href="/">← Bosh sahifa</a>
+    <h1>Kutubxona</h1>
     <button class="hamburger-btn" id="menuToggle" aria-label="Menyuni ochish">
       <span></span><span></span><span></span>
     </button>
   </header>
 
   <main class="container">
-    <div id="surahContent">
-      <div class="state-msg">Yuklanmoqda...</div>
+    <p class="library-intro">Islomiy bilim manbalaridan foydalaning.</p>
+
+    <div class="library-grid">
+
+      <a class="library-card library-card-active" href="/">
+        <div class="library-card-icon">📖</div>
+        <div class="library-card-body">
+          <div class="library-card-title">Qur'on Karim</div>
+          <div class="library-card-desc">114 sura — arabcha matn va o'zbekcha tarjima</div>
+        </div>
+        <div class="library-card-arrow">→</div>
+      </a>
+
+      <div class="library-card library-card-soon">
+        <div class="library-card-icon">📜</div>
+        <div class="library-card-body">
+          <div class="library-card-title">Hadis kitoblari</div>
+          <div class="library-card-desc">Buxoriy, Muslim va boshqa hadis to'plamlari</div>
+        </div>
+        <span class="library-badge-soon">Tez orada</span>
+      </div>
+
+      <div class="library-card library-card-soon">
+        <div class="library-card-icon">🔍</div>
+        <div class="library-card-body">
+          <div class="library-card-title">Tafsirlar</div>
+          <div class="library-card-desc">Qur'on oyatlarining sharhi va izohi</div>
+        </div>
+        <span class="library-badge-soon">Tez orada</span>
+      </div>
+
+      <div class="library-card library-card-soon">
+        <div class="library-card-icon">🕌</div>
+        <div class="library-card-body">
+          <div class="library-card-title">Aqida va ilm kitoblari</div>
+          <div class="library-card-desc">Islom asoslari, fiqh va ilmiy asarlar</div>
+        </div>
+        <span class="library-badge-soon">Tez orada</span>
+      </div>
+
     </div>
   </main>
 
-  <!-- Sliding menu drawer -->
+  <!-- Sliding menu drawer (shared across all pages) -->
   <div class="menu-overlay" id="menuOverlay"></div>
   <aside class="menu-drawer" id="menuDrawer" aria-label="Asosiy menyu">
     <div class="menu-drawer-header">
@@ -36,6 +74,7 @@
       </div>
       <button class="menu-close-btn" id="menuClose" aria-label="Menyuni yopish">✕</button>
     </div>
+
     <nav class="menu-items">
       <a class="menu-item" href="/">
         <span class="menu-item-icon">🏠</span>
@@ -45,7 +84,7 @@
         <span class="menu-item-icon">📖</span>
         <span class="menu-item-label">Qur'on Karim</span>
       </a>
-      <a class="menu-item" href="/library.html">
+      <a class="menu-item menu-item-active" href="/library.html">
         <span class="menu-item-icon">📚</span>
         <span class="menu-item-label">Kutubxona</span>
       </a>
@@ -69,12 +108,12 @@
         <span class="menu-badge-soon">Tez orada</span>
       </div>
     </nav>
+
     <div class="menu-drawer-footer">
       <p>© 2024 Qur'on Karim</p>
     </div>
   </aside>
 
-  <script src="/js/surah.js"></script>
   <script src="/js/menu.js"></script>
 </body>
 </html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sozlamalar | QUR'AN KARIM</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css" />
+<!-- Apply saved theme before paint -->
+<script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="back-link" href="/">← Bosh sahifa</a>
+    <h1>Sozlamalar</h1>
+  </header>
+
+  <main class="container">
+
+    <div class="settings-group">
+      <div class="settings-group-title">Ko'rinish</div>
+
+      <!-- Dark mode row -->
+      <div class="settings-row">
+        <span class="settings-row-icon">🌙</span>
+        <div class="settings-row-body">
+          <div class="settings-row-title">Tungi rejim</div>
+          <div class="settings-row-desc">Qorong'i fon</div>
+        </div>
+        <label class="toggle-switch" aria-label="Tungi rejimni yoqish">
+          <input type="checkbox" id="darkToggle" />
+          <span class="toggle-track"></span>
+        </label>
+      </div>
+
+      <!-- Light mode row -->
+      <div class="settings-row">
+        <span class="settings-row-icon">☀️</span>
+        <div class="settings-row-body">
+          <div class="settings-row-title">Kunduzgi rejim</div>
+          <div class="settings-row-desc">Yorug' fon</div>
+        </div>
+        <label class="toggle-switch" aria-label="Kunduzgi rejimni yoqish">
+          <input type="checkbox" id="lightToggle" />
+          <span class="toggle-track"></span>
+        </label>
+      </div>
+    </div>
+
+  </main>
+
+  <script>
+    (function () {
+      var darkToggle  = document.getElementById("darkToggle");
+      var lightToggle = document.getElementById("lightToggle");
+
+      function applyTheme(dark) {
+        if (dark) {
+          document.documentElement.classList.add("dark");
+        } else {
+          document.documentElement.classList.remove("dark");
+        }
+        localStorage.setItem("darkMode", dark);
+        darkToggle.checked  = dark;
+        lightToggle.checked = !dark;
+      }
+
+      // Set initial toggle states from current theme
+      var isDark = document.documentElement.classList.contains("dark");
+      darkToggle.checked  = isDark;
+      lightToggle.checked = !isDark;
+
+      darkToggle.addEventListener("change", function () {
+        applyTheme(true);
+      });
+
+      lightToggle.addEventListener("change", function () {
+        applyTheme(false);
+      });
+    })();
+  </script>
+
+</body>
+</html>

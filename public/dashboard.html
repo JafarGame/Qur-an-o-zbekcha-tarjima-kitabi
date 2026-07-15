@@ -85,14 +85,12 @@
           <div class="dash-card-sec-desc">Kitoblar</div>
         </a>
 
-        <!-- Sozlamalar: theme toggle -->
-        <button class="dash-card dash-card-secondary dash-card-settings"
-                id="settingsCard"
-                aria-label="Mavzuni almashtirish">
-          <div class="dash-card-icon-wrap" id="settingsIcon">⚙️</div>
+        <!-- Sozlamalar: opens settings page -->
+        <a class="dash-card dash-card-secondary" href="/settings.html">
+          <div class="dash-card-icon-wrap">⚙️</div>
           <div class="dash-card-sec-title">Sozlamalar</div>
-          <div class="dash-card-sec-desc" id="themeLabel">—</div>
-        </button>
+          <div class="dash-card-sec-desc">Mavzu va ko'rinish</div>
+        </a>
 
         <div class="dash-card dash-card-secondary dash-card-disabled">
           <div class="dash-card-icon-wrap">ℹ️</div>
@@ -106,27 +104,6 @@
 
   </main>
 
-  <script>
-    (function () {
-      var icon  = document.getElementById("settingsIcon");
-      var label = document.getElementById("themeLabel");
-      var card  = document.getElementById("settingsCard");
-
-      function sync() {
-        var dark = document.documentElement.classList.contains("dark");
-        icon.textContent  = dark ? "☀️" : "🌙";
-        label.textContent = dark ? "Kunduzgi rejim" : "Tungi rejim";
-      }
-
-      card.addEventListener("click", function () {
-        var dark = document.documentElement.classList.toggle("dark");
-        localStorage.setItem("darkMode", dark);
-        sync();
-      });
-
-      sync();
-    })();
-  </script>
 
 </body>
 </html>

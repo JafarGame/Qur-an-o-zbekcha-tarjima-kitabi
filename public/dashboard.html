@@ -10,13 +10,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css" />
+<!-- Apply saved theme before paint to avoid flash -->
+<script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>
 </head>
 <body>
 
   <header class="site-header">
-    <button class="hamburger-btn" id="menuToggle" aria-label="Menyuni ochish">
-      <span></span><span></span><span></span>
-    </button>
     <div class="header-logo" aria-hidden="true">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 54" width="64" height="54">
         <path d="M3 13 L29 9 L29 47 L3 43 Z" fill="#fef5d4"/>
@@ -86,11 +85,14 @@
           <div class="dash-card-sec-desc">Kitoblar</div>
         </a>
 
-        <div class="dash-card dash-card-secondary dash-card-disabled">
-          <div class="dash-card-icon-wrap">⚙️</div>
+        <!-- Sozlamalar: theme toggle -->
+        <button class="dash-card dash-card-secondary dash-card-settings"
+                id="settingsCard"
+                aria-label="Mavzuni almashtirish">
+          <div class="dash-card-icon-wrap" id="settingsIcon">⚙️</div>
           <div class="dash-card-sec-title">Sozlamalar</div>
-          <span class="dash-badge-soon">Tez orada</span>
-        </div>
+          <div class="dash-card-sec-desc" id="themeLabel">—</div>
+        </button>
 
         <div class="dash-card dash-card-secondary dash-card-disabled">
           <div class="dash-card-icon-wrap">ℹ️</div>
@@ -104,54 +106,27 @@
 
   </main>
 
-  <!-- Sliding menu drawer -->
-  <div class="menu-overlay" id="menuOverlay"></div>
-  <aside class="menu-drawer" id="menuDrawer" aria-label="Asosiy menyu">
-    <div class="menu-drawer-header">
-      <div class="menu-drawer-brand">
-        <span>📖</span>
-        <span>Qur'on Karim</span>
-      </div>
-      <button class="menu-close-btn" id="menuClose" aria-label="Menyuni yopish">✕</button>
-    </div>
-    <nav class="menu-items">
-      <a class="menu-item menu-item-active" href="/dashboard.html">
-        <span class="menu-item-icon">🏠</span>
-        <span class="menu-item-label">Bosh sahifa</span>
-      </a>
-      <a class="menu-item" href="/">
-        <span class="menu-item-icon">📖</span>
-        <span class="menu-item-label">Qur'on</span>
-      </a>
-      <a class="menu-item" href="/library.html">
-        <span class="menu-item-icon">📚</span>
-        <span class="menu-item-label">Kutubxona</span>
-      </a>
-      <div class="menu-item menu-item-disabled">
-        <span class="menu-item-icon">🔖</span>
-        <span class="menu-item-label">Saqlangan oyatlar</span>
-        <span class="menu-badge-soon">Tez orada</span>
-      </div>
-      <button class="menu-item menu-item-btn" id="darkModeToggle">
-        <span class="menu-item-icon">🌙</span>
-        <span class="menu-item-label">Tungi rejim</span>
-      </button>
-      <div class="menu-item menu-item-disabled">
-        <span class="menu-item-icon">⚙️</span>
-        <span class="menu-item-label">Sozlamalar</span>
-        <span class="menu-badge-soon">Tez orada</span>
-      </div>
-      <div class="menu-item menu-item-disabled">
-        <span class="menu-item-icon">ℹ️</span>
-        <span class="menu-item-label">Haqida</span>
-        <span class="menu-badge-soon">Tez orada</span>
-      </div>
-    </nav>
-    <div class="menu-drawer-footer">
-      <p>© 2024 Qur'on Karim</p>
-    </div>
-  </aside>
+  <script>
+    (function () {
+      var icon  = document.getElementById("settingsIcon");
+      var label = document.getElementById("themeLabel");
+      var card  = document.getElementById("settingsCard");
 
-  <script src="/js/menu.js"></script>
+      function sync() {
+        var dark = document.documentElement.classList.contains("dark");
+        icon.textContent  = dark ? "☀️" : "🌙";
+        label.textContent = dark ? "Kunduzgi rejim" : "Tungi rejim";
+      }
+
+      card.addEventListener("click", function () {
+        var dark = document.documentElement.classList.toggle("dark");
+        localStorage.setItem("darkMode", dark);
+        sync();
+      });
+
+      sync();
+    })();
+  </script>
+
 </body>
 </html>

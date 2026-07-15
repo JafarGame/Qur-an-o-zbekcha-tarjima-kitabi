@@ -742,6 +742,189 @@ body.menu-open {
   white-space: nowrap;
 }
 
+/* ─── Dashboard page ────────────────────────────────────────────── */
+.dash-hero {
+  text-align: center;
+  padding: 28px 0 10px;
+}
+
+.dash-bismillah {
+  font-family: "Amiri Quran", "Amiri", serif;
+  font-size: 1.75rem;
+  color: var(--color-gold);
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+  margin-bottom: 6px;
+  text-shadow: 0 1px 4px rgba(184,134,11,0.15);
+}
+
+.dash-welcome {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin: 0;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* ── Card grid wrapper ─────────────────────────────────────────── */
+.dash-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-bottom: 32px;
+}
+
+/* ── Shared card base ─────────────────────────────────────────── */
+.dash-card {
+  display: block;
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: transform 0.16s ease, box-shadow 0.16s ease;
+  cursor: pointer;
+}
+
+.dash-card:not(.dash-card-disabled):hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(15,81,50,0.14);
+}
+
+/* ── Featured card (Qur'on Karim) ────────────────────────────── */
+.dash-card-featured {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 24px;
+  background: linear-gradient(120deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  color: #fdfaf0;
+  box-shadow: 0 4px 20px rgba(15,81,50,0.28);
+  position: relative;
+  overflow: hidden;
+}
+
+.dash-card-featured::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 90% 10%, rgba(255,255,255,0.07) 0, transparent 50%),
+    radial-gradient(circle at 10% 90%, rgba(255,255,255,0.05) 0, transparent 45%);
+  pointer-events: none;
+}
+
+.dash-card-featured-left {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  position: relative;
+}
+
+.dash-card-featured-icon {
+  font-size: 2.4rem;
+  line-height: 1;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.25));
+  flex-shrink: 0;
+}
+
+.dash-card-featured-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fdfaf0;
+  letter-spacing: 0.3px;
+  margin-bottom: 4px;
+}
+
+.dash-card-featured-desc {
+  font-size: 0.8rem;
+  color: rgba(253,250,240,0.72);
+  font-weight: 400;
+}
+
+.dash-card-featured-arrow {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-gold);
+  position: relative;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.dash-card-featured:hover .dash-card-featured-arrow {
+  transform: translateX(4px);
+}
+
+/* ── 2×2 secondary grid ──────────────────────────────────────── */
+.dash-secondary-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.dash-card-secondary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 24px 16px 20px;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow);
+  text-align: center;
+  min-height: 120px;
+}
+
+.dash-card-icon-wrap {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.dash-card-sec-title {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  letter-spacing: 0.2px;
+}
+
+.dash-card-sec-desc {
+  font-size: 0.75rem;
+  color: var(--color-muted);
+  margin-top: -4px;
+}
+
+.dash-card-disabled {
+  opacity: 0.55;
+  cursor: default;
+  pointer-events: none;
+}
+
+.dash-badge-soon {
+  display: inline-block;
+  font-size: 0.67rem;
+  font-weight: 600;
+  color: var(--color-gold);
+  background: rgba(184,134,11,0.1);
+  padding: 2px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.03em;
+}
+
+/* Dark mode overrides for dashboard */
+html.dark .dash-card-secondary {
+  background: var(--color-bg-alt);
+  border-color: var(--color-border);
+}
+
+html.dark .dash-card-sec-title {
+  color: #e4e0d0;
+}
+
+html.dark .dash-card-featured {
+  background: linear-gradient(120deg, #0c3d24 0%, #071910 100%);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
 /* ─── Dark mode ─────────────────────────────────────────────────── */
 html.dark {
   --color-bg: #111a13;

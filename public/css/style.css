@@ -35,10 +35,17 @@ a {
 .site-header {
   background: linear-gradient(120deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
   color: #fdfaf0;
-  padding: 28px 20px 34px;
+  padding: 22px 20px 30px;
   text-align: center;
   position: relative;
   overflow: hidden;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.3));
 }
 
 .site-header::before {

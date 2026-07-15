@@ -129,6 +129,11 @@ function searchText(raw, limit) {
   return results;
 }
 
+// Dashboard is the main landing page; surah list remains at /index.html
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "dashboard.html"));
+});
+
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/api/surahs", (req, res) => {

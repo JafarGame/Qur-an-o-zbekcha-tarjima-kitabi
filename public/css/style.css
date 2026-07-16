@@ -1516,6 +1516,31 @@ html.dark .hl-book-name {
   border-radius: 999px;
 }
 
+.hadith-card-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hadith-card-link:hover {
+  border-color: rgba(15,81,50,0.35);
+  box-shadow: 0 4px 20px rgba(15,81,50,0.12);
+}
+
+.hadith-card-link:hover .hadith-card-arrow {
+  transform: translateX(4px);
+}
+
+.hadith-card-arrow {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-gold);
+  flex-shrink: 0;
+  align-self: center;
+  margin-left: auto;
+  padding-left: 12px;
+  transition: transform 0.2s ease;
+}
+
 .hadith-badge-soon {
   position: absolute;
   top: 16px;

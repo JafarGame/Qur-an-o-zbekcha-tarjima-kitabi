@@ -1,6 +1,23 @@
 (function () {
   const listEl = document.getElementById("surahList");
   const searchInput = document.getElementById("searchInput");
+
+  // ── "Davom ettirish" banner ──────────────────────────────────────
+  (function showContinueBanner() {
+    try {
+      const pos = JSON.parse(localStorage.getItem("quran_last_position"));
+      if (!pos || !pos.surahNum) return;
+      const banner = document.createElement("div");
+      banner.className = "continue-reading-banner";
+      banner.innerHTML = `
+        <div class="crb-text">
+          <span class="crb-label">Oxirgi o'qish joyi</span>
+          <span class="crb-ref">${pos.surahName} · ${pos.ayahNum}-oyat</span>
+        </div>
+        <a class="crb-btn" href="/surah.html?number=${pos.surahNum}&ayah=${pos.ayahNum}">Davom ettirish →</a>`;
+      listEl.before(banner);
+    } catch {}
+  })();
   const searchResultsEl = document.getElementById("searchResults");
   let surahs = [];
   let debounceTimer = null;

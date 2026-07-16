@@ -18,6 +18,29 @@
   </header>
 
   <main class="container">
+
+    <!-- Reading controls bar -->
+    <div class="reading-controls">
+
+      <div class="rc-group rc-nav-group">
+        <button class="rc-btn rc-nav-btn" id="prevAyah" disabled>← Oldingi oyat</button>
+        <span class="rc-indicator" id="ayahIndicator">—</span>
+        <button class="rc-btn rc-nav-btn" id="nextAyah" disabled>Keyingi oyat →</button>
+      </div>
+
+      <div class="rc-group rc-size-group">
+        <span class="rc-label">Arab matni:</span>
+        <button class="rc-btn rc-size-btn" data-size="small">Kichik</button>
+        <button class="rc-btn rc-size-btn rc-btn-active" data-size="medium">O'rta</button>
+        <button class="rc-btn rc-size-btn" data-size="large">Katta</button>
+      </div>
+
+      <div class="rc-group rc-trans-group">
+        <button class="rc-btn rc-trans-btn" id="toggleTranslation">Tarjimani yashirish</button>
+      </div>
+
+    </div>
+
     <div id="surahContent">
       <div class="state-msg">Yuklanmoqda...</div>
     </div>

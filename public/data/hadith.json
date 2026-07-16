@@ -226,6 +226,118 @@
       "narrator_arabic": "أبو ذر ومعاذ بن جبل",
       "source": "At-Termiziy 27:2004",
       "grade": "Hasan"
+    },
+
+    {
+      "id": "bukhari-76-5678",
+      "collection": "bukhari",
+      "collection_name": "Sahih Buxoriy",
+      "book": 76,
+      "book_name": "Tibbiyot kitobi",
+      "number": 5678,
+      "arabic": "مَا أَنْزَلَ اللَّهُ دَاءً إِلَّا أَنْزَلَ لَهُ شِفَاءً.",
+      "narrator": "Abu Hurayra",
+      "narrator_arabic": "أبو هريرة",
+      "source": "Sahih al-Buxoriy 76:5678",
+      "grade": "Sahih"
+    },
+
+    {
+      "id": "bukhari-78-6018",
+      "collection": "bukhari",
+      "collection_name": "Sahih Buxoriy",
+      "book": 78,
+      "book_name": "Odob kitobi",
+      "number": 6018,
+      "arabic": "مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ.",
+      "narrator": "Abu Hurayra",
+      "narrator_arabic": "أبو هريرة",
+      "source": "Sahih al-Buxoriy 78:6018",
+      "grade": "Sahih"
+    },
+
+    {
+      "id": "muslim-32-2564",
+      "collection": "muslim",
+      "collection_name": "Sahih Muslim",
+      "book": 32,
+      "book_name": "Vasiyat kitobi",
+      "number": 1631,
+      "arabic": "إِذَا مَاتَ الإِنْسَانُ انْقَطَعَ عَنْهُ عَمَلُهُ إِلَّا مِنْ ثَلَاثَةٍ: إِلَّا مِنْ صَدَقَةٍ جَارِيَةٍ، أَوْ عِلْمٍ يُنْتَفَعُ بِهِ، أَوْ وَلَدٍ صَالِحٍ يَدْعُو لَهُ.",
+      "narrator": "Abu Hurayra",
+      "narrator_arabic": "أبو هريرة",
+      "source": "Sahih Muslim 32:1631",
+      "grade": "Sahih"
+    },
+
+    {
+      "id": "muslim-48-2742",
+      "collection": "muslim",
+      "collection_name": "Sahih Muslim",
+      "book": 48,
+      "book_name": "Tavba kitobi",
+      "number": 2742,
+      "arabic": "لَوْ أَخْطَأْتُمْ حَتَّى تَبْلُغَ خَطَايَاكُمُ السَّمَاءَ ثُمَّ تُبْتُمْ لَتَابَ اللَّهُ عَلَيْكُمْ.",
+      "narrator": "Abu Hurayra",
+      "narrator_arabic": "أبو هريرة",
+      "source": "Sahih Muslim 48:2742",
+      "grade": "Sahih"
+    },
+
+    {
+      "id": "abudawud-35-4273",
+      "collection": "abudawud",
+      "collection_name": "Abu Dovud",
+      "book": 35,
+      "book_name": "Fitnalar kitobi",
+      "number": 4273,
+      "arabic": "مَنْ رَأَى مِنْكُمْ مُنْكَرًا فَلْيُغَيِّرْهُ بِيَدِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِلِسَانِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِقَلْبِهِ، وَذَلِكَ أَضْعَفُ الإِيمَانِ.",
+      "narrator": "Abu Sa'id al-Xudriy",
+      "narrator_arabic": "أبو سعيد الخدري",
+      "source": "Abu Dovud 35:4273",
+      "grade": "Sahih"
+    },
+
+    {
+      "id": "abudawud-43-4800",
+      "collection": "abudawud",
+      "collection_name": "Abu Dovud",
+      "book": 43,
+      "book_name": "Odob kitobi",
+      "number": 4800,
+      "arabic": "إِنَّ مِنْ أَحَبِّكُمْ إِلَيَّ وَأَقْرَبِكُمْ مِنِّي مَجْلِسًا يَوْمَ الْقِيَامَةِ أَحَاسِنَكُمْ أَخْلَاقًا.",
+      "narrator": "Jabir ibn Abdulloh",
+      "narrator_arabic": "جابر بن عبد الله",
+      "source": "Abu Dovud 43:4800",
+      "grade": "Hasan"
+    },
+
+    {
+      "id": "tirmidhi-9-614",
+      "collection": "tirmidhi",
+      "collection_name": "At-Termiziy",
+      "book": 9,
+      "book_name": "Zakot kitobi",
+      "number": 614,
+      "arabic": "اليَدُ العُلْيَا خَيْرٌ مِنَ اليَدِ السُّفْلَى.",
+      "narrator": "Ibn Umar",
+      "narrator_arabic": "ابن عمر",
+      "source": "At-Termiziy 9:614",
+      "grade": "Sahih"
+    },
+
+    {
+      "id": "tirmidhi-34-2406",
+      "collection": "tirmidhi",
+      "collection_name": "At-Termiziy",
+      "book": 34,
+      "book_name": "Qiyomat tasviri kitobi",
+      "number": 2406,
+      "arabic": "كُنْ فِي الدُّنْيَا كَأَنَّكَ غَرِيبٌ أَوْ عَابِرُ سَبِيلٍ.",
+      "narrator": "Abdulloh ibn Umar",
+      "narrator_arabic": "عبد الله بن عمر",
+      "source": "At-Termiziy 34:2406",
+      "grade": "Sahih"
     }
 
   ]

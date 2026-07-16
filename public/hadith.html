@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hadis | QUR'AN KARIM</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css" />
+<script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="back-link" id="backLink" href="/hadislar.html">← Hadislar</a>
+    <h1 id="pageTitle">Yuklanmoqda…</h1>
+  </header>
+
+  <!-- Loading state -->
+  <div class="hr-loading" id="hrLoading">
+    <div class="hr-loading-dot"></div>
+    <div class="hr-loading-dot"></div>
+    <div class="hr-loading-dot"></div>
+  </div>
+
+  <!-- Main card — hidden until data loads -->
+  <main class="container hr-container" id="hrMain" hidden>
+
+    <!-- Collection & grade strip -->
+    <div class="hr-meta-strip">
+      <span class="hr-collection-tag" id="hrCollectionTag"></span>
+      <span class="hr-grade" id="hrGrade"></span>
+    </div>
+
+    <!-- Arabic text block -->
+    <div class="hr-arabic-block">
+      <div class="hr-arabic-deco" aria-hidden="true">﷽</div>
+      <p class="hr-arabic-text" id="hrArabic" dir="rtl" lang="ar"></p>
+    </div>
+
+    <!-- Metadata grid -->
+    <div class="hr-info-grid">
+      <div class="hr-info-row" id="hrNarratorRow">
+        <span class="hr-info-label">Raviychi</span>
+        <span class="hr-info-value" id="hrNarrator"></span>
+      </div>
+      <div class="hr-info-row" id="hrBookRow">
+        <span class="hr-info-label">Kitob</span>
+        <span class="hr-info-value" id="hrBook"></span>
+      </div>
+      <div class="hr-info-row" id="hrSourceRow">
+        <span class="hr-info-label">Manba</span>
+        <span class="hr-info-value" id="hrSource"></span>
+      </div>
+      <div class="hr-info-row" id="hrNarratorArRow" hidden>
+        <span class="hr-info-label">Arabcha</span>
+        <span class="hr-info-value hr-narrator-arabic" id="hrNarratorAr" dir="rtl" lang="ar"></span>
+      </div>
+    </div>
+
+    <!-- Action buttons -->
+    <div class="hr-actions">
+      <button class="hr-action-btn" id="hrCopyBtn" title="Nusxa olish">
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="7" y="7" width="10" height="12" rx="2"/>
+          <path d="M13 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h2"/>
+        </svg>
+        <span id="hrCopyLabel">Nusxa</span>
+      </button>
+
+      <button class="hr-action-btn" id="hrShareBtn" title="Ulashish">
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="15" cy="4" r="2"/>
+          <circle cx="5"  cy="10" r="2"/>
+          <circle cx="15" cy="16" r="2"/>
+          <path d="M7 9l6-4M7 11l6 4"/>
+        </svg>
+        <span>Ulash</span>
+      </button>
+
+      <button class="hr-action-btn hr-save-btn" id="hrSaveBtn" title="Saqlash">
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M4 3h12a1 1 0 0 1 1 1v13l-7-3.5L3 17V4a1 1 0 0 1 1-1z"/>
+        </svg>
+        <span id="hrSaveLabel">Saqlash</span>
+      </button>
+    </div>
+
+    <!-- Toast -->
+    <div class="hr-toast" id="hrToast" aria-live="polite"></div>
+
+    <!-- Prev / Next navigation -->
+    <div class="hr-nav" id="hrNav" hidden>
+      <button class="hr-nav-btn" id="hrPrevBtn" disabled>
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M10 12L6 8l4-4"/>
+        </svg>
+        Oldingi
+      </button>
+      <span class="hr-nav-counter" id="hrNavCounter"></span>
+      <button class="hr-nav-btn" id="hrNextBtn" disabled>
+        Keyingi
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M6 4l4 4-4 4"/>
+        </svg>
+      </button>
+    </div>
+
+  </main>
+
+  <!-- Error state -->
+  <div class="state-msg" id="hrError" hidden>Hadis topilmadi.</div>
+
+  <script>
+  (function () {
+    const SAVE_KEY = "hadith_saved";
+
+    // ── Helpers ────────────────────────────────────────────────────
+    function getSaved() {
+      try { return JSON.parse(localStorage.getItem(SAVE_KEY) || "{}"); }
+      catch { return {}; }
+    }
+    function setSaved(obj) {
+      localStorage.setItem(SAVE_KEY, JSON.stringify(obj));
+    }
+
+    function gradeClass(grade) {
+      if (!grade) return "";
+      const g = grade.toLowerCase();
+      if (g.includes("sahih")) return "hl-grade-sahih";
+      if (g.includes("hasan")) return "hl-grade-hasan";
+      if (g.includes("daif"))  return "hl-grade-daif";
+      return "hl-grade-other";
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById("hrToast");
+      t.textContent = msg;
+      t.classList.add("hr-toast-visible");
+      clearTimeout(t._timer);
+      t._timer = setTimeout(() => t.classList.remove("hr-toast-visible"), 2200);
+    }
+
+    // ── URL params ─────────────────────────────────────────────────
+    const params = new URLSearchParams(window.location.search);
+    const targetId = (params.get("id") || "").trim();
+
+    // ── DOM refs ───────────────────────────────────────────────────
+    const backLink       = document.getElementById("backLink");
+    const pageTitle      = document.getElementById("pageTitle");
+    const hrLoading      = document.getElementById("hrLoading");
+    const hrMain         = document.getElementById("hrMain");
+    const hrError        = document.getElementById("hrError");
+    const hrCollTag      = document.getElementById("hrCollectionTag");
+    const hrGrade        = document.getElementById("hrGrade");
+    const hrArabic       = document.getElementById("hrArabic");
+    const hrNarrator     = document.getElementById("hrNarrator");
+    const hrNarratorAr   = document.getElementById("hrNarratorAr");
+    const hrNarratorArRow= document.getElementById("hrNarratorArRow");
+    const hrBook         = document.getElementById("hrBook");
+    const hrSource       = document.getElementById("hrSource");
+    const hrCopyBtn      = document.getElementById("hrCopyBtn");
+    const hrCopyLabel    = document.getElementById("hrCopyLabel");
+    const hrShareBtn     = document.getElementById("hrShareBtn");
+    const hrSaveBtn      = document.getElementById("hrSaveBtn");
+    const hrSaveLabel    = document.getElementById("hrSaveLabel");
+    const hrNav          = document.getElementById("hrNav");
+    const hrPrevBtn      = document.getElementById("hrPrevBtn");
+    const hrNextBtn      = document.getElementById("hrNextBtn");
+    const hrNavCounter   = document.getElementById("hrNavCounter");
+
+    // ── Fetch ──────────────────────────────────────────────────────
+    fetch("/data/hadith.json")
+      .then(r => { if (!r.ok) throw new Error(); return r.json(); })
+      .then(data => {
+        hrLoading.hidden = true;
+
+        const hadith = (data.hadiths || []).find(h => h.id === targetId);
+        if (!hadith) { hrError.hidden = false; pageTitle.textContent = "Topilmadi"; return; }
+
+        // Collection metadata for back link
+        const coll = (data.collections || []).find(c => c.id === hadith.collection);
+        backLink.href = `/hadith-list.html?collection=${hadith.collection}`;
+        backLink.textContent = `← ${coll ? coll.name : "Hadislar"}`;
+
+        // Page title
+        const titleStr = `Hadis #${hadith.number}`;
+        pageTitle.textContent = titleStr;
+        document.title = `${titleStr} | ${coll ? coll.name : "Hadislar"}`;
+
+        // Collection tag
+        hrCollTag.textContent = hadith.collection_name || (coll ? coll.name : "");
+
+        // Grade
+        if (hadith.grade) {
+          hrGrade.textContent  = hadith.grade;
+          hrGrade.className    = `hr-grade hl-grade ${gradeClass(hadith.grade)}`;
+        }
+
+        // Arabic text
+        hrArabic.textContent = hadith.arabic || "";
+
+        // Metadata rows
+        hrNarrator.textContent = hadith.narrator || "";
+        if (hadith.narrator_arabic) {
+          hrNarratorAr.textContent = hadith.narrator_arabic;
+          hrNarratorArRow.hidden = false;
+        }
+        hrBook.textContent   = hadith.book_name  || "";
+        hrSource.textContent = hadith.source      || "";
+
+        // ── Prev / Next within same collection ────────────────────
+        const siblings = (data.hadiths || []).filter(h => h.collection === hadith.collection);
+        const idx = siblings.findIndex(h => h.id === hadith.id);
+        if (siblings.length > 1) {
+          hrNav.hidden = false;
+          hrNavCounter.textContent = `${idx + 1} / ${siblings.length}`;
+          if (idx > 0) {
+            hrPrevBtn.disabled = false;
+            hrPrevBtn.addEventListener("click", () => {
+              window.location.href = `/hadith.html?id=${siblings[idx - 1].id}`;
+            });
+          }
+          if (idx < siblings.length - 1) {
+            hrNextBtn.disabled = false;
+            hrNextBtn.addEventListener("click", () => {
+              window.location.href = `/hadith.html?id=${siblings[idx + 1].id}`;
+            });
+          }
+        }
+
+        // Show main content
+        hrMain.hidden = false;
+
+        // ── Save button state ─────────────────────────────────────
+        function refreshSaveBtn() {
+          const saved = getSaved();
+          if (saved[hadith.id]) {
+            hrSaveBtn.classList.add("hr-save-active");
+            hrSaveLabel.textContent = "Saqlangan";
+          } else {
+            hrSaveBtn.classList.remove("hr-save-active");
+            hrSaveLabel.textContent = "Saqlash";
+          }
+        }
+        refreshSaveBtn();
+
+        // ── Copy ──────────────────────────────────────────────────
+        hrCopyBtn.addEventListener("click", () => {
+          const text = `${hadith.arabic}\n\n— ${hadith.narrator || ""}\n(${hadith.source || ""})`;
+          navigator.clipboard.writeText(text).then(() => {
+            hrCopyLabel.textContent = "Nusxalandi!";
+            showToast("Matn nusxalandi ✓");
+            setTimeout(() => { hrCopyLabel.textContent = "Nusxa"; }, 2000);
+          }).catch(() => showToast("Nusxa olishda xatolik"));
+        });
+
+        // ── Share ─────────────────────────────────────────────────
+        hrShareBtn.addEventListener("click", () => {
+          const text = `${hadith.arabic}\n\n— ${hadith.narrator || ""}\n(${hadith.source || ""})`;
+          if (navigator.share) {
+            navigator.share({ title: `Hadis #${hadith.number}`, text }).catch(() => {});
+          } else {
+            navigator.clipboard.writeText(text).then(() => showToast("Matn nusxalandi ✓"));
+          }
+        });
+
+        // ── Save ──────────────────────────────────────────────────
+        hrSaveBtn.addEventListener("click", () => {
+          const saved = getSaved();
+          if (saved[hadith.id]) {
+            delete saved[hadith.id];
+            showToast("Saqlangan ro'yxatdan o'chirildi");
+          } else {
+            saved[hadith.id] = {
+              id: hadith.id,
+              number: hadith.number,
+              collection: hadith.collection,
+              collection_name: hadith.collection_name,
+              arabic: hadith.arabic,
+              narrator: hadith.narrator,
+              source: hadith.source,
+              grade: hadith.grade,
+              savedAt: Date.now()
+            };
+            showToast("Saqlandi ✓");
+          }
+          setSaved(saved);
+          refreshSaveBtn();
+        });
+      })
+      .catch(() => {
+        hrLoading.hidden = true;
+        hrError.hidden   = false;
+        pageTitle.textContent = "Xatolik";
+      });
+  })();
+  </script>
+
+</body>
+</html>

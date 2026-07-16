@@ -1,0 +1,232 @@
+{
+  "collections": [
+    {
+      "id": "bukhari",
+      "name": "Sahih Buxoriy",
+      "arabic_name": "صحيح البخاري",
+      "author": "Muhammad ibn Ismoil al-Buxoriy",
+      "author_arabic": "محمد بن إسماعيل البخاري",
+      "born": 810,
+      "died": 870,
+      "total_hadiths": 7563,
+      "category": "Sahih"
+    },
+    {
+      "id": "muslim",
+      "name": "Sahih Muslim",
+      "arabic_name": "صحيح مسلم",
+      "author": "Muslim ibn al-Hajjoj an-Naysaburiy",
+      "author_arabic": "مسلم بن الحجاج النيسابوري",
+      "born": 815,
+      "died": 875,
+      "total_hadiths": 7500,
+      "category": "Sahih"
+    },
+    {
+      "id": "abudawud",
+      "name": "Abu Dovud",
+      "arabic_name": "سنن أبي داود",
+      "author": "Sulaymon ibn al-Ash'as Abu Dovud",
+      "author_arabic": "سليمان بن الأشعث أبو داود",
+      "born": 817,
+      "died": 889,
+      "total_hadiths": 5274,
+      "category": "Sunan"
+    },
+    {
+      "id": "tirmidhi",
+      "name": "At-Termiziy",
+      "arabic_name": "جامع الترمذي",
+      "author": "Muhammad ibn Iso at-Termiziy",
+      "author_arabic": "محمد بن عيسى الترمذي",
+      "born": 824,
+      "died": 892,
+      "total_hadiths": 3956,
+      "category": "Jome'"
+    }
+  ],
+
+  "hadiths": [
+
+    {
+      "id": "bukhari-1-1",
+      "collection": "bukhari",
+      "collection_name": "Sahih Buxoriy",
+      "book": 1,
+      "book_name": "Vahiy kitobi",
+      "number": 1,
+      "arabic": "إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ فَهِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوِ امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ.",
+      "uzbek": "Albatta, a'mollar niyatlar bilandir. Va har bir kishiga niyat qilgani bor. Kim hijrasi Alloh va Uning rasuliga bo'lsa, uning hijrasi Alloh va Uning rasuliga bo'ladi. Kim hijrasi dunyo topish yoki nikohlanadigan ayol uchun bo'lsa, uning hijrasi niyat qilgan narsasigadir.",
+      "narrator": "Umar ibn al-Xattob",
+      "narrator_arabic": "عمر بن الخطاب",
+      "source": "Sahih al-Buxoriy 1:1",
+      "grade": "Sahih"
+    },
+
+    {
+      "id": "bukhari-2-8",
+      "collection": "bukhari",
+      "collection_name": "Sahih Buxoriy",
+      "book": 2,
+      "book_name": "Imon kitobi",
+      "number": 8,
+      "arabic": "الإِسْلاَمُ أَنْ تَشْهَدَ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَتُقِيمَ الصَّلاَةَ، وَتُؤْتِيَ الزَّكَاةَ، وَتَصُومَ رَمَضَانَ، وَتَحُجَّ الْبَيْتَ إِنِ اسْتَطَعْتَ إِلَيْهِ سَبِيلاً.",
+      "uzbek": "Islom — Allohdan boshqa iloh yo'qligiga va Muhammadning Allohning rasuli ekanligiga guvohlik berishingdir; namoz o'qishingdir; zakot berishingdir; Ramazon ro'zasini tutishingdir; qodir bo'lsang Baytullohga haj qilishingdir.",
+      "narrator": "Abdulloh ibn Umar",
+      "narrator_arabic": "عبد الله بن عمر",
+      "source": "Sahih al-Buxoriy 2:8",
+      "grade": "Sahih"
+    },
+
+    {
+      "id": "bukhari-3-15",
+      "collection": "bukhari",
+      "collection_name": "Sahih Buxoriy",
+      "book": 2,
+      "book_name": "Imon kitobi",
+      "number": 15,
+      "arabic": "لاَ يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ.",
+      "uzbek": "Biringiz o'ziga yaxshi ko'rgan narsani birodariga ham yaxshi ko'rmaguncha (to'liq) imon keltirmagan bo'ladi.",
+      "narrator": "Anas ibn Molik",
+      "narrator_arabic": "أنس بن مالك",
+      "source": "Sahih al-Buxoriy 2:15",
+      "grade": "Sahih"
+    },
+
+    {
+      "id": "muslim-1-1",
+      "collection": "muslim",
+      "collection_name": "Sahih Muslim",
+      "book": 1,
+      "book_name": "Imon kitobi",
+      "number": 1,
+      "arabic": "بُنِيَ الإِسْلاَمُ عَلَى خَمْسٍ: شَهَادَةِ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ، وَإِقَامِ الصَّلاَةِ، وَإِيتَاءِ الزَّكَاةِ، وَحَجِّ الْبَيْتِ، وَصَوْمِ رَمَضَانَ.",
+      "uzbek": "Islom besh narsaning ustiga qurilgan: Allohdan boshqa iloh yo'qligiga va Muhammadning Uning bandasi va rasuli ekanligiga guvohlik berish, namoz o'qish, zakot berish, Baytullohga haj qilish va Ramazon ro'zasini tutish.",
+      "narrator": "Abdulloh ibn Umar",
+      "narrator_arabic": "عبد الله بن عمر",
+      "source": "Sahih Muslim 1:1",
+      "grade": "Sahih"
+    },
+
+    {
+      "id": "muslim-45-2564",
+      "collection": "muslim",
+      "collection_name": "Sahih Muslim",
+      "book": 45,
+      "book_name": "Yaxshilik, silai rahm va odob kitobi",
+      "number": 2564,
+      "arabic": "مَنْ دَلَّ عَلَى خَيْرٍ فَلَهُ مِثْلُ أَجْرِ فَاعِلِهِ.",
+      "uzbek": "Kim biron yaxshilikka yo'llasa, unga o'sha ishni qilganning ajri kabidir.",
+      "narrator": "Abu Mas'ud al-Ansariy",
+      "narrator_arabic": "أبو مسعود الأنصاري",
+      "source": "Sahih Muslim 45:2564",
+      "grade": "Sahih"
+    },
+
+    {
+      "id": "muslim-47-2699",
+      "collection": "muslim",
+      "collection_name": "Sahih Muslim",
+      "book": 47,
+      "book_name": "Zikr, du'o va istig'for kitobi",
+      "number": 2699,
+      "arabic": "مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا سَهَّلَ اللَّهُ لَهُ بِهِ طَرِيقًا إِلَى الْجَنَّةِ.",
+      "uzbek": "Kim ilm izlab bir yo'lga kirsa, Allah unga shu sababdan jannatga boradigan yo'lni oson qiladi.",
+      "narrator": "Abu Hurayra",
+      "narrator_arabic": "أبو هريرة",
+      "source": "Sahih Muslim 47:2699",
+      "grade": "Sahih"
+    },
+
+    {
+      "id": "abudawud-1-1",
+      "collection": "abudawud",
+      "collection_name": "Abu Dovud",
+      "book": 1,
+      "book_name": "Tahorat kitobi",
+      "number": 1,
+      "arabic": "الطَّهُورُ شَطْرُ الإِيمَانِ.",
+      "uzbek": "Tozalik imonning yarmidir.",
+      "narrator": "Abu Molik al-Ash'ariy",
+      "narrator_arabic": "أبو مالك الأشعري",
+      "source": "Sahih Muslim 2:432; Abu Dovud 1:1",
+      "grade": "Sahih"
+    },
+
+    {
+      "id": "abudawud-43-4833",
+      "collection": "abudawud",
+      "collection_name": "Abu Dovud",
+      "book": 43,
+      "book_name": "Odob kitobi",
+      "number": 4833,
+      "arabic": "الْمَرْءُ عَلَى دِينِ خَلِيلِهِ، فَلْيَنْظُرْ أَحَدُكُمْ مَنْ يُخَالِلُ.",
+      "uzbek": "Kishi o'z do'stining dini ustida bo'ladi. Shuning uchun biringiz kimni do'st tutishini ko'rsin.",
+      "narrator": "Abu Hurayra",
+      "narrator_arabic": "أبو هريرة",
+      "source": "Abu Dovud 43:4833",
+      "grade": "Hasan"
+    },
+
+    {
+      "id": "abudawud-2-479",
+      "collection": "abudawud",
+      "collection_name": "Abu Dovud",
+      "book": 2,
+      "book_name": "Salot kitobi",
+      "number": 479,
+      "arabic": "إِذَا دَخَلَ أَحَدُكُمُ الْمَسْجِدَ فَلاَ يَجْلِسْ حَتَّى يُصَلِّيَ رَكْعَتَيْنِ.",
+      "uzbek": "Biringiz masjidga kirganida ikki rakat namoz o'qimay o'tirmasin.",
+      "narrator": "Abu Qatoda al-Ansariy",
+      "narrator_arabic": "أبو قتادة الأنصاري",
+      "source": "Abu Dovud 2:479",
+      "grade": "Sahih"
+    },
+
+    {
+      "id": "tirmidhi-27-1987",
+      "collection": "tirmidhi",
+      "collection_name": "At-Termiziy",
+      "book": 27,
+      "book_name": "Yaxshi axloq kitobi",
+      "number": 1987,
+      "arabic": "أَكْمَلُ الْمُؤْمِنِينَ إِيمَانًا أَحْسَنُهُمْ خُلُقًا، وَخِيَارُكُمْ خِيَارُكُمْ لِنِسَائِهِمْ.",
+      "uzbek": "Mo'minlarning imon jihatdan eng kamoli axloqi eng yaxshisidir. Sizning eng yaxshilaringiz xotinlari uchun eng yaxshilaringizdir.",
+      "narrator": "Abu Hurayra",
+      "narrator_arabic": "أبو هريرة",
+      "source": "At-Termiziy 27:1987",
+      "grade": "Hasan Sahih"
+    },
+
+    {
+      "id": "tirmidhi-36-2516",
+      "collection": "tirmidhi",
+      "collection_name": "At-Termiziy",
+      "book": 36,
+      "book_name": "Zuhd kitobi",
+      "number": 2516,
+      "arabic": "اغْتَنِمْ خَمْسًا قَبْلَ خَمْسٍ: شَبَابَكَ قَبْلَ هَرَمِكَ، وَصِحَّتَكَ قَبْلَ سَقَمِكَ، وَغِنَاكَ قَبْلَ فَقْرِكَ، وَفَرَاغَكَ قَبْلَ شُغْلِكَ، وَحَيَاتَكَ قَبْلَ مَوْتِكَ.",
+      "uzbek": "Beshdan oldin beshni g'animat bil: qariligingdan oldin yoshligingni; kasalligingdan oldin sog'ligingni; faqirligingdan oldin boyligingni; mashg'ulotingdan oldin bo'sh vaqtingni; o'limingdan oldin hayotingni.",
+      "narrator": "Ibn Abbos",
+      "narrator_arabic": "ابن عباس",
+      "source": "At-Termiziy 36:2516",
+      "grade": "Sahih"
+    },
+
+    {
+      "id": "tirmidhi-27-2004",
+      "collection": "tirmidhi",
+      "collection_name": "At-Termiziy",
+      "book": 27,
+      "book_name": "Yaxshi axloq kitobi",
+      "number": 2004,
+      "arabic": "اتَّقِ اللَّهَ حَيْثُمَا كُنْتَ، وَأَتْبِعِ السَّيِّئَةَ الْحَسَنَةَ تَمْحُهَا، وَخَالِقِ النَّاسَ بِخُلُقٍ حَسَنٍ.",
+      "uzbek": "Qaerda bo'lsang Allohdan qo'rq. Yomon amalning ketidan yaxshi amal qil, uni o'chiradi. Va odamlar bilan yaxshi axloq bilan muomala qil.",
+      "narrator": "Abu Zarr va Muoz ibn Jabal",
+      "narrator_arabic": "أبو ذر ومعاذ بن جبل",
+      "source": "At-Termiziy 27:2004",
+      "grade": "Hasan"
+    }
+
+  ]
+}

@@ -925,6 +925,112 @@ html.dark .dash-card-featured {
   box-shadow: 0 4px 20px rgba(0,0,0,0.4);
 }
 
+/* ─── Ayah action buttons ────────────────────────────────────────── */
+.ayah-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--color-border);
+  flex-wrap: wrap;
+}
+
+.ayah-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 13px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--color-muted);
+  font-size: 0.78rem;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease, transform 0.12s ease;
+  line-height: 1;
+}
+
+.ayah-action-btn svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.ayah-action-btn:hover {
+  background: rgba(15,81,50,0.07);
+  color: var(--color-primary-dark);
+  border-color: var(--color-primary);
+}
+
+.ayah-action-btn:active {
+  transform: scale(0.95);
+}
+
+/* Audio button pushed to the right */
+.ayah-action-btn--audio {
+  margin-left: auto;
+  color: var(--color-gold);
+  border-color: rgba(184,134,11,0.3);
+}
+
+.ayah-action-btn--audio:hover {
+  background: rgba(184,134,11,0.08);
+  color: var(--color-gold);
+  border-color: var(--color-gold);
+}
+
+/* Toast notification */
+.ayah-copy-toast {
+  position: fixed;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  background: var(--color-primary-dark);
+  color: #fdfaf0;
+  padding: 9px 22px;
+  border-radius: 999px;
+  font-size: 0.83rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.22s ease, transform 0.22s ease;
+  z-index: 999;
+  white-space: nowrap;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.22);
+}
+
+.ayah-copy-toast.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Dark mode */
+html.dark .ayah-action-btn:hover {
+  background: rgba(255,255,255,0.07);
+  color: #e4e0d0;
+}
+
+html.dark .ayah-copy-toast {
+  background: #0c3d24;
+}
+
+@media (max-width: 420px) {
+  .ayah-action-btn span {
+    display: none;
+  }
+  .ayah-action-btn {
+    padding: 8px 10px;
+  }
+  .ayah-action-btn svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
 /* ─── Settings page ─────────────────────────────────────────────── */
 .settings-group {
   background: var(--color-bg-alt);

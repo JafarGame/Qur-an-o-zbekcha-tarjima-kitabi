@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Saqlangan oyatlar | QUR'AN KARIM</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css" />
+<!-- Apply saved theme before paint -->
+<script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="back-link" href="/">← Bosh sahifa</a>
+    <h1>Saqlangan oyatlar</h1>
+  </header>
+
+  <main class="container">
+    <div id="bookmarkList"></div>
+  </main>
+
+  <script>
+  (function () {
+    const BOOKMARKS_KEY = "quran_bookmarks";
+    const listEl = document.getElementById("bookmarkList");
+
+    function loadBookmarks() {
+      try { return JSON.parse(localStorage.getItem(BOOKMARKS_KEY)) || {}; }
+      catch { return {}; }
+    }
+
+    function saveBookmarks(bm) {
+      localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(bm));
+    }
+
+    function showEmpty() {
+      listEl.innerHTML = `
+        <div class="bm-empty">
+          <div class="bm-empty-icon">🔖</div>
+          <div class="bm-empty-title">Saqlangan oyatlar yo'q</div>
+          <p class="bm-empty-desc">Qur'on o'qiyotganda oyatlarni saqlash uchun
+            <strong>Saqlash</strong> tugmasini bosing.</p>
+          <a class="bm-go-btn" href="/index.html">📖 Qur'on o'qishga o'tish</a>
+        </div>`;
+    }
+
+    function renderCard(key, item) {
+      const card = document.createElement("div");
+      card.className = "bm-card";
+      card.dataset.key = key;
+      card.innerHTML = `
+        <div class="bm-card-ref">
+          <span class="bm-surah-name">${item.surahName}</span>
+          <span class="bm-ayah-num">${item.ayahNum}-oyat</span>
+        </div>
+        <div class="bm-arabic">${item.arabic}</div>
+        <div class="bm-translation">
+          <span class="label">Tarjima</span>
+          <p>${item.translation}</p>
+        </div>
+        <div class="bm-actions">
+          <a class="bm-btn bm-btn-read"
+             href="/surah.html?number=${item.surahNum}&ayah=${item.ayahNum}">
+            O'qish →
+          </a>
+          <button class="bm-btn bm-btn-delete" data-key="${key}">
+            O'chirish
+          </button>
+        </div>`;
+      return card;
+    }
+
+    function render() {
+      const bm = loadBookmarks();
+      const keys = Object.keys(bm);
+
+      listEl.innerHTML = "";
+
+      if (keys.length === 0) {
+        showEmpty();
+        return;
+      }
+
+      // Sort by savedAt descending (newest first)
+      keys.sort((a, b) => (bm[b].savedAt || 0) - (bm[a].savedAt || 0));
+
+      const header = document.createElement("p");
+      header.className = "bm-count";
+      header.textContent = `${keys.length} ta oyat saqlangan`;
+      listEl.appendChild(header);
+
+      keys.forEach((key) => {
+        listEl.appendChild(renderCard(key, bm[key]));
+      });
+    }
+
+    // Delete handler (event delegation)
+    listEl.addEventListener("click", function (e) {
+      const btn = e.target.closest(".bm-btn-delete");
+      if (!btn) return;
+
+      const key = btn.dataset.key;
+      const bm = loadBookmarks();
+      delete bm[key];
+      saveBookmarks(bm);
+
+      // Remove card with fade
+      const card = listEl.querySelector(`.bm-card[data-key="${key}"]`);
+      if (card) {
+        card.classList.add("bm-card-removing");
+        setTimeout(() => {
+          card.remove();
+          // Re-check if empty
+          if (!listEl.querySelector(".bm-card")) showEmpty();
+          else {
+            const countEl = listEl.querySelector(".bm-count");
+            const remaining = Object.keys(loadBookmarks()).length;
+            if (countEl) countEl.textContent = `${remaining} ta oyat saqlangan`;
+          }
+        }, 280);
+      }
+    });
+
+    render();
+  })();
+  </script>
+
+</body>
+</html>

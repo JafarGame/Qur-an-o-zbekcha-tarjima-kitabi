@@ -1053,6 +1053,182 @@ html.dark .ayah-copy-toast {
   }
 }
 
+/* ─── Bookmarks page ─────────────────────────────────────────────── */
+.bm-count {
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  margin: 0 0 14px;
+  font-weight: 500;
+}
+
+.bm-card {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 20px 20px 16px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow);
+  transition: opacity 0.28s ease, transform 0.28s ease;
+}
+
+.bm-card-removing {
+  opacity: 0;
+  transform: translateX(12px);
+}
+
+.bm-card-ref {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.bm-surah-name {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  background: rgba(15,81,50,0.08);
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.bm-ayah-num {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--color-gold);
+  background: rgba(184,134,11,0.1);
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.bm-arabic {
+  font-family: "Amiri Quran", "Amiri", "Scheherazade New", serif;
+  font-size: 1.65rem;
+  direction: rtl;
+  text-align: right;
+  line-height: 2.1;
+  color: var(--color-text);
+  padding-bottom: 14px;
+  border-bottom: 1px dashed var(--color-border);
+  margin-bottom: 14px;
+}
+
+.bm-translation {
+  margin-bottom: 16px;
+}
+
+.bm-translation p {
+  margin: 8px 0 0;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--color-text);
+}
+
+.bm-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-top: 12px;
+  border-top: 1px solid var(--color-border);
+}
+
+.bm-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, transform 0.12s ease;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.bm-btn:active {
+  transform: scale(0.96);
+}
+
+.bm-btn-read {
+  background: var(--color-primary);
+  color: #fdfaf0;
+  border-color: var(--color-primary);
+}
+
+.bm-btn-read:hover {
+  background: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+}
+
+.bm-btn-delete {
+  background: transparent;
+  color: var(--color-muted);
+  border-color: var(--color-border);
+  margin-left: auto;
+}
+
+.bm-btn-delete:hover {
+  background: rgba(180,40,40,0.07);
+  color: #b42828;
+  border-color: rgba(180,40,40,0.35);
+}
+
+/* Empty state */
+.bm-empty {
+  text-align: center;
+  padding: 56px 20px 40px;
+}
+
+.bm-empty-icon {
+  font-size: 3rem;
+  margin-bottom: 14px;
+  line-height: 1;
+}
+
+.bm-empty-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.bm-empty-desc {
+  font-size: 0.86rem;
+  color: var(--color-muted);
+  line-height: 1.6;
+  max-width: 300px;
+  margin: 0 auto 24px;
+}
+
+.bm-go-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 22px;
+  background: var(--color-primary);
+  color: #fdfaf0;
+  border-radius: 10px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.bm-go-btn:hover {
+  background: var(--color-primary-dark);
+}
+
+/* Dark mode */
+html.dark .bm-surah-name {
+  background: rgba(255,255,255,0.08);
+  color: #e4e0d0;
+}
+
+html.dark .bm-btn-delete:hover {
+  background: rgba(180,40,40,0.12);
+}
+
 /* ─── Settings page ─────────────────────────────────────────────── */
 .settings-group {
   background: var(--color-bg-alt);

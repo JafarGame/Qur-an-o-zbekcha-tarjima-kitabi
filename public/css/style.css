@@ -1215,6 +1215,220 @@ html.dark .rc-btn:hover:not(:disabled) {
   color: #e4e0d0;
 }
 
+/* ─── Hadith list page ───────────────────────────────────────────── */
+
+/* Info bar beneath header */
+.hl-info-bar {
+  background: var(--color-primary);
+  padding: 12px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 20px;
+}
+
+.hl-info-arabic {
+  font-family: "Amiri", serif;
+  font-size: 1.3rem;
+  color: rgba(253,250,240,0.95);
+  line-height: 1.4;
+  direction: rtl;
+  flex-shrink: 0;
+}
+
+.hl-info-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.hl-info-chip {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--color-primary-dark);
+  background: rgba(253,250,240,0.92);
+  padding: 3px 11px;
+  border-radius: 999px;
+}
+
+.hl-info-author {
+  font-size: 0.78rem;
+  color: rgba(253,250,240,0.72);
+  font-style: italic;
+}
+
+/* Count label */
+.hl-count {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-muted);
+  margin-bottom: 12px;
+}
+
+/* Hadith cards */
+.hl-card {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 18px 20px 14px;
+  margin-bottom: 14px;
+  box-shadow: var(--shadow);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.hl-card:hover {
+  border-color: rgba(15,81,50,0.3);
+  box-shadow: 0 4px 16px rgba(15,81,50,0.1);
+}
+
+.hl-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+/* Number badge — diamond shape matching ayah-number */
+.hl-num-badge {
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  color: #fdfaf0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(45deg);
+  box-shadow: 0 2px 6px rgba(15,81,50,0.25);
+}
+
+.hl-num-badge span {
+  transform: rotate(-45deg);
+}
+
+.hl-card-meta {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding-top: 2px;
+}
+
+.hl-book-name {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+}
+
+.hl-source {
+  font-size: 0.73rem;
+  color: var(--color-muted);
+  font-weight: 500;
+}
+
+/* Grade pill */
+.hl-grade {
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 3px 9px;
+  border-radius: 999px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  align-self: flex-start;
+}
+
+.hl-grade-sahih {
+  color: #1a6638;
+  background: rgba(15,81,50,0.1);
+}
+
+.hl-grade-hasan {
+  color: #7a5c00;
+  background: rgba(184,134,11,0.12);
+}
+
+.hl-grade-daif {
+  color: #7a2a2a;
+  background: rgba(180,40,40,0.1);
+}
+
+.hl-grade-other {
+  color: var(--color-muted);
+  background: rgba(0,0,0,0.05);
+}
+
+/* Excerpt text */
+.hl-excerpt {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--color-text);
+  margin: 0 0 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed var(--color-border);
+}
+
+/* Card footer */
+.hl-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.hl-narrator {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+.hl-narrator svg {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+}
+
+.hl-read-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: not-allowed;
+  opacity: 0.55;
+  transition: none;
+}
+
+/* Dark mode overrides */
+html.dark .hl-grade-sahih {
+  color: #7ecfa0;
+  background: rgba(15,81,50,0.2);
+}
+
+html.dark .hl-grade-hasan {
+  color: var(--color-gold);
+  background: rgba(184,134,11,0.15);
+}
+
+html.dark .hl-book-name {
+  color: #c8d4c0;
+}
+
 /* ─── Hadith collections page ────────────────────────────────────── */
 .hadith-collections {
   display: flex;

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hadislar | QUR'AN KARIM</title>
+<meta name="description" content="Hadis to'plami ro'yxati." />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css" />
+<!-- Apply saved theme before paint -->
+<script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="back-link" href="/hadislar.html">← Hadislar</a>
+    <h1 id="pageTitle">Yuklanmoqda...</h1>
+  </header>
+
+  <!-- Collection info bar -->
+  <div class="hl-info-bar" id="infoBar" hidden>
+    <div class="hl-info-arabic" id="infoArabic"></div>
+    <div class="hl-info-meta">
+      <span class="hl-info-chip" id="infoCategory"></span>
+      <span class="hl-info-chip" id="infoTotal"></span>
+      <span class="hl-info-author" id="infoAuthor"></span>
+    </div>
+  </div>
+
+  <!-- Search -->
+  <div class="search-bar" id="searchBar" hidden>
+    <input type="text" id="searchInput"
+           placeholder="Hadis raqami, raviychi yoki matn bo'yicha qidirish..."
+           autocomplete="off" />
+  </div>
+
+  <main class="container">
+    <div id="hadithCount" class="hl-count"></div>
+    <div id="hadithList"></div>
+  </main>
+
+  <script>
+  (function () {
+    const params     = new URLSearchParams(window.location.search);
+    const collId     = (params.get("collection") || "").toLowerCase();
+    const pageTitle  = document.getElementById("pageTitle");
+    const infoBar    = document.getElementById("infoBar");
+    const infoArabic = document.getElementById("infoArabic");
+    const infoCategory = document.getElementById("infoCategory");
+    const infoTotal  = document.getElementById("infoTotal");
+    const infoAuthor = document.getElementById("infoAuthor");
+    const searchBar  = document.getElementById("searchBar");
+    const searchInput = document.getElementById("searchInput");
+    const listEl     = document.getElementById("hadithList");
+    const countEl    = document.getElementById("hadithCount");
+
+    let allHadiths = [];
+
+    // ── Grade badge colour ─────────────────────────────────────────
+    function gradeClass(grade) {
+      if (!grade) return "";
+      const g = grade.toLowerCase();
+      if (g.includes("sahih"))  return "hl-grade-sahih";
+      if (g.includes("hasan"))  return "hl-grade-hasan";
+      if (g.includes("daif"))   return "hl-grade-daif";
+      return "hl-grade-other";
+    }
+
+    // ── Render one card ────────────────────────────────────────────
+    function renderCard(h) {
+      const excerpt = h.uzbek
+        ? (h.uzbek.length > 130 ? h.uzbek.slice(0, 130).trimEnd() + "…" : h.uzbek)
+        : "";
+      return `
+        <div class="hl-card">
+          <div class="hl-card-header">
+            <div class="hl-num-badge"><span>${h.number}</span></div>
+            <div class="hl-card-meta">
+              <span class="hl-book-name">${h.book_name || ""}</span>
+              <span class="hl-source">${h.source || ""}</span>
+            </div>
+            ${h.grade ? `<span class="hl-grade ${gradeClass(h.grade)}">${h.grade}</span>` : ""}
+          </div>
+
+          <p class="hl-excerpt">${excerpt}</p>
+
+          <div class="hl-card-footer">
+            <span class="hl-narrator">
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"
+                   stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="8" cy="5" r="3"/>
+                <path d="M2 14c0-3.3 2.7-6 6-6s6 2.7 6 6"/>
+              </svg>
+              ${h.narrator || ""}
+            </span>
+            <button class="hl-read-btn" disabled title="Tez orada">O'qish</button>
+          </div>
+        </div>`;
+    }
+
+    // ── Render list ────────────────────────────────────────────────
+    function renderList(hadiths) {
+      if (!hadiths.length) {
+        listEl.innerHTML = '<div class="state-msg">Hech narsa topilmadi.</div>';
+        countEl.textContent = "";
+        return;
+      }
+      countEl.textContent = `${hadiths.length} ta hadis`;
+      listEl.innerHTML = hadiths.map(renderCard).join("");
+    }
+
+    // ── Search / filter ────────────────────────────────────────────
+    function applyFilter() {
+      const q = searchInput.value.trim().toLowerCase();
+      if (!q) { renderList(allHadiths); return; }
+      const filtered = allHadiths.filter(h =>
+        String(h.number).includes(q) ||
+        (h.uzbek      && h.uzbek.toLowerCase().includes(q))   ||
+        (h.narrator   && h.narrator.toLowerCase().includes(q)) ||
+        (h.source     && h.source.toLowerCase().includes(q))   ||
+        (h.book_name  && h.book_name.toLowerCase().includes(q))
+      );
+      renderList(filtered);
+    }
+
+    let debounce;
+    searchInput.addEventListener("input", () => {
+      clearTimeout(debounce);
+      debounce = setTimeout(applyFilter, 200);
+    });
+
+    // ── Fetch data ─────────────────────────────────────────────────
+    fetch("/data/hadith.json")
+      .then(r => { if (!r.ok) throw new Error("not found"); return r.json(); })
+      .then(data => {
+        // Find collection metadata
+        const coll = data.collections.find(c => c.id === collId);
+        if (!coll) {
+          pageTitle.textContent = "Topilmadi";
+          listEl.innerHTML = '<div class="state-msg">Bunday to\'plam mavjud emas.</div>';
+          return;
+        }
+
+        // Update header + info bar
+        document.title = `${coll.name} | Hadislar`;
+        pageTitle.textContent = coll.name;
+        infoArabic.textContent   = coll.arabic_name;
+        infoCategory.textContent = coll.category;
+        infoTotal.textContent    = `${coll.total_hadiths.toLocaleString()} hadis`;
+        infoAuthor.textContent   = coll.author;
+        infoBar.hidden   = false;
+        searchBar.hidden = false;
+
+        // Filter hadiths for this collection
+        allHadiths = (data.hadiths || []).filter(h => h.collection === collId);
+        renderList(allHadiths);
+      })
+      .catch(() => {
+        pageTitle.textContent = "Xatolik";
+        listEl.innerHTML = '<div class="state-msg">Ma\'lumotlarni yuklashda xatolik yuz berdi.</div>';
+      });
+  })();
+  </script>
+
+</body>
+</html>

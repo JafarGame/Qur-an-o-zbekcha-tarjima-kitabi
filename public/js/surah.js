@@ -11,6 +11,22 @@
   // Tavba traditionally omits it).
   const NO_BISMILLAH_BANNER = new Set([1, 9]);
 
+  // ── Bookmarks (localStorage) ─────────────────────────────────────
+  const BOOKMARKS_KEY = "quran_bookmarks";
+
+  function loadBookmarks() {
+    try { return JSON.parse(localStorage.getItem(BOOKMARKS_KEY)) || {}; }
+    catch { return {}; }
+  }
+
+  function saveBookmarks(bm) {
+    localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(bm));
+  }
+
+  function bookmarkKey(surahNum, ayahNum) {
+    return `${surahNum}:${ayahNum}`;
+  }
+
   // ── Toast notification ───────────────────────────────────────────
   const toast = document.createElement("div");
   toast.className = "ayah-copy-toast";
@@ -32,6 +48,15 @@
   const ICON_SHARE = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
     <path d="M8 2v9M5 5l3-3 3 3"/>
     <path d="M3 10v3a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-3"/>
+  </svg>`;
+
+  // Bookmark: two versions — outline (unsaved) and filled (saved)
+  const ICON_BOOKMARK_EMPTY = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M3 2h10a1 1 0 0 1 1 1v11l-6-3-6 3V3a1 1 0 0 1 1-1z"/>
+  </svg>`;
+
+  const ICON_BOOKMARK_FILLED = `<svg viewBox="0 0 16 16" fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M3 2h10a1 1 0 0 1 1 1v11l-6-3-6 3V3a1 1 0 0 1 1-1z"/>
   </svg>`;
 
   const ICON_AUDIO = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -59,9 +84,13 @@
       document.title = `${surah.number}. ${surah.name} | Qur'oni Karim`;
       headerTitle.textContent = `${surah.number}. ${surah.name}`;
 
+      const bookmarks = loadBookmarks();
+
       const ayahsHtml = surah.ayahs
-        .map(
-          (a) => `
+        .map((a) => {
+          const key = bookmarkKey(surah.number, a.number);
+          const saved = !!bookmarks[key];
+          return `
         <div class="ayah-block${a.number === targetAyah ? " ayah-highlight" : ""}" id="ayah-${a.number}">
           <div class="ayah-number-row">
             <div class="ayah-number"><span>${a.number}</span></div>
@@ -78,12 +107,18 @@
             <button class="ayah-action-btn" data-action="share" title="Ulashish">
               ${ICON_SHARE}<span>Ulashish</span>
             </button>
+            <button class="ayah-action-btn ayah-action-btn--bookmark${saved ? " is-bookmarked" : ""}"
+                    data-action="bookmark"
+                    data-ayah-num="${a.number}"
+                    title="${saved ? "Saqlangandan olib tashlash" : "Saqlash"}">
+              ${saved ? ICON_BOOKMARK_FILLED : ICON_BOOKMARK_EMPTY}<span>${saved ? "Saqlangan" : "Saqlash"}</span>
+            </button>
             <button class="ayah-action-btn ayah-action-btn--audio" data-action="audio" title="Audio tinglash">
               ${ICON_AUDIO}<span>Audio</span>
             </button>
           </div>
-        </div>`
-        )
+        </div>`;
+        })
         .join("");
 
       const bismillahHtml = NO_BISMILLAH_BANNER.has(surah.number)
@@ -107,7 +142,7 @@
         const block = btn.closest(".ayah-block");
         const arabic = block.querySelector(".ayah-arabic").textContent.trim();
         const translation = block.querySelector(".ayah-translation p").textContent.trim();
-        const ayahNum = block.querySelector(".ayah-number span").textContent.trim();
+        const ayahNum = Number(btn.closest(".ayah-block").id.replace("ayah-", ""));
         const action = btn.dataset.action;
 
         if (action === "copy") {
@@ -125,10 +160,38 @@
           if (navigator.share) {
             navigator.share(shareData).catch(() => {});
           } else {
-            // Fallback: copy to clipboard
             navigator.clipboard.writeText(`${shareData.title}\n\n${shareData.text}`)
               .then(() => showToast("✓ Matn nusxa olindi"))
               .catch(() => showToast("Ulashish qo'llab-quvvatlanmaydi"));
+          }
+        }
+
+        if (action === "bookmark") {
+          const bm = loadBookmarks();
+          const key = bookmarkKey(surah.number, ayahNum);
+          const isSaved = !!bm[key];
+
+          if (isSaved) {
+            delete bm[key];
+            saveBookmarks(bm);
+            btn.classList.remove("is-bookmarked");
+            btn.title = "Saqlash";
+            btn.innerHTML = `${ICON_BOOKMARK_EMPTY}<span>Saqlash</span>`;
+            showToast("Oyat olib tashlandi");
+          } else {
+            bm[key] = {
+              surahNum: surah.number,
+              surahName: surah.name,
+              ayahNum,
+              arabic,
+              translation,
+              savedAt: Date.now(),
+            };
+            saveBookmarks(bm);
+            btn.classList.add("is-bookmarked");
+            btn.title = "Saqlangandan olib tashlash";
+            btn.innerHTML = `${ICON_BOOKMARK_FILLED}<span>Saqlangan</span>`;
+            showToast("Oyat saqlandi ✓");
           }
         }
 

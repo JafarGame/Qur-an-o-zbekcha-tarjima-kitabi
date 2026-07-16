@@ -969,17 +969,39 @@ html.dark .dash-card-featured {
   transform: scale(0.95);
 }
 
-/* Audio button pushed to the right */
-.ayah-action-btn--audio {
-  margin-left: auto;
+/* Bookmark button */
+.ayah-action-btn--bookmark {
   color: var(--color-gold);
   border-color: rgba(184,134,11,0.3);
 }
 
-.ayah-action-btn--audio:hover {
+.ayah-action-btn--bookmark:hover {
   background: rgba(184,134,11,0.08);
   color: var(--color-gold);
   border-color: var(--color-gold);
+}
+
+.ayah-action-btn--bookmark.is-bookmarked {
+  background: rgba(184,134,11,0.1);
+  color: var(--color-gold);
+  border-color: var(--color-gold);
+}
+
+.ayah-action-btn--bookmark.is-bookmarked:hover {
+  background: rgba(184,134,11,0.18);
+}
+
+/* Audio button pushed to the right */
+.ayah-action-btn--audio {
+  margin-left: auto;
+  color: var(--color-muted);
+  border-color: var(--color-border);
+}
+
+.ayah-action-btn--audio:hover {
+  background: rgba(15,81,50,0.07);
+  color: var(--color-primary-dark);
+  border-color: var(--color-primary);
 }
 
 /* Toast notification */

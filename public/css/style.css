@@ -1664,6 +1664,16 @@ html.dark .hr-nav-btn {
   border-bottom: 1px dashed var(--color-border);
 }
 
+.hl-excerpt-arabic {
+  font-family: "Amiri Quran", "Amiri", serif;
+  font-size: 1.1rem;
+  line-height: 2;
+  direction: rtl;
+  display: block;
+  text-align: right;
+  color: var(--color-text);
+}
+
 /* Card footer */
 .hl-card-footer {
   display: flex;

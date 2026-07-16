@@ -177,66 +177,79 @@
     const hrNavCounter   = document.getElementById("hrNavCounter");
 
     // ── Fetch ──────────────────────────────────────────────────────
-    fetch("/data/hadith.json")
-      .then(r => { if (!r.ok) throw new Error(); return r.json(); })
-      .then(data => {
+    // Derive collection id from the hadith id prefix (e.g. "bukhari-1-1" → "bukhari")
+    const collId = targetId.split("-")[0] || "";
+
+    // Load collection metadata + per-collection hadith file in parallel.
+    // If no per-collection file exists, fall back to hadith.json hadiths array.
+    Promise.all([
+      fetch("/data/hadith.json")
+        .then(r => { if (!r.ok) throw new Error(); return r.json(); }),
+      fetch(`/data/hadith/${collId}.json`)
+        .then(r => r.ok ? r.json() : null)
+        .catch(() => null)
+    ])
+      .then(([meta, collFile]) => {
         hrLoading.hidden = true;
 
-        const hadith = (data.hadiths || []).find(h => h.id === targetId);
+        // Build the full hadith list for this collection
+        const collHadiths = collFile
+          ? (collFile.hadiths || [])
+          : (meta.hadiths || []).filter(h => h.collection === collId);
+
+        const hadith = collHadiths.find(h => h.id === targetId);
         if (!hadith) { hrError.hidden = false; pageTitle.textContent = "Topilmadi"; return; }
 
-        // Collection metadata for back link
-        const coll = (data.collections || []).find(c => c.id === hadith.collection);
-        backLink.href = `/hadith-list.html?collection=${hadith.collection}`;
+        // Collection metadata for back link and title
+        const coll = (meta.collections || []).find(c => c.id === collId);
+        backLink.href = `/hadith-list.html?collection=${collId}`;
         backLink.textContent = `← ${coll ? coll.name : "Hadislar"}`;
 
-        // Page title
         const titleStr = `Hadis #${hadith.number}`;
         pageTitle.textContent = titleStr;
         document.title = `${titleStr} | ${coll ? coll.name : "Hadislar"}`;
 
-        // Collection tag
         hrCollTag.textContent = hadith.collection_name || (coll ? coll.name : "");
 
-        // Grade
         if (hadith.grade) {
-          hrGrade.textContent  = hadith.grade;
-          hrGrade.className    = `hr-grade hl-grade ${gradeClass(hadith.grade)}`;
+          hrGrade.textContent = hadith.grade;
+          hrGrade.className   = `hr-grade hl-grade ${gradeClass(hadith.grade)}`;
         }
 
-        // Arabic text
         hrArabic.textContent = hadith.arabic || "";
 
-        // Metadata rows
         hrNarrator.textContent = hadith.narrator || "";
         if (hadith.narrator_arabic) {
           hrNarratorAr.textContent = hadith.narrator_arabic;
           hrNarratorArRow.hidden = false;
         }
-        hrBook.textContent   = hadith.book_name  || "";
-        hrSource.textContent = hadith.source      || "";
+        // Hide book row if no book_name
+        if (hadith.book_name) {
+          hrBook.textContent = hadith.book_name;
+        } else {
+          document.getElementById("hrBookRow").hidden = true;
+        }
+        hrSource.textContent = hadith.source || "";
 
         // ── Prev / Next within same collection ────────────────────
-        const siblings = (data.hadiths || []).filter(h => h.collection === hadith.collection);
-        const idx = siblings.findIndex(h => h.id === hadith.id);
-        if (siblings.length > 1) {
+        const idx = collHadiths.findIndex(h => h.id === hadith.id);
+        if (collHadiths.length > 1) {
           hrNav.hidden = false;
-          hrNavCounter.textContent = `${idx + 1} / ${siblings.length}`;
+          hrNavCounter.textContent = `${idx + 1} / ${collHadiths.length}`;
           if (idx > 0) {
             hrPrevBtn.disabled = false;
             hrPrevBtn.addEventListener("click", () => {
-              window.location.href = `/hadith.html?id=${siblings[idx - 1].id}`;
+              window.location.href = `/hadith.html?id=${collHadiths[idx - 1].id}`;
             });
           }
-          if (idx < siblings.length - 1) {
+          if (idx < collHadiths.length - 1) {
             hrNextBtn.disabled = false;
             hrNextBtn.addEventListener("click", () => {
-              window.location.href = `/hadith.html?id=${siblings[idx + 1].id}`;
+              window.location.href = `/hadith.html?id=${collHadiths[idx + 1].id}`;
             });
           }
         }
 
-        // Show main content
         hrMain.hidden = false;
 
         // ── Save button state ─────────────────────────────────────
@@ -282,8 +295,8 @@
             saved[hadith.id] = {
               id: hadith.id,
               number: hadith.number,
-              collection: hadith.collection,
-              collection_name: hadith.collection_name,
+              collection: collId,
+              collection_name: coll ? coll.name : collId,
               arabic: hadith.arabic,
               narrator: hadith.narrator,
               source: hadith.source,

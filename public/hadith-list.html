@@ -168,9 +168,10 @@
         infoBar.hidden   = false;
         searchBar.hidden = false;
 
-        // Use per-collection file if available, else filter from main file
+        // Use per-collection file if available, else filter from main file.
+        // Per-collection files may be a plain array or {hadiths:[]} object.
         allHadiths = collFile
-          ? (collFile.hadiths || [])
+          ? (Array.isArray(collFile) ? collFile : (collFile.hadiths || []))
           : (meta.hadiths || []).filter(h => h.collection === collId);
         renderList(allHadiths);
       })

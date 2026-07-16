@@ -192,9 +192,10 @@
       .then(([meta, collFile]) => {
         hrLoading.hidden = true;
 
-        // Build the full hadith list for this collection
+        // Build the full hadith list for this collection.
+        // Per-collection files may be a plain array or {hadiths:[]} object.
         const collHadiths = collFile
-          ? (collFile.hadiths || [])
+          ? (Array.isArray(collFile) ? collFile : (collFile.hadiths || []))
           : (meta.hadiths || []).filter(h => h.collection === collId);
 
         const hadith = collHadiths.find(h => h.id === targetId);

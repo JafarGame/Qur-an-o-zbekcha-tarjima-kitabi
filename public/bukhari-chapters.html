@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sahih Buxoriy | QUR'AN KARIM</title>
+<meta name="description" content="Sahih al-Buxoriy — kitob boblari." />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css" />
+<script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="back-link" href="/bukhari-books.html">← Kitoblar</a>
+    <h1 id="pageTitle">Yuklanmoqda…</h1>
+  </header>
+
+  <!-- Book info bar -->
+  <div class="hl-info-bar" id="infoBar" hidden>
+    <div class="hl-info-arabic" id="infoArabic"></div>
+    <div class="hl-info-meta">
+      <span class="hl-info-chip" id="infoBookNum"></span>
+    </div>
+  </div>
+
+  <main class="container">
+    <div id="chapterList"></div>
+  </main>
+
+  <script>
+  (function () {
+    const params    = new URLSearchParams(window.location.search);
+    const bookNum   = parseInt(params.get("book"), 10);
+    const pageTitle = document.getElementById("pageTitle");
+    const infoBar   = document.getElementById("infoBar");
+    const infoArabic = document.getElementById("infoArabic");
+    const infoBookNum = document.getElementById("infoBookNum");
+    const chapterList = document.getElementById("chapterList");
+
+    if (!bookNum) {
+      pageTitle.textContent = "Topilmadi";
+      chapterList.innerHTML = '<div class="state-msg">Kitob topilmadi.</div>';
+      return;
+    }
+
+    fetch("/data/hadith/bukhari-books.json")
+      .then(r => { if (!r.ok) throw new Error("load"); return r.json(); })
+      .then(books => {
+        const book = books.find(b => b.book_number === bookNum);
+        if (!book) {
+          pageTitle.textContent = "Topilmadi";
+          chapterList.innerHTML = '<div class="state-msg">Bunday kitob mavjud emas.</div>';
+          return;
+        }
+
+        document.title = book.uzbek_title + " | Sahih Buxoriy";
+        pageTitle.textContent = book.uzbek_title;
+        infoArabic.textContent   = book.arabic_title;
+        infoBookNum.textContent  = bookNum + "-kitob";
+        infoBar.hidden = false;
+
+        const chapters = book.chapters || [];
+        if (!chapters.length) {
+          chapterList.innerHTML = '<div class="state-msg">Bu kitob uchun boblar hali qo\'shilmagan.</div>';
+          return;
+        }
+
+        chapterList.innerHTML = chapters.map(ch => `
+          <div class="hadith-card">
+            <div class="hadith-card-body">
+              <div class="hadith-card-arabic">${ch.arabic_title || ""}</div>
+              <div class="hadith-card-title">${ch.uzbek_title || ""}</div>
+            </div>
+          </div>
+        `).join("");
+      })
+      .catch(() => {
+        pageTitle.textContent = "Xatolik";
+        chapterList.innerHTML = '<div class="state-msg">Ma\'lumotlarni yuklashda xatolik yuz berdi.</div>';
+      });
+  })();
+  </script>
+
+</body>
+</html>

@@ -20254,5 +20254,1245 @@
     "arabic_title": "بَابُ الإِشَارَةُ مِنَ الْمُكْرَهِ إِلَى مَا أُكْرِهَ عَلَيْهِ",
     "uzbek_title": "Majbur bo'lgan kishining ishorasi",
     "hadiths": []
+  },
+  {
+    "id": "bukhari-book-91-chapter-1",
+    "book_id": 91,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ فِي تَرْكِ الْحِيَلِ وَأَنَّ لِكُلِّ امْرِئٍ مَا نَوَى",
+    "uzbek_title": "Hiylalarni tark etish va har kimga niyati ko'ra",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-91-chapter-2",
+    "book_id": 91,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ احْتِيَالُ الإِمَامِ فِيمَا يَدْفَعُ إِلَيْهِ",
+    "uzbek_title": "Imomning o'ziga berilganning hiylasi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-91-chapter-3",
+    "book_id": 91,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ فِي الرَّجُلِ يُحِلُّ لَهُ إِذَا كَانَ لَهُ عَلَى رَجُلٍ حَقٌّ",
+    "uzbek_title": "Kimda haqqi bo'lsa unga nima halol",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-91-chapter-4",
+    "book_id": 91,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ مَا يُكْرَهُ مِنَ الاِحْتِيَالِ",
+    "uzbek_title": "Hiylaning makruh turlari",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-91-chapter-5",
+    "book_id": 91,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ احْتِيَالُ الزَّانِي",
+    "uzbek_title": "Zinоkorning hiylasi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-91-chapter-6",
+    "book_id": 91,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ احْتِيَالُ الزَّوْجِ فِي الطَّلاَقِ",
+    "uzbek_title": "Erning talоqdagi hiylasi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-91-chapter-7",
+    "book_id": 91,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ احْتِيَالُ الْمُدَّعِي",
+    "uzbek_title": "Da'vogarning hiylasi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-91-chapter-8",
+    "book_id": 91,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ فِي الزَّكَاةِ وَالاِحْتِيَالُ فِيهَا",
+    "uzbek_title": "Zakotda hiyla",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-91-chapter-9",
+    "book_id": 91,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ احْتِيَالُ الْعَامِلِ لِيُهْدَى لَهُ",
+    "uzbek_title": "Amaldorning hadya olish hiylasi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-91-chapter-10",
+    "book_id": 91,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ الإِكْرَاهُ فِي الْهِبَةِ وَالنِّكَاحِ",
+    "uzbek_title": "Hadya va nikohda majburlik",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-91-chapter-11",
+    "book_id": 91,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ فِيمَنْ يُحِلُّ الاِحْتِيَالَ عَلَيْهِ",
+    "uzbek_title": "Ustidan hiyla ishlatish halol bo'lgan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-91-chapter-12",
+    "book_id": 91,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ لاَ يُقَالُ لَهُ بَائِعٌ وَلاَ مُشْتَرٍ فِي الصَّرْفِ",
+    "uzbek_title": "Valyuta almashuv da u sotuvchi yoki xaridor deyilmaydi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-91-chapter-13",
+    "book_id": 91,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ احْتِيَالُ الْعَبْدِ وَالنَّاسِ",
+    "uzbek_title": "Qul va odamlarning hiylasi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-91-chapter-14",
+    "book_id": 91,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ احْتِيَالُ الضَّيْفِ وَالْمَضِيفِ",
+    "uzbek_title": "Mehmon va mezbon hiylasi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-1",
+    "book_id": 92,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ تَأْوِيلُ الرُّؤْيَا",
+    "uzbek_title": "Tushni ta'bir qilish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-2",
+    "book_id": 92,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ الرُّؤْيَا مِنَ اللَّهِ",
+    "uzbek_title": "Tush Allohdan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-3",
+    "book_id": 92,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ الرُّؤْيَا الصَّالِحَةُ جُزْءٌ مِنَ النُّبُوَّةِ",
+    "uzbek_title": "Yaxshi tush nubuvvatning bir bo'lagi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-4",
+    "book_id": 92,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ رُؤْيَا النَّبِيِّ ﷺ",
+    "uzbek_title": "Nabi ﷺning tushi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-5",
+    "book_id": 92,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ مَنْ رَأَى النَّبِيَّ ﷺ فِي الْمَنَامِ",
+    "uzbek_title": "Tushida Nabi ﷺni ko'rgan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-6",
+    "book_id": 92,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ رُؤْيَا الصَّالِحِينَ",
+    "uzbek_title": "Solihlarning tushi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-7",
+    "book_id": 92,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الرُّؤْيَا بِالنَّهَارِ",
+    "uzbek_title": "Kunduzgi tush",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-8",
+    "book_id": 92,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ الرُّؤْيَا بِاللَّيْلِ",
+    "uzbek_title": "Tungi tush",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-9",
+    "book_id": 92,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ أَصْدَقُ الرُّؤْيَا بِالأَسْحَارِ",
+    "uzbek_title": "Eng to'g'ri tush saharda",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-10",
+    "book_id": 92,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ رُؤْيَا النِّسَاءِ",
+    "uzbek_title": "Ayollarning tushi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-11",
+    "book_id": 92,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ الرُّؤْيَا الْحَسَنَةُ مِنَ اللَّهِ",
+    "uzbek_title": "Yaxshi tush Allohdan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-12",
+    "book_id": 92,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ إِذَا رَأَى مَا يَكْرَهُ فَلاَ يُخْبِرْ بِهِ",
+    "uzbek_title": "Yoqimsiz tush ko'rsa boshqalarga aytmasligi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-13",
+    "book_id": 92,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ الرُّؤْيَا الْمُؤْمِنِ جُزْءٌ مِنِ النُّبُوَّةِ",
+    "uzbek_title": "Mo'minning tushi nubuvvatning bir bo'lagi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-14",
+    "book_id": 92,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ تَعْبِيرُ الرُّؤْيَا",
+    "uzbek_title": "Tushni izohlash",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-15",
+    "book_id": 92,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ الْقَيْدُ فِي الْمَنَامِ",
+    "uzbek_title": "Tushda zanjir ko'rish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-16",
+    "book_id": 92,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ اللَّبَنُ فِي الْمَنَامِ",
+    "uzbek_title": "Tushda sut ko'rish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-17",
+    "book_id": 92,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ النَّهْرُ فِي الْمَنَامِ",
+    "uzbek_title": "Tushda daryo ko'rish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-18",
+    "book_id": 92,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ الْبِئْرُ وَالنَّزْعُ مِنْهَا فِي الْمَنَامِ",
+    "uzbek_title": "Tushda quduq va undan suv tortish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-19",
+    "book_id": 92,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ مَنْ رَأَى النَّبِيَّ ﷺ فِي النَّوْمِ",
+    "uzbek_title": "Uyquda Nabi ﷺni ko'rish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-20",
+    "book_id": 92,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ رُؤْيَا الْكَافِرِ",
+    "uzbek_title": "Kofirning tushi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-21",
+    "book_id": 92,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ الأَخْذُ بِالدَّجَاجَةِ فِي الْمَنَامِ",
+    "uzbek_title": "Tushda tovuq tutish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-22",
+    "book_id": 92,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ مَنْ لَمْ يَرَ الرُّؤْيَا لِأَوَّلِ عَابِرٍ",
+    "uzbek_title": "Birinchi ta'birchiga aytmagan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-23",
+    "book_id": 92,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ رُؤْيَا إِبْرَاهِيمَ عَلَيْهِ السَّلاَمُ",
+    "uzbek_title": "Ibrohim alayhissalomning tushi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-24",
+    "book_id": 92,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ تَأْوِيلُ رُؤْيَا الشِّرْكِ",
+    "uzbek_title": "Shirk tushini ta'bir qilish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-25",
+    "book_id": 92,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ الضَّرْبُ بِالرِّجْلِ فِي الْمَنَامِ",
+    "uzbek_title": "Tushda oyoq bilan tepish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-26",
+    "book_id": 92,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ الأَغْلاَلُ فِي الْمَنَامِ",
+    "uzbek_title": "Tushda kishan ko'rish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-27",
+    "book_id": 92,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ الإِنَاءُ فِي الْمَنَامِ",
+    "uzbek_title": "Tushda idish ko'rish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-28",
+    "book_id": 92,
+    "chapter_number": 28,
+    "arabic_title": "بَابُ الْمَرْأَةُ الصَّالِحَةُ فِي الْمَنَامِ",
+    "uzbek_title": "Tushda solihа ayol ko'rish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-29",
+    "book_id": 92,
+    "chapter_number": 29,
+    "arabic_title": "بَابُ الْجَنَّةُ وَالنَّارُ فِي الْمَنَامِ",
+    "uzbek_title": "Tushda jannat va do'zaxni ko'rish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-30",
+    "book_id": 92,
+    "chapter_number": 30,
+    "arabic_title": "بَابُ الدَّلْوُ فِي الْمَنَامِ",
+    "uzbek_title": "Tushda chelak ko'rish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-31",
+    "book_id": 92,
+    "chapter_number": 31,
+    "arabic_title": "بَابُ الإِكْلِيلُ فِي الْمَنَامِ",
+    "uzbek_title": "Tushda toj ko'rish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-32",
+    "book_id": 92,
+    "chapter_number": 32,
+    "arabic_title": "بَابُ الشَّمْسُ وَالْقَمَرُ وَالنُّجُومُ فِي الْمَنَامِ",
+    "uzbek_title": "Tushda quyosh, oy va yulduzlar",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-33",
+    "book_id": 92,
+    "chapter_number": 33,
+    "arabic_title": "بَابُ الْغُرَابُ فِي الْمَنَامِ",
+    "uzbek_title": "Tushda qarg'a ko'rish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-34",
+    "book_id": 92,
+    "chapter_number": 34,
+    "arabic_title": "بَابُ مَنْ كَذَبَ فِي رُؤْيَاهُ",
+    "uzbek_title": "Tushida yolg'on aytgan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-35",
+    "book_id": 92,
+    "chapter_number": 35,
+    "arabic_title": "بَابُ مَنْ يُكَلِّمُ النَّاسَ وَيُعَبِّرُ الرُّؤْيَا وَغَيْرُهُ",
+    "uzbek_title": "Odamlar bilan gaplashib tush ta'bir qilgan va boshqalar",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-36",
+    "book_id": 92,
+    "chapter_number": 36,
+    "arabic_title": "بَابُ رُؤْيَا أَهْلِ السِّجْنِ وَالأَغْلاَلِ",
+    "uzbek_title": "Qamoqdagi va kiishandagilarning tushi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-37",
+    "book_id": 92,
+    "chapter_number": 37,
+    "arabic_title": "بَابُ تَعْبِيرُ الرُّؤْيَا بَعْدَ صَلاَةِ الصُّبْحِ",
+    "uzbek_title": "Bomdoddan keyin tush ta'bir qilish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-38",
+    "book_id": 92,
+    "chapter_number": 38,
+    "arabic_title": "بَابُ عَرْضُ الرُّؤْيَا عَلَى الْعَالِمِ وَالصَّالِحِ",
+    "uzbek_title": "Tushni olim va solihlarga ko'rsatish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-39",
+    "book_id": 92,
+    "chapter_number": 39,
+    "arabic_title": "بَابُ الرُّؤْيَا مُبَشِّرَاتٌ",
+    "uzbek_title": "Tush — xushxabar",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-40",
+    "book_id": 92,
+    "chapter_number": 40,
+    "arabic_title": "بَابُ رُؤْيَا الإِمَامِ وَالْقَاضِي",
+    "uzbek_title": "Imom va qozining tushi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-41",
+    "book_id": 92,
+    "chapter_number": 41,
+    "arabic_title": "بَابُ رُؤْيَا النَّاسِ مُتَشَابِهَةٌ فِي ابْتِدَاءِ الإِسْلاَمِ",
+    "uzbek_title": "Islom boshida odamlarning o'xshash tushlari",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-42",
+    "book_id": 92,
+    "chapter_number": 42,
+    "arabic_title": "بَابُ تَأْوِيلُ الأَذَانِ فِي الْمَنَامِ",
+    "uzbek_title": "Tushda azon ta'biri",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-43",
+    "book_id": 92,
+    "chapter_number": 43,
+    "arabic_title": "بَابُ مَنْ أَوَّلَ رُؤْيَا نَفْسِهِ بِنَفْسِهِ",
+    "uzbek_title": "O'z tushini o'zi ta'bir qilgan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-44",
+    "book_id": 92,
+    "chapter_number": 44,
+    "arabic_title": "بَابُ الرُّؤْيَا مِنَ الشَّيْطَانِ",
+    "uzbek_title": "Tush shaytонdan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-92-chapter-45",
+    "book_id": 92,
+    "chapter_number": 45,
+    "arabic_title": "بَابُ مَا قِيلَ فِي رُؤْيَا الرَّجُلِ الصَّالِحِ",
+    "uzbek_title": "Solih erkak tushi haqida aytilgan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-1",
+    "book_id": 93,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْفِتَنِ وَقَوْلُ النَّبِيِّ ﷺ",
+    "uzbek_title": "Fitnalar va Nabi ﷺning so'zlari haqida",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-2",
+    "book_id": 93,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ قَوْلُ النَّبِيِّ ﷺ هَلاَكُ أُمَّتِي",
+    "uzbek_title": "Nabi ﷺ: ummatimning halokati",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-3",
+    "book_id": 93,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ لاَ يَأْتِي زَمَانٌ إِلاَّ الَّذِي بَعْدَهُ شَرٌّ",
+    "uzbek_title": "Har bir davrdan keyingisi yomonroq",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-4",
+    "book_id": 93,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ ظُهُورُ الْفِتَنِ",
+    "uzbek_title": "Fitnalarning paydo bo'lishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-5",
+    "book_id": 93,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ قَوْلُ النَّبِيِّ ﷺ الْفِتْنَةُ مِنَ الْمَشْرِقِ",
+    "uzbek_title": "Nabi ﷺ: fitna sharqdan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-6",
+    "book_id": 93,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ قَوْلُ النَّبِيِّ ﷺ مَنْ حَمَلَ عَلَيْنَا السِّلاَحَ فَلَيْسَ مِنَّا",
+    "uzbek_title": "Nabi ﷺ: qurol ko'targan bizdan emas",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-7",
+    "book_id": 93,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ التَّعَوُّذُ مِنَ الْفِتَنِ",
+    "uzbek_title": "Fitnalardan panoh so'rash",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-8",
+    "book_id": 93,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ قَوْلُ النَّبِيِّ ﷺ لَتُفْتَنُنَّ فِي قُبُورِكُمْ",
+    "uzbek_title": "Nabi ﷺ: qabrlaringizda fitna bo'ladi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-9",
+    "book_id": 93,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ إِذَا أَنْزَلَ اللَّهُ بِقَوْمٍ عَذَابًا",
+    "uzbek_title": "Allah bir qavmga azob tushirsa",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-10",
+    "book_id": 93,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ قَوْلُ النَّبِيِّ ﷺ سَتَرَوْنَ بَعْدِي أُمُورًا تُنْكِرُونَهَا",
+    "uzbek_title": "Nabi ﷺ: mendan keyin inkor qiladigan ishlarni ko'rasizlar",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-11",
+    "book_id": 93,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ كَيْفَ الأَمْرُ إِذَا لَمْ تَكُنْ جَمَاعَةٌ",
+    "uzbek_title": "Jamoa bo'lmasa holat qanday",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-12",
+    "book_id": 93,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ نُزُولُ الْفِتَنِ كَمَوَاقِعِ الْقَطْرِ",
+    "uzbek_title": "Fitnalar yomg'ir tomchilari kabi tushadi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-13",
+    "book_id": 93,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ الْفِتْنَةُ الَّتِي تَمُوجُ كَمَوْجِ الْبَحْرِ",
+    "uzbek_title": "Dengiz to'lqinlari kabi fitna",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-14",
+    "book_id": 93,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ قَوْلُ النَّبِيِّ ﷺ لَتَتَّبِعُنَّ سُنَنَ مَنْ قَبْلَكُمْ",
+    "uzbek_title": "Nabi ﷺ: oldingilarning izlaridan borasizlar",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-15",
+    "book_id": 93,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ خُرُوجُ النِّسَاءِ فِي الْفِتَنِ",
+    "uzbek_title": "Fitna vaqtida ayollarning chiqishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-16",
+    "book_id": 93,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ إِذَا الْتَقَى الْمُسْلِمَانِ بِسَيْفَيْهِمَا",
+    "uzbek_title": "Ikki musulmon qilich bilan to'qnashsa",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-17",
+    "book_id": 93,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ ذِكْرُ الدَّجَّالِ",
+    "uzbek_title": "Dajjol haqida",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-18",
+    "book_id": 93,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ لاَ تَقُومُ السَّاعَةُ حَتَّى يَمُرَّ الرَّجُلُ",
+    "uzbek_title": "Qiyomat kishi o'tmaguncha qoymaydi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-19",
+    "book_id": 93,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ اقْتِرَابُ الْفِتَنِ",
+    "uzbek_title": "Fitnalarning yaqinlashishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-20",
+    "book_id": 93,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ قَوْلُ النَّبِيِّ ﷺ بُعِثْتُ أَنَا وَالسَّاعَةَ كَهَاتَيْنِ",
+    "uzbek_title": "Nabi ﷺ: men va qiyomat bu ikki barmoq kabi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-21",
+    "book_id": 93,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ تَغَيُّرُ الزَّمَانِ حَتَّى تُعْبَدَ الأَوْثَانُ",
+    "uzbek_title": "Zamon o'zgarib butlarga topinadigan darajaga kelishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-22",
+    "book_id": 93,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ هَلْ يَرُدُّ الشَّيْطَانُ بَعْدَ حِجَّةِ الإِسْلاَمِ",
+    "uzbek_title": "Islomni qabul qilgandan keyin shayton qaytara oladimi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-23",
+    "book_id": 93,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ إِذَا أَرَادَ اللَّهُ بِقَوْمٍ سُوءًا",
+    "uzbek_title": "Allah bir qavmga yomonlik istaса",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-24",
+    "book_id": 93,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ النَّهْيُ عَنِ الْبُكَاءِ وَالصِّيَاحِ",
+    "uzbek_title": "Yig'lab qichqirishdan qaytarish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-25",
+    "book_id": 93,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ الْفِتْنَةُ الَّتِي تَضُرُّ الْعَامِلَ",
+    "uzbek_title": "Amalni zararlaydigan fitna",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-26",
+    "book_id": 93,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ قَوْلُ النَّبِيِّ ﷺ مَنْ أَشَارَ إِلَى أَخِيهِ بِحَدِيدَةٍ",
+    "uzbek_title": "Nabi ﷺ: akasiga temir bilan ishora qilgan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-93-chapter-27",
+    "book_id": 93,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ قَوْلُ اللَّهِ تَعَالَى مِنَ الْفِتَنِ مَا تَكُونُ كَفِتْنَةِ الدَّجَّالِ",
+    "uzbek_title": "Dajjol fitnasi kabi fitnalar haqida",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-1",
+    "book_id": 94,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ مَا جَاءَ فِي إِمَارَةِ وُلاَةِ الأُمُورِ",
+    "uzbek_title": "Hukmdorlar boshqaruvi haqida",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-2",
+    "book_id": 94,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ كَيْفَ يُبَايَعُ الإِمَامُ",
+    "uzbek_title": "Imomga bay'at qanday beriladi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-3",
+    "book_id": 94,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ السَّمْعُ وَالطَّاعَةُ لِلإِمَامِ مَا لَمْ تَكُنْ مَعْصِيَةً",
+    "uzbek_title": "Gunohda bo'lmasa imomni eshitish va itoat qilish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-4",
+    "book_id": 94,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ مَنْ بَايَعَ ثُمَّ نَكَثَ بَيْعَتَهُ",
+    "uzbek_title": "Bay'at berib keyin buzgan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-5",
+    "book_id": 94,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ مَا يُكْرَهُ مِنَ الْحِرْصِ عَلَى الإِمَارَةِ",
+    "uzbek_title": "Amir bo'lishga hirs qo'yishning makruhligi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-6",
+    "book_id": 94,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ مَنْ سَأَلَ الإِمَارَةَ وُكِلَ إِلَيْهَا",
+    "uzbek_title": "Amir bo'lishni so'ragan unga tashlab qo'yiladi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-7",
+    "book_id": 94,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الْقَضَاءُ وَالْفُتْيَا فِي الْمَسْجِدِ",
+    "uzbek_title": "Masjidda hukm va fatvo",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-8",
+    "book_id": 94,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ الإِمَامُ يَسْأَلُ الْمُتَّهَمَ",
+    "uzbek_title": "Imomning gumonlandan so'rashi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-9",
+    "book_id": 94,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ الشَّاهِدُ يَحْكُمُ بِمَا تَبَيَّنَ لَهُ",
+    "uzbek_title": "Guvoh o'ziga ayon bo'lgani bilan hukm qiladi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-10",
+    "book_id": 94,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ مَنْ قُضِيَ لَهُ بِحَقِّ أَخِيهِ",
+    "uzbek_title": "Akasining haqqi bo'yicha hukm etilgan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-11",
+    "book_id": 94,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ هَدَايَا الْعُمَّالِ",
+    "uzbek_title": "Amaldorlarning hadyalari",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-12",
+    "book_id": 94,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ مَنِ اسْتَعَانَ بِضَعِيفِ الْمُسْلِمِينَ",
+    "uzbek_title": "Muslimonlarning zaiflaridan madad olish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-13",
+    "book_id": 94,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ مَنِ اسْتَعْمَلَ أَمِيرًا عَلَى قَوْمٍ",
+    "uzbek_title": "Qavmga amir tayinlagan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-14",
+    "book_id": 94,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ طَاعَةُ الإِمَامِ وَإِنْ جَارَ",
+    "uzbek_title": "Imom zulm qilsa ham itoat",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-15",
+    "book_id": 94,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ الإِمَامُ جُنَّةٌ يُقَاتَلُ مِنْ وَرَائِهِ",
+    "uzbek_title": "Imom qalqon — uning ortida jang qilinadi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-16",
+    "book_id": 94,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ يُقَاتِلُ مِنْ وَرَاءِ الإِمَامِ",
+    "uzbek_title": "Imom ortida jang qilish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-17",
+    "book_id": 94,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ مَا يُكْرَهُ مِنِ اثْنَيْنِ يَتَسَارَّانِ دُونَ الثَّالِثِ",
+    "uzbek_title": "Ikki kishi uchinchini tashlab sir so'zlashishi makruh",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-18",
+    "book_id": 94,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ كَرَاهِيَةُ التَّمَنِّي فِي الإِمَارَةِ",
+    "uzbek_title": "Amirlik orzusining makruhligi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-19",
+    "book_id": 94,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ الأُمَرَاءُ مِنْ قُرَيْشٍ",
+    "uzbek_title": "Qurаysh amirlari",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-20",
+    "book_id": 94,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ الاِسْتِخْلاَفُ",
+    "uzbek_title": "Xalifalik tayin qilish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-21",
+    "book_id": 94,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ مَنْ لَمْ يَسْتَخْلِفْ",
+    "uzbek_title": "Xalifa tayin qilmagan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-22",
+    "book_id": 94,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ إِثْمُ مَنْ وَلِيَ ثُمَّ ظَلَمَ",
+    "uzbek_title": "Valiy bo'lib zulm qilgan kishining gunоhi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-23",
+    "book_id": 94,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ مَنْ حَكَمَ بِغَيْرِ مَا أَنْزَلَ اللَّهُ",
+    "uzbek_title": "Alloh nozil qilmagani bilan hukm qilgan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-24",
+    "book_id": 94,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ الشُّهُودُ عَلَى الأَنْسَابِ",
+    "uzbek_title": "Nasablar bo'yicha guvohlik",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-25",
+    "book_id": 94,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ مَتَى يَسْتَوْجِبُ الرَّجُلُ الْقَضَاءَ",
+    "uzbek_title": "Kishi qachon qozilikni haqiqiy qabul qiladi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-26",
+    "book_id": 94,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ مَنْ وَلِيَ قَضَاءَ الْمُسْلِمِينَ",
+    "uzbek_title": "Muslimonlar qoziligini olgan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-27",
+    "book_id": 94,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ الرَّجُلُ يَكُونُ فِي سَرِيَّةٍ",
+    "uzbek_title": "Kishi sariyada bo'lsa",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-94-chapter-28",
+    "book_id": 94,
+    "chapter_number": 28,
+    "arabic_title": "بَابُ فَضِيلَةُ مَنْ يَمُوتُ وَهُوَ يَخَافُ اللَّهَ",
+    "uzbek_title": "Allohdan qo'rqib vafot etganning fazilati",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-95-chapter-1",
+    "book_id": 95,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ التَّمَنِّي وَمَنْ تَمَنَّى",
+    "uzbek_title": "Orzulanish va orzu qilgan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-95-chapter-2",
+    "book_id": 95,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ تَمَنِّي الشَّهَادَةِ",
+    "uzbek_title": "Shahodat orzusi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-95-chapter-3",
+    "book_id": 95,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ مَا جَاءَ فِي تَمَنِّي الْخَيْرِ",
+    "uzbek_title": "Yaxshilik orzu qilish haqida",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-95-chapter-4",
+    "book_id": 95,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ قَوْلُ النَّبِيِّ ﷺ لَوْ كَانَ لِي مِثْلُ أُحُدٍ ذَهَبًا",
+    "uzbek_title": "Nabi ﷺ: Uhudcha oltinm bo'lganda",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-95-chapter-5",
+    "book_id": 95,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ مَا يُكْرَهُ مِنَ التَّمَنِّي",
+    "uzbek_title": "Makruh orzu turlari",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-95-chapter-6",
+    "book_id": 95,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ تَمَنِّي الْمَيِّتِ أَنْ يَرْجِعَ إِلَى الدُّنْيَا",
+    "uzbek_title": "Ölganning dunyoga qaytishni orzulashi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-95-chapter-7",
+    "book_id": 95,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ تَمَنِّي الإِمَامِ الْخَيْرَ لِأُمَّتِهِ",
+    "uzbek_title": "Imomning ummati uchun yaxshilik orzulashi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-95-chapter-8",
+    "book_id": 95,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ مَنْ تَمَنَّى لِيُنَفِّقَ مَالَهُ",
+    "uzbek_title": "Molini xayrli yo'lda sarflashni orzulagan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-95-chapter-9",
+    "book_id": 95,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّمَنِّي لِلصَّالِحِينَ",
+    "uzbek_title": "Solihlar haqidagi orzular",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-96-chapter-1",
+    "book_id": 96,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ مَا جَاءَ فِي إِجَازَةِ خَبَرِ الْوَاحِدِ الصَّدُوقِ",
+    "uzbek_title": "Ishonchli yakka raviyning xabari qabul qilinishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-96-chapter-2",
+    "book_id": 96,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ بَعْثُ النَّبِيِّ ﷺ الأُمَرَاءَ وَالرُّسُلَ وَاحِدًا",
+    "uzbek_title": "Nabi ﷺning yolg'iz amirlar va elchilar yuborishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-96-chapter-3",
+    "book_id": 96,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ مَا جَاءَ فِي خَبَرِ الْوَاحِدِ",
+    "uzbek_title": "Yakka raviy xabari haqida",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-96-chapter-4",
+    "book_id": 96,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ الرَّجُلُ يَبْعَثُ بِالأَمَانَةِ",
+    "uzbek_title": "Kishi amonat yuborishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-96-chapter-5",
+    "book_id": 96,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ مَا جَاءَ فِي إِجَازَةِ خَبَرِ الْوَاحِدِ فِي الأَحْكَامِ",
+    "uzbek_title": "Hukmlarda yakka raviy xabarining qabul qilinishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-96-chapter-6",
+    "book_id": 96,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ مَنْ أَيَّدَ رِوَايَةَ الْوَاحِدِ",
+    "uzbek_title": "Yakka raviy rivoyatini tasdiqlagan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-96-chapter-7",
+    "book_id": 96,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الرِّسَالَةُ إِلَى أَهْلِ الْكِتَابِ",
+    "uzbek_title": "Ahli kitobga maktub yuborish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-1",
+    "book_id": 97,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ الاِقْتِدَاءُ بِسُنَنِ رَسُولِ اللَّهِ ﷺ",
+    "uzbek_title": "Rasululloh ﷺ sunnatlariga ergashish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-2",
+    "book_id": 97,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ مَا ذَكَرَ النَّبِيُّ ﷺ وَحَضَّ عَلَى اتِّفَاقِ أَهْلِ الْعِلْمِ",
+    "uzbek_title": "Nabi ﷺ ilm ahlining ittifog'iga undaganlari",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-3",
+    "book_id": 97,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ الاِقْتِدَاءُ بِأَفْعَالِ النَّبِيِّ ﷺ",
+    "uzbek_title": "Nabi ﷺ amallariga iqtido qilish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-4",
+    "book_id": 97,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ النَّهْيُ عَنِ الْبِدَعِ وَالأَهْوَاءِ",
+    "uzbek_title": "Bid'at va nafsiy hovolardan qaytarish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-5",
+    "book_id": 97,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ مَا يُكْرَهُ مِنَ التَّعَمُّقِ وَالتَّنَازُعِ فِي الْعِلْمِ",
+    "uzbek_title": "Ilmda chuqurlikka ketish va munozaraning makruhligi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-6",
+    "book_id": 97,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ الاِقْتِدَاءُ بِسِيرَةِ النَّبِيِّ ﷺ",
+    "uzbek_title": "Nabi ﷺ sirasiga iqtido",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-7",
+    "book_id": 97,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ مَا يُنْهَى عَنِ التَّشَبُّثِ بِالْبِدَعِ",
+    "uzbek_title": "Bid'atlardan yopishib qolishdan qaytarish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-8",
+    "book_id": 97,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ الاِقْتِدَاءُ بِأَحَادِيثِ رَسُولِ اللَّهِ ﷺ",
+    "uzbek_title": "Rasululloh ﷺ hadislariga iqtido",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-9",
+    "book_id": 97,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ مَا جَاءَ فِي الاِجْتِهَادِ",
+    "uzbek_title": "Ijtihod haqida",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-10",
+    "book_id": 97,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ مَا ذُكِرَ فِي ذَمِّ الرَّأْيِ وَتَكَلُّفِ الْقِيَاسِ",
+    "uzbek_title": "Shaxsiy fikr va qiyos intilishining qoralanishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-11",
+    "book_id": 97,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ أَجْرُ الْحَاكِمِ إِذَا اجْتَهَدَ فَأَصَابَ أَوْ أَخْطَأَ",
+    "uzbek_title": "Ijtihod qilgan hukmdorning ajri — to'g'ri yoki xato",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-12",
+    "book_id": 97,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ التَّوَرُّعُ عَنِ الشُّبُهَاتِ",
+    "uzbek_title": "Shubhalardan tiyilinish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-13",
+    "book_id": 97,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ أَحَادِيثُ النَّبِيِّ ﷺ دَلِيلٌ عَلَى الدِّينِ",
+    "uzbek_title": "Nabi ﷺ hadislari dinga dalil",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-14",
+    "book_id": 97,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ مَنْ رَأَى تَرْكَ النَّكِيرِ مِنَ النَّبِيِّ ﷺ دَلِيلاً",
+    "uzbek_title": "Nabi ﷺning inkor qilmasligi dalil ekanligini ko'rgan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-15",
+    "book_id": 97,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ مَا كَانَ النَّبِيُّ ﷺ يُسْأَلُ مِمَّا لَمْ يَنْزِلُ عَلَيْهِ الْوَحْيُ",
+    "uzbek_title": "Nabi ﷺga vahiy nozil bo'lmagan narsadan so'ralganida",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-16",
+    "book_id": 97,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ مَنْ شَبَّهَ أَصْلاً مَعْلُومًا بِأَصْلٍ مُبَيَّنٍ",
+    "uzbek_title": "Ma'lum aslni bayon etilgan aslga o'xshatgan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-17",
+    "book_id": 97,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ الإِيمَانُ وَقَوْلُ النَّبِيِّ ﷺ وَأَعْلَمُ الْبَشَرَ بِاللَّهِ",
+    "uzbek_title": "Iymon va Nabi ﷺ: men Allohni eng yaxshi biluvchi insonman",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-18",
+    "book_id": 97,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ الاِنْتِهَاءُ إِلَى أَمْرِ اللَّهِ وَنَهْيِهِ",
+    "uzbek_title": "Alloh amri va nahyiga rioya qilish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-19",
+    "book_id": 97,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ مَا جَاءَ فِي اجْتِهَادِ الْقُضَاةِ",
+    "uzbek_title": "Qozilarning ijtihodi haqida",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-20",
+    "book_id": 97,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ قَوْلُ اللَّهِ تَعَالَى لِيَحْكُمَ بَيْنَهُمْ بِمَا أَنْزَلَ اللَّهُ",
+    "uzbek_title": "'Alloh nozil qilgani bilan hukm qilsin' oyati",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-21",
+    "book_id": 97,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ إِذَا اجْتَهَدَ الْعَامِلُ أَوِ الْحَاكِمُ فَأَخْطَأَ",
+    "uzbek_title": "Amaldor yoki hukmdor ijtihod qilib xato qilsa",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-22",
+    "book_id": 97,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ مَنْ حَكَمَ بِكِتَابِ اللَّهِ",
+    "uzbek_title": "Allohning kitobi bilan hukm qilgan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-23",
+    "book_id": 97,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ فَضِيلَةُ الِاعْتِصَامِ بِالسُّنَّةِ",
+    "uzbek_title": "Sunnaga yopishishning fazilati",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-24",
+    "book_id": 97,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ نَهْيُ النَّبِيِّ ﷺ عَمَّا نُهِيَ عَنْهُ",
+    "uzbek_title": "Nabi ﷺning qaytarilgan narsadan qaytarishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-97-chapter-25",
+    "book_id": 97,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ الأَخْذُ بِالسُّنَّةِ وَاجْتِنَابُ الْبِدَعِ",
+    "uzbek_title": "Sunnani olish va bid'atlardan uzoqlashish",
+    "hadiths": []
   }
 ]

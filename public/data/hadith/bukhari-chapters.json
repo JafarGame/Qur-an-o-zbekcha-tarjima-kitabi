@@ -16526,5 +16526,2237 @@
     "arabic_title": "بَابُ التَّسْمِيَةُ عَلَى الطَّعَامِ وَالأَكْلُ بِالْيَمِينِ",
     "uzbek_title": "Taomda 'Bismillah' va o'ng qo'l bilan yeyish",
     "hadiths": []
+  },
+  {
+    "id": "bukhari-book-71-chapter-1",
+    "book_id": 71,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ الْعَقِيقَةُ",
+    "uzbek_title": "Aqiqa haqida",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-71-chapter-2",
+    "book_id": 71,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ إِمَاطَةِ الأَذَى عَنِ الصَّبِيِّ فِي الْعَقِيقَةِ",
+    "uzbek_title": "Aqiqada boladan ozorni ketkazish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-71-chapter-3",
+    "book_id": 71,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ تَسْمِيَةِ الْمَوْلُودِ غَدَاةَ يُولَدُ",
+    "uzbek_title": "Tug'ilgan kuni go'dakning ismi qo'yilishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-71-chapter-4",
+    "book_id": 71,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ الْعَقِيقَةُ عَنِ الْغُلاَمِ شَاتَانِ",
+    "uzbek_title": "O'g'il uchun ikkita qo'y aqiqa",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-71-chapter-5",
+    "book_id": 71,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ الْعَقِيقَةُ عَنِ الْجَارِيَةِ شَاةٌ",
+    "uzbek_title": "Qiz uchun bitta qo'y aqiqa",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-71-chapter-6",
+    "book_id": 71,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ إِحْلاَقِ رَأْسِ الْمَوْلُودِ",
+    "uzbek_title": "Yangi tug'ilgan go'dakning boshini qiritish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-71-chapter-7",
+    "book_id": 71,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الْفَرَعُ وَالْعَتِيرَةُ",
+    "uzbek_title": "Fara' va atira qurbonliklari",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-1",
+    "book_id": 72,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ التَّسْمِيَةُ عَلَى الذَّبِيحَةِ وَمَنْ تَرَكَهَا نَاسِيًا",
+    "uzbek_title": "So'yishda bismillah va uni unutgan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-2",
+    "book_id": 72,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ مَا أُهِلَّ لِغَيْرِ اللَّهِ بِهِ",
+    "uzbek_title": "Allohdan boshqasiga atab so'yilgan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-3",
+    "book_id": 72,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ ذَبِيحَةُ الأَعْرَابِ وَنَحْوِهِمْ",
+    "uzbek_title": "Badaviylar va ularga o'xshashlarning so'yishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-4",
+    "book_id": 72,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ مَنْ ذَبَحَ بِسِكِّينٍ",
+    "uzbek_title": "Pichoq bilan so'yish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-5",
+    "book_id": 72,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ ذَبَائِحُ أَهْلِ الْكِتَابِ",
+    "uzbek_title": "Ahli kitobning so'yishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-6",
+    "book_id": 72,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ آنِيَةُ أَهْلِ الْكِتَابِ",
+    "uzbek_title": "Ahli kitobning idishlari",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-7",
+    "book_id": 72,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ التَّسْمِيَةُ عَلَى الصَّيْدِ",
+    "uzbek_title": "Ovda bismillah aytish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-8",
+    "book_id": 72,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ صَيْدُ الْقَوْسِ",
+    "uzbek_title": "Yoy bilan ov",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-9",
+    "book_id": 72,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ صَيْدُ الْمِعْرَاضِ",
+    "uzbek_title": "Mi'roz (o'tkir tayoq) bilan ov",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-10",
+    "book_id": 72,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ مَا أَصَابَ الْمِعْرَاضُ بِعَرْضِهِ",
+    "uzbek_title": "Mi'roz yon tomoni bilan ursa",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-11",
+    "book_id": 72,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ إِذَا وَقَعَ فِي الْمَاءِ مِنَ الصَّيْدِ",
+    "uzbek_title": "Ov suvga tushib ketsa",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-12",
+    "book_id": 72,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ التَّسْمِيَةُ عَلَى كُلِّ حَالٍ وَعِنْدَ الصَّيْدِ",
+    "uzbek_title": "Har holatda va ovda bismillah",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-13",
+    "book_id": 72,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ الصَّيْدُ إِذَا غَابَ عَنِّي يَوْمَيْنِ أَوْ ثَلاَثَةً",
+    "uzbek_title": "Ov ikki-uch kun g'oyib bo'lsa",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-14",
+    "book_id": 72,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ صَيْدُ الْكَلْبِ",
+    "uzbek_title": "It bilan ov",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-15",
+    "book_id": 72,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ إِذَا أَكَلَ الْكَلْبُ مِنَ الصَّيْدِ",
+    "uzbek_title": "It ovdan yeb qo'ysa",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-16",
+    "book_id": 72,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ صَيْدُ الْكَلْبِ الْمُعَلَّمِ",
+    "uzbek_title": "O'rgatilgan it bilan ov",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-17",
+    "book_id": 72,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ إِذَا أَرْسَلَ كَلْبَيْنِ",
+    "uzbek_title": "Ikki it yuborilsa",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-18",
+    "book_id": 72,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ مَنِ اقْتَنَى كَلْبًا لَيْسَ لِصَيْدٍ",
+    "uzbek_title": "Ovdan boshqa maqsadda it saqlash",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-19",
+    "book_id": 72,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ النَّهْيُ عَنِ اقْتِنَاءِ الْكَلْبِ",
+    "uzbek_title": "It saqlashdan qaytarish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-20",
+    "book_id": 72,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ صَيْدُ الْحُمُرِ الإِنْسِيَّةِ",
+    "uzbek_title": "Uy eshagining ovi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-21",
+    "book_id": 72,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ الذَّبْحُ بِالنَّدَى",
+    "uzbek_title": "Naday (keskin narsa) bilan so'yish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-22",
+    "book_id": 72,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ لاَ يُذَكَّى بِالسِّنِّ وَالظُّفُرِ",
+    "uzbek_title": "Tish va tirnoq bilan so'yilmaydi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-23",
+    "book_id": 72,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ مَا نُدَّ مِنَ الْبَهَائِمِ فَهُوَ بِمَنْزِلَةِ الصَّيْدِ",
+    "uzbek_title": "Qochib ketgan hayvon ov hukmiда",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-24",
+    "book_id": 72,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ ذَبِيحَةُ الْمَرْأَةِ وَالأَمَةِ",
+    "uzbek_title": "Ayol va cho'rining so'yishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-25",
+    "book_id": 72,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ صَيْدُ الْبَحْرِ",
+    "uzbek_title": "Dengiz ovi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-26",
+    "book_id": 72,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ قَوْلِ اللَّهِ تَعَالَى أُحِلَّتْ لَكُمْ بَهِيمَةُ الأَنْعَامِ",
+    "uzbek_title": "'Sizlarga chorva hayvonlari halol qilindi' oyati",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-27",
+    "book_id": 72,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ الضَّبُّ",
+    "uzbek_title": "Kaltakesak (zabb)",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-28",
+    "book_id": 72,
+    "chapter_number": 28,
+    "arabic_title": "بَابُ أَكْلُ الضَّبِّ",
+    "uzbek_title": "Kaltakesak yeyish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-29",
+    "book_id": 72,
+    "chapter_number": 29,
+    "arabic_title": "بَابُ الأَرْنَبُ",
+    "uzbek_title": "Quyon",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-30",
+    "book_id": 72,
+    "chapter_number": 30,
+    "arabic_title": "بَابُ نَهْيُ النَّبِيِّ ﷺ عَنْ أَكْلِ الذِّئْبِ وَكُلِّ ذِي نَابٍ",
+    "uzbek_title": "Nabi ﷺning bo'ri va qoziq tishli hayvonlarni yeyishdan qaytarishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-31",
+    "book_id": 72,
+    "chapter_number": 31,
+    "arabic_title": "بَابُ الأَكْلُ مِمَّا يَقْتُلُهُ الشَّرَكُ",
+    "uzbek_title": "Tuzoq o'ldirgan narsani yeyish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-72-chapter-32",
+    "book_id": 72,
+    "chapter_number": 32,
+    "arabic_title": "بَابُ الأَكْلُ مِنَ الصَّيْدِ إِذَا وَجَدَهُ بَعْدَ لَيْلَةٍ",
+    "uzbek_title": "Bir kecha o'tib topilgan ovni yeyish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-73-chapter-1",
+    "book_id": 73,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ سُنَّةُ الأُضْحِيَّةِ",
+    "uzbek_title": "Qurbon so'yish sunnati",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-73-chapter-2",
+    "book_id": 73,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ الأُضْحِيَّةُ لِلْمُسَافِرِ وَالنِّسَاءِ",
+    "uzbek_title": "Musofir va ayollar uchun qurbon",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-73-chapter-3",
+    "book_id": 73,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ مَنْ ذَبَحَ قَبْلَ الصَّلاَةِ",
+    "uzbek_title": "Namazdan oldin so'ygan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-73-chapter-4",
+    "book_id": 73,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ مَنْ ذَبَحَ بَعْدَ الصَّلاَةِ",
+    "uzbek_title": "Namazdan keyin so'ygan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-73-chapter-5",
+    "book_id": 73,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ قَوْلُ النَّبِيِّ ﷺ الأُضْحِيَّةُ بَعْدَ الصَّلاَةِ",
+    "uzbek_title": "Nabi ﷺ: Qurbon namozdan keyin",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-73-chapter-6",
+    "book_id": 73,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ مَنْ ذَبَحَ ضَحِيَّتَهُ قَبْلَ الإِمَامِ",
+    "uzbek_title": "Imomdan oldin qurbon so'ygan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-73-chapter-7",
+    "book_id": 73,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الذَّبْحُ بِالْمُصَلَّى",
+    "uzbek_title": "Namozgohda so'yish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-73-chapter-8",
+    "book_id": 73,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ مَنْ نَحَرَ ضَحِيَّتَهُ بِيَدِهِ",
+    "uzbek_title": "Qurbonini o'z qo'li bilan so'ygan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-73-chapter-9",
+    "book_id": 73,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ الأُضْحِيَّةُ بِكَبْشٍ",
+    "uzbek_title": "Qo'chqor bilan qurbon",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-73-chapter-10",
+    "book_id": 73,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ الأُضْحِيَّةُ بِمَا تَيَسَّرَ",
+    "uzbek_title": "Imkon topilgan narsa bilan qurbon",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-73-chapter-11",
+    "book_id": 73,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ أَكْلُ اللَّحْمِ أَيَّامَ مِنًى",
+    "uzbek_title": "Mino kunlarida go'sht yeyish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-73-chapter-12",
+    "book_id": 73,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ مَا يُؤْكَلُ مِنْ لُحُومِ الأَضَاحِيِّ",
+    "uzbek_title": "Qurbon go'shtidan qay qismi yeyiladi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-73-chapter-13",
+    "book_id": 73,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ الاِدِّخَارُ مِنَ الأُضْحِيَّةِ",
+    "uzbek_title": "Qurbon go'shtini zaxiraga qo'yish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-73-chapter-14",
+    "book_id": 73,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ جُلُودُ الأَضَاحِيِّ",
+    "uzbek_title": "Qurbon terilari",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-73-chapter-15",
+    "book_id": 73,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ مَنْ قَالَ لاَ يَأْكُلُ صَاحِبُ الأُضْحِيَّةِ فَوْقَ ثَلاَثَةِ أَيَّامٍ",
+    "uzbek_title": "'Qurbon sohibi uch kundan oshiq yemaydi' deygan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-73-chapter-16",
+    "book_id": 73,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ قِسْمَةُ الأُضْحِيَّةِ",
+    "uzbek_title": "Qurbon go'shtini taqsimash",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-1",
+    "book_id": 74,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ قَوْلُ اللَّهِ تَعَالَى إِنَّمَا الْخَمْرُ وَالْمَيْسِرُ وَالأَنْصَابُ",
+    "uzbek_title": "'Sharobу, qimor, butlar' oyati",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-2",
+    "book_id": 74,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ الْخَمْرُ مِنَ الْعَسَلِ وَهُوَ الْبِتْعُ",
+    "uzbek_title": "Asaldan tayyorlangan bit' ichimligi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-3",
+    "book_id": 74,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ النَّبِيذُ الَّذِي لاَ يُسْكِرُ",
+    "uzbek_title": "Mast qilmaydigan nabiz",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-4",
+    "book_id": 74,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ نَبِيذُ التَّمْرِ",
+    "uzbek_title": "Xurmo nabizi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-5",
+    "book_id": 74,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ مَنْ رَأَى أَنَّهُ لاَ يُحِلُّ الْمُسْكِرَ",
+    "uzbek_title": "Mast qiluvchini halol ko'rmaganlar",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-6",
+    "book_id": 74,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ كُلُّ مُسْكِرٍ حَرَامٌ",
+    "uzbek_title": "Har mast qiluvchi harom",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-7",
+    "book_id": 74,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ مَنِ اسْتَحَلَّ الْخَمْرَ وَسَمَّاهُ بِغَيْرِ اسْمِهِ",
+    "uzbek_title": "Sharobni boshqa nom bilan halol ko'rgan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-8",
+    "book_id": 74,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ مَا جَاءَ فِيمَنْ يَسْتَحِلُّ الْخَمْرَ",
+    "uzbek_title": "Sharobni halol hisoblagan haqida",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-9",
+    "book_id": 74,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ شُرْبُ اللَّبَنِ",
+    "uzbek_title": "Sut ichish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-10",
+    "book_id": 74,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ شُرْبُ السَّوِيقِ",
+    "uzbek_title": "Sawiq (un ichimligi) ichish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-11",
+    "book_id": 74,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ الشُّرْبُ بِالْيَمِينِ",
+    "uzbek_title": "O'ng qo'l bilan ichish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-12",
+    "book_id": 74,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ النَّفْخُ فِي الشَّرَابِ",
+    "uzbek_title": "Ichimlikka puf qilish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-13",
+    "book_id": 74,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ الشُّرْبُ مِنَ الإِنَاءِ",
+    "uzbek_title": "Idishdan ichish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-14",
+    "book_id": 74,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ الشُّرْبُ قَائِمًا",
+    "uzbek_title": "Turib ichish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-15",
+    "book_id": 74,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ الشُّرْبُ مِنْ ثُلُمَةِ الْقَدَحِ",
+    "uzbek_title": "Qadaq chetidan ichish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-16",
+    "book_id": 74,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ الشُّرْبُ مِنْ فَمِ السِّقَاءِ",
+    "uzbek_title": "Mashkdan og'iz bilan ichish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-17",
+    "book_id": 74,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ شُرْبُ الْعَسَلِ",
+    "uzbek_title": "Asal ichish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-18",
+    "book_id": 74,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ الشُّرْبُ مُتَّكِئًا",
+    "uzbek_title": "Suyanib ichish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-19",
+    "book_id": 74,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ مَا جَاءَ فِي الأَوَانِي",
+    "uzbek_title": "Idishlar haqida",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-20",
+    "book_id": 74,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ النَّهْيُ عَنِ الشُّرْبِ فِي آنِيَةِ الذَّهَبِ وَالْفِضَّةِ",
+    "uzbek_title": "Oltin va kumush idishlarda ichishdan qaytarish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-21",
+    "book_id": 74,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ الدُّبَّاءُ وَالْمُزَفَّتُ",
+    "uzbek_title": "Qovoq idish va qatron qoplangan idish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-22",
+    "book_id": 74,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ الانْتِبَاذُ فِي الْحَنْتَمِ وَالنَّقِيرِ",
+    "uzbek_title": "Yashil idish va kovak qovoqda nabiz",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-23",
+    "book_id": 74,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ شُرْبُ النَّبِيِّ ﷺ وَأَصْحَابِهِ",
+    "uzbek_title": "Nabi ﷺ va sahobalarining ichishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-24",
+    "book_id": 74,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ السَّقِيُّ مِنَ الْيَمِينِ",
+    "uzbek_title": "O'ngdagiga suv uzatish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-25",
+    "book_id": 74,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ هَلْ يَسْتَأْذِنُ الرَّجُلُ",
+    "uzbek_title": "Kishi ruxsat so'raydimi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-26",
+    "book_id": 74,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ الضَّيْفُ إِذَا نَزَلَ بِقَوْمٍ",
+    "uzbek_title": "Mehmon bir qavmga tushganda",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-27",
+    "book_id": 74,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ سُؤْرُ الْمُسْلِمِ",
+    "uzbek_title": "Musulmonning qoldiq ichimligi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-74-chapter-28",
+    "book_id": 74,
+    "chapter_number": 28,
+    "arabic_title": "بَابُ سُؤْرُ الدَّوَابِّ",
+    "uzbek_title": "Hayvonlarning qoldiq ichimligi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-1",
+    "book_id": 75,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ مَا جَاءَ فِي كَفَّارَةِ الْمَرَضِ",
+    "uzbek_title": "Kasallik kafforati haqida",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-2",
+    "book_id": 75,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ أَشَدُّ النَّاسِ بَلاَءً الأَنْبِيَاءُ ثُمَّ الأَمْثَلُ",
+    "uzbek_title": "Eng katta balo payg'ambarlarga, so'ng ularga o'xshashlarга",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-3",
+    "book_id": 75,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ الصَّبْرُ عَلَى الأَذَى",
+    "uzbek_title": "Ozorga sabr qilish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-4",
+    "book_id": 75,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ أَجْرِ الصَّابِرِ فِي الْمَرَضِ",
+    "uzbek_title": "Kasallikda sabr qilganlarning ajri",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-5",
+    "book_id": 75,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ مَا جَاءَ فِي وَجَعِ الْعَيْنِ",
+    "uzbek_title": "Ko'z og'rig'i haqida",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-6",
+    "book_id": 75,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ عِيَادَةُ الأَعْرَابِ",
+    "uzbek_title": "Badaviylarni xastaliqda ko'rishga borish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-7",
+    "book_id": 75,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ عِيَادَةُ الْمَرِيضِ وَالدُّعَاءُ لَهُ",
+    "uzbek_title": "Bemorni ko'rishga borish va unga duo qilish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-8",
+    "book_id": 75,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ أَيِّ الْمَرَضِ يُكَفَّرُ بِهِ الذَّنْبُ",
+    "uzbek_title": "Qaysi kasallik gunohlarni kaffarat qiladi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-9",
+    "book_id": 75,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ دُعَاءُ الْعَائِدِ لِلْمَرِيضِ",
+    "uzbek_title": "Bemorni ziyorat qiluvchining duosi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-10",
+    "book_id": 75,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ وَضْعُ الْيَدِ عَلَى الْمَرِيضِ",
+    "uzbek_title": "Bemorga qo'l qo'yish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-11",
+    "book_id": 75,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ مَنْ ذَهَبَ بَصَرُهُ فَصَبَرَ",
+    "uzbek_title": "Ko'zi ko'r bo'lib sabr qilgan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-12",
+    "book_id": 75,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ الْمَرَضُ كَفَّارَةٌ",
+    "uzbek_title": "Kasallik kaffarat",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-13",
+    "book_id": 75,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ تَمَنِّي الْمَرِيضِ الْمَوْتَ",
+    "uzbek_title": "Bemorning o'limni orzu qilishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-14",
+    "book_id": 75,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ مَا يُكْرَهُ مِنَ النَّوْحِ وَالْبُكَاءِ",
+    "uzbek_title": "Nola va yig'lashning makruh turlari",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-15",
+    "book_id": 75,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ قَوْلُ الْمَرِيضِ إِنِّي وَجِعٌ",
+    "uzbek_title": "'Men og'riyapman' deyish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-16",
+    "book_id": 75,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ الرَّجُلُ يَمْرَضُ فِي سَفَرِهِ",
+    "uzbek_title": "Safarda kasal bo'lgan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-17",
+    "book_id": 75,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ زِيَارَةُ الْقُبُورِ",
+    "uzbek_title": "Qabrlarni ziyorat qilish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-18",
+    "book_id": 75,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ مَا يُقَالُ لِلْمَرِيضِ",
+    "uzbek_title": "Bemorga nima deyiladi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-19",
+    "book_id": 75,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ إِذَا لَمْ يَجِدِ الطَّبِيبَ",
+    "uzbek_title": "Tabib topilmasa",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-20",
+    "book_id": 75,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ مَنْ مَاتَ فِي طَرِيقِ الْحَجِّ",
+    "uzbek_title": "Haj yo'lida vafot etgan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-21",
+    "book_id": 75,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ هَلْ يُرَدُّ الْمُحْتَضَرُ إِلَى أَهْلِهِ",
+    "uzbek_title": "Jonini berayotgan kishi oilasiga qaytarilsinmi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-75-chapter-22",
+    "book_id": 75,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ الدُّعَاءُ بِالشِّفَاءِ",
+    "uzbek_title": "Shifo uchun duo",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-1",
+    "book_id": 76,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ مَا أَنْزَلَ اللَّهُ دَاءً إِلاَّ أَنْزَلَ لَهُ شِفَاءً",
+    "uzbek_title": "Allah har dardga davo ham bergan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-2",
+    "book_id": 76,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ الدَّوَاءُ بِالْعَسَلِ",
+    "uzbek_title": "Asal bilan davolash",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-3",
+    "book_id": 76,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ الدَّوَاءُ بِالسَّنَا وَالسَّنُّوتِ",
+    "uzbek_title": "Sano o'ti va sannot bilan davolash",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-4",
+    "book_id": 76,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ السَّعُوطُ",
+    "uzbek_title": "Burun orqali dori",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-5",
+    "book_id": 76,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ اللَّدُودُ",
+    "uzbek_title": "Og'iz chekkasiga dori quyish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-6",
+    "book_id": 76,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ الْحِجَامَةُ وَالْقَيْءُ",
+    "uzbek_title": "Qonga olish va qayt qildirish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-7",
+    "book_id": 76,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الْحِجَامَةُ مِنَ الدَّاءِ",
+    "uzbek_title": "Kasallikda qonga olish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-8",
+    "book_id": 76,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ أَيَّ سَاعَةٍ يَحْتَجِمُ",
+    "uzbek_title": "Qon olish uchun qaysi vaqt",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-9",
+    "book_id": 76,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ الْحِجَامَةُ عَلَى الرَّأْسِ",
+    "uzbek_title": "Bosh ustidan qon olish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-10",
+    "book_id": 76,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ الْحِجَامَةُ مِنَ الشِّقِيقَةِ وَالصُّدَاعِ",
+    "uzbek_title": "Bosh og'rig'ida qon olish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-11",
+    "book_id": 76,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ أُجْرَةُ الْحِجَامَةِ",
+    "uzbek_title": "Qon oluvchining haqi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-12",
+    "book_id": 76,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ مَنِ اكْتَوَى أَوْ كَوَى غَيْرَهُ",
+    "uzbek_title": "O'zini yoki boshqasini dağlagan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-13",
+    "book_id": 76,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ الشِّفَاءُ فِي ثَلاَثَةٍ",
+    "uzbek_title": "Shifo uchta narsada",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-14",
+    "book_id": 76,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ الدَّوَاءُ بِأَبْوَالِ الإِبِلِ",
+    "uzbek_title": "Tuya siydigi bilan davolash",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-15",
+    "book_id": 76,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ الرُّقَى بِالْقُرْآنِ وَالْمُعَوِّذَاتِ",
+    "uzbek_title": "Qur'on va muavvizot bilan ruqiya",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-16",
+    "book_id": 76,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ النَّفْثُ فِي الرُّقْيَةِ",
+    "uzbek_title": "Ruqiyada puf qilish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-17",
+    "book_id": 76,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ رُقْيَةُ الْعَيْنِ",
+    "uzbek_title": "Ko'z tegishidan ruqiya",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-18",
+    "book_id": 76,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ الرُّقْيَةُ مِنَ الْحُمَّى وَالنَّمْلَةِ",
+    "uzbek_title": "Isitma va yaradan ruqiya",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-19",
+    "book_id": 76,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ مَنِ اعْتَقَدَ الْكَاهِنَ",
+    "uzbek_title": "Kahinni tasdiqlaydigan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-20",
+    "book_id": 76,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ السِّحْرُ",
+    "uzbek_title": "Sehr-jodu",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-21",
+    "book_id": 76,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ الشِّفَاءُ فِي حَبَّةِ السَّوْدَاءِ",
+    "uzbek_title": "Qora zira donida shifo",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-22",
+    "book_id": 76,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ التَّلْبِينَةُ لِلْمَرِيضِ",
+    "uzbek_title": "Bemor uchun talabina",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-23",
+    "book_id": 76,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ الإِثْمِدُ وَالتَّكَحُّلُ",
+    "uzbek_title": "Surma va ko'zga surma tortish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-24",
+    "book_id": 76,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ الطِّيَرَةُ",
+    "uzbek_title": "Yomon fol tutish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-25",
+    "book_id": 76,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ لاَ عَدْوَى",
+    "uzbek_title": "Yuqumlilik yo'q (Allohning irodasisiz)",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-26",
+    "book_id": 76,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ الْقُسْطُ الْبَحْرِيُّ",
+    "uzbek_title": "Dengiz qo'stasi (dori o'ti)",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-27",
+    "book_id": 76,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ الْحُمَّى مِنْ فَيْحِ جَهَنَّمَ",
+    "uzbek_title": "Isitma do'zax haroratidan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-28",
+    "book_id": 76,
+    "chapter_number": 28,
+    "arabic_title": "بَابُ الْحُمَّى تُطْفَأُ بِالْمَاءِ",
+    "uzbek_title": "Isitma suv bilan bosiladi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-29",
+    "book_id": 76,
+    "chapter_number": 29,
+    "arabic_title": "بَابُ الطَّاعُونُ",
+    "uzbek_title": "Vabo kasalligi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-30",
+    "book_id": 76,
+    "chapter_number": 30,
+    "arabic_title": "بَابُ مَا يُذْكَرُ فِي الطَّاعُونِ",
+    "uzbek_title": "Vabo haqida zikr qilinganlar",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-31",
+    "book_id": 76,
+    "chapter_number": 31,
+    "arabic_title": "بَابُ أَجْرُ الصَّابِرِ فِي الطَّاعُونِ",
+    "uzbek_title": "Vaboda sabr qilganlarning ajri",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-32",
+    "book_id": 76,
+    "chapter_number": 32,
+    "arabic_title": "بَابُ الدَّوَاءُ بِالزَّيْتِ",
+    "uzbek_title": "Zaytun moyi bilan davolash",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-33",
+    "book_id": 76,
+    "chapter_number": 33,
+    "arabic_title": "بَابُ هَلْ يُعَالَجُ الرَّجُلُ نَفْسَهُ",
+    "uzbek_title": "Kishi o'zini davolashi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-34",
+    "book_id": 76,
+    "chapter_number": 34,
+    "arabic_title": "بَابُ الإِذَا أَسْلَمَ الرَّجُلُ فَمَرِضَ",
+    "uzbek_title": "Islom keltirib kasal bo'lsa",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-76-chapter-35",
+    "book_id": 76,
+    "chapter_number": 35,
+    "arabic_title": "بَابُ هَلْ يَرْقِي الرَّجُلُ نَفْسَهُ",
+    "uzbek_title": "Kishi o'zini ruqiya qila oladimi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-1",
+    "book_id": 77,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ لُبْسِ الثِّيَابِ",
+    "uzbek_title": "Kiyim kiyish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-2",
+    "book_id": 77,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ لُبْسِ الْقَمِيصِ",
+    "uzbek_title": "Ko'ylak kiyish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-3",
+    "book_id": 77,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ الْبَيَاضُ مِنَ الثِّيَابِ",
+    "uzbek_title": "Oq kiyimlar",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-4",
+    "book_id": 77,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ لُبْسِ الْحَرِيرِ لِلرِّجَالِ",
+    "uzbek_title": "Erkaklar uchun ipak kiyish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-5",
+    "book_id": 77,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ لُبْسِ الْحَرِيرِ لِلنِّسَاءِ",
+    "uzbek_title": "Ayollar uchun ipak kiyish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-6",
+    "book_id": 77,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ مَنْ لَبِسَ حَرِيرًا فِي الدُّنْيَا",
+    "uzbek_title": "Dunyoda ipak kiygan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-7",
+    "book_id": 77,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الذَّهَبُ لِلنِّسَاءِ",
+    "uzbek_title": "Ayollar uchun oltin",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-8",
+    "book_id": 77,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ لُبْسِ الثِّيَابِ الْمُصَوَّرَةِ",
+    "uzbek_title": "Tasvirli kiyim kiyish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-9",
+    "book_id": 77,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ لُبْسِ الْخَزِّ",
+    "uzbek_title": "Xazz (ipak-jun aralash) kiyimi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-10",
+    "book_id": 77,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ افْتِرَاشُ الْحَرِيرِ",
+    "uzbek_title": "Ipakni to'shak qilib yotish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-11",
+    "book_id": 77,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ مَنْ جَرَّ إِزَارَهُ مِنْ غَيْرِ خُيَلاَءَ",
+    "uzbek_title": "Kibrsiz izorasini sudraganning hukmi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-12",
+    "book_id": 77,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ مَنْ جَرَّ ثَوْبَهُ مِنَ الْخُيَلاَءِ",
+    "uzbek_title": "Kibr bilan kiyimini sudraydigan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-13",
+    "book_id": 77,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ مَا أَسْفَلَ مِنَ الْكَعْبَيْنِ فَهُوَ فِي النَّارِ",
+    "uzbek_title": "To'piq ostiga tushgan narsa do'zaxda",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-14",
+    "book_id": 77,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ الرِّدَاءُ",
+    "uzbek_title": "Rido (ustki kiyim)",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-15",
+    "book_id": 77,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ لُبْسِ الْقَمِيصِ مِنَ الأَيْمَنِ",
+    "uzbek_title": "Ko'ylakni o'ng tarafdan kiyish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-16",
+    "book_id": 77,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ الْخُفُّ وَالنِّعَالُ",
+    "uzbek_title": "Mahsi va tuflilar",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-17",
+    "book_id": 77,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ النِّعَالُ السِّبْتِيَّةُ",
+    "uzbek_title": "Sibtiy tuflilar",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-18",
+    "book_id": 77,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ يَبْدَأُ بِالْيَمِينِ فِي النَّعْلَيْنِ",
+    "uzbek_title": "Tufli kiyishda o'ngdan boshlash",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-19",
+    "book_id": 77,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ لاَ يَمْشِ فِي نَعْلٍ وَاحِدَةٍ",
+    "uzbek_title": "Bitta tuflida yurilmaydi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-20",
+    "book_id": 77,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ الثَّوْبُ الَّذِي فِيهِ تَصَاوِيرُ",
+    "uzbek_title": "Suratli kiyim",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-21",
+    "book_id": 77,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ عَذَابُ الْمُصَوِّرِينَ يَوْمَ الْقِيَامَةِ",
+    "uzbek_title": "Qiyomat kuni musavvirlar azobi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-22",
+    "book_id": 77,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ التَّخَتُّمُ بِالذَّهَبِ",
+    "uzbek_title": "Oltin uzuk taqish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-23",
+    "book_id": 77,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ خَاتَمُ الذَّهَبِ",
+    "uzbek_title": "Oltin uzuk",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-24",
+    "book_id": 77,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ نَقْشُ الْخَاتَمِ",
+    "uzbek_title": "Uzukdagi naqsh",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-25",
+    "book_id": 77,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ خَاتَمُ الْفِضَّةِ",
+    "uzbek_title": "Kumush uzuk",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-26",
+    "book_id": 77,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ مَنْ جَعَلَ فَصَّ الْخَاتَمِ فِي بَطْنِ كَفِّهِ",
+    "uzbek_title": "Uzuk toshi kaftning ichiga qarab",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-27",
+    "book_id": 77,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ اتِّخَاذُ الأَسَاوِرِ مِنَ الذَّهَبِ لِلنِّسَاءِ",
+    "uzbek_title": "Ayollar uchun oltin bilakuzuk",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-28",
+    "book_id": 77,
+    "chapter_number": 28,
+    "arabic_title": "بَابُ قَصُّ الشَّارِبِ",
+    "uzbek_title": "Mo'ylabni qisqartirish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-29",
+    "book_id": 77,
+    "chapter_number": 29,
+    "arabic_title": "بَابُ إِعْفَاءُ اللِّحْيَةِ",
+    "uzbek_title": "Soqolni o'stirish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-30",
+    "book_id": 77,
+    "chapter_number": 30,
+    "arabic_title": "بَابُ الْفِطْرَةُ خَمْسٌ",
+    "uzbek_title": "Fitrat besh narsada",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-31",
+    "book_id": 77,
+    "chapter_number": 31,
+    "arabic_title": "بَابُ تَقْلِيمُ الأَظْفَارِ",
+    "uzbek_title": "Tirnoqlarni kesish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-32",
+    "book_id": 77,
+    "chapter_number": 32,
+    "arabic_title": "بَابُ الثَّوْبُ الأَحْمَرُ",
+    "uzbek_title": "Qizil kiyim",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-33",
+    "book_id": 77,
+    "chapter_number": 33,
+    "arabic_title": "بَابُ لُبْسُ الْخَضِرِ",
+    "uzbek_title": "Yashil kiyim kiyish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-34",
+    "book_id": 77,
+    "chapter_number": 34,
+    "arabic_title": "بَابُ مَا يُتَّقَى مِنَ الشُّؤْمِ",
+    "uzbek_title": "Yomonlikdan saqlanish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-35",
+    "book_id": 77,
+    "chapter_number": 35,
+    "arabic_title": "بَابُ الاِنْتِعَالُ قَائِمًا",
+    "uzbek_title": "Turib tufli kiyish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-36",
+    "book_id": 77,
+    "chapter_number": 36,
+    "arabic_title": "بَابُ السِّرَاوِيلُ",
+    "uzbek_title": "Ishton",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-37",
+    "book_id": 77,
+    "chapter_number": 37,
+    "arabic_title": "بَابُ الاِنْتِفَاعُ بِجِلْدِ الْمَيْتَةِ",
+    "uzbek_title": "O'laksaning terisidan foydalanish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-77-chapter-38",
+    "book_id": 77,
+    "chapter_number": 38,
+    "arabic_title": "بَابُ جُلُودُ الْمَيْتَةِ قَبْلَ أَنْ تُدْبَغَ",
+    "uzbek_title": "Sepelmagan o'laksa terisi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-1",
+    "book_id": 78,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ قَوْلِ اللَّهِ تَعَالَى إِنَّ اللَّهَ يَأْمُرُ بِالْعَدْلِ وَالإِحْسَانِ",
+    "uzbek_title": "'Allah adl-insof va ehsonni buyuradi' oyati",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-2",
+    "book_id": 78,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ حُسْنُ الْخُلُقِ وَالسَّخَاءُ",
+    "uzbek_title": "Yaxshi axloq va saxovatlilik",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-3",
+    "book_id": 78,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ الْحَيَاءُ",
+    "uzbek_title": "Hayo",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-4",
+    "book_id": 78,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ الْحَيَاءُ مِنَ الإِيمَانِ",
+    "uzbek_title": "Hayo imondan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-5",
+    "book_id": 78,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ مَنْ لَمْ يَكُنْ لَهُ حَيَاءٌ",
+    "uzbek_title": "Hayosi bo'lmagan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-6",
+    "book_id": 78,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ التَّبَسُّمُ وَالضَّحِكُ",
+    "uzbek_title": "Tabassum va kulish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-7",
+    "book_id": 78,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الصَّبْرُ عَلَى الأَذَى",
+    "uzbek_title": "Ozorga sabr",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-8",
+    "book_id": 78,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ الْمَدَارَاةُ مَعَ النَّاسِ",
+    "uzbek_title": "Odamlar bilan yumshoqlik",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-9",
+    "book_id": 78,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ حُسْنُ الْخُلُقِ",
+    "uzbek_title": "Yaxshi axloq",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-10",
+    "book_id": 78,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ الرِّفْقُ فِي الأَمْرِ كُلِّهِ",
+    "uzbek_title": "Barcha ishlarda muloyimlik",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-11",
+    "book_id": 78,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ الْحِلْمُ وَالأَنَاةُ",
+    "uzbek_title": "Hilm va vaiqorlik",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-12",
+    "book_id": 78,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ التَّوَاضُعُ",
+    "uzbek_title": "Kamtarlik",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-13",
+    "book_id": 78,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ الصِّدْقُ وَالْكَذِبُ",
+    "uzbek_title": "Rostlik va yolg'onchilik",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-14",
+    "book_id": 78,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ مَا يُنْهَى عَنِ السِّبَابِ وَاللَّعْنِ",
+    "uzbek_title": "So'kinish va la'natlashdan qaytarish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-15",
+    "book_id": 78,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ الْغَضَبُ",
+    "uzbek_title": "G'azab",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-16",
+    "book_id": 78,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ الْحَذَرُ مِنَ الْغَضَبِ",
+    "uzbek_title": "G'azabdan saqlanish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-17",
+    "book_id": 78,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ مَا يُنْهَى عَنِ التَّحَاسُدِ",
+    "uzbek_title": "Hasaddan qaytarish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-18",
+    "book_id": 78,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ الظَّنُّ",
+    "uzbek_title": "Gumon",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-19",
+    "book_id": 78,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ مَا يُنْهَى عَنِ التَّجَسُّسِ",
+    "uzbek_title": "Josuslikdan qaytarish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-20",
+    "book_id": 78,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ التَّكَبُّرُ",
+    "uzbek_title": "Kibr",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-21",
+    "book_id": 78,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ مَا يُنْهَى عَنِ التَّعَمُّقِ",
+    "uzbek_title": "Haddan oshishdan qaytarish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-22",
+    "book_id": 78,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ النَّاسُ مَعَادِنُ",
+    "uzbek_title": "Odamlar — ma'danlar",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-23",
+    "book_id": 78,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ الشُّكْرُ لِلنَّاسِ",
+    "uzbek_title": "Odamlarga shukr qilish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-24",
+    "book_id": 78,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ مَنْ أَحَقُّ النَّاسِ بِحُسْنِ الصُّحْبَةِ",
+    "uzbek_title": "Yaxshi muomalaga kim ko'proq haqli",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-25",
+    "book_id": 78,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ الْبِرُّ بِالأُمِّ",
+    "uzbek_title": "Onaga yaxshilik qilish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-26",
+    "book_id": 78,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ مَنْ وَصَلَ رَحِمَهُ",
+    "uzbek_title": "Silayi rahm qilgan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-27",
+    "book_id": 78,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ رَحْمَةُ النَّاسِ وَالْبَهَائِمِ",
+    "uzbek_title": "Odamlar va hayvonlarga rahm qilish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-28",
+    "book_id": 78,
+    "chapter_number": 28,
+    "arabic_title": "بَابُ قَتْلُ الأَفَاعِي وَغَيْرِهَا",
+    "uzbek_title": "Ilonlar va boshqalarni o'ldirish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-29",
+    "book_id": 78,
+    "chapter_number": 29,
+    "arabic_title": "بَابُ حَقُّ الضَّيْفِ",
+    "uzbek_title": "Mehmonning haqqi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-30",
+    "book_id": 78,
+    "chapter_number": 30,
+    "arabic_title": "بَابُ أَحَبُّ الأَسْمَاءِ إِلَى اللَّهِ",
+    "uzbek_title": "Allohga eng sevimli ismlar",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-31",
+    "book_id": 78,
+    "chapter_number": 31,
+    "arabic_title": "بَابُ تَغْيِيرُ الأَسْمَاءِ الْقَبِيحَةِ",
+    "uzbek_title": "Yomon ismlarni o'zgartirish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-32",
+    "book_id": 78,
+    "chapter_number": 32,
+    "arabic_title": "بَابُ الْكُنْيَةُ لِلصَّبِيِّ",
+    "uzbek_title": "Bolaga kuniya berish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-33",
+    "book_id": 78,
+    "chapter_number": 33,
+    "arabic_title": "بَابُ الإِصْلاَحُ بَيْنَ النَّاسِ",
+    "uzbek_title": "Odamlar o'rtasini isloh qilish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-34",
+    "book_id": 78,
+    "chapter_number": 34,
+    "arabic_title": "بَابُ الأَخُ فِي اللَّهِ",
+    "uzbek_title": "Alloh yo'lida aka-ukalik",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-35",
+    "book_id": 78,
+    "chapter_number": 35,
+    "arabic_title": "بَابُ مَنْ أَخَذَ بِيَدِ صَاحِبِهِ",
+    "uzbek_title": "Do'stining qo'lini ushlagan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-36",
+    "book_id": 78,
+    "chapter_number": 36,
+    "arabic_title": "بَابُ قِيَامُ الرَّجُلِ لِلرَّجُلِ",
+    "uzbek_title": "Birining boshqasiga hurmat uchun turishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-37",
+    "book_id": 78,
+    "chapter_number": 37,
+    "arabic_title": "بَابُ لاَ يُتْرَكُ النَّارُ فِي الْبَيْتِ",
+    "uzbek_title": "Uyda olov qoldirilmaydi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-38",
+    "book_id": 78,
+    "chapter_number": 38,
+    "arabic_title": "بَابُ الْفَرَاشُ لِلرَّجُلِ",
+    "uzbek_title": "Erkak uchun to'shak",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-39",
+    "book_id": 78,
+    "chapter_number": 39,
+    "arabic_title": "بَابُ الصَّنِيعَةُ إِلَى الْعَرَبِ",
+    "uzbek_title": "Arablarga yaxshilik",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-40",
+    "book_id": 78,
+    "chapter_number": 40,
+    "arabic_title": "بَابُ قَوْلِ النَّبِيِّ ﷺ يَسِّرُوا وَلاَ تُعَسِّرُوا",
+    "uzbek_title": "Nabi ﷺ: 'Osonlashtiring, qiyinlashtirmang'",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-41",
+    "book_id": 78,
+    "chapter_number": 41,
+    "arabic_title": "بَابُ التَّعَاوُنُ عَلَى الْبِرِّ وَالتَّقْوَى",
+    "uzbek_title": "Yaxshilik va taqvoda hamkorlik",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-42",
+    "book_id": 78,
+    "chapter_number": 42,
+    "arabic_title": "بَابُ مَنْ لاَ يَزَالُ يُصِيبُهُ الْبَلاَءُ",
+    "uzbek_title": "Doim balo uribturgan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-43",
+    "book_id": 78,
+    "chapter_number": 43,
+    "arabic_title": "بَابُ الإِثْمُ مَا حَاكَ فِي النَّفْسِ",
+    "uzbek_title": "Gunoh ko'ngilni nimadir tishlab turishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-44",
+    "book_id": 78,
+    "chapter_number": 44,
+    "arabic_title": "بَابُ الاِنْتِصَارُ مِنَ الظَّالِمِ",
+    "uzbek_title": "Zolimdan haq olish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-45",
+    "book_id": 78,
+    "chapter_number": 45,
+    "arabic_title": "بَابُ حَدِيثُ الرَّجُلِ مَعَ أَهْلِهِ",
+    "uzbek_title": "Erkakning oilasi bilan suhbati",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-46",
+    "book_id": 78,
+    "chapter_number": 46,
+    "arabic_title": "بَابُ مَنْ زَارَ قَوْمًا فَأَكَلَ عِنْدَهُمْ",
+    "uzbek_title": "Kimgadir tashrif buyurib taom yegan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-47",
+    "book_id": 78,
+    "chapter_number": 47,
+    "arabic_title": "بَابُ إِكْرَامُ الضَّيْفِ وَخِدْمَتُهُ بِنَفْسِهِ",
+    "uzbek_title": "Mehmonni izzat qilish va o'zi xizmat",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-78-chapter-48",
+    "book_id": 78,
+    "chapter_number": 48,
+    "arabic_title": "بَابُ مَا جَاءَ فِي أَسْمَاءِ النَّبِيِّ ﷺ",
+    "uzbek_title": "Nabi ﷺning ismlari haqida",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-1",
+    "book_id": 79,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ الاِسْتِئْذَانُ مِنْ أَجْلِ الْبَصَرِ",
+    "uzbek_title": "Ko'rish sababli ruxsat so'rash",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-2",
+    "book_id": 79,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ السَّلاَمُ مِنَ الإِسْلاَمِ",
+    "uzbek_title": "Salom Islomdan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-3",
+    "book_id": 79,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ إِفْشَاءُ السَّلاَمِ",
+    "uzbek_title": "Salom tarqatish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-4",
+    "book_id": 79,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ يُسَلِّمُ الرَّاكِبُ عَلَى الْمَاشِي",
+    "uzbek_title": "Minganlar piyodaga salom beradi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-5",
+    "book_id": 79,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ يُسَلِّمُ الصَّغِيرُ عَلَى الْكَبِيرِ",
+    "uzbek_title": "Kichik kattaga salom beradi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-6",
+    "book_id": 79,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ التَّسْلِيمُ عَلَى الصِّبْيَانِ",
+    "uzbek_title": "Bolalarga salom berish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-7",
+    "book_id": 79,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ السَّلاَمُ عَلَى النِّسَاءِ",
+    "uzbek_title": "Ayollarga salom berish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-8",
+    "book_id": 79,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ السَّلاَمُ عَلَى أَهْلِ الذِّمَّةِ",
+    "uzbek_title": "Zimmiylarga salom berish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-9",
+    "book_id": 79,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ كَيْفَ الرَّدُّ عَلَى أَهْلِ الذِّمَّةِ",
+    "uzbek_title": "Zimmiylarga javob qaytarish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-10",
+    "book_id": 79,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ الإِذَنُ ثَلاَثٌ",
+    "uzbek_title": "Ruxsat so'rash uch marta",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-11",
+    "book_id": 79,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ التَّسْلِيمُ وَالاِسْتِئْذَانُ ثَلاَثًا",
+    "uzbek_title": "Salom va uch marta ruxsat so'rash",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-12",
+    "book_id": 79,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ إِذَا قِيلَ لَكَ ارْجِعْ فَارْجِعْ",
+    "uzbek_title": "'Qayt' deyilsa, qaytiladi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-13",
+    "book_id": 79,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ لاَ يَنْظُرُ فِي بَيْتِ قَوْمٍ بِغَيْرِ إِذْنِهِمْ",
+    "uzbek_title": "Ruxsatsiz birovning uyiga qaramaslik",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-14",
+    "book_id": 79,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ لاَ يُقِيمُ الرَّجُلُ الرَّجُلَ مِنْ مَجْلِسِهِ",
+    "uzbek_title": "Kishi kishini o'rnidan turdirib olmaydi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-15",
+    "book_id": 79,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ مَنْ رَدَّ فَانْتَظَرَ حَتَّى يُؤْذَنَ لَهُ",
+    "uzbek_title": "Qaytarib yuborilsa, ruxsat kutgan",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-16",
+    "book_id": 79,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ الاِسْتِئْذَانُ مِنَ الصِّبْيَانِ وَمَنْ دُونَ الْبُلُوغِ",
+    "uzbek_title": "Bolalar va baloğatga yetmaganlarning ruxsat so'rashi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-17",
+    "book_id": 79,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ الاِنْتِهَاءُ عِنْدَ الشُّبُهَاتِ",
+    "uzbek_title": "Shubhali narsalardan to'xtash",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-18",
+    "book_id": 79,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ التَّبَسُّمُ وَالضَّحِكُ فِي الاِسْتِئْذَانِ",
+    "uzbek_title": "Ruxsat so'rashda tabassum va kulish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-19",
+    "book_id": 79,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ إِذَا قَالَ مَنْ ثَمَّ فَقِيلَ أَنَا",
+    "uzbek_title": "'Kim bor?' desa, 'Men' deyilsa",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-20",
+    "book_id": 79,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ لاَ يَسْتَأْذِنُ عَبْدٌ بِغَيْرِ إِذْنِ سَيِّدِهِ",
+    "uzbek_title": "Qul egasining ruxsatisiz kirmaydi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-21",
+    "book_id": 79,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ حَدِيثُ الرَّجُلِ مَعَ الْمَرْأَةِ فِي الاِسْتِئْذَانِ",
+    "uzbek_title": "Ruxsat so'rashda erkak va ayol suhbati",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-22",
+    "book_id": 79,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ مَنِ اسْتَأْذَنَ ثَلاَثًا فَلَمْ يُؤْذَنْ لَهُ",
+    "uzbek_title": "Uch marta ruxsat so'rab, ruxsat berilmasa",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-79-chapter-23",
+    "book_id": 79,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ هَلْ يُشِيرُ الرَّجُلُ بِيَدِهِ فِي السَّلاَمِ",
+    "uzbek_title": "Salom berishda qo'l bilan ishora qilinsinmi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-1",
+    "book_id": 80,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ فَضْلُ الدُّعَاءِ",
+    "uzbek_title": "Duoning fazilati",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-2",
+    "book_id": 80,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ الدُّعَاءُ رَفْعُ الْبَلاَءِ",
+    "uzbek_title": "Duo balo ko'taradi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-3",
+    "book_id": 80,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ الدُّعَاءُ عِنْدَ الأَذَانِ",
+    "uzbek_title": "Azon vaqtida duo",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-4",
+    "book_id": 80,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ الدُّعَاءُ بَعْدَ الصَّلاَةِ",
+    "uzbek_title": "Namozdan keyin duo",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-5",
+    "book_id": 80,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ الدُّعَاءُ فِي الصَّلاَةِ",
+    "uzbek_title": "Namozda duo",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-6",
+    "book_id": 80,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ قَوْلُ اللَّهُمَّ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً",
+    "uzbek_title": "'Rabbimiz, bizga dunyo va oxiratda yaxshilik ber' duosi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-7",
+    "book_id": 80,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الدُّعَاءُ عِنْدَ النَّوْمِ",
+    "uzbek_title": "Uxlashdan oldin duo",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-8",
+    "book_id": 80,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ مَا يَقُولُ إِذَا أَوَى إِلَى فِرَاشِهِ",
+    "uzbek_title": "To'shakka yotganda nima deyiladi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-9",
+    "book_id": 80,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ التَّعَوُّذُ مِنَ الشَّيْطَانِ",
+    "uzbek_title": "Shaytонdan panoh so'rash",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-10",
+    "book_id": 80,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ الدُّعَاءُ عِنْدَ الْكَرْبِ",
+    "uzbek_title": "Qayg'u vaqtida duo",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-11",
+    "book_id": 80,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ دُعَاءُ النَّبِيِّ ﷺ",
+    "uzbek_title": "Nabi ﷺning duolari",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-12",
+    "book_id": 80,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ التَّعَوُّذُ مِنَ الْجُبْنِ وَالْكَسَلِ",
+    "uzbek_title": "Qo'rqoqlik va dangasalikdan panoh",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-13",
+    "book_id": 80,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ التَّعَوُّذُ مِنَ الْبُخْلِ",
+    "uzbek_title": "Baxillikdan panoh",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-14",
+    "book_id": 80,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ التَّعَوُّذُ مِنَ الْمَأْثَمِ وَالْمَغْرَمِ",
+    "uzbek_title": "Gunoh va qarzdan panoh",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-15",
+    "book_id": 80,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ الدُّعَاءُ لِلصِّبْيَانِ بِالْبَرَكَةِ",
+    "uzbek_title": "Bolalarga baraka duosi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-16",
+    "book_id": 80,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ الصَّلاَةُ عَلَى النَّبِيِّ ﷺ",
+    "uzbek_title": "Nabi ﷺga salovot aytish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-17",
+    "book_id": 80,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ مَنْ خَتَمَ الدُّعَاءَ بِآمِينَ",
+    "uzbek_title": "Duoni 'Omin' bilan yakunlaganlar",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-18",
+    "book_id": 80,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ رَفْعُ الأَيْدِي فِي الدُّعَاءِ",
+    "uzbek_title": "Duoda qo'llarni ko'tarish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-19",
+    "book_id": 80,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ دُعَاءُ النَّبِيِّ ﷺ رَبِّ اغْفِرْ لِي",
+    "uzbek_title": "Nabi ﷺning 'Rabbim, meni mag'fir qil' duosi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-20",
+    "book_id": 80,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ فَضْلُ ذِكْرِ اللَّهِ عَزَّ وَجَلَّ",
+    "uzbek_title": "Alloh zikrining fazilati",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-21",
+    "book_id": 80,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ الاِسْتِغْفَارُ",
+    "uzbek_title": "Istighfor",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-22",
+    "book_id": 80,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ التَّوْبَةُ",
+    "uzbek_title": "Tavba",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-23",
+    "book_id": 80,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ مَنْ أَحَبَّ لِقَاءَ اللَّهِ",
+    "uzbek_title": "Allohga qovushishni sevgan kishi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-24",
+    "book_id": 80,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ الْخَوْفُ مِنَ اللَّهِ",
+    "uzbek_title": "Allohdan qo'rqish",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-25",
+    "book_id": 80,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ كَيْفَ كَانَتْ يَمِينُ النَّبِيِّ ﷺ",
+    "uzbek_title": "Nabi ﷺning qasamlari qanday edi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-26",
+    "book_id": 80,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ دُعَاءُ الرَّجُلِ لِأَهْلِهِ",
+    "uzbek_title": "Erkakning oilasi uchun duosi",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-27",
+    "book_id": 80,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ الدُّعَاءُ لِلْمُسْلِمِينَ",
+    "uzbek_title": "Musulmonlar uchun duo",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-28",
+    "book_id": 80,
+    "chapter_number": 28,
+    "arabic_title": "بَابُ الدُّعَاءُ إِذَا انْتَبَهَ مِنَ اللَّيْلِ",
+    "uzbek_title": "Kechasi uyg'onganda duo",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-29",
+    "book_id": 80,
+    "chapter_number": 29,
+    "arabic_title": "بَابُ الدُّعَاءُ نِصْفَ اللَّيْلِ",
+    "uzbek_title": "Yarim kechada duo",
+    "hadiths": []
+  },
+  {
+    "id": "bukhari-book-80-chapter-30",
+    "book_id": 80,
+    "chapter_number": 30,
+    "arabic_title": "بَابُ مَا يُقَالُ عِنْدَ النَّوْمِ",
+    "uzbek_title": "Uxlashda aytilgan narsa",
+    "hadiths": []
   }
 ]

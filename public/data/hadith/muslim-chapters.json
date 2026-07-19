@@ -2945,5 +2945,285 @@
     "chapter_number": 40,
     "arabic_title": "بَابُ فَضْلِ مَنْ أَنْفَقَ فِي سَبِيلِ اللَّهِ",
     "uzbek_title": "Alloh yo'lida sarflagan kishining fazilati"
+  },
+  {
+    "id": "muslim-book-13-chapter-1",
+    "book_id": 13,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ وُجُوبِ صَوْمِ رَمَضَانَ لِرُؤْيَةِ الْهِلَالِ وَالْفِطْرِ لِرُؤْيَتِهِ",
+    "uzbek_title": "Ramazon ro'zasining hilol ko'rish bilan vojib bo'lishi va hilol ko'rish bilan id qilinishi"
+  },
+  {
+    "id": "muslim-book-13-chapter-2",
+    "book_id": 13,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ لِكُلِّ بَلَدٍ رُؤْيَتَهُمْ",
+    "uzbek_title": "Har bir shaharda o'z ko'rishlari e'tiborga olinishi haqida bayoni"
+  },
+  {
+    "id": "muslim-book-13-chapter-3",
+    "book_id": 13,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ الشَّهْرُ يَكُونُ تِسْعَةً وَعِشْرِينَ يَوْمًا",
+    "uzbek_title": "Oy yigirma to'qqiz kun bo'lishi mumkinligi"
+  },
+  {
+    "id": "muslim-book-13-chapter-4",
+    "book_id": 13,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ فَضْلِ شَهْرِ رَمَضَانَ",
+    "uzbek_title": "Ramazon oyining fazilati"
+  },
+  {
+    "id": "muslim-book-13-chapter-5",
+    "book_id": 13,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ فَضْلِ الصِّيَامِ",
+    "uzbek_title": "Ro'zaning fazilati"
+  },
+  {
+    "id": "muslim-book-13-chapter-6",
+    "book_id": 13,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ الصِّيَامَ جُنَّةٌ مِنَ النَّارِ",
+    "uzbek_title": "Ro'za do'zaxdan saqlovchi qalqon ekanligi bayoni"
+  },
+  {
+    "id": "muslim-book-13-chapter-7",
+    "book_id": 13,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ فَضْلِ لَيْلَةِ الْقَدْرِ وَالْحَثِّ عَلَى طَلَبِهَا",
+    "uzbek_title": "Laylatul-qadr fazilati va uni izlashga targ'ib"
+  },
+  {
+    "id": "muslim-book-13-chapter-8",
+    "book_id": 13,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الصَّوْمِ قَبْلَ رَمَضَانَ بِيَوْمٍ أَوْ يَوْمَيْنِ",
+    "uzbek_title": "Ramazondan bir yoki ikki kun oldin ro'za tutishning man etilishi"
+  },
+  {
+    "id": "muslim-book-13-chapter-9",
+    "book_id": 13,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ فَضْلِ السُّحُورِ وَتَأْكِيدِ اسْتِحْبَابِهِ",
+    "uzbek_title": "Saharlikning fazilati va mustahab ekanligi"
+  },
+  {
+    "id": "muslim-book-13-chapter-10",
+    "book_id": 13,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ فَضْلِ تَعْجِيلِ الْفِطْرِ وَالتَّرْغِيبِ فِيهِ",
+    "uzbek_title": "Iftorni tezlashtirishning fazilati va unga targ'ib"
+  },
+  {
+    "id": "muslim-book-13-chapter-11",
+    "book_id": 13,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ مَا يُسْتَحَبُّ عِنْدَ الْإِفْطَارِ مِنَ الدُّعَاءِ",
+    "uzbek_title": "Iftor paytida dua qilish mustahabligi"
+  },
+  {
+    "id": "muslim-book-13-chapter-12",
+    "book_id": 13,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ بَيَانِ وَقْتِ انْقِضَاءِ الصَّوْمِ",
+    "uzbek_title": "Ro'za tugash vaqtini bayoni"
+  },
+  {
+    "id": "muslim-book-13-chapter-13",
+    "book_id": 13,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ جَوَازِ الصَّوْمِ وَالْفِطْرِ فِي شَهْرِ رَمَضَانَ لِلْمُسَافِرِ",
+    "uzbek_title": "Musofir uchun Ramazonda ro'za tutish va iftor qilish joizligi"
+  },
+  {
+    "id": "muslim-book-13-chapter-14",
+    "book_id": 13,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ التَّخْيِيرِ فِي الصَّوْمِ وَالْفِطْرِ فِي السَّفَرِ",
+    "uzbek_title": "Safarda ro'za yoki iftor qilishni tanlash"
+  },
+  {
+    "id": "muslim-book-13-chapter-15",
+    "book_id": 13,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ أَفْضَلِيَّةِ الصَّوْمِ فِي السَّفَرِ لِمَنْ لَا يَتَضَرَّرُ",
+    "uzbek_title": "Zarar bermasa safarda ro'za tutish afzalligi"
+  },
+  {
+    "id": "muslim-book-13-chapter-16",
+    "book_id": 13,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ صِحَّةِ صَوْمِ مَنْ طَلَعَ عَلَيْهِ الْفَجْرُ وَهُوَ جُنُبٌ",
+    "uzbek_title": "Janob holda saharlab qolgan kishining ro'zasi sahih ekanligi"
+  },
+  {
+    "id": "muslim-book-13-chapter-17",
+    "book_id": 13,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ الْأَكْلَ وَالشُّرْبَ نَاسِيًا لَا يُفْطِرُ",
+    "uzbek_title": "Unutib yeyish va ichish ro'zani buzmasligi bayoni"
+  },
+  {
+    "id": "muslim-book-13-chapter-18",
+    "book_id": 13,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ الْقُبْلَةِ لِلصَّائِمِ",
+    "uzbek_title": "Ro'za tutuvchi uchun o'pish haqida"
+  },
+  {
+    "id": "muslim-book-13-chapter-19",
+    "book_id": 13,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ تَحْرِيمِ صَوْمِ يَوْمَيِ الْعِيدَيْنِ",
+    "uzbek_title": "Ikki hayit kunida ro'za tutish haromligi"
+  },
+  {
+    "id": "muslim-book-13-chapter-20",
+    "book_id": 13,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ صَوْمِ أَيَّامِ التَّشْرِيقِ",
+    "uzbek_title": "Tashriq kunlarida ro'za tutishning man etilishi"
+  },
+  {
+    "id": "muslim-book-13-chapter-21",
+    "book_id": 13,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ صَوْمِ يَوْمِ الْجُمُعَةِ مُنْفَرِدًا",
+    "uzbek_title": "Juma kunini yolg'iz ro'za tutishning man etilishi"
+  },
+  {
+    "id": "muslim-book-13-chapter-22",
+    "book_id": 13,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ كَرَاهَةِ صِيَامِ يَوْمِ السَّبْتِ تَطَوُّعًا",
+    "uzbek_title": "Shanba kunini nafl ro'za sifatida tutish makruhligi"
+  },
+  {
+    "id": "muslim-book-13-chapter-23",
+    "book_id": 13,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ اسْتِحْبَابِ صِيَامِ ثَلَاثَةِ أَيَّامٍ مِنْ كُلِّ شَهْرٍ",
+    "uzbek_title": "Har oyda uch kun ro'za tutish mustahabligi"
+  },
+  {
+    "id": "muslim-book-13-chapter-24",
+    "book_id": 13,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ اسْتِحْبَابِ صِيَامِ سِتَّةِ أَيَّامٍ مِنْ شَوَّالٍ",
+    "uzbek_title": "Shavvolning olti kunini ro'za tutish mustahabligi"
+  },
+  {
+    "id": "muslim-book-13-chapter-25",
+    "book_id": 13,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ اسْتِحْبَابِ صِيَامِ يَوْمِ عَرَفَةَ",
+    "uzbek_title": "Arafa kuni ro'za tutish mustahabligi"
+  },
+  {
+    "id": "muslim-book-13-chapter-26",
+    "book_id": 13,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ صَوْمِ يَوْمِ عَاشُورَاءَ",
+    "uzbek_title": "Ashura kuni ro'za tutish"
+  },
+  {
+    "id": "muslim-book-13-chapter-27",
+    "book_id": 13,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ أَيُّ يَوْمٍ يُصَامُ فِي عَاشُورَاءَ",
+    "uzbek_title": "Ashura ro'zasi qaysi kuni tutilishi"
+  },
+  {
+    "id": "muslim-book-13-chapter-28",
+    "book_id": 13,
+    "chapter_number": 28,
+    "arabic_title": "بَابُ صَوْمِ يَوْمِ الِاثْنَيْنِ وَالْخَمِيسِ",
+    "uzbek_title": "Dushanba va payshanba kuni ro'za tutish"
+  },
+  {
+    "id": "muslim-book-13-chapter-29",
+    "book_id": 13,
+    "chapter_number": 29,
+    "arabic_title": "بَابُ صِيَامِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي غَيْرِ رَمَضَانَ",
+    "uzbek_title": "Nabiy sollallohu alayhi vasallamning Ramazondan tashqari ro'za tutishi"
+  },
+  {
+    "id": "muslim-book-13-chapter-30",
+    "book_id": 13,
+    "chapter_number": 30,
+    "arabic_title": "بَابُ صَوْمِ دَاوُودَ عَلَيْهِ السَّلَامُ وَهُوَ أَفْضَلُ الصِّيَامِ",
+    "uzbek_title": "Dovud alayhissalomning ro'zasi — eng afzal ro'za"
+  },
+  {
+    "id": "muslim-book-13-chapter-31",
+    "book_id": 13,
+    "chapter_number": 31,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ صَوْمِ الدَّهْرِ لِمَنْ تَضَرَّرَ بِهِ",
+    "uzbek_title": "Zarar ko'radigan kishining doim ro'za tutishdan man etilishi"
+  },
+  {
+    "id": "muslim-book-13-chapter-32",
+    "book_id": 13,
+    "chapter_number": 32,
+    "arabic_title": "بَابُ الصِّيَامِ فِي أَيَّامِ الْبِيضِ",
+    "uzbek_title": "Oyning oq kunlarida (13, 14, 15) ro'za tutish"
+  },
+  {
+    "id": "muslim-book-13-chapter-33",
+    "book_id": 13,
+    "chapter_number": 33,
+    "arabic_title": "بَابُ قَضَاءِ رَمَضَانَ فِي شَعْبَانَ",
+    "uzbek_title": "Ramazon qazosini Sha'bonda tutish"
+  },
+  {
+    "id": "muslim-book-13-chapter-34",
+    "book_id": 13,
+    "chapter_number": 34,
+    "arabic_title": "بَابُ قَضَاءِ الصَّوْمِ عَنِ الْمَيِّتِ",
+    "uzbek_title": "Mayit nomiga ro'za qazosini tutish"
+  },
+  {
+    "id": "muslim-book-13-chapter-35",
+    "book_id": 13,
+    "chapter_number": 35,
+    "arabic_title": "بَابُ جَوَازِ صَوْمِ التَّطَوُّعِ بِنِيَّةٍ مِنَ النَّهَارِ",
+    "uzbek_title": "Kunduz kuni niyat bilan nafl ro'za tutish joizligi"
+  },
+  {
+    "id": "muslim-book-13-chapter-36",
+    "book_id": 13,
+    "chapter_number": 36,
+    "arabic_title": "بَابُ جَوَازِ الْفِطْرِ لِلصَّائِمِ تَطَوُّعًا",
+    "uzbek_title": "Nafl ro'za tutuvchi kishi iftorini qilish joizligi"
+  },
+  {
+    "id": "muslim-book-13-chapter-37",
+    "book_id": 13,
+    "chapter_number": 37,
+    "arabic_title": "بَابُ صَوْمِ الْكَفَّارَاتِ وَالنُّذُورِ",
+    "uzbek_title": "Kafforat va nazr ro'zalari"
+  },
+  {
+    "id": "muslim-book-13-chapter-38",
+    "book_id": 13,
+    "chapter_number": 38,
+    "arabic_title": "بَابُ أَنَّ مَنْ دَخَلَ عَلَيْهِ رَمَضَانُ وَهُوَ مَرِيضٌ",
+    "uzbek_title": "Ramazon kirganda kasal bo'lgan kishi haqida"
+  },
+  {
+    "id": "muslim-book-13-chapter-39",
+    "book_id": 13,
+    "chapter_number": 39,
+    "arabic_title": "بَابُ صِيَامِ الْحَامِلِ وَالْمُرْضِعِ",
+    "uzbek_title": "Homilador va emizuvchi ayolning ro'zasi"
+  },
+  {
+    "id": "muslim-book-13-chapter-40",
+    "book_id": 13,
+    "chapter_number": 40,
+    "arabic_title": "بَابُ تَغْلِيظِ تَحْرِيمِ الْغِيبَةِ وَالْكَذِبِ وَالرَّفَثِ لِلصَّائِمِ",
+    "uzbek_title": "Ro'zadar uchun g'iybat, yolg'on va beadab so'zning qat'iy haromligi"
   }
 ]

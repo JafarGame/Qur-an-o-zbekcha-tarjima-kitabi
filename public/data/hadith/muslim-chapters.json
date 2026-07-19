@@ -1069,5 +1069,243 @@
     "chapter_number": 49,
     "arabic_title": "بَابُ مَسْحِ الْوَجْهِ وَالْيَدَيْنِ فِي التَّيَمُّمِ",
     "uzbek_title": "Tayammumda yuz va qo'llarni mashlash haqida"
+  },
+  {
+    "id": "muslim-book-4-chapter-1",
+    "book_id": 4,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ الدَّلِيلِ عَلَى أَنَّ نَقْصَ الدِّينِ وَالْعَقْلِ مِنْ خَصَائِصِ الْمَرْأَةِ وَتَفْسِيرِ ذَلِكَ",
+    "uzbek_title": "Din va aqlning kamayishi ayolga xos ekanligi dalili va uning tafsiri"
+  },
+  {
+    "id": "muslim-book-4-chapter-2",
+    "book_id": 4,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ تَحْرِيمِ وَطْءِ الْحَائِضِ وَالْكَفَّارَةِ فِي إِتْيَانِهَا",
+    "uzbek_title": "Hayz ko'rgan ayol bilan jima' haromligi va unga yaqinlashganda kaffora haqida"
+  },
+  {
+    "id": "muslim-book-4-chapter-3",
+    "book_id": 4,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ مُبَاشَرَةِ الْحَائِضِ فَوْقَ الْإِزَارِ",
+    "uzbek_title": "Hayz ko'rgan ayol bilan izar ustida muosharat qilish haqida"
+  },
+  {
+    "id": "muslim-book-4-chapter-4",
+    "book_id": 4,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ الِاضْطِجَاعِ مَعَ الْحَائِضِ فِي لِحَافٍ وَاحِدٍ",
+    "uzbek_title": "Hayz ko'rgan ayol bilan bir ko'rpa ostida yotish haqida"
+  },
+  {
+    "id": "muslim-book-4-chapter-5",
+    "book_id": 4,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ جَوَازِ غَسْلِ الْحَائِضِ رَأْسَ زَوْجِهَا وَتَرْجِيلِهِ",
+    "uzbek_title": "Hayz ko'rgan ayolning erining boshini yuvishi va tarayishi joizligi"
+  },
+  {
+    "id": "muslim-book-4-chapter-6",
+    "book_id": 4,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ جَوَازِ قِرَاءَةِ الْقُرْآنِ فِي حَجْرِ الْحَائِضِ",
+    "uzbek_title": "Hayz ko'rgan ayolning qo'ynida Quron o'qish joizligi"
+  },
+  {
+    "id": "muslim-book-4-chapter-7",
+    "book_id": 4,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ جَوَازِ أَخْذِ الْحَائِضِ شَيْئًا مِنَ الْمَسْجِدِ",
+    "uzbek_title": "Hayz ko'rgan ayolning masjiddan narsa olishi joizligi"
+  },
+  {
+    "id": "muslim-book-4-chapter-8",
+    "book_id": 4,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ أَنَّ الْحَائِضَ تَقْضِي الْمَنَاسِكَ كُلَّهَا إِلَّا الطَّوَافَ",
+    "uzbek_title": "Hayz ko'rgan ayol tavofdan boshqa barcha haj manosikini ado etishi haqida"
+  },
+  {
+    "id": "muslim-book-4-chapter-9",
+    "book_id": 4,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ اسْتِحْبَابِ اسْتِعْمَالِ الْمُغْتَسِلَةِ مِنَ الْحَيْضِ الطِّيبَ",
+    "uzbek_title": "Hayzdan g'usl qiladigan ayolga xushbo'y ishlatish mustahabligi"
+  },
+  {
+    "id": "muslim-book-4-chapter-10",
+    "book_id": 4,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ وُجُوبِ الْغُسْلِ عَلَى الْمَرْأَةِ عِنْدَ انْقِطَاعِ دَمِ الْحَيْضِ",
+    "uzbek_title": "Hayz qoni to'xtaganda ayolga g'usl vajibligi"
+  },
+  {
+    "id": "muslim-book-4-chapter-11",
+    "book_id": 4,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ قَضَاءِ الصَّوْمِ دُونَ الصَّلَاةِ لِلْحَائِضِ",
+    "uzbek_title": "Hayz ko'rgan ayol ro'zani qazо qiladi, namozni emas"
+  },
+  {
+    "id": "muslim-book-4-chapter-12",
+    "book_id": 4,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ الدَّلِيلِ عَلَى أَنَّ الْحَائِضَ لَا تَقْضِي الصَّلَاةَ",
+    "uzbek_title": "Hayz ko'rgan ayol namozni qazо qilmasligi dalili"
+  },
+  {
+    "id": "muslim-book-4-chapter-13",
+    "book_id": 4,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ حُكْمِ ثِيَابِ الْحَائِضِ وَالِاسْتِحَاضَةِ",
+    "uzbek_title": "Hayz va istihodat ko'rgan ayolning kiyimining hukmi"
+  },
+  {
+    "id": "muslim-book-4-chapter-14",
+    "book_id": 4,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ الِاسْتِحَاضَةِ وَكَيْفِيَّةِ صَلَاةِ الْمُسْتَحَاضَةِ",
+    "uzbek_title": "Istihodat va istihodat ko'rgan ayolning namoz o'qish usuli"
+  },
+  {
+    "id": "muslim-book-4-chapter-15",
+    "book_id": 4,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ الْمُسْتَحَاضَةِ تَتَوَضَّأُ لِكُلِّ صَلَاةٍ",
+    "uzbek_title": "Istihodat ko'rgan ayol har namoz uchun tahorat qilishi"
+  },
+  {
+    "id": "muslim-book-4-chapter-16",
+    "book_id": 4,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ جَوَازِ صِيَامِ الْمُسْتَحَاضَةِ وَصَلَاتِهَا",
+    "uzbek_title": "Istihodat ko'rgan ayolning ro'za tutishi va namoz o'qishi joizligi"
+  },
+  {
+    "id": "muslim-book-4-chapter-17",
+    "book_id": 4,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ بَيَانِ صِفَةِ دَمِ الْحَيْضِ وَدَمِ الِاسْتِحَاضَةِ",
+    "uzbek_title": "Hayz qoni va istihodat qonining sifati bayoni"
+  },
+  {
+    "id": "muslim-book-4-chapter-18",
+    "book_id": 4,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ مَا يَحِلُّ لِلرَّجُلِ مِنْ زَوْجَتِهِ وَهِيَ حَائِضٌ",
+    "uzbek_title": "Hayz ko'rgan xotindan erga nimalar halol ekanligi"
+  },
+  {
+    "id": "muslim-book-4-chapter-19",
+    "book_id": 4,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ وُجُوبِ الْغُسْلِ عَلَى الْمَرْأَةِ بِخُرُوجِ الْمَنِيِّ مِنْهَا",
+    "uzbek_title": "Ayoldan mani chiqsa g'usl vajibligi"
+  },
+  {
+    "id": "muslim-book-4-chapter-20",
+    "book_id": 4,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ الْمَرْأَةِ تَرَى فِي مَنَامِهَا مَا يَرَى الرَّجُلُ هَلْ عَلَيْهَا الْغُسْلُ",
+    "uzbek_title": "Ayol tushida erkaklardek ko'rsa g'usl qiladimi"
+  },
+  {
+    "id": "muslim-book-4-chapter-21",
+    "book_id": 4,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ الرَّجُلِ يَجِدُ فِي ثَوْبِهِ بَلَلًا وَلَا يَذْكُرُ احْتِلَامًا",
+    "uzbek_title": "Erkak kiyimida namlik topib, ihtilomni eslamas esa hukmi"
+  },
+  {
+    "id": "muslim-book-4-chapter-22",
+    "book_id": 4,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ حَيْضِ الْمَرْأَةِ فِي الْحَجِّ وَتَأْخِيرِ طَوَافِ الْإِفَاضَةِ",
+    "uzbek_title": "Hajdagi hayz va ifoda tavofini kechiktirish haqida"
+  },
+  {
+    "id": "muslim-book-4-chapter-23",
+    "book_id": 4,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ جَوَازِ تَأْخِيرِ الطَّوَافِ لِلْحَائِضِ",
+    "uzbek_title": "Hayz ko'rgan ayolga tavofni kechiktirish joizligi"
+  },
+  {
+    "id": "muslim-book-4-chapter-24",
+    "book_id": 4,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ جَوَازِ اعْتِكَافِ الزَّوْجِ وَزِيَارَةِ زَوْجَتِهِ الْحَائِضِ لَهُ",
+    "uzbek_title": "Erning i'tikof qilishi va hayz ko'rgan xotinining uni ziyorat qilishi joizligi"
+  },
+  {
+    "id": "muslim-book-4-chapter-25",
+    "book_id": 4,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ جَوَازِ إِطْعَامِ الرَّجُلِ الطَّعَامَ لِزَوْجَتِهِ الْحَائِضِ بِيَدِهِ",
+    "uzbek_title": "Erning hayz ko'rgan xotinini o'z qo'li bilan taom yedirishi joizligi"
+  },
+  {
+    "id": "muslim-book-4-chapter-26",
+    "book_id": 4,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ الدَّلِيلِ عَلَى أَنَّ الْمَرْأَةَ تَصِيرُ جُنُبًا بِالْتِقَاءِ الْخِتَانَيْنِ",
+    "uzbek_title": "Ikki xatnaning uchrashuvi bilan ayol janib bo'lishi dalili"
+  },
+  {
+    "id": "muslim-book-4-chapter-27",
+    "book_id": 4,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ نَسْخِ الْوُضُوءِ مِمَّا مَسَّتِ النَّارُ",
+    "uzbek_title": "Olov tekkan narsadan tahorat qilishning mansux bo'lishi"
+  },
+  {
+    "id": "muslim-book-4-chapter-28",
+    "book_id": 4,
+    "chapter_number": 28,
+    "arabic_title": "بَابُ الْوُضُوءِ مِمَّا مَسَّتِ النَّارُ",
+    "uzbek_title": "Olov teggan narsadan tahorat qilish haqida"
+  },
+  {
+    "id": "muslim-book-4-chapter-29",
+    "book_id": 4,
+    "chapter_number": 29,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ الصَّلَاةَ لَا تُكَرَّرُ بِتَكَرُّرِ مَسِّ الذَّكَرِ",
+    "uzbek_title": "Erkaklik a'zosiga tekkanda namozni qayta o'qish shart emasligi bayoni"
+  },
+  {
+    "id": "muslim-book-4-chapter-30",
+    "book_id": 4,
+    "chapter_number": 30,
+    "arabic_title": "بَابُ الْوُضُوءِ مِنْ مَسِّ الذَّكَرِ",
+    "uzbek_title": "Erkaklik a'zosiga tekkanda tahorat qilish haqida"
+  },
+  {
+    "id": "muslim-book-4-chapter-31",
+    "book_id": 4,
+    "chapter_number": 31,
+    "arabic_title": "بَابُ الدَّلِيلِ عَلَى أَنَّ مَنْ تَيَقَّنَ الطَّهَارَةَ ثُمَّ شَكَّ فِي الْحَدَثِ فَلَهُ الْبِنَاءُ عَلَى الْيَقِينِ",
+    "uzbek_title": "Tahoratga yaqin bo'lib, hadas haqida shak tug'ilsa yaqin asosiga qurishiga dalil"
+  },
+  {
+    "id": "muslim-book-4-chapter-32",
+    "book_id": 4,
+    "chapter_number": 32,
+    "arabic_title": "بَابُ الدَّلِيلِ عَلَى نَجَاسَةِ الْبَوْلِ وَوُجُوبِ الِاسْتِبْرَاءِ مِنْهُ",
+    "uzbek_title": "Siydikning najis ekanligi va undan istibro' vajibligi dalili"
+  },
+  {
+    "id": "muslim-book-4-chapter-33",
+    "book_id": 4,
+    "chapter_number": 33,
+    "arabic_title": "بَابُ الدَّلِيلِ عَلَى أَنَّ عَذَابَ الْقَبْرِ حَقٌّ وَالِاسْتِعَاذَةُ مِنْهُ",
+    "uzbek_title": "Qabr azobining haq ekanligi va undan panoh so'rash dalili"
+  },
+  {
+    "id": "muslim-book-4-chapter-34",
+    "book_id": 4,
+    "chapter_number": 34,
+    "arabic_title": "بَابُ نَضْحِ بَوْلِ الْغُلَامِ الرَّضِيعِ وَغَسْلِ بَوْلِ الْجَارِيَةِ",
+    "uzbek_title": "Emizikli o'g'il bolaning siydigini sepish va qiz bolaning siydigini yuvish haqida"
   }
 ]

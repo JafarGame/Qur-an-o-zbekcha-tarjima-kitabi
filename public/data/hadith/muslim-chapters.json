@@ -3225,5 +3225,61 @@
     "chapter_number": 40,
     "arabic_title": "بَابُ تَغْلِيظِ تَحْرِيمِ الْغِيبَةِ وَالْكَذِبِ وَالرَّفَثِ لِلصَّائِمِ",
     "uzbek_title": "Ro'zadar uchun g'iybat, yolg'on va beadab so'zning qat'iy haromligi"
+  },
+  {
+    "id": "muslim-book-14-chapter-1",
+    "book_id": 14,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ اعْتِكَافِ الْعَشْرِ الْأَوَاخِرِ مِنْ رَمَضَانَ",
+    "uzbek_title": "Ramazonning so'nggi o'n kunida e'tikof"
+  },
+  {
+    "id": "muslim-book-14-chapter-2",
+    "book_id": 14,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ اعْتِكَافِ الْعَشْرِ الْأُوَلِ وَالْأَوْسَطِ مِنْ رَمَضَانَ",
+    "uzbek_title": "Ramazonning birinchi va o'rta o'n kunida e'tikof"
+  },
+  {
+    "id": "muslim-book-14-chapter-3",
+    "book_id": 14,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ مَتَى يَدْخُلُ مَنْ أَرَادَ الِاعْتِكَافَ فِي مُعْتَكَفِهِ",
+    "uzbek_title": "E'tikof niyat qilgan kishi e'tikofga qachon kirishi"
+  },
+  {
+    "id": "muslim-book-14-chapter-4",
+    "book_id": 14,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ اعْتِكَافِ النِّسَاءِ",
+    "uzbek_title": "Ayollarning e'tikofi"
+  },
+  {
+    "id": "muslim-book-14-chapter-5",
+    "book_id": 14,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ جَوَازِ الْخُرُوجِ مِنَ الِاعْتِكَافِ لِلْحَاجَةِ",
+    "uzbek_title": "E'tikofdagi kishining zarur hojati uchun chiqishi joizligi"
+  },
+  {
+    "id": "muslim-book-14-chapter-6",
+    "book_id": 14,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ زِيَارَةِ الْمَرْأَةِ زَوْجَهَا فِي اعْتِكَافِهِ",
+    "uzbek_title": "Ayolning e'tikofdagi erini ziyorat qilishi"
+  },
+  {
+    "id": "muslim-book-14-chapter-7",
+    "book_id": 14,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ جَوَازِ غُسْلِ الْمُعْتَكِفِ",
+    "uzbek_title": "E'tikofdagi kishining g'usl qilishi joizligi"
+  },
+  {
+    "id": "muslim-book-14-chapter-8",
+    "book_id": 14,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ بُطْلَانِ الِاعْتِكَافِ بِالْوَطْءِ",
+    "uzbek_title": "Jima' bilan e'tikofning bekor bo'lishi"
   }
 ]

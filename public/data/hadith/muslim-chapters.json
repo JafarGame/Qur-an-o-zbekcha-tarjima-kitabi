@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "id": "muslim-book-1-chapter-1",
+    "book_id": 1,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ وُجُوبِ الرِّوَايَةِ عَنِ الثِّقَاتِ وَتَرْكِ الْكَذَّابِينَ وَالتَّحْذِيرِ مِنَ الْكَذِبِ عَلَى رَسُولِ اللهِ ﷺ",
+    "uzbek_title": "Ishonchli roviylardan rivoyat qilish vajibligi, yolg'onchilarni tark etish va Rasululloh ﷺ ga nisbatan yolg'on gapishdan ogohlantirish haqida"
+  },
+  {
+    "id": "muslim-book-1-chapter-2",
+    "book_id": 1,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الْحَدِيثِ بِكُلِّ مَا سَمِعَ",
+    "uzbek_title": "Eshitgan har narsani rivoyat qilishdan man etilganligi haqida"
+  },
+  {
+    "id": "muslim-book-1-chapter-3",
+    "book_id": 1,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ أَنَّ الْإِسْنَادَ مِنَ الدِّينِ وَأَنَّ الرِّوَايَةَ لَا تَكُونُ إِلَّا عَنِ الثِّقَاتِ",
+    "uzbek_title": "Isnad din-din ekanligining bayoni va rivoyat faqat ishonchli kishilardan bo'lishi haqida"
+  },
+  {
+    "id": "muslim-book-1-chapter-4",
+    "book_id": 1,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ جَرْحِ الرُّوَاةِ بِمَا هُوَ فِيهِمْ جَائِزٌ بَلْ وَاجِبٌ",
+    "uzbek_title": "Roviylarni haqiqiy kamchiliklari bilan tanqid qilish (jarh) joiz, balki vojib ekanligi haqida"
+  },
+  {
+    "id": "muslim-book-1-chapter-5",
+    "book_id": 1,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ صِحَّةِ الِاحْتِجَاجِ بِالْحَدِيثِ الْمُعَنْعَنِ",
+    "uzbek_title": "«An» lafzi bilan kelgan hadislar bilan hujjat keltirish sahihligi haqida"
+  },
+  {
+    "id": "muslim-book-1-chapter-6",
+    "book_id": 1,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ بَيَانِ أَنَّهُ يَجِبُ الرِّوَايَةُ عَنِ الثِّقَاتِ وَتَرْكُ الْكَذَّابِينَ",
+    "uzbek_title": "Ishonchli kishilardan rivoyat qilish vojib va yolg'onchilarni tark etish lozimligining bayoni"
+  },
+  {
+    "id": "muslim-book-1-chapter-7",
+    "book_id": 1,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ التَّثَبُّتِ فِي الْحَدِيثِ وَحُكْمِ كِتَابَةِ الْعِلْمِ",
+    "uzbek_title": "Hadisda ehtiyotkorlik va ilmni yozib qo'yishning hukmi haqida"
+  }
+]

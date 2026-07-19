@@ -47,5 +47,684 @@
     "chapter_number": 7,
     "arabic_title": "بَابُ التَّثَبُّتِ فِي الْحَدِيثِ وَحُكْمِ كِتَابَةِ الْعِلْمِ",
     "uzbek_title": "Hadisda ehtiyotkorlik va ilmni yozib qo'yishning hukmi haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-1",
+    "book_id": 2,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ بَيَانِ أَرْكَانِ الْإِسْلَامِ وَدَعَائِمِهِ الْعِظَامِ",
+    "uzbek_title": "Islomning asoslari va ulug' ustunlari bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-2",
+    "book_id": 2,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ الْأَمْرِ بِقِتَالِ النَّاسِ حَتَّى يَقُولُوا: لَا إِلَهَ إِلَّا اللهُ مُحَمَّدٌ رَسُولُ اللهِ",
+    "uzbek_title": "Odamlar «La ilaha illallah, Muhammadun rasulullah» deyguncha urushish buyrug'i haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-3",
+    "book_id": 2,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ الدَّلِيلِ عَلَى أَنَّ مَنْ مَاتَ عَلَى التَّوْحِيدِ دَخَلَ الْجَنَّةَ قَطْعًا",
+    "uzbek_title": "Tavhid ustida vafot etgan kishi albatta jannatga kirishi haqida dalil"
+  },
+  {
+    "id": "muslim-book-2-chapter-4",
+    "book_id": 2,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ الدَّلِيلِ عَلَى أَنَّ مَنْ رَضِيَ بِاللهِ رَبًّا وَبِالْإِسْلَامِ دِينًا وَبِمُحَمَّدٍ ﷺ رَسُولًا فَهُوَ مُؤْمِنٌ",
+    "uzbek_title": "Allohni Rabb, Islomni din, Muhammadni ﷺ rasul deb tan olgan kishi mo'min ekanligi dalili"
+  },
+  {
+    "id": "muslim-book-2-chapter-5",
+    "book_id": 2,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ الْإِيمَانَ بِاللهِ تَعَالَى أَفْضَلُ الْأَعْمَالِ",
+    "uzbek_title": "Alloh taologa iymon keltirish eng afzal amal ekanligi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-6",
+    "book_id": 2,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ بَيَانِ الْإِيمَانِ الَّذِي يُدْخَلُ بِهِ الْجَنَّةُ",
+    "uzbek_title": "Jannatga kiritadigan iymonning bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-7",
+    "book_id": 2,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ بَيَانِ كَوْنِ النَّهْيِ عَنِ الْمُنْكَرِ مِنَ الْإِيمَانِ",
+    "uzbek_title": "Yovuzlikdan qaytarish iymondan ekanligi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-8",
+    "book_id": 2,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ الْإِيمَانَ يَزِيدُ وَيَنْقُصُ",
+    "uzbek_title": "Iymon ortishi va kamayishi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-9",
+    "book_id": 2,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ بَيَانِ خِصَالِ الْمُنَافِقِ",
+    "uzbek_title": "Munofiq alomatlari bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-10",
+    "book_id": 2,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ بَيَانِ حَالِ إِيمَانِ مَنْ رَغِبَ عَنْ أَبِيهِ وَهُوَ يَعْلَمُ",
+    "uzbek_title": "Bilgan holda otasidan yuz o'girgan kishining iymon holati bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-11",
+    "book_id": 2,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ الدَّلِيلِ عَلَى أَنَّ حُبَّ الْأَنْصَارِ وَعَلِيٍّ رَضِيَ اللهُ عَنْهُمْ مِنَ الْإِيمَانِ وَعَلَامَاتِهِ",
+    "uzbek_title": "Ansor va Alini r.a. sevish iymon alamatllaridan ekanligi dalili"
+  },
+  {
+    "id": "muslim-book-2-chapter-12",
+    "book_id": 2,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ الدَّلِيلِ عَلَى أَنَّ مَنْ مَاتَ عَلَى الْكُفْرِ لَا يَنْفَعُهُ عَمَلٌ وَلَا يُسْتَغْفَرُ لَهُ",
+    "uzbek_title": "Kufr ustida vafot etgan kishiga amali foydasi va uning uchun istig'for qilinmasligi dalili"
+  },
+  {
+    "id": "muslim-book-2-chapter-13",
+    "book_id": 2,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ قَوْلِهِ ﷺ: مَنْ غَشَّنَا فَلَيْسَ مِنَّا",
+    "uzbek_title": "Payg'ambar ﷺ ning «Bizni aldagan bizdan emas» so'zi haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-14",
+    "book_id": 2,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ السِّبَابَ لِلْمُسْلِمِ فُسُوقٌ وَقِتَالَهُ كُفْرٌ",
+    "uzbek_title": "Musulmonni so'kish fisq, uni o'ldirish esa kufr ekanligi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-15",
+    "book_id": 2,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ بَيَانِ حَالِ مَنْ قَالَ لِأَخِيهِ الْمُسْلِمِ: يَا كَافِرُ",
+    "uzbek_title": "Musulmon birodari ga «Ey kafir» degan kishining holati bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-16",
+    "book_id": 2,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ إِثْمِ مَنْ دَعَا إِلَى ضَلَالَةٍ أَوْ سَنَّ سُنَّةً سَيِّئَةً وَثَوَابِ مَنْ دَعَا إِلَى هُدًى أَوْ سَنَّ سُنَّةً حَسَنَةً",
+    "uzbek_title": "Zalolatga da'vat qilgan kishining gunohи va hidoyatga da'vat qilgan yoxud yaxshi sunnat joriy etgan kishining savobи"
+  },
+  {
+    "id": "muslim-book-2-chapter-17",
+    "book_id": 2,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ بَيَانِ إِطْلَاقِ اسْمِ الْكُفْرِ عَلَى مَنْ تَرَكَ الصَّلَاةَ",
+    "uzbek_title": "Namozni tark etganga kufr nomini berish bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-18",
+    "book_id": 2,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ إِطْلَاقِ اسْمِ الْكُفْرِ عَلَى الطَّعْنِ فِي النَّسَبِ وَالنِّيَاحَةِ عَلَى الْمَيِّتِ",
+    "uzbek_title": "Nasab ta'nasi va mayyit ustida nolishga (navoha) kufr nomini berish haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-19",
+    "book_id": 2,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ بَيَانِ غِلَظِ تَحْرِيمِ النَّمِيمَةِ",
+    "uzbek_title": "Gina-kudurat (namima) haromligining og'irligining bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-20",
+    "book_id": 2,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ تَحْرِيمِ الْكِبْرِ وَبَيَانِهِ",
+    "uzbek_title": "Kibr haromligining bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-21",
+    "book_id": 2,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ بَيَانِ الْوَسْوَسَةِ فِي الْإِيمَانِ وَمَا يَقُولُهُ مَنْ وَجَدَهَا",
+    "uzbek_title": "Iymondagi vasvasa va uni his etgan kishi nima deyishi haqida bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-22",
+    "book_id": 2,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ بَيَانِ حُكْمِ عَمَلِ مَنْ عَمِلَ فِي الْإِسْلَامِ ثُمَّ ارْتَدَّ",
+    "uzbek_title": "Islomda amal qilib so'ng irtidad qilgan kishining amalining hukmi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-23",
+    "book_id": 2,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ الدَّلِيلِ عَلَى أَنَّ مَنْ قَصَدَ أَخْذَ مَالِ غَيْرِهِ بِغَيْرِ حَقٍّ كَانَ الْآخِذُ فِي النَّارِ",
+    "uzbek_title": "Haqsiz ravishda boshqasining molini olmoqchi bo'lgan kishi jahannamda ekanligi dalili"
+  },
+  {
+    "id": "muslim-book-2-chapter-24",
+    "book_id": 2,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ بَيَانِ كَبِيرَةِ الْكَبَائِرِ وَأَكْبَرِهَا",
+    "uzbek_title": "Katta gunohlarning bayoni va eng kattasi haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-25",
+    "book_id": 2,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ كَوْنِ الْإِشْرَاكِ أَقْبَحَ الذُّنُوبِ وَبَيَانِ أَعْظَمِهَا بَعْدَهُ",
+    "uzbek_title": "Shirk eng yomon gunoh ekanligi va undan keyingi eng ulug' gunohlarning bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-26",
+    "book_id": 2,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ بَيَانِ إِطْلَاقِ اسْمِ الْكُفْرِ عَلَى مَنْ أَتَى بَعْضَ أَعْمَالِ الْجَاهِلِيَّةِ",
+    "uzbek_title": "Johiliyat amallaridan birini qilganga kufr nomini berish bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-27",
+    "book_id": 2,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الْحَلِفِ بِغَيْرِ اللهِ تَعَالَى",
+    "uzbek_title": "Alloh taoloning otidan boshqa nom bilan qasam ichishdan man etish haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-28",
+    "book_id": 2,
+    "chapter_number": 28,
+    "arabic_title": "بَابُ مَنْ حَلَفَ بِغَيْرِ مِلَّةِ الْإِسْلَامِ فَعَلَيْهِ الْكَفَّارَةُ",
+    "uzbek_title": "Islomdan boshqa millat bilan qasam ichgan kishiga kaffora lozim ekanligi haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-29",
+    "book_id": 2,
+    "chapter_number": 29,
+    "arabic_title": "بَابُ قَبُولِ إِيمَانِ مَنْ أَقَرَّ بِلِسَانِهِ وَاسْتَوْجَبَ الْقَتْلَ بِرِدَّتِهِ",
+    "uzbek_title": "Tili bilan iqror etib, irtidodi bilan o'limni haqlashtirgan kishining iymonini qabul qilish haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-30",
+    "book_id": 2,
+    "chapter_number": 30,
+    "arabic_title": "بَابُ بَيَانِ قَوْلِ النَّبِيِّ ﷺ: أَنَا أَعْلَمُكُمْ بِاللهِ وَأَتْقَاكُمْ لَهُ",
+    "uzbek_title": "Payg'ambar ﷺ ning «Sizlar orasida Allohni eng ko'p biluvchi va undan eng ko'p qo'rquvchi menman» so'zining bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-31",
+    "book_id": 2,
+    "chapter_number": 31,
+    "arabic_title": "بَابُ بَيَانِ نُقْصَانِ الْإِيمَانِ بِنُقْصَانِ الطَّاعَاتِ وَإِطْلَاقِ لَفْظِ الْكُفْرِ عَلَى غَيْرِ الْكُفْرِ بِاللهِ",
+    "uzbek_title": "Itoatsizlik bilan iymonning kamayishi va kufr lafzini Allohga kufr bo'lmagan narsalarga nisbatan ishlatish bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-32",
+    "book_id": 2,
+    "chapter_number": 32,
+    "arabic_title": "بَابُ بَيَانِ عَدَدِ شُعَبِ الْإِيمَانِ وَأَفْضَلِهَا وَأَدْنَاهَا وَفَضِيلَةِ الْحَيَاءِ",
+    "uzbek_title": "Iymon shoxlarining soni, eng afzali, eng quyi darajasi va uyatning fazilati bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-33",
+    "book_id": 2,
+    "chapter_number": 33,
+    "arabic_title": "بَابُ بَيَانِ تَفَاضُلِ أَهْلِ الْإِيمَانِ فِيهِ وَسَبْقِ الْكَمَّلِ مِنْهُمْ إِلَى الْجَنَّةِ",
+    "uzbek_title": "Mo'minlarning iymon jihatidan farqlanishi va ularning kamolga yetganlari jannatga birinchi bo'lib kirishi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-34",
+    "book_id": 2,
+    "chapter_number": 34,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ الدِّينَ النَّصِيحَةُ",
+    "uzbek_title": "Din nasihат ekanligi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-35",
+    "book_id": 2,
+    "chapter_number": 35,
+    "arabic_title": "بَابُ بَيَانِ حَالِ إِيمَانِ مَنِ افْتَرَى عَلَى أَبِيهِ وَهُوَ يَعْلَمُ",
+    "uzbek_title": "Bilgan holda otasiga tuhmat qilgan kishining iymon holati bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-36",
+    "book_id": 2,
+    "chapter_number": 36,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ الْإِسْلَامَ بَدَأَ غَرِيبًا وَسَيَعُودُ غَرِيبًا",
+    "uzbek_title": "Islom g'arib holda boshlangani va yana g'arib bo'lib ketishi haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-37",
+    "book_id": 2,
+    "chapter_number": 37,
+    "arabic_title": "بَابُ الْأَمْرِ بِالْإِيمَانِ بِاللهِ وَرَسُولِهِ ﷺ وَشَرَائِعِ الدِّينِ وَالدُّعَاءِ إِلَيْهِ",
+    "uzbek_title": "Allohga, Rasulullohga ﷺ va din ahkomlariga iymon keltirish buyrug'i va ularga da'vat haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-38",
+    "book_id": 2,
+    "chapter_number": 38,
+    "arabic_title": "بَابُ الْأَمْرِ بِقِتَالِ النَّاسِ حَتَّى يَقُولُوا لَا إِلَهَ إِلَّا اللهُ وَيُقِيمُوا الصَّلَاةَ وَيُؤْتُوا الزَّكَاةَ",
+    "uzbek_title": "Odamlar namoz o'qib, zakot bergunicha urushish buyrug'i haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-39",
+    "book_id": 2,
+    "chapter_number": 39,
+    "arabic_title": "بَابُ بَيَانِ الْإِيمَانِ وَالْإِسْلَامِ وَالْإِحْسَانِ وَوُجُوبِ الْإِيمَانِ بِإِثْبَاتِ قَدَرِ اللهِ",
+    "uzbek_title": "Iymon, Islom va Ihsonning bayoni hamda Allohning taqdirini isbotlash orqali iymоn keltirish vajibligi (Jabroil hadisi)"
+  },
+  {
+    "id": "muslim-book-2-chapter-40",
+    "book_id": 2,
+    "chapter_number": 40,
+    "arabic_title": "بَابُ تَفْسِيرِ الْإِيمَانِ بِالْإِسْلَامِ وَتَفْسِيرِ الْإِسْلَامِ بِالْأَعْمَالِ",
+    "uzbek_title": "Iymonning Islom bilan tafsiri va Islomning amallar bilan tafsiri bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-41",
+    "book_id": 2,
+    "chapter_number": 41,
+    "arabic_title": "بَابُ بَيَانِ الصَّلَوَاتِ الَّتِي هِيَ أَحَدُ أَرْكَانِ الْإِسْلَامِ",
+    "uzbek_title": "Islomning asosiy ruknlaridan biri bo'lgan namozlarning bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-42",
+    "book_id": 2,
+    "chapter_number": 42,
+    "arabic_title": "بَابُ بَيَانِ كَوْنِ مَنْ مَاتَ عَلَى الْإِسْلَامِ دَخَلَ الْجَنَّةَ",
+    "uzbek_title": "Islom ustida vafot etgan kishi jannatga kirishi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-43",
+    "book_id": 2,
+    "chapter_number": 43,
+    "arabic_title": "بَابُ الدَّلِيلِ عَلَى أَنَّ مَنْ مَاتَ عَلَى التَّوْحِيدِ دَخَلَ الْجَنَّةَ وَإِنْ لَمْ يَعْمَلْ",
+    "uzbek_title": "Tavhid ustida vafot etgan kishi, amal qilmasa ham jannatga kirishi dalili"
+  },
+  {
+    "id": "muslim-book-2-chapter-44",
+    "book_id": 2,
+    "chapter_number": 44,
+    "arabic_title": "بَابُ إِثْبَاتِ رُؤْيَةِ الْمُؤْمِنِينَ فِي الْآخِرَةِ رَبَّهُمْ سُبْحَانَهُ وَتَعَالَى",
+    "uzbek_title": "Mo'minlarning oxiratda Rabbilari Subhonahu va Taoloni ko'rishlari isboti"
+  },
+  {
+    "id": "muslim-book-2-chapter-45",
+    "book_id": 2,
+    "chapter_number": 45,
+    "arabic_title": "بَابُ مَعْرِفَةِ طَرِيقِ الرُّؤْيَةِ",
+    "uzbek_title": "Ko'rish yo'lini bilish haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-46",
+    "book_id": 2,
+    "chapter_number": 46,
+    "arabic_title": "بَابُ أَدْنَى أَهْلِ الْجَنَّةِ مَنْزِلَةً فِيهَا",
+    "uzbek_title": "Jannat ahlining eng quyi martabadagisi haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-47",
+    "book_id": 2,
+    "chapter_number": 47,
+    "arabic_title": "بَابُ آخِرِ أَهْلِ النَّارِ خُرُوجًا مِنْهَا",
+    "uzbek_title": "Do'zaxdan eng oxirda chiqadigan kishi haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-48",
+    "book_id": 2,
+    "chapter_number": 48,
+    "arabic_title": "بَابُ فَضْلِ الصَّلَاةِ وَالْإِيمَانِ وَالصِّيَامِ فِي سَبِيلِ اللهِ",
+    "uzbek_title": "Namozning, iymonning va Allah yo'lida ro'za tutishning fazilati"
+  },
+  {
+    "id": "muslim-book-2-chapter-49",
+    "book_id": 2,
+    "chapter_number": 49,
+    "arabic_title": "بَابُ بَيَانِ حُكْمِ عَمَلِ الْكَافِرِ إِذَا أَسْلَمَ بَعْدَهُ",
+    "uzbek_title": "Kafirgа Islomга kirganida dо'zaxdagi amallarining hukmi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-50",
+    "book_id": 2,
+    "chapter_number": 50,
+    "arabic_title": "بَابُ وُجُوبِ الْإِيمَانِ بِرِسَالَةِ نَبِيِّنَا ﷺ إِلَى جَمِيعِ النَّاسِ وَنَسْخِ الْمِلَلِ بِمِلَّتِهِ",
+    "uzbek_title": "Payg'ambarimiz ﷺ ning risоlatiga barcha insonlar uchun iymon keltirish vajibligi va uning dini bilan boshqa dinlarning bekor qilinishi"
+  },
+  {
+    "id": "muslim-book-2-chapter-51",
+    "book_id": 2,
+    "chapter_number": 51,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ كُلَّ شَرِيعَةٍ مَنْسُوخَةٌ بِشَرِيعَةِ مُحَمَّدٍ ﷺ",
+    "uzbek_title": "Barcha shariатlar Muhammadning ﷺ shariati bilan mansux bo'lishi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-52",
+    "book_id": 2,
+    "chapter_number": 52,
+    "arabic_title": "بَابُ الْإِيمَانِ بِالْقَدَرِ وَالْإِذْعَانِ لَهُ",
+    "uzbek_title": "Taqdirga iymon keltirish va unga bo'ysunish haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-53",
+    "book_id": 2,
+    "chapter_number": 53,
+    "arabic_title": "بَابُ الْأَمْرِ بِالْقُوَّةِ وَتَرْكِ الْعَجْزِ وَالِاسْتِعَانَةِ بِاللهِ",
+    "uzbek_title": "Kuchli bo'lish, ojizlikni tark etish va Allohdan madad so'rash buyrug'i haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-54",
+    "book_id": 2,
+    "chapter_number": 54,
+    "arabic_title": "بَابُ تَحْرِيمِ الظُّلْمِ وَبَيَانِ أَنَّ الظُّلْمَ ظُلُمَاتٌ يَوْمَ الْقِيَامَةِ",
+    "uzbek_title": "Zulm haromligi va zulm Qiyomat kunida zulmatlar ekanligi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-55",
+    "book_id": 2,
+    "chapter_number": 55,
+    "arabic_title": "بَابُ تَحْرِيمِ الْغِشِّ فِي الْبَيْعِ وَغَيْرِهِ",
+    "uzbek_title": "Savdо-sotiqda va boshqa joylarda aldashning haromligi"
+  },
+  {
+    "id": "muslim-book-2-chapter-56",
+    "book_id": 2,
+    "chapter_number": 56,
+    "arabic_title": "بَابُ تَحْرِيمِ حَقْنِ الدَّمِ وَالْمَالِ وَالْعِرْضِ",
+    "uzbek_title": "Qon, mol va nomусning haromligini muhofaza qilish haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-57",
+    "book_id": 2,
+    "chapter_number": 57,
+    "arabic_title": "بَابُ تَحْرِيمِ قَتْلِ الْكَافِرِ بَعْدَ أَنْ قَالَ: لَا إِلَهَ إِلَّا اللهُ",
+    "uzbek_title": "«La ilaha illallah» dеgandan keyin kafirni o'ldirish haromligi"
+  },
+  {
+    "id": "muslim-book-2-chapter-58",
+    "book_id": 2,
+    "chapter_number": 58,
+    "arabic_title": "بَابُ بَيَانِ حُكْمِ مَنِ اسْتَعَاذَ بِالْإِسْلَامِ فَلَا يُقْتَلُ",
+    "uzbek_title": "Islom bilan panoh so'ragan kishining o'ldirilmasligi hukmi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-59",
+    "book_id": 2,
+    "chapter_number": 59,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ الْإِسْلَامَ يَهْدِمُ مَا كَانَ قَبْلَهُ وَكَذَا الْهِجْرَةُ وَالْحَجُّ",
+    "uzbek_title": "Islom ilgarigi narsalarni yo'q qilishi, hijrat va haj ham shunday ekanligi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-60",
+    "book_id": 2,
+    "chapter_number": 60,
+    "arabic_title": "بَابُ بَيَانِ مَعْنَى قَوْلِ اللهِ عَزَّ وَجَلَّ: ﴿وَمَن يُسْلِمْ وَجْهَهُ إِلَى اللهِ وَهُوَ مُحْسِنٌ﴾",
+    "uzbek_title": "Alloh taoloning «Kim Allohga to'liq taslim bo'lsa va yaxshilik qilsa» oyatining mazmuni bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-61",
+    "book_id": 2,
+    "chapter_number": 61,
+    "arabic_title": "بَابُ بَيَانِ الْوَعِيدِ الشَّدِيدِ لِمَنْ لَمْ يُصَلِّ",
+    "uzbek_title": "Namoz o'qimaganga og'ir ogohlantirish bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-62",
+    "book_id": 2,
+    "chapter_number": 62,
+    "arabic_title": "بَابُ الدَّلِيلِ عَلَى أَنَّ مَنْ آمَنَ ثُمَّ كَفَرَ ثُمَّ آمَنَ قُبِلَ إِيمَانُهُ",
+    "uzbek_title": "Iymon keltirgan, so'ng kufr qilgan, so'ng yana iymon keltirgan kishining iymoni qabul bo'lishi dalili"
+  },
+  {
+    "id": "muslim-book-2-chapter-63",
+    "book_id": 2,
+    "chapter_number": 63,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ الْأَعْمَالَ بِالْخَوَاتِيمِ وَمَا أَشْكَلَ مِنْ ذَلِكَ",
+    "uzbek_title": "Amallarning xotimasiga qarab baholanishi va bu masaladagi mushkil jihatlar bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-64",
+    "book_id": 2,
+    "chapter_number": 64,
+    "arabic_title": "بَابُ بَيَانِ غِلَظِ تَحْرِيمِ قَتْلِ الْإِنْسَانِ نَفْسَهُ",
+    "uzbek_title": "Insonning o'z joniga qasd qilishi haromligining og'irligи bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-65",
+    "book_id": 2,
+    "chapter_number": 65,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ السَّخَاءَ مِنَ الْإِيمَانِ",
+    "uzbek_title": "Saxiylik iymondan ekanligi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-66",
+    "book_id": 2,
+    "chapter_number": 66,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ حُبَّ الْمُؤْمِنِ لِأَخِيهِ فِي اللهِ مِنَ الْإِيمَانِ",
+    "uzbek_title": "Mo'minning birodarini Alloh uchun sevishi iymondan ekanligi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-67",
+    "book_id": 2,
+    "chapter_number": 67,
+    "arabic_title": "بَابُ بَيَانِ كَمَالِ الْإِيمَانِ وَأَحَبِّ أَهْلِهِ إِلَى اللهِ",
+    "uzbek_title": "Iymon kamolining bayoni va Alloh taologa eng sevimli mo'min sifati"
+  },
+  {
+    "id": "muslim-book-2-chapter-68",
+    "book_id": 2,
+    "chapter_number": 68,
+    "arabic_title": "بَابُ بَيَانِ حَلَاوَةِ الْإِيمَانِ",
+    "uzbek_title": "Iymon shirin lezatining bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-69",
+    "book_id": 2,
+    "chapter_number": 69,
+    "arabic_title": "بَابُ خِصَالٍ مَنِ اتَّصَفَ بِهِنَّ وَجَدَ حَلَاوَةَ الْإِيمَانِ",
+    "uzbek_title": "Iymon shirin lezatini topish uchun zarur bo'lgan sifatlar haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-70",
+    "book_id": 2,
+    "chapter_number": 70,
+    "arabic_title": "بَابُ وُجُوبِ مَحَبَّةِ رَسُولِ اللهِ ﷺ أَكْثَرَ مِنَ الْأَهْلِ وَالْوَلَدِ وَالنَّاسِ أَجْمَعِينَ",
+    "uzbek_title": "Rasululloh ﷺ ni oila, bola va barcha insonlardan ko'proq sevish vajibligi"
+  },
+  {
+    "id": "muslim-book-2-chapter-71",
+    "book_id": 2,
+    "chapter_number": 71,
+    "arabic_title": "بَابُ الدَّلِيلِ عَلَى أَنَّ مَنْ مَاتَ عَلَى الْكُفْرِ فَهُوَ فِي النَّارِ وَلَا تَنَالُهُ الشَّفَاعَةُ",
+    "uzbek_title": "Kufr ustida vafot etgan kishi do'zaxda ekanligi va unga shafоat yetmasлigi dalili"
+  },
+  {
+    "id": "muslim-book-2-chapter-72",
+    "book_id": 2,
+    "chapter_number": 72,
+    "arabic_title": "بَابُ الدَّلِيلِ عَلَى صِحَّةِ إِسْلَامِ مَنْ حَضَرَهُ الْمَوْتُ مَا لَمْ يُغَرْغِرْ",
+    "uzbek_title": "Jon holat bo'lib qolmagunicha o'limda Islomga kirishning sahih bo'lishi dalili"
+  },
+  {
+    "id": "muslim-book-2-chapter-73",
+    "book_id": 2,
+    "chapter_number": 73,
+    "arabic_title": "بَابُ بَيَانِ أَنَّهُ لَا يَكْفِي مُجَرَّدُ قَوْلِ لَا إِلَهَ إِلَّا اللهُ دُونَ الْيَقِينِ بِالْقَلْبِ",
+    "uzbek_title": "Yurakdan yaqin bo'lmasdan shunchaki «La ilaha illallah» deyishning kifoya qilmasligi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-74",
+    "book_id": 2,
+    "chapter_number": 74,
+    "arabic_title": "بَابُ مَنْ لَقِيَ اللهَ بِالْإِيمَانِ وَهُوَ غَيْرُ شَاكٍّ فِيهِ دَخَلَ الْجَنَّةَ وَحُرِّمَ عَلَى النَّارِ",
+    "uzbek_title": "Allohga shaksiz iymon bilan qo'shilgan kishi jannatga kirib, do'zaxga harom bo'lishi"
+  },
+  {
+    "id": "muslim-book-2-chapter-75",
+    "book_id": 2,
+    "chapter_number": 75,
+    "arabic_title": "بَابُ الشَّفَاعَةِ وَإِخْرَاجِ الْمُوَحِّدِينَ مِنَ النَّارِ",
+    "uzbek_title": "Shafоat va tavhid ahlini do'zaxdan chiqarish haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-76",
+    "book_id": 2,
+    "chapter_number": 76,
+    "arabic_title": "بَابُ مَعْرِفَةِ طَرِيقِ الشَّفَاعَةِ وَإِخْرَاجِ الْمُوَحِّدِينَ",
+    "uzbek_title": "Shafоat yo'lini bilish va tavhid ahlini do'zaxdan chiqarish haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-77",
+    "book_id": 2,
+    "chapter_number": 77,
+    "arabic_title": "بَابُ إِثْبَاتِ الشَّفَاعَةِ وَإِخْرَاجِ الْمُوَحِّدِينَ مِنَ النَّارِ",
+    "uzbek_title": "Shafоatning isboti va tavhid ahlining do'zaxdan chiqarilishi"
+  },
+  {
+    "id": "muslim-book-2-chapter-78",
+    "book_id": 2,
+    "chapter_number": 78,
+    "arabic_title": "بَابُ جَزَاءِ الْمُؤْمِنِ بِحَسَنَاتِه فِي الدُّنْيَا وَالْآخِرَةِ",
+    "uzbek_title": "Mo'minning dunyо va oxiratda yaxshiliklari evaziga mukofotlanishi"
+  },
+  {
+    "id": "muslim-book-2-chapter-79",
+    "book_id": 2,
+    "chapter_number": 79,
+    "arabic_title": "بَابُ بَيَانِ كَوْنِ النَّهْيِ عَنِ الْمُنْكَرِ مِنَ الْإِيمَانِ وَكَوْنِ الْإِيمَانِ يَزِيدُ وَيَنْقُصُ",
+    "uzbek_title": "Yovuzlikdan qaytarish iymondan ekanligi va iymon ortiб-kamayishi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-80",
+    "book_id": 2,
+    "chapter_number": 80,
+    "arabic_title": "بَابُ تَحْرِيمِ الْكَذِبِ وَبَيَانِ مَا يُبَاحُ مِنَ الْكَلَامِ",
+    "uzbek_title": "Yolg'on haromligi va ruxsat etilgan so'zlarning bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-81",
+    "book_id": 2,
+    "chapter_number": 81,
+    "arabic_title": "بَابُ قَوْلِ النَّبِيِّ ﷺ: الْكَيِّسُ مَنْ دَانَ نَفْسَهُ وَعَمِلَ لِمَا بَعْدَ الْمَوْتِ",
+    "uzbek_title": "Payg'ambar ﷺ ning «Aqlli kishi o'zini hisobga tortib, o'limdan keyiniga amal qiluvchidir» so'zi"
+  },
+  {
+    "id": "muslim-book-2-chapter-82",
+    "book_id": 2,
+    "chapter_number": 82,
+    "arabic_title": "بَابُ الدَّلِيلِ عَلَى أَنَّ اللهَ تَعَالَى يُدْخِلُ الْجَنَّةَ بِرَحْمَتِهِ مَنْ يَشَاءُ",
+    "uzbek_title": "Alloh taoloning xohlagan bandalarni rahmatи bilan jannatga kiritishi dalili"
+  },
+  {
+    "id": "muslim-book-2-chapter-83",
+    "book_id": 2,
+    "chapter_number": 83,
+    "arabic_title": "بَابُ فَضْلِ مَنْ يَمُوتُ عَلَى الْإِيمَانِ",
+    "uzbek_title": "Iymon ustida vafot etgan kishining fazilati haqida"
+  },
+  {
+    "id": "muslim-book-2-chapter-84",
+    "book_id": 2,
+    "chapter_number": 84,
+    "arabic_title": "بَابُ بَيَانِ أَنَّهُ مَنْ مَاتَ مُشْرِكًا دَخَلَ النَّارَ",
+    "uzbek_title": "Mushrik holda vafot etgan kishi do'zaxga kirishi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-85",
+    "book_id": 2,
+    "chapter_number": 85,
+    "arabic_title": "بَابُ بَيَانِ مَعْنَى قَوْلِهِ ﷺ: كُلُّ أُمَّتِي يَدْخُلُونَ الْجَنَّةَ إِلَّا مَنْ أَبَى",
+    "uzbek_title": "Payg'ambar ﷺ ning «Bosh tortganlardan boshqa ummatimning barchasi jannatga kiradi» so'zi mazmunining bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-86",
+    "book_id": 2,
+    "chapter_number": 86,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ مَنْ أَسْلَمَ وَعِنْدَهُ مَالٌ حَرَامٌ فَحُكْمُهُ حُكْمُ الْمُسْلِمِ",
+    "uzbek_title": "Qo'lida hаrom moli borligi holida Islomga kirgan kishining hukmi"
+  },
+  {
+    "id": "muslim-book-2-chapter-87",
+    "book_id": 2,
+    "chapter_number": 87,
+    "arabic_title": "بَابُ بَيَانِ حَالِ إِيمَانِ مَنْ قَاتَلَ تَحْتَ رَايَةٍ عُمِّيَّةٍ",
+    "uzbek_title": "Noto'g'ri bayroq ostida urushgan kishining iymon holati bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-88",
+    "book_id": 2,
+    "chapter_number": 88,
+    "arabic_title": "بَابُ وُجُوبِ الْوَفَاءِ بِبَيْعَةِ الْخُلَفَاءِ",
+    "uzbek_title": "Xalifalarga berilgan bay'atni bajarish vajibligi"
+  },
+  {
+    "id": "muslim-book-2-chapter-89",
+    "book_id": 2,
+    "chapter_number": 89,
+    "arabic_title": "بَابُ بَيَانِ أَنَّهُ لَا يَدْخُلُ الْجَنَّةَ إِلَّا الْمُؤْمِنُونَ وَأَنَّ مَحَبَّةَ الْمُؤْمِنِينَ مِنَ الْإِيمَانِ",
+    "uzbek_title": "Jannatga faqat mo'minlar kirishi va mo'minlarni sevishning iymondan ekanligi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-90",
+    "book_id": 2,
+    "chapter_number": 90,
+    "arabic_title": "بَابُ بَيَانِ أَنَّهُ لَا يَدْخُلُ الْجَنَّةَ مَنْ فِي قَلْبِهِ مِثْقَالُ حَبَّةٍ مِنْ كِبْرٍ",
+    "uzbek_title": "Qalbida zarra miqdar kibr bo'lgan kishi jannatga kirmasligi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-91",
+    "book_id": 2,
+    "chapter_number": 91,
+    "arabic_title": "بَابُ تَحْرِيمِ الْغَيْبَةِ وَبَيَانِهَا وَمَا يُبَاحُ مِنْهَا",
+    "uzbek_title": "G'iybat haromligi, uning bayoni va ruxsat etilgan holatlarning bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-92",
+    "book_id": 2,
+    "chapter_number": 92,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ مَنْ سَنَّ سُنَّةً حَسَنَةً كَانَ لَهُ أَجْرُهَا وَأَجْرُ مَنْ عَمِلَ بِهَا",
+    "uzbek_title": "Yaxshi sunnat joriy etgan kishiga uning savobи va unга amal qilganlar savobining ekanligi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-93",
+    "book_id": 2,
+    "chapter_number": 93,
+    "arabic_title": "بَابُ بَيَانِ إِطْلَاقِ لَفْظِ الرِّيبَةِ عَلَى مَا يَشُكُّ فِيهِ",
+    "uzbek_title": "Shubhali narsa haqida «ribа» lafzini ishlatish bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-94",
+    "book_id": 2,
+    "chapter_number": 94,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الْمُنْكَرِ وَبَيَانِ أَقَلِّ مَرَاتِبِهِ",
+    "uzbek_title": "Yovuzlikdan qaytarish va uning eng quyi darajasi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-95",
+    "book_id": 2,
+    "chapter_number": 95,
+    "arabic_title": "بَابُ بَيَانِ كَوْنِ الْإِسْلَامِ عَلَى خَمْسٍ",
+    "uzbek_title": "Islomning besh narsadan iborat ekanligi bayoni"
+  },
+  {
+    "id": "muslim-book-2-chapter-96",
+    "book_id": 2,
+    "chapter_number": 96,
+    "arabic_title": "بَابُ الدَّلِيلِ عَلَى أَنَّ مَنْ قُصِدَ بِقَتْلِهِ فَدَفَعَ عَنْ نَفْسِهِ فَقَتَلَ فَلَا إِثْمَ عَلَيْهِ",
+    "uzbek_title": "O'zini himoya qilib, o'ldirilmоqchi bo'lganni o'ldirgan kishiga gunoh yo'qligi dalili"
+  },
+  {
+    "id": "muslim-book-2-chapter-97",
+    "book_id": 2,
+    "chapter_number": 97,
+    "arabic_title": "بَابُ بَيَانِ غِلَظِ تَحْرِيمِ الدِّمَاءِ وَالْأَعْرَاضِ وَالْأَمْوَالِ",
+    "uzbek_title": "Qonlar, nomусlar va mollar haromligining og'irligи bayoni"
   }
 ]

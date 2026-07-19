@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sahih Muslim — Kitoblar | QUR'AN KARIM</title>
+<meta name="description" content="Sahih Muslim kitoblari ro'yxati." />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css" />
+<script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="back-link" href="/hadislar.html">← Hadislar</a>
+    <h1>Sahih Muslim</h1>
+  </header>
+
+  <main class="container">
+    <p class="library-intro">Sahih Muslimning 56 ta kitobi.</p>
+    <div class="hl-count" id="bookCount"></div>
+    <div class="hadith-collections" id="bookList"></div>
+  </main>
+
+  <script>
+  (function () {
+    const listEl  = document.getElementById("bookList");
+    const countEl = document.getElementById("bookCount");
+
+    fetch("/data/hadith/muslim-books.json")
+      .then(r => { if (!r.ok) throw new Error("load"); return r.json(); })
+      .then(books => {
+        if (!Array.isArray(books) || !books.length) {
+          listEl.innerHTML = '<div class="state-msg">Kitoblar topilmadi.</div>';
+          return;
+        }
+
+        countEl.textContent = books.length + " ta kitob";
+
+        listEl.innerHTML = books.map(b => `
+          <a class="hadith-card hadith-card-link"
+             href="/muslim-chapters.html?book=${b.book_number}">
+            <div class="hadith-card-left">
+              <div class="hadith-card-icon" style="font-size:1rem;font-family:'Poppins',sans-serif;font-weight:700;color:var(--accent);">${b.book_number}</div>
+            </div>
+            <div class="hadith-card-body">
+              <div class="hadith-card-arabic">${b.arabic_title}</div>
+              <div class="hadith-card-title">${b.uzbek_title}</div>
+            </div>
+            <span class="hadith-card-arrow">→</span>
+          </a>
+        `).join("");
+      })
+      .catch(() => {
+        listEl.innerHTML = '<div class="state-msg">Ma\'lumotlarni yuklashda xatolik yuz berdi.</div>';
+      });
+  })();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,338 @@
+[
+  {
+    "id": "muslim-book-1",
+    "book_number": 1,
+    "arabic_title": "كِتَابُ الْمُقَدِّمَةِ",
+    "uzbek_title": "Muqaddima"
+  },
+  {
+    "id": "muslim-book-2",
+    "book_number": 2,
+    "arabic_title": "كِتَابُ الْإِيمَانِ",
+    "uzbek_title": "Iymon kitobi"
+  },
+  {
+    "id": "muslim-book-3",
+    "book_number": 3,
+    "arabic_title": "كِتَابُ الطَّهَارَةِ",
+    "uzbek_title": "Tahorat kitobi"
+  },
+  {
+    "id": "muslim-book-4",
+    "book_number": 4,
+    "arabic_title": "كِتَابُ الْحَيْضِ",
+    "uzbek_title": "Hayz kitobi"
+  },
+  {
+    "id": "muslim-book-5",
+    "book_number": 5,
+    "arabic_title": "كِتَابُ الصَّلَاةِ",
+    "uzbek_title": "Namoz kitobi"
+  },
+  {
+    "id": "muslim-book-6",
+    "book_number": 6,
+    "arabic_title": "كِتَابُ الْمَسَاجِدِ وَمَوَاضِعِ الصَّلَاةِ",
+    "uzbek_title": "Masjidlar va namoz joylari kitobi"
+  },
+  {
+    "id": "muslim-book-7",
+    "book_number": 7,
+    "arabic_title": "كِتَابُ صَلَاةِ الْمُسَافِرِينَ وَقَصْرِهَا",
+    "uzbek_title": "Musofir namozi va qisqartirish kitobi"
+  },
+  {
+    "id": "muslim-book-8",
+    "book_number": 8,
+    "arabic_title": "كِتَابُ الْجُمُعَةِ",
+    "uzbek_title": "Juma kitobi"
+  },
+  {
+    "id": "muslim-book-9",
+    "book_number": 9,
+    "arabic_title": "كِتَابُ صَلَاةِ الْعِيدَيْنِ",
+    "uzbek_title": "Ikki hayit namozi kitobi"
+  },
+  {
+    "id": "muslim-book-10",
+    "book_number": 10,
+    "arabic_title": "كِتَابُ الِاسْتِسْقَاءِ",
+    "uzbek_title": "Yomg'ir so'rash (istisqo) kitobi"
+  },
+  {
+    "id": "muslim-book-11",
+    "book_number": 11,
+    "arabic_title": "كِتَابُ الْكُسُوفِ",
+    "uzbek_title": "Quyosh va oy tutilishi kitobi"
+  },
+  {
+    "id": "muslim-book-12",
+    "book_number": 12,
+    "arabic_title": "كِتَابُ الْجَنَائِزِ",
+    "uzbek_title": "Janoza kitobi"
+  },
+  {
+    "id": "muslim-book-13",
+    "book_number": 13,
+    "arabic_title": "كِتَابُ الزَّكَاةِ",
+    "uzbek_title": "Zakot kitobi"
+  },
+  {
+    "id": "muslim-book-14",
+    "book_number": 14,
+    "arabic_title": "كِتَابُ الصِّيَامِ",
+    "uzbek_title": "Ro'za kitobi"
+  },
+  {
+    "id": "muslim-book-15",
+    "book_number": 15,
+    "arabic_title": "كِتَابُ الِاعْتِكَافِ",
+    "uzbek_title": "E'tikof kitobi"
+  },
+  {
+    "id": "muslim-book-16",
+    "book_number": 16,
+    "arabic_title": "كِتَابُ الْحَجِّ",
+    "uzbek_title": "Haj kitobi"
+  },
+  {
+    "id": "muslim-book-17",
+    "book_number": 17,
+    "arabic_title": "كِتَابُ النِّكَاحِ",
+    "uzbek_title": "Nikoh kitobi"
+  },
+  {
+    "id": "muslim-book-18",
+    "book_number": 18,
+    "arabic_title": "كِتَابُ الرَّضَاعِ",
+    "uzbek_title": "Emizish kitobi"
+  },
+  {
+    "id": "muslim-book-19",
+    "book_number": 19,
+    "arabic_title": "كِتَابُ الطَّلَاقِ",
+    "uzbek_title": "Talоq kitobi"
+  },
+  {
+    "id": "muslim-book-20",
+    "book_number": 20,
+    "arabic_title": "كِتَابُ اللِّعَانِ",
+    "uzbek_title": "Li'on kitobi"
+  },
+  {
+    "id": "muslim-book-21",
+    "book_number": 21,
+    "arabic_title": "كِتَابُ الْعِتْقِ",
+    "uzbek_title": "Qulni ozod qilish kitobi"
+  },
+  {
+    "id": "muslim-book-22",
+    "book_number": 22,
+    "arabic_title": "كِتَابُ الْبُيُوعِ",
+    "uzbek_title": "Savdo-sotiq kitobi"
+  },
+  {
+    "id": "muslim-book-23",
+    "book_number": 23,
+    "arabic_title": "كِتَابُ الْمُسَاقَاةِ",
+    "uzbek_title": "Musaqot kitobi"
+  },
+  {
+    "id": "muslim-book-24",
+    "book_number": 24,
+    "arabic_title": "كِتَابُ الْفَرَائِضِ",
+    "uzbek_title": "Meros taqsimlash kitobi"
+  },
+  {
+    "id": "muslim-book-25",
+    "book_number": 25,
+    "arabic_title": "كِتَابُ الْهِبَاتِ",
+    "uzbek_title": "Hadyalar kitobi"
+  },
+  {
+    "id": "muslim-book-26",
+    "book_number": 26,
+    "arabic_title": "كِتَابُ الْوَصِيَّةِ",
+    "uzbek_title": "Vasiyat kitobi"
+  },
+  {
+    "id": "muslim-book-27",
+    "book_number": 27,
+    "arabic_title": "كِتَابُ النَّذْرِ",
+    "uzbek_title": "Nazr kitobi"
+  },
+  {
+    "id": "muslim-book-28",
+    "book_number": 28,
+    "arabic_title": "كِتَابُ الْأَيْمَانِ",
+    "uzbek_title": "Qasamlar kitobi"
+  },
+  {
+    "id": "muslim-book-29",
+    "book_number": 29,
+    "arabic_title": "كِتَابُ الْقَسَامَةِ وَالْمُحَارِبِينَ وَالْقِصَاصِ وَالدِّيَاتِ",
+    "uzbek_title": "Qasama, qisоs va diyat kitobi"
+  },
+  {
+    "id": "muslim-book-30",
+    "book_number": 30,
+    "arabic_title": "كِتَابُ الْحُدُودِ",
+    "uzbek_title": "Hudud jazolari kitobi"
+  },
+  {
+    "id": "muslim-book-31",
+    "book_number": 31,
+    "arabic_title": "كِتَابُ الْأَقْضِيَةِ",
+    "uzbek_title": "Qozilik hukmlari kitobi"
+  },
+  {
+    "id": "muslim-book-32",
+    "book_number": 32,
+    "arabic_title": "كِتَابُ اللُّقَطَةِ",
+    "uzbek_title": "Topilgan mol kitobi"
+  },
+  {
+    "id": "muslim-book-33",
+    "book_number": 33,
+    "arabic_title": "كِتَابُ الْجِهَادِ وَالسِّيَرِ",
+    "uzbek_title": "Jihod va yurishlar kitobi"
+  },
+  {
+    "id": "muslim-book-34",
+    "book_number": 34,
+    "arabic_title": "كِتَابُ الْإِمَارَةِ",
+    "uzbek_title": "Amirlik kitobi"
+  },
+  {
+    "id": "muslim-book-35",
+    "book_number": 35,
+    "arabic_title": "كِتَابُ الصَّيْدِ وَالذَّبَائِحِ وَمَا يُؤْكَلُ مِنَ الْحَيَوَانِ",
+    "uzbek_title": "Ov, so'yish va halol hayvonlar kitobi"
+  },
+  {
+    "id": "muslim-book-36",
+    "book_number": 36,
+    "arabic_title": "كِتَابُ الْأَضَاحِيِّ",
+    "uzbek_title": "Qurbonlik kitobi"
+  },
+  {
+    "id": "muslim-book-37",
+    "book_number": 37,
+    "arabic_title": "كِتَابُ الْأَشْرِبَةِ",
+    "uzbek_title": "Ichimliklar kitobi"
+  },
+  {
+    "id": "muslim-book-38",
+    "book_number": 38,
+    "arabic_title": "كِتَابُ اللِّبَاسِ وَالزِّينَةِ",
+    "uzbek_title": "Kiyim va bezanish kitobi"
+  },
+  {
+    "id": "muslim-book-39",
+    "book_number": 39,
+    "arabic_title": "كِتَابُ الْآدَابِ",
+    "uzbek_title": "Odoblar kitobi"
+  },
+  {
+    "id": "muslim-book-40",
+    "book_number": 40,
+    "arabic_title": "كِتَابُ السَّلَامِ",
+    "uzbek_title": "Salom kitobi"
+  },
+  {
+    "id": "muslim-book-41",
+    "book_number": 41,
+    "arabic_title": "كِتَابُ الْأَلْفَاظِ مِنَ الْأَدَبِ وَغَيْرِهَا",
+    "uzbek_title": "Odobli so'zlar kitobi"
+  },
+  {
+    "id": "muslim-book-42",
+    "book_number": 42,
+    "arabic_title": "كِتَابُ الشِّعْرِ",
+    "uzbek_title": "She'r kitobi"
+  },
+  {
+    "id": "muslim-book-43",
+    "book_number": 43,
+    "arabic_title": "كِتَابُ الرُّؤْيَا",
+    "uzbek_title": "Tushlar kitobi"
+  },
+  {
+    "id": "muslim-book-44",
+    "book_number": 44,
+    "arabic_title": "كِتَابُ الْفَضَائِلِ",
+    "uzbek_title": "Fazilatlar kitobi"
+  },
+  {
+    "id": "muslim-book-45",
+    "book_number": 45,
+    "arabic_title": "كِتَابُ فَضَائِلِ الصَّحَابَةِ رَضِيَ اللَّهُ عَنْهُمْ",
+    "uzbek_title": "Sahobalar fazilati kitobi"
+  },
+  {
+    "id": "muslim-book-46",
+    "book_number": 46,
+    "arabic_title": "كِتَابُ الْبِرِّ وَالصِّلَةِ وَالْآدَابِ",
+    "uzbek_title": "Yaxshilik, silai rahm va odoblar kitobi"
+  },
+  {
+    "id": "muslim-book-47",
+    "book_number": 47,
+    "arabic_title": "كِتَابُ الْقَدَرِ",
+    "uzbek_title": "Qadar kitobi"
+  },
+  {
+    "id": "muslim-book-48",
+    "book_number": 48,
+    "arabic_title": "كِتَابُ الْعِلْمِ",
+    "uzbek_title": "Ilm kitobi"
+  },
+  {
+    "id": "muslim-book-49",
+    "book_number": 49,
+    "arabic_title": "كِتَابُ الذِّكْرِ وَالدُّعَاءِ وَالتَّوْبَةِ وَالِاسْتِغْفَارِ",
+    "uzbek_title": "Zikr, duo, tavba va istigfоr kitobi"
+  },
+  {
+    "id": "muslim-book-50",
+    "book_number": 50,
+    "arabic_title": "كِتَابُ التَّوْبَةِ",
+    "uzbek_title": "Tavba kitobi"
+  },
+  {
+    "id": "muslim-book-51",
+    "book_number": 51,
+    "arabic_title": "كِتَابُ صِفَاتِ الْمُنَافِقِينَ وَأَحْكَامِهِمْ",
+    "uzbek_title": "Munofiqlar sifatlari va hukmlari kitobi"
+  },
+  {
+    "id": "muslim-book-52",
+    "book_number": 52,
+    "arabic_title": "كِتَابُ صِفَةِ الْقِيَامَةِ وَالْجَنَّةِ وَالنَّارِ",
+    "uzbek_title": "Qiyomat, jannat va do'zax tasviri kitobi"
+  },
+  {
+    "id": "muslim-book-53",
+    "book_number": 53,
+    "arabic_title": "كِتَابُ الْجَنَّةِ وَصِفَةِ نَعِيمِهَا وَأَهْلِهَا",
+    "uzbek_title": "Jannat va uning ne'matlari kitobi"
+  },
+  {
+    "id": "muslim-book-54",
+    "book_number": 54,
+    "arabic_title": "كِتَابُ الْفِتَنِ وَأَشْرَاطِ السَّاعَةِ",
+    "uzbek_title": "Fitnalar va qiyomat alomatlari kitobi"
+  },
+  {
+    "id": "muslim-book-55",
+    "book_number": 55,
+    "arabic_title": "كِتَابُ الزُّهْدِ وَالرَّقَائِقِ",
+    "uzbek_title": "Zuhd va yurak yumshatuvchi narsalar kitobi"
+  },
+  {
+    "id": "muslim-book-56",
+    "book_number": 56,
+    "arabic_title": "كِتَابُ التَّفْسِيرِ",
+    "uzbek_title": "Tafsir kitobi"
+  }
+]

@@ -2252,5 +2252,698 @@
     "chapter_number": 22,
     "arabic_title": "بَابُ الدُّعَاءِ فِي يَوْمِ الْجُمُعَةِ",
     "uzbek_title": "Juma kunida dua qilish"
+  },
+  {
+    "id": "muslim-book-8-chapter-1",
+    "book_id": 8,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ صَلَاةِ الْعِيدَيْنِ وَأَنَّهَا رَكْعَتَانِ",
+    "uzbek_title": "Hayit namozi va u ikki rekaat ekanligi"
+  },
+  {
+    "id": "muslim-book-8-chapter-2",
+    "book_id": 8,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ الْأَكْلِ يَوْمَ الْفِطْرِ قَبْلَ الْخُرُوجِ",
+    "uzbek_title": "Ro'za hayiti kuni chiqmadan oldin ovqatlanish"
+  },
+  {
+    "id": "muslim-book-8-chapter-3",
+    "book_id": 8,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ الْغُسْلِ يَوْمَ الْعِيدِ وَالزِّينَةِ لَهُ",
+    "uzbek_title": "Hayit kuni g'usl qilish va bezanish"
+  },
+  {
+    "id": "muslim-book-8-chapter-4",
+    "book_id": 8,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ الْخُرُوجِ إِلَى الْمُصَلَّى وَتَرْكِ الصَّلَاةِ فِي الْمَسْجِدِ",
+    "uzbek_title": "Namozgohga chiqish va masjidda o'qimaslik"
+  },
+  {
+    "id": "muslim-book-8-chapter-5",
+    "book_id": 8,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ تَرْكِ الصَّلَاةِ قَبْلَ الْعِيدِ وَبَعْدَهَا فِي الْمُصَلَّى",
+    "uzbek_title": "Namozgohda hayitdan oldin va keyin namoz o'qimaslik"
+  },
+  {
+    "id": "muslim-book-8-chapter-6",
+    "book_id": 8,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ التَّكْبِيرِ فِي صَلَاةِ الْعِيدَيْنِ وَخُرُوجِ النِّسَاءِ",
+    "uzbek_title": "Hayit namozidagi takbirlar va ayollarning namozgohga chiqishi"
+  },
+  {
+    "id": "muslim-book-8-chapter-7",
+    "book_id": 8,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الْخُطْبَةِ بَعْدَ صَلَاةِ الْعِيدِ",
+    "uzbek_title": "Hayit namozidan keyin xutba o'qilishi"
+  },
+  {
+    "id": "muslim-book-8-chapter-8",
+    "book_id": 8,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ الِاسْتِمَاعِ لِلْخُطْبَةِ يَوْمَ الْعِيدِ",
+    "uzbek_title": "Hayit kuni xutbani diqqat bilan tinglash"
+  },
+  {
+    "id": "muslim-book-8-chapter-9",
+    "book_id": 8,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ الرُّخْصَةِ فِي اللَّعِبِ الَّذِي لَا مَعْصِيَةَ فِيهِ فِي أَيَّامِ الْعِيدِ",
+    "uzbek_title": "Hayit kunlarida gunohsiz o'yin-kulgi uchun ruxsat"
+  },
+  {
+    "id": "muslim-book-8-chapter-10",
+    "book_id": 8,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ الْأَمْرِ بِالْمَعْرُوفِ فِي خُطْبَةِ الْعِيدِ",
+    "uzbek_title": "Hayit xutbasida yaxshilikka buyurish va yomonlikdan qaytarish"
+  },
+  {
+    "id": "muslim-book-8-chapter-11",
+    "book_id": 8,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ الْجُمُعَةِ بَعْدَ الْعِيدِ وَسُقُوطِهَا عَمَّنْ حَضَرَ الْعِيدَ",
+    "uzbek_title": "Hayit kuni Juma va hayitga qatnashgan kishidan Jumaning soqit bo'lishi"
+  },
+  {
+    "id": "muslim-book-9-chapter-1",
+    "book_id": 9,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ صَلَاةِ الِاسْتِسْقَاءِ وَالْخُرُوجِ إِلَيْهَا",
+    "uzbek_title": "Istisqо namozi va unga chiqish"
+  },
+  {
+    "id": "muslim-book-9-chapter-2",
+    "book_id": 9,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ صِفَةِ صَلَاةِ الِاسْتِسْقَاءِ",
+    "uzbek_title": "Istisqо namozining tavsifi"
+  },
+  {
+    "id": "muslim-book-9-chapter-3",
+    "book_id": 9,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ تَحْوِيلِ الرِّدَاءِ فِي الِاسْتِسْقَاءِ",
+    "uzbek_title": "Istisqоda ridoni aylantirish haqida"
+  },
+  {
+    "id": "muslim-book-9-chapter-4",
+    "book_id": 9,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ رَفْعِ الْأَيْدِي فِي الِاسْتِسْقَاءِ",
+    "uzbek_title": "Istisqоda qo'llarni ko'tarish"
+  },
+  {
+    "id": "muslim-book-9-chapter-5",
+    "book_id": 9,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ الدُّعَاءِ فِي الِاسْتِسْقَاءِ",
+    "uzbek_title": "Istisqоdagi dua"
+  },
+  {
+    "id": "muslim-book-9-chapter-6",
+    "book_id": 9,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ مَا يَقُولُهُ إِذَا نَزَلَ الْمَطَرُ",
+    "uzbek_title": "Yomg'ir yoqqanda nima deyilishi"
+  },
+  {
+    "id": "muslim-book-9-chapter-7",
+    "book_id": 9,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ التَّعَوُّذِ عِنْدَ رُؤْيَةِ الرِّيحِ وَالسَّحَابِ",
+    "uzbek_title": "Shamol va bulut ko'rganda panoh so'rash"
+  },
+  {
+    "id": "muslim-book-10-chapter-1",
+    "book_id": 10,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ صَلَاةِ الْكُسُوفِ",
+    "uzbek_title": "Quyosh tutilishi namozi haqida"
+  },
+  {
+    "id": "muslim-book-10-chapter-2",
+    "book_id": 10,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ ذِكْرِ النِّدَاءِ بِصَلَاةِ الْكُسُوفِ",
+    "uzbek_title": "Quyosh tutilishi namoziga chaqiriq"
+  },
+  {
+    "id": "muslim-book-10-chapter-3",
+    "book_id": 10,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ صِفَةِ صَلَاةِ الْكُسُوفِ",
+    "uzbek_title": "Quyosh tutilishi namozining tavsifi"
+  },
+  {
+    "id": "muslim-book-10-chapter-4",
+    "book_id": 10,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ مَا عُرِضَ عَلَى النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي صَلَاةِ الْكُسُوفِ",
+    "uzbek_title": "Quyosh tutilishi namozida Nabiyga ko'rsatilgan narsalar"
+  },
+  {
+    "id": "muslim-book-10-chapter-5",
+    "book_id": 10,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ مَا يُقَالُ عِنْدَ الْكُسُوفِ",
+    "uzbek_title": "Quyosh tutilishi vaqtida nima deyilishi"
+  },
+  {
+    "id": "muslim-book-10-chapter-6",
+    "book_id": 10,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ كُسُوفِ الشَّمْسِ وَالْقَمَرِ آيَةٌ مِنْ آيَاتِ اللَّهِ",
+    "uzbek_title": "Quyosh va oy tutilishi Allohning oyatlaridan ekanligi"
+  },
+  {
+    "id": "muslim-book-11-chapter-1",
+    "book_id": 11,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ الْأَمْرِ بِتَلْقِينِ الْمُحْتَضَرِ لَا إِلَهَ إِلَّا اللَّهُ",
+    "uzbek_title": "O'layotgan kishiga 'Laa ilaaha illallooh' talqini buyurilishi"
+  },
+  {
+    "id": "muslim-book-11-chapter-2",
+    "book_id": 11,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ فِي غَمْضِ الْمَيِّتِ وَالدُّعَاءِ لَهُ عِنْدَ إِغْمَاضِهِ",
+    "uzbek_title": "Mayitning ko'zini yumish va yumishda dua qilish"
+  },
+  {
+    "id": "muslim-book-11-chapter-3",
+    "book_id": 11,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ فِي الْبُكَاءِ عَلَى الْمَيِّتِ",
+    "uzbek_title": "Mayitga yig'lash haqida"
+  },
+  {
+    "id": "muslim-book-11-chapter-4",
+    "book_id": 11,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ النِّيَاحَةِ وَرَفْعِ الصَّوْتِ عِنْدَ الْمُصِيبَةِ",
+    "uzbek_title": "Nola va musibatda ovoz ko'tarishning man etilishi"
+  },
+  {
+    "id": "muslim-book-11-chapter-5",
+    "book_id": 11,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ الصَّبْرِ عَلَى الْمُصِيبَةِ",
+    "uzbek_title": "Musibatda sabr qilish"
+  },
+  {
+    "id": "muslim-book-11-chapter-6",
+    "book_id": 11,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ مَا يُقَالُ عِنْدَ الْمُصِيبَةِ",
+    "uzbek_title": "Musibat yuz berganda nima deyilishi"
+  },
+  {
+    "id": "muslim-book-11-chapter-7",
+    "book_id": 11,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ فِي تَغْسِيلِ الْمَيِّتِ",
+    "uzbek_title": "Mayitni g'usl qildirish"
+  },
+  {
+    "id": "muslim-book-11-chapter-8",
+    "book_id": 11,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ فِي كَفَنِ الْمَيِّتِ",
+    "uzbek_title": "Mayitni kafanlash"
+  },
+  {
+    "id": "muslim-book-11-chapter-9",
+    "book_id": 11,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ فِي حَنُوطِ الْمَيِّتِ",
+    "uzbek_title": "Mayitga hanot surtish"
+  },
+  {
+    "id": "muslim-book-11-chapter-10",
+    "book_id": 11,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ فِي الْإِسْرَاعِ بِالْجِنَازَةِ",
+    "uzbek_title": "Janozani tezlatish"
+  },
+  {
+    "id": "muslim-book-11-chapter-11",
+    "book_id": 11,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ الصَّلَاةِ عَلَى الْجِنَازَةِ",
+    "uzbek_title": "Janoza namozi"
+  },
+  {
+    "id": "muslim-book-11-chapter-12",
+    "book_id": 11,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ الدُّعَاءِ لِلْمَيِّتِ فِي الصَّلَاةِ",
+    "uzbek_title": "Janoza namozida mayit uchun dua"
+  },
+  {
+    "id": "muslim-book-11-chapter-13",
+    "book_id": 11,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ التَّكْبِيرِ عَلَى الْجِنَازَةِ",
+    "uzbek_title": "Janoza namozidagi takbirlar"
+  },
+  {
+    "id": "muslim-book-11-chapter-14",
+    "book_id": 11,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ فَضْلِ الصَّلَاةِ عَلَى الْجِنَازَةِ وَاتِّبَاعِهَا",
+    "uzbek_title": "Janoza namozi va janoza ortidan ergashishning fazilati"
+  },
+  {
+    "id": "muslim-book-11-chapter-15",
+    "book_id": 11,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ الصَّلَاةِ عَلَى الشَّهِيدِ",
+    "uzbek_title": "Shahid ustida namoz o'qish"
+  },
+  {
+    "id": "muslim-book-11-chapter-16",
+    "book_id": 11,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ الصَّلَاةِ عَلَى الْقَبْرِ",
+    "uzbek_title": "Qabr ustida namoz o'qish"
+  },
+  {
+    "id": "muslim-book-11-chapter-17",
+    "book_id": 11,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ الْقِيَامِ لِلْجِنَازَةِ",
+    "uzbek_title": "Janozaga hurmat belgisi sifatida o'rnidan turish"
+  },
+  {
+    "id": "muslim-book-11-chapter-18",
+    "book_id": 11,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ حَمْلِ الْجِنَازَةِ وَاتِّبَاعِهَا وَالصَّلَاةِ عَلَيْهَا",
+    "uzbek_title": "Janozani ko'tarish, ergashish va namoz o'qish"
+  },
+  {
+    "id": "muslim-book-11-chapter-19",
+    "book_id": 11,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ فِي اللَّحْدِ وَنَصْبِ اللَّبِنِ عَلَى الْمَيِّتِ",
+    "uzbek_title": "Lahad va mayit ustiga g'isht tirash haqida"
+  },
+  {
+    "id": "muslim-book-11-chapter-20",
+    "book_id": 11,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ مَا يُقَالُ عِنْدَ إِدْخَالِ الْمَيِّتِ الْقَبْرَ",
+    "uzbek_title": "Mayitni qabrga qo'yishda nima deyilishi"
+  },
+  {
+    "id": "muslim-book-11-chapter-21",
+    "book_id": 11,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ تَجْصِيصِ الْقَبْرِ وَالْبِنَاءِ عَلَيْهِ",
+    "uzbek_title": "Qabrni bo'yash va ustiga bino qurishning man etilishi"
+  },
+  {
+    "id": "muslim-book-11-chapter-22",
+    "book_id": 11,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الْجُلُوسِ عَلَى الْقَبْرِ وَالصَّلَاةِ عَلَيْهِ",
+    "uzbek_title": "Qabr ustida o'tirish va namoz o'qishning man etilishi"
+  },
+  {
+    "id": "muslim-book-11-chapter-23",
+    "book_id": 11,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ فِي زِيَارَةِ الْقُبُورِ",
+    "uzbek_title": "Qabrlarni ziyorat qilish haqida"
+  },
+  {
+    "id": "muslim-book-11-chapter-24",
+    "book_id": 11,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ مَا يُقَالُ عِنْدَ دُخُولِ الْمَقَابِرِ",
+    "uzbek_title": "Qabristonga kirganda nima deyilishi"
+  },
+  {
+    "id": "muslim-book-11-chapter-25",
+    "book_id": 11,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ فِي التَّعْزِيَةِ",
+    "uzbek_title": "Ta'ziya bildirish haqida"
+  },
+  {
+    "id": "muslim-book-11-chapter-26",
+    "book_id": 11,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ الْمَيِّتُ يُعَذَّبُ بِبُكَاءِ أَهْلِهِ",
+    "uzbek_title": "Mayitning ahli yig'isi sababli azob tortishi to'g'risida"
+  },
+  {
+    "id": "muslim-book-11-chapter-27",
+    "book_id": 11,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ الصَّدَقَةِ عَنِ الْمَيِّتِ",
+    "uzbek_title": "Mayit nomiga sadaqa berish"
+  },
+  {
+    "id": "muslim-book-11-chapter-28",
+    "book_id": 11,
+    "chapter_number": 28,
+    "arabic_title": "بَابُ فِي الشُّهَدَاءِ",
+    "uzbek_title": "Shahodatga erishganlar haqida"
+  },
+  {
+    "id": "muslim-book-11-chapter-29",
+    "book_id": 11,
+    "chapter_number": 29,
+    "arabic_title": "بَابُ فِي عَذَابِ الْقَبْرِ وَنَعِيمِهِ",
+    "uzbek_title": "Qabr azоbi va qabr ne'mati haqida"
+  },
+  {
+    "id": "muslim-book-11-chapter-30",
+    "book_id": 11,
+    "chapter_number": 30,
+    "arabic_title": "بَابُ مَا جَاءَ فِي عَذَابِ الْقَبْرِ",
+    "uzbek_title": "Qabr azоbi haqida kelgan rivoyatlar"
+  },
+  {
+    "id": "muslim-book-11-chapter-31",
+    "book_id": 11,
+    "chapter_number": 31,
+    "arabic_title": "بَابُ الدُّعَاءِ لِلْوَالِدَيْنِ وَالِاسْتِغْفَارِ لَهُمَا",
+    "uzbek_title": "Ota-ona uchun dua qilish va ularni mag'firat so'rash"
+  },
+  {
+    "id": "muslim-book-11-chapter-32",
+    "book_id": 11,
+    "chapter_number": 32,
+    "arabic_title": "بَابُ مَا يَلْحَقُ الْإِنْسَانَ مِنَ الثَّوَابِ بَعْدَ وَفَاتِهِ",
+    "uzbek_title": "Vafotdan keyin insonga yetib turadigan savob"
+  },
+  {
+    "id": "muslim-book-11-chapter-33",
+    "book_id": 11,
+    "chapter_number": 33,
+    "arabic_title": "بَابُ فِي إِغْلَاقِ بَابِ النِّيَاحَةِ",
+    "uzbek_title": "Nola va fig'onni to'xtatish haqida"
+  },
+  {
+    "id": "muslim-book-11-chapter-34",
+    "book_id": 11,
+    "chapter_number": 34,
+    "arabic_title": "بَابُ اسْتِئْذَانِ الْمَرْأَةِ فِي زِيَارَةِ الْقُبُورِ",
+    "uzbek_title": "Ayolning qabrlarni ziyorat qilishga ruxsat so'rashi"
+  },
+  {
+    "id": "muslim-book-11-chapter-35",
+    "book_id": 11,
+    "chapter_number": 35,
+    "arabic_title": "بَابُ فَضْلِ الْمَوْتِ فِي الْمَدِينَةِ",
+    "uzbek_title": "Madinada vafot etishning fazilati"
+  },
+  {
+    "id": "muslim-book-12-chapter-1",
+    "book_id": 12,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ وُجُوبِ الزَّكَاةِ",
+    "uzbek_title": "Zakot vajibligi"
+  },
+  {
+    "id": "muslim-book-12-chapter-2",
+    "book_id": 12,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ إِثْمِ مَانِعِ الزَّكَاةِ",
+    "uzbek_title": "Zakot bermagan kishining gunоhi"
+  },
+  {
+    "id": "muslim-book-12-chapter-3",
+    "book_id": 12,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ الزَّجْرِ عَنْ مَنْعِ الزَّكَاةِ",
+    "uzbek_title": "Zakot berishdan bosh tortishdan qo'rqitish"
+  },
+  {
+    "id": "muslim-book-12-chapter-4",
+    "book_id": 12,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ فَضْلِ الصَّدَقَةِ",
+    "uzbek_title": "Sadaqaning fazilati"
+  },
+  {
+    "id": "muslim-book-12-chapter-5",
+    "book_id": 12,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ الْحَثِّ عَلَى الصَّدَقَةِ وَلَوْ بِشِقِّ تَمْرَةٍ",
+    "uzbek_title": "Yarmi xurmo bo'lsa ham sadaqa qilishga targ'ib"
+  },
+  {
+    "id": "muslim-book-12-chapter-6",
+    "book_id": 12,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ الصَّدَقَةِ مِنْ كَسْبٍ طَيِّبٍ وَقَبُولِهَا وَتَرْبِيَتِهَا",
+    "uzbek_title": "Halol kasb sadaqasi, uning qabuli va o'sib borishi"
+  },
+  {
+    "id": "muslim-book-12-chapter-7",
+    "book_id": 12,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ الْيَدَ الْعُلْيَا خَيْرٌ مِنَ الْيَدِ السُّفْلَى",
+    "uzbek_title": "Yuqori qo'l (beruvchi) quyi qo'ldan (oluvchidan) yaxshi ekanligi bayoni"
+  },
+  {
+    "id": "muslim-book-12-chapter-8",
+    "book_id": 12,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ فَضْلِ النَّفَقَةِ عَلَى الْعِيَالِ",
+    "uzbek_title": "Oila ahliga sarflashning fazilati"
+  },
+  {
+    "id": "muslim-book-12-chapter-9",
+    "book_id": 12,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ فَضْلِ النَّفَقَةِ فِي سَبِيلِ اللَّهِ",
+    "uzbek_title": "Alloh yo'lida sarflashning fazilati"
+  },
+  {
+    "id": "muslim-book-12-chapter-10",
+    "book_id": 12,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ الْحَثِّ عَلَى الْإِنْفَاقِ وَتَبْشِيرِ الْمُنْفِقِ بِالْخَلَفِ",
+    "uzbek_title": "Sarflashga targ'ib va sarflaganiga o'rnini to'ldirish va'dasi"
+  },
+  {
+    "id": "muslim-book-12-chapter-11",
+    "book_id": 12,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الْمَنِّ فِي الصَّدَقَةِ",
+    "uzbek_title": "Sadaqada minnat qilishning man etilishi"
+  },
+  {
+    "id": "muslim-book-12-chapter-12",
+    "book_id": 12,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ أَنَّ الصَّدَقَةَ لَا تَحِلُّ لِلنَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَآلِهِ",
+    "uzbek_title": "Sadaqaning Nabiy va uning oilasiga halol emasligi"
+  },
+  {
+    "id": "muslim-book-12-chapter-13",
+    "book_id": 12,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ مَنْ تَحِلُّ لَهُ الْمَسْأَلَةُ",
+    "uzbek_title": "Kimga (yordам) so'rash halol ekanligi"
+  },
+  {
+    "id": "muslim-book-12-chapter-14",
+    "book_id": 12,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الْمَسْأَلَةِ",
+    "uzbek_title": "Odamlardan tilanishning man etilishi"
+  },
+  {
+    "id": "muslim-book-12-chapter-15",
+    "book_id": 12,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ كَرَاهَةِ الْمَسْأَلَةِ لِلنَّاسِ",
+    "uzbek_title": "Odamlardan so'rash va tilanishning makruhligi"
+  },
+  {
+    "id": "muslim-book-12-chapter-16",
+    "book_id": 12,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ فَضْلِ مَنْ لَا يَسْأَلُ النَّاسَ شَيْئًا",
+    "uzbek_title": "Odamlardan hech narsa so'rаmaydigan kishining fazilati"
+  },
+  {
+    "id": "muslim-book-12-chapter-17",
+    "book_id": 12,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ السُّؤَالِ وَقَدْرِ مَا يَحِلُّ مِنْهُ",
+    "uzbek_title": "So'rash va ruxsat beriladigan miqdori"
+  },
+  {
+    "id": "muslim-book-12-chapter-18",
+    "book_id": 12,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ سُؤَالِ النَّاسِ مَعَ الْغِنَى",
+    "uzbek_title": "Boylikda turib odamlardan so'rashning man etilishi"
+  },
+  {
+    "id": "muslim-book-12-chapter-19",
+    "book_id": 12,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ زَكَاةِ الْإِبِلِ وَالْغَنَمِ",
+    "uzbek_title": "Tuya va qo'y zakoti"
+  },
+  {
+    "id": "muslim-book-12-chapter-20",
+    "book_id": 12,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ زَكَاةِ الْبَقَرِ",
+    "uzbek_title": "Qoramol zakoti"
+  },
+  {
+    "id": "muslim-book-12-chapter-21",
+    "book_id": 12,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ زَكَاةِ الْخَيْلِ وَالرَّقِيقِ وَمَا لَا زَكَاةَ فِيهِ",
+    "uzbek_title": "Ot va qullarning zakoti va zakot vojib bo'lmaydigan narsalar"
+  },
+  {
+    "id": "muslim-book-12-chapter-22",
+    "book_id": 12,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ زَكَاةِ الذَّهَبِ وَالْفِضَّةِ وَالتِّجَارَةِ",
+    "uzbek_title": "Oltin, kumush va savdo zakoti"
+  },
+  {
+    "id": "muslim-book-12-chapter-23",
+    "book_id": 12,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ صَدَقَةِ الْفِطْرِ عَلَى الْمُسْلِمِينَ",
+    "uzbek_title": "Muslimlar uchun fitr sadaqasi"
+  },
+  {
+    "id": "muslim-book-12-chapter-24",
+    "book_id": 12,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ ذِكْرِ مَنْ تَجِبُ عَلَيْهِ صَدَقَةُ الْفِطْرِ",
+    "uzbek_title": "Kimga fitr sadaqasi vojib ekanligi"
+  },
+  {
+    "id": "muslim-book-12-chapter-25",
+    "book_id": 12,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ وَقْتِ إِخْرَاجِ زَكَاةِ الْفِطْرِ",
+    "uzbek_title": "Fitr sadaqasini chiqarish vaqti"
+  },
+  {
+    "id": "muslim-book-12-chapter-26",
+    "book_id": 12,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ الصَّدَقَةِ عَلَى الْقَرِيبِ",
+    "uzbek_title": "Yaqin qarindoshlarga sadaqa berish"
+  },
+  {
+    "id": "muslim-book-12-chapter-27",
+    "book_id": 12,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ فَضْلِ النَّفَقَةِ عَلَى الزَّوْجَةِ وَالْأَوْلَادِ",
+    "uzbek_title": "Xotin va farzandlarga sarflashning fazilati"
+  },
+  {
+    "id": "muslim-book-12-chapter-28",
+    "book_id": 12,
+    "chapter_number": 28,
+    "arabic_title": "بَابُ ثَوَابِ الْخَازِنِ الْأَمِينِ وَالْمَرْأَةِ تَتَصَدَّقُ مِنْ بَيْتِ زَوْجِهَا",
+    "uzbek_title": "Ishonchli xazinachi va eri uyidan sadaqa bergan ayolning savоbi"
+  },
+  {
+    "id": "muslim-book-12-chapter-29",
+    "book_id": 12,
+    "chapter_number": 29,
+    "arabic_title": "بَابُ إِعْطَاءِ الْمُؤَلَّفَةِ قُلُوبُهُمْ عَلَى الْإِسْلَامِ",
+    "uzbek_title": "Islomga ko'ndirilayotgan kishilarga (muallafatul-qulub) berish"
+  },
+  {
+    "id": "muslim-book-12-chapter-30",
+    "book_id": 12,
+    "chapter_number": 30,
+    "arabic_title": "بَابُ بَيَانِ مَصَارِفِ الزَّكَاةِ",
+    "uzbek_title": "Zakot sarflanadigan yo'llar bayoni"
+  },
+  {
+    "id": "muslim-book-12-chapter-31",
+    "book_id": 12,
+    "chapter_number": 31,
+    "arabic_title": "بَابُ ذِكْرِ الْخَوَارِجِ وَصِفَتِهِمْ",
+    "uzbek_title": "Xavorijlar va ularning tavsifi"
+  },
+  {
+    "id": "muslim-book-12-chapter-32",
+    "book_id": 12,
+    "chapter_number": 32,
+    "arabic_title": "بَابُ الْأَمْرِ بِقِتَالِ الْخَوَارِجِ",
+    "uzbek_title": "Xavorijlar bilan kurashish buyurilishi"
+  },
+  {
+    "id": "muslim-book-12-chapter-33",
+    "book_id": 12,
+    "chapter_number": 33,
+    "arabic_title": "بَابُ التَّحْرِيضِ عَلَى قَتْلِ الْخَوَارِجِ",
+    "uzbek_title": "Xavorijlarga qarshi kurashga undash"
+  },
+  {
+    "id": "muslim-book-12-chapter-34",
+    "book_id": 12,
+    "chapter_number": 34,
+    "arabic_title": "بَابُ قَبُولِ الصَّدَقَةِ مِنَ الْكَسْبِ الطَّيِّبِ وَتَرْبِيَتِهَا",
+    "uzbek_title": "Halol daromad sadaqasining qabul qilinishi va uning barakat topishi"
+  },
+  {
+    "id": "muslim-book-12-chapter-35",
+    "book_id": 12,
+    "chapter_number": 35,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ اسْتِرْدَادِ الصَّدَقَةِ",
+    "uzbek_title": "Berilgan sadaqani qaytarib olishning man etilishi"
+  },
+  {
+    "id": "muslim-book-12-chapter-36",
+    "book_id": 12,
+    "chapter_number": 36,
+    "arabic_title": "بَابُ كَرَاهَةِ الشُّحِّ وَالْحَثُّ عَلَى السَّخَاءِ",
+    "uzbek_title": "Xasislikning makruhligi va saxovatga targ'ib"
+  },
+  {
+    "id": "muslim-book-12-chapter-37",
+    "book_id": 12,
+    "chapter_number": 37,
+    "arabic_title": "بَابُ فَضْلِ إِخْفَاءِ الصَّدَقَةِ",
+    "uzbek_title": "Sadaqani yashirin berishning fazilati"
+  },
+  {
+    "id": "muslim-book-12-chapter-38",
+    "book_id": 12,
+    "chapter_number": 38,
+    "arabic_title": "بَابُ فَضْلِ الصَّدَقَةِ عَلَى ذَوِي الرَّحِمِ",
+    "uzbek_title": "Qarindosh-urug'larga sadaqa berishning fazilati"
+  },
+  {
+    "id": "muslim-book-12-chapter-39",
+    "book_id": 12,
+    "chapter_number": 39,
+    "arabic_title": "بَابُ الرَّجُلُ يُنْفِقُ عَلَى نَفْسِهِ أَفْضَلُ مِنْ أَنْ يَتَصَدَّقَ",
+    "uzbek_title": "Kishining o'ziga sarflashi sadaqadan afzal bo'lishi"
+  },
+  {
+    "id": "muslim-book-12-chapter-40",
+    "book_id": 12,
+    "chapter_number": 40,
+    "arabic_title": "بَابُ فَضْلِ مَنْ أَنْفَقَ فِي سَبِيلِ اللَّهِ",
+    "uzbek_title": "Alloh yo'lida sarflagan kishining fazilati"
   }
 ]

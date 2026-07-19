@@ -2098,5 +2098,159 @@
     "chapter_number": 58,
     "arabic_title": "بَابُ الطِّيبِ وَالسِّوَاكِ يَوْمَ الْجُمُعَةِ",
     "uzbek_title": "Juma kuni xushbo'y surtish va misvok ishlatish"
+  },
+  {
+    "id": "muslim-book-7-chapter-1",
+    "book_id": 7,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ وُجُوبِ الْجُمُعَةِ وَأَنَّهَا فَرِيضَةٌ",
+    "uzbek_title": "Juma namozi vajibligi va u farz ekanligi"
+  },
+  {
+    "id": "muslim-book-7-chapter-2",
+    "book_id": 7,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ هِدَايَةِ مَنْ يَسْمَعُ النِّدَاءَ إِلَى الْجُمُعَةِ",
+    "uzbek_title": "Juma azonini eshitgan kishiga Juma vajibligi"
+  },
+  {
+    "id": "muslim-book-7-chapter-3",
+    "book_id": 7,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ حُكْمِ تَارِكِ الْجُمُعَةِ",
+    "uzbek_title": "Juma namozini tark etgan kishining hukmi"
+  },
+  {
+    "id": "muslim-book-7-chapter-4",
+    "book_id": 7,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ فَضْلِ يَوْمِ الْجُمُعَةِ",
+    "uzbek_title": "Juma kunining fazilati"
+  },
+  {
+    "id": "muslim-book-7-chapter-5",
+    "book_id": 7,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ السَّاعَةِ الَّتِي فِي يَوْمِ الْجُمُعَةِ",
+    "uzbek_title": "Juma kunidagi (ijobat) soati"
+  },
+  {
+    "id": "muslim-book-7-chapter-6",
+    "book_id": 7,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ الْإِكْثَارِ مِنَ الصَّلَاةِ عَلَى النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ يَوْمَ الْجُمُعَةِ",
+    "uzbek_title": "Juma kuni Nabiy sollallohu alayhi vasallamga ko'p salavot aytish"
+  },
+  {
+    "id": "muslim-book-7-chapter-7",
+    "book_id": 7,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الْغُسْلِ يَوْمَ الْجُمُعَةِ",
+    "uzbek_title": "Juma kuni g'usl qilish"
+  },
+  {
+    "id": "muslim-book-7-chapter-8",
+    "book_id": 7,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ الطِّيبِ وَالسِّوَاكِ وَالتَّبْكِيرِ إِلَى الْجُمُعَةِ",
+    "uzbek_title": "Juma kuni xushbo'y surttirish, misvok ishlatish va erta borish"
+  },
+  {
+    "id": "muslim-book-7-chapter-9",
+    "book_id": 7,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ فَضْلِ التَّهْجِيرِ إِلَى الْجُمُعَةِ",
+    "uzbek_title": "Juma namoziga erta borishning fazilati"
+  },
+  {
+    "id": "muslim-book-7-chapter-10",
+    "book_id": 7,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ صَلَاةِ الْجُمُعَةِ حِينَ تَزُولُ الشَّمْسُ",
+    "uzbek_title": "Quyosh aylanganida Juma namozi o'qilishi"
+  },
+  {
+    "id": "muslim-book-7-chapter-11",
+    "book_id": 7,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ الدُّنُوِّ مِنَ الْإِمَامِ عِنْدَ الْخُطْبَةِ",
+    "uzbek_title": "Xutba paytida imomga yaqin o'tirish"
+  },
+  {
+    "id": "muslim-book-7-chapter-12",
+    "book_id": 7,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ تَخْفِيفِ الصَّلَاةِ وَالْخُطْبَةِ",
+    "uzbek_title": "Namoz va xutbani qisqacha o'qish"
+  },
+  {
+    "id": "muslim-book-7-chapter-13",
+    "book_id": 7,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ قِرَاءَةِ سُورَةِ ق فِي خُطْبَةِ الْجُمُعَةِ",
+    "uzbek_title": "Juma xutbasida Qof surasi o'qilishi"
+  },
+  {
+    "id": "muslim-book-7-chapter-14",
+    "book_id": 7,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ مَا يُقْرَأُ فِي صَلَاةِ الْجُمُعَةِ",
+    "uzbek_title": "Juma namozida o'qiladigan suralar"
+  },
+  {
+    "id": "muslim-book-7-chapter-15",
+    "book_id": 7,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ الْقِرَاءَةِ فِي صَلَاةِ الْجُمُعَةِ بِسُورَةِ الْجُمُعَةِ وَالْمُنَافِقِينَ",
+    "uzbek_title": "Juma namozida Juma va Munofiqun suralarini o'qish"
+  },
+  {
+    "id": "muslim-book-7-chapter-16",
+    "book_id": 7,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ الْإِنْصَاتِ يَوْمَ الْجُمُعَةِ فِي الْخُطْبَةِ",
+    "uzbek_title": "Juma kuni xutba paytida jim va diqqat bilan tinglash"
+  },
+  {
+    "id": "muslim-book-7-chapter-17",
+    "book_id": 7,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ مَنْ جَاءَ وَالْإِمَامُ يَخْطُبُ صَلَّى رَكْعَتَيْنِ خَفِيفَتَيْنِ",
+    "uzbek_title": "Imom xutba o'qiyotganda kelgan kishi ikki yengil rekaat o'qishi"
+  },
+  {
+    "id": "muslim-book-7-chapter-18",
+    "book_id": 7,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ التَّحِيَّةُ وَالْإِمَامُ يَخْطُبُ",
+    "uzbek_title": "Imom xutba o'qiyotganda masjidga kiruvchining tahiyya namozi"
+  },
+  {
+    "id": "muslim-book-7-chapter-19",
+    "book_id": 7,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ فِي الَّذِي يَتَخَطَّى رِقَابَ النَّاسِ يَوْمَ الْجُمُعَةِ",
+    "uzbek_title": "Juma kuni odamlarning boshidan oshib o'tgan kishi haqida"
+  },
+  {
+    "id": "muslim-book-7-chapter-20",
+    "book_id": 7,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ الصَّلَاةِ بَعْدَ الْجُمُعَةِ",
+    "uzbek_title": "Juma namozidan keyingi sunnаt namoz"
+  },
+  {
+    "id": "muslim-book-7-chapter-21",
+    "book_id": 7,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ الْجُمُعَةِ بَعْدَ الْعِيدِ",
+    "uzbek_title": "Hayit kuni Juma namozi to'g'risida"
+  },
+  {
+    "id": "muslim-book-7-chapter-22",
+    "book_id": 7,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ الدُّعَاءِ فِي يَوْمِ الْجُمُعَةِ",
+    "uzbek_title": "Juma kunida dua qilish"
   }
 ]

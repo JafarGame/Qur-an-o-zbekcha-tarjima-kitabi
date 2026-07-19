@@ -1692,5 +1692,411 @@
     "chapter_number": 55,
     "arabic_title": "بَابُ مَا يَقْطَعُ الصَّلَاةَ وَمَا لَا يَقْطَعُهَا",
     "uzbek_title": "Namozni buziradigan va buzmaydigan narsalar haqida"
+  },
+  {
+    "id": "muslim-book-6-chapter-1",
+    "book_id": 6,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ صَلَاةِ الْمُسَافِرِينَ وَقَصْرِهَا",
+    "uzbek_title": "Musofirlar namozi va uni qisqartirish"
+  },
+  {
+    "id": "muslim-book-6-chapter-2",
+    "book_id": 6,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ جَوَازِ التَّطَوُّعِ عَلَى الرَّاحِلَةِ فِي السَّفَرِ حَيْثُ تَوَجَّهَتْ",
+    "uzbek_title": "Safarda mingan holda, qaysi tomonga yursa ham nafl namoz o'qish joizligi"
+  },
+  {
+    "id": "muslim-book-6-chapter-3",
+    "book_id": 6,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ صَلَاةِ اللَّيْلِ وَعَدَدِ رَكَعَاتِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي اللَّيْلِ",
+    "uzbek_title": "Kecha namozi va Nabiy sollallohu alayhi vasallamning kechadagi rekaat soni"
+  },
+  {
+    "id": "muslim-book-6-chapter-4",
+    "book_id": 6,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ جَامِعِ صَلَاةِ اللَّيْلِ وَمَنْ نَامَ عَنْهُ أَوْ مَرِضَ",
+    "uzbek_title": "Kecha namozining umumiy bayoni va uxlab qolgan yoki kasal bo'lgan kishi"
+  },
+  {
+    "id": "muslim-book-6-chapter-5",
+    "book_id": 6,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ الدُّعَاءِ فِي صَلَاةِ اللَّيْلِ وَقِيَامِهِ",
+    "uzbek_title": "Kecha namozi va qiyomida qilinadigan dua"
+  },
+  {
+    "id": "muslim-book-6-chapter-6",
+    "book_id": 6,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ مَا اسْتُفْتِحَ بِهِ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ صَلَاةَ اللَّيْلِ",
+    "uzbek_title": "Nabiy sollallohu alayhi vasallam kecha namozini qaysi dua bilan boshlaganligi"
+  },
+  {
+    "id": "muslim-book-6-chapter-7",
+    "book_id": 6,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الدُّعَاءِ عِنْدَ الاسْتِيقَاظِ مِنَ اللَّيْلِ",
+    "uzbek_title": "Kechasi uyg'onganda qilinadigan dua"
+  },
+  {
+    "id": "muslim-book-6-chapter-8",
+    "book_id": 6,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ صَلَاةِ اللَّيْلِ مَثْنَى مَثْنَى وَالْوِتْرُ رَكْعَةٌ مِنْ آخِرِ اللَّيْلِ",
+    "uzbek_title": "Kecha namozini ikki-ikki va vitrni oxir kechada bir rekaat o'qish"
+  },
+  {
+    "id": "muslim-book-6-chapter-9",
+    "book_id": 6,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ الْوِتْرِ وَعَدَدِ رَكَعَاتِهِ",
+    "uzbek_title": "Vitr namozi va uning rekaat soni"
+  },
+  {
+    "id": "muslim-book-6-chapter-10",
+    "book_id": 6,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ فَضْلِ الْوِتْرِ وَالْأَمْرِ بِهِ وَالْحَثِّ عَلَيْهِ",
+    "uzbek_title": "Vitr namozining fazilati, buyurilishi va unga targ'ib"
+  },
+  {
+    "id": "muslim-book-6-chapter-11",
+    "book_id": 6,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ مَنْ خَافَ أَنْ لَا يَقُومَ مِنْ آخِرِ اللَّيْلِ فَلْيُوتِرْ أَوَّلَهُ",
+    "uzbek_title": "Oxir kechada uyg'ona olmasidan xo'rqqan kishi vitrni avvalda o'qisin"
+  },
+  {
+    "id": "muslim-book-6-chapter-12",
+    "book_id": 6,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ قَضَاءِ الْوِتْرِ",
+    "uzbek_title": "Vitr namozini qazо qilish"
+  },
+  {
+    "id": "muslim-book-6-chapter-13",
+    "book_id": 6,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ الدُّعَاءِ فِي قُنُوتِ الْوِتْرِ",
+    "uzbek_title": "Vitr qunutida qilinadigan dua"
+  },
+  {
+    "id": "muslim-book-6-chapter-14",
+    "book_id": 6,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ صَلَاةِ الْوِتْرِ فِي السَّفَرِ",
+    "uzbek_title": "Safarda vitr namozi o'qish"
+  },
+  {
+    "id": "muslim-book-6-chapter-15",
+    "book_id": 6,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ الْقِرَاءَةِ فِي صَلَاةِ اللَّيْلِ",
+    "uzbek_title": "Kecha namozida qiroat haqida"
+  },
+  {
+    "id": "muslim-book-6-chapter-16",
+    "book_id": 6,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ جَوَازِ صَلَاةِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكَعَاتِ قَاعِدًا",
+    "uzbek_title": "Nafl namozini turgan yoki o'tirgan holda o'qish va ba'zi rekaatlarni o'tirib o'qish joizligi"
+  },
+  {
+    "id": "muslim-book-6-chapter-17",
+    "book_id": 6,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ ثَوَابِ مَنْ صَلَّى النَّافِلَةَ قَاعِدًا",
+    "uzbek_title": "Nafl namozini o'tirib o'qigan kishining savоbi"
+  },
+  {
+    "id": "muslim-book-6-chapter-18",
+    "book_id": 6,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ اسْتِحْبَابِ صَلَاةِ الضُّحَى وَأَنَّ أَقَلَّهَا رَكْعَتَانِ",
+    "uzbek_title": "Duho namozining mustahabligi va kamida ikki rekaat ekanligi"
+  },
+  {
+    "id": "muslim-book-6-chapter-19",
+    "book_id": 6,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ صَلَاةِ الْأَوَّابِينَ حِينَ تَرْمَضُ الْفِصَالُ",
+    "uzbek_title": "Avvobin namozi vaqti — tuyacha bolalari oyog'ini yer issig'idan ko'targanida"
+  },
+  {
+    "id": "muslim-book-6-chapter-20",
+    "book_id": 6,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ فَضْلِ السُّنَنِ الرَّاتِبَةِ قَبْلَ الْفَرَائِضِ وَبَعْدَهَا وَبَيَانِ عَدَدِهَا",
+    "uzbek_title": "Farz oldi va keyingi rawotib sunnatlarning fazilati va ulар soni bayoni"
+  },
+  {
+    "id": "muslim-book-6-chapter-21",
+    "book_id": 6,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ اسْتِحْبَابِ رَكْعَتَيْ سُنَّةِ الْفَجْرِ وَالْحَثِّ عَلَيْهِمَا وَتَخْفِيفِهِمَا",
+    "uzbek_title": "Bomdod sunnatining mustahabligi, unga targ'ib va uni yengil o'qish"
+  },
+  {
+    "id": "muslim-book-6-chapter-22",
+    "book_id": 6,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ مَا يُقْرَأُ فِي رَكْعَتَيِ الْفَجْرِ",
+    "uzbek_title": "Bomdod sunnatida o'qiladigan suralar"
+  },
+  {
+    "id": "muslim-book-6-chapter-23",
+    "book_id": 6,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ الِاضْطِجَاعِ بَعْدَ رَكْعَتَيِ الْفَجْرِ",
+    "uzbek_title": "Bomdod sunnatidan keyin yonboshlab yotish"
+  },
+  {
+    "id": "muslim-book-6-chapter-24",
+    "book_id": 6,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ اسْتِحْبَابِ رَكْعَتَيْنِ قَبْلَ الْمَغْرِبِ",
+    "uzbek_title": "Shomdan oldin ikki rekaat sunnаt o'qish mustahabligi"
+  },
+  {
+    "id": "muslim-book-6-chapter-25",
+    "book_id": 6,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ الرَّغِيبَةِ فِي قِيَامِ اللَّيْلِ وَمَا يَقْرَأُ فِيهِ",
+    "uzbek_title": "Kecha namoziga targ'ib va unda o'qiladigan narsalar"
+  },
+  {
+    "id": "muslim-book-6-chapter-26",
+    "book_id": 6,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ أَفْضَلِ الصِّيَامِ وَأَفْضَلِ الصَّلَاةِ بَعْدَ الْفَرِيضَةِ",
+    "uzbek_title": "Eng afzal ro'za va farzdan keyin eng afzal namoz"
+  },
+  {
+    "id": "muslim-book-6-chapter-27",
+    "book_id": 6,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الْكَسَلِ عَنِ الصَّلَاةِ وَكَرَاهَةِ التَّثَاؤُبِ فِيهَا",
+    "uzbek_title": "Namozga erimsizlik qilishning man etilishi va unda esning kelib qolishi makruhligi"
+  },
+  {
+    "id": "muslim-book-6-chapter-28",
+    "book_id": 6,
+    "chapter_number": 28,
+    "arabic_title": "بَابُ فَضْلِ التَّهَجُّدِ بِاللَّيْلِ",
+    "uzbek_title": "Kecha tahajjud namozining fazilati"
+  },
+  {
+    "id": "muslim-book-6-chapter-29",
+    "book_id": 6,
+    "chapter_number": 29,
+    "arabic_title": "بَابُ جَمْعِ الصَّلَاتَيْنِ فِي الْحَضَرِ",
+    "uzbek_title": "Muqimlik holatida ikki namozni birlashtirish haqida"
+  },
+  {
+    "id": "muslim-book-6-chapter-30",
+    "book_id": 6,
+    "chapter_number": 30,
+    "arabic_title": "بَابُ الْجَمْعِ بَيْنَ الصَّلَاتَيْنِ فِي السَّفَرِ",
+    "uzbek_title": "Safarda ikki namozni birlashtirish"
+  },
+  {
+    "id": "muslim-book-6-chapter-31",
+    "book_id": 6,
+    "chapter_number": 31,
+    "arabic_title": "بَابُ صَلَاةِ الْمُسَافِرِ وَقَصْرِهَا حِينَ يَخْرُجُ",
+    "uzbek_title": "Musofirning yo'lga chiqqanida namozni qisqartirishi"
+  },
+  {
+    "id": "muslim-book-6-chapter-32",
+    "book_id": 6,
+    "chapter_number": 32,
+    "arabic_title": "بَابُ صَلَاةِ الْمُسَافِرِ إِذَا كَانَ بِمَكَّةَ",
+    "uzbek_title": "Musofir Makkada bo'lganida namoz o'qishi"
+  },
+  {
+    "id": "muslim-book-6-chapter-33",
+    "book_id": 6,
+    "chapter_number": 33,
+    "arabic_title": "بَابُ مَا رُوِيَ فِيمَنْ أَقَامَ بِبَلَدٍ فَهَلْ يَقْصُرُ",
+    "uzbek_title": "Bir shaharda qolgan musofir qasr qiladimi — degan masalaga doir rivoyat"
+  },
+  {
+    "id": "muslim-book-6-chapter-34",
+    "book_id": 6,
+    "chapter_number": 34,
+    "arabic_title": "بَابُ قَصْرِ الصَّلَاةِ بِمِنًى",
+    "uzbek_title": "Minoda namozni qisqartirish"
+  },
+  {
+    "id": "muslim-book-6-chapter-35",
+    "book_id": 6,
+    "chapter_number": 35,
+    "arabic_title": "بَابُ جَوَازِ الْجَمْعِ بَيْنَ الصَّلَاتَيْنِ فِي السَّفَرِ",
+    "uzbek_title": "Safarda ikki namozni birlashtirish joizligi"
+  },
+  {
+    "id": "muslim-book-6-chapter-36",
+    "book_id": 6,
+    "chapter_number": 36,
+    "arabic_title": "بَابُ الْجَمْعِ بَيْنَ الصَّلَاتَيْنِ فِي الْحَضَرِ فِي الْمَطَرِ وَنَحْوِهِ",
+    "uzbek_title": "Muqimlikda yomg'ir va shunga o'xshash sabablarda ikki namozni birlashtirish"
+  },
+  {
+    "id": "muslim-book-6-chapter-37",
+    "book_id": 6,
+    "chapter_number": 37,
+    "arabic_title": "بَابُ صَلَاةِ الْخَوْفِ",
+    "uzbek_title": "Xavf (jangovar holat) namozi"
+  },
+  {
+    "id": "muslim-book-6-chapter-38",
+    "book_id": 6,
+    "chapter_number": 38,
+    "arabic_title": "بَابُ صِفَةِ صَلَاةِ الْخَوْفِ",
+    "uzbek_title": "Xavf namozining tavsifi"
+  },
+  {
+    "id": "muslim-book-6-chapter-39",
+    "book_id": 6,
+    "chapter_number": 39,
+    "arabic_title": "بَابُ صَلَاةِ الْخَوْفِ عَلَى هَيْئَاتٍ مُخْتَلِفَةٍ",
+    "uzbek_title": "Xavf namozining turli shakllari"
+  },
+  {
+    "id": "muslim-book-6-chapter-40",
+    "book_id": 6,
+    "chapter_number": 40,
+    "arabic_title": "بَابُ صَلَاةِ الْكُسُوفِ",
+    "uzbek_title": "Quyosh tutilishi namozi"
+  },
+  {
+    "id": "muslim-book-6-chapter-41",
+    "book_id": 6,
+    "chapter_number": 41,
+    "arabic_title": "بَابُ مَا عُرِضَ عَلَى النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي صَلَاةِ الْكُسُوفِ",
+    "uzbek_title": "Quyosh tutilishi namozida Nabiy sollallohu alayhi vasallamga ko'rsatilgan narsalar"
+  },
+  {
+    "id": "muslim-book-6-chapter-42",
+    "book_id": 6,
+    "chapter_number": 42,
+    "arabic_title": "بَابُ ذِكْرِ النِّدَاءِ بِصَلَاةِ الْكُسُوفِ",
+    "uzbek_title": "Quyosh tutilishi namoziga chaqiriq haqida"
+  },
+  {
+    "id": "muslim-book-6-chapter-43",
+    "book_id": 6,
+    "chapter_number": 43,
+    "arabic_title": "بَابُ صِفَةِ صَلَاةِ الْكُسُوفِ",
+    "uzbek_title": "Quyosh tutilishi namozining tavsifi"
+  },
+  {
+    "id": "muslim-book-6-chapter-44",
+    "book_id": 6,
+    "chapter_number": 44,
+    "arabic_title": "بَابُ مَا يُقَالُ عِنْدَ الْكُسُوفِ",
+    "uzbek_title": "Quyosh tutilishi vaqtida nima deyilishi"
+  },
+  {
+    "id": "muslim-book-6-chapter-45",
+    "book_id": 6,
+    "chapter_number": 45,
+    "arabic_title": "بَابُ صَلَاةِ الِاسْتِسْقَاءِ",
+    "uzbek_title": "Yomg'ir so'rab o'qiladigan istisqо namozi"
+  },
+  {
+    "id": "muslim-book-6-chapter-46",
+    "book_id": 6,
+    "chapter_number": 46,
+    "arabic_title": "بَابُ الدُّعَاءِ فِي الِاسْتِسْقَاءِ",
+    "uzbek_title": "Istisqоda qilinadigan dua"
+  },
+  {
+    "id": "muslim-book-6-chapter-47",
+    "book_id": 6,
+    "chapter_number": 47,
+    "arabic_title": "بَابُ التَّعَوُّذِ حِينَ يَرَى الرِّيحَ وَالسَّحَابَ وَالدُّعَاءِ عِنْدَ الْمَطَرِ",
+    "uzbek_title": "Shamol va bulut ko'rganda panoh so'rash va yomg'ir vaqtida dua qilish"
+  },
+  {
+    "id": "muslim-book-6-chapter-48",
+    "book_id": 6,
+    "chapter_number": 48,
+    "arabic_title": "بَابُ مَا يَقُولُ إِذَا نَزَلَ الْمَطَرُ",
+    "uzbek_title": "Yomg'ir yoqqanda nima deyilishi"
+  },
+  {
+    "id": "muslim-book-6-chapter-49",
+    "book_id": 6,
+    "chapter_number": 49,
+    "arabic_title": "بَابُ فَضْلِ صَلَاةِ الْجُمُعَةِ",
+    "uzbek_title": "Juma namozining fazilati"
+  },
+  {
+    "id": "muslim-book-6-chapter-50",
+    "book_id": 6,
+    "chapter_number": 50,
+    "arabic_title": "بَابُ هَدْيِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فِي الْجُمُعَةِ",
+    "uzbek_title": "Nabiy sollallohu alayhi vasallamning Juma namozidagi yo'li"
+  },
+  {
+    "id": "muslim-book-6-chapter-51",
+    "book_id": 6,
+    "chapter_number": 51,
+    "arabic_title": "بَابُ تَخْفِيفِ الصَّلَاةِ وَالْخُطْبَةِ",
+    "uzbek_title": "Namoz va xutbani qisqacha o'qish"
+  },
+  {
+    "id": "muslim-book-6-chapter-52",
+    "book_id": 6,
+    "chapter_number": 52,
+    "arabic_title": "بَابُ قِرَاءَةِ سُورَةِ ق فِي خُطْبَةِ الْجُمُعَةِ",
+    "uzbek_title": "Juma xutbasida Qof surasi o'qilishi"
+  },
+  {
+    "id": "muslim-book-6-chapter-53",
+    "book_id": 6,
+    "chapter_number": 53,
+    "arabic_title": "بَابُ مَا يُقْرَأُ فِي صَلَاةِ الْجُمُعَةِ",
+    "uzbek_title": "Juma namozida o'qiladigan suralar"
+  },
+  {
+    "id": "muslim-book-6-chapter-54",
+    "book_id": 6,
+    "chapter_number": 54,
+    "arabic_title": "بَابُ الْإِنْصَاتِ يَوْمَ الْجُمُعَةِ فِي الْخُطْبَةِ",
+    "uzbek_title": "Juma kuni xutba vaqtida jim tinglash"
+  },
+  {
+    "id": "muslim-book-6-chapter-55",
+    "book_id": 6,
+    "chapter_number": 55,
+    "arabic_title": "بَابُ الصَّلَاةِ بَعْدَ الْجُمُعَةِ",
+    "uzbek_title": "Juma namozidan keyingi sunnаt namoz"
+  },
+  {
+    "id": "muslim-book-6-chapter-56",
+    "book_id": 6,
+    "chapter_number": 56,
+    "arabic_title": "بَابُ فَضْلِ يَوْمِ الْجُمُعَةِ وَسَاعَةِ الْإِجَابَةِ فِيهِ",
+    "uzbek_title": "Juma kunining fazilati va unda ijobat soati"
+  },
+  {
+    "id": "muslim-book-6-chapter-57",
+    "book_id": 6,
+    "chapter_number": 57,
+    "arabic_title": "بَابُ فِي الْغُسْلِ يَوْمَ الْجُمُعَةِ",
+    "uzbek_title": "Juma kunida g'usl qilish haqida"
+  },
+  {
+    "id": "muslim-book-6-chapter-58",
+    "book_id": 6,
+    "chapter_number": 58,
+    "arabic_title": "بَابُ الطِّيبِ وَالسِّوَاكِ يَوْمَ الْجُمُعَةِ",
+    "uzbek_title": "Juma kuni xushbo'y surtish va misvok ishlatish"
   }
 ]

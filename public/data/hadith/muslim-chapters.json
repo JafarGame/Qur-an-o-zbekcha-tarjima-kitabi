@@ -4240,5 +4240,68 @@
     "chapter_number": 7,
     "arabic_title": "بَابُ مَنْ زَنَى بِحَلِيلَةِ جَارِهِ",
     "uzbek_title": "Qo'shni xotini bilan zino qilgan kishi"
+  },
+  {
+    "id": "muslim-book-20-chapter-1",
+    "book_id": 20,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ فَضْلِ الْعِتْقِ",
+    "uzbek_title": "Qul ozod qilishning fazilati"
+  },
+  {
+    "id": "muslim-book-20-chapter-2",
+    "book_id": 20,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ إِنَّمَا الْوَلَاءُ لِمَنْ أَعْتَقَ",
+    "uzbek_title": "Valoyat faqat ozod qilgan kishiga tegishli ekanligi"
+  },
+  {
+    "id": "muslim-book-20-chapter-3",
+    "book_id": 20,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ تَحْرِيمِ بَيْعِ الْوَلَاءِ وَهِبَتِهِ",
+    "uzbek_title": "Valoyatni sotish va hadya qilish haromligi"
+  },
+  {
+    "id": "muslim-book-20-chapter-4",
+    "book_id": 20,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ مَنْ أَعْتَقَ شِرْكًا لَهُ فِي عَبْدٍ",
+    "uzbek_title": "Qulda ulushi bor kishining o'z ulushini ozod qilishi"
+  },
+  {
+    "id": "muslim-book-20-chapter-5",
+    "book_id": 20,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ الْوَلَاءَ لُحْمَةٌ كَلُحْمَةِ النَّسَبِ",
+    "uzbek_title": "Valoyat nasab kabi mustahkam bog' ekanligi bayoni"
+  },
+  {
+    "id": "muslim-book-20-chapter-6",
+    "book_id": 20,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ تَخْيِيرِ الْأَمَةِ تَحْتَ الْعَبْدِ إِذَا عَتَقَتْ",
+    "uzbek_title": "Qulga tegishli cho'ri ozod bo'lganda unga tanlov huquqi berilishi"
+  },
+  {
+    "id": "muslim-book-20-chapter-7",
+    "book_id": 20,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الْمُكَاتَبِ وَجَوَازِ أَدَاءِ كِتَابَتِهِ مِنَ الزَّكَاةِ",
+    "uzbek_title": "Mukatab qul va uning kitobat to'lovini zakotdan berish joizligi"
+  },
+  {
+    "id": "muslim-book-20-chapter-8",
+    "book_id": 20,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ جَوَازِ بَيْعِ الْمُدَبَّرِ",
+    "uzbek_title": "Mudabbar qulni sotish joizligi"
+  },
+  {
+    "id": "muslim-book-20-chapter-9",
+    "book_id": 20,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ فَضْلِ الْعِتْقِ فِي الْكَفَّارَاتِ وَوُجُوبِهِ",
+    "uzbek_title": "Kafforatlarda qul ozod qilish fazilati va vajibligi"
   }
 ]

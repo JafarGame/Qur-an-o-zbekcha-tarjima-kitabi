@@ -9,61 +9,769 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- global styles (not modified) -->
 <link rel="stylesheet" href="/css/style.css" />
 <script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>
-</head>
-<body>
-  <header class="site-header">
-    <div class="header-logo" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 54" width="64" height="54">
-        <!-- Left page (parchment) -->
-        <path d="M3 13 L29 9 L29 47 L3 43 Z" fill="#fef5d4"/>
-        <!-- Right page (parchment) -->
-        <path d="M35 9 L61 13 L61 43 L35 47 Z" fill="#fef5d4"/>
-        <!-- Gold spine -->
-        <path d="M29 7.5 Q32 6.5 35 7.5 L35 48.5 Q32 49.5 29 48.5 Z" fill="url(#spineGrad)"/>
-        <!-- Spine centre highlight -->
-        <line x1="32" y1="8" x2="32" y2="48" stroke="rgba(255,248,180,0.45)" stroke-width="1"/>
-        <!-- Left page lines (suggest Arabic text, RTL feel — shorter on left) -->
-        <line x1="9"  y1="18"   x2="25" y2="18.6" stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
-        <line x1="9"  y1="23.5" x2="25" y2="24.1" stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
-        <line x1="9"  y1="29"   x2="25" y2="29.6" stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
-        <line x1="9"  y1="34.5" x2="25" y2="35"   stroke="#c4924a" stroke-width="1.4" stroke-linecap="round"/>
-        <line x1="14" y1="40"   x2="25" y2="40.4" stroke="#c4924a" stroke-width="1.1" stroke-linecap="round" opacity="0.7"/>
-        <!-- Right page lines (mirror) -->
-        <line x1="39" y1="18.6" x2="55" y2="18"   stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
-        <line x1="39" y1="24.1" x2="55" y2="23.5" stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
-        <line x1="39" y1="29.6" x2="55" y2="29"   stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
-        <line x1="39" y1="35"   x2="55" y2="34.5" stroke="#c4924a" stroke-width="1.4" stroke-linecap="round"/>
-        <line x1="39" y1="40.4" x2="50" y2="40"   stroke="#c4924a" stroke-width="1.1" stroke-linecap="round" opacity="0.7"/>
-        <!-- Book cover bottom edge (depth) -->
-        <path d="M3 43 L29 47 L35 47 L61 43 L61 45.5 L35 49.5 L29 49.5 L3 45.5 Z" fill="rgba(0,0,0,0.18)"/>
-        <!-- Gold diamond ornament at top of spine -->
-        <path d="M32 2 L34.2 5.5 L32 7.2 L29.8 5.5 Z" fill="#e2b24a"/>
-        <defs>
-          <linearGradient id="spineGrad" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0%"   stop-color="#b8860b"/>
-            <stop offset="45%"  stop-color="#d4a820"/>
-            <stop offset="100%" stop-color="#b8860b"/>
-          </linearGradient>
-        </defs>
-      </svg>
-    </div>
-    <h1>QUR'AN KARIM</h1>
-    <p>Arab matni va o'zbekcha tarjimasi</p>
-  </header>
 
-  <div class="search-bar">
-    <input type="text" id="searchInput" placeholder="Qidiruv: 3:25, Baqara 255, yoki matn..." autocomplete="off" />
+<style>
+/* ═══════════════════════════════════════════════════════════
+   QUR'AN INDEX PAGE — PREMIUM DARK GREEN THEME
+   All selectors scoped to body.qi-page
+   ═══════════════════════════════════════════════════════════ */
+
+body.qi-page {
+  background: #020e07;
+  color: #e8f0e8;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* ── Particle canvas ──────────────────────────────────────── */
+#qi-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── Background gradient ──────────────────────────────────── */
+body.qi-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 60% at 20% 10%,  rgba(10,60,28,0.55) 0%, transparent 65%),
+    radial-gradient(ellipse 70% 50% at 80% 85%,  rgba(6,40,18,0.45) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 40% at 60% 40%,  rgba(4,28,12,0.30) 0%, transparent 55%),
+    linear-gradient(170deg, #021007 0%, #030f08 40%, #020c06 70%, #010a05 100%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* ── Header ───────────────────────────────────────────────── */
+body.qi-page .qi-header {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  padding: 32px 20px 28px;
+  overflow: visible;
+}
+
+body.qi-page .qi-header::after {
+  content: "";
+  position: absolute;
+  bottom: 0; left: 10%; right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(184,134,11,0.35) 30%,
+    rgba(184,134,11,0.55) 50%,
+    rgba(184,134,11,0.35) 70%,
+    transparent 100%
+  );
+}
+
+body.qi-page .qi-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: rgba(180,220,185,0.75);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(184,134,11,0.18);
+  padding: 7px 16px;
+  border-radius: 999px;
+  position: absolute;
+  left: 16px;
+  top: 28px;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+  backdrop-filter: blur(6px);
+}
+
+body.qi-page .qi-back:hover {
+  background: rgba(184,134,11,0.12);
+  color: #c9a227;
+}
+
+body.qi-page .qi-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+  filter: drop-shadow(0 0 14px rgba(184,134,11,0.45))
+          drop-shadow(0 3px 8px rgba(0,0,0,0.5));
+  animation: qi-float 6s ease-in-out infinite;
+}
+
+@keyframes qi-float {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-5px); }
+}
+
+body.qi-page .qi-title {
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #e8f0e8;
+  margin: 0 0 4px;
+  text-shadow: 0 0 24px rgba(80,200,100,0.12);
+}
+
+body.qi-page .qi-bismillah {
+  font-family: "Amiri Quran", "Amiri", serif;
+  font-size: clamp(1.1rem, 3.5vw, 1.45rem);
+  color: #c9a227;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  text-shadow:
+    0 0 18px rgba(201,162,39,0.40),
+    0 2px 6px rgba(0,0,0,0.5);
+  margin: 2px 0 4px;
+}
+
+body.qi-page .qi-subtitle {
+  font-size: 0.78rem;
+  color: rgba(180,210,185,0.50);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* ── Search bar ───────────────────────────────────────────── */
+body.qi-page .qi-search-wrap {
+  position: relative;
+  z-index: 10;
+  max-width: 700px;
+  margin: 22px auto 0;
+  padding: 0 16px;
+}
+
+body.qi-page .qi-search-wrap input {
+  width: 100%;
+  padding: 14px 20px 14px 48px;
+  border-radius: 999px;
+  border: 1px solid rgba(184,134,11,0.28);
+  background: rgba(8,30,15,0.72);
+  backdrop-filter: blur(12px);
+  box-shadow:
+    0 4px 20px rgba(0,0,0,0.35),
+    inset 0 1px 0 rgba(255,255,255,0.04);
+  font-size: 0.95rem;
+  font-family: "Poppins", sans-serif;
+  color: #e8f0e8;
+  outline: none;
+  transition: border-color 0.22s ease, box-shadow 0.22s ease;
+}
+
+body.qi-page .qi-search-wrap input::placeholder {
+  color: rgba(160,200,165,0.40);
+}
+
+body.qi-page .qi-search-wrap input:focus {
+  border-color: rgba(184,134,11,0.65);
+  box-shadow:
+    0 0 0 3px rgba(184,134,11,0.12),
+    0 4px 20px rgba(0,0,0,0.35);
+}
+
+body.qi-page .qi-search-icon {
+  position: absolute;
+  left: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  color: rgba(184,134,11,0.55);
+  pointer-events: none;
+}
+
+/* ── Container ────────────────────────────────────────────── */
+body.qi-page .qi-main {
+  position: relative;
+  z-index: 10;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 20px 16px 72px;
+}
+
+/* ── Section label ────────────────────────────────────────── */
+body.qi-page .qi-section-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(184,134,11,0.60);
+  margin: 0 0 12px 4px;
+}
+
+/* ── Continue-reading banner override ─────────────────────── */
+body.qi-page .continue-reading-banner {
+  background: rgba(8,30,15,0.80);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(184,134,11,0.32);
+  border-left: 3px solid rgba(184,134,11,0.75);
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.35);
+  margin-bottom: 20px;
+}
+
+body.qi-page .crb-label {
+  color: rgba(184,134,11,0.70);
+}
+
+body.qi-page .crb-ref {
+  color: #ddeedd;
+}
+
+body.qi-page .crb-btn {
+  background: rgba(184,134,11,0.18);
+  color: #c9a227;
+  border: 1px solid rgba(184,134,11,0.35);
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+body.qi-page .crb-btn:hover {
+  background: rgba(184,134,11,0.30);
+}
+
+/* ── Surah list container ─────────────────────────────────── */
+body.qi-page #surahList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ── Glass surah card ─────────────────────────────────────── */
+body.qi-page .surah-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  overflow: hidden;
+  border-radius: 16px;
+  text-decoration: none;
+  color: #e8f0e8;
+  padding: 16px 20px;
+
+  background: rgba(8,30,15,0.72);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid rgba(184,134,11,0.24);
+  box-shadow:
+    0 3px 18px rgba(0,0,0,0.40),
+    inset 0 1px 0 rgba(255,255,255,0.03);
+
+  transition:
+    transform       0.20s cubic-bezier(0.34,1.56,0.64,1),
+    box-shadow      0.20s ease,
+    border-color    0.20s ease;
+}
+
+body.qi-page .surah-card:hover {
+  transform: translateY(-3px) scale(1.008);
+  border-color: rgba(184,134,11,0.58);
+  box-shadow:
+    0 0 0 1px rgba(184,134,11,0.18),
+    0 8px 28px rgba(0,0,0,0.50),
+    0 0 24px rgba(30,255,100,0.07),
+    0 0 55px rgba(30,255,100,0.03),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+}
+
+/* Gold top shimmer on hover */
+body.qi-page .surah-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1.5px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(184,134,11,0.7) 30%,
+    rgba(220,170,30,0.9) 50%,
+    rgba(184,134,11,0.7) 70%,
+    transparent 100%
+  );
+  opacity: 0;
+  transition: opacity 0.22s ease;
+  z-index: 2;
+  pointer-events: none;
+}
+
+body.qi-page .surah-card:hover::before { opacity: 1; }
+
+/* Ripple container */
+body.qi-page .surah-card .ripple-layer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 5;
+}
+
+body.qi-page .ripple-circle {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle,
+    rgba(80,255,140,0.16) 0%,
+    rgba(80,255,140,0.05) 50%,
+    transparent 70%
+  );
+  transform: scale(0);
+  animation: qi-ripple 0.60s cubic-bezier(0.22,1,0.36,1) forwards;
+  pointer-events: none;
+}
+
+@keyframes qi-ripple {
+  0%   { transform: scale(0);   opacity: 1;   }
+  60%  { transform: scale(1);   opacity: 0.7; }
+  100% { transform: scale(1.5); opacity: 0;   }
+}
+
+@keyframes qi-pulse-ring {
+  0%   { box-shadow: 0 0 0 0    rgba(30,255,100,0.18); }
+  70%  { box-shadow: 0 0 0 10px rgba(30,255,100,0);    }
+  100% { box-shadow: 0 0 0 0    rgba(30,255,100,0);    }
+}
+
+body.qi-page .surah-card.pulsing {
+  animation: qi-pulse-ring 0.50s ease-out;
+}
+
+/* ── Number badge ─────────────────────────────────────────── */
+body.qi-page .surah-badge {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: radial-gradient(circle,
+    rgba(184,134,11,0.22) 0%,
+    rgba(184,134,11,0.08) 100%
+  );
+  border: 1.5px solid rgba(184,134,11,0.42);
+  color: #c9a227;
+  font-weight: 700;
+  font-size: 0.88rem;
+  font-family: "Poppins", sans-serif;
+  transition: border-color 0.22s ease, background 0.22s ease, transform 0.22s ease;
+  position: relative;
+  z-index: 1;
+}
+
+body.qi-page .surah-card:hover .surah-badge {
+  border-color: rgba(80,255,140,0.45);
+  background: radial-gradient(circle,
+    rgba(80,255,140,0.14) 0%,
+    rgba(80,255,140,0.04) 100%
+  );
+  color: #8cffa0;
+  transform: scale(1.08);
+}
+
+/* ── Info block ───────────────────────────────────────────── */
+body.qi-page .surah-info {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+  z-index: 1;
+}
+
+body.qi-page .surah-info .name {
+  font-size: 0.97rem;
+  font-weight: 700;
+  color: #ddeedd;
+  letter-spacing: 0.1px;
+  margin-bottom: 2px;
+  transition: color 0.2s ease;
+}
+
+body.qi-page .surah-card:hover .surah-info .name {
+  color: #e8f8e8;
+}
+
+body.qi-page .surah-info .meta {
+  font-size: 0.74rem;
+  color: rgba(160,200,165,0.52);
+  margin-top: 0;
+  font-weight: 400;
+}
+
+/* Arabic name (injected via JS) */
+body.qi-page .surah-arabic-name {
+  font-family: "Amiri", "Amiri Quran", serif;
+  font-size: 1.15rem;
+  color: #c9a227;
+  direction: rtl;
+  line-height: 1.4;
+  text-align: right;
+  text-shadow: 0 0 10px rgba(201,162,39,0.28);
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+body.qi-page .surah-card:hover .surah-arabic-name {
+  color: #d4b842;
+  text-shadow: 0 0 14px rgba(201,162,39,0.45);
+}
+
+/* Arrow (injected via JS) */
+body.qi-page .surah-arrow {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgba(184,134,11,0.55);
+  flex-shrink: 0;
+  transition: transform 0.20s ease, color 0.20s ease;
+  position: relative;
+  z-index: 1;
+}
+
+body.qi-page .surah-card:hover .surah-arrow {
+  transform: translateX(4px);
+  color: #c9a227;
+}
+
+/* ── Search results override ──────────────────────────────── */
+body.qi-page .search-results {
+  margin-bottom: 16px;
+}
+
+body.qi-page .search-section-label {
+  color: rgba(184,134,11,0.75);
+  font-size: 0.70rem;
+  letter-spacing: 0.12em;
+}
+
+body.qi-page .ayah-hit {
+  background: rgba(8,30,15,0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(184,134,11,0.20);
+  border-radius: 14px;
+  box-shadow: 0 3px 18px rgba(0,0,0,0.35);
+  color: #e8f0e8;
+  transition: transform 0.18s ease, border-color 0.18s ease;
+}
+
+body.qi-page .ayah-hit:hover {
+  transform: translateY(-2px);
+  border-color: rgba(184,134,11,0.50);
+}
+
+body.qi-page .ayah-hit-direct {
+  border-color: rgba(184,134,11,0.45);
+  background: rgba(10,35,17,0.85);
+}
+
+body.qi-page .ayah-hit-ref {
+  color: rgba(184,134,11,0.85);
+}
+
+body.qi-page .ayah-hit-arabic {
+  color: #e8f0e8;
+}
+
+body.qi-page .ayah-hit-translation {
+  color: rgba(160,200,165,0.65);
+}
+
+/* ── State message ────────────────────────────────────────── */
+body.qi-page .state-msg {
+  color: rgba(160,200,165,0.50);
+  padding: 60px 10px;
+}
+
+/* ── Divider ornament ─────────────────────────────────────── */
+body.qi-page .qi-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 6px 0 16px;
+  opacity: 0.38;
+}
+
+body.qi-page .qi-divider-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(184,134,11,0.5), transparent);
+}
+
+body.qi-page .qi-divider-dot {
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: rgba(184,134,11,0.7);
+  flex-shrink: 0;
+}
+
+/* ── Footer phrase ────────────────────────────────────────── */
+body.qi-page .qi-footer-phrase {
+  text-align: center;
+  font-family: "Amiri", serif;
+  font-size: 1.05rem;
+  color: rgba(184,134,11,0.30);
+  letter-spacing: 0.06em;
+  padding-top: 32px;
+}
+
+/* ── Responsive ───────────────────────────────────────────── */
+@media (max-width: 480px) {
+  body.qi-page .surah-card   { padding: 13px 14px; gap: 12px; border-radius: 13px; }
+  body.qi-page .surah-badge  { width: 36px; height: 36px; font-size: 0.78rem; }
+  body.qi-page .surah-info .name { font-size: 0.88rem; }
+  body.qi-page .surah-arabic-name { font-size: 1rem; }
+  body.qi-page .qi-back      { font-size: 0.78rem; padding: 6px 12px; top: 22px; }
+}
+</style>
+</head>
+<body class="qi-page">
+
+<!-- Particle canvas -->
+<canvas id="qi-canvas" aria-hidden="true"></canvas>
+
+<!-- ── Header ──────────────────────────────────────────────── -->
+<header class="qi-header">
+  <a class="qi-back" href="/dashboard.html">← Bosh sahifa</a>
+  <div class="qi-logo" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 54" width="64" height="54">
+      <path d="M3 13 L29 9 L29 47 L3 43 Z" fill="#fef5d4"/>
+      <path d="M35 9 L61 13 L61 43 L35 47 Z" fill="#fef5d4"/>
+      <path d="M29 7.5 Q32 6.5 35 7.5 L35 48.5 Q32 49.5 29 48.5 Z" fill="url(#spineGradQI)"/>
+      <line x1="32" y1="8"  x2="32" y2="48" stroke="rgba(255,248,180,0.45)" stroke-width="1"/>
+      <line x1="9"  y1="18"   x2="25" y2="18.6" stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="9"  y1="23.5" x2="25" y2="24.1" stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="9"  y1="29"   x2="25" y2="29.6" stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="9"  y1="34.5" x2="25" y2="35"   stroke="#c4924a" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="14" y1="40"   x2="25" y2="40.4" stroke="#c4924a" stroke-width="1.1" stroke-linecap="round" opacity="0.7"/>
+      <line x1="39" y1="18.6" x2="55" y2="18"   stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="39" y1="24.1" x2="55" y2="23.5" stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="39" y1="29.6" x2="55" y2="29"   stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="39" y1="35"   x2="55" y2="34.5" stroke="#c4924a" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="39" y1="40.4" x2="50" y2="40"   stroke="#c4924a" stroke-width="1.1" stroke-linecap="round" opacity="0.7"/>
+      <path d="M3 43 L29 47 L35 47 L61 43 L61 45.5 L35 49.5 L29 49.5 L3 45.5 Z" fill="rgba(0,0,0,0.18)"/>
+      <path d="M32 2 L34.2 5.5 L32 7.2 L29.8 5.5 Z" fill="#e2b24a"/>
+      <defs>
+        <linearGradient id="spineGradQI" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%"   stop-color="#b8860b"/>
+          <stop offset="45%"  stop-color="#d4a820"/>
+          <stop offset="100%" stop-color="#b8860b"/>
+        </linearGradient>
+      </defs>
+    </svg>
+  </div>
+  <h1 class="qi-title">Qur'an Karim</h1>
+  <div class="qi-bismillah">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ</div>
+  <p class="qi-subtitle">Arab matni va o'zbekcha tarjimasi</p>
+</header>
+
+<!-- ── Search bar ───────────────────────────────────────────── -->
+<div class="qi-search-wrap">
+  <span class="qi-search-icon">🔍</span>
+  <input type="text" id="searchInput"
+         placeholder="Qidiruv: 3:25, Baqara 255, yoki matn..."
+         autocomplete="off" />
+</div>
+
+<!-- ── Main content ────────────────────────────────────────── -->
+<main class="qi-main">
+  <div id="searchResults" class="search-results"></div>
+
+  <div class="qi-section-label">114 ta sura</div>
+  <div class="qi-divider" aria-hidden="true">
+    <div class="qi-divider-line"></div>
+    <div class="qi-divider-dot"></div>
+    <div class="qi-divider-line"></div>
   </div>
 
-  <main class="container">
-    <div id="searchResults" class="search-results"></div>
-    <div id="surahList" class="surah-list">
-      <div class="state-msg">Yuklanmoqda...</div>
-    </div>
-  </main>
+  <div id="surahList" class="surah-list">
+    <div class="state-msg">Yuklanmoqda...</div>
+  </div>
 
-  <script src="/js/app.js"></script>
+  <div class="qi-footer-phrase">﷽</div>
+</main>
+
+<!-- Unchanged app logic -->
+<script src="/js/app.js"></script>
+
+<script>
+/* ═══════════════════════════════════════════════════════════════════
+   DESIGN ENHANCEMENT SCRIPT — UI only, no logic changes
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ── Arabic surah name lookup (1-indexed) ───────────────────────── */
+const ARABIC_NAMES = [
+  "",                 // placeholder so index 1 = Fatiha
+  "الفاتحة","البقرة","آل عمران","النساء","المائدة",
+  "الأنعام","الأعراف","الأنفال","التوبة","يونس",
+  "هود","يوسف","الرعد","إبراهيم","الحجر",
+  "النحل","الإسراء","الكهف","مريم","طه",
+  "الأنبياء","الحج","المؤمنون","النور","الفرقان",
+  "الشعراء","النمل","القصص","العنكبوت","الروم",
+  "لقمان","السجدة","الأحزاب","سبأ","فاطر",
+  "يس","الصافات","ص","الزمر","غافر",
+  "فصلت","الشورى","الزخرف","الدخان","الجاثية",
+  "الأحقاف","محمد","الفتح","الحجرات","ق",
+  "الذاريات","الطور","النجم","القمر","الرحمن",
+  "الواقعة","الحديد","المجادلة","الحشر","الممتحنة",
+  "الصف","الجمعة","المنافقون","التغابن","الطلاق",
+  "التحريم","الملك","القلم","الحاقة","المعارج",
+  "نوح","الجن","المزمل","المدثر","القيامة",
+  "الإنسان","المرسلات","النبأ","النازعات","عبس",
+  "التكوير","الانفطار","المطففين","الانشقاق","البروج",
+  "الطارق","الأعلى","الغاشية","الفجر","البلد",
+  "الشمس","الليل","الضحى","الشرح","التين",
+  "العلق","القدر","البينة","الزلزلة","العاديات",
+  "القارعة","التكاثر","العصر","الهمزة","الفيل",
+  "قريش","الماعون","الكوثر","الكافرون","النصر",
+  "المسد","الإخلاص","الفلق","الناس"
+];
+
+/* ── Decorate a single .surah-card ─────────────────────────────── */
+function decorateCard(card) {
+  if (card.dataset.decorated) return;
+  card.dataset.decorated = "1";
+
+  /* Extract surah number from badge */
+  const badge = card.querySelector(".surah-badge");
+  const num   = badge ? parseInt(badge.textContent.trim(), 10) : 0;
+
+  /* Inject Arabic name */
+  const arabicName = (num >= 1 && num <= 114) ? ARABIC_NAMES[num] : "";
+  if (arabicName) {
+    const ar = document.createElement("div");
+    ar.className = "surah-arabic-name";
+    ar.textContent = arabicName;
+    card.insertBefore(ar, card.querySelector(".surah-info").nextSibling);
+  }
+
+  /* Inject arrow */
+  if (!card.querySelector(".surah-arrow")) {
+    const arrow = document.createElement("span");
+    arrow.className = "surah-arrow";
+    arrow.textContent = "→";
+    card.appendChild(arrow);
+  }
+
+  /* Inject ripple layer */
+  if (!card.querySelector(".ripple-layer")) {
+    const layer = document.createElement("div");
+    layer.className = "ripple-layer";
+    card.insertBefore(layer, card.firstChild);
+  }
+
+  /* Ripple + pulse on click */
+  card.addEventListener("click", function (e) {
+    const layer = this.querySelector(".ripple-layer");
+    if (!layer) return;
+    const rect = this.getBoundingClientRect();
+    const size = Math.max(rect.width, rect.height) * 2.2;
+    const circle = document.createElement("span");
+    circle.className = "ripple-circle";
+    circle.style.cssText =
+      `width:${size}px;height:${size}px;` +
+      `left:${e.clientX - rect.left - size/2}px;` +
+      `top:${e.clientY - rect.top  - size/2}px;`;
+    layer.appendChild(circle);
+    this.classList.add("pulsing");
+    circle.addEventListener("animationend", () => circle.remove());
+    this.addEventListener("animationend",
+      () => this.classList.remove("pulsing"),
+      { once: true }
+    );
+  });
+}
+
+/* ── Watch #surahList for dynamically rendered cards ────────────── */
+(function () {
+  const listEl = document.getElementById("surahList");
+
+  /* Decorate any cards already present */
+  listEl.querySelectorAll(".surah-card").forEach(decorateCard);
+
+  /* Watch for future renders (filter/search updates) */
+  const obs = new MutationObserver(() => {
+    listEl.querySelectorAll(".surah-card").forEach(decorateCard);
+  });
+  obs.observe(listEl, { childList: true, subtree: true });
+})();
+
+/* ── Particle system ────────────────────────────────────────────── */
+(function () {
+  const canvas = document.getElementById("qi-canvas");
+  const ctx    = canvas.getContext("2d");
+  let W, H;
+
+  function resize() {
+    W = canvas.width  = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener("resize", resize);
+
+  const PALETTES = [
+    "rgba(80,220,120,",
+    "rgba(50,180,90,",
+    "rgba(200,160,30,",
+    "rgba(220,190,80,",
+    "rgba(140,220,160,",
+    "rgba(255,255,230,"
+  ];
+
+  const COUNT = 48;
+  const particles = [];
+  function rand(a,b) { return a + Math.random()*(b-a); }
+
+  for (let i = 0; i < COUNT; i++) {
+    particles.push({
+      x:            rand(0,1),
+      y:            rand(0,1),
+      r:            rand(0.8,2.2),
+      vx:           rand(-0.06,0.06),
+      vy:           rand(-0.09,-0.02),
+      alpha:        rand(0.08,0.45),
+      color:        PALETTES[Math.floor(Math.random()*PALETTES.length)],
+      twinklePhase: rand(0, Math.PI*2),
+      twinkleSpeed: rand(0.008,0.025),
+    });
+  }
+
+  function tick() {
+    ctx.clearRect(0, 0, W, H);
+    for (const p of particles) {
+      p.x += p.vx * 0.003;
+      p.y += p.vy * 0.003;
+      p.twinklePhase += p.twinkleSpeed;
+      if (p.x < 0) p.x = 1;
+      if (p.x > 1) p.x = 0;
+      if (p.y < 0) p.y = 1;
+      if (p.y > 1) p.y = 0;
+
+      const tw = 0.5 + 0.5 * Math.sin(p.twinklePhase);
+      const a  = p.alpha * (0.55 + 0.45 * tw);
+      const px = p.x * W, py = p.y * H;
+
+      ctx.save();
+      const g = ctx.createRadialGradient(px,py,0,px,py,p.r*4);
+      g.addColorStop(0, p.color + a + ")");
+      g.addColorStop(1, p.color + "0)");
+      ctx.fillStyle = g;
+      ctx.beginPath(); ctx.arc(px,py,p.r*4,0,Math.PI*2); ctx.fill();
+
+      ctx.fillStyle = p.color + Math.min(a+0.2,1)+")";
+      ctx.beginPath(); ctx.arc(px,py,p.r,0,Math.PI*2); ctx.fill();
+      ctx.restore();
+    }
+    requestAnimationFrame(tick);
+  }
+  tick();
+})();
+</script>
+
 </body>
 </html>

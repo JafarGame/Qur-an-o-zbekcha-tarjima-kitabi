@@ -3806,5 +3806,180 @@
     "chapter_number": 75,
     "arabic_title": "بَابُ مَنْ أَحْرَمَ عَنْ غَيْرِهِ",
     "uzbek_title": "Boshqa kishi nomidan ehrom bogʻlash"
+  },
+  {
+    "id": "muslim-book-16-chapter-1",
+    "book_id": 16,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ اسْتِحْبَابِ النِّكَاحِ لِمَنْ تَاقَتْ نَفْسُهُ إِلَيْهِ",
+    "uzbek_title": "Nikohga moyil bo'lgan kishi uchun nikohning mustahabligi"
+  },
+  {
+    "id": "muslim-book-16-chapter-2",
+    "book_id": 16,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ",
+    "uzbek_title": "Birodarining xitbasiga xitba qilish haromligi"
+  },
+  {
+    "id": "muslim-book-16-chapter-3",
+    "book_id": 16,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ جَوَازِ نَظَرِهِ إِلَى وَجْهِ الْمَرْأَةِ لِمَنْ يُرِيدُ تَزَوُّجَهَا",
+    "uzbek_title": "Nikohlamoqchi bo'lgan kishi uchun ayolning yuziga qarash joizligi"
+  },
+  {
+    "id": "muslim-book-16-chapter-4",
+    "book_id": 16,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ الصَّدَاقِ وَجَوَازِ كَوْنِهِ تَعْلِيمَ قُرْآنٍ وَخَاتَمًا مِنْ حَدِيدٍ",
+    "uzbek_title": "Mehr va uning Qur'on o'rgatish yoki temir uzuk bo'lishi joizligi"
+  },
+  {
+    "id": "muslim-book-16-chapter-5",
+    "book_id": 16,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ نَدْبِ مَنْ رَأَى امْرَأَةً فَأَعْجَبَتْهُ إِلَى إِتْيَانِ امْرَأَتِهِ",
+    "uzbek_title": "Ajratgan ayolni ko'rgan kishi o'z xotiniga borishi mustahabligi"
+  },
+  {
+    "id": "muslim-book-16-chapter-6",
+    "book_id": 16,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ اسْتِئْذَانِ الثَّيِّبِ فِي النِّكَاحِ وَالْبِكْرِ",
+    "uzbek_title": "Nikohda dul va bakira ayoldan ruxsat so'rash"
+  },
+  {
+    "id": "muslim-book-16-chapter-7",
+    "book_id": 16,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ تَزْوِيجِ الْأَبِ الْبِكْرَ الصَّغِيرَةَ",
+    "uzbek_title": "Otaning kichik bakira qizini turmushga berishi"
+  },
+  {
+    "id": "muslim-book-16-chapter-8",
+    "book_id": 16,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ الْوَلِيمَةِ وَاسْتِحْبَابِهَا وَمَا يُدْعَى لَهَا",
+    "uzbek_title": "Valima va uning mustahabligi hamda unga nimalar tayyorlanishi"
+  },
+  {
+    "id": "muslim-book-16-chapter-9",
+    "book_id": 16,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ الْأَمْرِ بِإِجَابَةِ الدَّاعِي إِلَى وَلِيمَةٍ",
+    "uzbek_title": "Valimaga taklif etuvchiga ijobat qilish amri"
+  },
+  {
+    "id": "muslim-book-16-chapter-10",
+    "book_id": 16,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ تَحْرِيمِ الْجَمْعِ بَيْنَ الْمَرْأَةِ وَعَمَّتِهَا أَوْ خَالَتِهَا",
+    "uzbek_title": "Ayol va uning amasi yoki holasini bir vaqtda nikoh qilish haromligi"
+  },
+  {
+    "id": "muslim-book-16-chapter-11",
+    "book_id": 16,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ تَحْرِيمِ نِكَاحِ الْمُحْرِمِ وَكَرَاهَةِ خِطْبَتِهِ",
+    "uzbek_title": "Ehromdagi kishining nikoh qilish haromligi va xitba makruhligi"
+  },
+  {
+    "id": "muslim-book-16-chapter-12",
+    "book_id": 16,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ نِكَاحِ الْمُتْعَةِ وَبَيَانِ أَنَّهُ أُبِيحَ ثُمَّ نُسِخَ",
+    "uzbek_title": "Mut'a nikohi — joiz qilingani, so'ng abadiy bekor qilinganligi bayoni"
+  },
+  {
+    "id": "muslim-book-16-chapter-13",
+    "book_id": 16,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ تَحْرِيمِ نِكَاحِ الْمُحَلِّلِ وَالْمُحَلَّلِ لَهُ",
+    "uzbek_title": "Tahlilchi va uning uchun halollashtiriladigan kishi nikohi haromligi"
+  },
+  {
+    "id": "muslim-book-16-chapter-14",
+    "book_id": 16,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ نَهْيِ الْمَرْأَةِ عَنْ وَصْفِ امْرَأَةٍ لِزَوْجِهَا",
+    "uzbek_title": "Ayolning erga boshqa ayolni ta'riflash man etilishi"
+  },
+  {
+    "id": "muslim-book-16-chapter-15",
+    "book_id": 16,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ تَحْرِيمِ إِفْشَاءِ سِرِّ الْمَرْأَةِ",
+    "uzbek_title": "Ayolning sirini oshkor qilish haromligi"
+  },
+  {
+    "id": "muslim-book-16-chapter-16",
+    "book_id": 16,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ الْوَصِيَّةِ بِالنِّسَاءِ",
+    "uzbek_title": "Ayollarga yaxshi muomala qilish vasiyati"
+  },
+  {
+    "id": "muslim-book-16-chapter-17",
+    "book_id": 16,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ الْعَزْلِ",
+    "uzbek_title": "Azl haqida"
+  },
+  {
+    "id": "muslim-book-16-chapter-18",
+    "book_id": 16,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ حُكْمِ الْعَزْلِ",
+    "uzbek_title": "Azlning hukmi"
+  },
+  {
+    "id": "muslim-book-16-chapter-19",
+    "book_id": 16,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ جَوَازِ وَطْءِ الْمَسْبِيَّةِ بَعْدَ الِاسْتِبْرَاءِ",
+    "uzbek_title": "Asirning istibroidan so'ng u bilan munosabat joizligi"
+  },
+  {
+    "id": "muslim-book-16-chapter-20",
+    "book_id": 16,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ نِكَاحِ الْعَبْدِ وَاسْتِئْذَانِهِ سَيِّدَهُ",
+    "uzbek_title": "Qulning nikohi va egasidan ruxsat so'rashi"
+  },
+  {
+    "id": "muslim-book-16-chapter-21",
+    "book_id": 16,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ تَحْرِيمِ إِتْيَانِ الْمَرْأَةِ فِي دُبُرِهَا",
+    "uzbek_title": "Ayolga orqa tarafdan munosabat haromligi"
+  },
+  {
+    "id": "muslim-book-16-chapter-22",
+    "book_id": 16,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ جَوَازِ جِمَاعِهَا فِي قُبُلِهَا مِنْ أَيِّ جِهَةٍ شَاءَ",
+    "uzbek_title": "Istalgan yo'nalishda munosabat joizligi"
+  },
+  {
+    "id": "muslim-book-16-chapter-23",
+    "book_id": 16,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ تَحْرِيمِ إِتْيَانِ الْحَائِضِ",
+    "uzbek_title": "Hayz ko'rgan ayol bilan munosabat haromligi"
+  },
+  {
+    "id": "muslim-book-16-chapter-24",
+    "book_id": 16,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ الدُّعَاءِ عِنْدَ الْجِمَاعِ",
+    "uzbek_title": "Munosabat vaqtida dua qilish"
+  },
+  {
+    "id": "muslim-book-16-chapter-25",
+    "book_id": 16,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ اسْتِحْبَابِ الِاغْتِسَالِ إِذَا أَرَادَ الْعَوْدَ",
+    "uzbek_title": "Qayta munosabat istagan kishi uchun g'usl mustahabligi"
   }
 ]

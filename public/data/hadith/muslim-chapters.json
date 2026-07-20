@@ -4695,5 +4695,61 @@
     "chapter_number": 13,
     "arabic_title": "بَابُ تَحْرِيمِ مِيرَاثِ الْقَاتِلِ",
     "uzbek_title": "Qotilning meros olish huquqidan mahrum bo'lishi"
+  },
+  {
+    "id": "muslim-book-24-chapter-1",
+    "book_id": 24,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ اسْتِحْبَابِ الْهَدِيَّةِ وَالْحَثِّ عَلَى الْمُكَافَأَةِ عَلَيْهَا",
+    "uzbek_title": "Hadya berish mustahabligi va unga mukofot qaytarishga targ'ib"
+  },
+  {
+    "id": "muslim-book-24-chapter-2",
+    "book_id": 24,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ كَرَاهِيَةِ رَدِّ الْهَدِيَّةِ",
+    "uzbek_title": "Hadyani rad etish makruhligi"
+  },
+  {
+    "id": "muslim-book-24-chapter-3",
+    "book_id": 24,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ تَحْرِيمِ الرُّجُوعِ فِي الْهِبَةِ وَالصَّدَقَةِ بَعْدَ الْقَبْضِ",
+    "uzbek_title": "Qabul qilingandan keyin hadya va sadaqadan qaytish haromligi"
+  },
+  {
+    "id": "muslim-book-24-chapter-4",
+    "book_id": 24,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ الْعَائِدِ فِي هِبَتِهِ كَالْعَائِدِ فِي قَيْئِهِ",
+    "uzbek_title": "Hadyasiga qaytgan kishi o'z qaytig'iga qaytgandek ekanligi"
+  },
+  {
+    "id": "muslim-book-24-chapter-5",
+    "book_id": 24,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ هِبَةِ الرَّجُلِ لِامْرَأَتِهِ وَهِبَتِهَا لَهُ",
+    "uzbek_title": "Erning xotiniga va xotinning eriga hadya qilishi"
+  },
+  {
+    "id": "muslim-book-24-chapter-6",
+    "book_id": 24,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ جَوَازِ هِبَةِ الْمَرْأَةِ لِغَيْرِ زَوْجِهَا",
+    "uzbek_title": "Ayolning eridan boshqa kishiga hadya qilishi joizligi"
+  },
+  {
+    "id": "muslim-book-24-chapter-7",
+    "book_id": 24,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ تَفْضِيلِ بَعْضِ الْأَوْلَادِ فِي الْهِبَةِ",
+    "uzbek_title": "Farzandlardan birini hadyada boshqasidan afzal tutish man etilishi"
+  },
+  {
+    "id": "muslim-book-24-chapter-8",
+    "book_id": 24,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ جَوَازِ هِبَةِ الْمُشَاعِ",
+    "uzbek_title": "Taqsimlanmagan (mushtarak) mulkni hadya qilish joizligi"
   }
 ]

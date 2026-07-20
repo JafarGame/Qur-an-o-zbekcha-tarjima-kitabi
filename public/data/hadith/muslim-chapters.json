@@ -4191,5 +4191,54 @@
     "chapter_number": 20,
     "arabic_title": "بَابُ طَلَاقِ السَّكْرَانِ",
     "uzbek_title": "Mast kishining taloqi"
+  },
+  {
+    "id": "muslim-book-19-chapter-1",
+    "book_id": 19,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ اللِّعَانِ",
+    "uzbek_title": "Li'on haqida"
+  },
+  {
+    "id": "muslim-book-19-chapter-2",
+    "book_id": 19,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ انْقِضَاءِ عِدَّةِ الْمُتَلَاعِنَةِ وَفُرْقَتِهِمَا",
+    "uzbek_title": "Li'on qilgan juftlikning iddasi va bir-biridan ajralishi"
+  },
+  {
+    "id": "muslim-book-19-chapter-3",
+    "book_id": 19,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ الْوَلَدُ لِلْفِرَاشِ وَتَوَقِّي الشُّبُهَاتِ",
+    "uzbek_title": "Bola to'shak egasiga nisbat qilinishi va shubhalardan ehtiyot bo'lish"
+  },
+  {
+    "id": "muslim-book-19-chapter-4",
+    "book_id": 19,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ التَّغْلِيظِ فِي تَحْرِيمِ قَذْفِ الْمُحْصَنَاتِ",
+    "uzbek_title": "Pok ayollarni tuhmat qilish haromligining og'irligi"
+  },
+  {
+    "id": "muslim-book-19-chapter-5",
+    "book_id": 19,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ حُكْمِ الْمُلَاعِنَةِ وَنَسَبِ وَلَدِهَا",
+    "uzbek_title": "Li'on qilingan ayolning hukmi va farzandining nasabi"
+  },
+  {
+    "id": "muslim-book-19-chapter-6",
+    "book_id": 19,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ وُجُوبِ الْحَدِّ عَلَى مَنِ اعْتَرَفَ بِالزِّنَا",
+    "uzbek_title": "Zinoni iqror etgan kishiga hadd vojib bo'lishi"
+  },
+  {
+    "id": "muslim-book-19-chapter-7",
+    "book_id": 19,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ مَنْ زَنَى بِحَلِيلَةِ جَارِهِ",
+    "uzbek_title": "Qo'shni xotini bilan zino qilgan kishi"
   }
 ]

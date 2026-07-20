@@ -3281,5 +3281,530 @@
     "chapter_number": 8,
     "arabic_title": "بَابُ بُطْلَانِ الِاعْتِكَافِ بِالْوَطْءِ",
     "uzbek_title": "Jima' bilan e'tikofning bekor bo'lishi"
+  },
+  {
+    "id": "muslim-book-15-chapter-1",
+    "book_id": 15,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ فَرْضِ الْحَجِّ مَرَّةً فِي الْعُمُرِ",
+    "uzbek_title": "Haj umrida bir marta farz ekanligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-2",
+    "book_id": 15,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ فَضْلِ الْحَجِّ وَالْعُمْرَةِ",
+    "uzbek_title": "Haj va umraning fazilati"
+  },
+  {
+    "id": "muslim-book-15-chapter-3",
+    "book_id": 15,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ سَفَرِ الْمَرْأَةِ مَعَ مَحْرَمٍ إِلَى الْحَجِّ",
+    "uzbek_title": "Ayolning mahram bilan hajga safar qilishi"
+  },
+  {
+    "id": "muslim-book-15-chapter-4",
+    "book_id": 15,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ الْحَجِّ عَنِ الْعَاجِزِ لِزَمَانَةٍ وَهَرَمٍ وَمَوْتٍ",
+    "uzbek_title": "Kasallik, qarilik va o'limdan ojiz kishi nomiga haj qilish"
+  },
+  {
+    "id": "muslim-book-15-chapter-5",
+    "book_id": 15,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ صِحَّةِ حَجِّ الصَّبِيِّ وَأَجْرِ مَنْ حَجَّ بِهِ",
+    "uzbek_title": "Bolaning haji sahih ekanligi va u bilan hajga borgan kishining savoli"
+  },
+  {
+    "id": "muslim-book-15-chapter-6",
+    "book_id": 15,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ مَوَاقِيتِ الْحَجِّ وَالْعُمْرَةِ",
+    "uzbek_title": "Haj va umra miqotlari"
+  },
+  {
+    "id": "muslim-book-15-chapter-7",
+    "book_id": 15,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الِاعْتِمَارِ مِنَ التَّنْعِيمِ وَغَيْرِهِ",
+    "uzbek_title": "Tan'im va boshqa joylardan umra qilish"
+  },
+  {
+    "id": "muslim-book-15-chapter-8",
+    "book_id": 15,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ أَنْوَاعِ الْحَجِّ وَفَضْلِ التَّمَتُّعِ",
+    "uzbek_title": "Haj turlari: tamattu', qiron va ifrod; tamattu' fazilati"
+  },
+  {
+    "id": "muslim-book-15-chapter-9",
+    "book_id": 15,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ إِهْلَالِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَهَدْيِهِ",
+    "uzbek_title": "Nabiy sollallohu alayhi vasallamning ehromlari va qurbonligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-10",
+    "book_id": 15,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ وُجُوبِ الدَّمِ عَلَى الْمُتَمَتِّعِ وَمَنْ لَمْ يَجِدِ الصِّيَامُ",
+    "uzbek_title": "Tamattu' hoji uchun qon vojib ekanligi va topa olmasa ro'za"
+  },
+  {
+    "id": "muslim-book-15-chapter-11",
+    "book_id": 15,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ جَوَازِ الِاشْتِرَاطِ فِي الْإِحْرَامِ",
+    "uzbek_title": "Ehromda shart qo'yish joizligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-12",
+    "book_id": 15,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ مَا يُبَاحُ لِلْمُحْرِمِ وَمَا لَا يُبَاحُ",
+    "uzbek_title": "Ehromga kirgan kishiga ruxsat etilgan va etilmagan narsalar"
+  },
+  {
+    "id": "muslim-book-15-chapter-13",
+    "book_id": 15,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ مَا يَلْبَسُ الْمُحْرِمُ مِنَ الثِّيَابِ",
+    "uzbek_title": "Ehromga kirgan kishi kiya oladigan kiyimlar"
+  },
+  {
+    "id": "muslim-book-15-chapter-14",
+    "book_id": 15,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ تَحْرِيمِ الطِّيبِ عَلَى الْمُحْرِمِ",
+    "uzbek_title": "Ehromga kirgan kishiga hid moddalar haromligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-15",
+    "book_id": 15,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ اسْتِحْبَابِ الطِّيبِ قَبْلَ الْإِحْرَامِ",
+    "uzbek_title": "Ehromdan oldin hid moddalar surish mustahabligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-16",
+    "book_id": 15,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ تَحْرِيمِ الصَّيْدِ لِلْمُحْرِمِ",
+    "uzbek_title": "Ehromga kirgan kishi uchun ov haromligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-17",
+    "book_id": 15,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ الْفَوَاسِقِ الَّتِي يَجُوزُ لِلْمُحْرِمِ قَتْلُهَا",
+    "uzbek_title": "Ehromda o'ldirish joiz bo'lgan zararli hayvonlar"
+  },
+  {
+    "id": "muslim-book-15-chapter-18",
+    "book_id": 15,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ تَحْرِيمِ النِّكَاحِ فِي حَالِ الْإِحْرَامِ",
+    "uzbek_title": "Ehrom holatida nikoh haromligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-19",
+    "book_id": 15,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ إِحْرَامِ النُّفَسَاءِ وَالْحَائِضِ",
+    "uzbek_title": "Nifos va hayz ko'rgan ayolning ehromlari"
+  },
+  {
+    "id": "muslim-book-15-chapter-20",
+    "book_id": 15,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ اغْتِسَالِ الْمُحْرِمِ",
+    "uzbek_title": "Ehromga kirgan kishining g'usl qilishi"
+  },
+  {
+    "id": "muslim-book-15-chapter-21",
+    "book_id": 15,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ التَّلْبِيَةِ وَصِفَتِهَا وَوَقْتِهَا",
+    "uzbek_title": "Talbiya, uning tavsifi va vaqti"
+  },
+  {
+    "id": "muslim-book-15-chapter-22",
+    "book_id": 15,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ رَفْعِ الصَّوْتِ بِالتَّلْبِيَةِ",
+    "uzbek_title": "Talbiyani baland ovoz bilan aytish"
+  },
+  {
+    "id": "muslim-book-15-chapter-23",
+    "book_id": 15,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ قَطْعِ التَّلْبِيَةِ عِنْدَ رَمْيِ جَمْرَةِ الْعَقَبَةِ",
+    "uzbek_title": "Jamrat ul-Aqabaga tosh otganda talbiyani to'xtatish"
+  },
+  {
+    "id": "muslim-book-15-chapter-24",
+    "book_id": 15,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ اسْتِحْبَابِ دُخُولِ مَكَّةَ مِنَ الثَّنِيَّةِ الْعُلْيَا",
+    "uzbek_title": "Makkaga Saniyyal-Ulyо tomonidan kirishning mustahabligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-25",
+    "book_id": 15,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ اسْتِحْبَابِ الْمَبِيتِ بِذِي طُوًى لِمَنْ أَرَادَ دُخُولَ مَكَّةَ",
+    "uzbek_title": "Makkaga kirmoqchi kishi uchun Zi Tuva joyida tunash mustahabligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-26",
+    "book_id": 15,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ الِاغْتِسَالِ عِنْدَ دُخُولِ مَكَّةَ",
+    "uzbek_title": "Makkaga kirish uchun g'usl qilish"
+  },
+  {
+    "id": "muslim-book-15-chapter-27",
+    "book_id": 15,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ اسْتِحْبَابِ الرَّمَلِ فِي الطَّوَافِ",
+    "uzbek_title": "Tavofning dastlabki uch aylanida ramal qilish mustahabligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-28",
+    "book_id": 15,
+    "chapter_number": 28,
+    "arabic_title": "بَابُ اسْتِحْبَابِ اسْتِلَامِ الرُّكْنَيْنِ فِي الطَّوَافِ",
+    "uzbek_title": "Tavofda Hajarul-asvad va Yamani ruknini siylash mustahabligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-29",
+    "book_id": 15,
+    "chapter_number": 29,
+    "arabic_title": "بَابُ الطَّوَافِ عَلَى الدَّابَّةِ وَاسْتِلَامِ الرُّكْنِ بِالْمِحْجَنِ",
+    "uzbek_title": "Mintuv bilan tavof qilish va tayoq bilan ruknni siylash"
+  },
+  {
+    "id": "muslim-book-15-chapter-30",
+    "book_id": 15,
+    "chapter_number": 30,
+    "arabic_title": "بَابُ الصَّلَاةِ خَلْفَ الْمَقَامِ",
+    "uzbek_title": "Maqomi Ibrohim orqasida ikki rakat o'qish"
+  },
+  {
+    "id": "muslim-book-15-chapter-31",
+    "book_id": 15,
+    "chapter_number": 31,
+    "arabic_title": "بَابُ وُجُوبِ طَوَافِ الْوَدَاعِ وَسُقُوطِهِ عَنِ الْحَائِضِ",
+    "uzbek_title": "Xayrlashuv tavofining vajibligi va hayz ko'rgan ayoldan soqit bo'lishi"
+  },
+  {
+    "id": "muslim-book-15-chapter-32",
+    "book_id": 15,
+    "chapter_number": 32,
+    "arabic_title": "بَابُ السَّعْيِ بَيْنَ الصَّفَا وَالْمَرْوَةِ",
+    "uzbek_title": "Safa va Marva orasida sa'y qilish"
+  },
+  {
+    "id": "muslim-book-15-chapter-33",
+    "book_id": 15,
+    "chapter_number": 33,
+    "arabic_title": "بَابُ فَضْلِ مَكَّةَ وَبُنْيَانِ الْكَعْبَةِ",
+    "uzbek_title": "Makka fazilati va Ka'ba binosi"
+  },
+  {
+    "id": "muslim-book-15-chapter-34",
+    "book_id": 15,
+    "chapter_number": 34,
+    "arabic_title": "بَابُ فَضْلِ الصَّلَاةِ فِي الْمَسْجِدَيْنِ",
+    "uzbek_title": "Masjidil-Harom va Masjidun-Nabaviyda namoz fazilati"
+  },
+  {
+    "id": "muslim-book-15-chapter-35",
+    "book_id": 15,
+    "chapter_number": 35,
+    "arabic_title": "بَابُ فَضْلِ مَاءِ زَمْزَمَ",
+    "uzbek_title": "Zamzam suvining fazilati"
+  },
+  {
+    "id": "muslim-book-15-chapter-36",
+    "book_id": 15,
+    "chapter_number": 36,
+    "arabic_title": "بَابُ التَّلَبُّثِ بِمِنًى وَالتَّبْكِيرِ إِلَى عَرَفَةَ",
+    "uzbek_title": "Minada to'xtash va Arafaga erta yo'l olish"
+  },
+  {
+    "id": "muslim-book-15-chapter-37",
+    "book_id": 15,
+    "chapter_number": 37,
+    "arabic_title": "بَابُ وَقْتِ الْوُقُوفِ بِعَرَفَةَ",
+    "uzbek_title": "Arafada turish vaqti"
+  },
+  {
+    "id": "muslim-book-15-chapter-38",
+    "book_id": 15,
+    "chapter_number": 38,
+    "arabic_title": "بَابُ اسْتِحْبَابِ الْجَمْعِ بَيْنَ الصَّلَاتَيْنِ بِعَرَفَةَ",
+    "uzbek_title": "Arafada ikki namozni birlashtirish mustahabligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-39",
+    "book_id": 15,
+    "chapter_number": 39,
+    "arabic_title": "بَابُ الدُّعَاءِ وَالذِّكْرِ يَوْمَ عَرَفَةَ",
+    "uzbek_title": "Arafa kuni dua va zikr qilish"
+  },
+  {
+    "id": "muslim-book-15-chapter-40",
+    "book_id": 15,
+    "chapter_number": 40,
+    "arabic_title": "بَابُ الدَّفْعِ مِنْ عَرَفَةَ إِلَى الْمُزْدَلِفَةِ",
+    "uzbek_title": "Arafadan Muzdalifaga qaytish"
+  },
+  {
+    "id": "muslim-book-15-chapter-41",
+    "book_id": 15,
+    "chapter_number": 41,
+    "arabic_title": "بَابُ الصَّلَاةِ بِالْمُزْدَلِفَةِ وَالْمَبِيتِ بِهَا",
+    "uzbek_title": "Muzdalifada namoz va tunash"
+  },
+  {
+    "id": "muslim-book-15-chapter-42",
+    "book_id": 15,
+    "chapter_number": 42,
+    "arabic_title": "بَابُ اسْتِحْبَابِ تَقْدِيمِ الضَّعَفَةِ مِنَ الْمُزْدَلِفَةِ إِلَى مِنًى",
+    "uzbek_title": "Muzdalifadan Minaga ojiz kishilarni oldinroq jo'natish mustahabligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-43",
+    "book_id": 15,
+    "chapter_number": 43,
+    "arabic_title": "بَابُ الذِّكْرِ الْمُسْتَحَبِّ عِنْدَ الْمَشْعَرِ الْحَرَامِ",
+    "uzbek_title": "Mash'arul-Haromda mustahab zikrlar"
+  },
+  {
+    "id": "muslim-book-15-chapter-44",
+    "book_id": 15,
+    "chapter_number": 44,
+    "arabic_title": "بَابُ رَمْيِ جَمْرَةِ الْعَقَبَةِ مِنْ بَطْنِ الْوَادِي",
+    "uzbek_title": "Jamrat ul-Aqabaga vodi o'rtasidan tosh otish"
+  },
+  {
+    "id": "muslim-book-15-chapter-45",
+    "book_id": 15,
+    "chapter_number": 45,
+    "arabic_title": "بَابُ رَمْيِ الْجِمَارِ بِسَبْعِ حَصَيَاتٍ",
+    "uzbek_title": "Jamratlarga yetti tosh bilan otish"
+  },
+  {
+    "id": "muslim-book-15-chapter-46",
+    "book_id": 15,
+    "chapter_number": 46,
+    "arabic_title": "بَابُ جَوَازِ رَمْيِ الْجِمَارِ رَاكِبًا",
+    "uzbek_title": "Minovda jamratlarga tosh otish joizligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-47",
+    "book_id": 15,
+    "chapter_number": 47,
+    "arabic_title": "بَابُ بَيَانِ وَقْتِ رَمْيِ الْجِمَارِ",
+    "uzbek_title": "Jamratlarga tosh otish vaqtini bayoni"
+  },
+  {
+    "id": "muslim-book-15-chapter-48",
+    "book_id": 15,
+    "chapter_number": 48,
+    "arabic_title": "بَابُ تَقْدِيمِ بَعْضِ أُمُورِ يَوْمِ النَّحْرِ عَلَى بَعْضٍ",
+    "uzbek_title": "Nahr (qurbon) kuni ishlarini tartibsiz qilish joizligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-49",
+    "book_id": 15,
+    "chapter_number": 49,
+    "arabic_title": "بَابُ الْحَلْقِ وَالتَّقْصِيرِ عِنْدَ الْإِحْلَالِ",
+    "uzbek_title": "Ehromdan chiqishda bosh oldirish yoki soch qisqartirish"
+  },
+  {
+    "id": "muslim-book-15-chapter-50",
+    "book_id": 15,
+    "chapter_number": 50,
+    "arabic_title": "بَابُ النَّحْرِ وَالذَّبْحِ فِي الْحَجِّ",
+    "uzbek_title": "Hajda tuyani so'yish va boshqa qurbon"
+  },
+  {
+    "id": "muslim-book-15-chapter-51",
+    "book_id": 15,
+    "chapter_number": 51,
+    "arabic_title": "بَابُ رُكُوبِ الْبُدْنِ لِمَنِ احْتَاجَ إِلَيْهَا",
+    "uzbek_title": "Zarur bo'lganda qurbonlik tuyaga minish joizligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-52",
+    "book_id": 15,
+    "chapter_number": 52,
+    "arabic_title": "بَابُ الِاشْتِرَاكِ فِي الْهَدْيِ",
+    "uzbek_title": "Hady qurbonligida sheriklik qilish"
+  },
+  {
+    "id": "muslim-book-15-chapter-53",
+    "book_id": 15,
+    "chapter_number": 53,
+    "arabic_title": "بَابُ جَوَازِ الْأَكْلِ مِنَ الْهَدْيِ وَالْأُضْحِيَّةِ",
+    "uzbek_title": "Hady va qurbon go'shtidan yeyish joizligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-54",
+    "book_id": 15,
+    "chapter_number": 54,
+    "arabic_title": "بَابُ تَحْرِيمِ ادِّخَارِ لُحُومِ الْأَضَاحِيِّ وَنَسْخِهِ",
+    "uzbek_title": "Qurbon go'shtini zaxiralash haromligi va buning bekor bo'lishi"
+  },
+  {
+    "id": "muslim-book-15-chapter-55",
+    "book_id": 15,
+    "chapter_number": 55,
+    "arabic_title": "بَابُ اسْتِحْبَابِ الْمَبِيتِ بِمِنًى لَيَالِيَ أَيَّامِ التَّشْرِيقِ",
+    "uzbek_title": "Tashriq kunlari tunlarini Minada o'tkazish mustahabligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-56",
+    "book_id": 15,
+    "chapter_number": 56,
+    "arabic_title": "بَابُ جَوَازِ التَّعْجِيلِ فِي أَيَّامِ التَّشْرِيقِ",
+    "uzbek_title": "Tashriq kunlarini ikki kunga qisqartirish joizligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-57",
+    "book_id": 15,
+    "chapter_number": 57,
+    "arabic_title": "بَابُ نُزُولِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ بِالْأَبْطَحِ",
+    "uzbek_title": "Nabiy sollallohu alayhi vasallamning Abt-haga tushishi"
+  },
+  {
+    "id": "muslim-book-15-chapter-58",
+    "book_id": 15,
+    "chapter_number": 58,
+    "arabic_title": "بَابُ جَوَازِ الطَّوَافِ عَلَى غَيْرِ وُضُوءٍ",
+    "uzbek_title": "Tahoratisiz tavof qilish haqida (makruh ekanligi)"
+  },
+  {
+    "id": "muslim-book-15-chapter-59",
+    "book_id": 15,
+    "chapter_number": 59,
+    "arabic_title": "بَابُ تَحْرِيمِ مَكَّةَ وَصَيْدِهَا وَخَلَاهَا",
+    "uzbek_title": "Makkaning hurmat-e'tibori, unda ov va o't yig'ishning haromligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-60",
+    "book_id": 15,
+    "chapter_number": 60,
+    "arabic_title": "بَابُ فَضْلِ الْمَدِينَةِ وَتَحْرِيمِهَا",
+    "uzbek_title": "Madina fazilati va uning hurmat-e'tibori"
+  },
+  {
+    "id": "muslim-book-15-chapter-61",
+    "book_id": 15,
+    "chapter_number": 61,
+    "arabic_title": "بَابُ صَيْدِ الْمَدِينَةِ وَشَجَرِهَا",
+    "uzbek_title": "Madina ovliqlarini va daraxtlarini qo'riqlash"
+  },
+  {
+    "id": "muslim-book-15-chapter-62",
+    "book_id": 15,
+    "chapter_number": 62,
+    "arabic_title": "بَابُ فَضْلِ الصَّلَاةِ فِي مَسْجِدِ مَكَّةَ وَالْمَدِينَةِ",
+    "uzbek_title": "Makka va Madina masjidlarida namoz fazilati"
+  },
+  {
+    "id": "muslim-book-15-chapter-63",
+    "book_id": 15,
+    "chapter_number": 63,
+    "arabic_title": "بَابُ الدُّعَاءِ لِأَهْلِ الْمَدِينَةِ",
+    "uzbek_title": "Madina ahliga dua qilish"
+  },
+  {
+    "id": "muslim-book-15-chapter-64",
+    "book_id": 15,
+    "chapter_number": 64,
+    "arabic_title": "بَابُ التَّرْغِيبِ فِي سُكْنَى الْمَدِينَةِ وَالصَّبْرِ عَلَى شِدَّتِهَا",
+    "uzbek_title": "Madinada yashash va qiyinchiliklariga sabr etish targ'ibi"
+  },
+  {
+    "id": "muslim-book-15-chapter-65",
+    "book_id": 15,
+    "chapter_number": 65,
+    "arabic_title": "بَابُ الْمَدِينَةُ تَنْفِي خَبَثَهَا",
+    "uzbek_title": "Madina yomonlarni o'zidan chiqarib yuborishi"
+  },
+  {
+    "id": "muslim-book-15-chapter-66",
+    "book_id": 15,
+    "chapter_number": 66,
+    "arabic_title": "بَابُ صِفَةِ حَجَّةِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+    "uzbek_title": "Nabiy sollallohu alayhi vasallamning haj tavsifi"
+  },
+  {
+    "id": "muslim-book-15-chapter-67",
+    "book_id": 15,
+    "chapter_number": 67,
+    "arabic_title": "بَابُ حَجَّةِ الْوَدَاعِ",
+    "uzbek_title": "Xayrlashuv haji"
+  },
+  {
+    "id": "muslim-book-15-chapter-68",
+    "book_id": 15,
+    "chapter_number": 68,
+    "arabic_title": "بَابُ التَّقْصِيرِ فِي الْعُمْرَةِ",
+    "uzbek_title": "Umrada soch qisqartirish"
+  },
+  {
+    "id": "muslim-book-15-chapter-69",
+    "book_id": 15,
+    "chapter_number": 69,
+    "arabic_title": "بَابُ إِحْلَالِ الْمُحْرِمِ مِنْ إِحْرَامِهِ",
+    "uzbek_title": "Ehromga kirgan kishining ehromdan chiqishi"
+  },
+  {
+    "id": "muslim-book-15-chapter-70",
+    "book_id": 15,
+    "chapter_number": 70,
+    "arabic_title": "بَابُ بَيَانِ عَدَدِ عُمَرِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+    "uzbek_title": "Nabiy sollallohu alayhi vasallamning umralar soni bayoni"
+  },
+  {
+    "id": "muslim-book-15-chapter-71",
+    "book_id": 15,
+    "chapter_number": 71,
+    "arabic_title": "بَابُ الِاعْتِمَارِ فِي أَشْهُرِ الْحَجِّ",
+    "uzbek_title": "Haj oylarida umra qilish"
+  },
+  {
+    "id": "muslim-book-15-chapter-72",
+    "book_id": 15,
+    "chapter_number": 72,
+    "arabic_title": "بَابُ جَوَازِ الْعُمْرَةِ فِي جَمِيعِ السَّنَةِ",
+    "uzbek_title": "Yil davomida istalgan vaqt umra qilish joizligi"
+  },
+  {
+    "id": "muslim-book-15-chapter-73",
+    "book_id": 15,
+    "chapter_number": 73,
+    "arabic_title": "بَابُ فَضْلِ الْحَجِّ الْمَبْرُورِ",
+    "uzbek_title": "Maqbul haj fazilati"
+  },
+  {
+    "id": "muslim-book-15-chapter-74",
+    "book_id": 15,
+    "chapter_number": 74,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الرَّفَثِ وَالْفُسُوقِ فِي الْحَجِّ",
+    "uzbek_title": "Hajda fahsh so'z va fasoddan qaytarish"
+  },
+  {
+    "id": "muslim-book-15-chapter-75",
+    "book_id": 15,
+    "chapter_number": 75,
+    "arabic_title": "بَابُ مَنْ أَحْرَمَ عَنْ غَيْرِهِ",
+    "uzbek_title": "Boshqa kishi nomidan ehrom bogʻlash"
   }
 ]

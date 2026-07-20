@@ -6515,5 +6515,495 @@
     "chapter_number": 7,
     "arabic_title": "بَابُ التَّثَبُّتِ فِي الْحَدِيثِ وَحُكْمِ كِتَابَةِ الْعِلْمِ",
     "uzbek_title": "Hadisda ehtiyotkorlik va ilmni yozib olish hukmi"
+  },
+  {
+    "id": "muslim-book-48-chapter-1",
+    "book_id": 48,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ فَضْلِ الذِّكْرِ وَالدُّعَاءِ وَالتَّقَرُّبِ إِلَى اللَّهِ",
+    "uzbek_title": "Zikr, duo va Allohga yaqinlashishning fazilati"
+  },
+  {
+    "id": "muslim-book-48-chapter-2",
+    "book_id": 48,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ اسْتِحْبَابِ الدُّعَاءِ وَالذِّكْرِ عَقِبَ الصَّلَوَاتِ",
+    "uzbek_title": "Namozlardan keyin duo va zikr aytish mustahabligi"
+  },
+  {
+    "id": "muslim-book-48-chapter-3",
+    "book_id": 48,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ فَضْلِ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ",
+    "uzbek_title": "'La ilaha illallohu vahidahu la sharika lah'ning fazilati"
+  },
+  {
+    "id": "muslim-book-48-chapter-4",
+    "book_id": 48,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ فَضْلِ سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+    "uzbek_title": "'Subhanallohi va bihamdihi'ning fazilati"
+  },
+  {
+    "id": "muslim-book-48-chapter-5",
+    "book_id": 48,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ فَضْلِ لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+    "uzbek_title": "'La havla va la quvvata illa billah'ning fazilati"
+  },
+  {
+    "id": "muslim-book-48-chapter-6",
+    "book_id": 48,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ فَضْلِ الِاجْتِمَاعِ عَلَى تِلَاوَةِ الْقُرْآنِ وَعَلَى الذِّكْرِ",
+    "uzbek_title": "Qur'on tilovat va zikr uchun yig'ilish fazilati"
+  },
+  {
+    "id": "muslim-book-48-chapter-7",
+    "book_id": 48,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ اسْتِحْبَابِ الِاسْتِغْفَارِ وَالِاسْتِكْثَارِ مِنْهُ",
+    "uzbek_title": "Ko'p istig'for aytish mustahabligi"
+  },
+  {
+    "id": "muslim-book-48-chapter-8",
+    "book_id": 48,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ فَضْلِ الدُّعَاءِ لِلْأَخِ بِظَهْرِ الْغَيْبِ",
+    "uzbek_title": "Birodariga g'oyibona duo qilish fazilati"
+  },
+  {
+    "id": "muslim-book-48-chapter-9",
+    "book_id": 48,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الدُّعَاءِ عَلَى النَّفْسِ وَالْأَوْلَادِ",
+    "uzbek_title": "O'zi va bolalariga qarshi duo qilish man etilishi"
+  },
+  {
+    "id": "muslim-book-48-chapter-10",
+    "book_id": 48,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ كَرَاهَةِ رَفْعِ الصَّوْتِ بِالذِّكْرِ",
+    "uzbek_title": "Zikr aytishda ovozni baland ko'tarish makruhligi"
+  },
+  {
+    "id": "muslim-book-48-chapter-11",
+    "book_id": 48,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ أَفْضَلِ الْكَلَامِ أَرْبَعٌ",
+    "uzbek_title": "Eng afzal to'rt so'z"
+  },
+  {
+    "id": "muslim-book-48-chapter-12",
+    "book_id": 48,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ فَضْلِ قِرَاءَةِ آيَةِ الْكُرْسِيِّ عِنْدَ النَّوْمِ",
+    "uzbek_title": "Uxlashdan oldin oyat ul-kursiy o'qish fazilati"
+  },
+  {
+    "id": "muslim-book-48-chapter-13",
+    "book_id": 48,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ فَضْلِ التَّهْلِيلِ وَالتَّسْبِيحِ وَالدُّعَاءِ",
+    "uzbek_title": "Tahlil, tasbeh va duoning fazilati"
+  },
+  {
+    "id": "muslim-book-49-chapter-1",
+    "book_id": 49,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ الْحَثِّ عَلَى التَّوْبَةِ وَالْفَرَحِ بِهَا",
+    "uzbek_title": "Tavbaga targ'ib va Allohning undan xursand bo'lishi"
+  },
+  {
+    "id": "muslim-book-49-chapter-2",
+    "book_id": 49,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ قَبُولِ التَّوْبَةِ مِنَ الذُّنُوبِ وَإِنْ تَكَرَّرَتْ",
+    "uzbek_title": "Gunohlar takroran bo'lsa ham tavba qabul qilinishi"
+  },
+  {
+    "id": "muslim-book-49-chapter-3",
+    "book_id": 49,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ سَعَةِ رَحْمَةِ اللَّهِ وَأَنَّهَا تَغْلِبُ غَضَبَهُ",
+    "uzbek_title": "Allohning rahmati kengligi va u g'azabini yengishi"
+  },
+  {
+    "id": "muslim-book-49-chapter-4",
+    "book_id": 49,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ قَبُولِ تَوْبَةِ الْقَاتِلِ وَإِنْ كَثُرَ قَتْلُهُ",
+    "uzbek_title": "Ko'p o'ldirgan bo'lsa ham qotilning tavbasi qabul qilinishi"
+  },
+  {
+    "id": "muslim-book-49-chapter-5",
+    "book_id": 49,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ مَنْ أَحْسَنَ فِي الْإِسْلَامِ لَمْ يُؤَاخَذْ بِمَا فَعَلَهُ فِي الْجَاهِلِيَّةِ",
+    "uzbek_title": "Islomda yaxshi bo'lgan kishi johiliyatdagi amallaridan so'ralmashi"
+  },
+  {
+    "id": "muslim-book-49-chapter-6",
+    "book_id": 49,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ غَيْرَةِ اللَّهِ وَتَحْرِيمِ الْفَوَاحِشِ",
+    "uzbek_title": "Allohning g'ayrati va fahsh ishlar haromligi"
+  },
+  {
+    "id": "muslim-book-49-chapter-7",
+    "book_id": 49,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ بَابُ اللَّهِ مَفْتُوحٌ لِلتَّائِبِينَ حَتَّى تَطْلُعَ الشَّمْسُ مِنْ مَغْرِبِهَا",
+    "uzbek_title": "Allohning eshigi g'arbdan quyosh chiqqunga qadar tavbachilar uchun ochiq ekanligi"
+  },
+  {
+    "id": "muslim-book-49-chapter-8",
+    "book_id": 49,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ كَثْرَةِ طُرُقِ الْخَيْرِ وَسُهُولَةِ الْعِبَادَةِ",
+    "uzbek_title": "Yaxshilik yo'llarining ko'pligi va ibodatning osonligi"
+  },
+  {
+    "id": "muslim-book-50-chapter-1",
+    "book_id": 50,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ صِفَاتِ الْمُنَافِقِينَ وَأَحْكَامِهِمْ",
+    "uzbek_title": "Munofiqlarning sifatlari va hukmlari"
+  },
+  {
+    "id": "muslim-book-50-chapter-2",
+    "book_id": 50,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ حُكْمِ مَنْ مَاتَ عَلَى الْكُفْرِ وَلَا يُصَلَّى عَلَيْهِ",
+    "uzbek_title": "Kofir holda vafot etgan kishining hukmi va unga namoz o'qilmasligi"
+  },
+  {
+    "id": "muslim-book-50-chapter-3",
+    "book_id": 50,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ تَحْرِيمِ مُوَالَاةِ الْكَافِرِينَ وَقَطْعِ الْعَلَاقَةِ بِهِمْ",
+    "uzbek_title": "Kofirlarga do'stlik va ular bilan aloqani uzish haromligi"
+  },
+  {
+    "id": "muslim-book-50-chapter-4",
+    "book_id": 50,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ بَيَانِ حَالِ إِيمَانِ مَنْ قَالَ لِأَخِيهِ الْمُسْلِمِ يَا كَافِرُ",
+    "uzbek_title": "Musulmon birodariga 'ey kofir' degan kishining iymon holati bayoni"
+  },
+  {
+    "id": "muslim-book-51-chapter-1",
+    "book_id": 51,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ صِفَةِ الْقِيَامَةِ وَالْحِسَابِ",
+    "uzbek_title": "Qiyomat tasviri va hisob-kitob"
+  },
+  {
+    "id": "muslim-book-51-chapter-2",
+    "book_id": 51,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ فِي الْمِيزَانِ يَوْمَ الْقِيَامَةِ",
+    "uzbek_title": "Qiyomat kunidagi mezon (tarozu)"
+  },
+  {
+    "id": "muslim-book-51-chapter-3",
+    "book_id": 51,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ فِي الصِّرَاطِ",
+    "uzbek_title": "Sirot ko'prigi haqida"
+  },
+  {
+    "id": "muslim-book-51-chapter-4",
+    "book_id": 51,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ فِي الْحَوْضِ",
+    "uzbek_title": "Hovuz (Kavsar) haqida"
+  },
+  {
+    "id": "muslim-book-51-chapter-5",
+    "book_id": 51,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ عَرْضِ مَقْعَدِ الْمَيِّتِ عَلَيْهِ",
+    "uzbek_title": "Vafot etganga o'rnining ko'rsatilishi"
+  },
+  {
+    "id": "muslim-book-51-chapter-6",
+    "book_id": 51,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ فِي صِفَةِ نَارِ جَهَنَّمَ وَشِدَّةِ حَرِّهَا",
+    "uzbek_title": "Do'zax tasviri va uning issiqligining shiddati"
+  },
+  {
+    "id": "muslim-book-51-chapter-7",
+    "book_id": 51,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ فِي صِفَةِ الْجَنَّةِ وَمَا فِيهَا مِنَ النَّعِيمِ",
+    "uzbek_title": "Jannat va undagi ne'matlar tasviri"
+  },
+  {
+    "id": "muslim-book-51-chapter-8",
+    "book_id": 51,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ فِي فَنَاءِ الدُّنْيَا وَبَيَانِ الْحَشْرِ يَوْمَ الْقِيَامَةِ",
+    "uzbek_title": "Dunyoning fanoliği va qiyomat kuni hashr bayoni"
+  },
+  {
+    "id": "muslim-book-51-chapter-9",
+    "book_id": 51,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ فِي الْبَعْثِ وَتَغَيُّرِ الْأَرْضِ يَوْمَ الْقِيَامَةِ",
+    "uzbek_title": "Tirilish va qiyomat kuni yerni o'zgarishi"
+  },
+  {
+    "id": "muslim-book-51-chapter-10",
+    "book_id": 51,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ فِي طُولِ يَوْمِ الْقِيَامَةِ",
+    "uzbek_title": "Qiyomat kunining uzoqligi"
+  },
+  {
+    "id": "muslim-book-52-chapter-1",
+    "book_id": 52,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ إِثْبَاتِ الْجَنَّةِ وَالنَّارِ وَمَا لِلْمُؤْمِنِينَ مِنَ الْكَرَامَةِ",
+    "uzbek_title": "Jannat va do'zax isboti hamda mo'minlar uchun karomat"
+  },
+  {
+    "id": "muslim-book-52-chapter-2",
+    "book_id": 52,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ فِي صِفَاتِ الْجَنَّةِ وَأَهْلِهَا",
+    "uzbek_title": "Jannat va ahlining sifatlari"
+  },
+  {
+    "id": "muslim-book-52-chapter-3",
+    "book_id": 52,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ أَوَّلُ زُمْرَةٍ تَدْخُلُ الْجَنَّةَ عَلَى صُورَةِ الْقَمَرِ",
+    "uzbek_title": "Jannatga kiruvchi birinchi guruh oy kabi bo'lishi"
+  },
+  {
+    "id": "muslim-book-52-chapter-4",
+    "book_id": 52,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ النَّارُ يَدْخُلُهَا الْجَبَّارُونَ وَالْجَنَّةُ يَدْخُلُهَا الضُّعَفَاءُ",
+    "uzbek_title": "Do'zaxga mutakabbirlar, jannatga zaif va kamtarlar kirishi"
+  },
+  {
+    "id": "muslim-book-52-chapter-5",
+    "book_id": 52,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ فِي أَدْنَى أَهْلِ الْجَنَّةِ مَنْزِلَةً",
+    "uzbek_title": "Jannat ahlining eng past darajasidagi kishining holati"
+  },
+  {
+    "id": "muslim-book-52-chapter-6",
+    "book_id": 52,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ يَدْخُلُ الْجَنَّةَ أَقْوَامٌ أَفْئِدَتُهُمْ مِثْلُ أَفْئِدَةِ الطَّيْرِ",
+    "uzbek_title": "Yuraksi qushlar yuragi kabi bo'lgan kishilar jannatga kirishi"
+  },
+  {
+    "id": "muslim-book-52-chapter-7",
+    "book_id": 52,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ فَنَاءِ الدُّنْيَا وَمَا الدُّنْيَا إِلَّا مَتَاعٌ",
+    "uzbek_title": "Dunyoning fenoligi va dunyo faqat bir matoh ekanligi"
+  },
+  {
+    "id": "muslim-book-52-chapter-8",
+    "book_id": 52,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ الْجَنَّةُ أَقْرَبُ إِلَى أَحَدِكُمْ مِنْ شِرَاكِ نَعْلِهِ",
+    "uzbek_title": "Jannat sizga poyabzalingizning bog'idan ham yaqin ekanligi"
+  },
+  {
+    "id": "muslim-book-52-chapter-9",
+    "book_id": 52,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ الصِّفَاتُ الَّتِي يُعْرَفُ بِهَا فِي الدُّنْيَا أَهْلُ الْجَنَّةِ وَأَهْلُ النَّارِ",
+    "uzbek_title": "Dunyoda jannat va do'zax ahlini tanib olinadigan sifatlar"
+  },
+  {
+    "id": "muslim-book-52-chapter-10",
+    "book_id": 52,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ رُؤْيَةِ الْمُؤْمِنِينَ رَبَّهُمْ فِي الْجَنَّةِ",
+    "uzbek_title": "Mo'minlarning jannatda Allohni ko'rishi"
+  },
+  {
+    "id": "muslim-book-53-chapter-1",
+    "book_id": 53,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ فِي الْآيَاتِ الَّتِي تَكُونُ قَبْلَ السَّاعَةِ",
+    "uzbek_title": "Qiyomatdan oldin bo'ladigan alomatlar"
+  },
+  {
+    "id": "muslim-book-53-chapter-2",
+    "book_id": 53,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ ذِكْرِ الدَّجَّالِ وَصِفَتِهِ وَمَا مَعَهُ",
+    "uzbek_title": "Dajjol zikri, sifati va uning yonidagilar"
+  },
+  {
+    "id": "muslim-book-53-chapter-3",
+    "book_id": 53,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ فِي فِتْنَةِ الدَّجَّالِ وَخُرُوجِ عِيسَى عَلَيْهِ السَّلَامُ",
+    "uzbek_title": "Dajjol fitnasi va Iso alayhissalomning tushishi"
+  },
+  {
+    "id": "muslim-book-53-chapter-4",
+    "book_id": 53,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ خُرُوجِ يَأْجُوجَ وَمَأْجُوجَ",
+    "uzbek_title": "Yajuj va Majujning chiqishi"
+  },
+  {
+    "id": "muslim-book-53-chapter-5",
+    "book_id": 53,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ الْفِتَنِ الَّتِي تَمُوجُ كَمَوْجِ الْبَحْرِ",
+    "uzbek_title": "Dengiz to'lqinlari kabi to'lib-toshuvchi fitnalar"
+  },
+  {
+    "id": "muslim-book-53-chapter-6",
+    "book_id": 53,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ اقْتِرَابِ الْفِتَنِ وَفَتْحِ رَدْمِ يَأْجُوجَ وَمَأْجُوجَ",
+    "uzbek_title": "Fitnalarning yaqinlashuvi va Yajuj-Majuj to'sig'ining ochilishi"
+  },
+  {
+    "id": "muslim-book-53-chapter-7",
+    "book_id": 53,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ خُرُوجِ النَّارِ مِنْ أَرْضِ الْحِجَازِ",
+    "uzbek_title": "Hijoz yeridan olovning chiqishi"
+  },
+  {
+    "id": "muslim-book-53-chapter-8",
+    "book_id": 53,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ صِفَةِ الدَّجَّالِ وَتَحْرِيمِ الْمَدِينَةِ عَلَيْهِ",
+    "uzbek_title": "Dajjolning sifati va Madinaning unga harom ekanligi"
+  },
+  {
+    "id": "muslim-book-53-chapter-9",
+    "book_id": 53,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ لَا تَقُومُ السَّاعَةُ حَتَّى تَقَاتِلَ الرُّومَ",
+    "uzbek_title": "Rum (Vizantiya)liklar bilan jang qilinmaguncha qiyomat qopmasligi"
+  },
+  {
+    "id": "muslim-book-53-chapter-10",
+    "book_id": 53,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ لَا تَقُومُ السَّاعَةُ حَتَّى يَمُرَّ الرَّجُلُ بِقَبْرِ أَخِيهِ",
+    "uzbek_title": "Birodarining qabri ustidan o'tib yig'lamoqni tilaguncha qiyomat qopmasligi"
+  },
+  {
+    "id": "muslim-book-53-chapter-11",
+    "book_id": 53,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ هَلَاكِ هَذِهِ الْأُمَّةِ بَعْضِهِمْ بِبَعْضٍ",
+    "uzbek_title": "Bu ummatning bir-birini halok qilishi"
+  },
+  {
+    "id": "muslim-book-53-chapter-12",
+    "book_id": 53,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ الْآيَاتِ الْكُبْرَى بَعْدَ خُرُوجِ الدَّجَّالِ",
+    "uzbek_title": "Dajjol chiqgandan keyin bo'ladigan katta alomatlar"
+  },
+  {
+    "id": "muslim-book-54-chapter-1",
+    "book_id": 54,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ الزُّهْدِ فِي الدُّنْيَا وَالتَّرْغِيبِ فِي الْآخِرَةِ",
+    "uzbek_title": "Dunyo zuhdligi va oxiratga targ'ib"
+  },
+  {
+    "id": "muslim-book-54-chapter-2",
+    "book_id": 54,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ الدُّنْيَا سِجْنُ الْمُؤْمِنِ وَجَنَّةُ الْكَافِرِ",
+    "uzbek_title": "Dunyo mo'min uchun zindon va kofir uchun jannat"
+  },
+  {
+    "id": "muslim-book-54-chapter-3",
+    "book_id": 54,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ فَضْلِ الْفَقْرِ وَالزُّهْدِ فِي الدُّنْيَا",
+    "uzbek_title": "Faqirlik va dunyo zuhdining fazilati"
+  },
+  {
+    "id": "muslim-book-54-chapter-4",
+    "book_id": 54,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ لَوْ أَنَّ لِابْنِ آدَمَ وَادِيَيْنِ مِنْ مَالٍ لَابْتَغَى ثَالِثًا",
+    "uzbek_title": "Odam o'g'lida ikki vodiy mol bo'lsa uchinchisini istashi"
+  },
+  {
+    "id": "muslim-book-54-chapter-5",
+    "book_id": 54,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ أَكْثَرُ أَهْلِ الْجَنَّةِ الْفُقَرَاءُ وَأَكْثَرُ أَهْلِ النَّارِ النِّسَاءُ",
+    "uzbek_title": "Jannat ahlining ko'pi faqirlar va do'zax ahlining ko'pi ayollar"
+  },
+  {
+    "id": "muslim-book-54-chapter-6",
+    "book_id": 54,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ تَحْرِيمِ الظُّلْمِ وَأَخْذِ الْحُقُوقِ يَوْمَ الْقِيَامَةِ",
+    "uzbek_title": "Qiyomat kuni zulm haromligi va huquqlarning olinishi"
+  },
+  {
+    "id": "muslim-book-54-chapter-7",
+    "book_id": 54,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الدُّنْيَا عَرَضٌ حَاضِرٌ يَأْكُلُ مِنْهَا الْبَرُّ وَالْفَاجِرُ",
+    "uzbek_title": "Dunyo hozir bir matoh bo'lib undan yaxshi va yomon kishi ham yeydi"
+  },
+  {
+    "id": "muslim-book-54-chapter-8",
+    "book_id": 54,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ إِنَّ الدُّنْيَا دَارُ الْعَمَلِ وَالْعَاقِلُ يَسْتَعِدُّ لِلْآخِرَةِ",
+    "uzbek_title": "Dunyo amal joyi va aqlli kishi oxiratga tayyorlanadi"
+  },
+  {
+    "id": "muslim-book-55-chapter-1",
+    "book_id": 55,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ تَفْسِيرِ آيَاتٍ مِنَ الْقُرْآنِ الْكَرِيمِ",
+    "uzbek_title": "Qur'oni Karimdan ba'zi oyatlar tafsiri"
+  },
+  {
+    "id": "muslim-book-55-chapter-2",
+    "book_id": 55,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ فِي قَوْلِهِ تَعَالَى وَعَلَّمَ آدَمَ الْأَسْمَاءَ كُلَّهَا",
+    "uzbek_title": "Alloh taoloning 'Odam barcha ismlarni o'rgandi' oyati tafsiri"
+  },
+  {
+    "id": "muslim-book-55-chapter-3",
+    "book_id": 55,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ فِي قَوْلِهِ إِنَّ الَّذِينَ آمَنُوا وَالَّذِينَ هَادُوا",
+    "uzbek_title": "'Iymon keltirganlar, yahudiylar...' oyati tafsiri"
+  },
+  {
+    "id": "muslim-book-55-chapter-4",
+    "book_id": 55,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ فِي تَفْسِيرِ الْمُسَبِّحَاتِ",
+    "uzbek_title": "Musabbihotlar (tasbeh suralar) tafsiri"
+  },
+  {
+    "id": "muslim-book-55-chapter-5",
+    "book_id": 55,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ فِي قَوْلِهِ وَلِلَّهِ الْأَسْمَاءُ الْحُسْنَى فَادْعُوهُ بِهَا",
+    "uzbek_title": "'Allohga chiroyli ismlar bor, u bilan duo qiling' oyati tafsiri"
   }
 ]

@@ -5066,5 +5066,537 @@
     "chapter_number": 12,
     "arabic_title": "بَابُ النَّهْيِ عَنِ انْتِهَاكِ حُرُمَاتِ اللَّهِ",
     "uzbek_title": "Allohning hurmatli chegaralarini buzishdan man etilishi"
+  },
+  {
+    "id": "muslim-book-30-chapter-1",
+    "book_id": 30,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ الْحُكْمِ بِالظَّاهِرِ وَاللَّحْنِ بِالْحُجَّةِ",
+    "uzbek_title": "Zohirga qarab hukm qilish va dalil bilan bahslashish"
+  },
+  {
+    "id": "muslim-book-30-chapter-2",
+    "book_id": 30,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ الْقُضَاةَ ثَلَاثَةٌ",
+    "uzbek_title": "Qozilar uch xil ekanligi bayoni"
+  },
+  {
+    "id": "muslim-book-30-chapter-3",
+    "book_id": 30,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الرِّشْوَةِ فِي الْحُكْمِ",
+    "uzbek_title": "Hukm-qoziligu jarayonida pora olish va berishdan man etilishi"
+  },
+  {
+    "id": "muslim-book-30-chapter-4",
+    "book_id": 30,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ الشَّاهِدِ وَالْيَمِينِ",
+    "uzbek_title": "Bir guvoh va qasam bilan hukm qilish"
+  },
+  {
+    "id": "muslim-book-30-chapter-5",
+    "book_id": 30,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ كَثْرَةِ الْمَسَائِلِ وَالتَّكَلُّفِ",
+    "uzbek_title": "Ko'p savol berish va o'ta qat'iylikdan man etilishi"
+  },
+  {
+    "id": "muslim-book-30-chapter-6",
+    "book_id": 30,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ تَحْرِيمِ الْقَضَاءِ بِالْجَوْرِ",
+    "uzbek_title": "Zulm bilan hukm qilish haromligi"
+  },
+  {
+    "id": "muslim-book-30-chapter-7",
+    "book_id": 30,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ كَرَاهَةِ طَلَبِ الْقَضَاءِ وَالْحِرْصِ عَلَيْهِ",
+    "uzbek_title": "Qozilik lavozimini talab qilish va unga intilish makruhligi"
+  },
+  {
+    "id": "muslim-book-30-chapter-8",
+    "book_id": 30,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ نَقْضِ الْأَحْكَامِ الْبَاطِلَةِ",
+    "uzbek_title": "Botil hukm va qarorlarni bekor qilish"
+  },
+  {
+    "id": "muslim-book-31-chapter-1",
+    "book_id": 31,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ اللُّقَطَةِ وَأَحْكَامِهَا",
+    "uzbek_title": "Topilgan mol va uning hukmlari"
+  },
+  {
+    "id": "muslim-book-31-chapter-2",
+    "book_id": 31,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ تَعْرِيفِ اللُّقَطَةِ وَمَنْ أَخَذَهَا",
+    "uzbek_title": "Topilgan molni e'lon qilish va uni olgan kishi"
+  },
+  {
+    "id": "muslim-book-31-chapter-3",
+    "book_id": 31,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ لُقَطَةِ مَكَّةَ الْمُكَرَّمَةِ",
+    "uzbek_title": "Makkadagi topilgan mol"
+  },
+  {
+    "id": "muslim-book-31-chapter-4",
+    "book_id": 31,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ ضَالَّةِ الْإِبِلِ وَالْغَنَمِ",
+    "uzbek_title": "Adashgan tuya va qo'y-echkilar"
+  },
+  {
+    "id": "muslim-book-31-chapter-5",
+    "book_id": 31,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ الضِّيَافَةِ وَنَحْوِهَا",
+    "uzbek_title": "Mehmon kutish va shunga o'xshash hollar"
+  },
+  {
+    "id": "muslim-book-32-chapter-1",
+    "book_id": 32,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ فَضْلِ الْجِهَادِ وَالْخُرُوجِ فِي سَبِيلِ اللَّهِ",
+    "uzbek_title": "Jihod va Alloh yo'lida chiqish fazilati"
+  },
+  {
+    "id": "muslim-book-32-chapter-2",
+    "book_id": 32,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ فَضْلِ الشَّهَادَةِ فِي سَبِيلِ اللَّهِ",
+    "uzbek_title": "Alloh yo'lida shahodatning fazilati"
+  },
+  {
+    "id": "muslim-book-32-chapter-3",
+    "book_id": 32,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ فَضْلِ الرِّبَاطِ فِي سَبِيلِ اللَّهِ",
+    "uzbek_title": "Alloh yo'lida chegarani qo'riqlash (ribоt) fazilati"
+  },
+  {
+    "id": "muslim-book-32-chapter-4",
+    "book_id": 32,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ فَضْلِ الْغَزْوِ فِي الْبَحْرِ",
+    "uzbek_title": "Dengizda gazvo qilish fazilati"
+  },
+  {
+    "id": "muslim-book-32-chapter-5",
+    "book_id": 32,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ كَيْفِيَّةِ دَعْوَةِ الْكُفَّارِ إِلَى الْإِسْلَامِ وَحُكْمِ الْقِتَالِ",
+    "uzbek_title": "Kofirlarga Islomga da'vat qilish va jang hukmi"
+  },
+  {
+    "id": "muslim-book-32-chapter-6",
+    "book_id": 32,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ تَحْرِيمِ قَتْلِ النِّسَاءِ وَالصِّبْيَانِ فِي الْحَرْبِ",
+    "uzbek_title": "Urushda ayol va bolalarni o'ldirish haromligi"
+  },
+  {
+    "id": "muslim-book-32-chapter-7",
+    "book_id": 32,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الْغَدْرِ",
+    "uzbek_title": "G'adr (xiyonat) qilishdan man etilishi"
+  },
+  {
+    "id": "muslim-book-32-chapter-8",
+    "book_id": 32,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ تَحْرِيمِ الْغُلُولِ وَالْحَثِّ عَلَى رَدِّ الْمَغْنَمِ",
+    "uzbek_title": "G'ulul (o'ljadan yashirish) haromligi va o'ljani qaytarishga targ'ib"
+  },
+  {
+    "id": "muslim-book-32-chapter-9",
+    "book_id": 32,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ النُّهْبَى",
+    "uzbek_title": "Talon-taroj qilishdan man etilishi"
+  },
+  {
+    "id": "muslim-book-32-chapter-10",
+    "book_id": 32,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ اسْتِحْقَاقِ الْقَاتِلِ سَلَبَ الْمَقْتُولِ",
+    "uzbek_title": "O'ldirgan kishining o'ldirilganning qurol-yarog'iga haqqi"
+  },
+  {
+    "id": "muslim-book-32-chapter-11",
+    "book_id": 32,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ تَأْمِيرِ الْإِمَامِ الْأُمَرَاءَ عَلَى الْبُعُوثِ",
+    "uzbek_title": "Imomning qo'shinlarga amirlar tayinlashi"
+  },
+  {
+    "id": "muslim-book-32-chapter-12",
+    "book_id": 32,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ الْأَمْرِ بِالتَّيْسِيرِ وَتَرْكِ التَّنْفِيرِ",
+    "uzbek_title": "Osonlashtirish va odamlarni quvib yubormasklikka amr"
+  },
+  {
+    "id": "muslim-book-32-chapter-13",
+    "book_id": 32,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ جَوَازِ الْإِغَارَةِ عَلَى الْكُفَّارِ",
+    "uzbek_title": "Kofirlarga to'satdan hujum qilish joizligi"
+  },
+  {
+    "id": "muslim-book-32-chapter-14",
+    "book_id": 32,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ جَوَازِ قَطْعِ أَشْجَارِ الْكُفَّارِ وَتَحْرِيقِهَا",
+    "uzbek_title": "Kofirlaming daraxtlarini kesish va yoqish joizligi"
+  },
+  {
+    "id": "muslim-book-32-chapter-15",
+    "book_id": 32,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ الْأَسَارَى وَأَحْكَامِهِمْ",
+    "uzbek_title": "Asirlar va ularning hukmlari"
+  },
+  {
+    "id": "muslim-book-32-chapter-16",
+    "book_id": 32,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ جَوَازِ الْفِدَاءِ وَالْمَنِّ فِي الْأَسَارَى",
+    "uzbek_title": "Asirlarda fidya va ehson bilan ozod qilish joizligi"
+  },
+  {
+    "id": "muslim-book-32-chapter-17",
+    "book_id": 32,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ تَحْرِيمِ الْمُثْلَةِ",
+    "uzbek_title": "Jasadni shafqatsizlarcha buzish haromligi"
+  },
+  {
+    "id": "muslim-book-32-chapter-18",
+    "book_id": 32,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ تَمَنِّي لِقَاءِ الْعَدُوِّ",
+    "uzbek_title": "Dushman bilan uchrashishni tilamoqdan man etilishi"
+  },
+  {
+    "id": "muslim-book-32-chapter-19",
+    "book_id": 32,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ الصَّبْرِ عِنْدَ لِقَاءِ الْعَدُوِّ",
+    "uzbek_title": "Dushman bilan to'qnashuvda sabr-matonat"
+  },
+  {
+    "id": "muslim-book-32-chapter-20",
+    "book_id": 32,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ قِسْمَةِ الْغَنِيمَةِ",
+    "uzbek_title": "O'lja (g'animat)ni taqsimlash"
+  },
+  {
+    "id": "muslim-book-32-chapter-21",
+    "book_id": 32,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ الْأَمَانِ وَجَوَازِهِ لِلْمَرْأَةِ",
+    "uzbek_title": "Amonlik va ayolning amonlik berishi joizligi"
+  },
+  {
+    "id": "muslim-book-32-chapter-22",
+    "book_id": 32,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ غَزْوَةِ حُنَيْنٍ",
+    "uzbek_title": "Hunayn gazva"
+  },
+  {
+    "id": "muslim-book-32-chapter-23",
+    "book_id": 32,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ غَزْوَةِ أُحُدٍ",
+    "uzbek_title": "Uhud gazva"
+  },
+  {
+    "id": "muslim-book-32-chapter-24",
+    "book_id": 32,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ غَزْوَةِ بَدْرٍ",
+    "uzbek_title": "Badr gazva"
+  },
+  {
+    "id": "muslim-book-32-chapter-25",
+    "book_id": 32,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ غَزْوَةِ خَيْبَرَ",
+    "uzbek_title": "Xaybar gazva"
+  },
+  {
+    "id": "muslim-book-32-chapter-26",
+    "book_id": 32,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ فَتْحِ مَكَّةَ",
+    "uzbek_title": "Makka fathi"
+  },
+  {
+    "id": "muslim-book-32-chapter-27",
+    "book_id": 32,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ الدِّيَارِ الَّتِي أُهْلِكَ أَهْلُهَا",
+    "uzbek_title": "Aholisi halok qilingan yurtlar"
+  },
+  {
+    "id": "muslim-book-32-chapter-28",
+    "book_id": 32,
+    "chapter_number": 28,
+    "arabic_title": "بَابُ فَضْلِ الصَّدَقَةِ وَالنَّفَقَةِ فِي سَبِيلِ اللَّهِ",
+    "uzbek_title": "Alloh yo'lida sadaqa va xarajatning fazilati"
+  },
+  {
+    "id": "muslim-book-33-chapter-1",
+    "book_id": 33,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ وُجُوبِ طَاعَةِ الْأُمَرَاءِ فِي غَيْرِ مَعْصِيَةٍ",
+    "uzbek_title": "Isyonsiz holda amirlarga itoat vajibligi"
+  },
+  {
+    "id": "muslim-book-33-chapter-2",
+    "book_id": 33,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ الْأَمْرِ بِلُزُومِ الْجَمَاعَةِ عِنْدَ ظُهُورِ الْفِتَنِ",
+    "uzbek_title": "Fitnalar paydo bo'lganda jamoa bilan bo'lishga amr"
+  },
+  {
+    "id": "muslim-book-33-chapter-3",
+    "book_id": 33,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ طَلَبِ الْإِمَارَةِ وَالْحِرْصِ عَلَيْهَا",
+    "uzbek_title": "Amirlik lavozimini talab qilish va unga intilishdan man etilishi"
+  },
+  {
+    "id": "muslim-book-33-chapter-4",
+    "book_id": 33,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ الْأُمَرَاءُ مِنْ قُرَيْشٍ",
+    "uzbek_title": "Amirlar Quraysh qabilasidan bo'lishi"
+  },
+  {
+    "id": "muslim-book-33-chapter-5",
+    "book_id": 33,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ فَضِيلَةِ الْإِمَامِ الْعَادِلِ وَعُقُوبَةِ الْجَائِرِ",
+    "uzbek_title": "Adolatli imom fazilati va zolim imomning jazosi"
+  },
+  {
+    "id": "muslim-book-33-chapter-6",
+    "book_id": 33,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ وُجُوبِ الْإِنْكَارِ عَلَى الْأُمَرَاءِ فِيمَا يُخَالِفُ الشَّرْعَ",
+    "uzbek_title": "Shariat xilofida bo'lsa amirlarga inkor etish vajibligi"
+  },
+  {
+    "id": "muslim-book-33-chapter-7",
+    "book_id": 33,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ بَيَانِ الشُّحِّ الْمَذْمُومِ",
+    "uzbek_title": "Qoralangan xasislikning bayoni"
+  },
+  {
+    "id": "muslim-book-33-chapter-8",
+    "book_id": 33,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ ثَوَابِ مَنْ قَاتَلَ فِي سَبِيلِ اللَّهِ",
+    "uzbek_title": "Alloh yo'lida jang qilgan kishining savoli"
+  },
+  {
+    "id": "muslim-book-33-chapter-9",
+    "book_id": 33,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ فَضِيلَةِ مَنْ يُقْتَلُ فِي سَبِيلِ اللَّهِ",
+    "uzbek_title": "Alloh yo'lida shahid bo'lgan kishining fazilati"
+  },
+  {
+    "id": "muslim-book-33-chapter-10",
+    "book_id": 33,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ الِاسْتِخْلَافِ وَتَرْكِهِ",
+    "uzbek_title": "Xalifa qoldirish va qoldirmaslik"
+  },
+  {
+    "id": "muslim-book-33-chapter-11",
+    "book_id": 33,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ مَنْ مَاتَ وَلَيْسَ لَهُ إِمَامٌ مَاتَ مِيتَةً جَاهِلِيَّةً",
+    "uzbek_title": "Imomga bay'atsiz vafot etgan kishi johiliyat o'limida o'lishi"
+  },
+  {
+    "id": "muslim-book-33-chapter-12",
+    "book_id": 33,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ وُجُوبِ الْوَفَاءِ بِبَيْعَةِ الْخُلَفَاءِ",
+    "uzbek_title": "Xalifalarga birinchi bay'atni bajarish vajibligi"
+  },
+  {
+    "id": "muslim-book-33-chapter-13",
+    "book_id": 33,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ فَضْلِ مَنْ يَمُوتُ لَهُ وَلَدٌ فَيَصْبِرُ",
+    "uzbek_title": "Farzandi vafot etganda sabr qilgan kishining fazilati"
+  },
+  {
+    "id": "muslim-book-34-chapter-1",
+    "book_id": 34,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ الصَّيْدِ بِالْكِلَابِ الْمُعَلَّمَةِ",
+    "uzbek_title": "O'rgatilgan itlar bilan ov qilish"
+  },
+  {
+    "id": "muslim-book-34-chapter-2",
+    "book_id": 34,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ الصَّيْدِ بِالْجَوَارِحِ الْمُعَلَّمَةِ مِنَ الطَّيْرِ وَغَيْرِهَا",
+    "uzbek_title": "O'rgatilgan qushlar va boshqa hayvonlar bilan ov qilish"
+  },
+  {
+    "id": "muslim-book-34-chapter-3",
+    "book_id": 34,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ الصَّيْدِ بِالْمِعْرَاضِ",
+    "uzbek_title": "Mi'roz (yassi o'q) bilan ov qilish"
+  },
+  {
+    "id": "muslim-book-34-chapter-4",
+    "book_id": 34,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ إِبَاحَةِ الْجَرَادِ وَالسَّمَكِ",
+    "uzbek_title": "Chigirtka va baliq halol ekanligi"
+  },
+  {
+    "id": "muslim-book-34-chapter-5",
+    "book_id": 34,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ إِبَاحَةِ الضَّبِّ",
+    "uzbek_title": "Kaltakesak (dabb) go'shti halol ekanligi"
+  },
+  {
+    "id": "muslim-book-34-chapter-6",
+    "book_id": 34,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ تَحْرِيمِ الْحُمُرِ الْأَهْلِيَّةِ",
+    "uzbek_title": "Uy eshagi go'shtining haromligi"
+  },
+  {
+    "id": "muslim-book-34-chapter-7",
+    "book_id": 34,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ أَكْلِ كُلِّ ذِي نَابٍ مِنَ السِّبَاعِ",
+    "uzbek_title": "Yirtqich hayvonlar va changal bilan ovlovchi qushlarni eyish man etilishi"
+  },
+  {
+    "id": "muslim-book-34-chapter-8",
+    "book_id": 34,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ الذَّبْحِ وَإِنْهَارِ الدَّمِ بِمَا أَنْهَرَهُ",
+    "uzbek_title": "So'yish va qon oqizish hamda qaysi narsa bilan so'yilishi"
+  },
+  {
+    "id": "muslim-book-34-chapter-9",
+    "book_id": 34,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ إِبَاحَةِ الْمَيْتَةِ لِلْمُضْطَرِّ",
+    "uzbek_title": "Majbur qolgan kishiga o'laksa halol bo'lishi"
+  },
+  {
+    "id": "muslim-book-34-chapter-10",
+    "book_id": 34,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ تَحْرِيمِ أَكْلِ الْحِمَارِ الْأَهْلِيِّ",
+    "uzbek_title": "Uy eshagi go'shtini eyish haromligi"
+  },
+  {
+    "id": "muslim-book-34-chapter-11",
+    "book_id": 34,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ جَوَازِ أَكْلِ الضَّبُعِ",
+    "uzbek_title": "Porsuk go'shtini eyish joizligi"
+  },
+  {
+    "id": "muslim-book-34-chapter-12",
+    "book_id": 34,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الْمُجَثَّمَةِ وَاللَّبَنِ الْمَحْقُونِ",
+    "uzbek_title": "Boylab o'ldirilgan hayvon va to'plangan sut man etilishi"
+  },
+  {
+    "id": "muslim-book-35-chapter-1",
+    "book_id": 35,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ وَقْتِ الْأُضْحِيَّةِ",
+    "uzbek_title": "Qurbonlik vaqti"
+  },
+  {
+    "id": "muslim-book-35-chapter-2",
+    "book_id": 35,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ سُنِّيَّةِ الْأُضْحِيَّةِ",
+    "uzbek_title": "Qurbonlikning sunat ekanligi"
+  },
+  {
+    "id": "muslim-book-35-chapter-3",
+    "book_id": 35,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ الْأُضْحِيَّةِ بِشَاةٍ وَاحِدَةٍ عَنِ الرَّجُلِ وَأَهْلِ بَيْتِهِ",
+    "uzbek_title": "Bir qo'y bilan kishi va uning oilasi uchun qurbon so'yish"
+  },
+  {
+    "id": "muslim-book-35-chapter-4",
+    "book_id": 35,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ ذَبْحِ الْأُضْحِيَّةِ قَبْلَ الصَّلَاةِ",
+    "uzbek_title": "Hayit namazidan oldin qurbon so'yish man etilishi"
+  },
+  {
+    "id": "muslim-book-35-chapter-5",
+    "book_id": 35,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ مَا يُجْزِئُ فِي الْأُضْحِيَّةِ وَمَا لَا يُجْزِئُ",
+    "uzbek_title": "Qurbonlikda qabul bo'ladigan va bo'lmaydigan hayvonlar"
+  },
+  {
+    "id": "muslim-book-35-chapter-6",
+    "book_id": 35,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ اسْتِحْبَابِ الذَّبْحِ بِيَدِهِ",
+    "uzbek_title": "Qurbonni o'z qo'li bilan so'yish mustahabligi"
+  },
+  {
+    "id": "muslim-book-35-chapter-7",
+    "book_id": 35,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ التَّسْمِيَةِ وَالتَّكْبِيرِ عِنْدَ الذَّبِيحَةِ",
+    "uzbek_title": "So'yishda bismillah va Allоhu akbar aytish"
+  },
+  {
+    "id": "muslim-book-35-chapter-8",
+    "book_id": 35,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ جَوَازِ الْأَكْلِ مِنْ لُحُومِ الْأَضَاحِيِّ بَعْدَ ثَلَاثٍ",
+    "uzbek_title": "Uch kundan keyin qurbon go'shtidan eyish joizligi"
+  },
+  {
+    "id": "muslim-book-35-chapter-9",
+    "book_id": 35,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ ادِّخَارِ لُحُومِ الْأَضَاحِيِّ فَوْقَ ثَلَاثٍ وَنَسْخِهِ",
+    "uzbek_title": "Qurbon go'shtini uch kundan ko'p saqlamoqdan man etilishi va uning bekor bo'lishi"
+  },
+  {
+    "id": "muslim-book-35-chapter-10",
+    "book_id": 35,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ مَنْ أَرَادَ أَنْ يُضَحِّيَ فَلَا يَأْخُذَ مِنْ شَعَرِهِ وَظُفْرِهِ",
+    "uzbek_title": "Qurbon so'ymoqchi kishi Zulhijja kirganida soch va tirnog'ini olmasligi"
   }
 ]

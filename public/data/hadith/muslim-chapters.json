@@ -4751,5 +4751,320 @@
     "chapter_number": 8,
     "arabic_title": "بَابُ جَوَازِ هِبَةِ الْمُشَاعِ",
     "uzbek_title": "Taqsimlanmagan (mushtarak) mulkni hadya qilish joizligi"
+  },
+  {
+    "id": "muslim-book-25-chapter-1",
+    "book_id": 25,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ الْوَصِيَّةِ بِالثُّلُثِ",
+    "uzbek_title": "Mulkning uchinchi qismi bilan vasiyat qilish"
+  },
+  {
+    "id": "muslim-book-25-chapter-2",
+    "book_id": 25,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ تَحْرِيمِ الْوَصِيَّةِ لِلْوَارِثِ",
+    "uzbek_title": "Merosxo'rga vasiyat qilish haromligi"
+  },
+  {
+    "id": "muslim-book-25-chapter-3",
+    "book_id": 25,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ مَا يَلْحَقُ الْإِنْسَانَ مِنَ الثَّوَابِ بَعْدَ وَفَاتِهِ",
+    "uzbek_title": "Vafotdan keyin kishiga yetib turadigan savob"
+  },
+  {
+    "id": "muslim-book-25-chapter-4",
+    "book_id": 25,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ الْوَصِيَّةِ وَكِتَابَتِهَا وَالْحَثِّ عَلَيْهَا",
+    "uzbek_title": "Vasiyat, uni yozish va bunga targ'ib"
+  },
+  {
+    "id": "muslim-book-25-chapter-5",
+    "book_id": 25,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ تَرْكِ الْوَصِيَّةِ لِمَنْ لَيْسَ لَهُ شَيْءٌ يُوصِي بِهِ",
+    "uzbek_title": "Vasiyat qiladigan narsasi yo'q kishining vasiyatsiz qolishi joizligi"
+  },
+  {
+    "id": "muslim-book-25-chapter-6",
+    "book_id": 25,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ الدُّخُولِ فِي الْوَصِيَّةِ وَوُجُوبِ تَنْفِيذِهَا",
+    "uzbek_title": "Vasiyatni qabul qilish va uni bajarish vajibligi"
+  },
+  {
+    "id": "muslim-book-25-chapter-7",
+    "book_id": 25,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الصَّدَقَةِ عَنِ الْمَيِّتِ",
+    "uzbek_title": "Mayit nomiga sadaqa qilish"
+  },
+  {
+    "id": "muslim-book-26-chapter-1",
+    "book_id": 26,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ النَّذْرِ وَأَنَّهُ لَا يَرُدُّ شَيْئًا",
+    "uzbek_title": "Nazrdan man etilishi va u hech narsani qaytarmasligi"
+  },
+  {
+    "id": "muslim-book-26-chapter-2",
+    "book_id": 26,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ الْوَفَاءِ بِالنَّذْرِ",
+    "uzbek_title": "Nazrni bajo keltirish vajibligi"
+  },
+  {
+    "id": "muslim-book-26-chapter-3",
+    "book_id": 26,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ لَا وَفَاءَ لِنَذْرٍ فِي مَعْصِيَةِ اللَّهِ",
+    "uzbek_title": "Allohga isyonli nazrni bajo keltirish yo'qligi"
+  },
+  {
+    "id": "muslim-book-26-chapter-4",
+    "book_id": 26,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ نَذْرِ الْكَافِرِ وَمَا يَفْعَلُهُ إِذَا أَسْلَمَ",
+    "uzbek_title": "Kofirlaming nazri va islom qabul qilgach nima qilishi"
+  },
+  {
+    "id": "muslim-book-26-chapter-5",
+    "book_id": 26,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ مَنْ نَذَرَ أَنْ يَصُومَ يَوْمًا فَصَادَفَ يَوْمَ الْعِيدِ",
+    "uzbek_title": "Ro'za tutishni nazr qilib, hayit kuniga to'g'ri kelgan kishi"
+  },
+  {
+    "id": "muslim-book-26-chapter-6",
+    "book_id": 26,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ النَّذْرِ فِيمَا لَا يَمْلِكُ",
+    "uzbek_title": "Egasi bo'lmagan narsada nazr qilish"
+  },
+  {
+    "id": "muslim-book-27-chapter-1",
+    "book_id": 27,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الْحَلِفِ بِغَيْرِ اللَّهِ",
+    "uzbek_title": "Allohdan boshqasiga qasam ichish man etilishi"
+  },
+  {
+    "id": "muslim-book-27-chapter-2",
+    "book_id": 27,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ نَدْبِ مَنْ حَلَفَ يَمِينًا فَرَأَى غَيْرَهَا خَيْرًا أَنْ يَأْتِيَ الَّذِي هُوَ خَيْرٌ",
+    "uzbek_title": "Qasamidan yaxshisini ko'rgan kishining yaxshisini qilib kafforat to'lashi"
+  },
+  {
+    "id": "muslim-book-27-chapter-3",
+    "book_id": 27,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ كَفَّارَةِ الْيَمِينِ",
+    "uzbek_title": "Qasam kafforati"
+  },
+  {
+    "id": "muslim-book-27-chapter-4",
+    "book_id": 27,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ يَمِينُ اللَّغْوِ",
+    "uzbek_title": "Lagv qasam (beixtiyor aytilgan qasam)"
+  },
+  {
+    "id": "muslim-book-27-chapter-5",
+    "book_id": 27,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الْحَلِفِ بِالْآبَاءِ",
+    "uzbek_title": "Ota-bobolar nomi bilan qasam ichish man etilishi"
+  },
+  {
+    "id": "muslim-book-27-chapter-6",
+    "book_id": 27,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ غَمُوسِ الْيَمِينِ وَتَحْرِيمِهَا",
+    "uzbek_title": "G'amus qasam (yolg'on qasam) va uning haromligi"
+  },
+  {
+    "id": "muslim-book-27-chapter-7",
+    "book_id": 27,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الِاسْتِثْنَاءِ فِي الْيَمِينِ",
+    "uzbek_title": "Qasamda insholloh deyish (istisnо)"
+  },
+  {
+    "id": "muslim-book-27-chapter-8",
+    "book_id": 27,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ صِحَّةِ يَمِينِ الْمُكْرَهِ",
+    "uzbek_title": "Majburlangan kishining qasami sahih ekanligi"
+  },
+  {
+    "id": "muslim-book-27-chapter-9",
+    "book_id": 27,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ الْيَمِينِ فِيمَا لَا يَمْلِكُ وَفِي الْمَعْصِيَةِ",
+    "uzbek_title": "Ega bo'lmagan narsada va isyonli ishda qasam"
+  },
+  {
+    "id": "muslim-book-27-chapter-10",
+    "book_id": 27,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ تَحْرِيمِ الْحَلِفِ بِالطَّلَاقِ لِمَنْ أَرَادَ الْيَمِينَ",
+    "uzbek_title": "Qasam o'rnida taloq bilan qasam ichish man etilishi"
+  },
+  {
+    "id": "muslim-book-28-chapter-1",
+    "book_id": 28,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ الْقَسَامَةِ",
+    "uzbek_title": "Qasama (qotilni aniqlash uchun qasam) haqida"
+  },
+  {
+    "id": "muslim-book-28-chapter-2",
+    "book_id": 28,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ مَا يُبَاحُ بِهِ دَمُ الْمُسْلِمِ",
+    "uzbek_title": "Musulmonning qoni halol bo'ladigan hollar"
+  },
+  {
+    "id": "muslim-book-28-chapter-3",
+    "book_id": 28,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ تَغْلِيظِ تَحْرِيمِ الدِّمَاءِ وَالْأَعْرَاضِ وَالْأَمْوَالِ",
+    "uzbek_title": "Qonlar, sha'n va mollarni qo'riqlash og'irligi"
+  },
+  {
+    "id": "muslim-book-28-chapter-4",
+    "book_id": 28,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ الْقِصَاصِ فِي الْجُرُوحِ وَمَا دُونَ النَّفْسِ",
+    "uzbek_title": "Yaralar va o'limdan kam narsalarda qisos"
+  },
+  {
+    "id": "muslim-book-28-chapter-5",
+    "book_id": 28,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ صِحَّةِ الْعَفْوِ فِي الْقِصَاصِ وَاسْتِحْبَابِهِ",
+    "uzbek_title": "Qisosda afv etishning joizligi va mustahabligi"
+  },
+  {
+    "id": "muslim-book-28-chapter-6",
+    "book_id": 28,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ الدِّيَةُ وَأَحْكَامُهَا",
+    "uzbek_title": "Diyya va uning hukmlari"
+  },
+  {
+    "id": "muslim-book-28-chapter-7",
+    "book_id": 28,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ تَحْرِيمِ قَتْلِ الْمُعَاهَدِ",
+    "uzbek_title": "Shartnoma tuzilgan zimmiyi o'ldirish haromligi"
+  },
+  {
+    "id": "muslim-book-28-chapter-8",
+    "book_id": 28,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ حُكْمِ الْمُحَارِبِينَ وَالْمُرْتَدِّينَ",
+    "uzbek_title": "Qo'zg'olonchilar va murtadlarning hukmi"
+  },
+  {
+    "id": "muslim-book-28-chapter-9",
+    "book_id": 28,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ تَحْرِيمِ الْإِشَارَةِ بِالسِّلَاحِ إِلَى مُسْلِمٍ",
+    "uzbek_title": "Musulmonga qurol bilan ishora qilish haromligi"
+  },
+  {
+    "id": "muslim-book-28-chapter-10",
+    "book_id": 28,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ الصَّائِلِ عَلَى نَفْسِهِ أَوْ مَالِهِ أَوْ أَهْلِهِ",
+    "uzbek_title": "O'z joniga, molina yoki ahliga hujum qiluvchiga qarshi turishning joizligi"
+  },
+  {
+    "id": "muslim-book-29-chapter-1",
+    "book_id": 29,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ رَجْمِ الثَّيِّبِ فِي الزِّنَا",
+    "uzbek_title": "Turmush ko'rgan zino qiluvchini tosh otib o'ldirish"
+  },
+  {
+    "id": "muslim-book-29-chapter-2",
+    "book_id": 29,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ مَنِ اعْتَرَفَ عَلَى نَفْسِهِ بِالزِّنَا",
+    "uzbek_title": "Zinoni o'ziga iqror etgan kishi"
+  },
+  {
+    "id": "muslim-book-29-chapter-3",
+    "book_id": 29,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ قَطْعِ السَّارِقِ وَنِصَابِ السَّرِقَةِ",
+    "uzbek_title": "O'g'irlik uchun qo'l kesish va uning nisоbi"
+  },
+  {
+    "id": "muslim-book-29-chapter-4",
+    "book_id": 29,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ قَطْعِ يَدِ السَّارِقِ الشَّرِيفِ وَغَيْرِهِ",
+    "uzbek_title": "Sharafli va oddiy o'g'rining qo'lini kesish"
+  },
+  {
+    "id": "muslim-book-29-chapter-5",
+    "book_id": 29,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ تَحْرِيمِ الشَّفَاعَةِ فِي الْحُدُودِ",
+    "uzbek_title": "Hadd jazolarida vositachilik qilish haromligi"
+  },
+  {
+    "id": "muslim-book-29-chapter-6",
+    "book_id": 29,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ حَدِّ الْخَمْرِ",
+    "uzbek_title": "Sharob ichish haddi"
+  },
+  {
+    "id": "muslim-book-29-chapter-7",
+    "book_id": 29,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ حَدِّ الْقَذْفِ",
+    "uzbek_title": "Tuhmat (qazf) haddi"
+  },
+  {
+    "id": "muslim-book-29-chapter-8",
+    "book_id": 29,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ إِقَامَةِ الْحُدُودِ عَلَى الْإِمَاءِ",
+    "uzbek_title": "Cho'rilarga hadd jazosini ijro etish"
+  },
+  {
+    "id": "muslim-book-29-chapter-9",
+    "book_id": 29,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ دَرْءِ الْحُدُودِ بِالشُّبُهَاتِ",
+    "uzbek_title": "Shubha bilan hadd jazolarini to'xtatish"
+  },
+  {
+    "id": "muslim-book-29-chapter-10",
+    "book_id": 29,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ تَوْبَةِ السَّارِقِ وَغَيْرِهِ بَعْدَ إِقَامَةِ الْحَدِّ",
+    "uzbek_title": "Hadd ijrosidan so'ng o'g'ri va boshqalarning tavbasi"
+  },
+  {
+    "id": "muslim-book-29-chapter-11",
+    "book_id": 29,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ تَحْرِيمِ الزِّنَا وَعُقُوبَتُهُ",
+    "uzbek_title": "Zinoning haromligi va uning jazosi"
+  },
+  {
+    "id": "muslim-book-29-chapter-12",
+    "book_id": 29,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ انْتِهَاكِ حُرُمَاتِ اللَّهِ",
+    "uzbek_title": "Allohning hurmatli chegaralarini buzishdan man etilishi"
   }
 ]

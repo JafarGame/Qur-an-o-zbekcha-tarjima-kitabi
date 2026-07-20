@@ -11,164 +11,178 @@
 <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css" />
 <script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>
+
 <style>
-/* ── Mobile bottom ayah navigation bar ──────────────────────────── */
+/* ════════════════════════════════════════════════════════════
+   FIXED BOTTOM AYAH NAVIGATION BAR
+   Always visible on mobile (≤ 639 px), hidden on desktop.
+   Self-contained: own JS handles navigation independently.
+   ════════════════════════════════════════════════════════════ */
 
-/* Colour tokens — dark */
-html.dark {
-  --bn-bg:          rgba(4, 18, 9, 0.82);
-  --bn-border:      rgba(184,134,11, 0.32);
-  --bn-text:        #e0f0e0;
-  --bn-indicator:   #c9a227;
-  --bn-btn-bg:      rgba(8, 30, 15, 0.70);
-  --bn-btn-border:  rgba(184,134,11, 0.35);
-  --bn-btn-color:   rgba(201,220,195, 0.90);
-  --bn-btn-hover-bg:      rgba(30,255,100, 0.08);
-  --bn-btn-hover-border:  rgba(80,255,140, 0.55);
-  --bn-btn-hover-color:   #8cffa0;
-  --bn-btn-active-bg:     rgba(30,255,100, 0.14);
-  --bn-ripple:      rgba(80,255,140, 0.35);
-  --bn-shadow:      0 -1px 24px rgba(0,0,0, 0.55), 0 -1px 0 rgba(184,134,11, 0.18);
+/* ── Hide on desktop ── */
+@media (min-width: 640px) {
+  #ayah-bottom-nav { display: none !important; }
 }
 
-/* Colour tokens — light */
-html:not(.dark) {
-  --bn-bg:          rgba(245,240,228, 0.88);
-  --bn-border:      rgba(184,134,11, 0.28);
-  --bn-text:        #1a2a1a;
-  --bn-indicator:   #8a6800;
-  --bn-btn-bg:      rgba(255,255,255, 0.70);
-  --bn-btn-border:  rgba(184,134,11, 0.30);
-  --bn-btn-color:   rgba(30,60,30, 0.85);
-  --bn-btn-hover-bg:      rgba(0,120,50, 0.08);
-  --bn-btn-hover-border:  rgba(0,140,60, 0.45);
-  --bn-btn-hover-color:   #0a6628;
-  --bn-btn-active-bg:     rgba(0,120,50, 0.13);
-  --bn-ripple:      rgba(0,140,60, 0.30);
-  --bn-shadow:      0 -1px 20px rgba(0,0,0, 0.10), 0 -1px 0 rgba(184,134,11, 0.18);
-}
-
-/* The bar itself — hidden on desktop */
-.bn-bar {
-  display: none;
-}
-
+/* ── Extra body padding so last ayah isn't hidden behind the bar ── */
 @media (max-width: 639px) {
+  body { padding-bottom: 80px; }
+}
 
-  /* Push content up so last ayah isn't hidden behind the bar */
-  body { padding-bottom: 76px; }
+/* ── The bar ── */
+#ayah-bottom-nav {
+  /* Layout */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 10px 12px;
+  padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px));
 
-  .bn-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
+  /* Glass — dark green */
+  background: rgba(3, 14, 8, 0.85);
+  backdrop-filter: blur(20px) saturate(1.6);
+  -webkit-backdrop-filter: blur(20px) saturate(1.6);
 
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 200;
+  /* Gold border top */
+  border-top: 1.5px solid rgba(201, 162, 39, 0.55);
 
-    padding: 10px 14px 12px;
-    /* safe-area for notched phones */
-    padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+  /* Shadow */
+  box-shadow:
+    0 -4px 32px rgba(0, 0, 0, 0.60),
+    0 -1px 0   rgba(201, 162, 39, 0.20),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
 
-    background: var(--bn-bg);
-    backdrop-filter: blur(18px) saturate(1.4);
-    -webkit-backdrop-filter: blur(18px) saturate(1.4);
-    border-top: 1px solid var(--bn-border);
-    box-shadow: var(--bn-shadow);
-  }
+/* Light mode overrides */
+html:not(.dark) #ayah-bottom-nav {
+  background: rgba(240, 235, 220, 0.90);
+  border-top: 1.5px solid rgba(184, 134, 11, 0.40);
+  box-shadow:
+    0 -4px 24px rgba(0, 0, 0, 0.12),
+    0 -1px 0   rgba(184, 134, 11, 0.20);
+}
 
-  /* Navigation buttons */
-  .bn-btn {
-    position: relative;
-    overflow: hidden;
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
+/* ── Nav buttons ── */
+#ayah-bottom-nav .abn-btn {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 
-    padding: 8px 14px;
-    border-radius: 10px;
-    border: 1px solid var(--bn-btn-border);
-    background: var(--bn-btn-bg);
-    color: var(--bn-btn-color);
+  padding: 9px 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(201, 162, 39, 0.45);
+  background: rgba(8, 30, 15, 0.70);
+  color: rgba(220, 240, 215, 0.92);
 
-    font-family: inherit;
-    font-size: 0.78rem;
-    font-weight: 600;
-    white-space: nowrap;
-    cursor: pointer;
+  font-family: inherit;
+  font-size: 0.80rem;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 
-    transition:
-      background 0.18s ease,
-      border-color 0.18s ease,
-      color 0.18s ease,
-      transform 0.12s ease,
-      box-shadow 0.18s ease;
-  }
+  transition:
+    background     0.18s ease,
+    border-color   0.18s ease,
+    color          0.18s ease,
+    transform      0.12s ease,
+    box-shadow     0.18s ease;
+}
 
-  .bn-btn svg {
-    width: 14px; height: 14px;
-    stroke: currentColor;
-    flex-shrink: 0;
-    transition: transform 0.15s ease;
-  }
+html:not(.dark) #ayah-bottom-nav .abn-btn {
+  background: rgba(255, 255, 255, 0.72);
+  border-color: rgba(184, 134, 11, 0.38);
+  color: rgba(20, 50, 20, 0.88);
+}
 
-  .bn-btn:hover:not(:disabled) {
-    background: var(--bn-btn-hover-bg);
-    border-color: var(--bn-btn-hover-border);
-    color: var(--bn-btn-hover-color);
-    box-shadow: 0 0 12px rgba(30,255,100,0.10);
-  }
-  html:not(.dark) .bn-btn:hover:not(:disabled) {
-    box-shadow: 0 0 12px rgba(0,140,60,0.08);
-  }
+#ayah-bottom-nav .abn-btn:hover:not(:disabled) {
+  background: rgba(30, 255, 100, 0.10);
+  border-color: rgba(80, 255, 140, 0.65);
+  color: #8cffa0;
+  box-shadow: 0 0 14px rgba(30, 255, 100, 0.18);
+}
 
-  .bn-btn:active:not(:disabled) {
-    transform: scale(0.94);
-    background: var(--bn-btn-active-bg);
-  }
+html:not(.dark) #ayah-bottom-nav .abn-btn:hover:not(:disabled) {
+  background: rgba(0, 120, 50, 0.10);
+  border-color: rgba(0, 160, 70, 0.50);
+  color: #0a5e22;
+  box-shadow: 0 0 10px rgba(0, 140, 60, 0.10);
+}
 
-  .bn-btn:disabled {
-    opacity: 0.32;
-    cursor: default;
-  }
+#ayah-bottom-nav .abn-btn:active:not(:disabled) {
+  transform: scale(0.93);
+  background: rgba(30, 255, 100, 0.16);
+}
 
-  /* Arrow icons nudge on hover */
-  .bn-btn--prev:hover:not(:disabled) svg { transform: translateX(-2px); }
-  .bn-btn--next:hover:not(:disabled) svg { transform: translateX(2px);  }
+html:not(.dark) #ayah-bottom-nav .abn-btn:active:not(:disabled) {
+  background: rgba(0, 120, 50, 0.16);
+}
 
-  /* Ripple */
-  .bn-ripple-wave {
-    position: absolute;
-    border-radius: 50%;
-    background: var(--bn-ripple);
-    transform: scale(0);
-    animation: bn-ripple 0.46s ease-out forwards;
-    pointer-events: none;
-  }
-  @keyframes bn-ripple {
-    to { transform: scale(4); opacity: 0; }
-  }
+#ayah-bottom-nav .abn-btn:disabled {
+  opacity: 0.28;
+  cursor: not-allowed;
+}
 
-  /* Ayah counter */
-  .bn-indicator {
-    font-family: inherit;
-    font-size: 0.82rem;
-    font-weight: 700;
-    color: var(--bn-indicator);
-    letter-spacing: 0.04em;
-    min-width: 52px;
-    text-align: center;
-    white-space: nowrap;
-    flex: 1;
-  }
+/* SVG arrow icons */
+#ayah-bottom-nav .abn-btn svg {
+  width: 15px;
+  height: 15px;
+  stroke: currentColor;
+  flex-shrink: 0;
+  transition: transform 0.15s ease;
+}
+#ayah-bottom-nav .abn-btn--prev:hover:not(:disabled) svg { transform: translateX(-2px); }
+#ayah-bottom-nav .abn-btn--next:hover:not(:disabled) svg { transform: translateX( 2px); }
+
+/* ── Ayah counter pill ── */
+#ayah-bottom-nav .abn-counter {
+  flex: 1;
+  text-align: center;
+  font-family: inherit;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #c9a227;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  pointer-events: none;
+  text-shadow: 0 0 12px rgba(201, 162, 39, 0.35);
+}
+
+html:not(.dark) #ayah-bottom-nav .abn-counter {
+  color: #8a6800;
+  text-shadow: none;
+}
+
+/* ── Ripple animation ── */
+.abn-ripple {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(80, 255, 140, 0.40);
+  transform: scale(0);
+  animation: abn-ripple-anim 0.50s ease-out forwards;
+  pointer-events: none;
+}
+
+html:not(.dark) .abn-ripple {
+  background: rgba(0, 160, 70, 0.30);
+}
+
+@keyframes abn-ripple-anim {
+  to { transform: scale(5); opacity: 0; }
 }
 </style>
 </head>
 <body>
+
   <header class="site-header">
     <a class="back-link" href="/">← Suralar</a>
     <h1 id="headerTitle">Yuklanmoqda...</h1>
@@ -176,7 +190,7 @@ html:not(.dark) {
 
   <main class="container">
 
-    <!-- Reading controls bar -->
+    <!-- ── Existing top reading controls (unchanged) ── -->
     <div class="reading-controls">
 
       <div class="rc-group rc-nav-group">
@@ -203,91 +217,137 @@ html:not(.dark) {
     </div>
   </main>
 
-  <script src="/js/surah.js"></script>
+  <!-- ════════════════════════════════════════════════════════
+       FIXED BOTTOM NAVIGATION BAR
+       Independent navigation — does not relay to top bar.
+       ════════════════════════════════════════════════════════ -->
+  <nav id="ayah-bottom-nav" role="navigation" aria-label="Oyat navigatsiyasi">
 
-  <!-- ── Fixed mobile bottom navigation bar ──────────────────────── -->
-  <nav class="bn-bar" aria-label="Oyat navigatsiyasi">
-
-    <button class="bn-btn bn-btn--prev" id="prevAyahBot" disabled aria-label="Oldingi oyat">
-      <svg viewBox="0 0 16 16" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <polyline points="10 4 6 8 10 12"/>
+    <button class="abn-btn abn-btn--prev" id="abn-prev" disabled aria-label="Oldingi oyat">
+      <svg viewBox="0 0 16 16" fill="none" stroke-width="2.2"
+           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="10 3 6 8 10 13"/>
       </svg>
-      Oldingi
+      ← Oldingi oyat
     </button>
 
-    <span class="bn-indicator" id="ayahIndicatorBot" aria-live="polite">—</span>
+    <span class="abn-counter" id="abn-counter" aria-live="polite">— / —</span>
 
-    <button class="bn-btn bn-btn--next" id="nextAyahBot" disabled aria-label="Keyingi oyat">
-      Keyingi
-      <svg viewBox="0 0 16 16" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <polyline points="6 4 10 8 6 12"/>
+    <button class="abn-btn abn-btn--next" id="abn-next" disabled aria-label="Keyingi oyat">
+      Keyingi oyat →
+      <svg viewBox="0 0 16 16" fill="none" stroke-width="2.2"
+           stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <polyline points="6 3 10 8 6 13"/>
       </svg>
     </button>
 
   </nav>
 
+  <!-- ── Quran reading logic (unchanged) ── -->
+  <script src="/js/surah.js"></script>
+
+  <!-- ── Bottom bar: own navigation, ripple, counter sync ── -->
   <script>
-  /* ── Bottom-bar sync (mirrors surah.js prevAyah/nextAyah logic) ── */
   (function () {
-    var prevTop  = document.getElementById("prevAyah");
-    var nextTop  = document.getElementById("nextAyah");
-    var indTop   = document.getElementById("ayahIndicator");
-    var prevBot  = document.getElementById("prevAyahBot");
-    var nextBot  = document.getElementById("nextAyahBot");
-    var indBot   = document.getElementById("ayahIndicatorBot");
+    'use strict';
 
-    /* ── Ripple helper ──────────────────────────────────────── */
-    function addRipple(btn, e) {
-      var r   = btn.getBoundingClientRect();
-      var d   = Math.max(r.width, r.height);
-      var x   = (e.clientX - r.left - d / 2) + "px";
-      var y   = (e.clientY - r.top  - d / 2) + "px";
-      var wave = document.createElement("span");
-      wave.className = "bn-ripple-wave";
-      wave.style.cssText = "width:" + d + "px;height:" + d + "px;left:" + x + ";top:" + y;
-      btn.appendChild(wave);
-      wave.addEventListener("animationend", function () { wave.remove(); });
+    var prevBtn  = document.getElementById('abn-prev');
+    var nextBtn  = document.getElementById('abn-next');
+    var counter  = document.getElementById('abn-counter');
+
+    var ayahEls  = [];
+    var curIdx   = 0;
+    var scrollTm = null;
+
+    /* ── Ripple ─────────────────────────────────────── */
+    function ripple(btn, evt) {
+      var r    = btn.getBoundingClientRect();
+      var d    = Math.max(r.width, r.height);
+      var x    = (evt.clientX - r.left  - d / 2) + 'px';
+      var y    = (evt.clientY - r.top   - d / 2) + 'px';
+      var span = document.createElement('span');
+      span.className = 'abn-ripple';
+      span.style.cssText = 'width:' + d + 'px;height:' + d + 'px;left:' + x + ';top:' + y;
+      btn.appendChild(span);
+      span.addEventListener('animationend', function () { span.remove(); });
     }
 
-    /* ── Relay clicks: fire the matching top-bar button ────── */
-    prevBot.addEventListener("click", function (e) {
-      addRipple(prevBot, e);
-      if (!prevTop.disabled) prevTop.click();
-    });
-    nextBot.addEventListener("click", function (e) {
-      addRipple(nextBot, e);
-      if (!nextTop.disabled) nextTop.click();
-    });
-
-    /* ── Keep indicator & disabled state in sync ─────────── */
-    function syncFromTop() {
-      indBot.textContent  = indTop.textContent;
-      prevBot.disabled    = prevTop.disabled;
-      nextBot.disabled    = nextTop.disabled;
+    /* ── UI state ───────────────────────────────────── */
+    function refresh() {
+      prevBtn.disabled = curIdx <= 0;
+      nextBtn.disabled = curIdx >= ayahEls.length - 1;
+      counter.textContent = ayahEls.length
+        ? (curIdx + 1) + ' / ' + ayahEls.length
+        : '— / —';
     }
 
-    /* Poll until surah.js populates the indicator (it does so
-       after the fetch resolves), then switch to MutationObserver. */
-    var poll = setInterval(function () {
-      if (indTop.textContent && indTop.textContent !== "—") {
-        syncFromTop();
-        clearInterval(poll);
+    /* ── Scroll to ayah ─────────────────────────────── */
+    function goTo(idx) {
+      if (idx < 0 || idx >= ayahEls.length) return;
+      curIdx = idx;
+      ayahEls[idx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+      refresh();
+    }
 
-        var mo = new MutationObserver(syncFromTop);
-        mo.observe(indTop,  { childList: true, characterData: true, subtree: true });
-        mo.observe(prevTop, { attributes: true, attributeFilter: ["disabled"] });
-        mo.observe(nextTop, { attributes: true, attributeFilter: ["disabled"] });
-      }
-    }, 80);
+    /* ── Detect nearest ayah while scrolling ────────── */
+    function nearestIdx() {
+      var mid  = window.innerHeight / 2;
+      var best = 0, bestD = Infinity;
+      ayahEls.forEach(function (el, i) {
+        var r = el.getBoundingClientRect();
+        var d = Math.abs((r.top + r.bottom) / 2 - mid);
+        if (d < bestD) { bestD = d; best = i; }
+      });
+      return best;
+    }
 
-    /* Also sync on every scroll (debounced) in case surah.js
-       updates disabled state without touching indTop's text. */
-    var st;
-    window.addEventListener("scroll", function () {
-      clearTimeout(st);
-      st = setTimeout(syncFromTop, 160);
+    /* ── Button clicks ──────────────────────────────── */
+    prevBtn.addEventListener('click', function (e) {
+      ripple(prevBtn, e);
+      curIdx = nearestIdx();
+      goTo(curIdx - 1);
+    });
+
+    nextBtn.addEventListener('click', function (e) {
+      ripple(nextBtn, e);
+      curIdx = nearestIdx();
+      goTo(curIdx + 1);
+    });
+
+    /* ── Track scroll position ──────────────────────── */
+    window.addEventListener('scroll', function () {
+      clearTimeout(scrollTm);
+      scrollTm = setTimeout(function () {
+        if (!ayahEls.length) return;
+        curIdx = nearestIdx();
+        refresh();
+      }, 120);
     }, { passive: true });
+
+    /* ── Wait for surah.js to inject ayah blocks ────── */
+    var contentEl = document.getElementById('surahContent');
+    var observer  = new MutationObserver(function () {
+      var blocks = contentEl.querySelectorAll('.ayah-block');
+      if (blocks.length) {
+        ayahEls = Array.from(blocks);
+        curIdx  = 0;
+        /* honour ?ayah= param */
+        var params = new URLSearchParams(window.location.search);
+        var target = Number(params.get('ayah'));
+        if (target) {
+          var tIdx = ayahEls.findIndex(function (el) {
+            return el.id === 'ayah-' + target;
+          });
+          if (tIdx !== -1) curIdx = tIdx;
+        }
+        refresh();
+        observer.disconnect();
+      }
+    });
+    observer.observe(contentEl, { childList: true, subtree: true });
+
   })();
   </script>
+
 </body>
 </html>

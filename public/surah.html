@@ -100,13 +100,14 @@ html:not(.dark) #ayah-bottom-nav {
 
 html:not(.dark) #ayah-bottom-nav .abn-btn {
   background: linear-gradient(135deg,
-    rgba(255, 255, 255, 0.85) 0%,
-    rgba(244, 240, 228, 0.80) 100%);
-  border-color: rgba(184, 134, 11, 0.42);
-  color: rgba(18, 48, 22, 0.90);
+    rgba(255, 252, 240, 0.96) 0%,
+    rgba(246, 240, 218, 0.92) 100%);
+  border-color: rgba(184, 134, 11, 0.68);
+  color: rgba(10, 36, 14, 0.92);
   box-shadow:
-    0 2px 8px rgba(0, 0, 0, 0.10),
-    inset 0 1px 0 rgba(255, 255, 255, 0.90);
+    0 2px 10px rgba(140, 100, 0, 0.16),
+    0 0   0 1px rgba(184, 134, 11, 0.12) inset,
+    inset 0 1px 0 rgba(255, 255, 255, 1);
 }
 
 #ayah-bottom-nav .abn-btn:hover:not(:disabled) {
@@ -219,24 +220,26 @@ html:not(.dark) .abn-ripple {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 8px 16px;
+  padding: 9px 18px;
   border-radius: 10px;
-  border: 1px solid rgba(201, 162, 39, 0.38);
+  /* Dark mode base — visible deep-green glass */
+  border: 1.5px solid rgba(201, 162, 39, 0.55);
   background: linear-gradient(135deg,
-    rgba(10, 38, 18, 0.72) 0%,
-    rgba(5,  22, 10, 0.60) 100%);
-  color: rgba(210, 238, 210, 0.88);
+    rgba(12, 46, 22, 0.88) 0%,
+    rgba(6,  28, 12, 0.78) 100%);
+  color: rgba(220, 245, 220, 0.92);
   font-family: inherit;
   font-size: 0.78rem;
   font-weight: 600;
   white-space: nowrap;
   text-decoration: none;
   cursor: pointer;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   box-shadow:
-    0 2px 10px rgba(0, 0, 0, 0.28),
-    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    0 2px 12px rgba(0, 0, 0, 0.40),
+    0 0 0 1px rgba(201, 162, 39, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
   transition:
     background   0.18s ease,
     border-color 0.18s ease,
@@ -245,39 +248,43 @@ html:not(.dark) .abn-ripple {
     transform    0.11s ease;
 }
 
+/* Light mode — warm amber-tinted glass, distinctly different from page bg */
 html:not(.dark) .sn-btn {
+  border: 1.5px solid rgba(184, 134, 11, 0.72);
   background: linear-gradient(135deg,
-    rgba(255, 255, 255, 0.82) 0%,
-    rgba(244, 240, 228, 0.76) 100%);
-  border-color: rgba(184, 134, 11, 0.34);
-  color: rgba(18, 48, 22, 0.88);
+    rgba(255, 248, 220, 0.96) 0%,
+    rgba(245, 232, 180, 0.88) 100%);
+  color: rgba(10, 36, 14, 0.92);
   box-shadow:
-    0 2px 8px rgba(0, 0, 0, 0.09),
+    0 2px 12px rgba(140, 100, 0, 0.22),
+    0 0 0 1px rgba(184, 134, 11, 0.14),
     inset 0 1px 0 rgba(255, 255, 255, 0.90);
 }
 
+/* Dark mode hover */
 .sn-btn:hover:not(.disabled) {
   background: linear-gradient(135deg,
-    rgba(18, 72, 30, 0.80) 0%,
-    rgba(8,  44, 18, 0.75) 100%);
-  border-color: rgba(80, 255, 140, 0.60);
+    rgba(18, 72, 30, 0.90) 0%,
+    rgba(8,  44, 18, 0.85) 100%);
+  border-color: rgba(80, 255, 140, 0.70);
   color: #a8ffbe;
   box-shadow:
-    0 0 0 1px rgba(80, 255, 140, 0.16),
-    0 4px 16px rgba(0, 0, 0, 0.36),
-    0 0 18px rgba(30, 255, 100, 0.14),
-    inset 0 1px 0 rgba(80, 255, 140, 0.08);
+    0 0 0 1px rgba(80, 255, 140, 0.20),
+    0 4px 18px rgba(0, 0, 0, 0.45),
+    0 0 22px rgba(30, 255, 100, 0.22),
+    inset 0 1px 0 rgba(80, 255, 140, 0.10);
 }
 
+/* Light mode hover */
 html:not(.dark) .sn-btn:hover:not(.disabled) {
   background: linear-gradient(135deg,
-    rgba(0, 110, 45, 0.11) 0%,
-    rgba(0,  80, 32, 0.07) 100%);
-  border-color: rgba(0, 160, 70, 0.50);
-  color: #0a5e22;
+    rgba(245, 232, 160, 0.96) 0%,
+    rgba(235, 218, 130, 0.90) 100%);
+  border-color: rgba(140, 100, 0, 0.80);
+  color: #3a2800;
   box-shadow:
-    0 2px 10px rgba(0, 0, 0, 0.10),
-    0 0 12px rgba(0, 140, 60, 0.12);
+    0 3px 16px rgba(140, 100, 0, 0.28),
+    0 0 18px rgba(180, 140, 0, 0.20);
 }
 
 .sn-btn:active:not(.disabled) {
@@ -286,7 +293,7 @@ html:not(.dark) .sn-btn:hover:not(.disabled) {
 }
 
 .sn-btn.disabled {
-  opacity: 0.25;
+  opacity: 0.28;
   pointer-events: none;
   cursor: not-allowed;
 }

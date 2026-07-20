@@ -5598,5 +5598,460 @@
     "chapter_number": 10,
     "arabic_title": "بَابُ مَنْ أَرَادَ أَنْ يُضَحِّيَ فَلَا يَأْخُذَ مِنْ شَعَرِهِ وَظُفْرِهِ",
     "uzbek_title": "Qurbon so'ymoqchi kishi Zulhijja kirganida soch va tirnog'ini olmasligi"
+  },
+  {
+    "id": "muslim-book-36-chapter-1",
+    "book_id": 36,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ تَحْرِيمِ الْخَمْرِ وَوُجُوبِ اجْتِنَابِهَا",
+    "uzbek_title": "Sharobning haromligi va undan saqlanish vajibligi"
+  },
+  {
+    "id": "muslim-book-36-chapter-2",
+    "book_id": 36,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ كُلَّ مُسْكِرٍ خَمْرٌ وَكُلَّ خَمْرٍ حَرَامٌ",
+    "uzbek_title": "Har bir mast qiluvchi ichimlik sharob va har bir sharob harom ekanligi"
+  },
+  {
+    "id": "muslim-book-36-chapter-3",
+    "book_id": 36,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ كُلِّ مُسْكِرٍ وَمَا أَسْكَرَ كَثِيرُهُ فَقَلِيلُهُ حَرَامٌ",
+    "uzbek_title": "Ko'pi mast qilsа оzi ham harom bo'lishi"
+  },
+  {
+    "id": "muslim-book-36-chapter-4",
+    "book_id": 36,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ بَيَانِ أَنَّ الْخَمْرَ تَكُونُ مِنْ عَصِيرِ الْعِنَبِ وَمِنْ غَيْرِهِ",
+    "uzbek_title": "Sharob uzum va boshqa narsalardan ham bo'lishi bayoni"
+  },
+  {
+    "id": "muslim-book-36-chapter-5",
+    "book_id": 36,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ الْأَوْعِيَةِ الَّتِي نُهِيَ عَنِ الِانْتِبَاذِ فِيهَا",
+    "uzbek_title": "Ichimlik tayyorlash man etilgan idishlar"
+  },
+  {
+    "id": "muslim-book-36-chapter-6",
+    "book_id": 36,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ إِبَاحَةِ الْأَشْرِبَةِ الَّتِي لَا تُسْكِرُ",
+    "uzbek_title": "Mast qilmaydigan ichimliklarning halolligi"
+  },
+  {
+    "id": "muslim-book-36-chapter-7",
+    "book_id": 36,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الشُّرْبِ قَائِمًا",
+    "uzbek_title": "Tik turib ichish man etilishi"
+  },
+  {
+    "id": "muslim-book-36-chapter-8",
+    "book_id": 36,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ النَّفْخِ فِي الشَّرَابِ",
+    "uzbek_title": "Ichimlikka puflab ichish man etilishi"
+  },
+  {
+    "id": "muslim-book-36-chapter-9",
+    "book_id": 36,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ التَّنَفُّسِ فِي الْإِنَاءِ وَعَنِ الشُّرْبِ مِنْ فَمِ الْقِرْبَةِ",
+    "uzbek_title": "Idishga nafas chiqarish va meshning og'zidan ichish man etilishi"
+  },
+  {
+    "id": "muslim-book-36-chapter-10",
+    "book_id": 36,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الشُّرْبِ مِنْ ثُلْمَةِ الْإِنَاءِ",
+    "uzbek_title": "Idishning singan yoki yorilgan joyidan ichish man etilishi"
+  },
+  {
+    "id": "muslim-book-36-chapter-11",
+    "book_id": 36,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ اسْتِحْبَابِ إِيثَارِ الْجَارِ وَالضَّيْفِ",
+    "uzbek_title": "Qo'shni va mehmonga afzallik berishning mustahabligi"
+  },
+  {
+    "id": "muslim-book-36-chapter-12",
+    "book_id": 36,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ إِكْرَامِ الضَّيْفِ وَفَضْلِهِ",
+    "uzbek_title": "Mehmonga izzat-ikrom ko'rsatish va uning fazilati"
+  },
+  {
+    "id": "muslim-book-36-chapter-13",
+    "book_id": 36,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ تَحْرِيمِ الْخَمْرِ عَلَى مَنْ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ",
+    "uzbek_title": "Alloh va oxirat kuniga iymon keltirgan kishiga sharob haromligi"
+  },
+  {
+    "id": "muslim-book-37-chapter-1",
+    "book_id": 37,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ تَحْرِيمِ التَّخَتُّمِ بِالذَّهَبِ عَلَى الرِّجَالِ",
+    "uzbek_title": "Erkaklarga oltin uzuk taqish haromligi"
+  },
+  {
+    "id": "muslim-book-37-chapter-2",
+    "book_id": 37,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ إِبَاحَةِ خَاتَمِ الْفِضَّةِ لِلرِّجَالِ",
+    "uzbek_title": "Erkaklarga kumush uzuk taqish halolligi"
+  },
+  {
+    "id": "muslim-book-37-chapter-3",
+    "book_id": 37,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ تَحْرِيمِ لُبْسِ الْحَرِيرِ وَاسْتِعْمَالِهِ عَلَى الرِّجَالِ",
+    "uzbek_title": "Erkaklarga ipak kiyim kiyish va ishlatish haromligi"
+  },
+  {
+    "id": "muslim-book-37-chapter-4",
+    "book_id": 37,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ إِبَاحَةِ لُبْسِ الْحَرِيرِ لِلنِّسَاءِ",
+    "uzbek_title": "Ayollarga ipak kiyim kiyish halolligi"
+  },
+  {
+    "id": "muslim-book-37-chapter-5",
+    "book_id": 37,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ إِبَاحَةِ لُبْسِ الْحَرِيرِ لِلضَّرُورَةِ",
+    "uzbek_title": "Zarurat holida ipak kiyim kiyish joizligi"
+  },
+  {
+    "id": "muslim-book-37-chapter-6",
+    "book_id": 37,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ إِسْبَالِ الْإِزَارِ وَالْخُيَلَاءِ",
+    "uzbek_title": "Kiyimni yerga sudrab kiyish va kibr bilan yurish man etilishi"
+  },
+  {
+    "id": "muslim-book-37-chapter-7",
+    "book_id": 37,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ تَحْرِيمِ فِعْلِ الْوَاصِلَةِ وَالْمُسْتَوْصِلَةِ",
+    "uzbek_title": "Sochga yelpig'ich ulash va undan foydalanish haromligi"
+  },
+  {
+    "id": "muslim-book-37-chapter-8",
+    "book_id": 37,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ تَحْرِيمِ الْوَشْمِ وَالْوَشْرِ وَالنَّمْصِ وَالتَّفْلِيجِ",
+    "uzbek_title": "Teri bo'yash (vashm), tish yonish, qosh yulib olish va tish oralash haromligi"
+  },
+  {
+    "id": "muslim-book-37-chapter-9",
+    "book_id": 37,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ تَحْرِيمِ فِعْلِ الْمُتَشَبِّهِينَ بِالنِّسَاءِ مِنَ الرِّجَالِ",
+    "uzbek_title": "Ayollarga o'xshashlik qilgan erkaklar va aksincha haromligi"
+  },
+  {
+    "id": "muslim-book-37-chapter-10",
+    "book_id": 37,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ لُبْسِ الْمُعَصْفَرِ لِلرِّجَالِ",
+    "uzbek_title": "Erkaklarga zarg'aldoq (sariq-qizil) rangdagi kiyim kiyish man etilishi"
+  },
+  {
+    "id": "muslim-book-37-chapter-11",
+    "book_id": 37,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ اسْتِحْبَابِ لُبْسِ الثِّيَابِ الْبِيضِ",
+    "uzbek_title": "Oq kiyim kiyish mustahabligi"
+  },
+  {
+    "id": "muslim-book-37-chapter-12",
+    "book_id": 37,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ جَوَازِ لُبْسِ النِّعَالِ وَالسَّرَاوِيلَاتِ وَالثِّيَابِ الْمَصْبُوغَةِ",
+    "uzbek_title": "Sandal, shalvor va bo'yalgan kiyimlar kiyish joizligi"
+  },
+  {
+    "id": "muslim-book-37-chapter-13",
+    "book_id": 37,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ جَوَازِ لُبْسِ الْخَاتَمِ وَنَقْشِهِ",
+    "uzbek_title": "Uzuk taqish va unga naqsh o'yish joizligi"
+  },
+  {
+    "id": "muslim-book-37-chapter-14",
+    "book_id": 37,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ اسْتِحْبَابِ تَقْصِيرِ الشَّارِبِ وَإِعْفَاءِ اللِّحْيَةِ",
+    "uzbek_title": "Mo'ylovni qisqartirish va soqolni o'sishiga qo'yish mustahabligi"
+  },
+  {
+    "id": "muslim-book-37-chapter-15",
+    "book_id": 37,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ خِصَالِ الْفِطْرَةِ",
+    "uzbek_title": "Fitrat xislatlari (sunnatlari)"
+  },
+  {
+    "id": "muslim-book-38-chapter-1",
+    "book_id": 38,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ التَّكَنِّي بِأَبِي الْقَاسِمِ",
+    "uzbek_title": "Abul-Qosim kunyasini olish man etilishi"
+  },
+  {
+    "id": "muslim-book-38-chapter-2",
+    "book_id": 38,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ التَّسَمِّي بِالْأَسْمَاءِ الْقَبِيحَةِ",
+    "uzbek_title": "Yomon ismlar qo'yishdan man etilishi"
+  },
+  {
+    "id": "muslim-book-38-chapter-3",
+    "book_id": 38,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ اسْتِحْبَابِ تَغْيِيرِ الِاسْمِ الْقَبِيحِ إِلَى الْحَسَنِ",
+    "uzbek_title": "Yomon ismni yaxshi ism bilan o'zgartirish mustahabligi"
+  },
+  {
+    "id": "muslim-book-38-chapter-4",
+    "book_id": 38,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ التَّسَمِّي بِمَلِكِ الْأَمْلَاكِ وَنَحْوِهِ",
+    "uzbek_title": "Mulklar sahibi va shunga o'xshash ismlar man etilishi"
+  },
+  {
+    "id": "muslim-book-38-chapter-5",
+    "book_id": 38,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ اسْتِحْبَابِ إِعْلَامِ الرَّجُلِ أَهْلَهُ بِقُدُومِهِ مِنَ السَّفَرِ",
+    "uzbek_title": "Safardan qaytgan kishi oilasini xabardor qilish mustahabligi"
+  },
+  {
+    "id": "muslim-book-38-chapter-6",
+    "book_id": 38,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الدُّخُولِ عَلَى النِّسَاءِ الْأَجَانِبِ",
+    "uzbek_title": "Begona ayollar oldiga ruxsatsiz kirish man etilishi"
+  },
+  {
+    "id": "muslim-book-38-chapter-7",
+    "book_id": 38,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ الِاسْتِئْذَانِ وَالْجُلُوسِ فِي الطُّرُقَاتِ",
+    "uzbek_title": "Ruxsat so'rash va yo'llar ustida o'tirish odobi"
+  },
+  {
+    "id": "muslim-book-38-chapter-8",
+    "book_id": 38,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الِاطِّلَاعِ فِي بَيْتِ غَيْرِهِ بِغَيْرِ إِذْنٍ",
+    "uzbek_title": "Ruxsatsiz boshqaning uyiga qarab turish man etilishi"
+  },
+  {
+    "id": "muslim-book-38-chapter-9",
+    "book_id": 38,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ التَّخَلِّي فِي الطُّرُقَاتِ وَظِلَالِهَا",
+    "uzbek_title": "Yo'llar va soyali joylarda qazoi hojat qilish man etilishi"
+  },
+  {
+    "id": "muslim-book-38-chapter-10",
+    "book_id": 38,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الْبَوْلِ فِي الْمَاءِ الرَّاكِدِ",
+    "uzbek_title": "Turgan suvga siydik qilish man etilishi"
+  },
+  {
+    "id": "muslim-book-38-chapter-11",
+    "book_id": 38,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ تَحْرِيمِ إِيذَاءِ الْجَارِ",
+    "uzbek_title": "Qo'shniga ozor berish haromligi"
+  },
+  {
+    "id": "muslim-book-38-chapter-12",
+    "book_id": 38,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ الْوَصِيَّةِ بِالْجَارِ وَبَيَانِ حَقِّهِ",
+    "uzbek_title": "Qo'shniga vasiyat qilish va uning huquqi bayoni"
+  },
+  {
+    "id": "muslim-book-39-chapter-1",
+    "book_id": 39,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ مَشْرُوعِيَّةِ السَّلَامِ وَاسْتِحْبَابِ إِفْشَائِهِ",
+    "uzbek_title": "Salomning mashruiyligi va uni tarqatish mustahabligi"
+  },
+  {
+    "id": "muslim-book-39-chapter-2",
+    "book_id": 39,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الِابْتِدَاءِ بِالسَّلَامِ لِأَهْلِ الْكِتَابِ",
+    "uzbek_title": "Ahli kitobga birinchi bo'lib salom berish man etilishi"
+  },
+  {
+    "id": "muslim-book-39-chapter-3",
+    "book_id": 39,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ الِاسْتِئْذَانِ ثَلَاثًا وَرَدِّ السَّلَامِ",
+    "uzbek_title": "Uch marta ruxsat so'rash va salomga javob berish"
+  },
+  {
+    "id": "muslim-book-39-chapter-4",
+    "book_id": 39,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ السَّلَامِ عَلَى الصِّبْيَانِ",
+    "uzbek_title": "Bolalarga salom berish"
+  },
+  {
+    "id": "muslim-book-39-chapter-5",
+    "book_id": 39,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ إِقَامَةِ الرَّجُلِ مِنْ مَجْلِسِهِ وَالْجُلُوسِ فِيهِ",
+    "uzbek_title": "Birovni o'rnidan turgizib o'tirish man etilishi"
+  },
+  {
+    "id": "muslim-book-39-chapter-6",
+    "book_id": 39,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ تَشْمِيتِ الْعَاطِسِ وَكَرَاهَةِ التَّثَاؤُبِ",
+    "uzbek_title": "Aksirgan kishiga tahmiyd aytish va eshnashning makruhligi"
+  },
+  {
+    "id": "muslim-book-39-chapter-7",
+    "book_id": 39,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ جَوَازِ قَتْلِ الْحَيَّاتِ وَغَيْرِهَا مِنَ الْمُؤْذِيَاتِ",
+    "uzbek_title": "Ilon va boshqa zararli hayvonlarni o'ldirish joizligi"
+  },
+  {
+    "id": "muslim-book-39-chapter-8",
+    "book_id": 39,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ اسْتِحْبَابِ الرُّقْيَةِ مِنَ الْعَيْنِ وَالنَّمْلَةِ وَالْحُمَةِ",
+    "uzbek_title": "Ko'z tegish, biten va zahardan ruqya mustahabligi"
+  },
+  {
+    "id": "muslim-book-39-chapter-9",
+    "book_id": 39,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ الطِّبِّ وَالْمَرَضِ وَالرُّقَى",
+    "uzbek_title": "Tibbiyot, kasallik va ruqya"
+  },
+  {
+    "id": "muslim-book-39-chapter-10",
+    "book_id": 39,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ السِّحْرِ وَتَحْرِيمِهِ",
+    "uzbek_title": "Sehr va uning haromligi"
+  },
+  {
+    "id": "muslim-book-39-chapter-11",
+    "book_id": 39,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ الطِّيَرَةِ وَالْفَأْلِ وَمَا يَكُونُ مِنْهُمَا",
+    "uzbek_title": "Qush uchirish bilan fol ochish va shubha yo'q yaxshi fol"
+  },
+  {
+    "id": "muslim-book-39-chapter-12",
+    "book_id": 39,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ تَحْرِيمِ الْكِهَانَةِ وَإِتْيَانِ الْكُهَّانِ",
+    "uzbek_title": "Falbin (kohin) ishi va unga borish haromligi"
+  },
+  {
+    "id": "muslim-book-39-chapter-13",
+    "book_id": 39,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ تَحْرِيمِ قَتْلِ الْهِرَّةِ وَنَحْوِهَا",
+    "uzbek_title": "Mushuk va shunga o'xshash hayvonlarni qamab o'ldirish haromligi"
+  },
+  {
+    "id": "muslim-book-39-chapter-14",
+    "book_id": 39,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ التَّجَسُّسِ وَالتَّنَافُسِ وَالتَّدَابُرِ",
+    "uzbek_title": "Josuslik, raqobat va bir-biridan yuz o'girish man etilishi"
+  },
+  {
+    "id": "muslim-book-39-chapter-15",
+    "book_id": 39,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ تَحْرِيمِ الظَّنِّ وَالتَّجَسُّسِ وَالنَّجْشِ",
+    "uzbek_title": "Yomon gumon, josuslik va najash haromligi"
+  },
+  {
+    "id": "muslim-book-40-chapter-1",
+    "book_id": 40,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ قَوْلِ مَا شَاءَ اللَّهُ وَشَاءَ فُلَانٌ",
+    "uzbek_title": "'Alloh xohlasa va falonchi xohlasa' deyish man etilishi"
+  },
+  {
+    "id": "muslim-book-40-chapter-2",
+    "book_id": 40,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ سَبِّ الرِّيحِ",
+    "uzbek_title": "Shamolni so'kishdan man etilishi"
+  },
+  {
+    "id": "muslim-book-40-chapter-3",
+    "book_id": 40,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ سَبِّ الدَّهْرِ",
+    "uzbek_title": "Zamonni so'kishdan man etilishi"
+  },
+  {
+    "id": "muslim-book-40-chapter-4",
+    "book_id": 40,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ اللَّعْنِ",
+    "uzbek_title": "La'nat aytish man etilishi"
+  },
+  {
+    "id": "muslim-book-40-chapter-5",
+    "book_id": 40,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ لَعْنِ الْحَيَوَانَاتِ",
+    "uzbek_title": "Hayvonlarga la'nat aytish man etilishi"
+  },
+  {
+    "id": "muslim-book-40-chapter-6",
+    "book_id": 40,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ كَرَاهَةِ قَوْلِ الرَّجُلِ هَلَكَ النَّاسُ",
+    "uzbek_title": "'Odamlar halok bo'ldi' deyish makruhligi"
+  },
+  {
+    "id": "muslim-book-40-chapter-7",
+    "book_id": 40,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الْكَلَامِ بِفَاحِشٍ",
+    "uzbek_title": "Beadab va qo'pol so'z aytish man etilishi"
+  },
+  {
+    "id": "muslim-book-41-chapter-1",
+    "book_id": 41,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ إِبَاحَةِ الشِّعْرِ مَا لَمْ يَكُنْ فِي مَذَمَّةِ أَحَدٍ",
+    "uzbek_title": "Haqorat va mazammat bo'lmasa she'r aytish joizligi"
+  },
+  {
+    "id": "muslim-book-41-chapter-2",
+    "book_id": 41,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ جَوَازِ الشِّعْرِ فِي الْمَدْحِ وَالرِّثَاءِ وَالْجِهَادِ",
+    "uzbek_title": "Maqtov, marsiya va jihod she'ri joizligi"
+  },
+  {
+    "id": "muslim-book-41-chapter-3",
+    "book_id": 41,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ الشِّعْرُ الْهِجَاءُ وَالِاسْتِشْهَادُ بِهِ",
+    "uzbek_title": "Hajviy she'r va unga dalil sifatida murojaat qilish"
   }
 ]

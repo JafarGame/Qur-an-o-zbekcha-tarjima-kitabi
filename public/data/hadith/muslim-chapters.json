@@ -1309,6 +1309,398 @@
     "uzbek_title": "Emizikli o'g'il bolaning siydigini sepish va qiz bolaning siydigini yuvish haqida"
   },
   {
+    "id": "muslim-book-5-chapter-1",
+    "book_id": 5,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ وُجُوبِ الصَّلَوَاتِ الْخَمْسِ",
+    "uzbek_title": "Besh namozning farz ekanligi haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-2",
+    "book_id": 5,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ بَيَانِ أَوْقَاتِ الصَّلَوَاتِ الْخَمْسِ",
+    "uzbek_title": "Besh namozning vaqtlarini bayon qilish haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-3",
+    "book_id": 5,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ أَوْقَاتِ الصَّلَوَاتِ الْخَمْسِ وَقَدْرِهَا",
+    "uzbek_title": "Besh namozning vaqtlari va ulardagi (o'qish) miqdori"
+  },
+  {
+    "id": "muslim-book-5-chapter-4",
+    "book_id": 5,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الصَّلَاةِ بَعْدَ الصُّبْحِ وَبَعْدَ الْعَصْرِ",
+    "uzbek_title": "Bomdod va asr namozidan keyin namoz o'qishdan man etilishi"
+  },
+  {
+    "id": "muslim-book-5-chapter-5",
+    "book_id": 5,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ مَعْرِفَةِ الرَّكْعَتَيْنِ اللَّتَيْنِ كَانَ يُصَلِّيهِمَا النَّبِيُّ ﷺ بَعْدَ الْعَصْرِ",
+    "uzbek_title": "Nabiy ﷺ asr namozidan keyin o'qigan ikki rak'at haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-6",
+    "book_id": 5,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ الصَّلَاةِ قَبْلَ الْمَغْرِبِ",
+    "uzbek_title": "Shom (mag'rib) namozidan oldingi (sunnah) namoz haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-7",
+    "book_id": 5,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ بَدْءِ الْأَذَانِ",
+    "uzbek_title": "Azoning boshlanishi haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-8",
+    "book_id": 5,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ صِفَةِ الْأَذَانِ",
+    "uzbek_title": "Azon aytish tartibi (sifati) haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-9",
+    "book_id": 5,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ الْقَوْلِ مِثْلَ قَوْلِ الْمُؤَذِّنِ",
+    "uzbek_title": "Muazzin aytganidek aytish haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-10",
+    "book_id": 5,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ اسْتِحْبَابِ الْقَوْلِ مِثْلَ قَوْلِ الْمُؤَذِّنِ لِمَنْ سَمِعَهُ",
+    "uzbek_title": "Azoni eshitgan kishi muazzin aytganini takrorlashi mustahabhligi"
+  },
+  {
+    "id": "muslim-book-5-chapter-11",
+    "book_id": 5,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ الدُّعَاءِ عِنْدَ سَمَاعِ الْأَذَانِ",
+    "uzbek_title": "Azon eshitilganda o'qiladigan duo haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-12",
+    "book_id": 5,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ فَضْلِ الْأَذَانِ وَهَرَبِ الشَّيْطَانِ عِنْدَ سَمَاعِهِ",
+    "uzbek_title": "Azonning fazilati va shayton azon eshitganda qochishi haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-13",
+    "book_id": 5,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ السُّتْرَةِ فِي الصَّلَاةِ",
+    "uzbek_title": "Namozda sutra (to'siq) qo'yish haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-14",
+    "book_id": 5,
+    "chapter_number": 14,
+    "arabic_title": "بَابُ مَا يَقْطَعُ الصَّلَاةَ وَمَا لَا يَقْطَعُهَا",
+    "uzbek_title": "Namozni buzadigan va buzmaydigan narsalar haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-15",
+    "book_id": 5,
+    "chapter_number": 15,
+    "arabic_title": "بَابُ قَدْرِ مَا يَسْتُرُ الْمُصَلِّيَ",
+    "uzbek_title": "Namoz o'quvchiga sutra bo'ladigan narsa miqdori haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-16",
+    "book_id": 5,
+    "chapter_number": 16,
+    "arabic_title": "بَابُ رَدِّ الْمُصَلِّي مَنْ مَرَّ بَيْنَ يَدَيْهِ",
+    "uzbek_title": "Namoz o'quvchi oldidan o'tmoqchi bo'lgan kishini qaytarish haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-17",
+    "book_id": 5,
+    "chapter_number": 17,
+    "arabic_title": "بَابُ كَرَاهَةِ الْمُرُورِ بَيْنَ يَدَيِ الْمُصَلِّي",
+    "uzbek_title": "Namoz o'quvchi oldidan o'tish makruhligi haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-18",
+    "book_id": 5,
+    "chapter_number": 18,
+    "arabic_title": "بَابُ تَسْوِيَةِ الصُّفُوفِ وَإِقَامَتِهَا وَفَضْلِ الصَّفِّ الْأَوَّلِ",
+    "uzbek_title": "Saflarni tekislash, to'g'rilash va birinchi safning fazilati"
+  },
+  {
+    "id": "muslim-book-5-chapter-19",
+    "book_id": 5,
+    "chapter_number": 19,
+    "arabic_title": "بَابُ الْأَمْرِ بِالسُّكُونِ فِي الصَّلَاةِ",
+    "uzbek_title": "Namozda sokin turish buyurilganligi haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-20",
+    "book_id": 5,
+    "chapter_number": 20,
+    "arabic_title": "بَابُ تَحْرِيمِ الْكَلَامِ فِي الصَّلَاةِ",
+    "uzbek_title": "Namozda gapirish haramligi haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-21",
+    "book_id": 5,
+    "chapter_number": 21,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الْبُصَاقِ فِي الْمَسْجِدِ فِي الصَّلَاةِ وَغَيْرِهَا",
+    "uzbek_title": "Namozda va boshqa holda masjidga tupurishdan man etilishi"
+  },
+  {
+    "id": "muslim-book-5-chapter-22",
+    "book_id": 5,
+    "chapter_number": 22,
+    "arabic_title": "بَابُ اعْتِدَالِ أَرْكَانِ الصَّلَاةِ وَتَخْفِيفِهَا فِي تَمَامٍ",
+    "uzbek_title": "Namoz ruknlarida mo''tadillik va uni to'liq holda yengil o'qish"
+  },
+  {
+    "id": "muslim-book-5-chapter-23",
+    "book_id": 5,
+    "chapter_number": 23,
+    "arabic_title": "بَابُ وُجُوبِ قِرَاءَةِ الْفَاتِحَةِ فِي كُلِّ رَكْعَةٍ",
+    "uzbek_title": "Har bir rak'atda Fotiha surasi o'qish vajibligi haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-24",
+    "book_id": 5,
+    "chapter_number": 24,
+    "arabic_title": "بَابُ وُجُوبِ قِرَاءَةِ الْفَاتِحَةِ فِي كُلِّ رَكْعَةٍ وَإِنَّهُ إِذَا أَسَرَّ الْإِمَامُ جَازَتِ الْقِرَاءَةُ خَلْفَهُ",
+    "uzbek_title": "Har rak'atda Fotiha o'qish vajibligi; imom yashirin o'qiganda mamuming o'qishi joizligi"
+  },
+  {
+    "id": "muslim-book-5-chapter-25",
+    "book_id": 5,
+    "chapter_number": 25,
+    "arabic_title": "بَابُ التَّشَهُّدِ فِي الصَّلَاةِ",
+    "uzbek_title": "Namozda tashahhud haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-26",
+    "book_id": 5,
+    "chapter_number": 26,
+    "arabic_title": "بَابُ مَا يُقَالُ فِي الرُّكُوعِ وَالسُّجُودِ",
+    "uzbek_title": "Ruku' va sajdada aytiladi(ga)n narsalar haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-27",
+    "book_id": 5,
+    "chapter_number": 27,
+    "arabic_title": "بَابُ النَّهْيِ عَنْ قِرَاءَةِ الْقُرْآنِ فِي الرُّكُوعِ وَالسُّجُودِ",
+    "uzbek_title": "Ruku' va sajdada Qur'on o'qishdan man etilishi haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-28",
+    "book_id": 5,
+    "chapter_number": 28,
+    "arabic_title": "بَابُ مَا يَجْمَعُ صِفَةَ الصَّلَاةِ وَمَا يُفْتَتَحُ بِهِ وَيُخْتَمُ بِهِ",
+    "uzbek_title": "Namoz sifatini, uning boshlanishi va tugatilishini bayon qiluvchi bob"
+  },
+  {
+    "id": "muslim-book-5-chapter-29",
+    "book_id": 5,
+    "chapter_number": 29,
+    "arabic_title": "بَابُ صِفَةِ الْجُلُوسِ فِي الصَّلَاةِ وَكَيْفِيَّةِ وَضْعِ الْيَدَيْنِ عَلَى الرُّكْبَتَيْنِ",
+    "uzbek_title": "Namozda o'tirish tartibi va qo'llarni tizzalarga qo'yish kayfiyati"
+  },
+  {
+    "id": "muslim-book-5-chapter-30",
+    "book_id": 5,
+    "chapter_number": 30,
+    "arabic_title": "بَابُ الصَّلَاةِ عَلَى النَّبِيِّ ﷺ بَعْدَ التَّشَهُّدِ",
+    "uzbek_title": "Tashahhuddan keyin Nabiy ﷺ ga salavot aytish haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-31",
+    "book_id": 5,
+    "chapter_number": 31,
+    "arabic_title": "بَابُ مَا يُسْتَعَاذُ مِنْهُ فِي الصَّلَاةِ",
+    "uzbek_title": "Namozda saqlanish uchun panoh so'ranadigan narsalar haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-32",
+    "book_id": 5,
+    "chapter_number": 32,
+    "arabic_title": "بَابُ التَّسْلِيمِ لِلتَّحَلُّلِ مِنَ الصَّلَاةِ",
+    "uzbek_title": "Namozdan chiqish uchun salom berish haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-33",
+    "book_id": 5,
+    "chapter_number": 33,
+    "arabic_title": "بَابُ مَا يُقَالُ بَعْدَ التَّسْلِيمِ",
+    "uzbek_title": "Salamdan keyin aytiladi(ga)n narsalar haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-34",
+    "book_id": 5,
+    "chapter_number": 34,
+    "arabic_title": "بَابُ سُجُودِ السَّهْوِ",
+    "uzbek_title": "Sahv sajdasi (unutish sajdasi) haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-35",
+    "book_id": 5,
+    "chapter_number": 35,
+    "arabic_title": "بَابُ الِاسْتِئْذَانِ",
+    "uzbek_title": "Ruxsat so'rash haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-36",
+    "book_id": 5,
+    "chapter_number": 36,
+    "arabic_title": "بَابُ الدَّلِيلِ لِمَنْ قَالَ الصَّلَاةُ الْوُسْطَى هِيَ صَلَاةُ الْعَصْرِ",
+    "uzbek_title": "Vustо namozi asr namozi ekanligini aytganlar dalili haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-37",
+    "book_id": 5,
+    "chapter_number": 37,
+    "arabic_title": "بَابُ فَضْلِ صَلَاتَيِ الصُّبْحِ وَالْعَصْرِ وَالْمُحَافَظَةُ عَلَيْهِمَا",
+    "uzbek_title": "Bomdod va asr namozlarining fazilati va ularga muntazam rioya qilish"
+  },
+  {
+    "id": "muslim-book-5-chapter-38",
+    "book_id": 5,
+    "chapter_number": 38,
+    "arabic_title": "بَابُ فَضْلِ صَلَاةِ الْجَمَاعَةِ وَانْتِظَارِ الصَّلَاةِ",
+    "uzbek_title": "Jamoat namozining fazilati va namoz kutishning fazilati"
+  },
+  {
+    "id": "muslim-book-5-chapter-39",
+    "book_id": 5,
+    "chapter_number": 39,
+    "arabic_title": "بَابُ فَضْلِ كَثْرَةِ الْخُطَى إِلَى الْمَسَاجِدِ",
+    "uzbek_title": "Masjidga ko'p qadam bosishning fazilati haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-40",
+    "book_id": 5,
+    "chapter_number": 40,
+    "arabic_title": "بَابُ الْمَشْيِ إِلَى الصَّلَاةِ بِالسَّكِينَةِ وَالْوَقَارِ",
+    "uzbek_title": "Namozga xotirjam va vakorli yurish haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-41",
+    "book_id": 5,
+    "chapter_number": 41,
+    "arabic_title": "بَابُ مَتَى يَقُومُ النَّاسُ لِلصَّلَاةِ",
+    "uzbek_title": "Odamlar namozga qachon turadilar haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-42",
+    "book_id": 5,
+    "chapter_number": 42,
+    "arabic_title": "بَابُ مَنْ أَحَقُّ بِالْإِمَامَةِ",
+    "uzbek_title": "Imamliqqa kim ko'proq haqli ekanligi haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-43",
+    "book_id": 5,
+    "chapter_number": 43,
+    "arabic_title": "بَابُ إِمَامَةِ الزَّائِرِ",
+    "uzbek_title": "Mehmonning imamligi haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-44",
+    "book_id": 5,
+    "chapter_number": 44,
+    "arabic_title": "بَابُ تَخْفِيفِ الصَّلَاةِ وَالْخُطْبَةِ",
+    "uzbek_title": "Namoz va xutbani qisqartirish haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-45",
+    "book_id": 5,
+    "chapter_number": 45,
+    "arabic_title": "بَابُ مَا يَقْرَأُ بِهِ فِي الصُّبْحِ",
+    "uzbek_title": "Bomdod namozida o'qiladigan suralar haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-46",
+    "book_id": 5,
+    "chapter_number": 46,
+    "arabic_title": "بَابُ الْقِرَاءَةِ فِي الظُّهْرِ وَالْعَصْرِ",
+    "uzbek_title": "Peshin va asr namozida o'qish haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-47",
+    "book_id": 5,
+    "chapter_number": 47,
+    "arabic_title": "بَابُ الْقِرَاءَةِ فِي الْمَغْرِبِ",
+    "uzbek_title": "Shom (mag'rib) namozida o'qish haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-48",
+    "book_id": 5,
+    "chapter_number": 48,
+    "arabic_title": "بَابُ الْقِرَاءَةِ فِي الْعِشَاءِ",
+    "uzbek_title": "Xufton ('isha) namozida o'qish haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-49",
+    "book_id": 5,
+    "chapter_number": 49,
+    "arabic_title": "بَابُ الْجَهْرِ بِالْقِرَاءَةِ فِي الصُّبْحِ وَالْقِرَاءَةِ عَلَى الْجِنِّ",
+    "uzbek_title": "Bomdodda ovoz chiqarib o'qish va jinlarga Qur'on o'qish haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-50",
+    "book_id": 5,
+    "chapter_number": 50,
+    "arabic_title": "بَابُ النَّهْيِ عَنِ الْجَهْرِ بِالْقِرَاءَةِ فِي صَلَاةِ اللَّيْلِ إِذَا آذَى الْنَاسَ",
+    "uzbek_title": "Kechki namozda ovoz chiqarib o'qish odamlarga ozor beradigan bo'lsa bundan man etilishi"
+  },
+  {
+    "id": "muslim-book-5-chapter-51",
+    "book_id": 5,
+    "chapter_number": 51,
+    "arabic_title": "بَابُ التَّأْمِينِ خَلْفَ الْإِمَامِ",
+    "uzbek_title": "Imom orqasida 'omin' deyish haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-52",
+    "book_id": 5,
+    "chapter_number": 52,
+    "arabic_title": "بَابُ ائْتِمَامِ الْمَأْمُومِ بِالْإِمَامِ",
+    "uzbek_title": "Mamuming imomga iqtido qilishi haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-53",
+    "book_id": 5,
+    "chapter_number": 53,
+    "arabic_title": "بَابُ تَحْرِيمِ سَبْقِ الْإِمَامِ بِالرُّكُوعِ وَالسُّجُودِ",
+    "uzbek_title": "Ruku' va sajdada imomdan oldinroq qilish haramligi haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-54",
+    "book_id": 5,
+    "chapter_number": 54,
+    "arabic_title": "بَابُ إِبَاحَةِ الصَّلَاةِ النَّافِلَةِ جَمَاعَةً فِي غَيْرِ رَاتِبَةٍ",
+    "uzbek_title": "Muayyan bo'lmagan nafl namozlarni jamoat bilan o'qish mubohligi haqida"
+  },
+  {
+    "id": "muslim-book-5-chapter-55",
+    "book_id": 5,
+    "chapter_number": 55,
+    "arabic_title": "بَابُ قَضَاءِ الصَّلَاةِ الْفَائِتَةِ وَاسْتِحْبَابِ تَعْجِيلِ قَضَائِهَا",
+    "uzbek_title": "O'tkazib yuborilgan namozni qazо qilish va buni tezlashtirib ado etish mustahabbi"
+  },
+  {
+    "id": "muslim-book-5-chapter-56",
+    "book_id": 5,
+    "chapter_number": 56,
+    "arabic_title": "بَابُ قَضَاءِ الصَّلَاةِ الْفَائِتَةِ",
+    "uzbek_title": "Qazо bo'lib qolgan namozni o'qish haqida"
+  },
+  {
     "id": "muslim-book-6-chapter-1",
     "book_id": 6,
     "chapter_number": 1,

@@ -11,19 +11,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <!-- global styles (not modified) -->
 <link rel="stylesheet" href="/css/style.css" />
+<!-- premium theme variables (dark / light) -->
+<link rel="stylesheet" href="/css/theme.css" />
 <script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>
 
 <style>
 /* ═══════════════════════════════════════════════════════════
-   DASHBOARD-ONLY OVERRIDES
-   All selectors are scoped to body.db-page so nothing bleeds
-   into other pages that share style.css
+   DASHBOARD-ONLY OVERRIDES — PREMIUM THEME
+   All selectors scoped to body.db-page
+   Colors driven by CSS variables defined in /css/theme.css
    ═══════════════════════════════════════════════════════════ */
 
-/* ── Global reset for dashboard body ─────────────────────── */
 body.db-page {
-  background: #020e07;
-  color: #e8f0e8;
+  background: var(--prem-page-bg);
+  color: var(--prem-text);
   min-height: 100vh;
   overflow-x: hidden;
   position: relative;
@@ -39,16 +40,12 @@ body.db-page {
   z-index: 0;
 }
 
-/* ── Deep gradient background layers ─────────────────────── */
+/* ── Background gradient (dark/light from theme.css var) ──── */
 body.db-page::before {
   content: "";
   position: fixed;
   inset: 0;
-  background:
-    radial-gradient(ellipse 80% 60% at 20% 10%,  rgba(10,60,28,0.55) 0%, transparent 65%),
-    radial-gradient(ellipse 70% 50% at 80% 85%,  rgba(6,40,18,0.45) 0%, transparent 60%),
-    radial-gradient(ellipse 50% 40% at 60% 40%,  rgba(4,28,12,0.30) 0%, transparent 55%),
-    linear-gradient(170deg, #021007 0%, #030f08 40%, #020c06 70%, #010a05 100%);
+  background: var(--prem-before-bg);
   z-index: 0;
   pointer-events: none;
 }
@@ -70,9 +67,9 @@ body.db-page .db-header::after {
   height: 1px;
   background: linear-gradient(90deg,
     transparent 0%,
-    rgba(184,134,11,0.35) 30%,
-    rgba(184,134,11,0.55) 50%,
-    rgba(184,134,11,0.35) 70%,
+    var(--prem-gold-sep-a) 30%,
+    var(--prem-gold-sep-b) 50%,
+    var(--prem-gold-sep-a) 70%,
     transparent 100%
   );
 }
@@ -94,18 +91,18 @@ body.db-page .db-logo {
 body.db-page .db-bismillah {
   font-family: "Amiri Quran", "Amiri", serif;
   font-size: clamp(1.5rem, 5vw, 2rem);
-  color: #c9a227;
+  color: var(--prem-gold);
   line-height: 1.9;
   letter-spacing: 0.03em;
   text-shadow:
     0 0 18px rgba(201,162,39,0.45),
-    0 2px 6px rgba(0,0,0,0.5);
+    0 2px 6px rgba(0,0,0,0.3);
   margin-bottom: 8px;
 }
 
 body.db-page .db-welcome {
   font-size: 0.78rem;
-  color: rgba(180,210,185,0.6);
+  color: var(--prem-muted-strong);
   letter-spacing: 0.22em;
   text-transform: uppercase;
   font-weight: 500;
@@ -127,7 +124,7 @@ body.db-page .db-section-label {
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgba(184,134,11,0.65);
+  color: var(--prem-section-label);
   margin: 0 0 12px 4px;
 }
 
@@ -150,18 +147,15 @@ body.db-page .db-card {
   border-radius: 18px;
   overflow: hidden;
   text-decoration: none;
-  color: #e8f0e8;
+  color: var(--prem-text);
   cursor: pointer;
   display: block;
 
-  /* glass */
-  background: rgba(8, 30, 15, 0.72);
+  background: var(--prem-card-bg);
   backdrop-filter: blur(14px) saturate(140%);
   -webkit-backdrop-filter: blur(14px) saturate(140%);
-  border: 1px solid rgba(184,134,11,0.28);
-  box-shadow:
-    0 4px 24px rgba(0,0,0,0.45),
-    inset 0 1px 0 rgba(255,255,255,0.04);
+  border: 1px solid var(--prem-card-border);
+  box-shadow: var(--prem-card-shadow);
 
   transition:
     transform         0.22s cubic-bezier(0.34,1.56,0.64,1),
@@ -171,13 +165,8 @@ body.db-page .db-card {
 
 body.db-page .db-card:not(.db-card-disabled):hover {
   transform: translateY(-4px) scale(1.012);
-  border-color: rgba(184,134,11,0.6);
-  box-shadow:
-    0 0 0 1px rgba(184,134,11,0.22),
-    0 8px 32px rgba(0,0,0,0.5),
-    0 0 28px rgba(30,255,100,0.08),
-    0 0 60px rgba(30,255,100,0.04),
-    inset 0 1px 0 rgba(255,255,255,0.07);
+  border-color: var(--prem-card-border-hover);
+  box-shadow: var(--prem-card-hover-shadow);
 }
 
 /* Gold shimmer bar at top of every card */
@@ -188,9 +177,9 @@ body.db-page .db-card::before {
   height: 2px;
   background: linear-gradient(90deg,
     transparent 0%,
-    rgba(184,134,11,0.7) 30%,
+    var(--prem-gold-sep-b) 30%,
     rgba(220,170,30,0.9) 50%,
-    rgba(184,134,11,0.7) 70%,
+    var(--prem-gold-sep-b) 70%,
     transparent 100%
   );
   opacity: 0;
@@ -212,7 +201,6 @@ body.db-page .db-card .ripple-layer {
   z-index: 5;
 }
 
-/* Individual ripple element (injected by JS) */
 body.db-page .ripple-circle {
   position: absolute;
   border-radius: 50%;
@@ -232,11 +220,10 @@ body.db-page .ripple-circle {
   100% { transform: scale(1.5);  opacity: 0; }
 }
 
-/* Pulse ring (appears after ripple) */
 @keyframes db-pulse-ring {
-  0%   { box-shadow: 0 0 0 0   rgba(30,255,100,0.20); }
-  70%  { box-shadow: 0 0 0 12px rgba(30,255,100,0);   }
-  100% { box-shadow: 0 0 0 0   rgba(30,255,100,0);   }
+  0%   { box-shadow: 0 0 0 0    rgba(30,255,100,0.20); }
+  70%  { box-shadow: 0 0 0 12px rgba(30,255,100,0);    }
+  100% { box-shadow: 0 0 0 0    rgba(30,255,100,0);    }
 }
 
 body.db-page .db-card.pulsing {
@@ -246,15 +233,12 @@ body.db-page .db-card.pulsing {
 /* ── Featured card (Qur'on Karim) ────────────────────────── */
 body.db-page .db-card-featured {
   padding: 26px 26px 24px;
-  background: linear-gradient(130deg,
-    rgba(6,35,16,0.90) 0%,
-    rgba(3,22,10,0.95) 100%
-  );
-  border-color: rgba(184,134,11,0.42);
+  background: var(--prem-feat-bg);
+  border-color: var(--prem-gold-border);
   box-shadow:
-    0 6px 36px rgba(0,0,0,0.55),
-    0 0 0 1px rgba(184,134,11,0.10),
-    inset 0 1px 0 rgba(255,255,255,0.05);
+    0 6px 36px rgba(0,0,0,0.25),
+    0 0 0 1px var(--prem-gold-fill),
+    inset 0 1px 0 rgba(255,255,255,0.06);
 }
 
 /* Corner ornament */
@@ -297,15 +281,15 @@ body.db-page .db-feat-icon {
 body.db-page .db-feat-title {
   font-size: 1.25rem;
   font-weight: 700;
-  color: #f0e8d0;
+  color: var(--prem-feat-title);
   letter-spacing: 0.4px;
   margin-bottom: 5px;
-  text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  text-shadow: 0 1px 4px rgba(0,0,0,0.2);
 }
 
 body.db-page .db-feat-desc {
   font-size: 0.79rem;
-  color: rgba(200,220,200,0.60);
+  color: var(--prem-feat-desc);
   font-weight: 400;
   line-height: 1.5;
 }
@@ -313,7 +297,7 @@ body.db-page .db-feat-desc {
 body.db-page .db-feat-arrow {
   font-size: 1.4rem;
   font-weight: 700;
-  color: #c9a227;
+  color: var(--prem-gold);
   flex-shrink: 0;
   text-shadow: 0 0 10px rgba(184,134,11,0.5);
   transition: transform 0.22s ease;
@@ -350,13 +334,13 @@ body.db-page .db-card:hover .db-sec-icon-wrap {
 body.db-page .db-sec-title {
   font-size: 0.9rem;
   font-weight: 700;
-  color: #d8ead8;
+  color: var(--prem-card-title);
   letter-spacing: 0.2px;
 }
 
 body.db-page .db-sec-desc {
   font-size: 0.73rem;
-  color: rgba(160,200,160,0.52);
+  color: var(--prem-muted);
   line-height: 1.5;
   margin-top: -4px;
 }
@@ -374,9 +358,9 @@ body.db-page .db-badge-soon {
   font-size: 0.63rem;
   font-weight: 700;
   letter-spacing: 0.06em;
-  color: #c9a227;
-  background: rgba(184,134,11,0.14);
-  border: 1px solid rgba(184,134,11,0.28);
+  color: var(--prem-gold);
+  background: var(--prem-soon-bg);
+  border: 1px solid var(--prem-soon-border);
   padding: 2px 10px;
   border-radius: 999px;
   margin-top: 2px;
@@ -394,13 +378,13 @@ body.db-page .db-divider {
 body.db-page .db-divider-line {
   flex: 1;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(184,134,11,0.5), transparent);
+  background: linear-gradient(90deg, transparent, var(--prem-gold-sep-b), transparent);
 }
 
 body.db-page .db-divider-dot {
   width: 5px; height: 5px;
   border-radius: 50%;
-  background: rgba(184,134,11,0.7);
+  background: var(--prem-divider-dot);
   flex-shrink: 0;
 }
 
@@ -409,19 +393,19 @@ body.db-page .db-footer-phrase {
   text-align: center;
   font-family: "Amiri", serif;
   font-size: 1.1rem;
-  color: rgba(184,134,11,0.4);
+  color: var(--prem-footer-color);
   letter-spacing: 0.06em;
   padding-top: 32px;
 }
 
 /* ── Responsive ───────────────────────────────────────────── */
 @media (max-width: 420px) {
-  body.db-page .db-card-sec     { padding: 20px 12px 18px; min-height: 110px; }
+  body.db-page .db-card-sec      { padding: 20px 12px 18px; min-height: 110px; }
   body.db-page .db-sec-icon-wrap { font-size: 1.65rem; }
-  body.db-page .db-sec-title    { font-size: 0.83rem; }
-  body.db-page .db-feat-title   { font-size: 1.05rem; }
-  body.db-page .db-feat-icon    { font-size: 2rem; }
-  body.db-page .db-bismillah    { font-size: 1.4rem; }
+  body.db-page .db-sec-title     { font-size: 0.83rem; }
+  body.db-page .db-feat-title    { font-size: 1.05rem; }
+  body.db-page .db-feat-icon     { font-size: 2rem; }
+  body.db-page .db-bismillah     { font-size: 1.4rem; }
 }
 </style>
 </head>

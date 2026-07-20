@@ -1,0 +1,198 @@
+/* ================================================================
+   PREMIUM THEME VARIABLES — QUR'AN KARIM
+   Used by: dashboard.html, index.html, hadislar.html
+   Theme is toggled via html.dark class (set by settings.html toggle)
+   ================================================================ */
+
+/* ── Dark mode — the current premium deep-green look ── */
+html.dark {
+  /* Page */
+  --prem-page-bg: #020e07;
+  --prem-text:    #e8f0e8;
+
+  /* Background overlay (::before pseudo-element) */
+  --prem-before-bg:
+    radial-gradient(ellipse 80% 60% at 20% 10%,  rgba(10,60,28,0.55) 0%, transparent 65%),
+    radial-gradient(ellipse 70% 50% at 80% 85%,  rgba(6,40,18,0.45)  0%, transparent 60%),
+    radial-gradient(ellipse 50% 40% at 60% 40%,  rgba(4,28,12,0.30)  0%, transparent 55%),
+    linear-gradient(170deg, #021007 0%, #030f08 40%, #020c06 70%, #010a05 100%);
+
+  /* Cards */
+  --prem-card-bg:           rgba(8,30,15,0.72);
+  --prem-card-border:       rgba(184,134,11,0.28);
+  --prem-card-border-hover: rgba(184,134,11,0.58);
+  --prem-card-shadow:       0 3px 18px rgba(0,0,0,0.40), inset 0 1px 0 rgba(255,255,255,0.03);
+  --prem-card-hover-shadow:
+    0 0 0 1px rgba(184,134,11,0.18),
+    0 8px 28px rgba(0,0,0,0.50),
+    0 0 24px rgba(30,255,100,0.07),
+    0 0 55px rgba(30,255,100,0.03),
+    inset 0 1px 0 rgba(255,255,255,0.06);
+  --prem-card-title:        #ddeedd;
+
+  /* Gold accents */
+  --prem-gold:         #c9a227;
+  --prem-gold-dim:     rgba(184,134,11,0.55);
+  --prem-gold-border:  rgba(184,134,11,0.42);
+  --prem-gold-label:   rgba(184,134,11,0.65);
+  --prem-gold-fill:    rgba(184,134,11,0.12);
+  --prem-gold-fill-lg: rgba(184,134,11,0.22);
+  --prem-gold-sep-a:   rgba(184,134,11,0.35);
+  --prem-gold-sep-b:   rgba(184,134,11,0.55);
+
+  /* Number badge */
+  --prem-badge-bg:           radial-gradient(circle, rgba(184,134,11,0.22) 0%, rgba(184,134,11,0.08) 100%);
+  --prem-badge-hover-bg:     radial-gradient(circle, rgba(80,255,140,0.14) 0%, rgba(80,255,140,0.04) 100%);
+  --prem-badge-hover-border: rgba(80,255,140,0.45);
+  --prem-badge-hover-color:  #8cffa0;
+
+  /* Muted text */
+  --prem-muted:        rgba(160,200,165,0.52);
+  --prem-muted-strong: rgba(180,210,185,0.60);
+
+  /* Back button */
+  --prem-back-bg:    rgba(255,255,255,0.06);
+  --prem-back-color: rgba(180,220,185,0.75);
+
+  /* Search */
+  --prem-search-bg:          rgba(8,30,15,0.72);
+  --prem-search-color:       #e8f0e8;
+  --prem-search-placeholder: rgba(160,200,165,0.40);
+  --prem-search-border:      rgba(184,134,11,0.28);
+
+  /* Section labels & decorative */
+  --prem-section-label: rgba(184,134,11,0.65);
+  --prem-footer-color:  rgba(184,134,11,0.35);
+  --prem-divider-dot:   rgba(184,134,11,0.70);
+
+  /* Search results */
+  --prem-hit-bg:          rgba(8,30,15,0.75);
+  --prem-hit-border:      rgba(184,134,11,0.20);
+  --prem-hit-direct-bg:   rgba(10,35,17,0.85);
+  --prem-hit-translation: rgba(160,200,165,0.65);
+
+  /* Continue-reading banner (index.html) */
+  --prem-crb-bg:          rgba(8,30,15,0.80);
+  --prem-crb-border-left: rgba(184,134,11,0.75);
+
+  /* Meta tags (hadislar) */
+  --prem-meta-bg:     rgba(184,134,11,0.12);
+  --prem-meta-border: rgba(184,134,11,0.22);
+  --prem-meta-color:  rgba(201,162,39,0.85);
+
+  /* Count badge (hadislar) */
+  --prem-count-color:  rgba(30,200,90,0.75);
+  --prem-count-bg:     rgba(30,200,90,0.08);
+  --prem-count-border: rgba(30,200,90,0.18);
+
+  /* Icon col (hadislar) */
+  --prem-icon-bg:           rgba(255,255,255,0.04);
+  --prem-icon-border:       rgba(184,134,11,0.20);
+  --prem-icon-hover-bg:     rgba(80,255,140,0.06);
+  --prem-icon-hover-border: rgba(80,255,140,0.20);
+
+  /* Featured card (dashboard) */
+  --prem-feat-bg:    linear-gradient(130deg, rgba(6,35,16,0.90) 0%, rgba(3,22,10,0.95) 100%);
+  --prem-feat-title: #f0e8d0;
+  --prem-feat-desc:  rgba(200,220,200,0.60);
+
+  /* "Tez orada" badge (dashboard) */
+  --prem-soon-bg:     rgba(184,134,11,0.14);
+  --prem-soon-border: rgba(184,134,11,0.28);
+}
+
+/* ── Light mode — clean readable cream version ── */
+html:not(.dark) {
+  /* Page */
+  --prem-page-bg: #f0ebe0;
+  --prem-text:    #1a2a1a;
+
+  /* Background overlay */
+  --prem-before-bg:
+    radial-gradient(ellipse 80% 60% at 20% 10%,  rgba(100,140,80,0.10) 0%, transparent 65%),
+    radial-gradient(ellipse 70% 50% at 80% 85%,  rgba(80,120,60,0.08)  0%, transparent 60%),
+    radial-gradient(ellipse 50% 40% at 60% 40%,  rgba(60,100,40,0.05)  0%, transparent 55%),
+    linear-gradient(170deg, #f0ebe0 0%, #ebe3d0 40%, #e8dfc8 70%, #e5dbc4 100%);
+
+  /* Cards */
+  --prem-card-bg:           rgba(255,255,255,0.82);
+  --prem-card-border:       rgba(184,134,11,0.22);
+  --prem-card-border-hover: rgba(184,134,11,0.50);
+  --prem-card-shadow:       0 3px 18px rgba(0,0,0,0.10), inset 0 1px 0 rgba(255,255,255,0.80);
+  --prem-card-hover-shadow:
+    0 0 0 1px rgba(184,134,11,0.18),
+    0 8px 28px rgba(0,0,0,0.12),
+    0 0 24px rgba(0,140,60,0.05),
+    inset 0 1px 0 rgba(255,255,255,0.90);
+  --prem-card-title:        #1a3a1a;
+
+  /* Gold accents — slightly darker for light-bg readability */
+  --prem-gold:         #8a6800;
+  --prem-gold-dim:     rgba(138,104,0,0.60);
+  --prem-gold-border:  rgba(184,134,11,0.45);
+  --prem-gold-label:   rgba(138,104,0,0.75);
+  --prem-gold-fill:    rgba(184,134,11,0.10);
+  --prem-gold-fill-lg: rgba(184,134,11,0.16);
+  --prem-gold-sep-a:   rgba(184,134,11,0.28);
+  --prem-gold-sep-b:   rgba(184,134,11,0.48);
+
+  /* Number badge */
+  --prem-badge-bg:           radial-gradient(circle, rgba(184,134,11,0.15) 0%, rgba(184,134,11,0.05) 100%);
+  --prem-badge-hover-bg:     radial-gradient(circle, rgba(0,120,50,0.14)   0%, rgba(0,120,50,0.04)   100%);
+  --prem-badge-hover-border: rgba(0,140,60,0.40);
+  --prem-badge-hover-color:  #0a6628;
+
+  /* Muted text */
+  --prem-muted:        rgba(40,80,40,0.55);
+  --prem-muted-strong: rgba(40,80,40,0.65);
+
+  /* Back button */
+  --prem-back-bg:    rgba(255,255,255,0.72);
+  --prem-back-color: rgba(20,60,20,0.80);
+
+  /* Search */
+  --prem-search-bg:          rgba(255,255,255,0.82);
+  --prem-search-color:       #1a2a1a;
+  --prem-search-placeholder: rgba(40,80,40,0.45);
+  --prem-search-border:      rgba(184,134,11,0.30);
+
+  /* Section labels & decorative */
+  --prem-section-label: rgba(138,104,0,0.70);
+  --prem-footer-color:  rgba(138,104,0,0.40);
+  --prem-divider-dot:   rgba(138,104,0,0.60);
+
+  /* Search results */
+  --prem-hit-bg:          rgba(255,255,255,0.82);
+  --prem-hit-border:      rgba(184,134,11,0.18);
+  --prem-hit-direct-bg:   rgba(245,240,225,0.92);
+  --prem-hit-translation: rgba(40,80,40,0.65);
+
+  /* Continue-reading banner */
+  --prem-crb-bg:          rgba(255,255,255,0.82);
+  --prem-crb-border-left: rgba(184,134,11,0.70);
+
+  /* Meta tags (hadislar) */
+  --prem-meta-bg:     rgba(184,134,11,0.09);
+  --prem-meta-border: rgba(184,134,11,0.25);
+  --prem-meta-color:  rgba(100,76,0,0.90);
+
+  /* Count badge (hadislar) */
+  --prem-count-color:  rgba(10,120,50,0.85);
+  --prem-count-bg:     rgba(10,120,50,0.10);
+  --prem-count-border: rgba(10,120,50,0.22);
+
+  /* Icon col (hadislar) */
+  --prem-icon-bg:           rgba(0,0,0,0.04);
+  --prem-icon-border:       rgba(184,134,11,0.22);
+  --prem-icon-hover-bg:     rgba(0,120,50,0.06);
+  --prem-icon-hover-border: rgba(0,120,50,0.22);
+
+  /* Featured card (dashboard) */
+  --prem-feat-bg:    linear-gradient(130deg, rgba(240,235,218,0.96) 0%, rgba(232,226,208,0.98) 100%);
+  --prem-feat-title: #1a3a1a;
+  --prem-feat-desc:  rgba(40,80,40,0.65);
+
+  /* "Tez orada" badge */
+  --prem-soon-bg:     rgba(184,134,11,0.10);
+  --prem-soon-border: rgba(184,134,11,0.26);
+}

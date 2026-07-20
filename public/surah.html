@@ -172,6 +172,73 @@ html:not(.dark) .abn-ripple {
 @keyframes abn-ripple-anim {
   to { transform: scale(5); opacity: 0; }
 }
+
+/* ════════════════════════════════════════════════════════════
+   SURAH NAVIGATION — under the surah title block
+   ════════════════════════════════════════════════════════════ */
+.surah-nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(184, 134, 11, 0.18);
+}
+
+.sn-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(184, 134, 11, 0.38);
+  background: rgba(8, 30, 15, 0.55);
+  color: rgba(210, 235, 210, 0.85);
+  font-family: inherit;
+  font-size: 0.76rem;
+  font-weight: 600;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition:
+    background  0.16s ease,
+    border-color 0.16s ease,
+    color        0.16s ease,
+    box-shadow   0.16s ease,
+    transform    0.10s ease;
+}
+
+html:not(.dark) .sn-btn {
+  background: rgba(255, 255, 255, 0.65);
+  border-color: rgba(184, 134, 11, 0.32);
+  color: rgba(20, 50, 20, 0.85);
+}
+
+.sn-btn:hover {
+  background: rgba(30, 255, 100, 0.09);
+  border-color: rgba(80, 255, 140, 0.55);
+  color: #8cffa0;
+  box-shadow: 0 0 10px rgba(30, 255, 100, 0.12);
+}
+
+html:not(.dark) .sn-btn:hover {
+  background: rgba(0, 120, 50, 0.09);
+  border-color: rgba(0, 160, 70, 0.42);
+  color: #0a5e22;
+  box-shadow: 0 0 8px rgba(0, 140, 60, 0.10);
+}
+
+.sn-btn:active {
+  transform: scale(0.95);
+}
+
+.sn-btn.disabled {
+  opacity: 0.28;
+  pointer-events: none;
+}
 </style>
 </head>
 <body>
@@ -183,14 +250,8 @@ html:not(.dark) .abn-ripple {
 
   <main class="container">
 
-    <!-- ── Existing top reading controls (unchanged) ── -->
+    <!-- ── Top reading controls ── -->
     <div class="reading-controls">
-
-      <div class="rc-group rc-nav-group">
-        <button class="rc-btn rc-nav-btn" id="prevAyah" disabled>← Oldingi oyat</button>
-        <span class="rc-indicator" id="ayahIndicator">—</span>
-        <button class="rc-btn rc-nav-btn" id="nextAyah" disabled>Keyingi oyat →</button>
-      </div>
 
       <div class="rc-group rc-size-group">
         <span class="rc-label">Arab matni:</span>

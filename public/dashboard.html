@@ -9,97 +9,661 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- global styles (not modified) -->
 <link rel="stylesheet" href="/css/style.css" />
-<!-- Apply saved theme before paint to avoid flash -->
 <script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>
+
+<style>
+/* ═══════════════════════════════════════════════════════════
+   DASHBOARD-ONLY OVERRIDES
+   All selectors are scoped to body.db-page so nothing bleeds
+   into other pages that share style.css
+   ═══════════════════════════════════════════════════════════ */
+
+/* ── Global reset for dashboard body ─────────────────────── */
+body.db-page {
+  background: #020e07;
+  color: #e8f0e8;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* ── Particle canvas ──────────────────────────────────────── */
+#db-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── Deep gradient background layers ─────────────────────── */
+body.db-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 60% at 20% 10%,  rgba(10,60,28,0.55) 0%, transparent 65%),
+    radial-gradient(ellipse 70% 50% at 80% 85%,  rgba(6,40,18,0.45) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 40% at 60% 40%,  rgba(4,28,12,0.30) 0%, transparent 55%),
+    linear-gradient(170deg, #021007 0%, #030f08 40%, #020c06 70%, #010a05 100%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* ── Header ───────────────────────────────────────────────── */
+body.db-page .db-header {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  padding: 38px 20px 34px;
+  background: transparent;
+  overflow: visible;
+}
+
+body.db-page .db-header::after {
+  content: "";
+  position: absolute;
+  bottom: 0; left: 10%; right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(184,134,11,0.35) 30%,
+    rgba(184,134,11,0.55) 50%,
+    rgba(184,134,11,0.35) 70%,
+    transparent 100%
+  );
+}
+
+body.db-page .db-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 14px;
+  filter: drop-shadow(0 0 14px rgba(184,134,11,0.4))
+          drop-shadow(0 3px 8px rgba(0,0,0,0.5));
+  animation: db-logo-float 6s ease-in-out infinite;
+}
+
+@keyframes db-logo-float {
+  0%, 100% { transform: translateY(0);   }
+  50%       { transform: translateY(-5px); }
+}
+
+body.db-page .db-bismillah {
+  font-family: "Amiri Quran", "Amiri", serif;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  color: #c9a227;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  text-shadow:
+    0 0 18px rgba(201,162,39,0.45),
+    0 2px 6px rgba(0,0,0,0.5);
+  margin-bottom: 8px;
+}
+
+body.db-page .db-welcome {
+  font-size: 0.78rem;
+  color: rgba(180,210,185,0.6);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* ── Main container ───────────────────────────────────────── */
+body.db-page .db-main {
+  position: relative;
+  z-index: 10;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 28px 16px 64px;
+}
+
+/* ── Section label ────────────────────────────────────────── */
+body.db-page .db-section-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(184,134,11,0.65);
+  margin: 0 0 12px 4px;
+}
+
+/* ── Card grid ────────────────────────────────────────────── */
+body.db-page .db-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+body.db-page .db-secondary-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* ── Glass card base ──────────────────────────────────────── */
+body.db-page .db-card {
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #e8f0e8;
+  cursor: pointer;
+  display: block;
+
+  /* glass */
+  background: rgba(8, 30, 15, 0.72);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid rgba(184,134,11,0.28);
+  box-shadow:
+    0 4px 24px rgba(0,0,0,0.45),
+    inset 0 1px 0 rgba(255,255,255,0.04);
+
+  transition:
+    transform         0.22s cubic-bezier(0.34,1.56,0.64,1),
+    box-shadow        0.22s ease,
+    border-color      0.22s ease;
+}
+
+body.db-page .db-card:not(.db-card-disabled):hover {
+  transform: translateY(-4px) scale(1.012);
+  border-color: rgba(184,134,11,0.6);
+  box-shadow:
+    0 0 0 1px rgba(184,134,11,0.22),
+    0 8px 32px rgba(0,0,0,0.5),
+    0 0 28px rgba(30,255,100,0.08),
+    0 0 60px rgba(30,255,100,0.04),
+    inset 0 1px 0 rgba(255,255,255,0.07);
+}
+
+/* Gold shimmer bar at top of every card */
+body.db-page .db-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(184,134,11,0.7) 30%,
+    rgba(220,170,30,0.9) 50%,
+    rgba(184,134,11,0.7) 70%,
+    transparent 100%
+  );
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  z-index: 2;
+}
+
+body.db-page .db-card:hover::before {
+  opacity: 1;
+}
+
+/* Ripple container */
+body.db-page .db-card .ripple-layer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 5;
+}
+
+/* Individual ripple element (injected by JS) */
+body.db-page .ripple-circle {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle,
+    rgba(80,255,140,0.18) 0%,
+    rgba(80,255,140,0.06) 50%,
+    transparent 70%
+  );
+  transform: scale(0);
+  animation: db-ripple 0.65s cubic-bezier(0.22,1,0.36,1) forwards;
+  pointer-events: none;
+}
+
+@keyframes db-ripple {
+  0%   { transform: scale(0);    opacity: 1; }
+  60%  { transform: scale(1);    opacity: 0.7; }
+  100% { transform: scale(1.5);  opacity: 0; }
+}
+
+/* Pulse ring (appears after ripple) */
+@keyframes db-pulse-ring {
+  0%   { box-shadow: 0 0 0 0   rgba(30,255,100,0.20); }
+  70%  { box-shadow: 0 0 0 12px rgba(30,255,100,0);   }
+  100% { box-shadow: 0 0 0 0   rgba(30,255,100,0);   }
+}
+
+body.db-page .db-card.pulsing {
+  animation: db-pulse-ring 0.55s ease-out;
+}
+
+/* ── Featured card (Qur'on Karim) ────────────────────────── */
+body.db-page .db-card-featured {
+  padding: 26px 26px 24px;
+  background: linear-gradient(130deg,
+    rgba(6,35,16,0.90) 0%,
+    rgba(3,22,10,0.95) 100%
+  );
+  border-color: rgba(184,134,11,0.42);
+  box-shadow:
+    0 6px 36px rgba(0,0,0,0.55),
+    0 0 0 1px rgba(184,134,11,0.10),
+    inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+/* Corner ornament */
+body.db-page .db-card-featured::after {
+  content: "";
+  position: absolute;
+  top: -1px; right: -1px;
+  width: 80px; height: 80px;
+  background: radial-gradient(ellipse at 100% 0%,
+    rgba(184,134,11,0.18) 0%,
+    transparent 65%
+  );
+  pointer-events: none;
+}
+
+body.db-page .db-feat-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  position: relative;
+  z-index: 1;
+}
+
+body.db-page .db-feat-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+body.db-page .db-feat-icon {
+  font-size: 2.6rem;
+  line-height: 1;
+  filter:
+    drop-shadow(0 0 10px rgba(184,134,11,0.5))
+    drop-shadow(0 2px 6px rgba(0,0,0,0.4));
+  flex-shrink: 0;
+}
+
+body.db-page .db-feat-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #f0e8d0;
+  letter-spacing: 0.4px;
+  margin-bottom: 5px;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+
+body.db-page .db-feat-desc {
+  font-size: 0.79rem;
+  color: rgba(200,220,200,0.60);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+body.db-page .db-feat-arrow {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #c9a227;
+  flex-shrink: 0;
+  text-shadow: 0 0 10px rgba(184,134,11,0.5);
+  transition: transform 0.22s ease;
+}
+
+body.db-page .db-card-featured:hover .db-feat-arrow {
+  transform: translateX(5px);
+}
+
+/* ── Secondary cards ──────────────────────────────────────── */
+body.db-page .db-card-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 26px 16px 22px;
+  text-align: center;
+  min-height: 128px;
+}
+
+body.db-page .db-sec-icon-wrap {
+  font-size: 2rem;
+  line-height: 1;
+  filter: drop-shadow(0 0 8px rgba(184,134,11,0.35));
+  transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+body.db-page .db-card:hover .db-sec-icon-wrap {
+  transform: scale(1.12) translateY(-2px);
+  filter: drop-shadow(0 0 14px rgba(80,255,140,0.35));
+}
+
+body.db-page .db-sec-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #d8ead8;
+  letter-spacing: 0.2px;
+}
+
+body.db-page .db-sec-desc {
+  font-size: 0.73rem;
+  color: rgba(160,200,160,0.52);
+  line-height: 1.5;
+  margin-top: -4px;
+}
+
+/* ── Disabled card ────────────────────────────────────────── */
+body.db-page .db-card-disabled {
+  opacity: 0.42;
+  cursor: default;
+  pointer-events: none;
+}
+
+/* ── "Tez orada" badge ────────────────────────────────────── */
+body.db-page .db-badge-soon {
+  display: inline-block;
+  font-size: 0.63rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #c9a227;
+  background: rgba(184,134,11,0.14);
+  border: 1px solid rgba(184,134,11,0.28);
+  padding: 2px 10px;
+  border-radius: 999px;
+  margin-top: 2px;
+}
+
+/* ── Divider ornament between sections ────────────────────── */
+body.db-page .db-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 10px 0 18px;
+  opacity: 0.45;
+}
+
+body.db-page .db-divider-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(184,134,11,0.5), transparent);
+}
+
+body.db-page .db-divider-dot {
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: rgba(184,134,11,0.7);
+  flex-shrink: 0;
+}
+
+/* ── Footer phrase ────────────────────────────────────────── */
+body.db-page .db-footer-phrase {
+  text-align: center;
+  font-family: "Amiri", serif;
+  font-size: 1.1rem;
+  color: rgba(184,134,11,0.4);
+  letter-spacing: 0.06em;
+  padding-top: 32px;
+}
+
+/* ── Responsive ───────────────────────────────────────────── */
+@media (max-width: 420px) {
+  body.db-page .db-card-sec     { padding: 20px 12px 18px; min-height: 110px; }
+  body.db-page .db-sec-icon-wrap { font-size: 1.65rem; }
+  body.db-page .db-sec-title    { font-size: 0.83rem; }
+  body.db-page .db-feat-title   { font-size: 1.05rem; }
+  body.db-page .db-feat-icon    { font-size: 2rem; }
+  body.db-page .db-bismillah    { font-size: 1.4rem; }
+}
+</style>
 </head>
-<body>
+<body class="db-page">
 
-  <header class="site-header">
-    <div class="header-logo" aria-hidden="true">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 54" width="64" height="54">
-        <path d="M3 13 L29 9 L29 47 L3 43 Z" fill="#fef5d4"/>
-        <path d="M35 9 L61 13 L61 43 L35 47 Z" fill="#fef5d4"/>
-        <path d="M29 7.5 Q32 6.5 35 7.5 L35 48.5 Q32 49.5 29 48.5 Z" fill="url(#spineGrad2)"/>
-        <line x1="32" y1="8" x2="32" y2="48" stroke="rgba(255,248,180,0.45)" stroke-width="1"/>
-        <line x1="9"  y1="18"   x2="25" y2="18.6" stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
-        <line x1="9"  y1="23.5" x2="25" y2="24.1" stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
-        <line x1="9"  y1="29"   x2="25" y2="29.6" stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
-        <line x1="9"  y1="34.5" x2="25" y2="35"   stroke="#c4924a" stroke-width="1.4" stroke-linecap="round"/>
-        <line x1="14" y1="40"   x2="25" y2="40.4" stroke="#c4924a" stroke-width="1.1" stroke-linecap="round" opacity="0.7"/>
-        <line x1="39" y1="18.6" x2="55" y2="18"   stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
-        <line x1="39" y1="24.1" x2="55" y2="23.5" stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
-        <line x1="39" y1="29.6" x2="55" y2="29"   stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
-        <line x1="39" y1="35"   x2="55" y2="34.5" stroke="#c4924a" stroke-width="1.4" stroke-linecap="round"/>
-        <line x1="39" y1="40.4" x2="50" y2="40"   stroke="#c4924a" stroke-width="1.1" stroke-linecap="round" opacity="0.7"/>
-        <path d="M3 43 L29 47 L35 47 L61 43 L61 45.5 L35 49.5 L29 49.5 L3 45.5 Z" fill="rgba(0,0,0,0.18)"/>
-        <path d="M32 2 L34.2 5.5 L32 7.2 L29.8 5.5 Z" fill="#e2b24a"/>
-        <defs>
-          <linearGradient id="spineGrad2" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0%"   stop-color="#b8860b"/>
-            <stop offset="45%"  stop-color="#d4a820"/>
-            <stop offset="100%" stop-color="#b8860b"/>
-          </linearGradient>
-        </defs>
-      </svg>
-    </div>
-    <h1 style="font-family:'Amiri Quran','Amiri',serif;font-size:1.8rem;font-weight:400;letter-spacing:0;">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ</h1>
-    <p>XUSH KELIBSIZ</p>
-  </header>
+<!-- Particle canvas -->
+<canvas id="db-canvas" aria-hidden="true"></canvas>
 
-  <main class="container">
+<!-- ── Header ──────────────────────────────────────────────── -->
+<header class="db-header">
+  <div class="db-logo" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 54" width="68" height="57">
+      <path d="M3 13 L29 9 L29 47 L3 43 Z" fill="#fef5d4"/>
+      <path d="M35 9 L61 13 L61 43 L35 47 Z" fill="#fef5d4"/>
+      <path d="M29 7.5 Q32 6.5 35 7.5 L35 48.5 Q32 49.5 29 48.5 Z" fill="url(#spineGrad2)"/>
+      <line x1="32" y1="8" x2="32" y2="48" stroke="rgba(255,248,180,0.45)" stroke-width="1"/>
+      <line x1="9"  y1="18"   x2="25" y2="18.6" stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="9"  y1="23.5" x2="25" y2="24.1" stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="9"  y1="29"   x2="25" y2="29.6" stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="9"  y1="34.5" x2="25" y2="35"   stroke="#c4924a" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="14" y1="40"   x2="25" y2="40.4" stroke="#c4924a" stroke-width="1.1" stroke-linecap="round" opacity="0.7"/>
+      <line x1="39" y1="18.6" x2="55" y2="18"   stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="39" y1="24.1" x2="55" y2="23.5" stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="39" y1="29.6" x2="55" y2="29"   stroke="#c4924a" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="39" y1="35"   x2="55" y2="34.5" stroke="#c4924a" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="39" y1="40.4" x2="50" y2="40"   stroke="#c4924a" stroke-width="1.1" stroke-linecap="round" opacity="0.7"/>
+      <path d="M3 43 L29 47 L35 47 L61 43 L61 45.5 L35 49.5 L29 49.5 L3 45.5 Z" fill="rgba(0,0,0,0.18)"/>
+      <path d="M32 2 L34.2 5.5 L32 7.2 L29.8 5.5 Z" fill="#e2b24a"/>
+      <defs>
+        <linearGradient id="spineGrad2" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%"   stop-color="#b8860b"/>
+          <stop offset="45%"  stop-color="#d4a820"/>
+          <stop offset="100%" stop-color="#b8860b"/>
+        </linearGradient>
+      </defs>
+    </svg>
+  </div>
+  <div class="db-bismillah">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ</div>
+  <p class="db-welcome">Xush kelibsiz</p>
+</header>
 
-    <!-- Dashboard cards -->
-    <div class="dash-grid">
+<!-- ── Main content ────────────────────────────────────────── -->
+<main class="db-main">
 
-      <!-- Featured: Qur'on Karim -->
-      <a class="dash-card dash-card-featured" href="/index.html">
-        <div class="dash-card-featured-left">
-          <div class="dash-card-featured-icon">📖</div>
+  <div class="db-section-label">Asosiy bo'limlar</div>
+
+  <div class="db-grid">
+
+    <!-- Featured: Qur'on Karim -->
+    <a class="db-card db-card-featured" href="/index.html" id="card-quran">
+      <div class="ripple-layer"></div>
+      <div class="db-feat-inner">
+        <div class="db-feat-left">
+          <div class="db-feat-icon">📖</div>
           <div>
-            <div class="dash-card-featured-title">Qur'on Karim</div>
-            <div class="dash-card-featured-desc">114 sura · Arabcha va O'zbekcha tarjima</div>
+            <div class="db-feat-title">Qur'on Karim</div>
+            <div class="db-feat-desc">114 sura · Arabcha va O'zbekcha tarjima</div>
           </div>
         </div>
-        <div class="dash-card-featured-arrow">→</div>
+        <div class="db-feat-arrow">→</div>
+      </div>
+    </a>
+
+    <!-- Divider -->
+    <div class="db-divider" aria-hidden="true">
+      <div class="db-divider-line"></div>
+      <div class="db-divider-dot"></div>
+      <div class="db-divider-line"></div>
+    </div>
+
+    <!-- 2×2 secondary grid -->
+    <div class="db-secondary-grid">
+
+      <!-- Hadislar -->
+      <a class="db-card db-card-sec" href="/hadislar.html" id="card-hadis">
+        <div class="ripple-layer"></div>
+        <div class="db-sec-icon-wrap">📜</div>
+        <div class="db-sec-title">Hadislar</div>
+        <div class="db-sec-desc">Sahih Buxoriy, Muslim va boshqa to'plamlar</div>
       </a>
 
-      <!-- 2×2 secondary grid -->
-      <div class="dash-secondary-grid">
+      <!-- Audio (disabled) -->
+      <div class="db-card db-card-sec db-card-disabled" aria-disabled="true">
+        <div class="db-sec-icon-wrap">🎧</div>
+        <div class="db-sec-title">Audio</div>
+        <div class="db-sec-desc">Qur'on qiroatlari</div>
+        <span class="db-badge-soon">Tez orada</span>
+      </div>
 
-        <a class="dash-card dash-card-secondary" href="/hadislar.html">
-          <div class="dash-card-icon-wrap">📜</div>
-          <div class="dash-card-sec-title">Hadislar</div>
-          <div class="dash-card-sec-desc">Sahih Buxoriy, Muslim va boshqa hadis to'plamlari</div>
-        </a>
+      <!-- Sozlamalar -->
+      <a class="db-card db-card-sec" href="/settings.html" id="card-settings">
+        <div class="ripple-layer"></div>
+        <div class="db-sec-icon-wrap">⚙️</div>
+        <div class="db-sec-title">Sozlamalar</div>
+        <div class="db-sec-desc">Mavzu va ko'rinish</div>
+      </a>
 
-        <div class="dash-card dash-card-secondary dash-card-disabled">
-          <div class="dash-card-icon-wrap">🎧</div>
-          <div class="dash-card-sec-title">Audio</div>
-          <div class="dash-card-sec-desc">Qur'on qiroatlari va audio tinglash</div>
-          <span class="dash-badge-soon">Tez orada</span>
-        </div>
+      <!-- Saqlangan oyatlar -->
+      <a class="db-card db-card-sec" href="/bookmarks.html" id="card-bookmarks">
+        <div class="ripple-layer"></div>
+        <div class="db-sec-icon-wrap">🔖</div>
+        <div class="db-sec-title">Saqlangan oyatlar</div>
+        <div class="db-sec-desc">Sevimli oyatlaringiz</div>
+      </a>
 
-        <!-- Sozlamalar: opens settings page -->
-        <a class="dash-card dash-card-secondary" href="/settings.html">
-          <div class="dash-card-icon-wrap">⚙️</div>
-          <div class="dash-card-sec-title">Sozlamalar</div>
-          <div class="dash-card-sec-desc">Mavzu va ko'rinish</div>
-        </a>
+    </div><!-- /.db-secondary-grid -->
 
-        <!-- Saqlangan oyatlar -->
-        <a class="dash-card dash-card-secondary" href="/bookmarks.html">
-          <div class="dash-card-icon-wrap">🔖</div>
-          <div class="dash-card-sec-title">Saqlangan oyatlar</div>
-          <div class="dash-card-sec-desc">Sevimli oyatlaringiz</div>
-        </a>
+  </div><!-- /.db-grid -->
 
-      </div><!-- /.dash-secondary-grid -->
+  <div class="db-footer-phrase">﷽</div>
 
-    </div><!-- /.dash-grid -->
+</main>
 
-  </main>
+<script>
+/* ─── Particle system ────────────────────────────────────────────── */
+(function () {
+  const canvas = document.getElementById("db-canvas");
+  const ctx    = canvas.getContext("2d");
+  let W, H;
 
+  function resize() {
+    W = canvas.width  = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener("resize", resize);
+
+  /* Particle colours: deep greens, golds, soft whites */
+  const PALETTES = [
+    "rgba(80,220,120,",
+    "rgba(50,180,90,",
+    "rgba(200,160,30,",
+    "rgba(220,190,80,",
+    "rgba(140,220,160,",
+    "rgba(255,255,230,"
+  ];
+
+  const PARTICLE_COUNT = 55;
+  const particles = [];
+
+  function rand(a, b) { return a + Math.random() * (b - a); }
+
+  function createParticle(i) {
+    return {
+      x:    rand(0, 1),          // 0-1 fractional
+      y:    rand(0, 1),
+      r:    rand(0.8, 2.2),      // radius px
+      vx:   rand(-0.06, 0.06),
+      vy:   rand(-0.09, -0.02),  // drift upward mostly
+      alpha: rand(0.08, 0.45),
+      targetAlpha: rand(0.08, 0.45),
+      fadeSpeed: rand(0.002, 0.006),
+      color: PALETTES[Math.floor(Math.random() * PALETTES.length)],
+      twinklePhase: rand(0, Math.PI * 2),
+      twinkleSpeed: rand(0.008, 0.025),
+    };
+  }
+
+  for (let i = 0; i < PARTICLE_COUNT; i++) {
+    particles.push(createParticle(i));
+  }
+
+  function tick() {
+    ctx.clearRect(0, 0, W, H);
+
+    for (const p of particles) {
+      p.x += p.vx * 0.003;
+      p.y += p.vy * 0.003;
+      p.twinklePhase += p.twinkleSpeed;
+
+      // twinkle
+      const tw = 0.5 + 0.5 * Math.sin(p.twinklePhase);
+      const a  = p.alpha * (0.55 + 0.45 * tw);
+
+      // wrap
+      if (p.x < 0)  p.x = 1;
+      if (p.x > 1)  p.x = 0;
+      if (p.y < 0)  p.y = 1;
+      if (p.y > 1)  p.y = 0;
+
+      const px = p.x * W;
+      const py = p.y * H;
+
+      // glow
+      ctx.save();
+      const g = ctx.createRadialGradient(px, py, 0, px, py, p.r * 4);
+      g.addColorStop(0, p.color + a + ")");
+      g.addColorStop(1, p.color + "0)");
+      ctx.fillStyle = g;
+      ctx.beginPath();
+      ctx.arc(px, py, p.r * 4, 0, Math.PI * 2);
+      ctx.fill();
+
+      // core dot
+      ctx.fillStyle = p.color + Math.min(a + 0.2, 1) + ")";
+      ctx.beginPath();
+      ctx.arc(px, py, p.r, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.restore();
+    }
+
+    requestAnimationFrame(tick);
+  }
+  tick();
+})();
+
+/* ─── Ripple + pulse on card click ──────────────────────────────── */
+(function () {
+  const cards = document.querySelectorAll(".db-card:not(.db-card-disabled)");
+
+  cards.forEach(card => {
+    card.addEventListener("click", function (e) {
+      const layer = this.querySelector(".ripple-layer");
+      if (!layer) return;
+
+      const rect   = this.getBoundingClientRect();
+      const x      = e.clientX - rect.left;
+      const y      = e.clientY - rect.top;
+      const size   = Math.max(rect.width, rect.height) * 2.2;
+
+      const circle = document.createElement("span");
+      circle.className = "ripple-circle";
+      circle.style.cssText = `
+        width:  ${size}px;
+        height: ${size}px;
+        left:   ${x - size / 2}px;
+        top:    ${y - size / 2}px;
+      `;
+      layer.appendChild(circle);
+
+      // pulse the card border
+      this.classList.add("pulsing");
+
+      // clean up
+      circle.addEventListener("animationend", () => circle.remove());
+      this.addEventListener("animationend", () => {
+        this.classList.remove("pulsing");
+      }, { once: true });
+    });
+  });
+})();
+</script>
 
 </body>
 </html>

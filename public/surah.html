@@ -19,15 +19,8 @@
    Self-contained: own JS handles navigation independently.
    ════════════════════════════════════════════════════════════ */
 
-/* ── Hide on desktop ── */
-@media (min-width: 640px) {
-  #ayah-bottom-nav { display: none !important; }
-}
-
-/* ── Extra body padding so last ayah isn't hidden behind the bar ── */
-@media (max-width: 639px) {
-  body { padding-bottom: 80px; }
-}
+/* ── Body padding so last ayah isn't hidden behind the bar ── */
+body { padding-bottom: 80px; }
 
 /* ── The bar ── */
 #ayah-bottom-nav {

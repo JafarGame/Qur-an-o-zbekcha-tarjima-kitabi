@@ -4604,5 +4604,96 @@
     "chapter_number": 20,
     "arabic_title": "بَابُ بَيْعِ الطَّعَامِ مِثْلًا بِمِثْلٍ",
     "uzbek_title": "Taomni o'xshash miqdorda o'xshashiga sotish"
+  },
+  {
+    "id": "muslim-book-23-chapter-1",
+    "book_id": 23,
+    "chapter_number": 1,
+    "arabic_title": "بَابُ أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا فَمَا بَقِيَ فَلِأَوْلَى رَجُلٍ ذَكَرٍ",
+    "uzbek_title": "Ulushlarni egallariga bering, qolgani eng yaqin erkaklarnikidир"
+  },
+  {
+    "id": "muslim-book-23-chapter-2",
+    "book_id": 23,
+    "chapter_number": 2,
+    "arabic_title": "بَابُ مِيرَاثِ الْكَلَالَةِ",
+    "uzbek_title": "Kalola (farzandsiz va otasiz vafot etgan kishi) merosi"
+  },
+  {
+    "id": "muslim-book-23-chapter-3",
+    "book_id": 23,
+    "chapter_number": 3,
+    "arabic_title": "بَابُ مِيرَاثِ الْعَصَبَةِ",
+    "uzbek_title": "Asaba (ota tomondan erkak qarindosh)ning merosi"
+  },
+  {
+    "id": "muslim-book-23-chapter-4",
+    "book_id": 23,
+    "chapter_number": 4,
+    "arabic_title": "بَابُ مِيرَاثِ الْجَدِّ وَالْإِخْوَةِ",
+    "uzbek_title": "Bobo va aka-ukalar merosi"
+  },
+  {
+    "id": "muslim-book-23-chapter-5",
+    "book_id": 23,
+    "chapter_number": 5,
+    "arabic_title": "بَابُ مِيرَاثِ الْأَخَوَاتِ مَعَ الْبَنَاتِ",
+    "uzbek_title": "Qizlar bilan birga singillarning merosi"
+  },
+  {
+    "id": "muslim-book-23-chapter-6",
+    "book_id": 23,
+    "chapter_number": 6,
+    "arabic_title": "بَابُ مِيرَاثِ الْمَرْأَةِ مَعَ وَلَدِهَا",
+    "uzbek_title": "Ayolning farzandlari bilan birga merosi"
+  },
+  {
+    "id": "muslim-book-23-chapter-7",
+    "book_id": 23,
+    "chapter_number": 7,
+    "arabic_title": "بَابُ مِيرَاثِ الْمَوَالِي",
+    "uzbek_title": "Ozod qilingan qullarning (mavlolar) merosi"
+  },
+  {
+    "id": "muslim-book-23-chapter-8",
+    "book_id": 23,
+    "chapter_number": 8,
+    "arabic_title": "بَابُ مِيرَاثِ مَنْ لَا وَارِثَ لَهُ",
+    "uzbek_title": "Merosxo'ri yo'q kishining merosi"
+  },
+  {
+    "id": "muslim-book-23-chapter-9",
+    "book_id": 23,
+    "chapter_number": 9,
+    "arabic_title": "بَابُ مِيرَاثِ الْوَلَدِ مِنْ أَبِيهِ وَالْأَبِ مِنَ الْوَلَدِ",
+    "uzbek_title": "Farzandning otasidan va otaning farzandidan merosi"
+  },
+  {
+    "id": "muslim-book-23-chapter-10",
+    "book_id": 23,
+    "chapter_number": 10,
+    "arabic_title": "بَابُ مِيرَاثِ الزَّوْجَيْنِ",
+    "uzbek_title": "Er va xotinning bir-biridan merosi"
+  },
+  {
+    "id": "muslim-book-23-chapter-11",
+    "book_id": 23,
+    "chapter_number": 11,
+    "arabic_title": "بَابُ مِيرَاثِ ابْنِ الِابْنِ",
+    "uzbek_title": "Nabiraning (o'g'il o'g'lining) merosi"
+  },
+  {
+    "id": "muslim-book-23-chapter-12",
+    "book_id": 23,
+    "chapter_number": 12,
+    "arabic_title": "بَابُ تَوْرِيثِ الْمُسْلِمِينَ دُونَ الْكُفَّارِ",
+    "uzbek_title": "Musulmon kofirlarga meros qoldirmasligi va kofire muslimga meros qoldirmasligi"
+  },
+  {
+    "id": "muslim-book-23-chapter-13",
+    "book_id": 23,
+    "chapter_number": 13,
+    "arabic_title": "بَابُ تَحْرِيمِ مِيرَاثِ الْقَاتِلِ",
+    "uzbek_title": "Qotilning meros olish huquqidan mahrum bo'lishi"
   }
 ]

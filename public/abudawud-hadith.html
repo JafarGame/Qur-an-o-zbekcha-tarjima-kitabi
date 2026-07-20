@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sunan Abu Dovud | QUR'AN KARIM</title>
+<meta name="description" content="Sunan Abu Dovud — bob hadislari." />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css" />
+<script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>
+<style>
+  .mh-chapter-card {
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 28px 24px 22px;
+    box-shadow: var(--shadow);
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .mh-chapter-card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-gold));
+  }
+
+  .mh-chapter-num {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-primary-dark);
+    background: rgba(15,81,50,0.09);
+    padding: 4px 14px;
+    border-radius: 999px;
+    margin-bottom: 18px;
+  }
+
+  html.dark .mh-chapter-num {
+    color: #a0d4b0;
+    background: rgba(15,81,50,0.2);
+  }
+
+  .mh-chapter-arabic {
+    font-family: "Amiri", serif;
+    font-size: clamp(1.3rem, 4vw, 1.8rem);
+    direction: rtl;
+    color: var(--color-gold);
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+
+  .mh-chapter-uzbek {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-primary-dark);
+    line-height: 1.5;
+  }
+
+  html.dark .mh-chapter-uzbek {
+    color: #c8d4c0;
+  }
+
+  .mh-soon-block {
+    background: var(--color-bg-alt);
+    border: 1px dashed var(--color-border);
+    border-radius: var(--radius);
+    padding: 48px 24px;
+    text-align: center;
+    box-shadow: var(--shadow);
+  }
+
+  .mh-soon-icon {
+    font-size: 3rem;
+    margin-bottom: 16px;
+    line-height: 1;
+    opacity: 0.75;
+  }
+
+  .mh-soon-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 8px;
+  }
+
+  .mh-soon-desc {
+    font-size: 0.88rem;
+    color: var(--color-muted);
+    line-height: 1.65;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .mh-breadcrumb {
+    font-size: 0.78rem;
+    color: rgba(253,250,240,0.7);
+    margin-bottom: 2px;
+  }
+</style>
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="back-link" id="backLink" href="/abudawud-books.html">← Boblari</a>
+    <h1 id="pageTitle">Yuklanmoqda…</h1>
+  </header>
+
+  <div class="hl-info-bar" id="infoBar" hidden>
+    <div>
+      <div class="mh-breadcrumb" id="infoBreadcrumb"></div>
+      <div class="hl-info-arabic" id="infoArabic"></div>
+    </div>
+    <div class="hl-info-meta">
+      <span class="hl-info-chip" id="infoChip"></span>
+    </div>
+  </div>
+
+  <main class="container">
+
+    <div class="mh-chapter-card" id="chapterCard" hidden>
+      <div class="mh-chapter-num" id="chapterNum"></div>
+      <div class="mh-chapter-arabic" id="chapterArabic"></div>
+      <div class="mh-chapter-uzbek"  id="chapterUzbek"></div>
+    </div>
+
+    <div class="mh-soon-block" id="soonBlock" hidden>
+      <div class="mh-soon-icon">📖</div>
+      <div class="mh-soon-title">Hadislar tez orada qo'shiladi</div>
+      <div class="mh-soon-desc">
+        Bu bob uchun hadislar hozirda tayyorlanmoqda. Iltimos, keyinroq qaytib keling.
+      </div>
+    </div>
+
+    <div class="state-msg" id="errorMsg" hidden></div>
+
+  </main>
+
+  <script>
+  (function () {
+    const params     = new URLSearchParams(window.location.search);
+    const bookNum    = parseInt(params.get("book"),    10);
+    const chapterNum = parseInt(params.get("chapter"), 10);
+
+    const backLink       = document.getElementById("backLink");
+    const pageTitle      = document.getElementById("pageTitle");
+    const infoBar        = document.getElementById("infoBar");
+    const infoBreadcrumb = document.getElementById("infoBreadcrumb");
+    const infoArabic     = document.getElementById("infoArabic");
+    const infoChip       = document.getElementById("infoChip");
+    const chapterCard    = document.getElementById("chapterCard");
+    const chapterNumEl   = document.getElementById("chapterNum");
+    const chapterArabic  = document.getElementById("chapterArabic");
+    const chapterUzbek   = document.getElementById("chapterUzbek");
+    const soonBlock      = document.getElementById("soonBlock");
+    const errorMsg       = document.getElementById("errorMsg");
+
+    function showError(msg) {
+      pageTitle.textContent = "Xatolik";
+      errorMsg.textContent  = msg;
+      errorMsg.hidden = false;
+    }
+
+    if (!bookNum || !chapterNum) {
+      showError("Bob topilmadi.");
+      return;
+    }
+
+    backLink.href = "/abudawud-chapters.html?book=" + bookNum;
+
+    Promise.all([
+      fetch("/data/hadith/abudawud-books.json").then(r => { if (!r.ok) throw new Error(); return r.json(); }),
+      fetch("/data/hadith/abudawud-chapters.json").then(r => { if (!r.ok) throw new Error(); return r.json(); })
+    ])
+    .then(([books, allChapters]) => {
+      const book = books.find(b => b.book_number === bookNum);
+      if (!book) { showError("Bunday kitob mavjud emas."); return; }
+
+      const chapter = allChapters.find(
+        ch => ch.book_id === bookNum && ch.chapter_number === chapterNum
+      );
+      if (!chapter) { showError("Bunday bob mavjud emas."); return; }
+
+      document.title        = chapter.uzbek_title + " | Sunan Abu Dovud";
+      pageTitle.textContent = bookNum + "-kitob, " + chapterNum + "-bob";
+
+      infoBreadcrumb.textContent = book.uzbek_title + " · " + bookNum + "-kitob";
+      infoArabic.textContent     = chapter.arabic_title;
+      infoChip.textContent       = chapterNum + "-bob";
+      infoBar.hidden = false;
+
+      chapterNumEl.textContent  = chapterNum + "-bob";
+      chapterArabic.textContent = chapter.arabic_title;
+      chapterUzbek.textContent  = chapter.uzbek_title;
+      chapterCard.hidden = false;
+
+      soonBlock.hidden = false;
+    })
+    .catch(() => {
+      showError("Ma'lumotlarni yuklashda xatolik yuz berdi.");
+    });
+  })();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,4552 @@
+[
+  {
+    "arabic_title": "بَابُ مَا جَاءَ لَا تُقْبَلُ صَلَاةٌ بِغَيْرِ طَهُورٍ",
+    "book_id": 1,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-1-chapter-1",
+    "uzbek_title": "Tahoratsiz namoz qabul bo'lmasligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ مِفْتَاحَ الصَّلَاةِ الطَّهُورُ",
+    "book_id": 1,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-1-chapter-2",
+    "uzbek_title": "Namozning kaliti tahorat ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الطَّهُورِ",
+    "book_id": 1,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-1-chapter-3",
+    "uzbek_title": "Tahoratning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْمَاءِ لَا يُنَجِّسُهُ شَيْءٌ",
+    "book_id": 1,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-1-chapter-4",
+    "uzbek_title": "Hech narsa iflos qilmaydigan suv haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي بِئْرِ بُضَاعَةَ",
+    "book_id": 1,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-1-chapter-5",
+    "uzbek_title": "Buda'a qudug'i haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ الْمَاءَ لَا يُنَجِّسُهُ شَيْءٌ إِلَّا مَا غَلَبَ عَلَى رِيحِهِ",
+    "book_id": 1,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-1-chapter-6",
+    "uzbek_title": "Hidi o'zgargan suvning najas bo'lishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوُضُوءِ بِالنَّبِيذِ",
+    "book_id": 1,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-1-chapter-7",
+    "uzbek_title": "Nabiz bilan tahorat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي سُؤْرِ الْهِرَّةِ",
+    "book_id": 1,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-1-chapter-8",
+    "uzbek_title": "Mushuk qoldiqlaridan tahorat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي سُؤْرِ الْحِمَارِ",
+    "book_id": 1,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-1-chapter-9",
+    "uzbek_title": "Eshak suvining qoldig'i haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي سُؤْرِ الْكَلْبِ",
+    "book_id": 1,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-1-chapter-10",
+    "uzbek_title": "It so'lagining hukmi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوُضُوءِ مِنَ الرِّيحِ",
+    "book_id": 1,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-1-chapter-11",
+    "uzbek_title": "Shamoldan tahorat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّهُ لَا وُضُوءَ إِلَّا مِنْ حَدَثٍ",
+    "book_id": 1,
+    "chapter_number": 12,
+    "id": "tirmidhi-book-1-chapter-12",
+    "uzbek_title": "Faqat hadastandagina tahorat lozimligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوُضُوءِ مِنَ النَّوْمِ",
+    "book_id": 1,
+    "chapter_number": 13,
+    "id": "tirmidhi-book-1-chapter-13",
+    "uzbek_title": "Uyqudan keyin tahorat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ الْعَيْنَيْنِ وِكَاءُ السَّهِ",
+    "book_id": 1,
+    "chapter_number": 14,
+    "id": "tirmidhi-book-1-chapter-14",
+    "uzbek_title": "Ko'zlar — orqa teshigining bog'i ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوُضُوءِ مِنَ الْقَيْءِ وَالرُّعَافِ",
+    "book_id": 1,
+    "chapter_number": 15,
+    "id": "tirmidhi-book-1-chapter-15",
+    "uzbek_title": "Qusish va burun qonashidan tahorat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوُضُوءِ مِنَ الْمَسِّ",
+    "book_id": 1,
+    "chapter_number": 16,
+    "id": "tirmidhi-book-1-chapter-16",
+    "uzbek_title": "Ayolga tegishdan tahorat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي تَرْكِ الْوُضُوءِ مِمَّا مَسَّتِ النَّارُ",
+    "book_id": 1,
+    "chapter_number": 17,
+    "id": "tirmidhi-book-1-chapter-17",
+    "uzbek_title": "O'tda pishgan narsadan tahorat qilmaslik haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوُضُوءِ مِمَّا مَسَّتِ النَّارُ",
+    "book_id": 1,
+    "chapter_number": 18,
+    "id": "tirmidhi-book-1-chapter-18",
+    "uzbek_title": "O'tda pishgan narsadan tahorat qilish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوُضُوءِ مِنَ الدَّمِ",
+    "book_id": 1,
+    "chapter_number": 19,
+    "id": "tirmidhi-book-1-chapter-19",
+    "uzbek_title": "Qondan tahorat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوُضُوءِ مِنَ الْقَهْقَهَةِ",
+    "book_id": 1,
+    "chapter_number": 20,
+    "id": "tirmidhi-book-1-chapter-20",
+    "uzbek_title": "Namozda qattiq kulishdan tahorat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّلَاةِ بِوُضُوءٍ وَاحِدٍ",
+    "book_id": 1,
+    "chapter_number": 21,
+    "id": "tirmidhi-book-1-chapter-21",
+    "uzbek_title": "Bir tahorat bilan bir necha namoz o'qish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوُضُوءِ لِكُلِّ صَلَاةٍ",
+    "book_id": 1,
+    "chapter_number": 22,
+    "id": "tirmidhi-book-1-chapter-22",
+    "uzbek_title": "Har namoz uchun tahorat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّسْمِيَةِ عِنْدَ الْوُضُوءِ",
+    "book_id": 1,
+    "chapter_number": 23,
+    "id": "tirmidhi-book-1-chapter-23",
+    "uzbek_title": "Tahoratda bismillah deyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الِاسْتِنْثَارِ",
+    "book_id": 1,
+    "chapter_number": 24,
+    "id": "tirmidhi-book-1-chapter-24",
+    "uzbek_title": "Burunni yuvish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي السِّوَاكِ",
+    "book_id": 1,
+    "chapter_number": 25,
+    "id": "tirmidhi-book-1-chapter-25",
+    "uzbek_title": "Misvak haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي السِّوَاكِ لِلصَّائِمِ",
+    "book_id": 1,
+    "chapter_number": 26,
+    "id": "tirmidhi-book-1-chapter-26",
+    "uzbek_title": "Ro'zadordagi misvak haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي السِّوَاكِ إِذَا قَامَ مِنَ اللَّيْلِ",
+    "book_id": 1,
+    "chapter_number": 27,
+    "id": "tirmidhi-book-1-chapter-27",
+    "uzbek_title": "Kechasi turganida misvak haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْمَضْمَضَةِ وَالِاسْتِنْشَاقِ",
+    "book_id": 1,
+    "chapter_number": 28,
+    "id": "tirmidhi-book-1-chapter-28",
+    "uzbek_title": "Og'iz va burunni chayish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الِاسْتِنْجَاءِ بِالْحِجَارَةِ",
+    "book_id": 1,
+    "chapter_number": 29,
+    "id": "tirmidhi-book-1-chapter-29",
+    "uzbek_title": "Tosh bilan istinja haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّهْيِ عَنِ الِاسْتِنْجَاءِ بِالْيَمِينِ",
+    "book_id": 1,
+    "chapter_number": 30,
+    "id": "tirmidhi-book-1-chapter-30",
+    "uzbek_title": "O'ng qo'l bilan istinja qilishning man etilishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الِاسْتِنْجَاءِ بِالْمَاءِ",
+    "book_id": 1,
+    "chapter_number": 31,
+    "id": "tirmidhi-book-1-chapter-31",
+    "uzbek_title": "Suv bilan istinja haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّخَلِّي وَالِاتِّقَاءِ",
+    "book_id": 1,
+    "chapter_number": 32,
+    "id": "tirmidhi-book-1-chapter-32",
+    "uzbek_title": "Hojat chiqarishda ehtiyot bo'lish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي كَرَاهِيَةِ اسْتِقْبَالِ الْقِبْلَةِ",
+    "book_id": 1,
+    "chapter_number": 33,
+    "id": "tirmidhi-book-1-chapter-33",
+    "uzbek_title": "Qiblaga yuzlanishning maqruh ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِيمَنْ يَمَسُّ فَرْجَهُ",
+    "book_id": 1,
+    "chapter_number": 34,
+    "id": "tirmidhi-book-1-chapter-34",
+    "uzbek_title": "Avrat yeriga qo'l tegizgan kishining tahorati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْمَسْحِ عَلَى الْخُفَّيْنِ",
+    "book_id": 1,
+    "chapter_number": 35,
+    "id": "tirmidhi-book-1-chapter-35",
+    "uzbek_title": "Mahsi ustida masih tortish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْمَسْحِ عَلَى الْخُفَّيْنِ لِلْمُسَافِرِ وَالْمُقِيمِ",
+    "book_id": 1,
+    "chapter_number": 36,
+    "id": "tirmidhi-book-1-chapter-36",
+    "uzbek_title": "Musofir va muqim uchun mahsi masih haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْمَسْحِ عَلَى الْجَوْرَبَيْنِ",
+    "book_id": 1,
+    "chapter_number": 37,
+    "id": "tirmidhi-book-1-chapter-37",
+    "uzbek_title": "Jurrab ustida masih haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْمَسْحِ عَلَى الْعِمَامَةِ",
+    "book_id": 1,
+    "chapter_number": 38,
+    "id": "tirmidhi-book-1-chapter-38",
+    "uzbek_title": "Salla ustida masih haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّيَمُّمِ",
+    "book_id": 1,
+    "chapter_number": 39,
+    "id": "tirmidhi-book-1-chapter-39",
+    "uzbek_title": "Tayammum haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ التَّيَمُّمَ ضَرْبَةٌ وَاحِدَةٌ",
+    "book_id": 1,
+    "chapter_number": 40,
+    "id": "tirmidhi-book-1-chapter-40",
+    "uzbek_title": "Tayammum bir zarb ekanligini haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ الصَّعِيدَ الطَّيِّبَ طَهُورُ الْمُسْلِمِ",
+    "book_id": 1,
+    "chapter_number": 41,
+    "id": "tirmidhi-book-1-chapter-41",
+    "uzbek_title": "Pak tuproq musulmonning tahorati ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْغُسْلِ مِنَ الْجَنَابَةِ",
+    "book_id": 1,
+    "chapter_number": 42,
+    "id": "tirmidhi-book-1-chapter-42",
+    "uzbek_title": "Janobatdan g'usl haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ تَحْتَ كُلِّ شَعَرَةٍ جَنَابَةً",
+    "book_id": 1,
+    "chapter_number": 43,
+    "id": "tirmidhi-book-1-chapter-43",
+    "uzbek_title": "Har tuk ostida janobat bo'lishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرَّجُلِ يَغْتَسِلُ جُنُبًا",
+    "book_id": 1,
+    "chapter_number": 44,
+    "id": "tirmidhi-book-1-chapter-44",
+    "uzbek_title": "Junub kishi g'usl qilishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي اغْتِسَالِ الرَّجُلِ وَالْمَرْأَةِ مِنْ إِنَاءٍ وَاحِدٍ",
+    "book_id": 1,
+    "chapter_number": 45,
+    "id": "tirmidhi-book-1-chapter-45",
+    "uzbek_title": "Erkak va ayol bir idishdan g'usl qilishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الِاغْتِسَالِ مِنَ الْجُمُعَةِ",
+    "book_id": 1,
+    "chapter_number": 46,
+    "id": "tirmidhi-book-1-chapter-46",
+    "uzbek_title": "Juma kuni g'usl haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الِاغْتِسَالِ مِنَ الْحِجَامَةِ",
+    "book_id": 1,
+    "chapter_number": 47,
+    "id": "tirmidhi-book-1-chapter-47",
+    "uzbek_title": "Hajamadan so'ng g'usl haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي غُسْلِ يَوْمِ الْعِيدَيْنِ",
+    "book_id": 1,
+    "chapter_number": 48,
+    "id": "tirmidhi-book-1-chapter-48",
+    "uzbek_title": "Ikki hayit kunida g'usl haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الِاغْتِسَالِ عِنْدَ الْإِحْرَامِ",
+    "book_id": 1,
+    "chapter_number": 49,
+    "id": "tirmidhi-book-1-chapter-49",
+    "uzbek_title": "Ihromda g'usl haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْحَائِضِ تَقْرَأُ الْقُرْآنَ",
+    "book_id": 1,
+    "chapter_number": 50,
+    "id": "tirmidhi-book-1-chapter-50",
+    "uzbek_title": "Hayzli ayol Qur'on o'qishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْحَائِضِ أَنَّهَا تَقْضِي الصِّيَامَ",
+    "book_id": 1,
+    "chapter_number": 51,
+    "id": "tirmidhi-book-1-chapter-51",
+    "uzbek_title": "Hayzli ayol ro'zaning qazosini o'tashi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي مُجَامَعَةِ الْحَائِضِ",
+    "book_id": 1,
+    "chapter_number": 52,
+    "id": "tirmidhi-book-1-chapter-52",
+    "uzbek_title": "Hayzli ayol bilan yaqinlik qilish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرَّجُلِ يَمَسُّ امْرَأَتَهُ وَهِيَ حَائِضٌ",
+    "book_id": 1,
+    "chapter_number": 53,
+    "id": "tirmidhi-book-1-chapter-53",
+    "uzbek_title": "Hayzli ayolga qo'l tegizish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الِاغْتِسَالِ مِنَ الْحَيْضِ",
+    "book_id": 1,
+    "chapter_number": 54,
+    "id": "tirmidhi-book-1-chapter-54",
+    "uzbek_title": "Hayz tugagach g'usl haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْمُسْتَحَاضَةِ",
+    "book_id": 1,
+    "chapter_number": 55,
+    "id": "tirmidhi-book-1-chapter-55",
+    "uzbek_title": "Mustahadza ayol haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْمَنِيِّ يُصِيبُ الثَّوْبَ",
+    "book_id": 1,
+    "chapter_number": 56,
+    "id": "tirmidhi-book-1-chapter-56",
+    "uzbek_title": "Kiyimga mani tegishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي مَوَاقِيتِ الصَّلَاةِ",
+    "book_id": 2,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-2-chapter-1",
+    "uzbek_title": "Namoz vaqtlari haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي وَقْتِ الظُّهْرِ",
+    "book_id": 2,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-2-chapter-2",
+    "uzbek_title": "Peshin namozi vaqti haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي وَقْتِ الْعَصْرِ",
+    "book_id": 2,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-2-chapter-3",
+    "uzbek_title": "Asr namozi vaqti haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي وَقْتِ الْمَغْرِبِ",
+    "book_id": 2,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-2-chapter-4",
+    "uzbek_title": "Shom namozi vaqti haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي وَقْتِ الْعِشَاءِ",
+    "book_id": 2,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-2-chapter-5",
+    "uzbek_title": "Xufton namozi vaqti haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي وَقْتِ الْفَجْرِ",
+    "book_id": 2,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-2-chapter-6",
+    "uzbek_title": "Bomdod namozi vaqti haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّلَاةِ فِي الثَّوْبِ الْوَاحِدِ",
+    "book_id": 2,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-2-chapter-7",
+    "uzbek_title": "Bir kiyimda namoz o'qish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّلَاةِ بِغَيْرِ رِدَاءٍ",
+    "book_id": 2,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-2-chapter-8",
+    "uzbek_title": "Ridosiz namoz o'qish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّلَاةِ فِي النِّعَالِ",
+    "book_id": 2,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-2-chapter-9",
+    "uzbek_title": "Sandal bilan namoz o'qish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي افْتِتَاحِ الصَّلَاةِ بِالتَّكْبِيرِ",
+    "book_id": 2,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-2-chapter-10",
+    "uzbek_title": "Namozni takbir bilan boshlash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي رَفْعِ الْيَدَيْنِ عِنْدَ الِافْتِتَاحِ",
+    "book_id": 2,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-2-chapter-11",
+    "uzbek_title": "Namoz boshida qo'l ko'tarish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي وَضْعِ الْيَمِينِ عَلَى الشِّمَالِ",
+    "book_id": 2,
+    "chapter_number": 12,
+    "id": "tirmidhi-book-2-chapter-12",
+    "uzbek_title": "Namozda o'ng qo'lni chapga qo'yish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الاسْتِفْتَاحِ بِدُعَاءٍ",
+    "book_id": 2,
+    "chapter_number": 13,
+    "id": "tirmidhi-book-2-chapter-13",
+    "uzbek_title": "Namozni dua bilan boshlash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّعَوُّذِ عِنْدَ افْتِتَاحِ الصَّلَاةِ",
+    "book_id": 2,
+    "chapter_number": 14,
+    "id": "tirmidhi-book-2-chapter-14",
+    "uzbek_title": "Namoz boshida ta'avvuz haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّسْمِيَةِ فِي أَوَّلِ الصَّلَاةِ",
+    "book_id": 2,
+    "chapter_number": 15,
+    "id": "tirmidhi-book-2-chapter-15",
+    "uzbek_title": "Namoz boshida bismillah deyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الْفَاتِحَةِ",
+    "book_id": 2,
+    "chapter_number": 16,
+    "id": "tirmidhi-book-2-chapter-16",
+    "uzbek_title": "Fotiha surasining fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّهُ لَا صَلَاةَ إِلَّا بِفَاتِحَةِ الْكِتَابِ",
+    "book_id": 2,
+    "chapter_number": 17,
+    "id": "tirmidhi-book-2-chapter-17",
+    "uzbek_title": "Fotihasiz namoz bo'lmasligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّأْمِينِ",
+    "book_id": 2,
+    "chapter_number": 18,
+    "id": "tirmidhi-book-2-chapter-18",
+    "uzbek_title": "Omin deyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْقِرَاءَةِ فِي صَلَاةِ الصُّبْحِ",
+    "book_id": 2,
+    "chapter_number": 19,
+    "id": "tirmidhi-book-2-chapter-19",
+    "uzbek_title": "Bomdod namozida qiroat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْقِرَاءَةِ فِي صَلَاةِ الظُّهْرِ وَالْعَصْرِ",
+    "book_id": 2,
+    "chapter_number": 20,
+    "id": "tirmidhi-book-2-chapter-20",
+    "uzbek_title": "Peshin va asrda qiroat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْقِرَاءَةِ فِي الْمَغْرِبِ",
+    "book_id": 2,
+    "chapter_number": 21,
+    "id": "tirmidhi-book-2-chapter-21",
+    "uzbek_title": "Shomda qiroat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْقِرَاءَةِ فِي الْعِشَاءِ",
+    "book_id": 2,
+    "chapter_number": 22,
+    "id": "tirmidhi-book-2-chapter-22",
+    "uzbek_title": "Xufton namozida qiroat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرُّكُوعِ",
+    "book_id": 2,
+    "chapter_number": 23,
+    "id": "tirmidhi-book-2-chapter-23",
+    "uzbek_title": "Ruku' haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي رَفْعِ الْيَدَيْنِ عِنْدَ الرُّكُوعِ",
+    "book_id": 2,
+    "chapter_number": 24,
+    "id": "tirmidhi-book-2-chapter-24",
+    "uzbek_title": "Ruku'da qo'l ko'tarish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّسْبِيحِ فِي الرُّكُوعِ وَالسُّجُودِ",
+    "book_id": 2,
+    "chapter_number": 25,
+    "id": "tirmidhi-book-2-chapter-25",
+    "uzbek_title": "Ruku' va sajdada tasbih haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الِاعْتِدَالِ فِي الرُّكُوعِ",
+    "book_id": 2,
+    "chapter_number": 26,
+    "id": "tirmidhi-book-2-chapter-26",
+    "uzbek_title": "Ruku'da to'g'ri turish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي السُّجُودِ عَلَى سَبْعَةِ أَعْضَاءٍ",
+    "book_id": 2,
+    "chapter_number": 27,
+    "id": "tirmidhi-book-2-chapter-27",
+    "uzbek_title": "Yetti a'zo bilan sajda qilish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدُّعَاءِ فِي السُّجُودِ",
+    "book_id": 2,
+    "chapter_number": 28,
+    "id": "tirmidhi-book-2-chapter-28",
+    "uzbek_title": "Sajdadagi dua haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الِاعْتِدَالِ فِي السُّجُودِ",
+    "book_id": 2,
+    "chapter_number": 29,
+    "id": "tirmidhi-book-2-chapter-29",
+    "uzbek_title": "Sajdada mo'tadil bo'lish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّكْبِيرِ عِنْدَ الرُّكُوعِ وَالسُّجُودِ",
+    "book_id": 2,
+    "chapter_number": 30,
+    "id": "tirmidhi-book-2-chapter-30",
+    "uzbek_title": "Ruku' va sajdada takbir haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّشَهُّدِ",
+    "book_id": 2,
+    "chapter_number": 31,
+    "id": "tirmidhi-book-2-chapter-31",
+    "uzbek_title": "Tashahhud haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّلَاةِ عَلَى النَّبِيِّ صلى الله عليه وسلم",
+    "book_id": 2,
+    "chapter_number": 32,
+    "id": "tirmidhi-book-2-chapter-32",
+    "uzbek_title": "Nabiy ﷺ ga salavot haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّسْلِيمِ فِي الصَّلَاةِ",
+    "book_id": 2,
+    "chapter_number": 33,
+    "id": "tirmidhi-book-2-chapter-33",
+    "uzbek_title": "Namozda salom berish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدُّعَاءِ بَعْدَ التَّشَهُّدِ",
+    "book_id": 2,
+    "chapter_number": 34,
+    "id": "tirmidhi-book-2-chapter-34",
+    "uzbek_title": "Tashahhudddan keyin dua haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدُّعَاءِ بَعْدَ الصَّلَاةِ",
+    "book_id": 2,
+    "chapter_number": 35,
+    "id": "tirmidhi-book-2-chapter-35",
+    "uzbek_title": "Namozdan so'ng dua haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي سُتْرَةِ الْمُصَلِّي",
+    "book_id": 2,
+    "chapter_number": 36,
+    "id": "tirmidhi-book-2-chapter-36",
+    "uzbek_title": "Namoz o'quvchi uchun sutra haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِيمَا يَقْطَعُ الصَّلَاةَ",
+    "book_id": 2,
+    "chapter_number": 37,
+    "id": "tirmidhi-book-2-chapter-37",
+    "uzbek_title": "Namozni uzadigan narsalar haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الِالْتِفَاتِ فِي الصَّلَاةِ",
+    "book_id": 2,
+    "chapter_number": 38,
+    "id": "tirmidhi-book-2-chapter-38",
+    "uzbek_title": "Namozda u yoq bu yoqqa qarash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صَلَاةِ الْقَاعِدِ",
+    "book_id": 2,
+    "chapter_number": 39,
+    "id": "tirmidhi-book-2-chapter-39",
+    "uzbek_title": "O'tirib namoz o'qish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّلَاةِ عَلَى الرَّاحِلَةِ",
+    "book_id": 2,
+    "chapter_number": 40,
+    "id": "tirmidhi-book-2-chapter-40",
+    "uzbek_title": "Minib yurgan holda namoz o'qish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صَلَاةِ الْخَوْفِ",
+    "book_id": 2,
+    "chapter_number": 41,
+    "id": "tirmidhi-book-2-chapter-41",
+    "uzbek_title": "Xavf namozi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي إِتْمَامِ الصَّلَاةِ خَلْفَ الْإِمَامِ",
+    "book_id": 2,
+    "chapter_number": 42,
+    "id": "tirmidhi-book-2-chapter-42",
+    "uzbek_title": "Imom ortida namozni to'liq o'qish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي إِقَامَةِ الصُّفُوفِ",
+    "book_id": 2,
+    "chapter_number": 43,
+    "id": "tirmidhi-book-2-chapter-43",
+    "uzbek_title": "Saflarni to'g'irlash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الصَّفِّ الْأَوَّلِ",
+    "book_id": 2,
+    "chapter_number": 44,
+    "id": "tirmidhi-book-2-chapter-44",
+    "uzbek_title": "Birinchi safning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّلَاةِ بَيْنَ الْأَذَانِ وَالْإِقَامَةِ",
+    "book_id": 2,
+    "chapter_number": 45,
+    "id": "tirmidhi-book-2-chapter-45",
+    "uzbek_title": "Azon va iqoma orasida namoz haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ صَلَاةِ الْجَمَاعَةِ",
+    "book_id": 2,
+    "chapter_number": 46,
+    "id": "tirmidhi-book-2-chapter-46",
+    "uzbek_title": "Jamoa namozining fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الْعِشَاءِ وَالصُّبْحِ فِي الْجَمَاعَةِ",
+    "book_id": 2,
+    "chapter_number": 47,
+    "id": "tirmidhi-book-2-chapter-47",
+    "uzbek_title": "Xufton va bomdod jamoasining fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْأَذَانِ",
+    "book_id": 2,
+    "chapter_number": 48,
+    "id": "tirmidhi-book-2-chapter-48",
+    "uzbek_title": "Azon haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي بَدْءِ الْأَذَانِ",
+    "book_id": 2,
+    "chapter_number": 49,
+    "id": "tirmidhi-book-2-chapter-49",
+    "uzbek_title": "Azonning boshlanishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ مَا يَقُولُ إِذَا أَذَّنَ الْمُؤَذِّنُ",
+    "book_id": 2,
+    "chapter_number": 50,
+    "id": "tirmidhi-book-2-chapter-50",
+    "uzbek_title": "Azon eshitilganda nima deyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي إِقَامَةِ الصَّلَاةِ",
+    "book_id": 2,
+    "chapter_number": 51,
+    "id": "tirmidhi-book-2-chapter-51",
+    "uzbek_title": "Namoz iqomasi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الصَّلَاةِ فِي الْمَسْجِدِ الْحَرَامِ",
+    "book_id": 2,
+    "chapter_number": 52,
+    "id": "tirmidhi-book-2-chapter-52",
+    "uzbek_title": "Masjid al-Haramda namozning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صَلَاةِ الضُّحَى",
+    "book_id": 2,
+    "chapter_number": 53,
+    "id": "tirmidhi-book-2-chapter-53",
+    "uzbek_title": "Zuha namozi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صَلَاةِ اللَّيْلِ",
+    "book_id": 2,
+    "chapter_number": 54,
+    "id": "tirmidhi-book-2-chapter-54",
+    "uzbek_title": "Tungi namoz haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي قِيَامِ شَهْرِ رَمَضَانَ",
+    "book_id": 2,
+    "chapter_number": 55,
+    "id": "tirmidhi-book-2-chapter-55",
+    "uzbek_title": "Ramazon oyida kechasi namoz o'qish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ النَّافِلَةِ فِي الْبَيْتِ",
+    "book_id": 2,
+    "chapter_number": 56,
+    "id": "tirmidhi-book-2-chapter-56",
+    "uzbek_title": "Nafl namozini uyda o'qishning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي إِعَادَةِ الصَّلَاةِ مَعَ الْإِمَامِ",
+    "book_id": 2,
+    "chapter_number": 57,
+    "id": "tirmidhi-book-2-chapter-57",
+    "uzbek_title": "Imom bilan namozni qayta o'qish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي قَضَاءِ الصَّلَاةِ",
+    "book_id": 2,
+    "chapter_number": 58,
+    "id": "tirmidhi-book-2-chapter-58",
+    "uzbek_title": "Namozni qazosi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّلَاةِ تَكُونُ قَضَاءً لِمَنْ نَسِيَ",
+    "book_id": 2,
+    "chapter_number": 59,
+    "id": "tirmidhi-book-2-chapter-59",
+    "uzbek_title": "Namozni unutgan kishining qazosi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوِتْرِ",
+    "book_id": 3,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-3-chapter-1",
+    "uzbek_title": "Vitr namozi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ الْوِتْرَ رَكْعَةٌ",
+    "book_id": 3,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-3-chapter-2",
+    "uzbek_title": "Vitr bir rak'at ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ الْوِتْرَ ثَلَاثٌ وَخَمْسٌ وَسَبْعٌ",
+    "book_id": 3,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-3-chapter-3",
+    "uzbek_title": "Vitr 3, 5, 7 rak'at bo'lishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدُّعَاءِ فِي الْوِتْرِ",
+    "book_id": 3,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-3-chapter-4",
+    "uzbek_title": "Vitrda dua haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْقُنُوتِ فِي الْوِتْرِ",
+    "book_id": 3,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-3-chapter-5",
+    "uzbek_title": "Vitrdagi qunut haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْقِرَاءَةِ فِي الْوِتْرِ",
+    "book_id": 3,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-3-chapter-6",
+    "uzbek_title": "Vitrdagi qiroat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوِتْرِ أَوَّلَ اللَّيْلِ وَأَوْسَطِهِ وَآخِرِهِ",
+    "book_id": 3,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-3-chapter-7",
+    "uzbek_title": "Kecha boshi, o'rtasi va oxirida vitr haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الْوِتْرِ",
+    "book_id": 3,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-3-chapter-8",
+    "uzbek_title": "Vitrning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ مَنْ نَامَ عَنِ الْوِتْرِ",
+    "book_id": 3,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-3-chapter-9",
+    "uzbek_title": "Vitrsiz uxlab qolgan kishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي نَقْضِ الْوِتْرِ",
+    "book_id": 3,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-3-chapter-10",
+    "uzbek_title": "Vitrani buzish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرَّكْعَتَيْنِ بَعْدَ الْوِتْرِ",
+    "book_id": 3,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-3-chapter-11",
+    "uzbek_title": "Vitrdan keyin ikki rak'at haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِيمَنْ لَمْ يُوتِرْ",
+    "book_id": 3,
+    "chapter_number": 12,
+    "id": "tirmidhi-book-3-chapter-12",
+    "uzbek_title": "Vitr o'qimagan kishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْجُمُعَةِ",
+    "book_id": 4,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-4-chapter-1",
+    "uzbek_title": "Juma namozi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْغُسْلِ يَوْمَ الْجُمُعَةِ",
+    "book_id": 4,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-4-chapter-2",
+    "uzbek_title": "Juma kuni g'usl haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّبْكِيرِ إِلَى الْجُمُعَةِ",
+    "book_id": 4,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-4-chapter-3",
+    "uzbek_title": "Jumaga erta borish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ يَوْمِ الْجُمُعَةِ",
+    "book_id": 4,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-4-chapter-4",
+    "uzbek_title": "Juma kunining fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي السَّاعَةِ الَّتِي تُرْجَى فِي الْجُمُعَةِ",
+    "book_id": 4,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-4-chapter-5",
+    "uzbek_title": "Jumadagi mustajob dua vaqti haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي قِرَاءَةِ سُورَةِ الْجُمُعَةِ فِي صَلَاةِ الْجُمُعَةِ",
+    "book_id": 4,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-4-chapter-6",
+    "uzbek_title": "Juma namozida Juma surasi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّطَوُّعِ قَبْلَ الْجُمُعَةِ وَبَعْدَهَا",
+    "book_id": 4,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-4-chapter-7",
+    "uzbek_title": "Jumadan oldin va keyin nafl namoz haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي كَرَاهِيَةِ الْكَلَامِ وَالْإِمَامُ يَخْطُبُ",
+    "book_id": 4,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-4-chapter-8",
+    "uzbek_title": "Imom xutba qilayotganda gapirish maqruh ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ مَنْ تَجِبُ عَلَيْهِ الْجُمُعَةُ",
+    "book_id": 4,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-4-chapter-9",
+    "uzbek_title": "Kimga juma farz ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّلَاةِ فِي مَسْجِدِ قُبَاءٍ",
+    "book_id": 4,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-4-chapter-10",
+    "uzbek_title": "Quba masjidida namoz o'qish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّهْيِ عَنِ الْبَيْعِ وَالشِّرَاءِ فِي الْمَسْجِدِ",
+    "book_id": 4,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-4-chapter-11",
+    "uzbek_title": "Masjidda savdo qilishning taqiqlanishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي إِنْشَادِ الضَّالَّةِ فِي الْمَسْجِدِ",
+    "book_id": 4,
+    "chapter_number": 12,
+    "id": "tirmidhi-book-4-chapter-12",
+    "uzbek_title": "Masjidda yo'qolgan narsa e'lon qilish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي وُجُوبِ الزَّكَاةِ",
+    "book_id": 5,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-5-chapter-1",
+    "uzbek_title": "Zakotning vojib ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي مَانِعِ الزَّكَاةِ",
+    "book_id": 5,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-5-chapter-2",
+    "uzbek_title": "Zakot bermaydigan kishining hukmi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي زَكَاةِ الذَّهَبِ وَالْوَرِقِ",
+    "book_id": 5,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-5-chapter-3",
+    "uzbek_title": "Oltin va kumush zakoti haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي زَكَاةِ الْإِبِلِ وَالْغَنَمِ",
+    "book_id": 5,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-5-chapter-4",
+    "uzbek_title": "Tuyalar va qo'ylar zakoti haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي زَكَاةِ الْبَقَرِ",
+    "book_id": 5,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-5-chapter-5",
+    "uzbek_title": "Qoramollar zakoti haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي زَكَاةِ الْحُبُوبِ وَالثِّمَارِ",
+    "book_id": 5,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-5-chapter-6",
+    "uzbek_title": "Don va mevalar zakoti haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْعُشْرِ وَنِصْفِ الْعُشْرِ",
+    "book_id": 5,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-5-chapter-7",
+    "uzbek_title": "O'shr va yarim o'shr haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي زَكَاةِ الْعَسَلِ",
+    "book_id": 5,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-5-chapter-8",
+    "uzbek_title": "Asal zakoti haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صَدَقَةِ الْفِطْرِ",
+    "book_id": 5,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-5-chapter-9",
+    "uzbek_title": "Fitir sadaqasi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صَدَقَةِ الْفِطْرِ بِالْحِنْطَةِ",
+    "book_id": 5,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-5-chapter-10",
+    "uzbek_title": "Bug'doydan fitir sadaqasi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّدَقَةِ عَلَى الْأَقَارِبِ",
+    "book_id": 5,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-5-chapter-11",
+    "uzbek_title": "Yaqinlarga sadaqa berish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الصَّدَقَةِ",
+    "book_id": 5,
+    "chapter_number": 12,
+    "id": "tirmidhi-book-5-chapter-12",
+    "uzbek_title": "Sadaqaning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ الصَّدَقَةَ تَقَعُ فِي يَدِ الرَّحْمَنِ",
+    "book_id": 5,
+    "chapter_number": 13,
+    "id": "tirmidhi-book-5-chapter-13",
+    "uzbek_title": "Sadaqa Rahmon qo'liga tushishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الزَّكَاةِ لِآلِ مُحَمَّدٍ",
+    "book_id": 5,
+    "chapter_number": 14,
+    "id": "tirmidhi-book-5-chapter-14",
+    "uzbek_title": "Muhammad ﷺ oilasiga zakot haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ شَهْرِ رَمَضَانَ",
+    "book_id": 6,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-6-chapter-1",
+    "uzbek_title": "Ramazon oyining fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي رُؤْيَةِ الْهِلَالِ",
+    "book_id": 6,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-6-chapter-2",
+    "uzbek_title": "Yangi oyni ko'rish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي كَرَاهِيَةِ صَوْمِ يَوْمِ الشَّكِّ",
+    "book_id": 6,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-6-chapter-3",
+    "uzbek_title": "Shak kunida ro'za tutish maqruh ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ مَتَى يُمْسِكُ عَنِ الطَّعَامِ",
+    "book_id": 6,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-6-chapter-4",
+    "uzbek_title": "Taomdan qachon to'xtash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي تَعْجِيلِ الْإِفْطَارِ",
+    "book_id": 6,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-6-chapter-5",
+    "uzbek_title": "Iftorni tezlashtirish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي السَّحُورِ",
+    "book_id": 6,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-6-chapter-6",
+    "uzbek_title": "Saharlik haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ السَّحُورِ",
+    "book_id": 6,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-6-chapter-7",
+    "uzbek_title": "Saharlikning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِيمَنْ أَكَلَ نَاسِيًا وَهُوَ صَائِمٌ",
+    "book_id": 6,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-6-chapter-8",
+    "uzbek_title": "Ro'zadorda unutib yegan kishining hukmi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّائِمِ يَتَقَيَّأُ",
+    "book_id": 6,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-6-chapter-9",
+    "uzbek_title": "Ro'zadorda qusgan kishining hukmi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي قُبْلَةِ الصَّائِمِ",
+    "book_id": 6,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-6-chapter-10",
+    "uzbek_title": "Ro'zadorda o'pish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصِّيَامِ فِي السَّفَرِ",
+    "book_id": 6,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-6-chapter-11",
+    "uzbek_title": "Safarda ro'za haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي كَفَّارَةِ الْإِفْطَارِ فِي رَمَضَانَ",
+    "book_id": 6,
+    "chapter_number": 12,
+    "id": "tirmidhi-book-6-chapter-12",
+    "uzbek_title": "Ramazonda ro'zani buzganlik kafforati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صِيَامِ يَوْمِ عَاشُورَاءَ",
+    "book_id": 6,
+    "chapter_number": 13,
+    "id": "tirmidhi-book-6-chapter-13",
+    "uzbek_title": "Ashura kuni ro'zasi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صَوْمِ يَوْمِ عَرَفَةَ",
+    "book_id": 6,
+    "chapter_number": 14,
+    "id": "tirmidhi-book-6-chapter-14",
+    "uzbek_title": "Arafa kuni ro'zasi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صَوْمِ يَوْمِ الِاثْنَيْنِ وَالْخَمِيسِ",
+    "book_id": 6,
+    "chapter_number": 15,
+    "id": "tirmidhi-book-6-chapter-15",
+    "uzbek_title": "Dushanba va payshanba ro'zasi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صِيَامِ الدَّهْرِ",
+    "book_id": 6,
+    "chapter_number": 16,
+    "id": "tirmidhi-book-6-chapter-16",
+    "uzbek_title": "Doimo ro'za tutish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صَوْمِ سِتَّةِ أَيَّامٍ مِنْ شَوَّالٍ",
+    "book_id": 6,
+    "chapter_number": 17,
+    "id": "tirmidhi-book-6-chapter-17",
+    "uzbek_title": "Shavvoldan olti kun ro'za haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صِيَامِ ثَلَاثَةِ أَيَّامٍ مِنْ كُلِّ شَهْرٍ",
+    "book_id": 6,
+    "chapter_number": 18,
+    "id": "tirmidhi-book-6-chapter-18",
+    "uzbek_title": "Har oydan uch kun ro'za haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صَوْمِ يَوْمٍ وَإِفْطَارِ يَوْمٍ",
+    "book_id": 6,
+    "chapter_number": 19,
+    "id": "tirmidhi-book-6-chapter-19",
+    "uzbek_title": "Bir kun ro'za, bir kun iftor haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّهْيِ عَنْ صِيَامِ يَوْمَيِ الْعِيدَيْنِ",
+    "book_id": 6,
+    "chapter_number": 20,
+    "id": "tirmidhi-book-6-chapter-20",
+    "uzbek_title": "Ikki hayit kunida ro'za tutish taqiqlanishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الِاعْتِكَافِ",
+    "book_id": 6,
+    "chapter_number": 21,
+    "id": "tirmidhi-book-6-chapter-21",
+    "uzbek_title": "E'tikof haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي لَيْلَةِ الْقَدْرِ",
+    "book_id": 6,
+    "chapter_number": 22,
+    "id": "tirmidhi-book-6-chapter-22",
+    "uzbek_title": "Qadr kechasi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّرَاوِيحِ",
+    "book_id": 6,
+    "chapter_number": 23,
+    "id": "tirmidhi-book-6-chapter-23",
+    "uzbek_title": "Taroveh namozi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الْحَجِّ وَالْعُمْرَةِ",
+    "book_id": 7,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-7-chapter-1",
+    "uzbek_title": "Haj va umraning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا",
+    "book_id": 7,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-7-chapter-2",
+    "uzbek_title": "Yo'l topgan kishiga haj farzi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ الْحَجَّ الْمَبْرُورَ لَيْسَ لَهُ جَزَاءٌ إِلَّا الْجَنَّةُ",
+    "book_id": 7,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-7-chapter-3",
+    "uzbek_title": "Maqbul hajning mukofoti jannat ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الْعُمْرَةِ",
+    "book_id": 7,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-7-chapter-4",
+    "uzbek_title": "Umraning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْمِيقَاتِ",
+    "book_id": 7,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-7-chapter-5",
+    "uzbek_title": "Miqot haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّلْبِيَةِ",
+    "book_id": 7,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-7-chapter-6",
+    "uzbek_title": "Talabiya haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ التَّلْبِيَةِ",
+    "book_id": 7,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-7-chapter-7",
+    "uzbek_title": "Talabiyaning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي رَفْعِ الصَّوْتِ بِالتَّلْبِيَةِ",
+    "book_id": 7,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-7-chapter-8",
+    "uzbek_title": "Talabiyani ovoz ko'tarib aytish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الطَّوَافِ",
+    "book_id": 7,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-7-chapter-9",
+    "uzbek_title": "Tavof haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرَّمَلِ",
+    "book_id": 7,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-7-chapter-10",
+    "uzbek_title": "Ramal haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي تَقْبِيلِ الْحَجَرِ الْأَسْوَدِ",
+    "book_id": 7,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-7-chapter-11",
+    "uzbek_title": "Hajarul Asvadni o'pish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّلَاةِ خَلْفَ الْمَقَامِ",
+    "book_id": 7,
+    "chapter_number": 12,
+    "id": "tirmidhi-book-7-chapter-12",
+    "uzbek_title": "Maqom Ibrohim ortida namoz haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي السَّعْيِ بَيْنَ الصَّفَا وَالْمَرْوَةِ",
+    "book_id": 7,
+    "chapter_number": 13,
+    "id": "tirmidhi-book-7-chapter-13",
+    "uzbek_title": "Saf va Marva o'rtasida sa'y haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوُقُوفِ بِعَرَفَةَ",
+    "book_id": 7,
+    "chapter_number": 14,
+    "id": "tirmidhi-book-7-chapter-14",
+    "uzbek_title": "Arafotda vaquf haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ يَوْمِ عَرَفَةَ",
+    "book_id": 7,
+    "chapter_number": 15,
+    "id": "tirmidhi-book-7-chapter-15",
+    "uzbek_title": "Arafa kunining fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوُقُوفِ بِالْمُزْدَلِفَةِ",
+    "book_id": 7,
+    "chapter_number": 16,
+    "id": "tirmidhi-book-7-chapter-16",
+    "uzbek_title": "Muzdalifada vaquf haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي رَمْيِ الْجِمَارِ",
+    "book_id": 7,
+    "chapter_number": 17,
+    "id": "tirmidhi-book-7-chapter-17",
+    "uzbek_title": "Jamorot toshlarini otish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْحَلْقِ وَالتَّقْصِيرِ",
+    "book_id": 7,
+    "chapter_number": 18,
+    "id": "tirmidhi-book-7-chapter-18",
+    "uzbek_title": "Soch olish va qisqartirish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْهَدْيِ",
+    "book_id": 7,
+    "chapter_number": 19,
+    "id": "tirmidhi-book-7-chapter-19",
+    "uzbek_title": "Hajj qurbonligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْحَجِّ عَنِ الشَّيْخِ الْكَبِيرِ",
+    "book_id": 7,
+    "chapter_number": 20,
+    "id": "tirmidhi-book-7-chapter-20",
+    "uzbek_title": "Keksa kishi nomidan haj qilish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِيمَا يَجْتَنِبُهُ الْمُحْرِمُ",
+    "book_id": 7,
+    "chapter_number": 21,
+    "id": "tirmidhi-book-7-chapter-21",
+    "uzbek_title": "Muhrimning saqlanishi kerak bo'lgan narsalar haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صَيْدِ الْمُحْرِمِ",
+    "book_id": 7,
+    "chapter_number": 22,
+    "id": "tirmidhi-book-7-chapter-22",
+    "uzbek_title": "Muhrim uchun ovning hukmi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي كَرَاهِيَةِ الصِّيَامِ أَيَّامَ التَّشْرِيقِ",
+    "book_id": 7,
+    "chapter_number": 23,
+    "id": "tirmidhi-book-7-chapter-23",
+    "uzbek_title": "Tashrik kunlarida ro'za maqruh ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي عِيَادَةِ الْمَرِيضِ",
+    "book_id": 8,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-8-chapter-1",
+    "uzbek_title": "Kasal borish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ عِيَادَةِ الْمَرِيضِ",
+    "book_id": 8,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-8-chapter-2",
+    "uzbek_title": "Kasal ziyoratining fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي تَلْقِينِ الْمَيِّتِ",
+    "book_id": 8,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-8-chapter-3",
+    "uzbek_title": "O'layotgan kishiga talqin berish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي غَمْضِ الْمَيِّتِ",
+    "book_id": 8,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-8-chapter-4",
+    "uzbek_title": "Mayyitning ko'zini yumish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي غُسْلِ الْمَيِّتِ",
+    "book_id": 8,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-8-chapter-5",
+    "uzbek_title": "Mayyitni yuvish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْكَفَنِ",
+    "book_id": 8,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-8-chapter-6",
+    "uzbek_title": "Mayyitni kafanlash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّلَاةِ عَلَى الْمَيِّتِ",
+    "book_id": 8,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-8-chapter-7",
+    "uzbek_title": "Mayyitga namoz o'qish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدُّعَاءِ لِلْمَيِّتِ",
+    "book_id": 8,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-8-chapter-8",
+    "uzbek_title": "Mayyit uchun dua haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّلَاةِ عَلَى الشَّهِيدِ",
+    "book_id": 8,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-8-chapter-9",
+    "uzbek_title": "Shahid ustida namoz haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي تَشْيِيعِ الْجَنَازَةِ",
+    "book_id": 8,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-8-chapter-10",
+    "uzbek_title": "Janoza kuzatish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْقِيَامِ لِلْجَنَازَةِ",
+    "book_id": 8,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-8-chapter-11",
+    "uzbek_title": "Janoza uchun qo'zg'alish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدَّفْنِ",
+    "book_id": 8,
+    "chapter_number": 12,
+    "id": "tirmidhi-book-8-chapter-12",
+    "uzbek_title": "Dafn qilish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي زِيَارَةِ الْقُبُورِ",
+    "book_id": 8,
+    "chapter_number": 13,
+    "id": "tirmidhi-book-8-chapter-13",
+    "uzbek_title": "Qabrlarni ziyorat qilish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّعْزِيَةِ",
+    "book_id": 8,
+    "chapter_number": 14,
+    "id": "tirmidhi-book-8-chapter-14",
+    "uzbek_title": "Ta'ziya bildirish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْبُكَاءِ عَلَى الْمَيِّتِ",
+    "book_id": 8,
+    "chapter_number": 15,
+    "id": "tirmidhi-book-8-chapter-15",
+    "uzbek_title": "Mayyitga yig'lash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّبْرِ عَلَى الْمُصِيبَةِ",
+    "book_id": 8,
+    "chapter_number": 16,
+    "id": "tirmidhi-book-8-chapter-16",
+    "uzbek_title": "Musibatga sabr qilish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّلَاةِ عَلَى الطِّفْلِ",
+    "book_id": 8,
+    "chapter_number": 17,
+    "id": "tirmidhi-book-8-chapter-17",
+    "uzbek_title": "Bolaga janoza namozi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّلَاةِ عَلَى الْقَبْرِ",
+    "book_id": 8,
+    "chapter_number": 18,
+    "id": "tirmidhi-book-8-chapter-18",
+    "uzbek_title": "Qabr ustida namoz haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي عَذَابِ الْقَبْرِ",
+    "book_id": 8,
+    "chapter_number": 19,
+    "id": "tirmidhi-book-8-chapter-19",
+    "uzbek_title": "Qabr azobii haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي أَجْرِ الصَّلَاةِ عَلَى الْجِنَازَةِ",
+    "book_id": 8,
+    "chapter_number": 20,
+    "id": "tirmidhi-book-8-chapter-20",
+    "uzbek_title": "Janoza namozining ajri haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ النِّكَاحِ",
+    "book_id": 9,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-9-chapter-1",
+    "uzbek_title": "Nikohning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّهْيِ عَنِ التَّبَتُّلِ",
+    "book_id": 9,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-9-chapter-2",
+    "uzbek_title": "Uylanmaslikning taqiqlanishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ لَا نِكَاحَ إِلَّا بِوَلِيٍّ",
+    "book_id": 9,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-9-chapter-3",
+    "uzbek_title": "Valisiz nikoh bo'lmasligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّدَاقِ",
+    "book_id": 9,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-9-chapter-4",
+    "uzbek_title": "Mehr haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ أَعْظَمَ النِّكَاحِ بَرَكَةً أَيْسَرُهُ مَهْرًا",
+    "book_id": 9,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-9-chapter-5",
+    "uzbek_title": "Barakali nikoh — mehri kam bo'lgani ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الشُّرُوطِ فِي النِّكَاحِ",
+    "book_id": 9,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-9-chapter-6",
+    "uzbek_title": "Nikoh shartlari haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوَلِيمَةِ",
+    "book_id": 9,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-9-chapter-7",
+    "uzbek_title": "To'y ziyofati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي إِجَابَةِ الدَّعْوَةِ",
+    "book_id": 9,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-9-chapter-8",
+    "uzbek_title": "Taklifga ijobat berish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّظَرِ إِلَى الْمَخْطُوبَةِ",
+    "book_id": 9,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-9-chapter-9",
+    "uzbek_title": "Unashtirilgan qizga qarash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدُّعَاءِ عِنْدَ التَّزْوِيجِ",
+    "book_id": 9,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-9-chapter-10",
+    "uzbek_title": "Nikohda dua haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي حَقِّ الزَّوْجِ عَلَى الْمَرْأَةِ",
+    "book_id": 9,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-9-chapter-11",
+    "uzbek_title": "Erni xotiniga haqqi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي حَقِّ الْمَرْأَةِ عَلَى الزَّوْجِ",
+    "book_id": 9,
+    "chapter_number": 12,
+    "id": "tirmidhi-book-9-chapter-12",
+    "uzbek_title": "Xotinni erga haqqi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي نِكَاحِ الشِّغَارِ",
+    "book_id": 9,
+    "chapter_number": 13,
+    "id": "tirmidhi-book-9-chapter-13",
+    "uzbek_title": "Shig'or nikohi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ الرَّضَاعَةَ تُحَرِّمُ مَا تُحَرِّمُ الْوِلَادَةُ",
+    "book_id": 10,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-10-chapter-1",
+    "uzbek_title": "Emizish tug'ish kabi mahram qilishini haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ لَا رَضَاعَ بَعْدَ فِطَامٍ",
+    "book_id": 10,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-10-chapter-2",
+    "uzbek_title": "Sutdan ayrilgandan keyin emizishning hukmi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ الرَّضَاعَ لَا يُحَرِّمُ إِلَّا مَا أَنْشَزَ الْعَظْمَ",
+    "book_id": 10,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-10-chapter-3",
+    "uzbek_title": "Suyakni o'stiradiganina harom qilishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي رَضَاعَةِ الْكَبِيرِ",
+    "book_id": 10,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-10-chapter-4",
+    "uzbek_title": "Kattani emizish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ لَبَنَ الْفَحْلِ يُحَرِّمُ",
+    "book_id": 10,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-10-chapter-5",
+    "uzbek_title": "Ota suti ham harom qilishini haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي طَلَاقِ السُّنَّةِ",
+    "book_id": 11,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-11-chapter-1",
+    "uzbek_title": "Sunna bo'yicha talok haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي طَلَاقِ الْمَكْرَهِ وَالنَّاسِي",
+    "book_id": 11,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-11-chapter-2",
+    "uzbek_title": "Majburlanib va unutib bergan talok haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الطَّلَاقِ ثَلَاثًا",
+    "book_id": 11,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-11-chapter-3",
+    "uzbek_title": "Uch talok haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الطَّلَاقِ قَبْلَ النِّكَاحِ",
+    "book_id": 11,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-11-chapter-4",
+    "uzbek_title": "Nikohdan oldin talok haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْعِدَّةِ",
+    "book_id": 11,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-11-chapter-5",
+    "uzbek_title": "Iddat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْخُلْعِ",
+    "book_id": 11,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-11-chapter-6",
+    "uzbek_title": "Xul' haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرَّجْعَةِ",
+    "book_id": 11,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-11-chapter-7",
+    "uzbek_title": "Xotinni qaytarib olish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الظِّهَارِ",
+    "book_id": 11,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-11-chapter-8",
+    "uzbek_title": "Zihor haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْإِيلَاءِ",
+    "book_id": 11,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-11-chapter-9",
+    "uzbek_title": "Ilo' haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي اللِّعَانِ",
+    "book_id": 11,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-11-chapter-10",
+    "uzbek_title": "Li'on haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التُّجَّارِ وَتَسْمِيَتِهِمُ النَّبِيُّ",
+    "book_id": 12,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-12-chapter-1",
+    "uzbek_title": "Savdogarlar haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصِّدْقِ فِي الْبَيْعِ",
+    "book_id": 12,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-12-chapter-2",
+    "uzbek_title": "Savdoda rostgo'ylik haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّهْيِ عَنِ الْغِشِّ",
+    "book_id": 12,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-12-chapter-3",
+    "uzbek_title": "Aldashning taqiqlanishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّهْيِ عَنِ الرِّبَا",
+    "book_id": 12,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-12-chapter-4",
+    "uzbek_title": "Riboning taqiqlanishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي آكِلِ الرِّبَا وَمُوكِلِهِ",
+    "book_id": 12,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-12-chapter-5",
+    "uzbek_title": "Ribo yeyuvchi va yediruvchining hukmi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّهْيِ عَنِ الْحُكْرَةِ",
+    "book_id": 12,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-12-chapter-6",
+    "uzbek_title": "Ombor orttirishning taqiqlanishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي بَيْعِ السَّلَمِ",
+    "book_id": 12,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-12-chapter-7",
+    "uzbek_title": "Salam savdosi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْبَيْعِ بِالنَّسِيئَةِ",
+    "book_id": 12,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-12-chapter-8",
+    "uzbek_title": "Qarzga sotish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الشُّفْعَةِ",
+    "book_id": 12,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-12-chapter-9",
+    "uzbek_title": "Shuf'a haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْمُسَاقَاةِ",
+    "book_id": 12,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-12-chapter-10",
+    "uzbek_title": "Musoqot haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْإِجَارَةِ",
+    "book_id": 12,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-12-chapter-11",
+    "uzbek_title": "Ijara haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرَّهْنِ",
+    "book_id": 12,
+    "chapter_number": 12,
+    "id": "tirmidhi-book-12-chapter-12",
+    "uzbek_title": "Garov (rohni) haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْقَاضِي",
+    "book_id": 13,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-13-chapter-1",
+    "uzbek_title": "Qozi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرُّشْوَةِ",
+    "book_id": 13,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-13-chapter-2",
+    "uzbek_title": "Pora haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي أَنَّ الْبَيِّنَةَ عَلَى الْمُدَّعِي",
+    "book_id": 13,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-13-chapter-3",
+    "uzbek_title": "Da'vochidan isbot talab qilinishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْيَمِينِ عَلَى الْمُدَّعَى عَلَيْهِ",
+    "book_id": 13,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-13-chapter-4",
+    "uzbek_title": "Kuydirilgan kishidan qasam haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّهْيِ عَنِ الشِّفَاعَةِ فِي الْحُدُودِ",
+    "book_id": 13,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-13-chapter-5",
+    "uzbek_title": "Hadlarda shafovat taqiqlanishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْقَضَاءِ بِالْيَمِينِ وَالشَّاهِدِ",
+    "book_id": 13,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-13-chapter-6",
+    "uzbek_title": "Qasam va guvoh bilan hukm haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصُّلْحِ",
+    "book_id": 13,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-13-chapter-7",
+    "uzbek_title": "Sulh haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْحَجْرِ",
+    "book_id": 13,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-13-chapter-8",
+    "uzbek_title": "Hajr haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوَكَالَةِ",
+    "book_id": 13,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-13-chapter-9",
+    "uzbek_title": "Vakol qilish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدِّيَةِ كَمْ هِيَ مِنَ الْإِبِلِ",
+    "book_id": 14,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-14-chapter-1",
+    "uzbek_title": "Diyot necha tuya ekanligii haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي دِيَةِ شِبْهِ الْعَمْدِ",
+    "book_id": 14,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-14-chapter-2",
+    "uzbek_title": "O'xshash qasdning diyosi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي دِيَةِ الْخَطَإِ",
+    "book_id": 14,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-14-chapter-3",
+    "uzbek_title": "Xato o'ldirish diyosi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي دِيَةِ الْمَرْأَةِ",
+    "book_id": 14,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-14-chapter-4",
+    "uzbek_title": "Ayolning diyosi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي دِيَةِ الْأَصَابِعِ",
+    "book_id": 14,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-14-chapter-5",
+    "uzbek_title": "Barmoqlar diyosi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي دِيَةِ الْأَسْنَانِ",
+    "book_id": 14,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-14-chapter-6",
+    "uzbek_title": "Tishlar diyosi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْعَفْوِ عَنِ الدِّيَةِ",
+    "book_id": 14,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-14-chapter-7",
+    "uzbek_title": "Diyotdan kechish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْقِصَاصِ",
+    "book_id": 14,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-14-chapter-8",
+    "uzbek_title": "Qisos haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ لَا يُقْتَلُ مُسْلِمٌ بِكَافِرٍ",
+    "book_id": 14,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-14-chapter-9",
+    "uzbek_title": "Musulmon kofir uchun o'ldirilmasligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي حَدِّ الزِّنَا",
+    "book_id": 15,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-15-chapter-1",
+    "uzbek_title": "Zino haddi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي رَجْمِ الْمُحْصَنِ",
+    "book_id": 15,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-15-chapter-2",
+    "uzbek_title": "Uylanganlarni tosh otish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي حَدِّ السَّرِقَةِ",
+    "book_id": 15,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-15-chapter-3",
+    "uzbek_title": "O'g'rilik haddi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي حَدِّ الْخَمْرِ",
+    "book_id": 15,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-15-chapter-4",
+    "uzbek_title": "Ichimlik haddi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي حَدِّ الْقَذْفِ",
+    "book_id": 15,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-15-chapter-5",
+    "uzbek_title": "Bo'hton haddi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْمُرْتَدِّ",
+    "book_id": 15,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-15-chapter-6",
+    "uzbek_title": "Dindan qaytgan kishining hukmi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي إِقَامَةِ الْحُدُودِ",
+    "book_id": 15,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-15-chapter-7",
+    "uzbek_title": "Hadlarni qo'llash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صَيْدِ الْكَلْبِ الْمُعَلَّمِ",
+    "book_id": 16,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-16-chapter-1",
+    "uzbek_title": "O'rgatilgan it bilan ov haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صَيْدِ الْبَازِي وَالصَّقْرِ",
+    "book_id": 16,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-16-chapter-2",
+    "uzbek_title": "Lochin va qirg'iy bilan ovlash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الذَّكَاةِ بِالْعُودِ وَالْقَصَبَةِ",
+    "book_id": 16,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-16-chapter-3",
+    "uzbek_title": "Yog'och va qamish bilan so'yish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِيمَا يُؤْكَلُ لَحْمُهُ وَمَا لَا يُؤْكَلُ",
+    "book_id": 16,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-16-chapter-4",
+    "uzbek_title": "Eti yeladigan va yelinmaydigan hayvonlar haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي أَكْلِ الضَّبِّ",
+    "book_id": 16,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-16-chapter-5",
+    "uzbek_title": "Kertenkele yeyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الذَّبِيحَةِ يَبِينُ مِنْهَا عُضْوٌ",
+    "book_id": 16,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-16-chapter-6",
+    "uzbek_title": "So'yilayotganda a'zo uzilib qolishining hukmi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الضَّحَايَا وَاجِبَةٌ هِيَ أَمْ لَا",
+    "book_id": 17,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-17-chapter-1",
+    "uzbek_title": "Qurbonlik vojibmi yoki yo'qmi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْأُضْحِيَّةِ عَنِ الْمَيِّتِ",
+    "book_id": 17,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-17-chapter-2",
+    "uzbek_title": "Mayyit nomidan qurbonlik haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي سِنِّ الضَّحَايَا",
+    "book_id": 17,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-17-chapter-3",
+    "uzbek_title": "Qurbonlik hayvonining yoshi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِيمَا يُكْرَهُ مِنَ الضَّحَايَا",
+    "book_id": 17,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-17-chapter-4",
+    "uzbek_title": "Qurbonlikda maqruh narsalar haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي أَكْلِ لُحُومِ الْأَضَاحِيِّ",
+    "book_id": 17,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-17-chapter-5",
+    "uzbek_title": "Qurbonlik go'shtini yeyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ مَنْ ذَبَحَ قَبْلَ الصَّلَاةِ",
+    "book_id": 17,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-17-chapter-6",
+    "uzbek_title": "Namozdan oldin so'ygan kishining hukmi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْعَقِيقَةِ",
+    "book_id": 17,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-17-chapter-7",
+    "uzbek_title": "Aqiqa haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْعَقِيقَةِ عَنِ الْجَارِيَةِ",
+    "book_id": 17,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-17-chapter-8",
+    "uzbek_title": "Qiz chaqaloq uchun aqiqa haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّذْرِ",
+    "book_id": 18,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-18-chapter-1",
+    "uzbek_title": "Nazr haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي كَرَاهِيَةِ النَّذْرِ",
+    "book_id": 18,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-18-chapter-2",
+    "uzbek_title": "Nazrning maqruh ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّهْيِ عَنِ الْحَلِفِ بِغَيْرِ اللَّهِ",
+    "book_id": 18,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-18-chapter-3",
+    "uzbek_title": "Allohdan boshqaga qasam ichishning taqiqlanishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي كَفَّارَةِ الْيَمِينِ",
+    "book_id": 18,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-18-chapter-4",
+    "uzbek_title": "Qasam kafforasi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الِاسْتِثْنَاءِ فِي الْيَمِينِ",
+    "book_id": 18,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-18-chapter-5",
+    "uzbek_title": "Qasamda insholloh deyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِيمَا يَقُولُ عِنْدَ الْغَضَبِ",
+    "book_id": 18,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-18-chapter-6",
+    "uzbek_title": "G'azab paytida nima deyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْجِهَادِ",
+    "book_id": 19,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-19-chapter-1",
+    "uzbek_title": "Jihod haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي وُجُوبِ الْجِهَادِ",
+    "book_id": 19,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-19-chapter-2",
+    "uzbek_title": "Jihod vojib ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّبْرِ فِي الْقِتَالِ",
+    "book_id": 19,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-19-chapter-3",
+    "uzbek_title": "Jangda sabr haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّهْيِ عَنِ الْغُلُولِ",
+    "book_id": 19,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-19-chapter-4",
+    "uzbek_title": "G'animatdan o'g'irlashning taqiqlanishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي قِسْمَةِ الْغَنَائِمِ",
+    "book_id": 19,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-19-chapter-5",
+    "uzbek_title": "G'animatni taqsimlash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الذِّمِّيِّ",
+    "book_id": 19,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-19-chapter-6",
+    "uzbek_title": "Zimmiylining hukmi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْجِزْيَةِ",
+    "book_id": 19,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-19-chapter-7",
+    "uzbek_title": "Jizya haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصُّلْحِ مَعَ الْعَدُوِّ",
+    "book_id": 19,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-19-chapter-8",
+    "uzbek_title": "Dushman bilan sulh haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْأَمَانِ",
+    "book_id": 19,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-19-chapter-9",
+    "uzbek_title": "Omon berish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرِّبَاطِ",
+    "book_id": 19,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-19-chapter-10",
+    "uzbek_title": "Ribotda turib qo'riqlanish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الْجِهَادِ",
+    "book_id": 20,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-20-chapter-1",
+    "uzbek_title": "Jihod fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الشَّهَادَةِ",
+    "book_id": 20,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-20-chapter-2",
+    "uzbek_title": "Shahadatning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الشُّهَدَاءِ مَنْ هُمْ",
+    "book_id": 20,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-20-chapter-3",
+    "uzbek_title": "Shahidlar kimlar ekanligii haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الرِّبَاطِ",
+    "book_id": 20,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-20-chapter-4",
+    "uzbek_title": "Ribotning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْخَيْلِ",
+    "book_id": 20,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-20-chapter-5",
+    "uzbek_title": "Otlarning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الرَّمْيِ فِي سَبِيلِ اللَّهِ",
+    "book_id": 20,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-20-chapter-6",
+    "uzbek_title": "Alloh yo'lida o'q otishning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي لُبْسِ الْحَرِيرِ",
+    "book_id": 21,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-21-chapter-1",
+    "uzbek_title": "Ipak kiyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرُّخْصَةِ فِي الْحَرِيرِ لِلنِّسَاءِ",
+    "book_id": 21,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-21-chapter-2",
+    "uzbek_title": "Ayollar uchun ipak ruxsati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي لُبْسِ الذَّهَبِ",
+    "book_id": 21,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-21-chapter-3",
+    "uzbek_title": "Oltin taqish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي لُبْسِ الثِّيَابِ الْبِيضِ",
+    "book_id": 21,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-21-chapter-4",
+    "uzbek_title": "Oq kiyim kiyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي لُبْسِ الثِّيَابِ السُّودِ",
+    "book_id": 21,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-21-chapter-5",
+    "uzbek_title": "Qora kiyim kiyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الثَّوْبِ الأَحْمَرِ",
+    "book_id": 21,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-21-chapter-6",
+    "uzbek_title": "Qizil kiyim haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي لُبْسِ الْقَمِيصِ",
+    "book_id": 21,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-21-chapter-7",
+    "uzbek_title": "Ko'ylak kiyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي لُبْسِ الْعِمَامَةِ",
+    "book_id": 21,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-21-chapter-8",
+    "uzbek_title": "Salla kiyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي قَدْرِ إِسْبَالِ الثَّوْبِ",
+    "book_id": 21,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-21-chapter-9",
+    "uzbek_title": "Kiyim uzunligining me'yori haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي لُبْسِ الْخَاتَمِ",
+    "book_id": 21,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-21-chapter-10",
+    "uzbek_title": "Uzuk taqish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي خَاتَمِ الْفِضَّةِ",
+    "book_id": 21,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-21-chapter-11",
+    "uzbek_title": "Kumush uzuk haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّهْيِ عَنِ الذَّهَبِ لِلرِّجَالِ",
+    "book_id": 21,
+    "chapter_number": 12,
+    "id": "tirmidhi-book-21-chapter-12",
+    "uzbek_title": "Erkaklarga oltin taqish taqiqlanishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي لُبْسِ النِّعَالِ",
+    "book_id": 21,
+    "chapter_number": 13,
+    "id": "tirmidhi-book-21-chapter-13",
+    "uzbek_title": "Sandal kiyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ بِدَأَ بِالْيَمِينِ فِي اللُّبْسِ",
+    "book_id": 21,
+    "chapter_number": 14,
+    "id": "tirmidhi-book-21-chapter-14",
+    "uzbek_title": "Kiyinishda o'ngdan boshlash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّسْمِيَةِ عَلَى الطَّعَامِ",
+    "book_id": 22,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-22-chapter-1",
+    "uzbek_title": "Taomda bismillah deyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْأَكْلِ بِالْيَمِينِ",
+    "book_id": 22,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-22-chapter-2",
+    "uzbek_title": "O'ng qo'l bilan yeyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْأَكْلِ مِمَّا يَلِيكَ",
+    "book_id": 22,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-22-chapter-3",
+    "uzbek_title": "Oldingdan yeyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الشُّرْبِ مِنْ قِيَامٍ",
+    "book_id": 22,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-22-chapter-4",
+    "uzbek_title": "Tik turib ichish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الشُّرْبِ ثَلَاثًا",
+    "book_id": 22,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-22-chapter-5",
+    "uzbek_title": "Uch marta nafas olgan holda ichish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي كَرَاهِيَةِ التَّنَفُّسِ فِي الْإِنَاءِ",
+    "book_id": 22,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-22-chapter-6",
+    "uzbek_title": "Idishga nafas olishning maqruh ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدُّعَاءِ لِصَاحِبِ الطَّعَامِ",
+    "book_id": 22,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-22-chapter-7",
+    "uzbek_title": "Taom bergan kishiga dua haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي كَرَاهِيَةِ ثَلْبِ الطَّعَامِ",
+    "book_id": 22,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-22-chapter-8",
+    "uzbek_title": "Taomni qoralashning maqruh ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي أَكْلِ الثُّومِ وَالْبَصَلِ",
+    "book_id": 22,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-22-chapter-9",
+    "uzbek_title": "Sarimsoq va piyoz yeyish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ التَّمْرِ",
+    "book_id": 22,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-22-chapter-10",
+    "uzbek_title": "Xurmo fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي تَحْرِيمِ الْخَمْرِ",
+    "book_id": 23,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-23-chapter-1",
+    "uzbek_title": "Ichimliklarning haromligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ مَا أَسْكَرَ كَثِيرُهُ فَقَلِيلُهُ حَرَامٌ",
+    "book_id": 23,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-23-chapter-2",
+    "uzbek_title": "Ko'pi mast qiladigan narsaning ozi ham harom ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّبِيذِ",
+    "book_id": 23,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-23-chapter-3",
+    "uzbek_title": "Nabiz haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي كَرَاهِيَةِ الشُّرْبِ قَائِمًا",
+    "book_id": 23,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-23-chapter-4",
+    "uzbek_title": "Tik turib ichishning maqruh ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الشُّرْبِ فِي آنِيَةِ الذَّهَبِ وَالْفِضَّةِ",
+    "book_id": 23,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-23-chapter-5",
+    "uzbek_title": "Oltin va kumush idishda ichishning haromligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّهْيِ عَنْ نَبِيذِ الْجِرِّ",
+    "book_id": 23,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-23-chapter-6",
+    "uzbek_title": "Ma'lum idishlarda nabiz saqlashning taqiqlanishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي بِرِّ الْوَالِدَيْنِ",
+    "book_id": 24,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-24-chapter-1",
+    "uzbek_title": "Ota-onaga yaxshilik haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي عُقُوقِ الْوَالِدَيْنِ",
+    "book_id": 24,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-24-chapter-2",
+    "uzbek_title": "Ota-onaga oshiqlik haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صِلَةِ الرَّحِمِ",
+    "book_id": 24,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-24-chapter-3",
+    "uzbek_title": "Silayi rahm haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي قَطِيعَةِ الرَّحِمِ",
+    "book_id": 24,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-24-chapter-4",
+    "uzbek_title": "Qarindoshlikni uzishning haromligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصِّدْقِ وَالْكَذِبِ",
+    "book_id": 24,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-24-chapter-5",
+    "uzbek_title": "Rostgo'ylik va yolg'on haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الظُّلْمِ",
+    "book_id": 24,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-24-chapter-6",
+    "uzbek_title": "Zulm haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرِّفْقِ",
+    "book_id": 24,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-24-chapter-7",
+    "uzbek_title": "Muloyimlik haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرَّحْمَةِ",
+    "book_id": 24,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-24-chapter-8",
+    "uzbek_title": "Rahm-shafqat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْحَيَاءِ",
+    "book_id": 24,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-24-chapter-9",
+    "uzbek_title": "Uyat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّوَاضُعِ",
+    "book_id": 24,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-24-chapter-10",
+    "uzbek_title": "Kamtarlik haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْحِقْدِ وَالْحَسَدِ",
+    "book_id": 24,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-24-chapter-11",
+    "uzbek_title": "Kin va hasad haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّبْرِ عَلَى الْبَلَاءِ",
+    "book_id": 24,
+    "chapter_number": 12,
+    "id": "tirmidhi-book-24-chapter-12",
+    "uzbek_title": "Balo-qazoga sabr haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الشُّكْرِ",
+    "book_id": 24,
+    "chapter_number": 13,
+    "id": "tirmidhi-book-24-chapter-13",
+    "uzbek_title": "Shukr haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّقْوَى",
+    "book_id": 24,
+    "chapter_number": 14,
+    "id": "tirmidhi-book-24-chapter-14",
+    "uzbek_title": "Taqvo haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي حَقِّ الْجَارِ",
+    "book_id": 24,
+    "chapter_number": 15,
+    "id": "tirmidhi-book-24-chapter-15",
+    "uzbek_title": "Qo'shni haqqi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي حَقِّ الضَّيْفِ",
+    "book_id": 24,
+    "chapter_number": 16,
+    "id": "tirmidhi-book-24-chapter-16",
+    "uzbek_title": "Mehmon haqqi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي حُسْنِ الظَّنِّ بِاللَّهِ",
+    "book_id": 24,
+    "chapter_number": 17,
+    "id": "tirmidhi-book-24-chapter-17",
+    "uzbek_title": "Allohga husnuzon haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي حُسْنِ الْخُلُقِ",
+    "book_id": 24,
+    "chapter_number": 18,
+    "id": "tirmidhi-book-24-chapter-18",
+    "uzbek_title": "Yaxshi xulq haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّدَاوِي",
+    "book_id": 25,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-25-chapter-1",
+    "uzbek_title": "Davo qilish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدَّوَاءِ بِالْحَبَّةِ السَّوْدَاءِ",
+    "book_id": 25,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-25-chapter-2",
+    "uzbek_title": "Qora zira bilan davo haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدَّوَاءِ بِالْعَسَلِ",
+    "book_id": 25,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-25-chapter-3",
+    "uzbek_title": "Asal bilan davo haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدَّوَاءِ بِالْحِجَامَةِ",
+    "book_id": 25,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-25-chapter-4",
+    "uzbek_title": "Hajama bilan davo haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّدَاوِي بِالْكَيِّ",
+    "book_id": 25,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-25-chapter-5",
+    "uzbek_title": "Kuydirish bilan davo haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرُّقْيَةِ",
+    "book_id": 25,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-25-chapter-6",
+    "uzbek_title": "Ruqya o'qish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الطِّيَرَةِ",
+    "book_id": 25,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-25-chapter-7",
+    "uzbek_title": "Yomon fol haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْفَأْلِ",
+    "book_id": 25,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-25-chapter-8",
+    "uzbek_title": "Yaxshi fol haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّهْيِ عَنِ التَّدَاوِي بِالْمُحَرَّمَاتِ",
+    "book_id": 25,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-25-chapter-9",
+    "uzbek_title": "Harom dorilar bilan davolanish taqiqlanishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ لِكُلِّ دَاءٍ دَوَاءٌ",
+    "book_id": 25,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-25-chapter-10",
+    "uzbek_title": "Har dardning davosi borligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدُّعَاءِ لِلْمَرِيضِ",
+    "book_id": 25,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-25-chapter-11",
+    "uzbek_title": "Kasalga dua haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي تَعْلِيمِ الْفَرَائِضِ",
+    "book_id": 26,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-26-chapter-1",
+    "uzbek_title": "Faroyizni o'rganish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي مِيرَاثِ الْعَصَبَاتِ",
+    "book_id": 26,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-26-chapter-2",
+    "uzbek_title": "Asaba merosi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي مِيرَاثِ الْجَدِّ",
+    "book_id": 26,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-26-chapter-3",
+    "uzbek_title": "Bobo merosi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْمِيرَاثِ لِذَوِي الْأَرْحَامِ",
+    "book_id": 26,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-26-chapter-4",
+    "uzbek_title": "Yaqin qarindoshlar merosi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ لَا يَرِثُ الْقَاتِلُ",
+    "book_id": 26,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-26-chapter-5",
+    "uzbek_title": "O'ldirgan kishi meros olmasligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ لَا يَرِثُ الْمُسْلِمُ الْكَافِرَ",
+    "book_id": 26,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-26-chapter-6",
+    "uzbek_title": "Musulmon kofirldan meros olmasligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوَصِيَّةِ",
+    "book_id": 27,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-27-chapter-1",
+    "uzbek_title": "Vasiyat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوَصِيَّةِ بِالثُّلُثِ",
+    "book_id": 27,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-27-chapter-2",
+    "uzbek_title": "Uchdan bir vasiyat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي وَصِيَّةِ الرَّجُلِ لِأَقَارِبِهِ",
+    "book_id": 27,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-27-chapter-3",
+    "uzbek_title": "Yaqinlariga vasiyat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي كَرَاهِيَةِ الضَّرَرِ فِي الْوَصِيَّةِ",
+    "book_id": 27,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-27-chapter-4",
+    "uzbek_title": "Vasiyatda zarar yetkazishning maqruh ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوَلَاءِ",
+    "book_id": 28,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-28-chapter-1",
+    "uzbek_title": "Valoyat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ الْوَلَاءُ لِمَنْ أَعْتَقَ",
+    "book_id": 28,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-28-chapter-2",
+    "uzbek_title": "Valoyat ozod qilganga tegishli ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي بَيْعِ الْوَلَاءِ",
+    "book_id": 28,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-28-chapter-3",
+    "uzbek_title": "Valoyatni sotishning haromligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْهِبَةِ",
+    "book_id": 28,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-28-chapter-4",
+    "uzbek_title": "Hiba haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرُّجُوعِ فِي الْهِبَةِ",
+    "book_id": 28,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-28-chapter-5",
+    "uzbek_title": "Hibani qaytarib olish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْإِيمَانِ بِالْقَدَرِ",
+    "book_id": 29,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-29-chapter-1",
+    "uzbek_title": "Qadaroga iymon haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الشَّقِيِّ مَنْ شَقِيَ فِي بَطْنِ أُمِّهِ",
+    "book_id": 29,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-29-chapter-2",
+    "uzbek_title": "Omadsiz kimsa ona qornida omadsiz bo'lgani haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ الأَعْمَالَ بِالْخَوَاتِيمِ",
+    "book_id": 29,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-29-chapter-3",
+    "uzbek_title": "Amallar xotimalariga qarab ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الِاحْتِجَاجِ بِالْقَدَرِ",
+    "book_id": 29,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-29-chapter-4",
+    "uzbek_title": "Qadar bilan hujjat keltirish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ لَا يُؤْمِنُ عَبْدٌ حَتَّى يُؤْمِنَ بِالْقَدَرِ",
+    "book_id": 29,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-29-chapter-5",
+    "uzbek_title": "Banda qadariga ishonmaguncha iymon kelmasligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْفِتَنِ",
+    "book_id": 30,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-30-chapter-1",
+    "uzbek_title": "Fitnalar haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدَّجَّالِ",
+    "book_id": 30,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-30-chapter-2",
+    "uzbek_title": "Dajjol haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي ظُهُورِ عِيسَى ابْنِ مَرْيَمَ",
+    "book_id": 30,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-30-chapter-3",
+    "uzbek_title": "Iso ibn Maryam paydo bo'lishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي ذَهَابِ الْقُرْآنِ وَالْعِلْمِ",
+    "book_id": 30,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-30-chapter-4",
+    "uzbek_title": "Qur'on va ilm ketishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْخَوَارِجِ",
+    "book_id": 30,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-30-chapter-5",
+    "uzbek_title": "Xorijiylar haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ لَا تَزَالُ طَائِفَةٌ مِنْ أُمَّتِي",
+    "book_id": 30,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-30-chapter-6",
+    "uzbek_title": "Ummatimdan bir guruh haq ustida qolishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْقَتْلِ فِي الْفِتْنَةِ",
+    "book_id": 30,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-30-chapter-7",
+    "uzbek_title": "Fitna paytida o'ldirish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي أَشْرَاطِ السَّاعَةِ",
+    "book_id": 30,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-30-chapter-8",
+    "uzbek_title": "Qiyomat alomatlari haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي نُزُولِ الْمَهْدِيِّ",
+    "book_id": 30,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-30-chapter-9",
+    "uzbek_title": "Mahdiyning tushishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرُّؤْيَا الصَّالِحَةِ",
+    "book_id": 31,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-31-chapter-1",
+    "uzbek_title": "Yaxshi tush haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرُّؤْيَا الْحَسَنَةِ بُشْرَى لِلْمُؤْمِنِ",
+    "book_id": 31,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-31-chapter-2",
+    "uzbek_title": "Yaxshi tush mo'min uchun muboshshirligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ مَنْ رَآنِي فِي النَّوْمِ فَقَدْ رَآنِي",
+    "book_id": 31,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-31-chapter-3",
+    "uzbek_title": "Tushida Nabiy ﷺni ko'rish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرُّؤْيَا الْقَبِيحَةِ",
+    "book_id": 31,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-31-chapter-4",
+    "uzbek_title": "Yomon tush haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي تَعْبِيرِ الرُّؤْيَا",
+    "book_id": 31,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-31-chapter-5",
+    "uzbek_title": "Tushni ta'bir qilish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ الرُّؤْيَا جُزْءٌ مِنَ النُّبُوَّةِ",
+    "book_id": 31,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-31-chapter-6",
+    "uzbek_title": "Tush nubuvvatning qismi ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي شَهَادَةِ الزُّورِ",
+    "book_id": 32,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-32-chapter-1",
+    "uzbek_title": "Yolg'on guvohlik haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي شَهَادَةِ الْقَاذِفِ",
+    "book_id": 32,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-32-chapter-2",
+    "uzbek_title": "Bo'htonga guvohlik haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي شَهَادَةِ الصَّبِيِّ",
+    "book_id": 32,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-32-chapter-3",
+    "uzbek_title": "Bolaning guvohlik haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي شَهَادَةِ أَهْلِ الذِّمَّةِ",
+    "book_id": 32,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-32-chapter-4",
+    "uzbek_title": "Zimmiylarning guvohlik haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الزُّهْدِ فِي الدُّنْيَا",
+    "book_id": 33,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-33-chapter-1",
+    "uzbek_title": "Dunyodan zuhd haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ الدُّنْيَا سِجْنُ الْمُؤْمِنِ",
+    "book_id": 33,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-33-chapter-2",
+    "uzbek_title": "Dunyo mo'min uchun zindon ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الْفَقْرِ",
+    "book_id": 33,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-33-chapter-3",
+    "uzbek_title": "Faqirlikning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي ذَمِّ الْمَالِ",
+    "book_id": 33,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-33-chapter-4",
+    "uzbek_title": "Molni qoralash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّوَكُّلِ",
+    "book_id": 33,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-33-chapter-5",
+    "uzbek_title": "Tavakkul haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْوَرَعِ وَتَرْكِ الشُّبُهَاتِ",
+    "book_id": 33,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-33-chapter-6",
+    "uzbek_title": "Vara' va shubhalilarni tark etish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي ذِكْرِ الْمَوْتِ",
+    "book_id": 33,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-33-chapter-7",
+    "uzbek_title": "O'limni esga olish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي قِصَرِ الْأَمَلِ",
+    "book_id": 33,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-33-chapter-8",
+    "uzbek_title": "Qisqa umid haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي ذَمِّ الدُّنْيَا",
+    "book_id": 33,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-33-chapter-9",
+    "uzbek_title": "Dunyoni qoralash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الْقَنَاعَةِ",
+    "book_id": 33,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-33-chapter-10",
+    "uzbek_title": "Qanoatning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ كُنْ فِي الدُّنْيَا كَأَنَّكَ غَرِيبٌ",
+    "book_id": 33,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-33-chapter-11",
+    "uzbek_title": "Dunyoda g'arib kabi bo'l, degan hadis haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْبُكَاءِ مِنْ خَشْيَةِ اللَّهِ",
+    "book_id": 33,
+    "chapter_number": 12,
+    "id": "tirmidhi-book-33-chapter-12",
+    "uzbek_title": "Alloh xavfidan yig'lash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صِفَةِ الْقِيَامَةِ",
+    "book_id": 34,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-34-chapter-1",
+    "uzbek_title": "Qiyomat kuni tavsifi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الشَّفَاعَةِ",
+    "book_id": 34,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-34-chapter-2",
+    "uzbek_title": "Shafovat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصِّرَاطِ",
+    "book_id": 34,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-34-chapter-3",
+    "uzbek_title": "Sirot haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْمِيزَانِ",
+    "book_id": 34,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-34-chapter-4",
+    "uzbek_title": "Mezon haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْحِسَابِ",
+    "book_id": 34,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-34-chapter-5",
+    "uzbek_title": "Hisob-kitob haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي أَهْوَالِ يَوْمِ الْقِيَامَةِ",
+    "book_id": 34,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-34-chapter-6",
+    "uzbek_title": "Qiyomat kuni dahshatlari haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي تَطَايُرِ الصُّحُفِ",
+    "book_id": 34,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-34-chapter-7",
+    "uzbek_title": "Amallar daftarlari uchishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الذِّكْرِ",
+    "book_id": 34,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-34-chapter-8",
+    "uzbek_title": "Zikrning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْبُكَاءِ مِنْ خَشْيَةِ اللَّهِ",
+    "book_id": 34,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-34-chapter-9",
+    "uzbek_title": "Alloh xavfidan yig'lash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي مُجَاهَدَةِ النَّفْسِ",
+    "book_id": 34,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-34-chapter-10",
+    "uzbek_title": "Nafs bilan kurash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صِفَةِ الْجَنَّةِ",
+    "book_id": 35,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-35-chapter-1",
+    "uzbek_title": "Jannatning tavsifi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ فِي الْجَنَّةِ مَا لَا عَيْنٌ رَأَتْ",
+    "book_id": 35,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-35-chapter-2",
+    "uzbek_title": "Jannatta ko'z ko'rmagan narsalar borligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صِفَةِ نَعِيمِ الْجَنَّةِ",
+    "book_id": 35,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-35-chapter-3",
+    "uzbek_title": "Jannat ne'matlarining tavsifi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي رُؤْيَةِ الرَّبِّ تَبَارَكَ وَتَعَالَى",
+    "book_id": 35,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-35-chapter-4",
+    "uzbek_title": "Allohni jannatta ko'rish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي أَدْنَى أَهْلِ الْجَنَّةِ مَنْزِلَةً",
+    "book_id": 35,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-35-chapter-5",
+    "uzbek_title": "Jannatta eng past darajadagi kishining manzili haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْفِرْدَوْسِ",
+    "book_id": 35,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-35-chapter-6",
+    "uzbek_title": "Firdavs haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي أَنَّ أَهْلَ الْجَنَّةِ يَدْخُلُونَهَا بِغَيْرِ حِسَابٍ",
+    "book_id": 35,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-35-chapter-7",
+    "uzbek_title": "Jannat ahli hisob-kitobsiz kirishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صِفَةِ جَهَنَّمَ",
+    "book_id": 36,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-36-chapter-1",
+    "uzbek_title": "Jahannam tavsifi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي أَنَّ لِلنَّارِ نَفَسَيْنِ",
+    "book_id": 36,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-36-chapter-2",
+    "uzbek_title": "Jahannamning ikki nafas olishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي صِفَةِ أَهْلِ النَّارِ",
+    "book_id": 36,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-36-chapter-3",
+    "uzbek_title": "Jahannam ahlining tavsifi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي أَهْوَنِ أَهْلِ النَّارِ عَذَابًا",
+    "book_id": 36,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-36-chapter-4",
+    "uzbek_title": "Jahannam ahlida eng yengil azob haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي وَصْفِ شَرَابِ أَهْلِ النَّارِ",
+    "book_id": 36,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-36-chapter-5",
+    "uzbek_title": "Jahannam ahlining ichimligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي وَصْفِ الْإِيمَانِ",
+    "book_id": 37,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-37-chapter-1",
+    "uzbek_title": "Iymon tavsifi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ الْإِيمَانَ يَزِيدُ وَيَنْقُصُ",
+    "book_id": 37,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-37-chapter-2",
+    "uzbek_title": "Iymon ortadi va kamayadi ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي افْتِرَاقِ هَذِهِ الْأُمَّةِ",
+    "book_id": 37,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-37-chapter-3",
+    "uzbek_title": "Bu ummatning bo'linishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي أَرْكَانِ الْإِسْلَامِ",
+    "book_id": 37,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-37-chapter-4",
+    "uzbek_title": "Islomning ruknlari haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الشَّهَادَتَيْنِ",
+    "book_id": 37,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-37-chapter-5",
+    "uzbek_title": "Ikki shahodat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ مَنْ مَاتَ لَا يُشْرِكُ بِاللَّهِ دَخَلَ الْجَنَّةَ",
+    "book_id": 37,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-37-chapter-6",
+    "uzbek_title": "Shirksiz o'lgan kishi jannaga kirishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النِّفَاقِ",
+    "book_id": 37,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-37-chapter-7",
+    "uzbek_title": "Munofiqlik haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْكَبَائِرِ",
+    "book_id": 37,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-37-chapter-8",
+    "uzbek_title": "Katta gunohlar haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الْفِقْهِ عَلَى الْعِبَادَةِ",
+    "book_id": 38,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-38-chapter-1",
+    "uzbek_title": "Ibodatdan fiqh ustunligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ طَلَبِ الْعِلْمِ",
+    "book_id": 38,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-38-chapter-2",
+    "uzbek_title": "Ilm izlashning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي كِتَابَةِ الْعِلْمِ",
+    "book_id": 38,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-38-chapter-3",
+    "uzbek_title": "Ilmni yozib olish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْعِلْمِ يُدَرَّسُ",
+    "book_id": 38,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-38-chapter-4",
+    "uzbek_title": "Ilmni o'qitish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي ذَهَابِ الْعِلْمِ",
+    "book_id": 38,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-38-chapter-5",
+    "uzbek_title": "Ilmning ketishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِيمَنْ يُفْتِي بِغَيْرِ عِلْمٍ",
+    "book_id": 38,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-38-chapter-6",
+    "uzbek_title": "Ilmsiz fatvo bergan kishining hukmi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرِّوَايَةِ عَنِ النَّبِيِّ",
+    "book_id": 38,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-38-chapter-7",
+    "uzbek_title": "Nabiy ﷺdan rivoyat qilish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الِاسْتِئْذَانِ",
+    "book_id": 39,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-39-chapter-1",
+    "uzbek_title": "Ruxsat so'rash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ الِاسْتِئْذَانَ ثَلَاثٌ",
+    "book_id": 39,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-39-chapter-2",
+    "uzbek_title": "Ruxsat so'rash uch marotabaligii haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي السَّلَامِ",
+    "book_id": 39,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-39-chapter-3",
+    "uzbek_title": "Salom berish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي ابْتِدَاءِ السَّلَامِ",
+    "book_id": 39,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-39-chapter-4",
+    "uzbek_title": "Salom berishni boshlash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي السَّلَامِ عَلَى غَيْرِ الْمُسْلِمِ",
+    "book_id": 39,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-39-chapter-5",
+    "uzbek_title": "G'ayrimuslimlarga salom berish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّسْلِيمِ عِنْدَ الدُّخُولِ",
+    "book_id": 39,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-39-chapter-6",
+    "uzbek_title": "Uyga kirishda salom berish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ إِفْشَاءِ السَّلَامِ",
+    "book_id": 39,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-39-chapter-7",
+    "uzbek_title": "Salomni keng tarqatish fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي حُسْنِ الْخُلُقِ",
+    "book_id": 40,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-40-chapter-1",
+    "uzbek_title": "Yaxshi xulq haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الرِّفْقِ",
+    "book_id": 40,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-40-chapter-2",
+    "uzbek_title": "Muloyimlik haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الشُّكْرِ لِلنَّاسِ",
+    "book_id": 40,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-40-chapter-3",
+    "uzbek_title": "Odamlarga minnatdorlik haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الضَّحِكِ",
+    "book_id": 40,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-40-chapter-4",
+    "uzbek_title": "Kulish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْمِزَاحِ",
+    "book_id": 40,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-40-chapter-5",
+    "uzbek_title": "Hazil haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْعَفْوِ وَالتَّجَاوُزِ",
+    "book_id": 40,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-40-chapter-6",
+    "uzbek_title": "Kechirish va o'tib ketish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّهْيِ عَنِ الْغَضَبِ",
+    "book_id": 40,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-40-chapter-7",
+    "uzbek_title": "G'azabning taqiqlanishi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الصَّمْتِ",
+    "book_id": 40,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-40-chapter-8",
+    "uzbek_title": "Jim turish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي حِفْظِ اللِّسَانِ",
+    "book_id": 40,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-40-chapter-9",
+    "uzbek_title": "Tilni asrash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْغِيبَةِ",
+    "book_id": 40,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-40-chapter-10",
+    "uzbek_title": "G'iybat haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي النَّمِيمَةِ",
+    "book_id": 40,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-40-chapter-11",
+    "uzbek_title": "Og'iz ko'pirtirish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّشْمِيتِ عَلَى الْعَاطِسِ",
+    "book_id": 40,
+    "chapter_number": 12,
+    "id": "tirmidhi-book-40-chapter-12",
+    "uzbek_title": "Aksirgan kishiga duo haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي اللَّعَانِ",
+    "book_id": 40,
+    "chapter_number": 13,
+    "id": "tirmidhi-book-40-chapter-13",
+    "uzbek_title": "La'nat o'qish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْإِخَاءِ وَالصَّدَاقَةِ",
+    "book_id": 40,
+    "chapter_number": 14,
+    "id": "tirmidhi-book-40-chapter-14",
+    "uzbek_title": "Birodarlik va do'stlik haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي مَثَلِ الصَّلَوَاتِ الْخَمْسِ",
+    "book_id": 41,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-41-chapter-1",
+    "uzbek_title": "Besh vaqt namoz masali haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي مَثَلِ الدُّنْيَا",
+    "book_id": 41,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-41-chapter-2",
+    "uzbek_title": "Dunyo masali haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي مَثَلِ الْمُؤْمِنِ وَالْمُنَافِقِ",
+    "book_id": 41,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-41-chapter-3",
+    "uzbek_title": "Mo'min va munofiq masali haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي مَثَلِ الْعُلَمَاءِ",
+    "book_id": 41,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-41-chapter-4",
+    "uzbek_title": "Olimlar masali haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي مَثَلِ الصَّدَقَةِ",
+    "book_id": 41,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-41-chapter-5",
+    "uzbek_title": "Sadaqa masali haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي مَثَلِ الْجَلِيسِ الصَّالِحِ وَالسَّوْءِ",
+    "book_id": 41,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-41-chapter-6",
+    "uzbek_title": "Yaxshi va yomon do'st masali haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي مَثَلِ الْمُؤْمِنِ وَالنَّخْلَةِ",
+    "book_id": 41,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-41-chapter-7",
+    "uzbek_title": "Mo'min va xurmo daraxti masali haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الْقُرْآنِ",
+    "book_id": 42,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-42-chapter-1",
+    "uzbek_title": "Qur'onning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ قِرَاءَةِ الْقُرْآنِ",
+    "book_id": 42,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-42-chapter-2",
+    "uzbek_title": "Qur'on o'qishning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ حَامِلِ الْقُرْآنِ",
+    "book_id": 42,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-42-chapter-3",
+    "uzbek_title": "Qur'on sohibining fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ سُورَةِ الْبَقَرَةِ",
+    "book_id": 42,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-42-chapter-4",
+    "uzbek_title": "Baqara surasining fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ سُورَةِ الْكَهْفِ",
+    "book_id": 42,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-42-chapter-5",
+    "uzbek_title": "Kahf surasining fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ سُورَةِ يس",
+    "book_id": 42,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-42-chapter-6",
+    "uzbek_title": "Yosin surasining fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الْمُعَوِّذَتَيْنِ",
+    "book_id": 42,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-42-chapter-7",
+    "uzbek_title": "Mu'avvizataynning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ سُورَةِ الْإِخْلَاصِ",
+    "book_id": 42,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-42-chapter-8",
+    "uzbek_title": "Ixlos surasining fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الْفَاتِحَةِ",
+    "book_id": 42,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-42-chapter-9",
+    "uzbek_title": "Fotiha surasining fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي تَرْتِيلِ الْقُرْآنِ",
+    "book_id": 42,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-42-chapter-10",
+    "uzbek_title": "Qur'onni tartil bilan o'qish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ الْقُرْآنَ أُنْزِلَ عَلَى سَبْعَةِ أَحْرُفٍ",
+    "book_id": 43,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-43-chapter-1",
+    "uzbek_title": "Qur'on yetti harf bilan tushirilganligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْجَهْرِ بِالْبَسْمَلَةِ",
+    "book_id": 43,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-43-chapter-2",
+    "uzbek_title": "Bismillohni ovoz bilan aytish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي تَرْكِ الْجَهْرِ بِالْبَسْمَلَةِ",
+    "book_id": 43,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-43-chapter-3",
+    "uzbek_title": "Bismillohni asta aytish haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي قِرَاءَةِ الْمَأْمُومِ",
+    "book_id": 43,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-43-chapter-4",
+    "uzbek_title": "Ma'mumning qiroati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الْقِرَاءَةِ فِي صَلَاةِ الظُّهْرِ",
+    "book_id": 43,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-43-chapter-5",
+    "uzbek_title": "Peshin namozida qiroat haqida"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْفَاتِحَةِ",
+    "book_id": 44,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-44-chapter-1",
+    "uzbek_title": "Fotiha surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْبَقَرَةِ",
+    "book_id": 44,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-44-chapter-2",
+    "uzbek_title": "Baqara surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ آلِ عِمْرَانَ",
+    "book_id": 44,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-44-chapter-3",
+    "uzbek_title": "Ol Imron surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ النِّسَاءِ",
+    "book_id": 44,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-44-chapter-4",
+    "uzbek_title": "Niso surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْمَائِدَةِ",
+    "book_id": 44,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-44-chapter-5",
+    "uzbek_title": "Moida surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْأَنْعَامِ",
+    "book_id": 44,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-44-chapter-6",
+    "uzbek_title": "An'om surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْأَعْرَافِ",
+    "book_id": 44,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-44-chapter-7",
+    "uzbek_title": "A'rof surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْأَنْفَالِ",
+    "book_id": 44,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-44-chapter-8",
+    "uzbek_title": "Anfol surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ التَّوْبَةِ",
+    "book_id": 44,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-44-chapter-9",
+    "uzbek_title": "Tavba surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ يُونُسَ",
+    "book_id": 44,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-44-chapter-10",
+    "uzbek_title": "Yunus surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ هُودٍ",
+    "book_id": 44,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-44-chapter-11",
+    "uzbek_title": "Hud surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ يُوسُفَ",
+    "book_id": 44,
+    "chapter_number": 12,
+    "id": "tirmidhi-book-44-chapter-12",
+    "uzbek_title": "Yusuf surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الرَّعْدِ",
+    "book_id": 44,
+    "chapter_number": 13,
+    "id": "tirmidhi-book-44-chapter-13",
+    "uzbek_title": "Ra'd surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ إِبْرَاهِيمَ",
+    "book_id": 44,
+    "chapter_number": 14,
+    "id": "tirmidhi-book-44-chapter-14",
+    "uzbek_title": "Ibrohim surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْحِجْرِ",
+    "book_id": 44,
+    "chapter_number": 15,
+    "id": "tirmidhi-book-44-chapter-15",
+    "uzbek_title": "Hijr surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ النَّحْلِ",
+    "book_id": 44,
+    "chapter_number": 16,
+    "id": "tirmidhi-book-44-chapter-16",
+    "uzbek_title": "Nahl surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْإِسْرَاءِ",
+    "book_id": 44,
+    "chapter_number": 17,
+    "id": "tirmidhi-book-44-chapter-17",
+    "uzbek_title": "Isro surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْكَهْفِ",
+    "book_id": 44,
+    "chapter_number": 18,
+    "id": "tirmidhi-book-44-chapter-18",
+    "uzbek_title": "Kahf surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ مَرْيَمَ",
+    "book_id": 44,
+    "chapter_number": 19,
+    "id": "tirmidhi-book-44-chapter-19",
+    "uzbek_title": "Maryam surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ طه",
+    "book_id": 44,
+    "chapter_number": 20,
+    "id": "tirmidhi-book-44-chapter-20",
+    "uzbek_title": "Toha surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْأَنْبِيَاءِ",
+    "book_id": 44,
+    "chapter_number": 21,
+    "id": "tirmidhi-book-44-chapter-21",
+    "uzbek_title": "Anbiyo surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْحَجِّ",
+    "book_id": 44,
+    "chapter_number": 22,
+    "id": "tirmidhi-book-44-chapter-22",
+    "uzbek_title": "Haj surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْمُؤْمِنُونَ",
+    "book_id": 44,
+    "chapter_number": 23,
+    "id": "tirmidhi-book-44-chapter-23",
+    "uzbek_title": "Mo'minun surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ النُّورِ",
+    "book_id": 44,
+    "chapter_number": 24,
+    "id": "tirmidhi-book-44-chapter-24",
+    "uzbek_title": "Nur surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْفُرْقَانِ",
+    "book_id": 44,
+    "chapter_number": 25,
+    "id": "tirmidhi-book-44-chapter-25",
+    "uzbek_title": "Furqon surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الشُّعَرَاءِ",
+    "book_id": 44,
+    "chapter_number": 26,
+    "id": "tirmidhi-book-44-chapter-26",
+    "uzbek_title": "Shuaro surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ النَّمْلِ",
+    "book_id": 44,
+    "chapter_number": 27,
+    "id": "tirmidhi-book-44-chapter-27",
+    "uzbek_title": "Naml surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْقَصَصِ",
+    "book_id": 44,
+    "chapter_number": 28,
+    "id": "tirmidhi-book-44-chapter-28",
+    "uzbek_title": "Qasas surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْعَنْكَبُوتِ",
+    "book_id": 44,
+    "chapter_number": 29,
+    "id": "tirmidhi-book-44-chapter-29",
+    "uzbek_title": "Ankabut surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الرُّومِ",
+    "book_id": 44,
+    "chapter_number": 30,
+    "id": "tirmidhi-book-44-chapter-30",
+    "uzbek_title": "Rum surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ لُقْمَانَ",
+    "book_id": 44,
+    "chapter_number": 31,
+    "id": "tirmidhi-book-44-chapter-31",
+    "uzbek_title": "Luqmon surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْأَحْزَابِ",
+    "book_id": 44,
+    "chapter_number": 32,
+    "id": "tirmidhi-book-44-chapter-32",
+    "uzbek_title": "Ahzob surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ سَبَأٍ",
+    "book_id": 44,
+    "chapter_number": 33,
+    "id": "tirmidhi-book-44-chapter-33",
+    "uzbek_title": "Saba surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ فَاطِرٍ",
+    "book_id": 44,
+    "chapter_number": 34,
+    "id": "tirmidhi-book-44-chapter-34",
+    "uzbek_title": "Fotir surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ يس",
+    "book_id": 44,
+    "chapter_number": 35,
+    "id": "tirmidhi-book-44-chapter-35",
+    "uzbek_title": "Yosin surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الصَّافَّاتِ",
+    "book_id": 44,
+    "chapter_number": 36,
+    "id": "tirmidhi-book-44-chapter-36",
+    "uzbek_title": "Soffot surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ ص",
+    "book_id": 44,
+    "chapter_number": 37,
+    "id": "tirmidhi-book-44-chapter-37",
+    "uzbek_title": "Sod surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الزُّمَرِ",
+    "book_id": 44,
+    "chapter_number": 38,
+    "id": "tirmidhi-book-44-chapter-38",
+    "uzbek_title": "Zumar surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ غَافِرٍ",
+    "book_id": 44,
+    "chapter_number": 39,
+    "id": "tirmidhi-book-44-chapter-39",
+    "uzbek_title": "G'ofir surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ فُصِّلَتْ",
+    "book_id": 44,
+    "chapter_number": 40,
+    "id": "tirmidhi-book-44-chapter-40",
+    "uzbek_title": "Fussilat surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الشُّورَى",
+    "book_id": 44,
+    "chapter_number": 41,
+    "id": "tirmidhi-book-44-chapter-41",
+    "uzbek_title": "Shuro surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الزُّخْرُفِ",
+    "book_id": 44,
+    "chapter_number": 42,
+    "id": "tirmidhi-book-44-chapter-42",
+    "uzbek_title": "Zuxruf surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الدُّخَانِ",
+    "book_id": 44,
+    "chapter_number": 43,
+    "id": "tirmidhi-book-44-chapter-43",
+    "uzbek_title": "Duhon surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْجَاثِيَةِ",
+    "book_id": 44,
+    "chapter_number": 44,
+    "id": "tirmidhi-book-44-chapter-44",
+    "uzbek_title": "Josiya surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْأَحْقَافِ",
+    "book_id": 44,
+    "chapter_number": 45,
+    "id": "tirmidhi-book-44-chapter-45",
+    "uzbek_title": "Ahqof surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ مُحَمَّدٍ",
+    "book_id": 44,
+    "chapter_number": 46,
+    "id": "tirmidhi-book-44-chapter-46",
+    "uzbek_title": "Muhammad surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْفَتْحِ",
+    "book_id": 44,
+    "chapter_number": 47,
+    "id": "tirmidhi-book-44-chapter-47",
+    "uzbek_title": "Fath surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْحُجُرَاتِ",
+    "book_id": 44,
+    "chapter_number": 48,
+    "id": "tirmidhi-book-44-chapter-48",
+    "uzbek_title": "Hujurot surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ ق",
+    "book_id": 44,
+    "chapter_number": 49,
+    "id": "tirmidhi-book-44-chapter-49",
+    "uzbek_title": "Qof surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الذَّارِيَاتِ",
+    "book_id": 44,
+    "chapter_number": 50,
+    "id": "tirmidhi-book-44-chapter-50",
+    "uzbek_title": "Zoriyot surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الطُّورِ",
+    "book_id": 44,
+    "chapter_number": 51,
+    "id": "tirmidhi-book-44-chapter-51",
+    "uzbek_title": "Tur surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ النَّجْمِ",
+    "book_id": 44,
+    "chapter_number": 52,
+    "id": "tirmidhi-book-44-chapter-52",
+    "uzbek_title": "Najm surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْقَمَرِ",
+    "book_id": 44,
+    "chapter_number": 53,
+    "id": "tirmidhi-book-44-chapter-53",
+    "uzbek_title": "Qamar surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الرَّحْمَنِ",
+    "book_id": 44,
+    "chapter_number": 54,
+    "id": "tirmidhi-book-44-chapter-54",
+    "uzbek_title": "Rohman surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْوَاقِعَةِ",
+    "book_id": 44,
+    "chapter_number": 55,
+    "id": "tirmidhi-book-44-chapter-55",
+    "uzbek_title": "Voqia surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْحَدِيدِ",
+    "book_id": 44,
+    "chapter_number": 56,
+    "id": "tirmidhi-book-44-chapter-56",
+    "uzbek_title": "Hadid surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْحَشْرِ",
+    "book_id": 44,
+    "chapter_number": 57,
+    "id": "tirmidhi-book-44-chapter-57",
+    "uzbek_title": "Hashr surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْمُمْتَحَنَةِ",
+    "book_id": 44,
+    "chapter_number": 58,
+    "id": "tirmidhi-book-44-chapter-58",
+    "uzbek_title": "Mumtahana surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الصَّفِّ",
+    "book_id": 44,
+    "chapter_number": 59,
+    "id": "tirmidhi-book-44-chapter-59",
+    "uzbek_title": "Saff surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْجُمُعَةِ",
+    "book_id": 44,
+    "chapter_number": 60,
+    "id": "tirmidhi-book-44-chapter-60",
+    "uzbek_title": "Juma surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْمُنَافِقِينَ",
+    "book_id": 44,
+    "chapter_number": 61,
+    "id": "tirmidhi-book-44-chapter-61",
+    "uzbek_title": "Munofiqun surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ التَّغَابُنِ",
+    "book_id": 44,
+    "chapter_number": 62,
+    "id": "tirmidhi-book-44-chapter-62",
+    "uzbek_title": "Tog'obun surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الطَّلَاقِ",
+    "book_id": 44,
+    "chapter_number": 63,
+    "id": "tirmidhi-book-44-chapter-63",
+    "uzbek_title": "Talok surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْمُلْكِ",
+    "book_id": 44,
+    "chapter_number": 64,
+    "id": "tirmidhi-book-44-chapter-64",
+    "uzbek_title": "Mulk surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْقَلَمِ",
+    "book_id": 44,
+    "chapter_number": 65,
+    "id": "tirmidhi-book-44-chapter-65",
+    "uzbek_title": "Qalam surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ نُوحٍ",
+    "book_id": 44,
+    "chapter_number": 66,
+    "id": "tirmidhi-book-44-chapter-66",
+    "uzbek_title": "Nuh surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْجِنِّ",
+    "book_id": 44,
+    "chapter_number": 67,
+    "id": "tirmidhi-book-44-chapter-67",
+    "uzbek_title": "Jin surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْمُزَّمِّلِ",
+    "book_id": 44,
+    "chapter_number": 68,
+    "id": "tirmidhi-book-44-chapter-68",
+    "uzbek_title": "Muzzammil surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْمُدَّثِّرِ",
+    "book_id": 44,
+    "chapter_number": 69,
+    "id": "tirmidhi-book-44-chapter-69",
+    "uzbek_title": "Muddassir surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْقِيَامَةِ",
+    "book_id": 44,
+    "chapter_number": 70,
+    "id": "tirmidhi-book-44-chapter-70",
+    "uzbek_title": "Qiyoma surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْمُرْسَلَاتِ",
+    "book_id": 44,
+    "chapter_number": 71,
+    "id": "tirmidhi-book-44-chapter-71",
+    "uzbek_title": "Mursalot surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ النَّبَإِ",
+    "book_id": 44,
+    "chapter_number": 72,
+    "id": "tirmidhi-book-44-chapter-72",
+    "uzbek_title": "Naba surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ النَّازِعَاتِ",
+    "book_id": 44,
+    "chapter_number": 73,
+    "id": "tirmidhi-book-44-chapter-73",
+    "uzbek_title": "Nozi'ot surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ عَبَسَ",
+    "book_id": 44,
+    "chapter_number": 74,
+    "id": "tirmidhi-book-44-chapter-74",
+    "uzbek_title": "Abasa surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ التَّكْوِيرِ",
+    "book_id": 44,
+    "chapter_number": 75,
+    "id": "tirmidhi-book-44-chapter-75",
+    "uzbek_title": "Takwir surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الِانْفِطَارِ",
+    "book_id": 44,
+    "chapter_number": 76,
+    "id": "tirmidhi-book-44-chapter-76",
+    "uzbek_title": "Infitor surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الِانْشِقَاقِ",
+    "book_id": 44,
+    "chapter_number": 77,
+    "id": "tirmidhi-book-44-chapter-77",
+    "uzbek_title": "Inshiqoq surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْبُرُوجِ",
+    "book_id": 44,
+    "chapter_number": 78,
+    "id": "tirmidhi-book-44-chapter-78",
+    "uzbek_title": "Buruj surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْغَاشِيَةِ",
+    "book_id": 44,
+    "chapter_number": 79,
+    "id": "tirmidhi-book-44-chapter-79",
+    "uzbek_title": "G'oshiya surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْفَجْرِ",
+    "book_id": 44,
+    "chapter_number": 80,
+    "id": "tirmidhi-book-44-chapter-80",
+    "uzbek_title": "Fajr surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الضُّحَى",
+    "book_id": 44,
+    "chapter_number": 81,
+    "id": "tirmidhi-book-44-chapter-81",
+    "uzbek_title": "Zuho surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ أَلَمْ نَشْرَحْ",
+    "book_id": 44,
+    "chapter_number": 82,
+    "id": "tirmidhi-book-44-chapter-82",
+    "uzbek_title": "Inshiroh surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ التِّينِ",
+    "book_id": 44,
+    "chapter_number": 83,
+    "id": "tirmidhi-book-44-chapter-83",
+    "uzbek_title": "Tin surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْعَلَقِ",
+    "book_id": 44,
+    "chapter_number": 84,
+    "id": "tirmidhi-book-44-chapter-84",
+    "uzbek_title": "Alaq surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْقَدْرِ",
+    "book_id": 44,
+    "chapter_number": 85,
+    "id": "tirmidhi-book-44-chapter-85",
+    "uzbek_title": "Qadr surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْبَيِّنَةِ",
+    "book_id": 44,
+    "chapter_number": 86,
+    "id": "tirmidhi-book-44-chapter-86",
+    "uzbek_title": "Bayyina surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الزَّلْزَلَةِ",
+    "book_id": 44,
+    "chapter_number": 87,
+    "id": "tirmidhi-book-44-chapter-87",
+    "uzbek_title": "Zilzol surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ التَّكَاثُرِ",
+    "book_id": 44,
+    "chapter_number": 88,
+    "id": "tirmidhi-book-44-chapter-88",
+    "uzbek_title": "Takosur surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْعَصْرِ",
+    "book_id": 44,
+    "chapter_number": 89,
+    "id": "tirmidhi-book-44-chapter-89",
+    "uzbek_title": "Asr surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْهُمَزَةِ",
+    "book_id": 44,
+    "chapter_number": 90,
+    "id": "tirmidhi-book-44-chapter-90",
+    "uzbek_title": "Humaza surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْفِيلِ",
+    "book_id": 44,
+    "chapter_number": 91,
+    "id": "tirmidhi-book-44-chapter-91",
+    "uzbek_title": "Fil surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْإِخْلَاصِ",
+    "book_id": 44,
+    "chapter_number": 92,
+    "id": "tirmidhi-book-44-chapter-92",
+    "uzbek_title": "Ixlos surasidan"
+  },
+  {
+    "arabic_title": "بَابٌ وَمِنْ سُورَةِ الْكَوْثَرِ",
+    "book_id": 44,
+    "chapter_number": 93,
+    "id": "tirmidhi-book-44-chapter-93",
+    "uzbek_title": "Kavshar surasidan"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الدُّعَاءِ",
+    "book_id": 45,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-45-chapter-1",
+    "uzbek_title": "Du'oning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ أَنَّ الدُّعَاءَ هُوَ الْعِبَادَةُ",
+    "book_id": 45,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-45-chapter-2",
+    "uzbek_title": "Du'o ibodat ekanligi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدُّعَاءِ بِرَفْعِ الْيَدَيْنِ",
+    "book_id": 45,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-45-chapter-3",
+    "uzbek_title": "Qo'llarni ko'tarib du'o haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي دُعَاءِ الْمَظْلُومِ",
+    "book_id": 45,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-45-chapter-4",
+    "uzbek_title": "Mazlumning du'osi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي دُعَاءِ الْمُسَافِرِ",
+    "book_id": 45,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-45-chapter-5",
+    "uzbek_title": "Musofirning du'osi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي دُعَاءِ يَوْمِ عَرَفَةَ",
+    "book_id": 45,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-45-chapter-6",
+    "uzbek_title": "Arafa kuni du'osi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدُّعَاءِ إِذَا أَصْبَحَ وَإِذَا أَمْسَى",
+    "book_id": 45,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-45-chapter-7",
+    "uzbek_title": "Ertalab va kechqurun du'o haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدُّعَاءِ عِنْدَ النَّوْمِ",
+    "book_id": 45,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-45-chapter-8",
+    "uzbek_title": "Uxlashdan oldin du'o haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدُّعَاءِ إِذَا انْتَبَهَ مِنَ اللَّيْلِ",
+    "book_id": 45,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-45-chapter-9",
+    "uzbek_title": "Kechasi uyg'onganda du'o haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدُّعَاءِ بَعْدَ الصَّلَاةِ",
+    "book_id": 45,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-45-chapter-10",
+    "uzbek_title": "Namozdan so'ng du'o haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي التَّعَوُّذِ مِنَ الْجُبْنِ وَالْكَسَلِ",
+    "book_id": 45,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-45-chapter-11",
+    "uzbek_title": "Qo'rqoqlik va dangasalikdan panoh so'rash haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ التَّسْبِيحِ وَالتَّكْبِيرِ",
+    "book_id": 45,
+    "chapter_number": 12,
+    "id": "tirmidhi-book-45-chapter-12",
+    "uzbek_title": "Tasbih va takbirning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الِاسْتِغْفَارِ",
+    "book_id": 45,
+    "chapter_number": 13,
+    "id": "tirmidhi-book-45-chapter-13",
+    "uzbek_title": "Istig'for haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدُّعَاءِ إِذَا رَكِبَ دَابَّةً",
+    "book_id": 45,
+    "chapter_number": 14,
+    "id": "tirmidhi-book-45-chapter-14",
+    "uzbek_title": "Minib ketishda du'o haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي دُعَاءِ السَّفَرِ",
+    "book_id": 45,
+    "chapter_number": 15,
+    "id": "tirmidhi-book-45-chapter-15",
+    "uzbek_title": "Safar du'osi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي دُعَاءِ دُخُولِ الْمَنْزِلِ",
+    "book_id": 45,
+    "chapter_number": 16,
+    "id": "tirmidhi-book-45-chapter-16",
+    "uzbek_title": "Uyga kirish du'osi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي دُعَاءِ الْكَرْبِ",
+    "book_id": 45,
+    "chapter_number": 17,
+    "id": "tirmidhi-book-45-chapter-17",
+    "uzbek_title": "Qiyinchilikda du'o haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي الدُّعَاءِ لِمَنْ صَنَعَ إِلَيْكَ مَعْرُوفًا",
+    "book_id": 45,
+    "chapter_number": 18,
+    "id": "tirmidhi-book-45-chapter-18",
+    "uzbek_title": "Yaxshilik qilganga du'o haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي دُعَاءِ الِاسْتِخَارَةِ",
+    "book_id": 45,
+    "chapter_number": 19,
+    "id": "tirmidhi-book-45-chapter-19",
+    "uzbek_title": "Istikhora du'osi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي كَلِمَةِ التَّوْحِيدِ وَفَضْلِهَا",
+    "book_id": 45,
+    "chapter_number": 20,
+    "id": "tirmidhi-book-45-chapter-20",
+    "uzbek_title": "Tavhid kalimasi fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابٌ فِي فَضْلِ النَّبِيِّ صلى الله عليه وسلم",
+    "book_id": 46,
+    "chapter_number": 1,
+    "id": "tirmidhi-book-46-chapter-1",
+    "uzbek_title": "Nabiy ﷺning fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابٌ فِي صِفَةِ النَّبِيِّ صلى الله عليه وسلم",
+    "book_id": 46,
+    "chapter_number": 2,
+    "id": "tirmidhi-book-46-chapter-2",
+    "uzbek_title": "Nabiy ﷺning tavsifi haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي خَاتَمِ النُّبُوَّةِ",
+    "book_id": 46,
+    "chapter_number": 3,
+    "id": "tirmidhi-book-46-chapter-3",
+    "uzbek_title": "Nubuvvat muhri haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ أَبِي بَكْرٍ الصِّدِّيقِ",
+    "book_id": 46,
+    "chapter_number": 4,
+    "id": "tirmidhi-book-46-chapter-4",
+    "uzbek_title": "Abu Bakr Siddiq r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ عُمَرَ",
+    "book_id": 46,
+    "chapter_number": 5,
+    "id": "tirmidhi-book-46-chapter-5",
+    "uzbek_title": "Umar r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ عُثْمَانَ",
+    "book_id": 46,
+    "chapter_number": 6,
+    "id": "tirmidhi-book-46-chapter-6",
+    "uzbek_title": "Usmon r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ عَلِيِّ بْنِ أَبِي طَالِبٍ",
+    "book_id": 46,
+    "chapter_number": 7,
+    "id": "tirmidhi-book-46-chapter-7",
+    "uzbek_title": "Ali ibn Abu Tolib r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الزُّبَيْرِ",
+    "book_id": 46,
+    "chapter_number": 8,
+    "id": "tirmidhi-book-46-chapter-8",
+    "uzbek_title": "Zubayr r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ طَلْحَةَ",
+    "book_id": 46,
+    "chapter_number": 9,
+    "id": "tirmidhi-book-46-chapter-9",
+    "uzbek_title": "Talha r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ سَعْدِ بْنِ أَبِي وَقَّاصٍ",
+    "book_id": 46,
+    "chapter_number": 10,
+    "id": "tirmidhi-book-46-chapter-10",
+    "uzbek_title": "Sa'd ibn Abi Vaqqos r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ",
+    "book_id": 46,
+    "chapter_number": 11,
+    "id": "tirmidhi-book-46-chapter-11",
+    "uzbek_title": "Abdurrahmon ibn Avf r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ أَبِي عُبَيْدَةَ",
+    "book_id": 46,
+    "chapter_number": 12,
+    "id": "tirmidhi-book-46-chapter-12",
+    "uzbek_title": "Abu Ubayda r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الْحَسَنِ وَالْحُسَيْنِ",
+    "book_id": 46,
+    "chapter_number": 13,
+    "id": "tirmidhi-book-46-chapter-13",
+    "uzbek_title": "Hasan va Husayn r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ فَاطِمَةَ",
+    "book_id": 46,
+    "chapter_number": 14,
+    "id": "tirmidhi-book-46-chapter-14",
+    "uzbek_title": "Fotima r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ عَائِشَةَ",
+    "book_id": 46,
+    "chapter_number": 15,
+    "id": "tirmidhi-book-46-chapter-15",
+    "uzbek_title": "Oisha r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ خَدِيجَةَ",
+    "book_id": 46,
+    "chapter_number": 16,
+    "id": "tirmidhi-book-46-chapter-16",
+    "uzbek_title": "Xadija r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ أَبِي ذَرٍّ",
+    "book_id": 46,
+    "chapter_number": 17,
+    "id": "tirmidhi-book-46-chapter-17",
+    "uzbek_title": "Abu Zarr r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ مُعَاذِ بْنِ جَبَلٍ",
+    "book_id": 46,
+    "chapter_number": 18,
+    "id": "tirmidhi-book-46-chapter-18",
+    "uzbek_title": "Muoz ibn Jabal r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ",
+    "book_id": 46,
+    "chapter_number": 19,
+    "id": "tirmidhi-book-46-chapter-19",
+    "uzbek_title": "Abdulloh ibn Mas'ud r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ أُبَيِّ بْنِ كَعْبٍ",
+    "book_id": 46,
+    "chapter_number": 20,
+    "id": "tirmidhi-book-46-chapter-20",
+    "uzbek_title": "Ubayy ibn Ka'b r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ زَيْدِ بْنِ ثَابِتٍ",
+    "book_id": 46,
+    "chapter_number": 21,
+    "id": "tirmidhi-book-46-chapter-21",
+    "uzbek_title": "Zayd ibn Sobit r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ أَبِي هُرَيْرَةَ",
+    "book_id": 46,
+    "chapter_number": 22,
+    "id": "tirmidhi-book-46-chapter-22",
+    "uzbek_title": "Abu Hurayra r.a. fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي مَنَاقِبِ الْأَنْصَارِ",
+    "book_id": 46,
+    "chapter_number": 23,
+    "id": "tirmidhi-book-46-chapter-23",
+    "uzbek_title": "Ansorlarning manaqiblari haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ قُرَيْشٍ",
+    "book_id": 46,
+    "chapter_number": 24,
+    "id": "tirmidhi-book-46-chapter-24",
+    "uzbek_title": "Quraysh qabilasining fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الشَّامِ",
+    "book_id": 46,
+    "chapter_number": 25,
+    "id": "tirmidhi-book-46-chapter-25",
+    "uzbek_title": "Shom yurtining fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ الْمَدِينَةِ",
+    "book_id": 46,
+    "chapter_number": 26,
+    "id": "tirmidhi-book-46-chapter-26",
+    "uzbek_title": "Madina fazilati haqida"
+  },
+  {
+    "arabic_title": "بَابُ مَا جَاءَ فِي فَضْلِ مَكَّةَ",
+    "book_id": 46,
+    "chapter_number": 27,
+    "id": "tirmidhi-book-46-chapter-27",
+    "uzbek_title": "Makka fazilati haqida"
+  }
+]

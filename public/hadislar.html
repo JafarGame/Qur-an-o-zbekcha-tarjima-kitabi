@@ -10,93 +10,634 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css" />
-<!-- Apply saved theme before paint -->
 <script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>
+
+<style>
+/* ═══════════════════════════════════════════════════════════
+   HADISLAR PAGE — PREMIUM DARK GREEN THEME
+   All selectors scoped to body.hl-page
+   ═══════════════════════════════════════════════════════════ */
+
+body.hl-page {
+  background: #020e07;
+  color: #e8f0e8;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* ── Particle canvas ──────────────────────────────────────── */
+#hl-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── Background gradient layers ──────────────────────────── */
+body.hl-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 60% at 20% 10%,  rgba(10,60,28,0.55) 0%, transparent 65%),
+    radial-gradient(ellipse 70% 50% at 80% 85%,  rgba(6,40,18,0.45) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 40% at 60% 40%,  rgba(4,28,12,0.30) 0%, transparent 55%),
+    linear-gradient(170deg, #021007 0%, #030f08 40%, #020c06 70%, #010a05 100%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* ── Header ───────────────────────────────────────────────── */
+body.hl-page .hl-header {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  padding: 32px 20px 28px;
+  overflow: visible;
+}
+
+/* gold separator line below header */
+body.hl-page .hl-header::after {
+  content: "";
+  position: absolute;
+  bottom: 0; left: 10%; right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(184,134,11,0.35) 30%,
+    rgba(184,134,11,0.55) 50%,
+    rgba(184,134,11,0.35) 70%,
+    transparent 100%
+  );
+}
+
+/* back link */
+body.hl-page .hl-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: rgba(180,220,185,0.75);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(184,134,11,0.18);
+  padding: 7px 16px;
+  border-radius: 999px;
+  position: absolute;
+  left: 16px;
+  top: 28px;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+  backdrop-filter: blur(6px);
+}
+
+body.hl-page .hl-back:hover {
+  background: rgba(184,134,11,0.12);
+  color: #c9a227;
+}
+
+/* page title */
+body.hl-page .hl-title {
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #e8f0e8;
+  margin: 0 0 6px;
+  text-shadow: 0 0 24px rgba(80,200,100,0.12);
+}
+
+/* Arabic subtitle */
+body.hl-page .hl-subtitle-ar {
+  font-family: "Amiri", serif;
+  font-size: 1.05rem;
+  color: rgba(201,162,39,0.65);
+  letter-spacing: 0.04em;
+  margin: 0;
+  text-shadow: 0 0 12px rgba(201,162,39,0.2);
+}
+
+/* ── Main container ───────────────────────────────────────── */
+body.hl-page .hl-main {
+  position: relative;
+  z-index: 10;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 16px 72px;
+}
+
+/* ── Intro text ───────────────────────────────────────────── */
+body.hl-page .hl-intro {
+  text-align: center;
+  font-size: 0.88rem;
+  color: rgba(160,200,165,0.55);
+  letter-spacing: 0.04em;
+  margin: 0 0 28px;
+  line-height: 1.7;
+}
+
+/* ── Section label ────────────────────────────────────────── */
+body.hl-page .hl-section-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(184,134,11,0.65);
+  margin: 0 0 14px 4px;
+}
+
+/* ── Collection grid ──────────────────────────────────────── */
+body.hl-page .hl-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* ── Glass card base ──────────────────────────────────────── */
+body.hl-page .hl-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  border-radius: 18px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #e8f0e8;
+  cursor: pointer;
+
+  background: rgba(8, 30, 15, 0.72);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid rgba(184,134,11,0.28);
+  box-shadow:
+    0 4px 24px rgba(0,0,0,0.45),
+    inset 0 1px 0 rgba(255,255,255,0.04);
+
+  transition:
+    transform       0.22s cubic-bezier(0.34,1.56,0.64,1),
+    box-shadow      0.22s ease,
+    border-color    0.22s ease;
+}
+
+body.hl-page .hl-card:hover {
+  transform: translateY(-5px) scale(1.012);
+  border-color: rgba(184,134,11,0.62);
+  box-shadow:
+    0 0 0 1px rgba(184,134,11,0.22),
+    0 10px 36px rgba(0,0,0,0.55),
+    0 0 32px rgba(30,255,100,0.09),
+    0 0 70px rgba(30,255,100,0.04),
+    inset 0 1px 0 rgba(255,255,255,0.07);
+}
+
+/* Gold shimmer bar at top */
+body.hl-page .hl-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(184,134,11,0.7) 30%,
+    rgba(220,170,30,0.9) 50%,
+    rgba(184,134,11,0.7) 70%,
+    transparent 100%
+  );
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  z-index: 2;
+}
+
+body.hl-page .hl-card:hover::before {
+  opacity: 1;
+}
+
+/* Ripple container */
+body.hl-page .hl-card .ripple-layer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 5;
+}
+
+/* Individual ripple element */
+body.hl-page .ripple-circle {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle,
+    rgba(80,255,140,0.18) 0%,
+    rgba(80,255,140,0.06) 50%,
+    transparent 70%
+  );
+  transform: scale(0);
+  animation: hl-ripple 0.65s cubic-bezier(0.22,1,0.36,1) forwards;
+  pointer-events: none;
+}
+
+@keyframes hl-ripple {
+  0%   { transform: scale(0);   opacity: 1;   }
+  60%  { transform: scale(1);   opacity: 0.7; }
+  100% { transform: scale(1.5); opacity: 0;   }
+}
+
+@keyframes hl-pulse-ring {
+  0%   { box-shadow: 0 0 0 0    rgba(30,255,100,0.20); }
+  70%  { box-shadow: 0 0 0 12px rgba(30,255,100,0);    }
+  100% { box-shadow: 0 0 0 0    rgba(30,255,100,0);    }
+}
+
+body.hl-page .hl-card.pulsing {
+  animation: hl-pulse-ring 0.55s ease-out;
+}
+
+/* ── Card inner layout ────────────────────────────────────── */
+body.hl-page .hl-card-inner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 22px 22px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Left: icon column ────────────────────────────────────── */
+body.hl-page .hl-card-icon-col {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(184,134,11,0.20);
+  font-size: 2rem;
+  line-height: 1;
+  filter: drop-shadow(0 0 8px rgba(184,134,11,0.35));
+  transition: transform 0.25s ease, filter 0.25s ease, background 0.25s ease;
+}
+
+body.hl-page .hl-card:hover .hl-card-icon-col {
+  transform: scale(1.12) translateY(-2px);
+  filter: drop-shadow(0 0 16px rgba(80,255,140,0.4));
+  background: rgba(80,255,140,0.06);
+  border-color: rgba(80,255,140,0.2);
+}
+
+/* ── Body text ────────────────────────────────────────────── */
+body.hl-page .hl-card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+body.hl-page .hl-card-arabic {
+  font-family: "Amiri", serif;
+  font-size: 1.3rem;
+  direction: rtl;
+  color: #c9a227;
+  line-height: 1.5;
+  margin-bottom: 3px;
+  text-shadow: 0 0 12px rgba(201,162,39,0.3);
+}
+
+body.hl-page .hl-card-title {
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: #ddeedd;
+  margin-bottom: 6px;
+  letter-spacing: 0.15px;
+}
+
+body.hl-page .hl-card-desc {
+  font-size: 0.80rem;
+  color: rgba(160,200,165,0.58);
+  line-height: 1.65;
+  margin-bottom: 10px;
+}
+
+/* ── Meta tags ────────────────────────────────────────────── */
+body.hl-page .hl-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: flex-start;
+}
+
+body.hl-page .hl-meta-tag {
+  display: inline-block;
+  width: fit-content;
+  flex: 0 0 auto;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: rgba(201,162,39,0.85);
+  background: rgba(184,134,11,0.12);
+  border: 1px solid rgba(184,134,11,0.22);
+  padding: 2px 10px;
+  border-radius: 999px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+body.hl-page .hl-card:hover .hl-meta-tag {
+  background: rgba(184,134,11,0.20);
+  color: #d4a820;
+}
+
+/* ── Arrow ────────────────────────────────────────────────── */
+body.hl-page .hl-card-arrow {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #c9a227;
+  flex-shrink: 0;
+  text-shadow: 0 0 10px rgba(184,134,11,0.5);
+  transition: transform 0.22s ease;
+  padding-left: 8px;
+}
+
+body.hl-page .hl-card:hover .hl-card-arrow {
+  transform: translateX(5px);
+}
+
+/* ── Hadith count badge ───────────────────────────────────── */
+body.hl-page .hl-count-badge {
+  position: absolute;
+  top: 14px;
+  right: 54px;
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: rgba(30,200,90,0.75);
+  background: rgba(30,200,90,0.08);
+  border: 1px solid rgba(30,200,90,0.18);
+  padding: 2px 9px;
+  border-radius: 999px;
+}
+
+/* ── Divider ornament ─────────────────────────────────────── */
+body.hl-page .hl-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 8px 0 20px;
+  opacity: 0.38;
+}
+
+body.hl-page .hl-divider-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(184,134,11,0.5), transparent);
+}
+
+body.hl-page .hl-divider-dot {
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: rgba(184,134,11,0.7);
+  flex-shrink: 0;
+}
+
+/* ── Footer ───────────────────────────────────────────────── */
+body.hl-page .hl-footer-phrase {
+  text-align: center;
+  font-family: "Amiri", serif;
+  font-size: 1.05rem;
+  color: rgba(184,134,11,0.35);
+  letter-spacing: 0.06em;
+  padding-top: 36px;
+}
+
+/* ── Responsive ───────────────────────────────────────────── */
+@media (max-width: 480px) {
+  body.hl-page .hl-card-inner    { padding: 18px 16px 16px; gap: 14px; }
+  body.hl-page .hl-card-icon-col { width: 46px; height: 46px; font-size: 1.6rem; border-radius: 11px; }
+  body.hl-page .hl-card-arabic   { font-size: 1.1rem; }
+  body.hl-page .hl-card-title    { font-size: 0.93rem; }
+  body.hl-page .hl-card-desc     { font-size: 0.76rem; }
+  body.hl-page .hl-back          { font-size: 0.78rem; padding: 6px 12px; top: 24px; }
+  body.hl-page .hl-count-badge   { display: none; }
+}
+</style>
 </head>
-<body>
+<body class="hl-page">
 
-  <header class="site-header">
-    <a class="back-link" href="/">← Bosh sahifa</a>
-    <h1>Hadislar</h1>
-  </header>
+<!-- Particle canvas -->
+<canvas id="hl-canvas" aria-hidden="true"></canvas>
 
-  <main class="container">
+<!-- ── Header ──────────────────────────────────────────────── -->
+<header class="hl-header">
+  <a class="hl-back" href="/">← Bosh sahifa</a>
+  <h1 class="hl-title">Hadislar</h1>
+  <p class="hl-subtitle-ar">كتب الحديث الشريف</p>
+</header>
 
-    <p class="library-intro">Payg'ambarimiz Muhammad ﷺ ning so'z va amallari.</p>
+<!-- ── Main content ────────────────────────────────────────── -->
+<main class="hl-main">
 
-    <div class="hadith-collections">
+  <p class="hl-intro">Payg'ambarimiz Muhammad ﷺ ning so'z va amallari.</p>
 
-      <!-- Sahih Bukhari -->
-      <a class="hadith-card hadith-card-link" href="/bukhari-books.html">
-        <div class="hadith-card-left">
-          <div class="hadith-card-icon">📗</div>
-        </div>
-        <div class="hadith-card-body">
-          <div class="hadith-card-arabic">صحيح البخاري</div>
-          <div class="hadith-card-title">Sahih Buxoriy</div>
-          <div class="hadith-card-desc">Imam Muhammad al-Buxoriy tomonidan to'plangan eng ishonchli hadis kitobi. 7 563 hadis.</div>
-          <div class="hadith-card-meta">
-            <span class="hadith-meta-tag">Sahih</span>
-            <span class="hadith-meta-tag">810–870 m.</span>
+  <div class="hl-section-label">Hadis to'plamlari</div>
+
+  <div class="hl-divider" aria-hidden="true">
+    <div class="hl-divider-line"></div>
+    <div class="hl-divider-dot"></div>
+    <div class="hl-divider-line"></div>
+  </div>
+
+  <div class="hl-grid">
+
+    <!-- Sahih Bukhari -->
+    <a class="hl-card" href="/bukhari-books.html">
+      <div class="ripple-layer"></div>
+      <span class="hl-count-badge">7 563 hadis</span>
+      <div class="hl-card-inner">
+        <div class="hl-card-icon-col">📗</div>
+        <div class="hl-card-body">
+          <div class="hl-card-arabic">صحيح البخاري</div>
+          <div class="hl-card-title">Sahih Buxoriy</div>
+          <div class="hl-card-desc">Imam Muhammad al-Buxoriy tomonidan to'plangan eng ishonchli hadis kitobi. 7 563 hadis.</div>
+          <div class="hl-card-meta">
+            <span class="hl-meta-tag">Sahih</span>
+            <span class="hl-meta-tag">810–870 m.</span>
           </div>
         </div>
-        <span class="hadith-card-arrow">→</span>
-      </a>
+        <span class="hl-card-arrow">→</span>
+      </div>
+    </a>
 
-      <!-- Sahih Muslim -->
-      <a class="hadith-card hadith-card-link" href="/muslim-books.html">
-        <div class="hadith-card-left">
-          <div class="hadith-card-icon">📘</div>
-        </div>
-        <div class="hadith-card-body">
-          <div class="hadith-card-arabic">صحيح مسلم</div>
-          <div class="hadith-card-title">Sahih Muslim</div>
-          <div class="hadith-card-desc">Imam Muslim ibn al-Hajjoj tomonidan tartib berilgan ikkinchi eng ishonchli hadis majmuasi. 7 500 hadis.</div>
-          <div class="hadith-card-meta">
-            <span class="hadith-meta-tag">Sahih</span>
-            <span class="hadith-meta-tag">815–875 m.</span>
+    <!-- Sahih Muslim -->
+    <a class="hl-card" href="/muslim-books.html">
+      <div class="ripple-layer"></div>
+      <span class="hl-count-badge">7 500 hadis</span>
+      <div class="hl-card-inner">
+        <div class="hl-card-icon-col">📘</div>
+        <div class="hl-card-body">
+          <div class="hl-card-arabic">صحيح مسلم</div>
+          <div class="hl-card-title">Sahih Muslim</div>
+          <div class="hl-card-desc">Imam Muslim ibn al-Hajjoj tomonidan tartib berilgan ikkinchi eng ishonchli hadis majmuasi. 7 500 hadis.</div>
+          <div class="hl-card-meta">
+            <span class="hl-meta-tag">Sahih</span>
+            <span class="hl-meta-tag">815–875 m.</span>
           </div>
         </div>
-        <span class="hadith-card-arrow">→</span>
-      </a>
+        <span class="hl-card-arrow">→</span>
+      </div>
+    </a>
 
-      <!-- Abu Dawud -->
-      <a class="hadith-card hadith-card-link" href="/abudawud-books.html">
-        <div class="hadith-card-left">
-          <div class="hadith-card-icon">📙</div>
-        </div>
-        <div class="hadith-card-body">
-          <div class="hadith-card-arabic">سنن أبي داود</div>
-          <div class="hadith-card-title">Abu Dovud</div>
-          <div class="hadith-card-desc">Imam Abu Dovud as-Sijistoniy tomonidan yozilgan, ayniqsa fiqh masalalariga boy sunan kitob. 5 274 hadis.</div>
-          <div class="hadith-card-meta">
-            <span class="hadith-meta-tag">Sunan</span>
-            <span class="hadith-meta-tag">817–889 m.</span>
+    <!-- Sunan Abu Dawud -->
+    <a class="hl-card" href="/abudawud-books.html">
+      <div class="ripple-layer"></div>
+      <span class="hl-count-badge">5 274 hadis</span>
+      <div class="hl-card-inner">
+        <div class="hl-card-icon-col">📙</div>
+        <div class="hl-card-body">
+          <div class="hl-card-arabic">سنن أبي داود</div>
+          <div class="hl-card-title">Sunan Abu Dovud</div>
+          <div class="hl-card-desc">Imam Abu Dovud as-Sijistoniy tomonidan yozilgan, ayniqsa fiqh masalalariga boy sunan kitob. 5 274 hadis.</div>
+          <div class="hl-card-meta">
+            <span class="hl-meta-tag">Sunan</span>
+            <span class="hl-meta-tag">817–889 m.</span>
           </div>
         </div>
-        <span class="hadith-card-arrow">→</span>
-      </a>
+        <span class="hl-card-arrow">→</span>
+      </div>
+    </a>
 
-      <!-- At-Tirmidhi -->
-      <a class="hadith-card hadith-card-link" href="/tirmidhi-books.html">
-        <div class="hadith-card-left">
-          <div class="hadith-card-icon">📕</div>
-        </div>
-        <div class="hadith-card-body">
-          <div class="hadith-card-arabic">جامع الترمذي</div>
-          <div class="hadith-card-title">At-Termiziy</div>
-          <div class="hadith-card-desc">Imam Muhammad at-Termiziy tomonidan jamlangan jome' — har bir hadisning sahihlik darajasi baholangan. 3 956 hadis.</div>
-          <div class="hadith-card-meta">
-            <span class="hadith-meta-tag">Jome'</span>
-            <span class="hadith-meta-tag">824–892 m.</span>
+    <!-- Jami' at-Tirmidhi -->
+    <a class="hl-card" href="/tirmidhi-books.html">
+      <div class="ripple-layer"></div>
+      <span class="hl-count-badge">3 956 hadis</span>
+      <div class="hl-card-inner">
+        <div class="hl-card-icon-col">📕</div>
+        <div class="hl-card-body">
+          <div class="hl-card-arabic">جامع الترمذي</div>
+          <div class="hl-card-title">Jome' at-Termiziy</div>
+          <div class="hl-card-desc">Imam Muhammad at-Termiziy tomonidan jamlangan jome' — har bir hadisning sahihlik darajasi baholangan. 3 956 hadis.</div>
+          <div class="hl-card-meta">
+            <span class="hl-meta-tag">Jome'</span>
+            <span class="hl-meta-tag">824–892 m.</span>
           </div>
         </div>
-        <span class="hadith-card-arrow">→</span>
-      </a>
+        <span class="hl-card-arrow">→</span>
+      </div>
+    </a>
 
-    </div><!-- /.hadith-collections -->
+  </div><!-- /.hl-grid -->
 
-  </main>
+  <div class="hl-footer-phrase">﷽</div>
+
+</main>
+
+<script>
+/* ─── Particle system (identical palette to dashboard) ───────────── */
+(function () {
+  const canvas = document.getElementById("hl-canvas");
+  const ctx    = canvas.getContext("2d");
+  let W, H;
+
+  function resize() {
+    W = canvas.width  = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener("resize", resize);
+
+  const PALETTES = [
+    "rgba(80,220,120,",
+    "rgba(50,180,90,",
+    "rgba(200,160,30,",
+    "rgba(220,190,80,",
+    "rgba(140,220,160,",
+    "rgba(255,255,230,"
+  ];
+
+  const COUNT = 50;
+  const particles = [];
+
+  function rand(a, b) { return a + Math.random() * (b - a); }
+
+  for (let i = 0; i < COUNT; i++) {
+    particles.push({
+      x:   rand(0, 1),
+      y:   rand(0, 1),
+      r:   rand(0.8, 2.2),
+      vx:  rand(-0.06, 0.06),
+      vy:  rand(-0.09, -0.02),
+      alpha: rand(0.08, 0.45),
+      color: PALETTES[Math.floor(Math.random() * PALETTES.length)],
+      twinklePhase: rand(0, Math.PI * 2),
+      twinkleSpeed: rand(0.008, 0.025),
+    });
+  }
+
+  function tick() {
+    ctx.clearRect(0, 0, W, H);
+    for (const p of particles) {
+      p.x += p.vx * 0.003;
+      p.y += p.vy * 0.003;
+      p.twinklePhase += p.twinkleSpeed;
+      if (p.x < 0) p.x = 1;
+      if (p.x > 1) p.x = 0;
+      if (p.y < 0) p.y = 1;
+      if (p.y > 1) p.y = 0;
+
+      const tw = 0.5 + 0.5 * Math.sin(p.twinklePhase);
+      const a  = p.alpha * (0.55 + 0.45 * tw);
+      const px = p.x * W;
+      const py = p.y * H;
+
+      ctx.save();
+      const g = ctx.createRadialGradient(px, py, 0, px, py, p.r * 4);
+      g.addColorStop(0, p.color + a + ")");
+      g.addColorStop(1, p.color + "0)");
+      ctx.fillStyle = g;
+      ctx.beginPath();
+      ctx.arc(px, py, p.r * 4, 0, Math.PI * 2);
+      ctx.fill();
+
+      ctx.fillStyle = p.color + Math.min(a + 0.2, 1) + ")";
+      ctx.beginPath();
+      ctx.arc(px, py, p.r, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.restore();
+    }
+    requestAnimationFrame(tick);
+  }
+  tick();
+})();
+
+/* ─── Ripple + pulse on card click ──────────────────────────────── */
+(function () {
+  document.querySelectorAll(".hl-card").forEach(card => {
+    card.addEventListener("click", function (e) {
+      const layer = this.querySelector(".ripple-layer");
+      if (!layer) return;
+
+      const rect = this.getBoundingClientRect();
+      const x    = e.clientX - rect.left;
+      const y    = e.clientY - rect.top;
+      const size = Math.max(rect.width, rect.height) * 2.4;
+
+      const circle = document.createElement("span");
+      circle.className = "ripple-circle";
+      circle.style.cssText = `
+        width:  ${size}px;
+        height: ${size}px;
+        left:   ${x - size / 2}px;
+        top:    ${y - size / 2}px;
+      `;
+      layer.appendChild(circle);
+
+      this.classList.add("pulsing");
+      circle.addEventListener("animationend", () => circle.remove());
+      this.addEventListener("animationend", () => this.classList.remove("pulsing"), { once: true });
+    });
+  });
+})();
+</script>
 
 </body>
 </html>

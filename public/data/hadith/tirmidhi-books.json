@@ -1,0 +1,278 @@
+[
+  {
+    "id": "tirmidhi-book-1",
+    "book_number": 1,
+    "arabic_title": "كِتَابُ الطَّهَارَةِ",
+    "uzbek_title": "Tahorat kitobi"
+  },
+  {
+    "id": "tirmidhi-book-2",
+    "book_number": 2,
+    "arabic_title": "كِتَابُ الصَّلَاةِ",
+    "uzbek_title": "Namoz kitobi"
+  },
+  {
+    "id": "tirmidhi-book-3",
+    "book_number": 3,
+    "arabic_title": "كِتَابُ الْوِتْرِ",
+    "uzbek_title": "Vitr kitobi"
+  },
+  {
+    "id": "tirmidhi-book-4",
+    "book_number": 4,
+    "arabic_title": "كِتَابُ الْجُمُعَةِ",
+    "uzbek_title": "Juma kitobi"
+  },
+  {
+    "id": "tirmidhi-book-5",
+    "book_number": 5,
+    "arabic_title": "كِتَابُ الزَّكَاةِ",
+    "uzbek_title": "Zakot kitobi"
+  },
+  {
+    "id": "tirmidhi-book-6",
+    "book_number": 6,
+    "arabic_title": "كِتَابُ الصَّوْمِ",
+    "uzbek_title": "Ro'za kitobi"
+  },
+  {
+    "id": "tirmidhi-book-7",
+    "book_number": 7,
+    "arabic_title": "كِتَابُ الْحَجِّ",
+    "uzbek_title": "Haj kitobi"
+  },
+  {
+    "id": "tirmidhi-book-8",
+    "book_number": 8,
+    "arabic_title": "كِتَابُ الْجَنَائِزِ",
+    "uzbek_title": "Janoza kitobi"
+  },
+  {
+    "id": "tirmidhi-book-9",
+    "book_number": 9,
+    "arabic_title": "كِتَابُ النِّكَاحِ",
+    "uzbek_title": "Nikoh kitobi"
+  },
+  {
+    "id": "tirmidhi-book-10",
+    "book_number": 10,
+    "arabic_title": "كِتَابُ الرَّضَاعِ",
+    "uzbek_title": "Emizish kitobi"
+  },
+  {
+    "id": "tirmidhi-book-11",
+    "book_number": 11,
+    "arabic_title": "كِتَابُ الطَّلَاقِ وَاللِّعَانِ",
+    "uzbek_title": "Talok va li'on kitobi"
+  },
+  {
+    "id": "tirmidhi-book-12",
+    "book_number": 12,
+    "arabic_title": "كِتَابُ الْبُيُوعِ",
+    "uzbek_title": "Savdo-sotiq kitobi"
+  },
+  {
+    "id": "tirmidhi-book-13",
+    "book_number": 13,
+    "arabic_title": "كِتَابُ الْأَحْكَامِ",
+    "uzbek_title": "Ahkom kitobi"
+  },
+  {
+    "id": "tirmidhi-book-14",
+    "book_number": 14,
+    "arabic_title": "كِتَابُ الدِّيَاتِ",
+    "uzbek_title": "Diyat kitobi"
+  },
+  {
+    "id": "tirmidhi-book-15",
+    "book_number": 15,
+    "arabic_title": "كِتَابُ الْحُدُودِ",
+    "uzbek_title": "Hudud kitobi"
+  },
+  {
+    "id": "tirmidhi-book-16",
+    "book_number": 16,
+    "arabic_title": "كِتَابُ الصَّيْدِ",
+    "uzbek_title": "Ov kitobi"
+  },
+  {
+    "id": "tirmidhi-book-17",
+    "book_number": 17,
+    "arabic_title": "كِتَابُ الْأَضَاحِيِّ",
+    "uzbek_title": "Qurbonlik kitobi"
+  },
+  {
+    "id": "tirmidhi-book-18",
+    "book_number": 18,
+    "arabic_title": "كِتَابُ النُّذُورِ وَالْأَيْمَانِ",
+    "uzbek_title": "Nazrlar va qasamlar kitobi"
+  },
+  {
+    "id": "tirmidhi-book-19",
+    "book_number": 19,
+    "arabic_title": "كِتَابُ السِّيَرِ",
+    "uzbek_title": "Siyar (yurishlar) kitobi"
+  },
+  {
+    "id": "tirmidhi-book-20",
+    "book_number": 20,
+    "arabic_title": "كِتَابُ فَضَائِلِ الْجِهَادِ",
+    "uzbek_title": "Jihodning fazilatlari kitobi"
+  },
+  {
+    "id": "tirmidhi-book-21",
+    "book_number": 21,
+    "arabic_title": "كِتَابُ اللِّبَاسِ",
+    "uzbek_title": "Kiyim-kechak kitobi"
+  },
+  {
+    "id": "tirmidhi-book-22",
+    "book_number": 22,
+    "arabic_title": "كِتَابُ الْأَطْعِمَةِ",
+    "uzbek_title": "Taomlar kitobi"
+  },
+  {
+    "id": "tirmidhi-book-23",
+    "book_number": 23,
+    "arabic_title": "كِتَابُ الْأَشْرِبَةِ",
+    "uzbek_title": "Ichimliklar kitobi"
+  },
+  {
+    "id": "tirmidhi-book-24",
+    "book_number": 24,
+    "arabic_title": "كِتَابُ الْبِرِّ وَالصِّلَةِ",
+    "uzbek_title": "Yaxshilik va silayi rahm kitobi"
+  },
+  {
+    "id": "tirmidhi-book-25",
+    "book_number": 25,
+    "arabic_title": "كِتَابُ الطِّبِّ",
+    "uzbek_title": "Tibbiyot kitobi"
+  },
+  {
+    "id": "tirmidhi-book-26",
+    "book_number": 26,
+    "arabic_title": "كِتَابُ الْفَرَائِضِ",
+    "uzbek_title": "Faroyiz (meros) kitobi"
+  },
+  {
+    "id": "tirmidhi-book-27",
+    "book_number": 27,
+    "arabic_title": "كِتَابُ الْوَصَايَا",
+    "uzbek_title": "Vasiyat kitobi"
+  },
+  {
+    "id": "tirmidhi-book-28",
+    "book_number": 28,
+    "arabic_title": "كِتَابُ الْوَلَاءِ وَالْهِبَةِ",
+    "uzbek_title": "Valoyat va hibya kitobi"
+  },
+  {
+    "id": "tirmidhi-book-29",
+    "book_number": 29,
+    "arabic_title": "كِتَابُ الْقَدَرِ",
+    "uzbek_title": "Qadar kitobi"
+  },
+  {
+    "id": "tirmidhi-book-30",
+    "book_number": 30,
+    "arabic_title": "كِتَابُ الْفِتَنِ",
+    "uzbek_title": "Fitnalar kitobi"
+  },
+  {
+    "id": "tirmidhi-book-31",
+    "book_number": 31,
+    "arabic_title": "كِتَابُ الرُّؤْيَا",
+    "uzbek_title": "Tushlar kitobi"
+  },
+  {
+    "id": "tirmidhi-book-32",
+    "book_number": 32,
+    "arabic_title": "كِتَابُ الشَّهَادَاتِ",
+    "uzbek_title": "Guvohlik kitobi"
+  },
+  {
+    "id": "tirmidhi-book-33",
+    "book_number": 33,
+    "arabic_title": "كِتَابُ الزُّهْدِ",
+    "uzbek_title": "Zuhd kitobi"
+  },
+  {
+    "id": "tirmidhi-book-34",
+    "book_number": 34,
+    "arabic_title": "كِتَابُ صِفَةِ الْقِيَامَةِ وَالرَّقَائِقِ وَالْوَرَعِ",
+    "uzbek_title": "Qiyomat tavsifi, raqoiq va vara' kitobi"
+  },
+  {
+    "id": "tirmidhi-book-35",
+    "book_number": 35,
+    "arabic_title": "كِتَابُ صِفَةِ الْجَنَّةِ",
+    "uzbek_title": "Jannat tavsifi kitobi"
+  },
+  {
+    "id": "tirmidhi-book-36",
+    "book_number": 36,
+    "arabic_title": "كِتَابُ صِفَةِ جَهَنَّمَ",
+    "uzbek_title": "Jahannam tavsifi kitobi"
+  },
+  {
+    "id": "tirmidhi-book-37",
+    "book_number": 37,
+    "arabic_title": "كِتَابُ الْإِيمَانِ",
+    "uzbek_title": "Iymon kitobi"
+  },
+  {
+    "id": "tirmidhi-book-38",
+    "book_number": 38,
+    "arabic_title": "كِتَابُ الْعِلْمِ",
+    "uzbek_title": "Ilm kitobi"
+  },
+  {
+    "id": "tirmidhi-book-39",
+    "book_number": 39,
+    "arabic_title": "كِتَابُ الِاسْتِئْذَانِ وَالْآدَابِ",
+    "uzbek_title": "Ruxsat so'rash va odoblar kitobi"
+  },
+  {
+    "id": "tirmidhi-book-40",
+    "book_number": 40,
+    "arabic_title": "كِتَابُ الْآدَابِ",
+    "uzbek_title": "Odoblar kitobi"
+  },
+  {
+    "id": "tirmidhi-book-41",
+    "book_number": 41,
+    "arabic_title": "كِتَابُ الْأَمْثَالِ",
+    "uzbek_title": "Maqollar kitobi"
+  },
+  {
+    "id": "tirmidhi-book-42",
+    "book_number": 42,
+    "arabic_title": "كِتَابُ فَضَائِلِ الْقُرْآنِ",
+    "uzbek_title": "Qur'on fazilatlari kitobi"
+  },
+  {
+    "id": "tirmidhi-book-43",
+    "book_number": 43,
+    "arabic_title": "كِتَابُ الْقِرَاءَاتِ",
+    "uzbek_title": "Qiroatlar kitobi"
+  },
+  {
+    "id": "tirmidhi-book-44",
+    "book_number": 44,
+    "arabic_title": "كِتَابُ تَفْسِيرِ الْقُرْآنِ",
+    "uzbek_title": "Qur'on tafsiri kitobi"
+  },
+  {
+    "id": "tirmidhi-book-45",
+    "book_number": 45,
+    "arabic_title": "كِتَابُ الدَّعَوَاتِ",
+    "uzbek_title": "Du'olar kitobi"
+  },
+  {
+    "id": "tirmidhi-book-46",
+    "book_number": 46,
+    "arabic_title": "كِتَابُ الْمَنَاقِبِ",
+    "uzbek_title": "Manaqib kitobi"
+  }
+]

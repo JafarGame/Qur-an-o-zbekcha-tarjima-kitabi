@@ -148,10 +148,10 @@
       <div class="surah-nav-row">
         <a class="sn-btn sn-btn--prev${prev ? "" : " disabled"}"
            href="/surah.html?number=${prev || current}"
-           ${prev ? "" : 'tabindex="-1" aria-disabled="true"'}>← Oldingi sura</a>
+           ${prev ? "" : 'tabindex="-1" aria-disabled="true"'}>Oldingi sura →</a>
         <a class="sn-btn sn-btn--next${next ? "" : " disabled"}"
            href="/surah.html?number=${next || current}"
-           ${next ? "" : 'tabindex="-1" aria-disabled="true"'}>Keyingi sura →</a>
+           ${next ? "" : 'tabindex="-1" aria-disabled="true"'}>← Keyingi sura</a>
       </div>`;
   }
 

@@ -11,10 +11,10 @@
       banner.className = "continue-reading-banner";
       banner.innerHTML = `
         <div class="crb-text">
-          <span class="crb-label">Oxirgi o'qish joyi</span>
-          <span class="crb-ref">${pos.surahName} · ${pos.ayahNum}-oyat</span>
+          <span class="crb-label">${Lang.t('oxirgiJoy')}</span>
+          <span class="crb-ref">${pos.surahName} · ${pos.ayahNum}-${Lang.t('oyat')}</span>
         </div>
-        <a class="crb-btn" href="/surah.html?number=${pos.surahNum}&ayah=${pos.ayahNum}">Davom ettirish →</a>`;
+        <a class="crb-btn" href="/surah.html?number=${pos.surahNum}&ayah=${pos.ayahNum}">${Lang.t('davomEttirish')}</a>`;
       listEl.before(banner);
     } catch {}
   })();
@@ -24,7 +24,7 @@
 
   function renderSurahs(items) {
     if (!items.length) {
-      listEl.innerHTML = '<div class="state-msg">Sura topilmadi.</div>';
+      listEl.innerHTML = `<div class="state-msg">${Lang.t('suraTopilmadi')}</div>`;
       return;
     }
     listEl.innerHTML = items
@@ -73,7 +73,7 @@
       .then((data) => {
         if (data.type === "ayah") {
           showSearchResults(`
-            <div class="search-section-label">Topilgan oyat</div>
+            <div class="search-section-label">${Lang.t('topilganOyat')}</div>
             ${renderAyahHit(
               { surah: data.surah, ayah: data.ayah, surahName: data.surahName, arabic: data.arabic, translation: data.translation },
               true
@@ -81,13 +81,13 @@
           `);
         } else if (data.type === "results" && data.results.length) {
           showSearchResults(`
-            <div class="search-section-label">Matn bo'yicha natijalar (${data.results.length})</div>
+            <div class="search-section-label">${Lang.t('matnNatijalar')} (${data.results.length})</div>
             ${data.results.map((r) => renderAyahHit(r, false)).join("")}
           `);
         } else if (data.type === "results") {
-          showSearchResults('<div class="state-msg">Matn bo\'yicha hech narsa topilmadi.</div>');
+          showSearchResults(`<div class="state-msg">${Lang.t('hechNarsa')}</div>`);
         } else if (data.type === "not_found") {
-          showSearchResults('<div class="state-msg">Bunday oyat topilmadi. Manzilni tekshiring (masalan: 2:255).</div>');
+          showSearchResults(`<div class="state-msg">${Lang.t('bunday')}</div>`);
         } else {
           clearSearchResults();
         }
@@ -124,6 +124,6 @@
     })
     .catch(() => {
       listEl.innerHTML =
-        '<div class="state-msg">Suralarni yuklashda xatolik yuz berdi.</div>';
+`<div class="state-msg">${Lang.t('yuklashXato')}</div>`;
     });
 })();

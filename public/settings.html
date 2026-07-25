@@ -9,27 +9,29 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css" />
+<!-- Language utility — must load before dark-mode script -->
+<script src="/js/lang.js"></script>
 <!-- Apply saved theme before paint -->
 <script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>
 </head>
 <body>
 
   <header class="site-header">
-    <a class="back-link" href="/">← Bosh sahifa</a>
-    <h1>Sozlamalar</h1>
+    <a class="back-link" id="settingsBackLink" href="/">&#8592; Bosh sahifa</a>
+    <h1 data-i18n="sozlamalar">Sozlamalar</h1>
   </header>
 
   <main class="container">
 
+    <!-- ── Ko'rinish ─────────────────────────────────────────────── -->
     <div class="settings-group">
-      <div class="settings-group-title">Ko'rinish</div>
+      <div class="settings-group-title" data-i18n="korinish">Ko&#x2BC;rinish</div>
 
-      <!-- Dark mode row -->
       <div class="settings-row">
-        <span class="settings-row-icon">🌙</span>
+        <span class="settings-row-icon">&#x1F319;</span>
         <div class="settings-row-body">
-          <div class="settings-row-title">Tungi rejim</div>
-          <div class="settings-row-desc">Qorong'i fon</div>
+          <div class="settings-row-title" data-i18n="tungiRejim">Tungi rejim</div>
+          <div class="settings-row-desc"  data-i18n="qorongi">Qorong&#x2BC;i fon</div>
         </div>
         <label class="toggle-switch" aria-label="Tungi rejimni yoqish">
           <input type="checkbox" id="darkToggle" />
@@ -37,15 +39,45 @@
         </label>
       </div>
 
-      <!-- Light mode row -->
       <div class="settings-row">
-        <span class="settings-row-icon">☀️</span>
+        <span class="settings-row-icon">&#x2600;&#xFE0F;</span>
         <div class="settings-row-body">
-          <div class="settings-row-title">Kunduzgi rejim</div>
-          <div class="settings-row-desc">Yorug' fon</div>
+          <div class="settings-row-title" data-i18n="kunduzgi">Kunduzgi rejim</div>
+          <div class="settings-row-desc"  data-i18n="yorug">Yorug&#x2BC; fon</div>
         </div>
         <label class="toggle-switch" aria-label="Kunduzgi rejimni yoqish">
           <input type="checkbox" id="lightToggle" />
+          <span class="toggle-track"></span>
+        </label>
+      </div>
+    </div>
+
+    <!-- ── Til ───────────────────────────────────────────────────── -->
+    <div class="settings-group">
+      <div class="settings-group-title" data-i18n="til">Til</div>
+
+      <!-- Lotincha -->
+      <div class="settings-row">
+        <span class="settings-row-icon" style="font-weight:700;font-size:1rem;line-height:1;font-family:inherit;">A</span>
+        <div class="settings-row-body">
+          <div class="settings-row-title">Lotincha</div>
+          <div class="settings-row-desc">O&#x2BC;zbek lotin yozuvi</div>
+        </div>
+        <label class="toggle-switch" aria-label="Lotin yozuvini tanlash">
+          <input type="checkbox" id="langLatin" />
+          <span class="toggle-track"></span>
+        </label>
+      </div>
+
+      <!-- Кирилча — title/desc intentionally in Cyrillic always -->
+      <div class="settings-row">
+        <span class="settings-row-icon" style="font-weight:700;font-size:1rem;line-height:1;font-family:inherit;">&#x41A;</span>
+        <div class="settings-row-body">
+          <div class="settings-row-title">&#x41A;&#x438;&#x440;&#x438;&#x43B;&#x447;&#x430;</div>
+          <div class="settings-row-desc">&#x40E;&#x437;&#x431;&#x435;&#x43A; &#x43A;&#x438;&#x440;&#x438;&#x43B; &#x451;&#x437;&#x443;&#x432;&#x438;</div>
+        </div>
+        <label class="toggle-switch" aria-label="Kiril yozuvini tanlash">
+          <input type="checkbox" id="langKiril" />
           <span class="toggle-track"></span>
         </label>
       </div>
@@ -55,6 +87,7 @@
 
   <script>
     (function () {
+      /* ── Theme ────────────────────────────────────────────────── */
       var darkToggle  = document.getElementById("darkToggle");
       var lightToggle = document.getElementById("lightToggle");
 
@@ -69,18 +102,34 @@
         lightToggle.checked = !dark;
       }
 
-      // Set initial toggle states from current theme
       var isDark = document.documentElement.classList.contains("dark");
       darkToggle.checked  = isDark;
       lightToggle.checked = !isDark;
 
-      darkToggle.addEventListener("change", function () {
-        applyTheme(true);
+      darkToggle.addEventListener("change",  function () { applyTheme(true);  });
+      lightToggle.addEventListener("change", function () { applyTheme(false); });
+
+      /* ── Language ─────────────────────────────────────────────── */
+      var langLatin = document.getElementById("langLatin");
+      var langKiril = document.getElementById("langKiril");
+      var curLang   = window.Lang ? Lang.get() : "latin";
+
+      langLatin.checked = curLang === "latin";
+      langKiril.checked = curLang === "kiril";
+
+      /* Mutual exclusion: toggling one turns off the other via reload */
+      langLatin.addEventListener("change", function () {
+        if (langLatin.checked && window.Lang) Lang.set("latin");
+      });
+      langKiril.addEventListener("change", function () {
+        if (langKiril.checked && window.Lang) Lang.set("kiril");
       });
 
-      lightToggle.addEventListener("change", function () {
-        applyTheme(false);
-      });
+      /* ── Translate back-link (keep the arrow) ─────────────────── */
+      if (window.Lang && Lang.isKiril()) {
+        var bl = document.getElementById("settingsBackLink");
+        if (bl) bl.textContent = "\u2190 " + Lang.t("boshSahifa");
+      }
     })();
   </script>
 

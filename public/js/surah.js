@@ -60,7 +60,7 @@
     localStorage.setItem(SHOW_TRANS_KEY, show ? "true" : "false");
     document.body.classList.toggle("translations-hidden", !show);
     const btn = document.getElementById("toggleTranslation");
-    if (btn) btn.textContent = show ? "Tarjimani yashirish" : "Tarjimani ko'rsatish";
+    if (btn) btn.textContent = show ? Lang.t('tarjimaniYashirish') : Lang.t('tarjimaniKorsatish');
   }
   applyTranslation(showTranslation); // apply before paint
 
@@ -148,10 +148,10 @@
       <div class="surah-nav-row">
         <a class="sn-btn sn-btn--prev${prev ? "" : " disabled"}"
            href="/surah.html?number=${prev || current}"
-           ${prev ? "" : 'tabindex="-1" aria-disabled="true"'}>Oldingi sura →</a>
+           ${prev ? "" : 'tabindex="-1" aria-disabled="true"'}>${Lang.t('oldingiSura')} →</a>
         <a class="sn-btn sn-btn--next${next ? "" : " disabled"}"
            href="/surah.html?number=${next || current}"
-           ${next ? "" : 'tabindex="-1" aria-disabled="true"'}>← Keyingi sura</a>
+           ${next ? "" : 'tabindex="-1" aria-disabled="true"'}>← ${Lang.t('keyingiSura')}</a>
       </div>`;
   }
 
@@ -161,11 +161,22 @@
       if (!res.ok) throw new Error("not found");
       return res.json();
     })
-    .then(surah => {
+    .then(async surah => {
       document.title = `${surah.number}. ${surah.name} | Qur'oni Karim`;
       headerTitle.textContent = `${surah.number}. ${surah.name}`;
 
       const bookmarks = loadBookmarks();
+
+      // ── Overlay Cyrillic translations when language is set to kiril ──
+      if (window.Lang && Lang.isKiril()) {
+        try {
+          const kirilTrans = await Lang.loadKirilTrans(surah.number);
+          surah.ayahs.forEach(a => {
+            const t = kirilTrans[String(a.number)];
+            if (t) a.translation = t;
+          });
+        } catch (e) { /* fall back to Latin on any fetch failure */ }
+      }
 
       const ayahsHtml = surah.ayahs.map(a => {
         const key   = bookmarkKey(surah.number, a.number);
@@ -177,24 +188,24 @@
             </div>
             <div class="ayah-arabic">${a.arabic}</div>
             <div class="ayah-translation">
-              <span class="label">Tarjima</span>
+              <span class="label">${Lang.t('tarjima')}</span>
               <p>${a.translation}</p>
             </div>
             <div class="ayah-actions">
               <button class="ayah-action-btn" data-action="copy" title="Nusxa olish">
-                ${ICON_COPY}<span>Nusxa</span>
+                ${ICON_COPY}<span>${Lang.t('nusxa')}</span>
               </button>
               <button class="ayah-action-btn" data-action="share" title="Ulashish">
-                ${ICON_SHARE}<span>Ulashish</span>
+                ${ICON_SHARE}<span>${Lang.t('ulashish')}</span>
               </button>
               <button class="ayah-action-btn ayah-action-btn--bookmark${saved ? " is-bookmarked" : ""}"
                       data-action="bookmark"
                       data-ayah-num="${a.number}"
-                      title="${saved ? "Saqlangandan olib tashlash" : "Saqlash"}">
-                ${saved ? ICON_BOOKMARK_FILLED : ICON_BOOKMARK_EMPTY}<span>${saved ? "Saqlangan" : "Saqlash"}</span>
+                      title="${saved ? Lang.t('saqlanganganTitle') : Lang.t('saqlashTitle')}">
+                ${saved ? ICON_BOOKMARK_FILLED : ICON_BOOKMARK_EMPTY}<span>${saved ? Lang.t('saqlangan') : Lang.t('saqlash')}</span>
               </button>
               <button class="ayah-action-btn ayah-action-btn--audio" data-action="audio" title="Audio tinglash">
-                ${ICON_AUDIO}<span>Audio</span>
+                ${ICON_AUDIO}<span>${Lang.t('audio')}</span>
               </button>
             </div>
           </div>`;
@@ -206,7 +217,7 @@
 
       contentEl.innerHTML = `
         <div class="surah-title-block">
-          <div class="sub">${surah.ayahCount} oyat</div>
+          <div class="sub">${surah.ayahCount} ${Lang.t('oyat')}</div>
           ${renderSurahNav(surah.number, 114)}
         </div>
         ${bismillahHtml}
@@ -263,8 +274,8 @@
         if (action === "copy") {
           const text = `${arabic}\n\n${translation}\n\n— Qur'on Karim, ${surah.name} surasi, ${ayahNum}-oyat`;
           navigator.clipboard.writeText(text)
-            .then(() => showToast("✓ Nusxa olindi"))
-            .catch(() => showToast("Nusxa olishda xatolik"));
+            .then(() => showToast(Lang.t('nusxaOlindi')))
+            .catch(() => showToast(Lang.t('nusxaXatolik')));
         }
 
         if (action === "share") {
@@ -276,8 +287,8 @@
             navigator.share(shareData).catch(() => {});
           } else {
             navigator.clipboard.writeText(`${shareData.title}\n\n${shareData.text}`)
-              .then(() => showToast("✓ Matn nusxa olindi"))
-              .catch(() => showToast("Ulashish qo'llab-quvvatlanmaydi"));
+              .then(() => showToast(Lang.t('matnNusxa')))
+              .catch(() => showToast(Lang.t('ulashishXato')));
           }
         }
 
@@ -289,21 +300,21 @@
             delete bm[key];
             saveBookmarks(bm);
             btn.classList.remove("is-bookmarked");
-            btn.title = "Saqlash";
-            btn.innerHTML = `${ICON_BOOKMARK_EMPTY}<span>Saqlash</span>`;
-            showToast("Oyat olib tashlandi");
+            btn.title = Lang.t('saqlashTitle');
+            btn.innerHTML = `${ICON_BOOKMARK_EMPTY}<span>${Lang.t('saqlash')}</span>`;
+            showToast(Lang.t('oyatOlib'));
           } else {
             bm[key] = { surahNum: surah.number, surahName: surah.name, ayahNum, arabic, translation, savedAt: Date.now() };
             saveBookmarks(bm);
             btn.classList.add("is-bookmarked");
-            btn.title = "Saqlangandan olib tashlash";
-            btn.innerHTML = `${ICON_BOOKMARK_FILLED}<span>Saqlangan</span>`;
-            showToast("Oyat saqlandi ✓");
+            btn.title = Lang.t('saqlanganganTitle');
+            btn.innerHTML = `${ICON_BOOKMARK_FILLED}<span>${Lang.t('saqlangan')}</span>`;
+            showToast(Lang.t('oyatSaqlandi'));
           }
         }
 
         if (action === "audio") {
-          showToast("🎧 Audio tez orada qo'shiladi");
+          showToast(Lang.t('audioKeladi'));
         }
       });
 
@@ -324,6 +335,6 @@
     .catch(() => {
       headerTitle.textContent = "Xatolik";
       contentEl.innerHTML =
-        '<div class="state-msg">Sura topilmadi yoki yuklashda xatolik yuz berdi.</div>';
+        `<div class="state-msg">${Lang.t('surahXato')}</div>`;
     });
 })();

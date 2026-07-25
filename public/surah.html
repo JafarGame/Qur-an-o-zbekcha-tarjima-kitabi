@@ -364,13 +364,13 @@ html:not(.dark) .sn-ripple {
            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <polyline points="10 3 6 8 10 13"/>
       </svg>
-      ← Oldingi oyat
+      <span class="abn-label">← Oldingi oyat</span>
     </button>
 
     <span class="abn-counter" id="abn-counter" aria-live="polite">— / —</span>
 
     <button class="abn-btn abn-btn--next" id="abn-next" disabled aria-label="Keyingi oyat">
-      Keyingi oyat →
+      <span class="abn-label">Keyingi oyat →</span>
       <svg viewBox="0 0 16 16" fill="none" stroke-width="2.2"
            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <polyline points="6 3 10 8 6 13"/>
@@ -379,7 +379,9 @@ html:not(.dark) .sn-ripple {
 
   </nav>
 
-  <!-- ── Quran reading logic (unchanged) ── -->
+  <!-- ── Language utility — must load before surah.js ── -->
+  <script src="/js/lang.js"></script>
+  <!-- ── Quran reading logic ── -->
   <script src="/js/surah.js"></script>
 
   <!-- ── Bottom bar: own navigation, ripple, counter sync ── -->
@@ -500,5 +502,18 @@ html:not(.dark) .sn-ripple {
   })();
   </script>
 
+
+  <!-- ── Apply language to static bottom-nav labels ── -->
+  <script>
+    (function () {
+      if (!window.Lang || !Lang.isKiril()) return;
+      var pl = document.querySelector('#abn-prev .abn-label');
+      var nl = document.querySelector('#abn-next .abn-label');
+      if (pl) pl.textContent = '← ' + Lang.t('oldingiOyat');
+      if (nl) nl.textContent = Lang.t('keyingiOyat') + ' →';
+      var bl = document.querySelector('.back-link');
+      if (bl) bl.textContent = '← ' + Lang.t('suralar');
+    })();
+  </script>
 </body>
 </html>

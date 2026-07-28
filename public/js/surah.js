@@ -24,7 +24,7 @@
   }
   function bookmarkKey(surahNum, ayahNum) { return `${surahNum}:${ayahNum}`; }
 
-  // ── Toast ────────────────────────────────────────────────────────
+  // ── Bottom toast (copy / share / bookmark feedback) ───────────────
   const toast = document.createElement("div");
   toast.className = "ayah-copy-toast";
   document.body.appendChild(toast);
@@ -34,6 +34,19 @@
     toast.classList.add("visible");
     clearTimeout(toastTimer);
     toastTimer = setTimeout(() => toast.classList.remove("visible"), 2200);
+  }
+
+  // ── Centered audio-unavailable toast ─────────────────────────────
+  const audioToast = document.createElement("div");
+  audioToast.className = "audio-unavail-toast";
+  audioToast.innerHTML = '<span class="aut-icon">🔇</span><span class="aut-text"></span>';
+  document.body.appendChild(audioToast);
+  let audioToastTimer;
+  function showAudioToast() {
+    audioToast.querySelector(".aut-text").textContent = Lang.t("audioMavjudEmas");
+    audioToast.classList.add("aut-visible");
+    clearTimeout(audioToastTimer);
+    audioToastTimer = setTimeout(() => audioToast.classList.remove("aut-visible"), 2800);
   }
 
   // ── Arabic text size ─────────────────────────────────────────────
@@ -314,7 +327,7 @@
         }
 
         if (action === "audio") {
-          showToast(Lang.t('audioKeladi'));
+          showAudioToast();
         }
       });
 

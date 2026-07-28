@@ -321,6 +321,50 @@ html:not(.dark) .sn-ripple {
     rgba(0, 140, 60, 0.15) 60%,
     transparent 100%);
 }
+
+/* ── Centered audio-unavailable toast ───────────────────────────── */
+.audio-unavail-toast {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.88);
+  background: var(--color-primary-dark, #1b4d30);
+  color: #fdfaf0;
+  padding: 28px 44px;
+  border-radius: 20px;
+  border: 1.5px solid rgba(212, 175, 83, 0.55);
+  text-align: center;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.22s ease, transform 0.22s cubic-bezier(0.34,1.56,0.64,1);
+  box-shadow: 0 12px 48px rgba(0,0,0,0.32);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  min-width: 200px;
+}
+.audio-unavail-toast .aut-icon {
+  font-size: 2rem;
+  line-height: 1;
+  filter: grayscale(0.2);
+}
+.audio-unavail-toast .aut-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.97rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+.audio-unavail-toast.aut-visible {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+html.dark .audio-unavail-toast {
+  background: #0d3d22;
+  border-color: rgba(212, 175, 83, 0.45);
+  box-shadow: 0 12px 48px rgba(0,0,0,0.52);
+}
 </style>
 </head>
 <body>

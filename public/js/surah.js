@@ -42,11 +42,23 @@
   audioToast.innerHTML = '<span class="aut-icon">🔇</span><span class="aut-text"></span>';
   document.body.appendChild(audioToast);
   let audioToastTimer;
-  function showAudioToast(key) {
-    audioToast.querySelector(".aut-text").textContent = Lang.t(key || "audioMavjudEmas");
+  function showAudioToast() {
+    audioToast.querySelector(".aut-text").textContent = Lang.t("audioMavjudEmas");
     audioToast.classList.add("aut-visible");
     clearTimeout(audioToastTimer);
     audioToastTimer = setTimeout(() => audioToast.classList.remove("aut-visible"), 2800);
+  }
+
+  // ── Small centered action toast (copy / save) ─────────────────────
+  const actionToast = document.createElement("div");
+  actionToast.className = "action-toast";
+  document.body.appendChild(actionToast);
+  let actionToastTimer;
+  function showActionToast(key) {
+    actionToast.textContent = Lang.t(key);
+    actionToast.classList.add("act-visible");
+    clearTimeout(actionToastTimer);
+    actionToastTimer = setTimeout(() => actionToast.classList.remove("act-visible"), 1800);
   }
 
   // ── Arabic text size ─────────────────────────────────────────────
@@ -287,7 +299,7 @@
         if (action === "copy") {
           const text = `${arabic}\n\n${translation}\n\n— Qur'on Karim, ${surah.name} surasi, ${ayahNum}-oyat`;
           navigator.clipboard.writeText(text)
-            .then(() => showAudioToast('nusxalandi'))
+            .then(() => showActionToast('nusxalandi'))
             .catch(() => showToast(Lang.t('nusxaXatolik')));
         }
 
@@ -322,7 +334,7 @@
             btn.classList.add("is-bookmarked");
             btn.title = Lang.t('saqlanganganTitle');
             btn.innerHTML = `${ICON_BOOKMARK_FILLED}<span>${Lang.t('saqlangan')}</span>`;
-            showAudioToast('saqlandi');
+            showActionToast('saqlandi');
           }
         }
 

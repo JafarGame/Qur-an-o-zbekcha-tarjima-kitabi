@@ -365,6 +365,37 @@ html.dark .audio-unavail-toast {
   border-color: rgba(212, 175, 83, 0.45);
   box-shadow: 0 12px 48px rgba(0,0,0,0.52);
 }
+
+/* ── Small centered action toast (copy / save) ───────────────────── */
+.action-toast {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  background: rgba(22, 60, 35, 0.92);
+  color: #fdfaf0;
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: 1px solid rgba(212, 175, 83, 0.4);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.18s ease, transform 0.18s cubic-bezier(0.34,1.56,0.64,1);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.28);
+}
+.action-toast.act-visible {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+html.dark .action-toast {
+  background: rgba(10, 38, 22, 0.94);
+  border-color: rgba(212, 175, 83, 0.35);
+}
 </style>
 </head>
 <body>

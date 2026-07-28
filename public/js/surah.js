@@ -42,8 +42,8 @@
   audioToast.innerHTML = '<span class="aut-icon">🔇</span><span class="aut-text"></span>';
   document.body.appendChild(audioToast);
   let audioToastTimer;
-  function showAudioToast() {
-    audioToast.querySelector(".aut-text").textContent = Lang.t("audioMavjudEmas");
+  function showAudioToast(key) {
+    audioToast.querySelector(".aut-text").textContent = Lang.t(key || "audioMavjudEmas");
     audioToast.classList.add("aut-visible");
     clearTimeout(audioToastTimer);
     audioToastTimer = setTimeout(() => audioToast.classList.remove("aut-visible"), 2800);
@@ -287,7 +287,7 @@
         if (action === "copy") {
           const text = `${arabic}\n\n${translation}\n\n— Qur'on Karim, ${surah.name} surasi, ${ayahNum}-oyat`;
           navigator.clipboard.writeText(text)
-            .then(() => showToast(Lang.t('nusxaOlindi')))
+            .then(() => showAudioToast('nusxalandi'))
             .catch(() => showToast(Lang.t('nusxaXatolik')));
         }
 
@@ -322,7 +322,7 @@
             btn.classList.add("is-bookmarked");
             btn.title = Lang.t('saqlanganganTitle');
             btn.innerHTML = `${ICON_BOOKMARK_FILLED}<span>${Lang.t('saqlangan')}</span>`;
-            showToast(Lang.t('oyatSaqlandi'));
+            showAudioToast('saqlandi');
           }
         }
 

@@ -516,7 +516,7 @@ body.qi-page .qi-footer-phrase {
 
 <!-- ── Header ──────────────────────────────────────────────── -->
 <header class="qi-header">
-  <a class="qi-back" href="/dashboard.html">← Bosh sahifa</a>
+  <a class="qi-back" href="/dashboard.html" id="qi-back-link">← Bosh sahifa</a>
   <div class="qi-logo" aria-hidden="true">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 54" width="64" height="54">
       <path d="M3 13 L29 9 L29 47 L3 43 Z" fill="#fef5d4"/>
@@ -560,7 +560,7 @@ body.qi-page .qi-footer-phrase {
 <main class="qi-main">
   <div id="searchResults" class="search-results"></div>
 
-  <div class="qi-section-label">114 ta sura</div>
+  <div class="qi-section-label" data-i18n="suralarSoni">114 ta sura</div>
   <div class="qi-divider" aria-hidden="true">
     <div class="qi-divider-line"></div>
     <div class="qi-divider-dot"></div>
@@ -568,7 +568,7 @@ body.qi-page .qi-footer-phrase {
   </div>
 
   <div id="surahList" class="surah-list">
-    <div class="state-msg">Yuklanmoqda...</div>
+    <div class="state-msg" data-i18n="yuklanmoqda">Yuklanmoqda...</div>
   </div>
 
   <div class="qi-footer-phrase">﷽</div>
@@ -576,6 +576,17 @@ body.qi-page .qi-footer-phrase {
 
 <!-- Unchanged app logic -->
 <script src="/js/app.js"></script>
+
+<!-- ── Apply language to static index-page strings ── -->
+<script>
+  (function () {
+    if (!window.Lang || !Lang.isKiril()) return;
+    var bl = document.getElementById('qi-back-link');
+    if (bl) bl.textContent = '\u2190 ' + Lang.t('boshSahifa');
+    var si = document.getElementById('searchInput');
+    if (si) si.placeholder = Lang.t('qidiruvPlaceholder');
+  })();
+</script>
 
 <script>
 /* ═══════════════════════════════════════════════════════════════════

@@ -33,8 +33,8 @@
         <a class="surah-card" href="/surah.html?number=${s.number}">
           <div class="surah-badge">${s.number}</div>
           <div class="surah-info">
-            <div class="name">${s.name}</div>
-            <div class="meta">${s.ayahCount} oyat</div>
+            <div class="name">${(window.Lang && Lang.surahName(s.number)) || s.name}</div>
+            <div class="meta">${s.ayahCount} ${window.Lang ? Lang.t('oyat') : 'oyat'}</div>
           </div>
         </a>`
       )

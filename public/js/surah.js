@@ -187,8 +187,9 @@
       return res.json();
     })
     .then(async surah => {
-      document.title = `${surah.number}. ${surah.name} | Qur'oni Karim`;
-      headerTitle.textContent = `${surah.number}. ${surah.name}`;
+      const displayName = (window.Lang && Lang.surahName(surah.number)) || surah.name;
+      document.title = `${surah.number}. ${displayName} | Qur'oni Karim`;
+      headerTitle.textContent = `${surah.number}. ${displayName}`;
 
       const bookmarks = loadBookmarks();
 
@@ -297,7 +298,7 @@
         const action      = btn.dataset.action;
 
         if (action === "copy") {
-          const text = `${arabic}\n\n${translation}\n\n— Qur'on Karim, ${surah.name} surasi, ${ayahNum}-oyat`;
+          const text = `${arabic}\n\n${translation}\n\n— Qur'on Karim, ${displayName} ${Lang.t('surasi')}, ${ayahNum}-${Lang.t('oyat')}`;
           navigator.clipboard.writeText(text)
             .then(() => showActionToast('nusxalandi'))
             .catch(() => showToast(Lang.t('nusxaXatolik')));

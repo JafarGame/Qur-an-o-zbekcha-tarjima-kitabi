@@ -15,10 +15,11 @@
    * § 1  SURAH NAME INDEX   alias (lowercase) → surah number
    * ────────────────────────────────────────────────────────────────────── */
   QAA.SURAH_INDEX = {
-    // 1
-    'fotiha':1,'fatiha':1,'al-fotiha':1,'al-fatiha':1,'alfotiha':1,
-    // 2
-    'baqara':2,'baqarah':2,'al-baqara':2,'albaqara':2,'bakara':2,
+    // 1  — Chrome en-US phonetic variants: "Fatiha", "fatiha", "Fatima" (unlikely), "fatty ha"
+    'fotiha':1,'fatiha':1,'al-fotiha':1,'al-fatiha':1,'alfotiha':1,'alfatiha':1,
+    'fatihah':1,'al fatihah':1,'al fatiha':1,'al fotiha':1,
+    // 2  — "Bakara", "Baccara", "Bakaran", "Bacara"
+    'baqara':2,'baqarah':2,'al-baqara':2,'albaqara':2,'bakara':2,'bacara':2,'baccara':2,
     // 3
     'imron':3,'ol imron':3,'al imron':3,'al-imron':3,'ali imran':3,
     // 4
@@ -352,26 +353,32 @@
       };
 
       r.onresult = (e) => {
-        let interim = '', final = '';
+        let interimText = '';
+        const alternatives = [];   // all final alternatives, ordered by confidence
+
         for (let i = e.resultIndex; i < e.results.length; i++) {
-          const seg = e.results[i][0].transcript || '';
-          e.results[i].isFinal ? (final += seg) : (interim += seg);
+          const res = e.results[i];
+          if (!res.isFinal) {
+            interimText += res[0].transcript || '';
+          } else {
+            // Collect every alternative the browser returned (up to maxAlternatives=5)
+            for (let j = 0; j < res.length; j++) {
+              const t = (res[j].transcript || '').trim();
+              if (t) alternatives.push(t);
+            }
+          }
         }
 
-        if (interim) {
-          console.log('[QAA] VOICE INTERIM: "' + interim + '"');
-          if (this._cbs.onInterim) this._cbs.onInterim(interim);
+        if (interimText) {
+          console.log('[QAA] VOICE INTERIM: "' + interimText + '"');
+          if (this._cbs.onInterim) this._cbs.onInterim(interimText);
         }
 
-        // Process final segment when it arrives
-        const trimmed = final.trim();
-        console.log('[QAA] VOICE ONRESULT final="' + final + '" trimmed="' + trimmed + '"');
-
-        if (final !== '') {   // final segment was present in this event
-          if (!trimmed) {
-            // Empty transcript: language model processed audio but produced nothing.
-            // Retry with next language rather than giving up immediately.
-            console.log('[QAA] EMPTY TRANSCRIPT — retrying with next language');
+        if (alternatives.length > 0) {
+          console.log('[QAA] VOICE ALTERNATIVES (' + lang + '):', alternatives);
+          if (!alternatives[0]) {
+            // All alternatives are empty — retry next language
+            console.log('[QAA] EMPTY ALTERNATIVES — retrying with next language');
             gotResult = true;
             this.isListening = false;
             this._langIdx++;
@@ -385,8 +392,9 @@
           gotResult = true;
           if (!finalFired) {
             finalFired = true;
-            console.log('[QAA] VOICE FINAL: "' + trimmed + '" (lang=' + lang + ')');
-            if (this._cbs.onFinal) this._cbs.onFinal(trimmed);
+            console.log('[QAA] VOICE FINAL (best): "' + alternatives[0] + '" — passing all ' + alternatives.length + ' alternatives');
+            // Pass the full alternatives array; _startVoice uses all of them
+            if (this._cbs.onFinal) this._cbs.onFinal(alternatives);
           }
         }
       };
@@ -453,13 +461,17 @@
          "Yosin sura"             → "Yosin"                              */
     _normalizeVoice(text) {
       return text
-        // "surasi" / "surasini" / "sura" — Uzbek declensions of "surah"
-        .replace(/\s+suras[iao]?\w*/gi, '')
-        // "oyat" / "oyati" / "oyatni" / "oyatdan" — Uzbek for "ayah/verse"
-        .replace(/\s+oyat\w*/gi, '')
-        // "dan" / "ning" / "ga" / "ni" / "da" — case suffixes at end of word
+        // Arabic/English "surah" and all Uzbek declensions: surasi, surasini, sura…
+        .replace(/\b(surah|sura[a-z]*)\b/gi, '')
+        // "chapter" — what Chrome en-US sometimes says for "sura"
+        .replace(/\bchapter\b/gi, '')
+        // "verse" / "ayah" / "ayat" / "oyat" and all Uzbek forms
+        .replace(/\b(verse|ayah|ayat|oyat[a-z]*)\b/gi, '')
+        // Uzbek case suffixes that trail after names/numbers (standalone tokens)
         .replace(/\b(dan|ning|ga|ni|da)\b/gi, '')
-        // clean up multiple spaces left by removals
+        // Leading "the" that Chrome en-US prepends (e.g. "the Fatiha")
+        .replace(/^the\s+/i, '')
+        // Collapse multiple spaces left by removals
         .replace(/\s{2,}/g, ' ')
         .trim();
     },
@@ -860,10 +872,12 @@
       this.setTranscript('');
       QAA.SpeechInput.start({
         onInterim : t => { console.log('[QAA] INTERIM TRANSCRIPT: "' + t + '"'); this.setTranscript(t); },
-        onFinal   : t => {
-          console.log('[QAA] FINAL TRANSCRIPT → handing to search: "' + t + '"');
-          this.setTranscript(t);
-          this._doSearch(t);
+        onFinal   : alts => {
+          // alts is an array of alternatives ordered by confidence
+          const display = Array.isArray(alts) ? alts[0] : alts;
+          console.log('[QAA] FINAL RECEIVED — trying', Array.isArray(alts) ? alts.length : 1, 'alternatives:', alts);
+          this.setTranscript(display);
+          this._doSearchWithAlternatives(Array.isArray(alts) ? alts : [alts]);
         },
         onError   : err => {
           console.log('[QAA] VOICE ERROR in UI handler:', err,
@@ -903,6 +917,38 @@
           this.showError(msg || 'Mikrofon xatosi — qayta bosing');
         },
       });
+    },
+
+    /* Try each recognition alternative through QueryParser in confidence order.
+       Uses the first one that parses to a surah; falls back to text search
+       on the best (first) alternative if none parse.                         */
+    async _doSearchWithAlternatives(alts) {
+      console.log('[QAA] TRYING ALTERNATIVES:', alts);
+      this.setState('processing');
+      this.setTranscript(alts[0]);
+
+      for (let i = 0; i < alts.length; i++) {
+        const alt = alts[i];
+        const parsed = QAA.QueryParser.parse(alt);
+        console.log('[QAA] ALT[' + i + '] "' + alt + '" → parsed:', parsed
+          ? 'surah=' + parsed.surahNum + ' ayah=' + parsed.ayahNum : 'null');
+        if (parsed) {
+          try {
+            const res = await QAA.QuranSearch.findAyah(parsed.surahNum, parsed.ayahNum);
+            console.log('[QAA] RESULT FOUND via alt[' + i + ']: surah='
+              + res.surah.number + ' ayah=' + Number(res.ayah.number));
+            this.setTranscript(alt);
+            this.showResult(res);
+            return;
+          } catch (e) {
+            console.log('[QAA] FIND AYAH ERROR (alt ' + i + '):', e && e.message);
+          }
+        }
+      }
+
+      // No alternative parsed — text search on best alternative
+      console.log('[QAA] NO ALTERNATIVE PARSED — falling back to text search: "' + alts[0] + '"');
+      await this._doSearch(alts[0]);
     },
 
     async _doSearch(query) {

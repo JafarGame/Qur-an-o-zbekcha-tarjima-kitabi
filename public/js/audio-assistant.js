@@ -247,29 +247,52 @@
 
   /* ──────────────────────────────────────────────────────────────────────
    * § 2  SPEECH INPUT   (Web Speech API)
+   *
+   * KEY DESIGN NOTES:
+   *  • A SpeechRecognition object can only be .start()-ed ONCE.
+   *    After .onend fires the same instance throws InvalidStateError.
+   *    Fix: create a fresh instance on every attempt.
+   *  • Language fallback chain: uz-UZ → ar-SA → en-US.
+   *    If the browser reports language-not-supported we move to the next.
+   *  • gotResult flag lets onend detect a silent timeout (no-speech)
+   *    even when the browser skips firing onerror('no-speech').
    * ────────────────────────────────────────────────────────────────────── */
   QAA.SpeechInput = {
-    recognition : null,
+    _SR         : null,
+    _active     : null,          // current SpeechRecognition instance
+    _cbs        : {},            // callbacks for the active session
+    _langIdx    : 0,
+    _LANGS      : ['uz-UZ', 'ar-SA', 'en-US'],
     supported   : false,
     isListening : false,
 
     init() {
       const SR = global.SpeechRecognition || global.webkitSpeechRecognition;
       if (!SR) { this.supported = false; return false; }
-
-      const r = new SR();
-      r.lang             = 'uz-UZ';
-      r.continuous       = false;
-      r.interimResults   = true;
-      r.maxAlternatives  = 3;
-      this.recognition   = r;
-      this.supported     = true;
+      this._SR = SR;
+      this.supported = true;
       return true;
     },
 
-    start({ onInterim, onFinal, onError } = {}) {
-      if (!this.supported || this.isListening) return;
-      const r = this.recognition;
+    /* Public: begin a session. Callbacks: onInterim(text), onFinal(text), onError(code). */
+    start(cbs = {}) {
+      if (!this.supported) { if (cbs.onError) cbs.onError('not-supported'); return; }
+      this.stop();                     // abort any previous session cleanly
+      this._cbs    = cbs;
+      this._langIdx = 0;
+      this._attempt(this._LANGS[0]);
+    },
+
+    /* Internal: create a fresh instance for `lang` and try to start it. */
+    _attempt(lang) {
+      const r = new this._SR();
+      r.lang           = lang;
+      r.continuous     = false;
+      r.interimResults = true;
+      r.maxAlternatives = 3;
+      this._active = r;
+
+      let gotResult = false;
 
       r.onresult = (e) => {
         let interim = '', final = '';
@@ -277,22 +300,62 @@
           const t = e.results[i][0].transcript;
           e.results[i].isFinal ? (final += t) : (interim += t);
         }
-        if (interim && onInterim) onInterim(interim);
-        if (final   && onFinal)   onFinal(final);
+        if (interim && this._cbs.onInterim) this._cbs.onInterim(interim);
+        if (final) {
+          gotResult = true;
+          if (this._cbs.onFinal) this._cbs.onFinal(final);
+        }
       };
 
-      r.onerror = (e) => { this.isListening = false; if (onError) onError(e.error); };
-      r.onend   = ()  => { this.isListening = false; };
+      r.onspeechend = () => {
+        // Speech stopped — tell the engine to finalize rather than wait for timeout
+        try { r.stop(); } catch (_) {}
+      };
 
-      try   { r.start(); this.isListening = true; }
-      catch (e) { if (onError) onError('start-failed'); }
+      r.onerror = (e) => {
+        gotResult = true; // suppress the silent-timeout path in onend
+        this.isListening = false;
+        const err = e.error;
+
+        // Language not available in this browser — try next in chain
+        if (err === 'language-not-supported' || err === 'language-unavailable') {
+          this._langIdx++;
+          if (this._langIdx < this._LANGS.length) {
+            this._attempt(this._LANGS[this._langIdx]);
+            return;
+          }
+        }
+        if (this._cbs.onError) this._cbs.onError(err);
+      };
+
+      r.onend = () => {
+        this.isListening = false;
+        // Some browsers end silently without firing onerror('no-speech')
+        if (!gotResult && this._cbs.onError) this._cbs.onError('no-speech');
+      };
+
+      try {
+        r.start();
+        this.isListening = true;
+      } catch (ex) {
+        this.isListening = false;
+        // InvalidStateError or SecurityError before we even started
+        const code = (ex && ex.name === 'SecurityError') ? 'not-allowed' : 'start-failed';
+        if (this._cbs.onError) this._cbs.onError(code);
+      }
     },
 
     stop() {
-      if (this.recognition && this.isListening) {
-        this.recognition.stop();
-        this.isListening = false;
+      if (this._active) {
+        try { this._active.stop(); } catch (_) {}
+        // Detach handlers so stale onend/onerror don't fire after we move on
+        this._active.onresult  = null;
+        this._active.onerror   = null;
+        this._active.onend     = null;
+        this._active.onspeechend = null;
+        this._active = null;
       }
+      this.isListening = false;
     },
   };
 
@@ -690,8 +753,23 @@
         onInterim : t => this.setTranscript(t),
         onFinal   : t => { this.setTranscript(t); this._doSearch(t); },
         onError   : err => {
-          if (err === 'no-speech') this.showError('Ovoz aniqlanmadi');
-          else                     this.showError('Mikrofon xatosi: ' + err);
+          const MSG = {
+            'not-allowed'            : 'Mikrofon ruxsati rad etildi — brauzer sozlamalarini tekshiring',
+            'permission-denied'      : 'Mikrofon ruxsati rad etildi — brauzer sozlamalarini tekshiring',
+            'service-not-allowed'    : 'Ovoz xizmati bloklangan — HTTPS kerak',
+            'audio-capture'          : 'Mikrofon topilmadi yoki ishlamayapti',
+            'network'                : 'Tarmoq xatosi — qayta urinib ko\'ring',
+            'no-speech'              : 'Ovoz aniqlanmadi — qayta bosing',
+            'not-supported'          : 'Brauzer ovozni qo\'llab-quvvatlamaydi',
+            'aborted'                : null,   // user-initiated, no message needed
+            'start-failed'           : 'Mikrofon ishga tushmadi — qayta bosing',
+          };
+          const msg = MSG[err];
+          if (msg === null) { this.setState('idle'); return; }   // silent abort
+          if (err === 'not-allowed' || err === 'permission-denied' || err === 'not-supported') {
+            document.body.classList.add('aa-no-voice');
+          }
+          this.showError(msg || 'Mikrofon xatosi — qayta bosing');
         },
       });
     },

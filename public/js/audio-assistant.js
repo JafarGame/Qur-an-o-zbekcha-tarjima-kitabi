@@ -285,6 +285,7 @@
 
     /* Internal: create a fresh instance for `lang` and try to start it. */
     _attempt(lang) {
+      console.log('[QAA] MIC ATTEMPT lang=' + lang);
       const r = new this._SR();
       r.lang           = lang;
       r.continuous     = false;
@@ -294,31 +295,42 @@
 
       let gotResult = false;
 
+      r.onsoundstart = () => console.log('[QAA] SOUND START (mic picking up audio)');
+
+      r.onspeechstart = () => console.log('[QAA] SPEECH START (voice detected)');
+
+      // NOTE: do NOT call r.stop() here.
+      // Calling stop() inside onspeechend causes Chrome to fire onerror('aborted')
+      // BEFORE the final onresult, which swallows the transcript entirely.
+      // Let the browser finalize recognition naturally.
+      r.onspeechend = () => console.log('[QAA] SPEECH END (waiting for final result...)');
+
       r.onresult = (e) => {
         let interim = '', final = '';
         for (let i = e.resultIndex; i < e.results.length; i++) {
           const t = e.results[i][0].transcript;
           e.results[i].isFinal ? (final += t) : (interim += t);
         }
-        if (interim && this._cbs.onInterim) this._cbs.onInterim(interim);
+        if (interim) {
+          console.log('[QAA] VOICE INTERIM: "' + interim + '"');
+          if (this._cbs.onInterim) this._cbs.onInterim(interim);
+        }
         if (final) {
+          console.log('[QAA] VOICE RECEIVED: "' + final + '" (lang=' + lang + ')');
           gotResult = true;
           if (this._cbs.onFinal) this._cbs.onFinal(final);
         }
       };
 
-      r.onspeechend = () => {
-        // Speech stopped — tell the engine to finalize rather than wait for timeout
-        try { r.stop(); } catch (_) {}
-      };
-
       r.onerror = (e) => {
+        const err = e.error;
+        console.log('[QAA] VOICE ERROR: ' + err);
         gotResult = true; // suppress the silent-timeout path in onend
         this.isListening = false;
-        const err = e.error;
 
         // Language not available in this browser — try next in chain
         if (err === 'language-not-supported' || err === 'language-unavailable') {
+          console.log('[QAA] LANG NOT SUPPORTED: ' + lang + ' → trying next');
           this._langIdx++;
           if (this._langIdx < this._LANGS.length) {
             this._attempt(this._LANGS[this._langIdx]);
@@ -329,6 +341,7 @@
       };
 
       r.onend = () => {
+        console.log('[QAA] RECOGNITION END (gotResult=' + gotResult + ')');
         this.isListening = false;
         // Some browsers end silently without firing onerror('no-speech')
         if (!gotResult && this._cbs.onError) this._cbs.onError('no-speech');
@@ -337,8 +350,10 @@
       try {
         r.start();
         this.isListening = true;
+        console.log('[QAA] MIC STARTED (lang=' + lang + ')');
       } catch (ex) {
         this.isListening = false;
+        console.log('[QAA] MIC START EXCEPTION: ' + (ex && ex.name) + ' — ' + ex);
         // InvalidStateError or SecurityError before we even started
         const code = (ex && ex.name === 'SecurityError') ? 'not-allowed' : 'start-failed';
         if (this._cbs.onError) this._cbs.onError(code);
@@ -747,11 +762,16 @@
         this.showError('Brauzer ovozni qo\'llab-quvvatlamaydi');
         return;
       }
+      console.log('[QAA] MIC BUTTON CLICKED — starting voice session');
       this.setState('listening');
       this.setTranscript('');
       QAA.SpeechInput.start({
-        onInterim : t => this.setTranscript(t),
-        onFinal   : t => { this.setTranscript(t); this._doSearch(t); },
+        onInterim : t => { console.log('[QAA] INTERIM TRANSCRIPT: "' + t + '"'); this.setTranscript(t); },
+        onFinal   : t => {
+          console.log('[QAA] FINAL TRANSCRIPT → handing to search: "' + t + '"');
+          this.setTranscript(t);
+          this._doSearch(t);
+        },
         onError   : err => {
           const MSG = {
             'not-allowed'            : 'Mikrofon ruxsati rad etildi — brauzer sozlamalarini tekshiring',
@@ -775,14 +795,21 @@
     },
 
     async _doSearch(query) {
+      console.log('[QAA] SEARCH QUERY: "' + query + '"');
       const parsed = QAA.QueryParser.parse(query);
+      console.log('[QAA] QUERY PARSED:', parsed
+        ? ('surah=' + parsed.surahNum + ' ayah=' + parsed.ayahNum)
+        : 'no structured match → text search fallback');
       this.setState('processing');
       this.setTranscript(query);
 
       if (parsed) {
         try {
-          this.showResult(await QAA.QuranSearch.findAyah(parsed.surahNum, parsed.ayahNum));
+          const res = await QAA.QuranSearch.findAyah(parsed.surahNum, parsed.ayahNum);
+          console.log('[QAA] RESULT FOUND: surah=' + res.surah.number + ' ayah=' + Number(res.ayah.number));
+          this.showResult(res);
         } catch (e) {
+          console.log('[QAA] FIND AYAH ERROR:', e && e.message);
           this.showError('Topilmadi: ' + query);
         }
         return;
@@ -790,13 +817,18 @@
 
       // Text search fallback
       try {
+        console.log('[QAA] TEXT SEARCH: "' + query + '"');
         const data = await QAA.QuranSearch.textSearch(query);
         const hits = (data.results || []);
+        console.log('[QAA] TEXT SEARCH HITS: ' + hits.length);
         if (!hits.length) { this.showError('Natija topilmadi'); return; }
-        // Use first hit (already has arabic + translation from server)
         const h = hits[0];
-        this.showResult(await QAA.QuranSearch.findAyah(h.surah, h.ayah));
-      } catch (_) {
+        console.log('[QAA] BEST HIT: surah=' + h.surah + ' ayah=' + h.ayah + ' name=' + h.surahName);
+        const res = await QAA.QuranSearch.findAyah(h.surah, h.ayah);
+        console.log('[QAA] RESULT FOUND: surah=' + res.surah.number + ' ayah=' + Number(res.ayah.number));
+        this.showResult(res);
+      } catch (e) {
+        console.log('[QAA] TEXT SEARCH ERROR:', e && e.message);
         this.showError('Qidiruv xatosi');
       }
     },

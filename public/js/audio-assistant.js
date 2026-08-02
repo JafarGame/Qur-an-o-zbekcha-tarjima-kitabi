@@ -259,116 +259,145 @@
    * ────────────────────────────────────────────────────────────────────── */
   QAA.SpeechInput = {
     _SR         : null,
-    _active     : null,          // current SpeechRecognition instance
-    _cbs        : {},            // callbacks for the active session
+    _active     : null,
+    _cbs        : {},
     _langIdx    : 0,
-    _LANGS      : ['uz-UZ', 'ar-SA', 'en-US'],
+    // en-US first: most reliable phonetic model for Arabic-rooted Uzbek surah names.
+    // uz-UZ second: native Uzbek model — good but limited Arabic loanword vocabulary.
+    // ar-SA third: catches Arabic recitation text when user reads an ayah aloud.
+    _LANGS      : ['en-US', 'uz-UZ', 'ar-SA'],
     supported   : false,
     isListening : false,
 
     init() {
-      /* ── Diagnostics ── */
-      const proto      = global.location ? global.location.protocol : 'unknown';
-      const isSecure   = !!global.isSecureContext;
-      const hasMedia   = !!(global.navigator && global.navigator.mediaDevices);
-      const SR         = global.SpeechRecognition || global.webkitSpeechRecognition;
+      const proto    = global.location ? global.location.protocol : 'unknown';
+      const isSecure = !!global.isSecureContext;
+      const hasMedia = !!(global.navigator && global.navigator.mediaDevices);
+      const SR       = global.SpeechRecognition || global.webkitSpeechRecognition;
 
       console.log('[QAA] SECURE CONTEXT:', isSecure);
       console.log('[QAA] PROTOCOL:', proto);
       console.log('[QAA] MEDIA DEVICES:', hasMedia);
       console.log('[QAA] SPEECH RECOGNITION:', SR ? (SR.name || 'webkitSpeechRecognition') : 'NOT AVAILABLE');
 
-      /* ── Platform / browser detection ── */
-      const ua     = (global.navigator && global.navigator.userAgent) || '';
-      const isIOS  = /iP(hone|ad|od)/.test(ua);
-      const isSafari = isIOS || (/^((?!chrome|android).)*safari/i.test(ua));
-      // Telegram in-app browser exposes no SpeechRecognition and blocks mic
+      const ua         = (global.navigator && global.navigator.userAgent) || '';
+      const isIOS      = /iP(hone|ad|od)/.test(ua);
+      const isSafari   = isIOS || (/^((?!chrome|android).)*safari/i.test(ua));
       const isTelegram = /Telegram/i.test(ua);
-
       console.log('[QAA] PLATFORM — iOS:', isIOS, '| Safari:', isSafari, '| Telegram:', isTelegram);
 
       if (!SR || isTelegram) {
         this.supported = false;
-        if (isTelegram) console.log('[QAA] Telegram browser detected — voice disabled, text input available');
+        if (isTelegram) console.log('[QAA] Telegram browser — voice disabled, use text input');
         return false;
       }
 
-      this._SR           = SR;
-      this._isSecure     = isSecure;
-      this._isIOS        = isIOS;
-      this._isSafari     = isSafari;
-      this.supported     = true;
+      this._SR       = SR;
+      this._isSecure = isSecure;
+      this._isIOS    = isIOS;
+      this._isSafari = isSafari;
+      this.supported = true;
       return true;
     },
 
-    /* Public: begin a session. Callbacks: onInterim(text), onFinal(text), onError(code). */
     start(cbs = {}) {
       if (!this.supported) { if (cbs.onError) cbs.onError('not-supported'); return; }
-
-      /* Pre-flight security check.
-         Chrome allows r.start() on HTTP but immediately fires service-not-allowed.
-         Catch it here so we can give a meaningful message before wasting a round-trip. */
       if (!this._isSecure) {
-        console.log('[QAA] INSECURE CONTEXT — bailing before start');
+        console.log('[QAA] INSECURE CONTEXT — bailing');
         if (cbs.onError) cbs.onError('insecure-context');
         return;
       }
-
       this.stop();
       this._cbs     = cbs;
       this._langIdx = 0;
       this._attempt(this._LANGS[0]);
     },
 
-    /* Internal: create a fresh instance for `lang` and try to start it. */
     _attempt(lang) {
       console.log('[QAA] MIC ATTEMPT lang=' + lang);
       const r = new this._SR();
-      r.lang           = lang;
-      r.continuous     = false;
-      // iOS Safari crashes / misbehaves with interimResults=true — disable it
-      r.interimResults = !this._isIOS;
-      r.maxAlternatives = 3;
+      r.lang            = lang;
+      r.continuous      = false;
+      r.interimResults  = !this._isIOS;   // iOS Safari crashes with interimResults=true
+      r.maxAlternatives = 5;              // more alternatives → better transcription chance
       this._active = r;
 
-      let gotResult = false;
+      let gotResult = false;   // true once onresult/onerror fires for THIS instance
+      let finalFired = false;  // guard: onFinal called at most once per session
 
-      r.onsoundstart = () => console.log('[QAA] SOUND START (mic picking up audio)');
+      // ── Full event log ───────────────────────────────────────────────────
+      r.onstart       = () => console.log('[QAA] ONSTART      — session open (lang=' + lang + ')');
+      r.onaudiostart  = () => console.log('[QAA] ONAUDIOSTART — mic capturing audio');
+      r.onsoundstart  = () => console.log('[QAA] ONSOUNDSTART — sound detected');
+      r.onspeechstart = () => console.log('[QAA] ONSPEECHSTART — speech detected');
+      // NOTE: onspeechend must NOT call r.stop().
+      // Calling stop() here fires onerror('aborted') BEFORE onresult arrives,
+      // which swallows the transcript completely. Let the browser finalize naturally.
+      r.onspeechend   = () => console.log('[QAA] ONSPEECHEND  — speech stopped, browser finalising...');
+      r.onsoundend    = () => console.log('[QAA] ONSOUNDEND   — sound ended');
+      r.onaudioend    = () => console.log('[QAA] ONAUDIOEND   — mic stopped capturing');
 
-      r.onspeechstart = () => console.log('[QAA] SPEECH START (voice detected)');
-
-      // NOTE: do NOT call r.stop() here.
-      // Calling stop() inside onspeechend causes Chrome to fire onerror('aborted')
-      // BEFORE the final onresult, which swallows the transcript entirely.
-      // Let the browser finalize recognition naturally.
-      r.onspeechend = () => console.log('[QAA] SPEECH END (waiting for final result...)');
+      r.onnomatch = () => {
+        // Browser heard audio but no match above confidence threshold.
+        console.log('[QAA] ONNOMATCH — no confident transcription (lang=' + lang + ')');
+        gotResult = true;
+        this.isListening = false;
+        this._langIdx++;
+        if (this._langIdx < this._LANGS.length) {
+          console.log('[QAA] ONNOMATCH retry → ' + this._LANGS[this._langIdx]);
+          this._attempt(this._LANGS[this._langIdx]);
+        } else if (this._cbs.onError) {
+          this._cbs.onError('no-speech');
+        }
+      };
 
       r.onresult = (e) => {
         let interim = '', final = '';
         for (let i = e.resultIndex; i < e.results.length; i++) {
-          const t = e.results[i][0].transcript;
-          e.results[i].isFinal ? (final += t) : (interim += t);
+          const seg = e.results[i][0].transcript || '';
+          e.results[i].isFinal ? (final += seg) : (interim += seg);
         }
+
         if (interim) {
           console.log('[QAA] VOICE INTERIM: "' + interim + '"');
           if (this._cbs.onInterim) this._cbs.onInterim(interim);
         }
-        if (final) {
-          console.log('[QAA] VOICE RECEIVED: "' + final + '" (lang=' + lang + ')');
+
+        // Process final segment when it arrives
+        const trimmed = final.trim();
+        console.log('[QAA] VOICE ONRESULT final="' + final + '" trimmed="' + trimmed + '"');
+
+        if (final !== '') {   // final segment was present in this event
+          if (!trimmed) {
+            // Empty transcript: language model processed audio but produced nothing.
+            // Retry with next language rather than giving up immediately.
+            console.log('[QAA] EMPTY TRANSCRIPT — retrying with next language');
+            gotResult = true;
+            this.isListening = false;
+            this._langIdx++;
+            if (this._langIdx < this._LANGS.length) {
+              this._attempt(this._LANGS[this._langIdx]);
+            } else if (this._cbs.onError) {
+              this._cbs.onError('no-speech');
+            }
+            return;
+          }
           gotResult = true;
-          if (this._cbs.onFinal) this._cbs.onFinal(final);
+          if (!finalFired) {
+            finalFired = true;
+            console.log('[QAA] VOICE FINAL: "' + trimmed + '" (lang=' + lang + ')');
+            if (this._cbs.onFinal) this._cbs.onFinal(trimmed);
+          }
         }
       };
 
       r.onerror = (e) => {
         const err = e.error;
-        console.log('[QAA] VOICE ERROR: ' + err);
-        gotResult = true; // suppress the silent-timeout path in onend
+        console.log('[QAA] VOICE ERROR: ' + err + ' (lang=' + lang + ')');
+        gotResult = true;
         this.isListening = false;
-
-        // Language not available in this browser — try next in chain
         if (err === 'language-not-supported' || err === 'language-unavailable') {
-          console.log('[QAA] LANG NOT SUPPORTED: ' + lang + ' → trying next');
+          console.log('[QAA] LANG NOT SUPPORTED: ' + lang + ' → next');
           this._langIdx++;
           if (this._langIdx < this._LANGS.length) {
             this._attempt(this._LANGS[this._langIdx]);
@@ -379,9 +408,8 @@
       };
 
       r.onend = () => {
-        console.log('[QAA] RECOGNITION END (gotResult=' + gotResult + ')');
+        console.log('[QAA] RECOGNITION END gotResult=' + gotResult + ' lang=' + lang);
         this.isListening = false;
-        // Some browsers end silently without firing onerror('no-speech')
         if (!gotResult && this._cbs.onError) this._cbs.onError('no-speech');
       };
 
@@ -391,8 +419,7 @@
         console.log('[QAA] MIC STARTED (lang=' + lang + ')');
       } catch (ex) {
         this.isListening = false;
-        console.log('[QAA] MIC START EXCEPTION: ' + (ex && ex.name) + ' — ' + ex);
-        // InvalidStateError or SecurityError before we even started
+        console.log('[QAA] MIC START EXCEPTION:', ex && ex.name, ex);
         const code = (ex && ex.name === 'SecurityError') ? 'not-allowed' : 'start-failed';
         if (this._cbs.onError) this._cbs.onError(code);
       }
@@ -401,11 +428,10 @@
     stop() {
       if (this._active) {
         try { this._active.stop(); } catch (_) {}
-        // Detach handlers so stale onend/onerror don't fire after we move on
-        this._active.onresult  = null;
-        this._active.onerror   = null;
-        this._active.onend     = null;
-        this._active.onspeechend = null;
+        // Null ALL handlers so stale onend/onerror from the dead instance don't fire
+        ['onstart','onaudiostart','onsoundstart','onspeechstart','onspeechend',
+         'onsoundend','onaudioend','onresult','onnomatch','onerror','onend'
+        ].forEach(ev => { this._active[ev] = null; });
         this._active = null;
       }
       this.isListening = false;
@@ -415,13 +441,42 @@
   /* ──────────────────────────────────────────────────────────────────────
    * § 3  QUERY PARSER
    *   Handles: "2:255" · "Yosin 82" · "baqara" · "36" · "2-255"
+   *   + voice patterns: "Fotiha surasi" · "Baqara surasi 255 oyat"
    * ────────────────────────────────────────────────────────────────────── */
   QAA.QueryParser = {
+
+    /* Strip Uzbek grammatical decorators produced by voice recognition.
+       Examples:
+         "Fotiha surasi"          → "Fotiha"
+         "Baqara surasi 255 oyat" → "Baqara 255"
+         "Baqaradan"              → "Baqara"
+         "Yosin sura"             → "Yosin"                              */
+    _normalizeVoice(text) {
+      return text
+        // "surasi" / "surasini" / "sura" — Uzbek declensions of "surah"
+        .replace(/\s+suras[iao]?\w*/gi, '')
+        // "oyat" / "oyati" / "oyatni" / "oyatdan" — Uzbek for "ayah/verse"
+        .replace(/\s+oyat\w*/gi, '')
+        // "dan" / "ning" / "ga" / "ni" / "da" — case suffixes at end of word
+        .replace(/\b(dan|ning|ga|ni|da)\b/gi, '')
+        // clean up multiple spaces left by removals
+        .replace(/\s{2,}/g, ' ')
+        .trim();
+    },
+
     parse(raw) {
       if (!raw || !raw.trim()) return null;
-      const text = raw.trim().toLowerCase().replace(/\s+/g, ' ');
 
-      // "2:255"  "2-255"  "2 255" (two numbers only)
+      // Detect Arabic text (Unicode block U+0600–U+06FF) → skip structured parse,
+      // let _doSearch fall through to the text-search API directly.
+      if (/[\u0600-\u06FF]/.test(raw)) return null;
+
+      // Voice-normalise first, then lower-case and collapse whitespace.
+      const normalised = this._normalizeVoice(raw);
+      const text = normalised.trim().toLowerCase().replace(/\s+/g, ' ');
+      console.log('[QAA] QUERY NORMALISED: "' + raw + '" → "' + text + '"');
+
+      // "2:255"  "2-255"  "2 255" (two bare numbers)
       const twoNums = text.match(/^(\d{1,3})[:\-\s](\d{1,3})$/);
       if (twoNums) return { surahNum: +twoNums[1], ayahNum: +twoNums[2], raw };
 
@@ -834,7 +889,7 @@
             'service-not-allowed'    : svcMsg,
             'audio-capture'          : 'Mikrofon topilmadi yoki ishlamayapti',
             'network'                : 'Tarmoq xatosi — qayta urinib ko\'ring',
-            'no-speech'              : 'Ovoz aniqlanmadi — qayta bosing',
+            'no-speech'              : 'Ovoz aniq eshitilmadi, qayta urinib ko\'ring',
             'not-supported'          : 'Brauzer ovozni qo\'llab-quvvatlamaydi',
             'aborted'                : null,   // user-initiated, no message needed
             'start-failed'           : 'Mikrofon ishga tushmadi — qayta bosing',

@@ -124,9 +124,26 @@
   margin: 0 0 14px;
 }
 
+/* ── Arabic numeral icon variant ── */
+.da-card-icon.da-icon-arabic {
+  font-family: "Amiri Quran", "Amiri", serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--color-gold);
+  background: rgba(184, 134, 11, 0.10);
+  border: 1.5px solid rgba(184, 134, 11, 0.32);
+  text-shadow: 0 1px 6px rgba(184, 134, 11, 0.30);
+  line-height: 1;
+}
+
 /* Dark mode */
 html.dark .da-card-icon {
   background: rgba(255,255,255,0.06);
+}
+
+html.dark .da-card-icon.da-icon-arabic {
+  background: rgba(184, 134, 11, 0.12);
+  border-color: rgba(184, 134, 11, 0.28);
 }
 
 html.dark .da-card-title {
@@ -154,7 +171,7 @@ html.dark .da-card {
 
       <!-- TAVHIYD -->
       <a class="da-card" href="/din-tavhid.html">
-        <div class="da-card-icon">🕌</div>
+        <div class="da-card-icon da-icon-arabic">١</div>
         <div class="da-card-body">
           <div class="da-card-num">1-bo'lim</div>
           <div class="da-card-title">TAVHIYD nima?</div>
@@ -166,12 +183,12 @@ html.dark .da-card {
 
       <!-- LA ILAHA ILLALLAH shartlari -->
       <a class="da-card" href="/din-kalima.html">
-        <div class="da-card-icon">📿</div>
+        <div class="da-card-icon da-icon-arabic">٨</div>
         <div class="da-card-body">
           <div class="da-card-num">2-bo'lim</div>
           <div class="da-card-title">LA ILAHA ILLALLAH ning shartlari</div>
           <span class="da-card-arabic">شُرُوطُ لَا إِلَٰهَ إِلَّا اللَّهُ</span>
-          <div class="da-card-desc">Kalimaning 7 ta sharti — to'liq tushuncha va dalillar bilan.</div>
+          <div class="da-card-desc">Kalimaning 8 ta sharti — to'liq tushuncha va dalillar bilan.</div>
         </div>
         <div class="da-card-arrow">→</div>
       </a>

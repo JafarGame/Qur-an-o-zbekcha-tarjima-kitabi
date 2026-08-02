@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Din Asillari | QUR'AN KARIM</title>
+<meta name="description" content="Din asoslarini o'rganing — Tavhid va LA ILAHA ILLALLAH ning shartlari." />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css" />
+<script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>
+
+<style>
+.da-hero-arabic {
+  font-family: "Amiri Quran", "Amiri", serif;
+  font-size: 1.5rem;
+  color: var(--color-gold);
+  direction: rtl;
+  text-align: center;
+  margin: 8px 0 0;
+  line-height: 2;
+}
+
+.da-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.da-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-primary);
+  border-radius: var(--radius);
+  padding: 20px 20px 18px;
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  color: var(--color-text);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.da-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(15,81,50,0.16);
+  border-color: var(--color-primary);
+}
+
+.da-card-icon {
+  font-size: 2rem;
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(15,81,50,0.08);
+  border-radius: 14px;
+}
+
+.da-card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.da-card-num {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+  margin-bottom: 4px;
+}
+
+.da-card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  margin-bottom: 4px;
+  letter-spacing: 0.2px;
+}
+
+.da-card-arabic {
+  font-family: "Amiri", serif;
+  font-size: 1rem;
+  color: var(--color-muted);
+  direction: rtl;
+  display: block;
+  margin-top: 2px;
+}
+
+.da-card-desc {
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  line-height: 1.5;
+  margin-top: 6px;
+}
+
+.da-card-arrow {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-gold);
+  flex-shrink: 0;
+  transition: transform 0.18s ease;
+}
+
+.da-card:hover .da-card-arrow {
+  transform: translateX(4px);
+}
+
+.da-section-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+  margin: 0 0 14px;
+}
+
+/* Dark mode */
+html.dark .da-card-icon {
+  background: rgba(255,255,255,0.06);
+}
+
+html.dark .da-card-title {
+  color: #e4e0d0;
+}
+
+html.dark .da-card {
+  border-left-color: var(--color-primary);
+}
+</style>
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="back-link" href="/dashboard.html">← Bosh sahifa</a>
+    <h1>Din Asillari</h1>
+    <p class="da-hero-arabic">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
+  </header>
+
+  <main class="container">
+
+    <p class="da-section-label">Bo'limlar</p>
+
+    <div class="da-cards">
+
+      <!-- TAVHIYD -->
+      <a class="da-card" href="/din-tavhid.html">
+        <div class="da-card-icon">🕌</div>
+        <div class="da-card-body">
+          <div class="da-card-num">1-bo'lim</div>
+          <div class="da-card-title">TAVHIYD nima?</div>
+          <span class="da-card-arabic">التَّوْحِيدُ</span>
+          <div class="da-card-desc">ALLAHning yagonaligini anglash — Tavhidning ma'nosi, turlari va asosi.</div>
+        </div>
+        <div class="da-card-arrow">→</div>
+      </a>
+
+      <!-- LA ILAHA ILLALLAH shartlari -->
+      <a class="da-card" href="/din-kalima.html">
+        <div class="da-card-icon">📿</div>
+        <div class="da-card-body">
+          <div class="da-card-num">2-bo'lim</div>
+          <div class="da-card-title">LA ILAHA ILLALLAH ning shartlari</div>
+          <span class="da-card-arabic">شُرُوطُ لَا إِلَٰهَ إِلَّا اللَّهُ</span>
+          <div class="da-card-desc">Kalimaning 7 ta sharti — to'liq tushuncha va dalillar bilan.</div>
+        </div>
+        <div class="da-card-arrow">→</div>
+      </a>
+
+    </div>
+
+  </main>
+
+  <script src="/js/lang.js"></script>
+  <script>
+    (function () {
+      if (!window.Lang || !Lang.isKiril()) return;
+      var bl = document.querySelector('.back-link');
+      if (bl) bl.textContent = '← Бош саҳифа';
+    })();
+  </script>
+
+</body>
+</html>

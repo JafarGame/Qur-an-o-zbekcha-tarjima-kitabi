@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TAVHIYD nima? | Din Asillari</title>
+<meta name="description" content="Tavhid — ALLAHning yagonaligini to'liq anglash. Tavhidning ma'nosi, turlari va Qur'on dalillari." />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css" />
+<script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>
+
+<style>
+body { padding-bottom: 40px; }
+
+/* ── Reading controls (reuse surah page style) ── */
+.reading-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  align-items: center;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow);
+}
+
+.rc-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.rc-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--color-muted);
+  white-space: nowrap;
+}
+
+.rc-btn {
+  font-family: inherit;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 5px 13px;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-muted);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+
+.rc-btn:hover { background: rgba(15,81,50,0.07); color: var(--color-primary-dark); }
+
+.rc-btn-active {
+  background: var(--color-primary);
+  color: #fdfaf0;
+  border-color: var(--color-primary);
+}
+
+.rc-btn-active:hover { background: var(--color-primary-dark); }
+
+/* ── Entry block (matches ayah-block from style.css) ── */
+.din-entry-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+  margin-bottom: 4px;
+}
+
+/* ── Action toast (small pill, copy/share feedback) ── */
+.action-toast {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  background: rgba(22, 60, 35, 0.92);
+  color: #fdfaf0;
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: 1px solid rgba(212, 175, 83, 0.4);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.18s ease, transform 0.18s cubic-bezier(0.34,1.56,0.64,1);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.28);
+}
+.action-toast.act-visible {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+html.dark .action-toast {
+  background: rgba(10, 38, 22, 0.94);
+  border-color: rgba(212, 175, 83, 0.35);
+}
+
+/* ── ayah-actions (buttons row) ── */
+.ayah-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--color-border);
+}
+
+.ayah-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-muted);
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s, transform 0.1s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ayah-action-btn svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.ayah-action-btn:hover {
+  background: rgba(15,81,50,0.08);
+  color: var(--color-primary-dark);
+  border-color: rgba(15,81,50,0.25);
+}
+
+.ayah-action-btn:active { transform: scale(0.95); }
+
+html.dark .ayah-action-btn:hover {
+  background: rgba(255,255,255,0.07);
+  color: #c8d4c0;
+  border-color: rgba(255,255,255,0.12);
+}
+
+/* ── Section header inside content ── */
+.din-section-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 28px 0 18px;
+}
+
+.din-section-divider span {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+  white-space: nowrap;
+}
+
+.din-section-divider::before,
+.din-section-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--color-border), transparent);
+}
+</style>
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="back-link" href="/din-asillari.html">← Din Asillari</a>
+    <h1>TAVHIYD nima?</h1>
+  </header>
+
+  <main class="container">
+
+    <!-- Reading controls -->
+    <div class="reading-controls">
+      <div class="rc-group">
+        <span class="rc-label">Arab matni:</span>
+        <button class="rc-btn rc-size-btn" data-size="small">Kichik</button>
+        <button class="rc-btn rc-size-btn rc-btn-active" data-size="medium">O'rta</button>
+        <button class="rc-btn rc-size-btn" data-size="large">Katta</button>
+      </div>
+      <div class="rc-group">
+        <button class="rc-btn" id="toggleTranslation">Tarjimani yashirish</button>
+      </div>
+    </div>
+
+    <div id="dinContent"></div>
+
+  </main>
+
+  <script src="/js/lang.js"></script>
+
+  <script>
+  (function () {
+    'use strict';
+
+    // ── Content data ─────────────────────────────────────────────
+    var ENTRIES = [
+      {
+        num: 1,
+        arabic: 'لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ',
+        uzbek:  'TAVHID ta\'rifi: "ALLAHdan o\'zga haqiqiy ma\'bud yo\'q, U Yagona va sherikdan pokdir." — Tavhid — ALLAH taoloni Parvardigor, Ma\'bud va Barcha go\'zal ism-sifatlar egaligida yagonaligiga to\'liq iymon keltirish va unga mos amal qilishdir.'
+      },
+      {
+        num: 2,
+        arabic: 'تَوْحِيدُ الرُّبُوبِيَّةِ',
+        uzbek:  'TAVHID AR-RUBUBIYYAH — ALLAHning Parvardigor sifatida yagonaligiga iqror bo\'lish: U yaratadi, rizq beradi, boshqaradi, tiriltiradi va o\'ldiradi. Barcha koinot Uning amri bilan harakat qiladi. Unda hech kim sherik emas.'
+      },
+      {
+        num: 3,
+        arabic: 'تَوْحِيدُ الْأُلُوهِيَّةِ',
+        uzbek:  'TAVHID AL-ULUHIYYAH — Ibodat va ta\'zimni faqat ALLAH taologa bag\'ishlash. Namoz, ro\'za, du\'o, qurbon, tavakkul, xavf, umid — bularning barchasi yolg\'iz ALLAHga bo\'lishi shart. Bu — barcha payg\'ambarlar da\'vatining asosi.'
+      },
+      {
+        num: 4,
+        arabic: 'تَوْحِيدُ الْأَسْمَاءِ وَالصِّفَاتِ',
+        uzbek:  'TAVHID AL-ASMA\' WAS-SIFAT — ALLAHning Quron va Sunnada sabit bo\'lgan barcha go\'zal ismlari va sifatlarini, o\'xshatmasdan (tashbeh), inkor qilmasdan (ta\'til), haddan oshirmasdan (tamthil) va ta\'vil qilmasdan to\'liq tasdiqlash.'
+      },
+      {
+        num: 5,
+        arabic: 'قُلْ هُوَ ٱللَّهُ أَحَدٌ ۝ ٱللَّهُ ٱلصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُولَدْ ۝ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌ',
+        uzbek:  '"(Ey Muhammad ﷺ): Ayt: «U — ALLAH, Yagona. ALLAH — Samad (barcha muhtoj, U muhtoj emas). U tug\'magan va tug\'ilmagan. Unga teng bo\'lgan biror zot yo\'qdir.»" — (Al-Ikhlos, 112:1–4)'
+      }
+    ];
+
+    // ── SVG icons ─────────────────────────────────────────────────
+    var ICON_COPY = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="5" width="9" height="9" rx="1.5"/><path d="M11 5V3.5A1.5 1.5 0 0 0 9.5 2H3.5A1.5 1.5 0 0 0 2 3.5v6A1.5 1.5 0 0 0 3.5 11H5"/></svg>';
+    var ICON_SHARE = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v9M5 5l3-3 3 3"/><path d="M3 10v3a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-3"/></svg>';
+
+    // ── Toast ─────────────────────────────────────────────────────
+    var toast = document.createElement('div');
+    toast.className = 'action-toast';
+    document.body.appendChild(toast);
+    var toastTimer;
+    function showToast(msg) {
+      toast.textContent = msg;
+      toast.classList.add('act-visible');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(function () { toast.classList.remove('act-visible'); }, 1800);
+    }
+
+    // ── Arabic size ───────────────────────────────────────────────
+    var VALID_SIZES = ['small', 'medium', 'large'];
+    var SIZE_KEY    = 'quran_arabic_size';
+    var stored      = localStorage.getItem(SIZE_KEY);
+    var currentSize = VALID_SIZES.includes(stored) ? stored : 'medium';
+
+    function applySize(size) {
+      VALID_SIZES.forEach(function (s) { document.body.classList.remove('arabic-size-' + s); });
+      document.body.classList.add('arabic-size-' + size);
+      currentSize = size;
+      localStorage.setItem(SIZE_KEY, size);
+      document.querySelectorAll('.rc-size-btn').forEach(function (btn) {
+        btn.classList.toggle('rc-btn-active', btn.dataset.size === size);
+      });
+    }
+    applySize(currentSize);
+
+    // ── Translation toggle ────────────────────────────────────────
+    var TRANS_KEY      = 'quran_show_translation';
+    var showTrans      = localStorage.getItem(TRANS_KEY) !== 'false';
+    var toggleBtn      = document.getElementById('toggleTranslation');
+
+    function applyTrans(show) {
+      showTrans = show;
+      localStorage.setItem(TRANS_KEY, show ? 'true' : 'false');
+      document.body.classList.toggle('translations-hidden', !show);
+      if (toggleBtn) toggleBtn.textContent = show ? 'Tarjimani yashirish' : 'Tarjimani ko\'rsatish';
+    }
+    applyTrans(showTrans);
+
+    document.querySelectorAll('.rc-size-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () { applySize(btn.dataset.size); });
+    });
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', function () { applyTrans(!showTrans); });
+    }
+
+    // ── Render entries ────────────────────────────────────────────
+    var contentEl = document.getElementById('dinContent');
+
+    var html = ENTRIES.map(function (e) {
+      return '<div class="ayah-block" id="entry-' + e.num + '">' +
+               '<div class="ayah-number-row">' +
+                 '<div class="ayah-number"><span>' + e.num + '</span></div>' +
+               '</div>' +
+               '<div class="ayah-arabic">' + e.arabic + '</div>' +
+               '<div class="ayah-translation">' +
+                 '<span class="label">O\'ZBEKCHA</span>' +
+                 '<p>' + escHtml(e.uzbek) + '</p>' +
+               '</div>' +
+               '<div class="ayah-actions">' +
+                 '<button class="ayah-action-btn" data-action="copy" data-idx="' + (e.num - 1) + '">' +
+                   ICON_COPY + '<span>Nusxa</span>' +
+                 '</button>' +
+                 '<button class="ayah-action-btn" data-action="share" data-idx="' + (e.num - 1) + '">' +
+                   ICON_SHARE + '<span>Ulashish</span>' +
+                 '</button>' +
+               '</div>' +
+             '</div>';
+    }).join('');
+
+    contentEl.innerHTML = html;
+
+    // ── Action delegation ─────────────────────────────────────────
+    contentEl.addEventListener('click', function (e) {
+      var btn = e.target.closest('.ayah-action-btn');
+      if (!btn) return;
+      var idx    = Number(btn.dataset.idx);
+      var entry  = ENTRIES[idx];
+      var action = btn.dataset.action;
+
+      if (action === 'copy') {
+        var text = entry.arabic + '\n\n' + entry.uzbek + '\n\n— Din Asillari | TAVHIYD nima?';
+        navigator.clipboard.writeText(text)
+          .then(function ()  { showToast('Nusxa olindi ✓'); })
+          .catch(function () { showToast('Xatolik yuz berdi'); });
+      }
+
+      if (action === 'share') {
+        var shareData = {
+          title: 'Din Asillari — TAVHIYD',
+          text:  entry.arabic + '\n\n' + entry.uzbek + '\n\n— Din Asillari | TAVHIYD nima?'
+        };
+        if (navigator.share) {
+          navigator.share(shareData).catch(function () {});
+        } else {
+          navigator.clipboard.writeText(shareData.title + '\n\n' + shareData.text)
+            .then(function ()  { showToast('Matn nusxa olindi ✓'); })
+            .catch(function () { showToast('Ulashishda xatolik'); });
+        }
+      }
+    });
+
+    function escHtml(s) {
+      return s.replace(/&/g, '&amp;')
+              .replace(/</g, '&lt;')
+              .replace(/>/g, '&gt;')
+              .replace(/"/g, '&quot;');
+    }
+
+    // ── Apply Cyrillic labels if needed ──────────────────────────
+    if (window.Lang && Lang.isKiril()) {
+      var bl = document.querySelector('.back-link');
+      if (bl) bl.textContent = '← Дин Асиллари';
+      document.title = 'ТАВҲИД нима? | Дин Асиллари';
+      if (toggleBtn) toggleBtn.textContent = showTrans ? 'Таржимани яшириш' : 'Таржимани кўрсатиш';
+      document.querySelectorAll('.rc-size-btn').forEach(function (b) {
+        var map = { small: 'Кичик', medium: 'Ўрта', large: 'Катта' };
+        b.textContent = map[b.dataset.size] || b.textContent;
+      });
+      document.querySelector('.rc-label').textContent = 'Араб матни:';
+      document.querySelectorAll('.ayah-action-btn').forEach(function (b) {
+        var s = b.querySelector('span');
+        if (!s) return;
+        if (b.dataset.action === 'copy')  s.textContent = 'Нусха';
+        if (b.dataset.action === 'share') s.textContent = 'Улашиш';
+      });
+    }
+
+  })();
+  </script>
+
+</body>
+</html>

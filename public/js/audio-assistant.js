@@ -244,6 +244,48 @@
     'falaq':113,'al-falaq':113,
     // 114
     'nos':114,'nas':114,'an-nas':114,
+
+    // ── Extra phonetic aliases Chrome en-US produces for common surahs ──
+    // 36 Yasin — "yes seen", "ya seen", "yo seen", "you seen"
+    'ya seen':36,'yes seen':36,'yo seen':36,'you seen':36,'yassen':36,'yaseen':36,
+    // 55 Rahman — "the rahman", "our rahm"
+    'ar rahman':55,'rahman':55,
+    // 67 Mulk — "al mulk", "al molk"
+    'al mulk':67,'al molk':67,'molk':67,
+    // 112 Ikhlas — "al ikhlas", "iklas", "ekhlas"
+    'al ikhlas':112,'iklas':112,'ekhlas':112,'ikhlass':112,
+    // 113 Falaq — "al falaq", "falak"
+    'al falaq':113,'falak':113,
+    // 2 Baqara — extra Chrome phonetics
+    'bakara':2,'bacara':2,'baqarah':2,'baqara':2,
+    // 18 Kahf — "kahf", "cave"
+    'kahf':18,'cave':18,'al kahf':18,
+    // 19 Maryam — "mary am", "miriam"
+    'mary am':19,'miriam':19,
+    // 112 — short name "sincerity" (English translation)
+    'sincerity':112,
+  };
+
+  /* ──────────────────────────────────────────────────────────────────────
+   * § 1b  NAMED AYAH ALIASES  →  specific surah:ayah by famous name
+   * ────────────────────────────────────────────────────────────────────── */
+  QAA.AYAH_ALIASES = {
+    // Ayatul Kursi — Al-Baqara 2:255 — all phonetic + mishearing variants
+    'oyatul kursiy' : {s:2, a:255}, 'oyat ul kursiy' : {s:2, a:255},
+    'oyatul kursi'  : {s:2, a:255}, 'oyat ul kursi'  : {s:2, a:255},
+    'oyatul kursii' : {s:2, a:255}, 'oyat ul kursii' : {s:2, a:255},
+    'ayatul kursi'  : {s:2, a:255}, 'ayat ul kursi'  : {s:2, a:255},
+    'ayat al kursi' : {s:2, a:255}, 'ayatul kursiy'  : {s:2, a:255},
+    'ayah al kursi' : {s:2, a:255}, 'ayah ul kursi'  : {s:2, a:255},
+    'al kursi'      : {s:2, a:255}, 'alkursi'        : {s:2, a:255},
+    'kursiy'        : {s:2, a:255}, 'kursi'          : {s:2, a:255},
+    'oh yeah kursi' : {s:2, a:255}, 'oh yeah kursiy' : {s:2, a:255},
+    'ia tul kursi'  : {s:2, a:255}, 'iatul kursi'    : {s:2, a:255},
+    // Amana Rasul — Al-Baqara 2:285
+    'amana rasul'   : {s:2, a:285}, 'amana rasulu'   : {s:2, a:285},
+    'amanar rasul'  : {s:2, a:285},
+    // Shahidallah — Al-Imran 3:18
+    'shahidallah'   : {s:3, a:18},  'shahida allah'  : {s:3, a:18},
   };
 
   /* ──────────────────────────────────────────────────────────────────────
@@ -453,57 +495,157 @@
    * ────────────────────────────────────────────────────────────────────── */
   QAA.QueryParser = {
 
-    /* Strip Uzbek grammatical decorators produced by voice recognition.
-       Examples:
-         "Fotiha surasi"          → "Fotiha"
-         "Baqara surasi 255 oyat" → "Baqara 255"
-         "Baqaradan"              → "Baqara"
-         "Yosin sura"             → "Yosin"                              */
-    _normalizeVoice(text) {
+    /* Eastern-Arabic (٠١٢٣٤٥٦٧٨٩) and Persian (۰۱۲۳۴۵۶۷۸۹) → ASCII digits */
+    _arabicDigitsToLatin(text) {
       return text
-        // Arabic/English "surah" and all Uzbek declensions: surasi, surasini, sura…
-        .replace(/\b(surah|sura[a-z]*)\b/gi, '')
-        // "chapter" — what Chrome en-US sometimes says for "sura"
-        .replace(/\bchapter\b/gi, '')
-        // "verse" / "ayah" / "ayat" / "oyat" and all Uzbek forms
-        .replace(/\b(verse|ayah|ayat|oyat[a-z]*)\b/gi, '')
-        // Uzbek case suffixes that trail after names/numbers (standalone tokens)
-        .replace(/\b(dan|ning|ga|ni|da)\b/gi, '')
-        // Leading "the" that Chrome en-US prepends (e.g. "the Fatiha")
-        .replace(/^the\s+/i, '')
-        // Collapse multiple spaces left by removals
+        .replace(/[٠-٩]/g, d => d.charCodeAt(0) - 0x0660)
+        .replace(/[۰-۹]/g, d => d.charCodeAt(0) - 0x06F0);
+    },
+
+    /* Uzbek number words → integer.
+         "ikki yuz ellik besh" → 255
+         "uch yuz"             → 300
+         "ellik"               → 50
+         "ming bir"            → 1001                                     */
+    _uzbekNumToInt(tokens) {
+      const ONES = {
+        'nol':0,'bir':1,'ikki':2,'uch':3,"to'rt":4,'tort':4,
+        'besh':5,'olti':6,'yetti':7,'sakkiz':8,"to'qqiz":9,'toqqiz':9,
+      };
+      const TENS = {
+        "o'n":10,'on':10,'yigirma':20,"o'ttiz":30,'ottiz':30,
+        'qirq':40,'ellik':50,'oltmish':60,'yetmish':70,
+        'sakson':80,"to'qson":90,'toqson':90,
+      };
+      let total = 0, current = 0;
+      for (const t of tokens) {
+        if      (t === 'ming')         { total += (current || 1) * 1000; current = 0; }
+        else if (t === 'yuz')          { current = (current || 1) * 100; }
+        else if (TENS[t] !== undefined) { current += TENS[t]; }
+        else if (ONES[t] !== undefined) { current += ONES[t]; }
+      }
+      return total + current;
+    },
+
+    /* Unified number parser — Latin digits, Arabic/Persian glyphs, Uzbek words.
+       Returns integer or null.                                            */
+    _parseNumber(text) {
+      const lat = this._arabicDigitsToLatin(text).trim();
+      if (/^\d+$/.test(lat)) return parseInt(lat, 10);
+      const UZB = new Set([
+        'nol','bir','ikki','uch',"to'rt",'tort','besh','olti','yetti',
+        'sakkiz',"to'qqiz",'toqqiz',"o'n",'on','yigirma',"o'ttiz",'ottiz',
+        'qirq','ellik','oltmish','yetmish','sakson',"to'qson",'toqson','yuz','ming',
+      ]);
+      const toks = text.trim().split(/\s+/);
+      if (toks.length && toks.every(t => UZB.has(t))) {
+        const n = this._uzbekNumToInt(toks);
+        return n > 0 ? n : null;
+      }
+      return null;
+    },
+
+    /* Levenshtein edit distance */
+    _editDist(a, b) {
+      if (!a.length) return b.length;
+      if (!b.length) return a.length;
+      const prev = Array.from({length: b.length + 1}, (_, i) => i);
+      for (let i = 1; i <= a.length; i++) {
+        const cur = [i];
+        for (let j = 1; j <= b.length; j++)
+          cur[j] = a[i-1] === b[j-1] ? prev[j-1]
+            : 1 + Math.min(prev[j], cur[j-1], prev[j-1]);
+        prev.splice(0, prev.length, ...cur);
+      }
+      return prev[b.length];
+    },
+
+    /* Normalise voice transcript: strip decorators, convert digit glyphs.
+       AYAH_ALIASES are checked BEFORE this runs, so stripping "ayat" here
+       is safe — "Ayatul Kursi" is already matched upstream.               */
+    _normalizeVoice(text) {
+      return this._arabicDigitsToLatin(text)
+        .replace(/\b(surah|sura[a-z]*)\b/gi, '')          // surasi / sura / surah
+        .replace(/\bchapter\b/gi, '')                      // Chrome en-US mishear
+        .replace(/\b(verse|ayah|ayat|oyat[a-z]*)\b/gi, '') // verse / ayah / oyat…
+        .replace(/\b(ul|al)\b/gi, '')                      // "ul" / "al" particles
+        .replace(/\b(dan|ning|ga|ni|da)\b/gi, '')          // Uzbek case suffixes
+        .replace(/^the\s+/i, '')                           // "the Fatiha" → "Fatiha"
+        .replace(/(\d+)-([a-z]\w*)/gi, '$1')               // "255-oyat" → "255", NOT "2-255"
         .replace(/\s{2,}/g, ' ')
         .trim();
+    },
+
+    /* Check AYAH_ALIASES — exact match first, then longest substring.
+       Longest-wins prevents short tokens ("al") from over-matching.      */
+    _lookupAyahAlias(text) {
+      if (QAA.AYAH_ALIASES[text]) return QAA.AYAH_ALIASES[text];
+      let best = null, bestLen = 0;
+      for (const [alias, ayah] of Object.entries(QAA.AYAH_ALIASES)) {
+        if (alias.length >= 4 && alias.length > bestLen && text.includes(alias)) {
+          best = ayah; bestLen = alias.length;
+        }
+      }
+      return best;
     },
 
     parse(raw) {
       if (!raw || !raw.trim()) return null;
 
-      // Detect Arabic text (Unicode block U+0600–U+06FF) → skip structured parse,
-      // let _doSearch fall through to the text-search API directly.
+      // Arabic Unicode → skip structured parse; fall through to text-search API
       if (/[\u0600-\u06FF]/.test(raw)) return null;
 
-      // Voice-normalise first, then lower-case and collapse whitespace.
-      const normalised = this._normalizeVoice(raw);
-      const text = normalised.trim().toLowerCase().replace(/\s+/g, ' ');
-      console.log('[QAA] QUERY NORMALISED: "' + raw + '" → "' + text + '"');
+      const lower = raw.trim().toLowerCase();
+      console.log('[QAA] PARSE INPUT: "' + lower + '"');
 
-      // "2:255"  "2-255"  "2 255" (two bare numbers)
+      // ── 1. Named ayah aliases — checked BEFORE stripping "ayat" etc. ───
+      const alias = this._lookupAyahAlias(lower);
+      if (alias) {
+        console.log('[QAA] AYAH ALIAS: surah=' + alias.s + ' ayah=' + alias.a);
+        return { surahNum: alias.s, ayahNum: alias.a, raw };
+      }
+
+      // Normalise and collapse
+      const text = this._normalizeVoice(lower).replace(/\s+/g, ' ').trim();
+      console.log('[QAA] NORMALISED: "' + text + '"');
+
+      // ── 2. Named ayah alias post-normalisation (e.g. "oyat ul kursi"
+      //    → after stripping "oyat"+"ul" → "kursi" → {s:2, a:255})
+      const alias2 = this._lookupAyahAlias(text);
+      if (alias2) {
+        console.log('[QAA] AYAH ALIAS (post-norm): surah=' + alias2.s + ' ayah=' + alias2.a);
+        return { surahNum: alias2.s, ayahNum: alias2.a, raw };
+      }
+
+      // ── 3. "2:255"  "2-255"  "2 255" ────────────────────────────────────
       const twoNums = text.match(/^(\d{1,3})[:\-\s](\d{1,3})$/);
       if (twoNums) return { surahNum: +twoNums[1], ayahNum: +twoNums[2], raw };
 
-      // "Yosin 82"  "baqara:255"  "al-kahf 18"
-      const nameNum = text.match(/^([\w\s\-\']+?)[:\s]+(\d+)$/);
-      if (nameNum) {
-        const sn = this._lookup(nameNum[1].trim());
-        if (sn) return { surahNum: sn, ayahNum: +nameNum[2], raw };
+      // ── 4. Surah name + number (digit OR Uzbek number words) ─────────────
+      //    Walk every split point so "Baqara 255" AND
+      //    "Baqara ikki yuz ellik besh" both resolve.
+      const words = text.split(/\s+/);
+      for (let split = 1; split < words.length; split++) {
+        const namePart = words.slice(0, split).join(' ');
+        const numPart  = words.slice(split).join(' ');
+        const sn = this._lookup(namePart);
+        if (sn) {
+          const ayahNum = this._parseNumber(numPart);
+          if (ayahNum && ayahNum > 0) {
+            console.log('[QAA] NAME+NUM: "' + namePart + '" → surah=' + sn + ' ayah=' + ayahNum);
+            return { surahNum: sn, ayahNum, raw };
+          }
+        }
       }
 
-      // Just a surah name → first ayah
+      // ── 5. Just a surah name → ayah 1 ───────────────────────────────────
       const sn = this._lookup(text);
-      if (sn) return { surahNum: sn, ayahNum: 1, raw };
+      if (sn) {
+        console.log('[QAA] SURAH ONLY → surah=' + sn);
+        return { surahNum: sn, ayahNum: 1, raw };
+      }
 
-      // Just a surah number
+      // ── 6. Just a surah number (1-114) ──────────────────────────────────
       const solo = text.match(/^(\d{1,3})$/);
       if (solo && +solo[1] >= 1 && +solo[1] <= 114)
         return { surahNum: +solo[1], ayahNum: 1, raw };
@@ -511,21 +653,38 @@
       return null;
     },
 
+    /* Lookup in SURAH_INDEX:
+         1. Exact
+         2. Strip Arabic article (al- / an- …) + exact / stripped-exact
+         3. Prefix (min 3 chars)
+         4. Levenshtein fuzzy with per-length threshold                    */
     _lookup(name) {
       const n = name.toLowerCase().trim();
       if (QAA.SURAH_INDEX[n]) return QAA.SURAH_INDEX[n];
 
-      // Strip common Arabic article prefixes and retry
-      const bare = n.replace(/^(al-?|an-?|as-?|at-?|az-?|ar-?|ad-?)/, '').trim();
+      const stripArt = s => s.replace(/^(al-?|an-?|as-?|at-?|az-?|ar-?|ad-?)\s*/, '').trim();
+      const bare = stripArt(n);
+
       for (const [alias, num] of Object.entries(QAA.SURAH_INDEX)) {
         if (alias === bare) return num;
-        const ab = alias.replace(/^(al-?|an-?|as-?|at-?|az-?|ar-?|ad-?)/, '').trim();
-        if (ab === bare) return num;
-        // prefix match (min 3 chars)
+        const ab = stripArt(alias);
+        if (ab === bare || ab === n) return num;
         if (bare.length >= 3 && (ab.startsWith(bare) || bare.startsWith(ab.slice(0, 4))))
           return num;
       }
-      return null;
+
+      // Fuzzy Levenshtein — threshold scales with string length
+      let bestNum = null, bestDist = Infinity;
+      for (const [alias, num] of Object.entries(QAA.SURAH_INDEX)) {
+        const ab = stripArt(alias);
+        if (Math.abs(bare.length - ab.length) > 4) continue; // fast-reject
+        const dist = this._editDist(bare, ab);
+        const maxLen = Math.max(bare.length, ab.length);
+        const threshold = maxLen <= 4 ? 1 : maxLen <= 7 ? 2 : 3;
+        if (dist < bestDist && dist <= threshold) { bestDist = dist; bestNum = num; }
+      }
+      if (bestNum) console.log('[QAA] FUZZY: "' + bare + '" dist=' + bestDist + ' → surah ' + bestNum);
+      return bestNum;
     },
   };
 

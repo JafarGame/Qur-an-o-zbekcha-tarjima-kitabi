@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Quron AI Audio Yordamchi | QUR'AN KARIM</title>
+<meta name="description" content="Ovoz orqali Qur'on oyatlarini toping — Arabic va O'zbekcha tarjimasi bilan." />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ══════════════════════════════════════════════════════════════
+   QURAN AI AUDIO ASSISTANT — Premium dark emerald & gold UI
+   ══════════════════════════════════════════════════════════════ */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  background: radial-gradient(ellipse at 50% 30%, #0e2418 0%, #071209 55%, #040c07 100%);
+  min-height: 100vh;
+  color: #ddeedd;
+}
+
+/* ── Canvas particles background ── */
+#aa-canvas {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── All content sits above canvas ── */
+.aa-header, .aa-body { position: relative; z-index: 1; }
+.aa-results, .aa-toast { position: relative; z-index: 20; }
+
+/* ════════════════════════════════════════════
+   HEADER
+   ════════════════════════════════════════════ */
+.aa-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px 12px;
+  border-bottom: 1px solid rgba(201,162,39,0.10);
+  background: linear-gradient(180deg, rgba(4,12,6,0.85) 0%, transparent 100%);
+}
+
+.aa-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: rgba(200,230,210,0.65);
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.09);
+  transition: background 0.2s, color 0.2s;
+  white-space: nowrap;
+}
+.aa-back-btn:hover { background: rgba(255,255,255,0.10); color: #ddeedd; }
+
+.aa-header-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+}
+.aa-header-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: rgba(201,162,39,0.80);
+}
+.aa-header-sub {
+  font-size: 0.62rem;
+  color: rgba(200,220,200,0.32);
+  letter-spacing: 0.06em;
+}
+
+/* spacer matching back button width */
+.aa-header-spacer { width: 90px; flex-shrink: 0; }
+
+/* ════════════════════════════════════════════
+   MAIN BODY
+   ════════════════════════════════════════════ */
+.aa-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 20px 140px;
+  min-height: calc(100vh - 56px);
+}
+
+/* Bismillah */
+.aa-bismillah {
+  font-family: "Amiri Quran", "Amiri", serif;
+  font-size: 1.55rem;
+  color: rgba(201,162,39,0.60);
+  text-align: center;
+  line-height: 2.2;
+  margin-bottom: 4px;
+  text-shadow: 0 0 24px rgba(201,162,39,0.18);
+}
+
+/* Status text */
+.aa-status-text {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: rgba(190,215,200,0.55);
+  letter-spacing: 0.03em;
+  text-align: center;
+  min-height: 1.5em;
+  margin-bottom: 6px;
+  transition: color 0.3s;
+}
+body.aa-listening  .aa-status-text { color: rgba(60,230,120,0.85);  }
+body.aa-processing .aa-status-text { color: rgba(201,162,39,0.85); }
+body.aa-error      .aa-status-text { color: rgba(255,110,110,0.85); }
+body.aa-result     .aa-status-text { color: rgba(100,220,140,0.70); }
+
+/* Interim transcript */
+.aa-transcript {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: rgba(180,210,190,0.42);
+  text-align: center;
+  max-width: 320px;
+  min-height: 1.4em;
+  opacity: 0;
+  transition: opacity 0.25s;
+  margin-bottom: 10px;
+  word-break: break-word;
+}
+.aa-transcript-visible { opacity: 1; }
+
+/* ── Waveform ── */
+.aa-waveform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5px;
+  height: 36px;
+  margin-bottom: 18px;
+}
+.aa-bar {
+  width: 3px;
+  height: 4px;
+  border-radius: 2px;
+  background: rgba(201,162,39,0.38);
+  transition: height 0.1s;
+}
+
+body.aa-listening .aa-bar {
+  animation: aa-wave 0.8s ease-in-out infinite alternate;
+  background: rgba(60,220,120,0.55);
+}
+body.aa-listening .aa-bar:nth-child(1)  { animation-duration:.55s; }
+body.aa-listening .aa-bar:nth-child(2)  { animation-duration:.72s; animation-delay:.04s; }
+body.aa-listening .aa-bar:nth-child(3)  { animation-duration:.60s; animation-delay:.08s; }
+body.aa-listening .aa-bar:nth-child(4)  { animation-duration:.88s; animation-delay:.12s; }
+body.aa-listening .aa-bar:nth-child(5)  { animation-duration:.65s; animation-delay:.06s; }
+body.aa-listening .aa-bar:nth-child(6)  { animation-duration:.50s; animation-delay:.14s; }
+body.aa-listening .aa-bar:nth-child(7)  { animation-duration:.82s; animation-delay:.02s; }
+body.aa-listening .aa-bar:nth-child(8)  { animation-duration:.68s; animation-delay:.10s; }
+body.aa-listening .aa-bar:nth-child(9)  { animation-duration:.74s; animation-delay:.16s; }
+body.aa-listening .aa-bar:nth-child(10) { animation-duration:.58s; animation-delay:.05s; }
+body.aa-listening .aa-bar:nth-child(11) { animation-duration:.78s; animation-delay:.11s; }
+body.aa-listening .aa-bar:nth-child(12) { animation-duration:.62s; animation-delay:.07s; }
+
+@keyframes aa-wave {
+  0%   { height: 4px;  opacity:.38; }
+  100% { height: 28px; opacity:.90; }
+}
+
+/* ── Mic container ── */
+.aa-mic-wrap {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 26px;
+  flex-shrink: 0;
+}
+
+/* Pulse rings */
+.aa-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1.5px solid rgba(201,162,39,0.22);
+  animation: aa-ring 3.2s ease-out infinite;
+  pointer-events: none;
+}
+.aa-ring-1 { width:158px; height:158px; animation-delay:0s;    }
+.aa-ring-2 { width:196px; height:196px; animation-delay:0.85s; }
+.aa-ring-3 { width:234px; height:234px; animation-delay:1.70s; }
+
+@keyframes aa-ring {
+  0%   { opacity:.70; transform:scale(.88); }
+  100% { opacity:0;   transform:scale(1);   }
+}
+
+body.aa-listening .aa-ring {
+  border-color: rgba(40,220,110,0.32);
+  animation-duration: 1.6s;
+}
+body.aa-processing .aa-ring { opacity: 0.12; animation-play-state: paused; }
+
+/* ── The mic button ── */
+.aa-mic-btn {
+  position: relative;
+  z-index: 2;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background: radial-gradient(circle at 36% 30%, #1e5c3c 0%, #0d3020 50%, #061609 100%);
+  box-shadow:
+    0 0 0 2.5px rgba(201,162,39,0.52),
+    0 10px 44px rgba(0,0,0,0.60),
+    0 0  30px rgba(10,80,35,0.18),
+    inset 0 1px 0 rgba(255,255,255,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform .15s ease, box-shadow .20s ease;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+.aa-mic-btn:hover {
+  transform: scale(1.06);
+  box-shadow:
+    0 0 0 2.5px rgba(201,162,39,0.80),
+    0 14px 52px rgba(0,0,0,0.65),
+    0 0  44px rgba(15,140,55,0.24);
+}
+.aa-mic-btn:active { transform: scale(0.95); }
+
+body.aa-listening .aa-mic-btn {
+  background: radial-gradient(circle at 36% 30%, #1c7040 0%, #0a3e1e 50%, #051408 100%);
+  box-shadow:
+    0 0 0 2.5px rgba(50,240,120,0.62),
+    0 10px 44px rgba(0,0,0,0.55),
+    0 0  56px rgba(30,200,80,0.30);
+  animation: aa-mic-pulse 2s ease-in-out infinite;
+}
+@keyframes aa-mic-pulse {
+  0%,100% { box-shadow: 0 0 0 2.5px rgba(50,240,120,0.62), 0 10px 44px rgba(0,0,0,0.55), 0 0 56px rgba(30,200,80,0.28); }
+  50%      { box-shadow: 0 0 0 2.5px rgba(50,240,120,0.90), 0 10px 44px rgba(0,0,0,0.55), 0 0 78px rgba(30,200,80,0.45); }
+}
+
+body.aa-processing .aa-mic-btn {
+  cursor: default;
+  animation: aa-mic-glow 1s ease-in-out infinite;
+}
+@keyframes aa-mic-glow {
+  0%,100% { box-shadow: 0 0 0 2.5px rgba(201,162,39,0.80), 0 0 32px rgba(201,162,39,0.28); }
+  50%      { box-shadow: 0 0 0 3.5px rgba(201,162,39,0.55), 0 0 55px rgba(201,162,39,0.50); }
+}
+
+body.aa-error .aa-mic-btn { animation: aa-shake .5s ease-in-out; }
+@keyframes aa-shake {
+  0%,100%{ transform:translateX(0); }
+  20%    { transform:translateX(-7px); }
+  60%    { transform:translateX(7px); }
+  80%    { transform:translateX(-4px); }
+}
+
+/* Spinner ring (processing) */
+.aa-mic-spinner {
+  position: absolute;
+  inset: -5px;
+  border-radius: 50%;
+  border: 2.5px solid transparent;
+  border-top-color: rgba(201,162,39,0.78);
+  border-right-color: rgba(201,162,39,0.28);
+  animation: aa-spin 0.9s linear infinite;
+  opacity: 0;
+  transition: opacity .2s;
+  pointer-events: none;
+}
+body.aa-processing .aa-mic-spinner { opacity: 1; }
+@keyframes aa-spin { to { transform: rotate(360deg); } }
+
+/* ── No voice support badge ── */
+.aa-no-voice-note {
+  font-size: 0.72rem;
+  color: rgba(255,180,60,0.72);
+  background: rgba(255,160,30,0.09);
+  border: 1px solid rgba(255,160,30,0.18);
+  padding: 4px 12px;
+  border-radius: 999px;
+  margin-bottom: 14px;
+  display: none;
+  text-align: center;
+}
+body.aa-no-voice .aa-no-voice-note { display: block; }
+
+/* ── Text input row ── */
+.aa-input-row {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  max-width: 380px;
+  margin-bottom: 14px;
+}
+
+.aa-text-input {
+  flex: 1;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(201,162,39,0.28);
+  border-radius: 12px;
+  padding: 11px 16px;
+  color: #ddeedd;
+  font-family: inherit;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color .2s, background .2s;
+  min-width: 0;
+}
+.aa-text-input::placeholder { color: rgba(180,210,190,0.30); }
+.aa-text-input:focus {
+  border-color: rgba(201,162,39,0.65);
+  background: rgba(255,255,255,0.08);
+}
+
+.aa-search-btn {
+  width: 46px; height: 46px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(201,162,39,0.40);
+  background: linear-gradient(135deg, rgba(18,72,38,0.85) 0%, rgba(8,42,20,0.80) 100%);
+  color: rgba(201,162,39,0.88);
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: background .18s, border-color .18s, transform .10s;
+}
+.aa-search-btn:hover {
+  background: linear-gradient(135deg, rgba(24,95,50,0.95) 0%, rgba(12,60,28,0.90) 100%);
+  border-color: rgba(201,162,39,0.68);
+}
+.aa-search-btn:active { transform: scale(.93); }
+.aa-search-btn svg { pointer-events: none; }
+
+/* ── Example chips ── */
+.aa-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  max-width: 380px;
+}
+.aa-chip {
+  background: rgba(201,162,39,0.07);
+  border: 1px solid rgba(201,162,39,0.25);
+  color: rgba(201,162,39,0.78);
+  font-family: inherit;
+  font-size: 0.76rem;
+  font-weight: 600;
+  padding: 5px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s, transform .1s;
+  white-space: nowrap;
+}
+.aa-chip:hover {
+  background: rgba(201,162,39,0.18);
+  border-color: rgba(201,162,39,0.52);
+  color: rgba(201,162,39,1);
+}
+.aa-chip:active { transform: scale(.94); }
+
+/* ════════════════════════════════════════════
+   RESULTS PANEL  (bottom sheet)
+   ════════════════════════════════════════════ */
+.aa-results {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  transform: translateY(100%);
+  transition: transform .44s cubic-bezier(.34,1.22,.64,1);
+  max-height: 80vh;
+  overflow-y: auto;
+  border-radius: 22px 22px 0 0;
+  background: linear-gradient(180deg, #0d1f14 0%, #070e09 100%);
+  border-top: 1.5px solid rgba(201,162,39,0.48);
+  box-shadow: 0 -10px 50px rgba(0,0,0,0.65), 0 -1px 0 rgba(201,162,39,0.12);
+  padding: 0 20px 44px;
+  -webkit-overflow-scrolling: touch;
+}
+.aa-results-open { transform: translateY(0); }
+
+.aa-results-handle-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0 6px;
+  cursor: pointer;
+  position: sticky;
+  top: 0;
+  background: linear-gradient(180deg, #0d1f14 90%, transparent 100%);
+  z-index: 2;
+  gap: 12px;
+}
+.aa-results-handle {
+  width: 36px; height: 4px;
+  border-radius: 2px;
+  background: rgba(201,162,39,0.32);
+  flex-shrink: 0;
+}
+.aa-results-close-btn {
+  position: absolute;
+  right: 16px;
+  background: none;
+  border: none;
+  color: rgba(200,220,210,0.38);
+  font-size: 1.15rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 2px 6px;
+  transition: color .15s;
+}
+.aa-results-close-btn:hover { color: rgba(200,220,210,0.72); }
+
+/* Reference pill */
+.aa-result-ref {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  color: rgba(201,162,39,0.90);
+  background: rgba(201,162,39,0.10);
+  border: 1px solid rgba(201,162,39,0.28);
+  padding: 4px 14px;
+  border-radius: 999px;
+  margin-bottom: 16px;
+}
+
+/* Arabic text */
+.aa-result-arabic {
+  font-family: "Amiri Quran", "Amiri", serif;
+  font-size: 1.85rem;
+  line-height: 2.7;
+  direction: rtl;
+  text-align: right;
+  color: #e8f5ec;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+/* Translation */
+.aa-result-label {
+  display: inline-block;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: rgba(201,162,39,0.72);
+  background: rgba(201,162,39,0.08);
+  padding: 3px 10px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+}
+.aa-result-transl {
+  font-size: 0.93rem;
+  line-height: 1.78;
+  color: rgba(210,235,218,0.82);
+  margin-bottom: 18px;
+}
+
+/* Actions */
+.aa-result-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  margin-bottom: 22px;
+}
+.aa-act-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(201,162,39,0.28);
+  background: rgba(201,162,39,0.07);
+  color: rgba(201,162,39,0.85);
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .15s, border-color .15s, color .15s, transform .10s;
+  white-space: nowrap;
+}
+.aa-act-btn:hover {
+  background: rgba(201,162,39,0.16);
+  border-color: rgba(201,162,39,0.55);
+  color: rgba(201,162,39,1);
+}
+.aa-act-btn:active { transform: scale(.95); }
+
+/* Recite button — locked/placeholder state */
+.aa-act-btn-recite {
+  border-color: rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+  color: rgba(200,220,210,0.35);
+  cursor: default;
+  pointer-events: none;
+}
+
+/* ════════════════════════════════════════════
+   AUDIO ENGINE PLACEHOLDER CARD
+   ════════════════════════════════════════════ */
+.aa-aep {
+  border: 1px solid rgba(201,162,39,0.20);
+  border-radius: 16px;
+  padding: 18px 18px 16px;
+  background: linear-gradient(135deg, rgba(6,18,10,0.92) 0%, rgba(4,10,6,0.96) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle grid overlay for "technical" feel */
+.aa-aep::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    repeating-linear-gradient(90deg, transparent, transparent 20px, rgba(201,162,39,0.025) 20px, rgba(201,162,39,0.025) 21px),
+    repeating-linear-gradient(0deg,  transparent, transparent 20px, rgba(201,162,39,0.015) 20px, rgba(201,162,39,0.015) 21px);
+  pointer-events: none;
+}
+
+.aa-aep-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  position: relative;
+}
+.aa-aep-title {
+  font-size: 0.70rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(201,162,39,0.60);
+}
+.aa-aep-badge {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: rgba(180,210,190,0.35);
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: 2px 9px;
+  border-radius: 999px;
+}
+
+/* Frozen equalizer */
+.aa-aep-eq {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 28px;
+  margin-bottom: 14px;
+  opacity: 0.28;
+  position: relative;
+}
+.aa-aep-eq-bar {
+  flex: 1;
+  border-radius: 2px 2px 0 0;
+  background: linear-gradient(180deg, rgba(201,162,39,0.75) 0%, rgba(15,90,40,0.60) 100%);
+  min-height: 3px;
+}
+
+/* Progress rows */
+.aa-aep-rows { display: flex; flex-direction: column; gap: 9px; position: relative; }
+.aa-aep-row  { display: flex; align-items: center; gap: 10px; }
+.aa-aep-row-lbl {
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: rgba(190,215,200,0.38);
+  min-width: 100px;
+  flex-shrink: 0;
+}
+.aa-aep-track {
+  flex: 1;
+  height: 4px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.aa-aep-fill {
+  height: 100%;
+  border-radius: 2px;
+  background: linear-gradient(90deg, rgba(15,90,40,0.75) 0%, rgba(201,162,39,0.65) 100%);
+  transition: width 1.2s ease;
+}
+.aa-aep-pct {
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: rgba(201,162,39,0.45);
+  min-width: 28px;
+  text-align: right;
+}
+
+.aa-aep-reciters {
+  margin-top: 12px;
+  font-size: 0.65rem;
+  color: rgba(190,215,200,0.28);
+  font-style: italic;
+  line-height: 1.6;
+  position: relative;
+}
+
+.aa-aep-status {
+  margin-top: 8px;
+  font-size: 0.62rem;
+  color: rgba(201,162,39,0.32);
+  position: relative;
+}
+
+/* ════════════════════════════════════════════
+   TOAST
+   ════════════════════════════════════════════ */
+.aa-toast {
+  position: fixed;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%) scale(.9);
+  background: rgba(8,24,12,0.96);
+  color: #f0faf2;
+  padding: 10px 24px;
+  border-radius: 999px;
+  border: 1px solid rgba(201,162,39,0.38);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.84rem;
+  font-weight: 600;
+  white-space: nowrap;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .18s ease, transform .18s cubic-bezier(.34,1.56,.64,1);
+  box-shadow: 0 4px 22px rgba(0,0,0,0.42);
+}
+.aa-toast-on {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* ════════════════════════════════════════════
+   RESPONSIVE
+   ════════════════════════════════════════════ */
+@media (max-width: 420px) {
+  .aa-mic-wrap { width: 210px; height: 210px; }
+  .aa-ring-3   { display: none; }
+  .aa-result-arabic { font-size: 1.55rem; }
+  .aa-header-spacer { width: 64px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ── Particle canvas ── -->
+<canvas id="aa-canvas" aria-hidden="true"></canvas>
+
+<!-- ════════════════════════════════════════════
+     HEADER
+     ════════════════════════════════════════════ -->
+<header class="aa-header">
+  <a class="aa-back-btn" href="/dashboard.html">← Orqaga</a>
+
+  <div class="aa-header-brand">
+    <span class="aa-header-title">🎙 QURON AI</span>
+    <span class="aa-header-sub">Audio Yordamchi · v1.0</span>
+  </div>
+
+  <div class="aa-header-spacer"></div>
+</header>
+
+<!-- ════════════════════════════════════════════
+     MAIN BODY
+     ════════════════════════════════════════════ -->
+<main class="aa-body">
+
+  <!-- Bismillah -->
+  <p class="aa-bismillah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
+
+  <!-- Status -->
+  <p class="aa-status-text" id="aa-status-text">Bosing va ovoz bering yoki yozing</p>
+  <p class="aa-transcript"  id="aa-transcript"></p>
+
+  <!-- Waveform (12 bars) -->
+  <div class="aa-waveform" aria-hidden="true">
+    <div class="aa-bar"></div><div class="aa-bar"></div><div class="aa-bar"></div>
+    <div class="aa-bar"></div><div class="aa-bar"></div><div class="aa-bar"></div>
+    <div class="aa-bar"></div><div class="aa-bar"></div><div class="aa-bar"></div>
+    <div class="aa-bar"></div><div class="aa-bar"></div><div class="aa-bar"></div>
+  </div>
+
+  <!-- Mic container -->
+  <div class="aa-mic-wrap">
+    <div class="aa-ring aa-ring-1" aria-hidden="true"></div>
+    <div class="aa-ring aa-ring-2" aria-hidden="true"></div>
+    <div class="aa-ring aa-ring-3" aria-hidden="true"></div>
+
+    <button class="aa-mic-btn" id="aa-mic-btn"
+            aria-label="Ovoz kiritishni boshlash / to'xtatish">
+      <!-- Spinner (processing) -->
+      <div class="aa-mic-spinner" aria-hidden="true"></div>
+      <!-- Mic icon -->
+      <svg width="46" height="46" viewBox="0 0 46 46" fill="none"
+           xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="17" y="6" width="12" height="20" rx="6"
+              fill="rgba(255,255,255,0.90)"/>
+        <path d="M10 23c0 7.18 5.82 13 13 13s13-5.82 13-13"
+              stroke="rgba(255,255,255,0.88)" stroke-width="2.4"
+              stroke-linecap="round" fill="none"/>
+        <line x1="23" y1="36" x2="23" y2="42"
+              stroke="rgba(255,255,255,0.88)" stroke-width="2.4" stroke-linecap="round"/>
+        <line x1="15" y1="42" x2="31" y2="42"
+              stroke="rgba(255,255,255,0.88)" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- No voice support notice -->
+  <div class="aa-no-voice-note">
+    Brauzer ovoz kiritishni qo'llab-quvvatlamaydi — matn kiriting
+  </div>
+
+  <!-- Text input -->
+  <div class="aa-input-row">
+    <input class="aa-text-input" id="aa-text-input" type="text"
+           placeholder="Misol: 2:255 · Yosin 1 · Al-Mulk"
+           autocomplete="off" autocorrect="off" spellcheck="false" />
+    <button class="aa-search-btn" id="aa-search-btn" aria-label="Qidirish">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+           stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <circle cx="7.5" cy="7.5" r="5.5"/>
+        <line x1="12" y1="12" x2="17" y2="17"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Quick-access chips -->
+  <div class="aa-chips">
+    <button class="aa-chip" data-query="1:1">Al-Fotiha</button>
+    <button class="aa-chip" data-query="2:255">Oyat ul-Kursi</button>
+    <button class="aa-chip" data-query="36:1">Yosin</button>
+    <button class="aa-chip" data-query="55:1">Ar-Rahman</button>
+    <button class="aa-chip" data-query="112:1">Al-Ikhlos</button>
+    <button class="aa-chip" data-query="67:1">Al-Mulk</button>
+  </div>
+
+</main>
+
+<!-- ════════════════════════════════════════════
+     RESULTS PANEL  (bottom sheet)
+     ════════════════════════════════════════════ -->
+<div class="aa-results" id="aa-results" role="dialog" aria-label="Oyat natijalari">
+
+  <!-- Drag handle / close row -->
+  <div class="aa-results-handle-row" aria-label="Yopish">
+    <div class="aa-results-handle"></div>
+    <button class="aa-results-close-btn" data-action="close" aria-label="Yopish">✕</button>
+  </div>
+
+  <!-- Reference -->
+  <div id="aa-result-ref" class="aa-result-ref"></div>
+
+  <!-- Arabic -->
+  <div id="aa-result-arabic" class="aa-result-arabic" dir="rtl" lang="ar"></div>
+
+  <!-- Translation -->
+  <div class="aa-result-label">O'ZBEKCHA</div>
+  <p id="aa-result-transl" class="aa-result-transl"></p>
+
+  <!-- Action buttons -->
+  <div class="aa-result-actions" id="aa-result-actions">
+    <button class="aa-act-btn" data-action="copy">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none"
+           stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="5" y="5" width="9" height="9" rx="1.5"/>
+        <path d="M11 5V3.5A1.5 1.5 0 0 0 9.5 2H3.5A1.5 1.5 0 0 0 2 3.5v6A1.5 1.5 0 0 0 3.5 11H5"/>
+      </svg>
+      Nusxa
+    </button>
+
+    <button class="aa-act-btn" data-action="share">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none"
+           stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 2v9M5 5l3-3 3 3"/>
+        <path d="M3 10v3a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-3"/>
+      </svg>
+      Ulashish
+    </button>
+
+    <!-- Recite — placeholder until AudioEngine v2.0 -->
+    <button class="aa-act-btn aa-act-btn-recite" data-action="recite" aria-disabled="true">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none"
+           stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 9.5V8a5 5 0 0 1 10 0v1.5"/>
+        <rect x="1.5" y="9" width="3" height="4.5" rx="1.2"/>
+        <rect x="11.5" y="9" width="3" height="4.5" rx="1.2"/>
+      </svg>
+      Recitation — tez orada
+    </button>
+  </div>
+
+  <!-- ══ Audio Engine Placeholder Card ══ -->
+  <div class="aa-aep">
+    <div class="aa-aep-header">
+      <span class="aa-aep-title">🎵 AI Recitation Engine</span>
+      <span class="aa-aep-badge">v2.0 · Soon</span>
+    </div>
+
+    <!-- Frozen equalizer (visual only) -->
+    <div class="aa-aep-eq" aria-hidden="true">
+      <div class="aa-aep-eq-bar" style="height:55%"></div>
+      <div class="aa-aep-eq-bar" style="height:75%"></div>
+      <div class="aa-aep-eq-bar" style="height:40%"></div>
+      <div class="aa-aep-eq-bar" style="height:88%"></div>
+      <div class="aa-aep-eq-bar" style="height:62%"></div>
+      <div class="aa-aep-eq-bar" style="height:48%"></div>
+      <div class="aa-aep-eq-bar" style="height:82%"></div>
+      <div class="aa-aep-eq-bar" style="height:70%"></div>
+      <div class="aa-aep-eq-bar" style="height:55%"></div>
+      <div class="aa-aep-eq-bar" style="height:85%"></div>
+      <div class="aa-aep-eq-bar" style="height:46%"></div>
+      <div class="aa-aep-eq-bar" style="height:68%"></div>
+      <div class="aa-aep-eq-bar" style="height:78%"></div>
+      <div class="aa-aep-eq-bar" style="height:60%"></div>
+      <div class="aa-aep-eq-bar" style="height:72%"></div>
+      <div class="aa-aep-eq-bar" style="height:50%"></div>
+    </div>
+
+    <!-- Architecture readiness -->
+    <div class="aa-aep-rows">
+      <div class="aa-aep-row">
+        <span class="aa-aep-row-lbl">Architecture</span>
+        <div class="aa-aep-track"><div class="aa-aep-fill" style="width:100%"></div></div>
+        <span class="aa-aep-pct">100%</span>
+      </div>
+      <div class="aa-aep-row">
+        <span class="aa-aep-row-lbl">Voice Model</span>
+        <div class="aa-aep-track"><div class="aa-aep-fill" style="width:0%"></div></div>
+        <span class="aa-aep-pct">0%</span>
+      </div>
+      <div class="aa-aep-row">
+        <span class="aa-aep-row-lbl">Integration</span>
+        <div class="aa-aep-track"><div class="aa-aep-fill" style="width:0%"></div></div>
+        <span class="aa-aep-pct">0%</span>
+      </div>
+    </div>
+
+    <div class="aa-aep-reciters">
+      Rejadagi qorilar: Mishary Rashid al-Afasy · Abdul Rahman as-Sudais · Saud ash-Shuraim
+    </div>
+    <div class="aa-aep-status" id="aa-aep-status">
+      v1.0-placeholder · yuklanmoqda...
+    </div>
+  </div>
+
+</div>
+
+<!-- ── Toast ── -->
+<div class="aa-toast" id="aa-toast" role="status" aria-live="polite"></div>
+
+<!-- ── Scripts ── -->
+<script src="/js/lang.js"></script>
+<script src="/js/audio-assistant.js"></script>
+
+</body>
+</html>

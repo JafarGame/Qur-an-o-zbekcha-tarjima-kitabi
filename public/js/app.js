@@ -49,9 +49,10 @@
   }
 
   function renderAyahHit(hit, isDirectMatch) {
+    const displayName = (window.Lang && Lang.surahName(hit.surah)) || hit.surahName;
     return `
       <a class="ayah-hit${isDirectMatch ? " ayah-hit-direct" : ""}" href="/surah.html?number=${hit.surah}&ayah=${hit.ayah}">
-        <div class="ayah-hit-ref">${hit.surahName} ${hit.surah}:${hit.ayah}</div>
+        <div class="ayah-hit-ref">${displayName} ${hit.surah}:${hit.ayah}</div>
         <div class="ayah-hit-arabic">${hit.arabic}</div>
         <div class="ayah-hit-translation">${escapeHtml(hit.translation)}</div>
       </a>`;

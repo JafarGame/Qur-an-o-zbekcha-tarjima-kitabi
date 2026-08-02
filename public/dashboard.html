@@ -742,7 +742,7 @@ body.db-page .db-footer-signature::after {
 <aside id="db-drawer" role="dialog" aria-modal="true" aria-label="Sozlamalar">
 
   <div class="db-drawer-head">
-    <span class="db-drawer-title">⚙ Sozlamalar</span>
+    <span class="db-drawer-title">⚙ <span data-i18n="sozlamalar">Sozlamalar</span></span>
     <button class="db-drawer-close" id="db-drawer-close" aria-label="Yopish">✕</button>
   </div>
 
@@ -750,14 +750,14 @@ body.db-page .db-footer-signature::after {
 
     <!-- Ko'rinish group -->
     <div>
-      <div class="db-drawer-group-title">Ko&#x2BC;rinish</div>
+      <div class="db-drawer-group-title" data-i18n="korinish">Ko&#x2BC;rinish</div>
       <div class="db-drawer-group">
 
         <div class="db-drawer-row">
           <span class="db-drawer-row-icon">🌙</span>
           <div class="db-drawer-row-body">
-            <div class="db-drawer-row-title">Tungi rejim</div>
-            <div class="db-drawer-row-desc">Qorong&#x2BC;i fon</div>
+            <div class="db-drawer-row-title" data-i18n="tungiRejim">Tungi rejim</div>
+            <div class="db-drawer-row-desc" data-i18n="qorongi">Qorong&#x2BC;i fon</div>
           </div>
           <label class="db-toggle-switch" aria-label="Tungi rejimni yoqish">
             <input type="checkbox" id="db-darkToggle" />
@@ -768,8 +768,8 @@ body.db-page .db-footer-signature::after {
         <div class="db-drawer-row">
           <span class="db-drawer-row-icon">☀️</span>
           <div class="db-drawer-row-body">
-            <div class="db-drawer-row-title">Kunduzgi rejim</div>
-            <div class="db-drawer-row-desc">Yorug&#x2BC; fon</div>
+            <div class="db-drawer-row-title" data-i18n="kunduzgi">Kunduzgi rejim</div>
+            <div class="db-drawer-row-desc" data-i18n="yorug">Yorug&#x2BC; fon</div>
           </div>
           <label class="db-toggle-switch" aria-label="Kunduzgi rejimni yoqish">
             <input type="checkbox" id="db-lightToggle" />
@@ -784,7 +784,7 @@ body.db-page .db-footer-signature::after {
 
     <!-- Til group -->
     <div>
-      <div class="db-drawer-group-title">Til</div>
+      <div class="db-drawer-group-title" data-i18n="til">Til</div>
       <div class="db-drawer-group">
 
         <div class="db-drawer-row">
@@ -852,7 +852,7 @@ body.db-page .db-footer-signature::after {
     </svg>
   </div>
   <div class="db-bismillah">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ</div>
-  <p class="db-welcome">Xush kelibsiz</p>
+  <p class="db-welcome" data-i18n="xushKelibsiz">Xush kelibsiz</p>
 
   <!-- Hamburger button -->
   <button class="db-hamburger" id="db-hamburger" aria-label="Sozlamalar menyusini ochish" aria-expanded="false" aria-controls="db-drawer">
@@ -865,7 +865,7 @@ body.db-page .db-footer-signature::after {
 <!-- ── Main content ────────────────────────────────────────── -->
 <main class="db-main">
 
-  <div class="db-section-label">Asosiy bo'limlar</div>
+  <div class="db-section-label" data-i18n="asosiyBolimlar">Asosiy bo'limlar</div>
 
   <div class="db-grid">
 
@@ -897,16 +897,16 @@ body.db-page .db-footer-signature::after {
       <a class="db-card db-card-sec" href="/hadislar.html" id="card-hadis">
         <div class="ripple-layer"></div>
         <div class="db-sec-icon-wrap">📜</div>
-        <div class="db-sec-title">Hadislar</div>
+        <div class="db-sec-title" data-i18n="hadislar">Hadislar</div>
         <div class="db-sec-desc">Sahih Buxoriy, Muslim va boshqa to'plamlar</div>
       </a>
 
       <!-- Audio (disabled) -->
       <div class="db-card db-card-sec db-card-disabled" aria-disabled="true">
         <div class="db-sec-icon-wrap">🎧</div>
-        <div class="db-sec-title">Audio</div>
-        <div class="db-sec-desc">Qur'on qiroatlari</div>
-        <span class="db-badge-soon">Tez orada</span>
+        <div class="db-sec-title" data-i18n="audio">Audio</div>
+        <div class="db-sec-desc" data-i18n="audioDesc">Qur'on qiroatlari</div>
+        <span class="db-badge-soon" data-i18n="tezOrada">Tez orada</span>
       </div>
 
       <!-- Din Asillari (new, replaces Sozlamalar) -->
@@ -927,16 +927,16 @@ body.db-page .db-footer-signature::after {
             <line x1="28" y1="18" x2="31" y2="21" stroke="#b8860b" stroke-width="1.2"/>
           </svg>
         </div>
-        <div class="db-sec-title">Din Asillari</div>
-        <span class="db-badge-soon">Tez orada</span>
+        <div class="db-sec-title" data-i18n="dinAsillari">Din Asillari</div>
+        <span class="db-badge-soon" data-i18n="tezOrada">Tez orada</span>
       </div>
 
       <!-- Saqlangan oyatlar -->
       <a class="db-card db-card-sec" href="/bookmarks.html" id="card-bookmarks">
         <div class="ripple-layer"></div>
         <div class="db-sec-icon-wrap">🔖</div>
-        <div class="db-sec-title">Saqlangan oyatlar</div>
-        <div class="db-sec-desc">Sevimli oyatlaringiz</div>
+        <div class="db-sec-title" data-i18n="saqlananOyatlar">Saqlangan oyatlar</div>
+        <div class="db-sec-desc" data-i18n="sevimliOyatlar">Sevimli oyatlaringiz</div>
       </a>
 
     </div><!-- /.db-secondary-grid -->

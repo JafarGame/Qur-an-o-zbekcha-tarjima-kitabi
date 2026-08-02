@@ -60,7 +60,15 @@
       yuklanmoqda:        "Yuklanmoqda...",
       qidiruvPlaceholder: "Qidiruv: 3:25, Baqara 255, yoki matn...",
       suralarSoni:        "114 ta sura",
-      surasi:             "surasi"
+      surasi:             "surasi",
+      xushKelibsiz:       "Xush kelibsiz",
+      asosiyBolimlar:     "Asosiy bo\u02bclimlar",
+      hadislar:           "Hadislar",
+      audioDesc:          "Qur\u02bcOn qiroatlari",
+      dinAsillari:        "Din Asillari",
+      saqlananOyatlar:    "Saqlangan oyatlar",
+      sevimliOyatlar:     "Sevimli oyatlaringiz",
+      tezOrada:           "Tez orada"
     },
 
     kiril: {
@@ -125,7 +133,15 @@
       yuklanmoqda:        "\u042e\u043a\u043b\u0430\u043d\u043c\u043e\u049b\u0434\u0430...",
       qidiruvPlaceholder: "\u049a\u0438\u0434\u0438\u0440\u0443\u0432: 3:25, \u0411\u0430\u049b\u0430\u0440\u0430 255, \u0451\u043a\u0438 \u043c\u0430\u0442\u043d...",
       suralarSoni:        "114 \u0442\u0430 \u0441\u0443\u0440\u0430",
-      surasi:             "\u0441\u0443\u0440\u0430\u0441\u0438"
+      surasi:             "\u0441\u0443\u0440\u0430\u0441\u0438",
+      xushKelibsiz:       "\u0425\u0443\u0448 \u043a\u0435\u043b\u0438\u0431\u0441\u0438\u0437",
+      asosiyBolimlar:     "\u0410\u0441\u043e\u0441\u0438\u0439 \u0431\u045e\u043b\u0438\u043c\u043b\u0430\u0440",
+      hadislar:           "\u04b2\u0430\u0434\u0438\u0441\u043b\u0430\u0440",
+      audioDesc:          "\u049a\u0443\u0440\u044a\u043e\u043d \u049b\u0438\u0440\u043e\u0430\u0442\u043b\u0430\u0440\u0438",
+      dinAsillari:        "\u0414\u0438\u043d \u0410\u0441\u0438\u043b\u043b\u0430\u0440\u0438",
+      saqlananOyatlar:    "\u0421\u0430\u049b\u043b\u0430\u043d\u0433\u0430\u043d \u043e\u044f\u0442\u043b\u0430\u0440",
+      sevimliOyatlar:     "\u0421\u0435\u0432\u0438\u043c\u043b\u0438 \u043e\u044f\u0442\u043b\u0430\u0440\u0438\u043d\u0433\u0438\u0437",
+      tezOrada:           "\u0422\u0435\u0437 \u043e\u0440\u0430\u0434\u0430"
     }
   };
 

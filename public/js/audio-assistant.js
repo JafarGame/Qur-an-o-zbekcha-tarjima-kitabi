@@ -267,18 +267,55 @@
     isListening : false,
 
     init() {
-      const SR = global.SpeechRecognition || global.webkitSpeechRecognition;
-      if (!SR) { this.supported = false; return false; }
-      this._SR = SR;
-      this.supported = true;
+      /* ── Diagnostics ── */
+      const proto      = global.location ? global.location.protocol : 'unknown';
+      const isSecure   = !!global.isSecureContext;
+      const hasMedia   = !!(global.navigator && global.navigator.mediaDevices);
+      const SR         = global.SpeechRecognition || global.webkitSpeechRecognition;
+
+      console.log('[QAA] SECURE CONTEXT:', isSecure);
+      console.log('[QAA] PROTOCOL:', proto);
+      console.log('[QAA] MEDIA DEVICES:', hasMedia);
+      console.log('[QAA] SPEECH RECOGNITION:', SR ? (SR.name || 'webkitSpeechRecognition') : 'NOT AVAILABLE');
+
+      /* ── Platform / browser detection ── */
+      const ua     = (global.navigator && global.navigator.userAgent) || '';
+      const isIOS  = /iP(hone|ad|od)/.test(ua);
+      const isSafari = isIOS || (/^((?!chrome|android).)*safari/i.test(ua));
+      // Telegram in-app browser exposes no SpeechRecognition and blocks mic
+      const isTelegram = /Telegram/i.test(ua);
+
+      console.log('[QAA] PLATFORM — iOS:', isIOS, '| Safari:', isSafari, '| Telegram:', isTelegram);
+
+      if (!SR || isTelegram) {
+        this.supported = false;
+        if (isTelegram) console.log('[QAA] Telegram browser detected — voice disabled, text input available');
+        return false;
+      }
+
+      this._SR           = SR;
+      this._isSecure     = isSecure;
+      this._isIOS        = isIOS;
+      this._isSafari     = isSafari;
+      this.supported     = true;
       return true;
     },
 
     /* Public: begin a session. Callbacks: onInterim(text), onFinal(text), onError(code). */
     start(cbs = {}) {
       if (!this.supported) { if (cbs.onError) cbs.onError('not-supported'); return; }
-      this.stop();                     // abort any previous session cleanly
-      this._cbs    = cbs;
+
+      /* Pre-flight security check.
+         Chrome allows r.start() on HTTP but immediately fires service-not-allowed.
+         Catch it here so we can give a meaningful message before wasting a round-trip. */
+      if (!this._isSecure) {
+        console.log('[QAA] INSECURE CONTEXT — bailing before start');
+        if (cbs.onError) cbs.onError('insecure-context');
+        return;
+      }
+
+      this.stop();
+      this._cbs     = cbs;
       this._langIdx = 0;
       this._attempt(this._LANGS[0]);
     },
@@ -289,7 +326,8 @@
       const r = new this._SR();
       r.lang           = lang;
       r.continuous     = false;
-      r.interimResults = true;
+      // iOS Safari crashes / misbehaves with interimResults=true — disable it
+      r.interimResults = !this._isIOS;
       r.maxAlternatives = 3;
       this._active = r;
 
@@ -773,10 +811,27 @@
           this._doSearch(t);
         },
         onError   : err => {
+          console.log('[QAA] VOICE ERROR in UI handler:', err,
+            '| isSecure:', QAA.SpeechInput._isSecure,
+            '| inIframe:', (global.self !== global.top));
+
+          // service-not-allowed has three distinct causes — distinguish them
+          let svcMsg = 'Ovoz xizmati ishlamayapti — qayta urinib ko\'ring';
+          if (err === 'service-not-allowed') {
+            if (!QAA.SpeechInput._isSecure) {
+              svcMsg = 'Ovoz xizmati bloklangan — HTTPS kerak';
+            } else if (global.self !== global.top) {
+              svcMsg = 'Ovoz iframe ichida ishlamaydi — sahifani to\'g\'ridan oching';
+            } else {
+              svcMsg = 'Ovoz xizmati mavjud emas — Chrome yoki Edge ishlating';
+            }
+          }
+
           const MSG = {
+            'insecure-context'       : 'Ovoz xizmati bloklangan — HTTPS kerak',
             'not-allowed'            : 'Mikrofon ruxsati rad etildi — brauzer sozlamalarini tekshiring',
             'permission-denied'      : 'Mikrofon ruxsati rad etildi — brauzer sozlamalarini tekshiring',
-            'service-not-allowed'    : 'Ovoz xizmati bloklangan — HTTPS kerak',
+            'service-not-allowed'    : svcMsg,
             'audio-capture'          : 'Mikrofon topilmadi yoki ishlamayapti',
             'network'                : 'Tarmoq xatosi — qayta urinib ko\'ring',
             'no-speech'              : 'Ovoz aniqlanmadi — qayta bosing',
@@ -786,7 +841,8 @@
           };
           const msg = MSG[err];
           if (msg === null) { this.setState('idle'); return; }   // silent abort
-          if (err === 'not-allowed' || err === 'permission-denied' || err === 'not-supported') {
+          if (['not-allowed','permission-denied','not-supported',
+               'insecure-context','service-not-allowed'].includes(err)) {
             document.body.classList.add('aa-no-voice');
           }
           this.showError(msg || 'Mikrofon xatosi — qayta bosing');

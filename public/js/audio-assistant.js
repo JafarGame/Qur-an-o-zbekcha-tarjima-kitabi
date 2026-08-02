@@ -1079,13 +1079,22 @@
     },
 
     /* Try each recognition alternative through QueryParser in confidence order.
-       Uses the first one that parses to a surah; falls back to text search
-       on the best (first) alternative if none parse.                         */
+       Detects Arabic Unicode → Arabic recitation path.
+       If all Latin alternatives fail, triggers an ar-SA fallback attempt.   */
     async _doSearchWithAlternatives(alts) {
       console.log('[QAA] TRYING ALTERNATIVES:', alts);
       this.setState('processing');
       this.setTranscript(alts[0]);
 
+      // ── Arabic recitation fast-path ──────────────────────────────────────
+      // If ar-SA already produced a result it will contain Arabic Unicode.
+      const arabicAlt = alts.find(a => /[\u0600-\u06FF]/.test(a));
+      if (arabicAlt) {
+        console.log('[QAA] ARABIC RECITATION DETECTED: "' + arabicAlt + '"');
+        return this._doArabicSearch(arabicAlt);
+      }
+
+      // ── Structured query (QueryParser) ───────────────────────────────────
       for (let i = 0; i < alts.length; i++) {
         const alt = alts[i];
         const parsed = QAA.QueryParser.parse(alt);
@@ -1105,9 +1114,59 @@
         }
       }
 
-      // No alternative parsed — text search on best alternative
-      console.log('[QAA] NO ALTERNATIVE PARSED — falling back to text search: "' + alts[0] + '"');
+      // ── ar-SA fallback for Arabic recitation ────────────────────────────
+      // en-US / uz-UZ returned non-empty phonetic garbage for Arabic speech.
+      // Trigger one more recognition attempt using ar-SA so the ArabicMatcher
+      // can score the proper Arabic transcript.
+      const arIdx = QAA.SpeechInput._LANGS.indexOf('ar-SA');
+      if (!this._arFallbackUsed && arIdx >= 0
+          && QAA.SpeechInput._langIdx <= arIdx) {
+        this._arFallbackUsed = true;
+        console.log('[QAA] TRIGGERING ar-SA FALLBACK for possible Arabic recitation');
+        QAA.SpeechInput._langIdx = arIdx;
+        this.setState('listening');
+        this.setTranscript('');
+        QAA.SpeechInput._attempt('ar-SA');
+        return;   // next onFinal will re-enter this function with Arabic text
+      }
+      this._arFallbackUsed = false;  // reset for next press
+
+      // ── Text search (Uzbek / Latin translation fallback) ─────────────────
+      console.log('[QAA] ALL ALTERNATIVES FAILED — text search: "' + alts[0] + '"');
       await this._doSearch(alts[0]);
+    },
+
+    /* Arabic recitation search — runs the ArabicMatcher pipeline and
+       applies the confidence threshold before showing a result.            */
+    async _doArabicSearch(arabicText) {
+      this.setState('processing');
+      this.setTranscript(arabicText);
+      console.log('[QAA] ARABIC MATCH ENGINE: "' + arabicText + '"');
+      try {
+        const match = await QAA.ArabicMatcher.match(arabicText);
+
+        if (!match) {
+          console.log('[QAA] ARABIC: no server hits');
+          this.showError('Oyat topilmadi — arabcha qiroatni qaytaring');
+          return;
+        }
+
+        const pct = match.confidence + '%';
+        if (match.confidence < QAA.ArabicMatcher.CONFIDENCE_THRESHOLD) {
+          console.log('[QAA] CONFIDENCE ' + pct + ' < ' + QAA.ArabicMatcher.CONFIDENCE_THRESHOLD + '% — asking to repeat');
+          this.showError('Aniq eshitilmadi (' + pct + ') — qayta takrorlang');
+          return;
+        }
+
+        console.log('[QAA] ARABIC ACCEPTED ' + match.surah + ':' + match.ayah + ' ' + pct
+          + (match._pairEnd ? ' (range …:' + match._pairEnd + ')' : ''));
+        const res = await QAA.QuranSearch.findAyah(match.surah, match.ayah);
+        res._confidence = match.confidence;
+        this.showResult(res);
+      } catch (e) {
+        console.log('[QAA] ARABIC SEARCH ERROR:', e && e.message);
+        this.showError('Arabcha qidiruv xatosi — qayta urinib ko\'ring');
+      }
     },
 
     async _doSearch(query) {

@@ -897,10 +897,11 @@
         if (score > bestScore) { bestScore = score; best = h; }
       }
 
-      // Consecutive-ayah pairing: test best + next ayah together.
-      // Handles recitations that span an ayah boundary.
+      // Consecutive-ayah pairing: test prev+best and best+next together.
+      // Handles recitations that span an ayah boundary in either direction.
       if (best) {
         try {
+          // Forward pair: best + next ayah
           const nextAr = await this._getAyahArabic(best.surah, best.ayah + 1);
           if (nextAr) {
             const combined = best.arabic + ' ' + nextAr;
@@ -912,6 +913,24 @@
                 + '+' + (best.ayah + 1) + ' score=' + score2.toFixed(3));
               bestScore = score2;
               // Keep best.ayah as result (start of the recitation span)
+            }
+          }
+
+          // Backward pair: prev ayah + best
+          if (best.ayah > 1) {
+            const prevAr = await this._getAyahArabic(best.surah, best.ayah - 1);
+            if (prevAr) {
+              const combined = prevAr + ' ' + best.arabic;
+              const cov3  = this.scoreCoverage(qToks, combined);
+              const jac3  = this.scoreJaccard(qToks, combined);
+              const score3 = cov3 * 0.8 + jac3 * 0.2;
+              if (score3 > bestScore + 0.08) {     // clear improvement threshold
+                console.log('[QAA] PAIR ' + best.surah + ':' + (best.ayah - 1)
+                  + '+' + best.ayah + ' score=' + score3.toFixed(3));
+                bestScore = score3;
+                // Update best to the previous ayah (start of the recitation span)
+                best = Object.assign({}, best, { ayah: best.ayah - 1, arabic: prevAr });
+              }
             }
           }
         } catch (_) { /* pairing is opportunistic — ignore errors */ }

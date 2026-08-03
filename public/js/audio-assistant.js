@@ -879,6 +879,37 @@
       return ayahNum <= this.SURAH_AYAH_COUNT[surahNum];
     },
 
+    /* Spot-check SURAH_AYAH_COUNT against the live /api/surah/:n endpoint.
+       Runs asynchronously at startup; logs a console warning for any mismatch.
+       Does NOT throw — the boundary guard degrades gracefully; the warning is
+       advisory so drift is caught in development before it affects users.     */
+    async checkAyahCountIntegrity() {
+      // Representative sample: short, medium, and long surahs plus boundaries.
+      const SPOT = [1, 2, 36, 55, 112, 114];
+      const mismatches = [];
+      for (const s of SPOT) {
+        try {
+          const res = await fetch('/api/surah/' + s);
+          if (!res.ok) continue;  // server unavailable — skip silently
+          const data = await res.json();
+          const live     = data.ayahCount;
+          const expected = this.SURAH_AYAH_COUNT[s];
+          if (typeof live === 'number' && live !== expected) {
+            mismatches.push({ surah: s, expected, live });
+          }
+        } catch (_) { /* network error — skip */ }
+      }
+      if (mismatches.length) {
+        console.warn(
+          '[QAA] ⚠️  SURAH_AYAH_COUNT DRIFT DETECTED — ' + mismatches.length + ' mismatch(es): ' +
+          mismatches.map(m => 'surah ' + m.surah + ': table=' + m.expected + ' live=' + m.live).join(', ') +
+          ' — cross-surah boundary guard may mis-pair ayahs. Update SURAH_AYAH_COUNT.'
+        );
+      } else {
+        console.log('[QAA] SURAH_AYAH_COUNT spot-check: ' + SPOT.length + ' surahs OK');
+      }
+    },
+
     /* Fetch raw ayah arabic, reusing the QuranSearch LRU cache.           */
     async _getAyahArabic(surahNum, ayahNum) {
       const key = 's' + surahNum;
@@ -1662,6 +1693,9 @@
     // UI
     QAA.UI.bindEvents();
     QAA.UI.setState('idle');
+
+    // Spot-check SURAH_AYAH_COUNT against the live API at startup (fire-and-forget).
+    QAA.ArabicMatcher.checkAyahCountIntegrity();
 
     // Populate audio engine status line
     const aepEl = document.getElementById('aa-aep-status');

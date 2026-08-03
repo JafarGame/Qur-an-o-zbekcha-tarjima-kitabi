@@ -483,6 +483,94 @@ body.aa-no-voice .aa-no-voice-note { display: block; }
   margin-bottom: 18px;
 }
 
+/* ════════════════════════════════════════════
+   POSSIBLE MATCH  (confidence 60–89 %)
+   ════════════════════════════════════════════ */
+.aa-results.aa-result-possible {
+  border-top-color: rgba(201,162,39,0.92);
+}
+.aa-possible-badge {
+  display: none;
+  font-size: 0.63rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: rgba(255,200,60,0.92);
+  background: rgba(201,162,39,0.13);
+  border: 1px solid rgba(201,162,39,0.38);
+  padding: 3px 10px;
+  border-radius: 999px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+.aa-results.aa-result-possible .aa-possible-badge { display: inline-block; }
+
+/* ════════════════════════════════════════════
+   ALTERNATIVE CANDIDATES LIST
+   ════════════════════════════════════════════ */
+.aa-candidates { margin-bottom: 16px; }
+.aa-candidates-title {
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: rgba(190,215,200,0.38);
+  margin-bottom: 8px;
+}
+.aa-candidate-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.07);
+  cursor: pointer;
+  text-align: left;
+  transition: background .15s, border-color .15s, transform .10s;
+  margin-bottom: 6px;
+  font-family: inherit;
+  color: inherit;
+}
+.aa-candidate-row:hover  { background: rgba(201,162,39,0.09); border-color: rgba(201,162,39,0.28); }
+.aa-candidate-row:active { transform: scale(.98); }
+.aa-cand-ref {
+  font-size: 0.80rem;
+  font-weight: 600;
+  color: rgba(200,225,210,0.75);
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.aa-cand-conf-wrap {
+  flex-shrink: 0;
+  width: 72px;
+  height: 4px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.aa-cand-conf-fill { height: 100%; border-radius: 2px; }
+.aa-cand-pct {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: rgba(190,210,200,0.50);
+  min-width: 30px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+/* ── Debug: per-alternative rows ── */
+.aa-debug-alts-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 1px 0;
+  border-bottom: 1px solid rgba(100,220,140,0.04);
+  opacity: 0.80;
+}
+
 /* Actions */
 .aa-result-actions {
   display: flex;
@@ -830,8 +918,8 @@ body.aa-no-voice .aa-no-voice-note { display: block; }
     <button class="aa-results-close-btn" data-action="close" aria-label="Yopish">✕</button>
   </div>
 
-  <!-- Reference -->
-  <div id="aa-result-ref" class="aa-result-ref"></div>
+  <!-- Reference + possible-match badge -->
+  <div id="aa-result-ref" class="aa-result-ref"></div><span id="aa-possible-badge" class="aa-possible-badge">Mumkin oyat</span>
 
   <!-- Arabic -->
   <div id="aa-result-arabic" class="aa-result-arabic" dir="rtl" lang="ar"></div>
@@ -839,6 +927,9 @@ body.aa-no-voice .aa-no-voice-note { display: block; }
   <!-- Translation -->
   <div class="aa-result-label">O'ZBEKCHA</div>
   <p id="aa-result-transl" class="aa-result-transl"></p>
+
+  <!-- Alternative candidates (top-2; hidden when empty) -->
+  <div id="aa-candidates" class="aa-candidates" hidden></div>
 
   <!-- Action buttons -->
   <div class="aa-result-actions" id="aa-result-actions">
@@ -954,6 +1045,8 @@ body.aa-no-voice .aa-no-voice-note { display: block; }
     <span class="aa-debug-lbl">Confidence</span>
     <span id="aa-dbg-conf" class="aa-debug-val">—</span>
   </div>
+  <!-- Dynamic per-alternative rows (populated by JS) -->
+  <div id="aa-dbg-alts" aria-live="polite"></div>
 </div>
 
 <!-- ── Scripts ── -->

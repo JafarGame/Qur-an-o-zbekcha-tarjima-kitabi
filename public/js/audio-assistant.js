@@ -807,6 +807,7 @@
    * ────────────────────────────────────────────────────────────────────── */
   QAA.ArabicMatcher = {
     CONFIDENCE_THRESHOLD: 90,
+    POSSIBLE_THRESHOLD:   60,   // below this confidence → no result shown
 
     /* Canonical normalization — must mirror web-server.js stripArabicDiacritics
        so that queries and indexed text reach the same representation.        */
@@ -967,7 +968,8 @@
       if (alias) {
         console.log('[QAA] ARABIC ALIAS hit: ' + qNorm + ' → '
           + alias.surah + ':' + alias.ayah);
-        return { surah: alias.surah, ayah: alias.ayah, confidence: 100 };
+        return { surah: alias.surah, ayah: alias.ayah, confidence: 100,
+                 isPossible: false, candidates: [] };
       }
       if (!qToks.length) return null;
 
@@ -981,16 +983,28 @@
 
       if (!hits.length) return null;
 
-      // Score each candidate: coverage (80 %) + Jaccard (20 %)
-      let best = null, bestScore = -1;
-      for (const h of hits) {
+      // Score all candidates: coverage (80 %) + Jaccard (20 %).
+      // Keep the sorted list so we can return top-2 alternatives.
+      const scored = hits.map(h => {
         const cov   = this.scoreCoverage(qToks, h.arabic);
         const jac   = this.scoreJaccard(qToks, h.arabic);
         const score = cov * 0.8 + jac * 0.2;
         console.log('[QAA]   ' + h.surah + ':' + h.ayah
           + ' cov=' + (cov * 100).toFixed(0) + '% jac=' + (jac * 100).toFixed(0) + '%');
-        if (score > bestScore) { bestScore = score; best = h; }
-      }
+        return { h, score };
+      });
+      scored.sort((a, b) => b.score - a.score);
+
+      // Keep a reference to the original top hit so we can exclude it from
+      // candidates even if backward pairing shifts `best` to the prev ayah
+      // (where scored[0].h becomes the "second half" of the span).
+      const originalBest = scored[0].h;
+      let best = scored[0].h;
+      let bestScore = scored[0].score;
+
+      // Tracks the forward-pair partner ayah so it can be excluded from
+      // candidates (the server may have returned it as a separate hit).
+      let fwdPartnerSurah = -1, fwdPartnerAyah = -1;
 
       // Consecutive-ayah pairing: test prev+best and best+next together.
       // Handles recitations that span an ayah boundary in either direction.
@@ -1009,6 +1023,9 @@
               console.log('[QAA] PAIR ' + best.surah + ':' + best.ayah
                 + '+' + (best.ayah + 1) + ' score=' + score2.toFixed(3));
               bestScore = score2;
+              // Track the partner so it is excluded from candidates
+              fwdPartnerSurah = best.surah;
+              fwdPartnerAyah  = best.ayah + 1;
               // Keep best.ayah as result (start of the recitation span)
             }
           }
@@ -1035,9 +1052,39 @@
 
       const confidence = Math.round(Math.min(bestScore, 1) * 100);
       console.log('[QAA] ARABIC BEST: ' + (best ? best.surah + ':' + best.ayah : 'none')
-        + ' confidence=' + confidence + '%');
+        + ' confidence=' + confidence + '%'
+        + (confidence < this.CONFIDENCE_THRESHOLD
+           ? (confidence >= this.POSSIBLE_THRESHOLD ? ' [POSSIBLE]' : ' [TOO LOW]') : ''));
 
-      return best ? { surah: best.surah, ayah: best.ayah, confidence } : null;
+      if (!best || confidence < this.POSSIBLE_THRESHOLD) return null;
+
+      const isPossible = confidence < this.CONFIDENCE_THRESHOLD;
+
+      // Top-2 alternative candidates.
+      // Exclude every ayah that is part of the matched span:
+      //   • final primary    — it IS the result
+      //   • originalBest     — if backward pairing fired, scored[0].h is the
+      //                         second half of the span (partial span member)
+      //   • fwdPartner       — if forward pairing fired and the server also
+      //                         returned best.ayah+1, exclude it too
+      // Minimum confidence for a candidate equals POSSIBLE_THRESHOLD (60 %):
+      // anything below that is a hard reject and must not be loadable via tap.
+      const primarySurah = best.surah, primaryAyah = best.ayah;
+      const origSurah    = originalBest.surah, origAyah = originalBest.ayah;
+      const candidates = scored
+        .filter(s => !(s.h.surah === primarySurah  && s.h.ayah === primaryAyah))
+        .filter(s => !(s.h.surah === origSurah     && s.h.ayah === origAyah))
+        .filter(s => !(s.h.surah === fwdPartnerSurah && s.h.ayah === fwdPartnerAyah))
+        .filter(s => Math.round(Math.min(s.score, 1) * 100) >= this.POSSIBLE_THRESHOLD)
+        .slice(0, 2)
+        .map(s => ({
+          surah     : s.h.surah,
+          ayah      : s.h.ayah,
+          surahName : s.h.surahName,
+          confidence: Math.round(Math.min(s.score, 1) * 100),
+        }));
+
+      return { surah: best.surah, ayah: best.ayah, confidence, isPossible, candidates };
     },
   };
 
@@ -1258,10 +1305,29 @@
          return;
        }
        this.set('ayah', match.surah + ':' + match.ayah
-         + (match._pairEnd ? '–' + match._pairEnd : ''));
+         + (match._pairEnd ? '–' + match._pairEnd : '')
+         + (match.isPossible ? ' ?' : ''));
        const pct = match.confidence + '%';
-       const tone = match.confidence >= QAA.ArabicMatcher.CONFIDENCE_THRESHOLD ? 'hi' : 'lo';
-       this.set('conf', pct, tone);
+       const tone = match.confidence >= QAA.ArabicMatcher.CONFIDENCE_THRESHOLD ? 'hi'
+                  : match.confidence >= QAA.ArabicMatcher.POSSIBLE_THRESHOLD   ? ''
+                  : 'lo';
+       this.set('conf', pct + (match.isPossible ? ' (mumkin)' : ''), tone);
+     },
+
+     /* Show one row per Arabic alternative tried (call after parallel scoring). */
+     setAlts(alts) {
+       if (!this.enabled) return;
+       const container = document.getElementById('aa-dbg-alts');
+       if (!container) return;
+       if (!alts || !alts.length) { container.innerHTML = ''; return; }
+       container.innerHTML = alts.map(({ text, conf }, i) =>
+         '<div class="aa-debug-alts-row">'
+         + '<span class="aa-debug-lbl">Alt ' + i + '</span>'
+         + '<span class="aa-debug-val '
+         + (conf >= 90 ? 'aa-debug-hi' : conf >= QAA.ArabicMatcher.POSSIBLE_THRESHOLD ? '' : 'aa-debug-lo') + '">'
+         + conf + '% · ' + (text || '').slice(0, 30)
+         + '</span></div>'
+       ).join('');
      },
    };
 
@@ -1417,6 +1483,7 @@
         resultArabic  : $('aa-result-arabic'),
         resultTransl  : $('aa-result-transl'),
         resultActions : $('aa-result-actions'),
+        candidates    : $('aa-candidates'),
         aepStatus     : $('aa-aep-status'),
         toast         : $('aa-toast'),
         chips         : q('.aa-chip'),
@@ -1447,18 +1514,57 @@
       el.classList.toggle('aa-transcript-visible', !!t);
     },
 
-    showResult({ surah, ayah }) {
+    showResult({ surah, ayah, _confidence, _isPossible, _candidates }) {
       this._currentResult = { surah, ayah };
       const name = (global.Lang && Lang.surahName(surah.number)) || surah.name;
       this.els.resultRef.textContent    = name + ' · ' + surah.number + ':' + Number(ayah.number);
       this.els.resultArabic.textContent = ayah.arabic;
       this.els.resultTransl.textContent = ayah.translation;
+
+      // Possible-match visual state (amber border + badge visible via CSS)
+      this.els.results.classList.toggle('aa-result-possible', !!_isPossible);
+
+      // Alternative candidates
+      this._renderCandidates(_candidates || []);
+
       this.els.results.classList.add('aa-results-open');
       this.setState('result');
     },
 
+    /* Populate (or hide) the candidates list below the primary result. */
+    _renderCandidates(candidates) {
+      const container = this.els.candidates;
+      if (!container) return;
+      if (!candidates || !candidates.length) {
+        container.hidden = true;
+        container.innerHTML = '';
+        return;
+      }
+      container.hidden = false;
+      container.innerHTML =
+        '<div class="aa-candidates-title">Boshqa variantlar</div>'
+        + candidates.map(c => {
+          const cName = (global.Lang && Lang.surahName(c.surah)) || c.surahName || ('Surah ' + c.surah);
+          const barColor = c.confidence >= 90
+            ? '#4de87a' : c.confidence >= 60 ? '#c9a227' : '#ff8a7a';
+          return '<button class="aa-candidate-row"'
+            + ' data-surah="' + c.surah + '" data-ayah="' + c.ayah + '"'
+            + ' aria-label="' + cName + ' ' + c.surah + ':' + c.ayah + '">'
+            + '<span class="aa-cand-ref">' + cName + ' ' + c.surah + ':' + c.ayah + '</span>'
+            + '<span class="aa-cand-conf-wrap">'
+            +   '<span class="aa-cand-conf-fill" style="width:' + c.confidence + '%;background:' + barColor + '"></span>'
+            + '</span>'
+            + '<span class="aa-cand-pct">' + c.confidence + '%</span>'
+            + '</button>';
+        }).join('');
+    },
+
     hideResult() {
       this.els.results.classList.remove('aa-results-open');
+      // Always clear possible-match state so a subsequent confirmed result
+      // (structured lookup, text search, etc.) never inherits the amber border.
+      this.els.results.classList.remove('aa-result-possible');
+      this._renderCandidates([]);   // clear candidates panel
       this.setState('idle');
       this._currentResult = null;
     },
@@ -1518,6 +1624,21 @@
       // Close handle
       const handleRow = results ? results.querySelector('.aa-results-handle-row') : null;
       if (handleRow) handleRow.addEventListener('click', () => this.hideResult());
+
+      // Candidate rows — tap to load that ayah as primary
+      const cands = this.els.candidates;
+      if (cands) cands.addEventListener('click', e => {
+        const btn = e.target.closest('.aa-candidate-row');
+        if (!btn) return;
+        const s = parseInt(btn.dataset.surah, 10);
+        const a = parseInt(btn.dataset.ayah, 10);
+        if (!s || !a) return;
+        QAA.QuranSearch.findAyah(s, a).then(res => {
+          res._candidates = [];
+          res._isPossible = false;
+          this.showResult(res);
+        }).catch(() => {});
+      });
 
       // Debug panel toggle — Ctrl+Shift+D
       document.addEventListener('keydown', e => {
@@ -1620,22 +1741,46 @@
       });
     },
 
-    /* Try each recognition alternative through QueryParser in confidence order.
-       Detects Arabic Unicode → Arabic recitation path.
-       If all Latin alternatives fail, triggers an ar-SA fallback attempt.   */
+    /* Score every recognition alternative and pick the best match.
+       Detects Arabic Unicode → scores ALL Arabic alts in parallel.
+       If all Latin alternatives fail, triggers an ar-SA fallback attempt.  */
     async _doSearchWithAlternatives(alts) {
       console.log('[QAA] TRYING ALTERNATIVES:', alts);
       this.setState('processing');
       this.setTranscript(alts[0]);
 
-      // ── Arabic recitation fast-path ──────────────────────────────────────
-      // If ar-SA already produced a result it will contain Arabic Unicode.
-      const arabicAlt = alts.find(a => /[\u0600-\u06FF]/.test(a));
-      if (arabicAlt) {
-        console.log('[QAA] ARABIC RECITATION DETECTED: "' + arabicAlt + '"');
+      // ── Score ALL Arabic alternatives in parallel ────────────────────────
+      // en-US/uz-UZ sometimes surface phonetic Arabic; ar-SA gives proper
+      // Unicode. Score every Arabic-containing alternative and pick the one
+      // with the highest ArabicMatcher confidence rather than stopping at
+      // the first Arabic alternative found.
+      const arabicAlts = alts.filter(a => /[\u0600-\u06FF]/.test(a));
+      if (arabicAlts.length) {
         QAA.Debug.set('path', 'Arabic recitation (ar-SA)');
-        QAA.Debug.set('norm', QAA.ArabicMatcher.normalize(arabicAlt));
-        return this._doArabicSearch(arabicAlt);
+        console.log('[QAA] ARABIC ALTS (' + arabicAlts.length + '):', arabicAlts);
+
+        const scored = await Promise.all(
+          arabicAlts.map(async (alt, i) => {
+            let m = null;
+            try { m = await QAA.ArabicMatcher.match(alt); } catch (_) {}
+            const conf = m ? m.confidence : 0;
+            console.log('[QAA] ALT[' + i + '] Arabic "' + alt.slice(0, 35) + '" → ' + conf + '%');
+            return { alt, match: m, conf };
+          })
+        );
+
+        // Log each alternative to debug panel
+        QAA.Debug.setAlts(scored.map(({ alt, conf }) => ({ text: alt, conf })));
+
+        // Pick the alternative with the highest confidence
+        scored.sort((a, b) => b.conf - a.conf);
+        const { alt: bestAlt, match: bestMatch } = scored[0];
+
+        this.setTranscript(bestAlt);
+        QAA.Debug.set('norm', QAA.ArabicMatcher.normalize(bestAlt));
+        QAA.Debug.setMatch(bestMatch);
+
+        return this._showArabicMatch(bestMatch);
       }
 
       // ── Structured query (QueryParser) ───────────────────────────────────
@@ -1662,7 +1807,7 @@
         }
       }
 
-      // ── Latin transliteration path ────────────────────────────────────
+      // ── Latin transliteration path ────────────────────────────────────────
       // Catches "Alhamdu lillahi rabbil alamin", "el hamdu lillahi robbil alamin"
       const translitAlt = alts.find(a => QAA.TranslitMatcher.isLikelyTranslit(a));
       if (translitAlt) {
@@ -1671,7 +1816,7 @@
         return this._doTranslitSearch(translitAlt);
       }
 
-      // ── ar-SA fallback for Arabic recitation ────────────────────────────
+      // ── ar-SA fallback for Arabic recitation ─────────────────────────────
       // en-US / uz-UZ returned non-empty phonetic garbage for Arabic speech.
       // Trigger one more recognition attempt using ar-SA so the ArabicMatcher
       // can score the proper Arabic transcript.
@@ -1724,8 +1869,37 @@
       }
     },
 
-    /* Arabic recitation search — runs the ArabicMatcher pipeline and
-       applies the confidence threshold before showing a result.            */
+    /* Shared threshold + display handler used by both voice and text paths.
+       Accepts a pre-computed match from ArabicMatcher.match().             */
+    async _showArabicMatch(match) {
+      if (!match) {
+        console.log('[QAA] ARABIC: no server hits');
+        this.showError('Oyat topilmadi — arabcha qiroatni qaytaring');
+        return;
+      }
+      const pct = match.confidence + '%';
+      if (match.confidence < QAA.ArabicMatcher.POSSIBLE_THRESHOLD) {
+        console.log('[QAA] CONFIDENCE ' + pct + ' < ' + QAA.ArabicMatcher.POSSIBLE_THRESHOLD + '% — asking to repeat');
+        this.showError('Aniq eshitilmadi (' + pct + ') — qayta takrorlang');
+        return;
+      }
+      console.log('[QAA] ARABIC ACCEPTED ' + match.surah + ':' + match.ayah + ' ' + pct
+        + (match.isPossible ? ' [POSSIBLE]' : ' [CONFIRMED]')
+        + (match._pairEnd ? ' (range …:' + match._pairEnd + ')' : ''));
+      try {
+        const res = await QAA.QuranSearch.findAyah(match.surah, match.ayah);
+        res._confidence = match.confidence;
+        res._isPossible = !!match.isPossible;
+        res._candidates = match.candidates || [];
+        this.showResult(res);
+      } catch (e) {
+        console.log('[QAA] FIND AYAH ERROR:', e && e.message);
+        this.showError('Arabcha qidiruv xatosi');
+      }
+    },
+
+    /* Arabic recitation search — text-input path.
+       Runs ArabicMatcher then delegates to _showArabicMatch.              */
     async _doArabicSearch(arabicText) {
       this.setState('processing');
       this.setTranscript(arabicText);
@@ -1736,25 +1910,7 @@
       try {
         const match = await QAA.ArabicMatcher.match(arabicText);
         QAA.Debug.setMatch(match);
-
-        if (!match) {
-          console.log('[QAA] ARABIC: no server hits');
-          this.showError('Oyat topilmadi — arabcha qiroatni qaytaring');
-          return;
-        }
-
-        const pct = match.confidence + '%';
-        if (match.confidence < QAA.ArabicMatcher.CONFIDENCE_THRESHOLD) {
-          console.log('[QAA] CONFIDENCE ' + pct + ' < ' + QAA.ArabicMatcher.CONFIDENCE_THRESHOLD + '% — asking to repeat');
-          this.showError('Aniq eshitilmadi (' + pct + ') — qayta takrorlang');
-          return;
-        }
-
-        console.log('[QAA] ARABIC ACCEPTED ' + match.surah + ':' + match.ayah + ' ' + pct
-          + (match._pairEnd ? ' (range …:' + match._pairEnd + ')' : ''));
-        const res = await QAA.QuranSearch.findAyah(match.surah, match.ayah);
-        res._confidence = match.confidence;
-        this.showResult(res);
+        return this._showArabicMatch(match);
       } catch (e) {
         console.log('[QAA] ARABIC SEARCH ERROR:', e && e.message);
         this.showError('Arabcha qidiruv xatosi — qayta urinib ko\'ring');

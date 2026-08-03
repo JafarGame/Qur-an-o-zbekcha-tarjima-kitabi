@@ -198,6 +198,109 @@ assert('segmentIndex is non-empty (lib built it correctly)',
   segmentIndex.length > 0,
   'got ' + segmentIndex.length + ' windows');
 
+// ═══ Group F: scoring constants (5 tests) ══════════════════════════════════
+
+console.log('\n═══ Group F: scoring constants (5 tests) ═══\n');
+
+assert('SEG_WIN === 5',
+  scoring.SEG_WIN === 5,
+  'got ' + scoring.SEG_WIN);
+
+assert('SEG_STEP === 2',
+  scoring.SEG_STEP === 2,
+  'got ' + scoring.SEG_STEP);
+
+// When query === ayah, scoreCoverage = 1.0 and scoreJaccard = 1.0.
+// scoreWithWindows returns coverageWeight * 1.0 + jaccardWeight * 1.0,
+// which equals the sum of the two weights.  If that sum !== 1.0, this fails.
+(function () {
+  // Use a short ayah (<6 tokens) so the window branch is skipped and only the
+  // full-score formula (cov * w1 + jac * w2) is exercised.
+  const score = scoring.scoreWithWindows(qToks(ikhlas4), ikhlas4);
+  assert('coverage + jaccard weights sum to 1.0 (identical query/ayah → score 1.0)',
+    Math.abs(score - 1.0) < 1e-9,
+    'got ' + score.toFixed(6));
+})();
+
+// Lock the individual 0.8 / 0.2 split, not just their sum.
+// Use ikhlas4 as the ayah because it is short after normalization (< 6 tokens),
+// which guarantees scoreWithWindows skips the window branch and runs only
+// the full-score formula: score = cov * 0.8 + jac * 0.2.
+// Query "ولم يكن" (first two words of ikhlas4): coverage = 1.0 (both tokens
+// appear in the ayah), jaccard < 1.0 (ayah has more tokens → larger union).
+// Expected = cov * 0.8 + jac * 0.2, computed with the HARDCODED weights —
+// any weight swap (e.g. 0.5/0.5 or 0.2/0.8) produces a different value.
+(function () {
+  const ayahToks = scoring.tokenize(ikhlas4);
+  // Pre-condition: ikhlas4 must have < 6 tokens so the window branch is skipped.
+  if (ayahToks.length >= 6) {
+    assert('scoreWithWindows uses 0.8 coverage + 0.2 jaccard (not a different split)',
+      false,
+      'pre-condition failed: ikhlas4 has ' + ayahToks.length + ' tokens, expected < 6');
+    return;
+  }
+  const q   = qToks('ولم يكن');
+  const cov = scoring.scoreCoverage(q, ikhlas4);
+  const jac = scoring.scoreJaccard(q, ikhlas4);
+  // Pre-condition: coverage and jaccard must differ so weight order matters.
+  if (Math.abs(cov - jac) < 0.01) {
+    assert('scoreWithWindows uses 0.8 coverage + 0.2 jaccard (not a different split)',
+      false,
+      'pre-condition failed: cov ≈ jac (' + cov.toFixed(3) + '), cannot distinguish weight splits');
+    return;
+  }
+  // Hardcode the intended weights here — this is exactly what we are locking.
+  const expectedWith0_8_0_2 = cov * 0.8 + jac * 0.2;
+  const actual = scoring.scoreWithWindows(q, ikhlas4);
+  assert('scoreWithWindows uses 0.8 coverage + 0.2 jaccard (not a different split)',
+    Math.abs(actual - expectedWith0_8_0_2) < 1e-9,
+    'cov=' + cov.toFixed(3) + ' jac=' + jac.toFixed(3) +
+    ' expected(0.8/0.2)=' + expectedWith0_8_0_2.toFixed(6) + ' got=' + actual.toFixed(6));
+})();
+
+// Lock the 0.8 / 0.2 split inside the sliding-window branch (long ayah path).
+// Kursi (2:255) is long; a 3-token query keeps qToks.length well below
+// ceil(ayahToks.length * 0.7), so the window loop runs.  WIN = max(5, 3) = 5.
+// At the best window where all 3 query tokens fit: cov = 1.0, jac = 3/5 = 0.6.
+// Expected with 0.8/0.2 weights = 0.8*1.0 + 0.2*0.6 = 0.92.
+// With 0.5/0.5 the same window gives 0.80 — any weight drift is caught.
+(function () {
+  const q        = scoring.tokenize('وسع كرسيه السماوات');
+  const ayahToks = scoring.tokenize(kursi);
+  const WIN      = Math.max(5, q.length);
+
+  // Pre-condition: window branch must be taken
+  if (ayahToks.length < 6 || q.length >= Math.ceil(ayahToks.length * 0.7)) {
+    assert('window-branch: scoreWithWindows uses 0.8 coverage + 0.2 jaccard',
+      false, 'pre-condition failed: window branch not taken');
+    return;
+  }
+
+  // Replicate the scan with HARDCODED 0.8/0.2 to produce the expected value.
+  const fullCov   = scoring.scoreCoverage(q, kursi);
+  const fullJac   = scoring.scoreJaccard(q, kursi);
+  let expected    = fullCov * 0.8 + fullJac * 0.2;   // hardcoded weights
+  let bestWinCov  = 0, bestWinJac = 0;
+  for (let i = 0; i + WIN <= ayahToks.length; i++) {
+    const win = ayahToks.slice(i, i + WIN).join(' ');
+    const c   = scoring.scoreCoverage(q, win);
+    const j   = scoring.scoreJaccard(q, win);
+    const s   = c * 0.8 + j * 0.2;                   // hardcoded weights
+    if (s > expected) { expected = s; bestWinCov = c; bestWinJac = j; }
+  }
+
+  const actual           = scoring.scoreWithWindows(q, kursi);
+  const fullScore        = fullCov * 0.8 + fullJac * 0.2;
+  const winDominates     = expected > fullScore + 0.001;
+  const covNeqJac        = Math.abs(bestWinCov - bestWinJac) > 0.01;
+  assert(
+    'window-branch: scoreWithWindows uses 0.8 coverage + 0.2 jaccard (not a different split)',
+    Math.abs(actual - expected) < 1e-9 && winDominates && covNeqJac,
+    'actual=' + actual.toFixed(6) + ' expected(0.8/0.2)=' + expected.toFixed(6) +
+    ' winDominates=' + winDominates + ' covNeqJac=' + covNeqJac
+  );
+})();
+
 // ── Summary ───────────────────────────────────────────────────────────────────
 
 const total = passed + failed;

@@ -505,6 +505,24 @@ body.aa-no-voice .aa-no-voice-note { display: block; }
 .aa-results.aa-result-possible .aa-possible-badge { display: inline-block; }
 
 /* ════════════════════════════════════════════
+   AI-ENHANCED  (Whisper transcription used)
+   ════════════════════════════════════════════ */
+.aa-ai-badge {
+  display: none;
+  font-size: 0.60rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  color: rgba(100,210,255,0.90);
+  background: rgba(60,140,200,0.12);
+  border: 1px solid rgba(80,170,230,0.35);
+  padding: 3px 10px;
+  border-radius: 999px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+.aa-results.aa-result-ai .aa-ai-badge { display: inline-block; }
+
+/* ════════════════════════════════════════════
    ALTERNATIVE CANDIDATES LIST
    ════════════════════════════════════════════ */
 .aa-candidates { margin-bottom: 16px; }
@@ -919,7 +937,7 @@ body.aa-no-voice .aa-no-voice-note { display: block; }
   </div>
 
   <!-- Reference + possible-match badge -->
-  <div id="aa-result-ref" class="aa-result-ref"></div><span id="aa-possible-badge" class="aa-possible-badge">Mumkin oyat</span>
+  <div id="aa-result-ref" class="aa-result-ref"></div><span id="aa-possible-badge" class="aa-possible-badge">Mumkin oyat</span><span class="aa-ai-badge">AI ✦</span>
 
   <!-- Arabic -->
   <div id="aa-result-arabic" class="aa-result-arabic" dir="rtl" lang="ar"></div>

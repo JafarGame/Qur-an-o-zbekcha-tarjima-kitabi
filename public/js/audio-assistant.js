@@ -365,6 +365,14 @@
     supported   : false,
     isListening : false,
 
+    // Audio capture for AI fallback (MediaRecorder, desktop browsers only)
+    _sessionId      : 0,    // incremented on every start() to invalidate stale getUserMedia callbacks
+    _recorder       : null, // active MediaRecorder instance
+    _audioBlob      : null, // latest recorded blob (set by onstop, async after recognition ends)
+    _audioBlobReady : null, // Promise that resolves when _audioBlob is set (or null if no recorder)
+    _audioChunks    : [],   // chunk accumulator during recording
+    _audioMime      : '',   // MIME type negotiated with the browser
+
     init() {
       const proto    = global.location ? global.location.protocol : 'unknown';
       const isSecure = !!global.isSecureContext;
@@ -404,8 +412,57 @@
         return;
       }
       this.stop();
-      this._cbs     = cbs;
-      this._langIdx = 0;
+      this._cbs      = cbs;
+      this._langIdx  = 0;
+
+      // Reset audio capture state for this session.
+      // Increment session ID so any getUserMedia promise that resolves AFTER
+      // stop() was called knows it belongs to a cancelled session and must
+      // release the stream immediately instead of starting a recorder.
+      const mySessionId  = ++this._sessionId;
+      this._audioBlob    = null;
+      this._audioBlobReady = null;
+      this._audioChunks  = [];
+      this._recorder     = null;
+
+      // Start MediaRecorder in parallel with SpeechRecognition (desktop only).
+      // getUserMedia failure is silent — the AI fallback simply won't have audio.
+      if (global.MediaRecorder && global.navigator && global.navigator.mediaDevices) {
+        let resolveBlobReady;
+        // Create the Promise *before* the getUserMedia call so _tryWhisperFallback
+        // can always await it — even if the recorder hasn't started yet.
+        this._audioBlobReady = new Promise(resolve => { resolveBlobReady = resolve; });
+
+        global.navigator.mediaDevices.getUserMedia({ audio: true })
+          .then(stream => {
+            // Session may have been cancelled while getUserMedia was pending.
+            // Release the stream immediately to avoid a dangling microphone track.
+            if (this._sessionId !== mySessionId) {
+              stream.getTracks().forEach(t => t.stop());
+              resolveBlobReady(null);   // unblock any awaiter with null
+              return;
+            }
+            const TYPES = ['audio/webm;codecs=opus', 'audio/webm', 'audio/ogg', ''];
+            const mt   = TYPES.find(t => t === '' || MediaRecorder.isTypeSupported(t));
+            const opts = mt ? { mimeType: mt } : {};
+            const rec  = new MediaRecorder(stream, opts);
+            this._audioMime = rec.mimeType || 'audio/webm';
+            rec.ondataavailable = e => { if (e.data && e.data.size > 0) this._audioChunks.push(e.data); };
+            rec.onstop = () => {
+              this._audioBlob = new Blob(this._audioChunks, { type: this._audioMime });
+              stream.getTracks().forEach(t => t.stop());
+              console.log('[QAA] AUDIO CAPTURED ' + this._audioBlob.size + 'B (' + this._audioMime + ')');
+              resolveBlobReady(this._audioBlob);   // signal _tryWhisperFallback
+            };
+            rec.start(250);   // 250 ms timeslices → faster data availability on recognition end
+            this._recorder = rec;
+          })
+          .catch(e => {
+            console.log('[QAA] MediaRecorder init (non-fatal):', e && e.message);
+            resolveBlobReady(null);   // unblock any awaiter with null
+          });
+      }
+
       this._attempt(this._LANGS[0]);
     },
 
@@ -431,7 +488,7 @@
       // which swallows the transcript completely. Let the browser finalize naturally.
       r.onspeechend   = () => console.log('[QAA] ONSPEECHEND  — speech stopped, browser finalising...');
       r.onsoundend    = () => console.log('[QAA] ONSOUNDEND   — sound ended');
-      r.onaudioend    = () => console.log('[QAA] ONAUDIOEND   — mic stopped capturing');
+      r.onaudioend    = () => { console.log('[QAA] ONAUDIOEND   — mic stopped capturing'); this._stopRecorder(); };
 
       r.onnomatch = () => {
         // Browser heard audio but no match above confidence threshold.
@@ -538,6 +595,17 @@
         this._active = null;
       }
       this.isListening = false;
+      this._stopRecorder();
+    },
+
+    /* Stop the MediaRecorder and release the stream.
+       Called on onaudioend (normal session end) and on stop() (user abort).
+       Idempotent — safe to call multiple times.                             */
+    _stopRecorder() {
+      if (this._recorder && this._recorder.state !== 'inactive') {
+        try { this._recorder.stop(); } catch (_) {}
+      }
+      this._recorder = null;
     },
   };
 
@@ -835,6 +903,41 @@
       return this.normalize(text).split(/\s+/).filter(Boolean);
     },
 
+    /* Score a query against an ayah using BOTH full-ayah and sliding-window
+       methods, returning the maximum.
+       For short queries (a phrase from the middle of a long ayah) the window
+       score is much higher because Jaccard is not penalised by the unrelated
+       tokens in the rest of the ayah.
+       Window parameters mirror the server-side segment index:
+         WIN=5 tokens, STEP=2 (same constants as web-server.js SEG_WIN/SEG_STEP). */
+    _scoreWithWindows(qToks, ayahArabic) {
+      const fullCov   = this.scoreCoverage(qToks, ayahArabic);
+      const fullJac   = this.scoreJaccard(qToks, ayahArabic);
+      const fullScore = fullCov * 0.8 + fullJac * 0.2;
+
+      const ayahToks = this.tokenize(ayahArabic);
+      // Only slide a window when the ayah is substantially longer than the query
+      // (avoids wasted work on short ayahs that are already well-scored full-width)
+      if (ayahToks.length < 6 || qToks.length >= Math.ceil(ayahToks.length * 0.7)) {
+        return fullScore;
+      }
+
+      // Window is at least as wide as the query so the query always fits inside.
+      // Stride=1 guarantees we find the optimal alignment regardless of where
+      // the phrase begins within the ayah. Early-exit on perfect score (1.0).
+      const WIN  = Math.max(5, qToks.length);
+      let bestWinScore = 0;
+      for (let i = 0; i + WIN <= ayahToks.length; i++) {
+        const win = ayahToks.slice(i, i + WIN).join(' ');
+        const cov = this.scoreCoverage(qToks, win);
+        const jac = this.scoreJaccard(qToks, win);
+        const s   = cov * 0.8 + jac * 0.2;
+        if (s > bestWinScore) bestWinScore = s;
+        if (bestWinScore >= 1.0) break;
+      }
+      return Math.max(fullScore, bestWinScore);
+    },
+
     /* % of query tokens that appear in the ayah — primary metric.
        Robust for partial recitation: user says fewer words than full ayah. */
     scoreCoverage(qToks, ayahArabic) {
@@ -983,14 +1086,14 @@
 
       if (!hits.length) return null;
 
-      // Score all candidates: coverage (80 %) + Jaccard (20 %).
-      // Keep the sorted list so we can return top-2 alternatives.
+      // Score all candidates using full-ayah + sliding-window method.
+      // _scoreWithWindows returns max(fullAyahScore, bestWindowScore) so
+      // short phrases within long ayahs (e.g. middle of Ayat al-Kursi)
+      // are not penalised by a low Jaccard over the full ayah token set.
       const scored = hits.map(h => {
-        const cov   = this.scoreCoverage(qToks, h.arabic);
-        const jac   = this.scoreJaccard(qToks, h.arabic);
-        const score = cov * 0.8 + jac * 0.2;
+        const score = this._scoreWithWindows(qToks, h.arabic);
         console.log('[QAA]   ' + h.surah + ':' + h.ayah
-          + ' cov=' + (cov * 100).toFixed(0) + '% jac=' + (jac * 100).toFixed(0) + '%');
+          + ' score=' + (score * 100).toFixed(0) + '%');
         return { h, score };
       });
       scored.sort((a, b) => b.score - a.score);
@@ -1514,7 +1617,7 @@
       el.classList.toggle('aa-transcript-visible', !!t);
     },
 
-    showResult({ surah, ayah, _confidence, _isPossible, _candidates }) {
+    showResult({ surah, ayah, _confidence, _isPossible, _candidates, _aiEnhanced }) {
       this._currentResult = { surah, ayah };
       const name = (global.Lang && Lang.surahName(surah.number)) || surah.name;
       this.els.resultRef.textContent    = name + ' · ' + surah.number + ':' + Number(ayah.number);
@@ -1523,6 +1626,9 @@
 
       // Possible-match visual state (amber border + badge visible via CSS)
       this.els.results.classList.toggle('aa-result-possible', !!_isPossible);
+      // AI-enhanced indicator (shown when Whisper improved the result)
+      this.els.results.classList.toggle('aa-result-ai', !!_aiEnhanced);
+      if (_aiEnhanced) QAA.Debug.set('path', 'Arabic + Whisper AI [✓]');
 
       // Alternative candidates
       this._renderCandidates(_candidates || []);
@@ -1561,9 +1667,10 @@
 
     hideResult() {
       this.els.results.classList.remove('aa-results-open');
-      // Always clear possible-match state so a subsequent confirmed result
-      // (structured lookup, text search, etc.) never inherits the amber border.
+      // Always clear possible-match and AI-enhanced state so a subsequent
+      // confirmed or non-AI result never inherits those visual indicators.
       this.els.results.classList.remove('aa-result-possible');
+      this.els.results.classList.remove('aa-result-ai');
       this._renderCandidates([]);   // clear candidates panel
       this.setState('idle');
       this._currentResult = null;
@@ -1869,9 +1976,68 @@
       }
     },
 
+    /* Post the captured audio blob to /api/transcribe for AI-powered Arabic
+       transcription (Whisper).  Returns { transcript, source } or null.   */
+    async _tryWhisperFallback() {
+      // onstop fires asynchronously after _stopRecorder() is called.
+      // Await the ready-promise (set in start()) with a 600 ms safety timeout
+      // so we don't miss the blob due to the race between onaudioend and
+      // the async chain that leads here via onresult → onFinal → _showArabicMatch.
+      if (!QAA.SpeechInput._audioBlob && QAA.SpeechInput._audioBlobReady) {
+        await Promise.race([
+          QAA.SpeechInput._audioBlobReady,
+          new Promise(r => setTimeout(r, 600)),
+        ]);
+      }
+      const blob = QAA.SpeechInput._audioBlob;
+      if (!blob || blob.size < 500) {
+        console.log('[QAA] WHISPER: no usable audio (size=' + (blob ? blob.size : 0) + ')');
+        return null;
+      }
+      console.log('[QAA] WHISPER FALLBACK — posting ' + blob.size + 'B');
+      try {
+        const fd = new FormData();
+        fd.append('audio', blob, 'recitation.webm');
+        const resp = await fetch('/api/transcribe', { method: 'POST', body: fd });
+        if (!resp.ok) return null;
+        const data = await resp.json();
+        if (!data || !data.transcript) return null;
+        console.log('[QAA] WHISPER TRANSCRIPT: "' + data.transcript + '" [' + data.source + ']');
+        return data;
+      } catch (e) {
+        console.log('[QAA] WHISPER REQUEST FAILED:', e && e.message);
+        return null;
+      }
+    },
+
     /* Shared threshold + display handler used by both voice and text paths.
-       Accepts a pre-computed match from ArabicMatcher.match().             */
-    async _showArabicMatch(match) {
+       Accepts a pre-computed match from ArabicMatcher.match().
+       _isAiRetry = true means this is the AI-enhanced second pass.        */
+    async _showArabicMatch(match, _isAiRetry) {
+      // AI fallback: if confidence is absent or below 75%, try Whisper once.
+      // A Whisper transcript is used only when it produces a better match.
+      const AI_THRESHOLD = 75;
+      const wantsFallback = !_isAiRetry && (
+        !match ||
+        match.confidence < QAA.ArabicMatcher.POSSIBLE_THRESHOLD ||
+        match.confidence < AI_THRESHOLD
+      );
+      if (wantsFallback) {
+        const ai = await this._tryWhisperFallback();
+        if (ai && ai.transcript) {
+          QAA.Debug.set('path', 'Arabic + Whisper AI');
+          QAA.Debug.set('norm', QAA.ArabicMatcher.normalize(ai.transcript));
+          const aiMatch = await QAA.ArabicMatcher.match(ai.transcript).catch(() => null);
+          QAA.Debug.setMatch(aiMatch);
+          if (aiMatch && (!match || aiMatch.confidence > match.confidence)) {
+            console.log('[QAA] WHISPER IMPROVED: '
+              + (match ? match.confidence : 0) + '% → ' + aiMatch.confidence + '%');
+            return this._showArabicMatch(aiMatch, true);   // retry once with AI result
+          }
+          console.log('[QAA] WHISPER did not improve confidence — using original match');
+        }
+      }
+
       if (!match) {
         console.log('[QAA] ARABIC: no server hits');
         this.showError('Oyat topilmadi — arabcha qiroatni qaytaring');
@@ -1885,12 +2051,14 @@
       }
       console.log('[QAA] ARABIC ACCEPTED ' + match.surah + ':' + match.ayah + ' ' + pct
         + (match.isPossible ? ' [POSSIBLE]' : ' [CONFIRMED]')
+        + (_isAiRetry ? ' [Whisper AI ✓]' : '')
         + (match._pairEnd ? ' (range …:' + match._pairEnd + ')' : ''));
       try {
         const res = await QAA.QuranSearch.findAyah(match.surah, match.ayah);
         res._confidence = match.confidence;
         res._isPossible = !!match.isPossible;
         res._candidates = match.candidates || [];
+        res._aiEnhanced = !!_isAiRetry;
         this.showResult(res);
       } catch (e) {
         console.log('[QAA] FIND AYAH ERROR:', e && e.message);

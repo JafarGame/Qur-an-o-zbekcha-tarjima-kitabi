@@ -1,9 +1,12 @@
 // Standalone Quran reading website.
 // This is completely separate from index.js (the Telegram bot) and does not
 // touch it, its process, or its dependencies. It only reads quran.json.
-const express = require("express");
-const path = require("path");
-const quran = require("./quran.json");
+const express  = require("express");
+const path     = require("path");
+const multer   = require("multer");
+const FormData = require("form-data");
+const axios    = require("axios");
+const quran    = require("./quran.json");
 
 const app = express();
 const PORT = process.env.WEB_PORT || 5000;
@@ -105,6 +108,33 @@ Object.keys(quran)
       });
   });
 
+// ── Segment index — overlapping 5-token windows for long ayahs ──────────
+// Long ayahs (e.g. Ayat al-Kursi at ~50 tokens) are penalised by full-ayah
+// Jaccard scoring when a user recites only a short phrase.  Instead we slice
+// each long ayah into overlapping 5-token windows (stride 2) so any 4+
+// consecutive words can match the correct window at high confidence.
+const SEG_WIN  = 5;   // tokens per window
+const SEG_STEP = 2;   // stride between windows
+const segmentIndex = [];
+for (const item of searchIndex) {
+  const tokens = item.arabicNormalized.split(/\s+/).filter(Boolean);
+  if (tokens.length < 6) continue;   // short ayahs are well-served by full match
+  for (let i = 0; i + SEG_WIN <= tokens.length; i += SEG_STEP) {
+    segmentIndex.push({
+      surah      : item.surah,
+      ayah       : item.ayah,
+      arabic     : item.arabic,
+      translation: item.translation,
+      windowText : tokens.slice(i, i + SEG_WIN).join(' '),
+    });
+  }
+}
+console.log(
+  '[Quran] Segment index: ' + segmentIndex.length + ' windows built from ' +
+  searchIndex.filter(it => it.arabicNormalized.split(/\s+/).filter(Boolean).length >= 6).length +
+  ' long ayahs'
+);
+
 function resolveReference(raw) {
   const q = raw.trim();
 
@@ -165,6 +195,39 @@ function searchText(raw, limit) {
         surahName: surahNames[item.surah - 1] || `Surah ${item.surah}`,
         arabic: item.arabic,
         translation: item.translation,
+      });
+      if (results.length >= limit) break;
+    }
+  }
+  return results;
+}
+
+// Segment search: score query tokens against 5-token windows of long ayahs.
+// Same 67%-token-coverage rule as searchText; deduplicates by surah+ayah.
+// Short queries (≤ 3 tokens) should use full-ayah search only to avoid noise.
+function searchSegments(qNormTokens, limit) {
+  if (!qNormTokens.length) return [];
+  const minMatch = qNormTokens.length <= 2
+    ? qNormTokens.length
+    : Math.max(2, Math.floor(qNormTokens.length * 0.67));
+  const seen = new Set();
+  const results = [];
+  for (const seg of segmentIndex) {
+    const key = seg.surah + ':' + seg.ayah;
+    if (seen.has(key)) continue;     // already found via an earlier window
+    let hits = 0;
+    for (const qt of qNormTokens) {
+      if (seg.windowText.includes(qt)) hits++;
+      if (hits >= minMatch) break;
+    }
+    if (hits >= minMatch) {
+      seen.add(key);
+      results.push({
+        surah      : seg.surah,
+        ayah       : seg.ayah,
+        surahName  : surahNames[seg.surah - 1] || `Surah ${seg.surah}`,
+        arabic     : seg.arabic,
+        translation: seg.translation,
       });
       if (results.length >= limit) break;
     }
@@ -236,9 +299,118 @@ app.get("/api/search", (req, res) => {
   // Use a larger candidate pool for Arabic queries so late-surah ayahs
   // (e.g. 55:2 for القرآن) are not cut off by an early limit.
   const isArabic = /[\u0600-\u06FF]/.test(raw);
-  const results = searchText(raw, isArabic ? 200 : 40);
+  const results  = searchText(raw, isArabic ? 200 : 40);
+
+  // For Arabic queries with > 3 tokens, augment with segment search so
+  // partial phrases within long ayahs (e.g. Ayat al-Kursi middle) are found.
+  if (isArabic) {
+    const qNorm = stripArabicDiacritics(raw);
+    const qToks = qNorm.split(/\s+/).filter(t => t.length > 1);
+    if (qToks.length > 3) {
+      const segResults = searchSegments(qToks, 50);
+      const seen = new Set(results.map(r => r.surah + ':' + r.ayah));
+      for (const sr of segResults) {
+        const key = sr.surah + ':' + sr.ayah;
+        if (!seen.has(key)) { seen.add(key); results.push(sr); }
+      }
+    }
+  }
   return res.json({ type: "results", results, query: raw });
 });
+
+// ── /api/transcribe — AI speech-to-text via OpenAI Whisper ─────────────
+// Accepts multipart/form-data POST with an 'audio' field (WebM/Opus blob).
+// When WHISPER_API_KEY is configured, proxies to whisper-1 with language=ar
+// and returns { transcript, source: "whisper" }.
+// When no key is present returns { transcript: null, source: "unavailable" }.
+// All audio is handled in-memory — no disk writes.
+//
+// Security controls:
+//   • 25 MB file-size cap (Whisper's own maximum)
+//   • MIME-type allowlist — only audio/* and application/octet-stream accepted
+//   • 10 requests per minute per IP in-memory rate limit
+
+const AUDIO_MIME_RE = /^(audio\/|application\/octet-stream)/i;
+const _upload = multer({
+  storage: multer.memoryStorage(),
+  limits : { fileSize: 25 * 1024 * 1024, files: 1 },
+  fileFilter: (_req, file, cb) => {
+    if (AUDIO_MIME_RE.test(file.mimetype)) return cb(null, true);
+    cb(Object.assign(new Error('Unsupported MIME type: ' + file.mimetype), { code: 'INVALID_MIME' }));
+  },
+});
+
+// Simple in-memory rate limiter — 10 requests per 60 s per IP.
+// Not a replacement for a proper gateway limit but prevents runaway cost
+// from a single unauthenticated client.
+const _transcribeRates = new Map();
+const _RL_LIMIT = 10, _RL_WINDOW = 60_000;
+function _transcribeAllowed(ip) {
+  const now  = Date.now();
+  const slot = _transcribeRates.get(ip) || { n: 0, until: now + _RL_WINDOW };
+  if (now > slot.until) { slot.n = 0; slot.until = now + _RL_WINDOW; }
+  slot.n++;
+  _transcribeRates.set(ip, slot);
+  return slot.n <= _RL_LIMIT;
+}
+
+app.post('/api/transcribe',
+  // 1. Rate limiter
+  (req, res, next) => {
+    const ip = req.ip || (req.socket && req.socket.remoteAddress) || 'unknown';
+    if (!_transcribeAllowed(ip)) {
+      return res.status(429).json({ transcript: null, source: 'rate-limited' });
+    }
+    next();
+  },
+  // 2. File upload (with size + MIME enforcement)
+  (req, res, next) => {
+    _upload.single('audio')(req, res, err => {
+      if (!err) return next();
+      if (err.code === 'LIMIT_FILE_SIZE') {
+        return res.status(413).json({ transcript: null, source: 'file-too-large' });
+      }
+      return res.status(400).json({ transcript: null,
+        source: err.code === 'INVALID_MIME' ? 'unsupported-type' : 'upload-error' });
+    });
+  },
+  // 3. Whisper proxy
+  async (req, res) => {
+    const key = process.env.WHISPER_API_KEY;
+    if (!key || !req.file || !req.file.buffer || !req.file.buffer.length) {
+      return res.json({ transcript: null, source: 'unavailable' });
+    }
+    try {
+      const fd = new FormData();
+      fd.append('file', req.file.buffer, {
+        filename   : req.file.originalname || 'audio.webm',
+        contentType: req.file.mimetype     || 'audio/webm',
+      });
+      fd.append('model',           'whisper-1');
+      fd.append('language',        'ar');
+      fd.append('response_format', 'json');
+      const resp = await axios.post(
+        'https://api.openai.com/v1/audio/transcriptions',
+        fd,
+        {
+          headers: { ...fd.getHeaders(), Authorization: 'Bearer ' + key },
+          maxBodyLength   : Infinity,
+          maxContentLength: Infinity,
+          timeout         : 15000,
+        }
+      );
+      const transcript = (resp.data && resp.data.text) || null;
+      console.log('[Quran] Whisper transcript:', transcript ? transcript.slice(0, 80) : 'null');
+      return res.json({ transcript, source: 'whisper' });
+    } catch (err) {
+      const detail = err.response
+        ? err.response.status + ' ' + JSON.stringify(err.response.data).slice(0, 120)
+        : err.message;
+      console.error('[Quran] Whisper error:', detail);
+      return res.json({ transcript: null, source: 'error' });
+    }
+  }
+);
 
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`Quran reading website running on port ${PORT}`);

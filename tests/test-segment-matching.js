@@ -709,6 +709,38 @@ console.log('\n═══ Group K: token-count histogram snapshot (6 tests) ═�
   );
 })();
 
+// ═══ Group L: total ayah count pinned at exactly 6236 (1 test) ════════════════
+//
+// The histogram buckets in Group K are each pinned at ±10, which means a
+// quran.json update that adds or removes a small surah (≤10 ayahs) could shift
+// one bucket within tolerance and go undetected.  Pinning the corpus-wide total
+// to ±0 catches any such insertion, deletion, or duplication of a whole surah
+// before it reaches production.
+//
+//   Baseline (computed 2026-08-03 from current quran.json): 6236 ayahs
+
+console.log('\n═══ Group L: total ayah count pinned at exactly 6236 (1 test) ═══\n');
+
+(function () {
+  var TOTAL_AYAH_BASELINE = 6236;
+
+  var totalAyahs = 0;
+  Object.keys(quran)
+    .map(Number)
+    .sort(function (a, b) { return a - b; })
+    .forEach(function (surahNum) {
+      totalAyahs += Object.keys(quran[surahNum]).length;
+    });
+
+  assert(
+    'L-1: total ayah count across all surahs === ' + TOTAL_AYAH_BASELINE +
+      ' (got ' + totalAyahs + ')',
+    totalAyahs === TOTAL_AYAH_BASELINE,
+    'totalAyahs=' + totalAyahs + ' baseline=' + TOTAL_AYAH_BASELINE +
+      ' diff=' + (totalAyahs - TOTAL_AYAH_BASELINE)
+  );
+})();
+
 // ── Summary ───────────────────────────────────────────────────────────────────
 
 const total = passed + failed;

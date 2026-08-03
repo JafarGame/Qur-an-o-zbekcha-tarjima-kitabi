@@ -879,34 +879,44 @@
       return ayahNum <= this.SURAH_AYAH_COUNT[surahNum];
     },
 
-    /* Spot-check SURAH_AYAH_COUNT against the live /api/surah/:n endpoint.
-       Runs asynchronously at startup; logs a console warning for any mismatch.
-       Does NOT throw — the boundary guard degrades gracefully; the warning is
+    /* Check SURAH_AYAH_COUNT against the live /api/surahs endpoint (all 114).
+       Runs asynchronously at startup; logs a console warning for every mismatch.
+       Uses /api/surahs (one request, full list) so no surah is unsampled.
+       Does NOT throw — the boundary guard degrades gracefully; warnings are
        advisory so drift is caught in development before it affects users.     */
     async checkAyahCountIntegrity() {
-      // Representative sample: short, medium, and long surahs plus boundaries.
-      const SPOT = [1, 2, 36, 55, 112, 114];
-      const mismatches = [];
-      for (const s of SPOT) {
-        try {
-          const res = await fetch('/api/surah/' + s);
-          if (!res.ok) continue;  // server unavailable — skip silently
-          const data = await res.json();
-          const live     = data.ayahCount;
-          const expected = this.SURAH_AYAH_COUNT[s];
-          if (typeof live === 'number' && live !== expected) {
-            mismatches.push({ surah: s, expected, live });
-          }
-        } catch (_) { /* network error — skip */ }
+      let list;
+      try {
+        const res = await fetch('/api/surahs');
+        if (!res.ok) {
+          console.log('[QAA] SURAH_AYAH_COUNT check skipped — /api/surahs unavailable (status ' + res.status + ')');
+          return;
+        }
+        list = await res.json();
+      } catch (_) {
+        console.log('[QAA] SURAH_AYAH_COUNT check skipped — server unreachable');
+        return;
       }
+
+      // list is [{number, name, ayahCount}, ...] for all 114 surahs
+      const mismatches = [];
+      for (const item of list) {
+        const s        = item.number;
+        const live     = item.ayahCount;
+        const expected = this.SURAH_AYAH_COUNT[s];
+        if (typeof live === 'number' && typeof expected === 'number' && live !== expected) {
+          mismatches.push({ surah: s, expected, live });
+        }
+      }
+
       if (mismatches.length) {
         console.warn(
-          '[QAA] ⚠️  SURAH_AYAH_COUNT DRIFT DETECTED — ' + mismatches.length + ' mismatch(es): ' +
-          mismatches.map(m => 'surah ' + m.surah + ': table=' + m.expected + ' live=' + m.live).join(', ') +
-          ' — cross-surah boundary guard may mis-pair ayahs. Update SURAH_AYAH_COUNT.'
+          '[QAA] ⚠️  SURAH_AYAH_COUNT DRIFT DETECTED — ' + mismatches.length + ' of 114 surahs mismatch:\n  ' +
+          mismatches.map(m => 'surah ' + m.surah + ': table=' + m.expected + ' live=' + m.live).join('\n  ') +
+          '\n  Cross-surah boundary guard may mis-pair ayahs. Update SURAH_AYAH_COUNT in audio-assistant.js.'
         );
       } else {
-        console.log('[QAA] SURAH_AYAH_COUNT spot-check: ' + SPOT.length + ' surahs OK');
+        console.log('[QAA] SURAH_AYAH_COUNT check: all ' + list.length + ' surahs OK');
       }
     },
 

@@ -286,6 +286,59 @@
     'amanar rasul'  : {s:2, a:285},
     // Shahidallah — Al-Imran 3:18
     'shahidallah'   : {s:3, a:18},  'shahida allah'  : {s:3, a:18},
+
+    // ── Latin transliterations of Al-Fatiha (1:1–7) ─────────────────────
+    // 1:1 Bismillah
+    'bismillahi rahmanir rahim'  : {s:1, a:1},
+    'bismillahir rahmanir rahim' : {s:1, a:1},
+    'bismilla'                   : {s:1, a:1},
+    'bismillah'                  : {s:1, a:1},
+    // 1:2 Alhamdu
+    'alhamdu lillahi rabbil alamin'    : {s:1, a:2},
+    'alhamdu lillahi rabil alamin'     : {s:1, a:2},
+    'alhamdu lillah rabbil alamin'     : {s:1, a:2},
+    'el hamdu lillahi robbil alamin'   : {s:1, a:2},
+    'elhamdu lillahi robbil olamin'    : {s:1, a:2},
+    'alhamdu lillah'                   : {s:1, a:2},
+    'alhamdulillah'                    : {s:1, a:2},
+    // 1:3 Ar-Rahman
+    'ar rahman ar rahim'         : {s:1, a:3},
+    'ar rohman ar rohim'         : {s:1, a:3},
+    'arrahman arrahim'           : {s:1, a:3},
+    'arrahmani arrahim'          : {s:1, a:3},
+    // 1:4 Maliki yawmiddin
+    'maliki yawmiddin'           : {s:1, a:4},
+    'moliki yomiddin'            : {s:1, a:4},
+    'maliki yaumiddin'           : {s:1, a:4},
+    // 1:5 Iyyaka nabudu
+    'iyyaka nabudu wa iyyaka nastain'  : {s:1, a:5},
+    'iyoka nobudu wa iyoka nostayin'  : {s:1, a:5},
+    'iyyaka nabudu'                    : {s:1, a:5},
+    // 1:6 Ihdinassiratal mustaqim
+    'ihdinassiratal mustaqim'    : {s:1, a:6},
+    'ihdina sirat al mustaqim'   : {s:1, a:6},
+    'ihdinassiroatal mustaqiym'  : {s:1, a:6},
+    // 1:7 Siratal ladhina
+    'sirat alladhina anamta alayhim'   : {s:1, a:7},
+    'siratal lazina anamta alayhim'    : {s:1, a:7},
+
+    // ── Al-Ikhlas 112:1–4 ───────────────────────────────────────────────
+    'qul huwallahu ahad'         : {s:112, a:1},
+    'qul huwa allahu ahad'       : {s:112, a:1},
+    'kul huvallahu ahad'         : {s:112, a:1},
+    'allahu samad'               : {s:112, a:2},
+    'lam yalid walam yulad'      : {s:112, a:3},
+    'lam yalid wa lam yulad'     : {s:112, a:3},
+
+    // ── Ayatul Kursi full transliteration fragments ──────────────────────
+    'allahu la ilaha illa huwa'        : {s:2, a:255},
+    'allah la ilaha illahuwa'          : {s:2, a:255},
+    'allahu la ilaha illa huw'         : {s:2, a:255},
+    'la ilaha illallah'                : {s:2, a:255},
+
+    // ── Surah Ya-Sin opening ─────────────────────────────────────────────
+    'ya sin walqurani alhakim'   : {s:36, a:2},
+    'walqurani alhakim'          : {s:36, a:2},
   };
 
   /* ──────────────────────────────────────────────────────────────────────
@@ -735,6 +788,162 @@
   };
 
   /* ──────────────────────────────────────────────────────────────────────
+   * § 4c  TRANSLITERATION MATCHER
+   *
+   *  Converts Latin phonetic Arabic ("Alhamdu lillahi rabbil alamin",
+   *  "el hamdu lillahi robbil alamin") → approximate Arabic Unicode →
+   *  then runs it through ArabicMatcher for confidence-scored matching.
+   *
+   *  Pipeline:
+   *    isLikelyTranslit()  — detect that input is a transliteration
+   *    convertToArabic()   — token-level dictionary lookup
+   *    ArabicMatcher.match() — score & threshold
+   * ────────────────────────────────────────────────────────────────────── */
+  QAA.TranslitMatcher = {
+
+    /* Latin phonetic → Arabic word dictionary.
+       Keys are lowercase, apostrophe-free spellings covering Uzbek and
+       common English/Arabic romanisation variants.                       */
+    DICT: {
+      // Articles / conjunctions / prepositions
+      'al':'ال','el':'ال','ul':'ال','il':'ال',
+      'wa':'و','wala':'ولا','la':'لا','laa':'لا',
+      'fi':'في','fil':'في','min':'من','ila':'إلى',
+      'ma':'ما','maa':'ما','ala':'على',
+      // Allah
+      'allah':'الله','allahu':'الله','allahi':'الله','allaahi':'الله',
+      'bismillah':'بسم الله','bismilla':'بسم الله','bismillahi':'بسم الله',
+      'bismillahir':'بسم الله','bismi':'بسم',
+      // Al-Fatiha core vocabulary
+      'alhamdu':'الحمد','alhamd':'الحمد','elhamdu':'الحمد','elhamd':'الحمد',
+      'lillahi':'لله','lillah':'لله','lilloh':'لله','lillohi':'لله',
+      'lillahir':'لله',
+      'rabbil':'رب','robil':'رب','rabil':'رب','rabbi':'رب',
+      'robbi':'رب','robb':'رب','rabb':'رب',
+      'alamin':'العالمين','olamin':'العالمين','alameen':'العالمين',
+      'olomin':'العالمين','aalameen':'العالمين',
+      'rahman':'الرحمن','rohman':'الرحمن','rahmaan':'الرحمن',
+      'arrahman':'الرحمن','arrahmaan':'الرحمن','ar-rahman':'الرحمن',
+      'rahim':'الرحيم','rohim':'الرحيم','raheem':'الرحيم',
+      'arrahim':'الرحيم','arrohim':'الرحيم','ar-rahim':'الرحيم',
+      'rahmanir':'الرحمن','rahiim':'الرحيم',
+      'maliki':'مالك','moliki':'مالك','maaliki':'مالك','maaliku':'مالك',
+      'yawmi':'يوم','yomi':'يوم','yaum':'يوم','yowm':'يوم','yawm':'يوم',
+      'yawmiddin':'يوم الدين','yomiddin':'يوم الدين','yaumiddin':'يوم الدين',
+      'ddin':'الدين','deen':'الدين','din':'الدين','addeen':'الدين',
+      'iyyaka':'إياك','iyaka':'إياك','iyoka':'إياك',
+      'nabudu':'نعبد','nobudu':'نعبد','nabud':'نعبد',
+      'nastain':'نستعين','nastaeen':'نستعين','nostayin':'نستعين',
+      'nastayin':'نستعين','nastaiyn':'نستعين',
+      'ihdinaa':'اهدنا','ihdina':'اهدنا','hidina':'اهدنا',
+      'sirat':'الصراط','siraat':'الصراط','ssiratal':'الصراط',
+      'siratal':'الصراط','assiratal':'الصراط',
+      'mustaqim':'المستقيم','mustaqeem':'المستقيم','mustaqiym':'المستقيم',
+      'alladhina':'الذين','allazina':'الذين','allazeen':'الذين',
+      'anamta':'أنعمت','anamtu':'أنعمت',
+      'alayhim':'عليهم','aleykhim':'عليهم','aleyhim':'عليهم',
+      'ghayril':'غير','ghayr':'غير',
+      'maghdubi':'المغضوب','maghdoubi':'المغضوب',
+      'alayhim':'عليهم',
+      'dallin':'الضالين','daalin':'الضالين','zoolin':'الضالين',
+      // Ayatul Kursi vocabulary
+      'ilaha':'إله','ilah':'إله','iloha':'إله',
+      'illa':'إلا','illoo':'إلا','illo':'إلا',
+      'huwa':'هو','huw':'هو',
+      'hayyu':'الحي','hayyul':'الحي','hayul':'الحي','haiy':'الحي',
+      'qayyum':'القيوم','qayyumu':'القيوم','qoyyum':'القيوم',
+      'qayum':'القيوم','qayyoom':'القيوم',
+      'sinah':'سنة','sina':'سنة','sana':'سنة',
+      'nawm':'نوم','noom':'نوم',
+      'samawat':'السماوات','samaawat':'السماوات','samovot':'السماوات',
+      'ard':'الأرض','ardh':'الأرض','aardh':'الأرض',
+      'yashfa':'يشفع','yashfau':'يشفع',
+      'kursiyu':'كرسيه','kursiyy':'كرسيه','kursiyuhu':'كرسيه',
+      // Al-Ikhlas vocabulary
+      'qul':'قل',
+      'huwallahu':'الله','huw':'هو',
+      'ahad':'أحد',
+      'samad':'الصمد','somad':'الصمد',
+      'yalid':'يلد','walad':'يلد',
+      'yulad':'يولد',
+      'kufuwan':'كفوا','kufuan':'كفوا',
+      // Al-Falaq / An-Nas
+      'auzubillahi':'أعوذ بالله','audhu':'أعوذ',
+      'bishарri':'من شر','min sharri':'من شر',
+      // General
+      'rabb':'رب','nabi':'نبي','rasul':'رسول',
+      'subhan':'سبحان','hamd':'الحمد',
+    },
+
+    /* Detect: does this Latin text look like a Quran transliteration?
+       Anchors on words that almost only appear in Quran/Islamic context.  */
+    isLikelyTranslit(text) {
+      if (/[\u0600-\u06FF]/.test(text)) return false;
+      return /\b(alhamdu|elhamdu|alhamdulillah|lillahi|bismillah|bismilla|rabbil|robbi|rabbi|alamin|rahman|rahim|iyyaka|nabudu|nastain|sirat|mustaqim|ilaha|hayyu|qayyum|yawmiddin|allahu\s+ahad|qul\s+huw|qul\s+kul|samad|kufuwan)\b/i.test(text);
+    },
+
+    /* Normalize a transliteration string for lookup */
+    _norm(text) {
+      return text.toLowerCase()
+        .replace(/[''`\-\.]/g, '')     // apostrophes, hyphens, dots
+        .replace(/\s+/g, ' ').trim();
+    },
+
+    /* Convert a Latin phonetic transliteration to approximate Arabic Unicode.
+       Returns { arabic, matchedRatio }.                                   */
+    convertToArabic(text) {
+      const norm   = this._norm(text);
+      const tokens = norm.split(/\s+/);
+      const arabic = [];
+      let matched  = 0;
+
+      for (const tok of tokens) {
+        if (this.DICT[tok]) {
+          arabic.push(this.DICT[tok]);
+          matched++;
+          continue;
+        }
+        // Strip common Uzbek/Arabic inflection suffixes and retry
+        const variants = [
+          tok.replace(/[uia]$/, ''),       // final short vowel
+          tok.replace(/na$/, ''),           // 1st-person plural -na
+          tok.replace(/ni$/, ''),           // genitive -ni
+          tok.replace(/hu$/, ''),           // possessive -hu
+          tok.replace(/hi$/, ''),           // -hi
+          tok.replace(/kum$/, ''),          // -kum (you pl.)
+          tok.replace(/tum$/, ''),          // -tum
+          tok.replace(/ii$/, 'i'),          // doubled i → i
+          tok.replace(/uu$/, 'u'),          // doubled u
+        ];
+        const found = variants.find(v => v !== tok && this.DICT[v]);
+        if (found) {
+          arabic.push(this.DICT[found]);
+          matched++;
+        }
+      }
+
+      return {
+        arabic      : arabic.join(' '),
+        matchedRatio: tokens.length ? matched / tokens.length : 0,
+      };
+    },
+
+    /* Full match pipeline: convert → ArabicMatcher → confidence result.  */
+    async match(text) {
+      const { arabic, matchedRatio } = this.convertToArabic(text);
+      console.log('[QAA] TRANSLIT → Arabic: "' + arabic
+        + '" (matched ' + Math.round(matchedRatio * 100) + '% of tokens)');
+
+      if (!arabic || matchedRatio < 0.40) {
+        console.log('[QAA] TRANSLIT: insufficient token match — skip');
+        return null;
+      }
+      // Delegate scoring to ArabicMatcher
+      return QAA.ArabicMatcher.match(arabic);
+    },
+  };
+
+  /* ──────────────────────────────────────────────────────────────────────
    * § 5  AUDIO ENGINE PLACEHOLDER  v1.0
    * ──────────────────────────────────────────────────────────────────────
    *
@@ -1114,6 +1323,14 @@
         }
       }
 
+      // ── Latin transliteration path ────────────────────────────────────
+      // Catches "Alhamdu lillahi rabbil alamin", "el hamdu lillahi robbil alamin"
+      const translitAlt = alts.find(a => QAA.TranslitMatcher.isLikelyTranslit(a));
+      if (translitAlt) {
+        console.log('[QAA] TRANSLIT DETECTED: "' + translitAlt + '"');
+        return this._doTranslitSearch(translitAlt);
+      }
+
       // ── ar-SA fallback for Arabic recitation ────────────────────────────
       // en-US / uz-UZ returned non-empty phonetic garbage for Arabic speech.
       // Trigger one more recognition attempt using ar-SA so the ArabicMatcher
@@ -1134,6 +1351,32 @@
       // ── Text search (Uzbek / Latin translation fallback) ─────────────────
       console.log('[QAA] ALL ALTERNATIVES FAILED — text search: "' + alts[0] + '"');
       await this._doSearch(alts[0]);
+    },
+
+    /* Latin transliteration search — converts to Arabic then runs ArabicMatcher */
+    async _doTranslitSearch(text) {
+      this.setState('processing');
+      this.setTranscript(text);
+      console.log('[QAA] TRANSLIT SEARCH: "' + text + '"');
+      try {
+        const match = await QAA.TranslitMatcher.match(text);
+        if (!match) {
+          this.showError('Natija topilmadi — aniqroq talaffuz qiling');
+          return;
+        }
+        const pct = match.confidence + '%';
+        if (match.confidence < QAA.ArabicMatcher.CONFIDENCE_THRESHOLD) {
+          console.log('[QAA] TRANSLIT CONFIDENCE LOW: ' + pct);
+          this.showError('Aniq eshitilmadi (' + pct + ') — qayta takrorlang');
+          return;
+        }
+        console.log('[QAA] TRANSLIT MATCH ACCEPTED: ' + match.surah + ':' + match.ayah + ' ' + pct);
+        const res = await QAA.QuranSearch.findAyah(match.surah, match.ayah);
+        this.showResult(res);
+      } catch (e) {
+        console.log('[QAA] TRANSLIT SEARCH ERROR:', e && e.message);
+        this.showError('Qidiruv xatosi');
+      }
     },
 
     /* Arabic recitation search — runs the ArabicMatcher pipeline and
@@ -1196,7 +1439,15 @@
         const data = await QAA.QuranSearch.textSearch(query);
         const hits = (data.results || []);
         console.log('[QAA] TEXT SEARCH HITS: ' + hits.length);
-        if (!hits.length) { this.showError('Natija topilmadi'); return; }
+        if (!hits.length) {
+          // One more chance: try transliteration before giving up
+          if (QAA.TranslitMatcher.isLikelyTranslit(query)) {
+            console.log('[QAA] TEXT SEARCH empty — falling back to TranslitMatcher');
+            return this._doTranslitSearch(query);
+          }
+          this.showError('Natija topilmadi');
+          return;
+        }
         const h = hits[0];
         console.log('[QAA] BEST HIT: surah=' + h.surah + ' ayah=' + h.ayah + ' name=' + h.surahName);
         const res = await QAA.QuranSearch.findAyah(h.surah, h.ayah);

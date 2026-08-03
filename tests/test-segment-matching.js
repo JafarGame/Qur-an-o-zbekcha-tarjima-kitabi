@@ -1,6 +1,6 @@
 'use strict';
 /**
- * Segment-matching accuracy test harness — 22 tests
+ * Segment-matching accuracy test harness — 27 tests
  *
  * Imports the PRODUCTION lib/arabic-scoring.js module so any change to
  * WIN/STEP constants, normalization steps, or 0.8/0.2 score weights
@@ -357,7 +357,7 @@ console.log('\n═══ Group G: minMatch threshold locked at 67% (3 tests) ═
   );
 })();
 
-// ═══ Group H: end-to-end partial-phrase queries (5 tests) ════════════════════
+// ═══ Group H: end-to-end partial-phrase queries (10 tests) ═══════════════════
 //
 // Each test feeds a real partial phrase (4–7 tokens from a known long ayah)
 // through the full pipeline:  normalize → tokenize → searchSegmentsInIndex
@@ -434,6 +434,78 @@ console.log('\n═══ Group H: end-to-end partial-phrase queries (5 tests) �
     r5.length > 0 && r5[0].surah === 2 && r5[0].ayah === 286,
     'first result: ' + (r5[0] ? r5[0].surah + ':' + r5[0].ayah : 'none') +
       ' | all: ' + r5.map(function (r) { return r.surah + ':' + r.ayah; }).join(', ')
+  );
+})();
+
+(function () {
+  // H-6: Middle of Aal-Imran 3:26 — 7 words
+  // "مالك الملك تؤتي الملك من تشاء وتنزع" — the verb تؤتي and the pair "تنزع/الملك"
+  // are unique to this ayah; minMatch = floor(7×0.67) = 4, and any window of 5
+  // consecutive tokens here contains at least 4 of these query tokens.
+  var q6 = scoring.tokenize('مالك الملك تؤتي الملك من تشاء وتنزع');
+  var r6 = scoring.searchSegmentsInIndex(segmentIndex, q6, 10);
+  assert(
+    'H-6: 7 words "مالك الملك تؤتي الملك من تشاء وتنزع" from Aal-Imran 3:26 → 3:26 is the first result',
+    r6.length > 0 && r6[0].surah === 3 && r6[0].ayah === 26,
+    'first result: ' + (r6[0] ? r6[0].surah + ':' + r6[0].ayah : 'none') +
+      ' | all: ' + r6.map(function (r) { return r.surah + ':' + r.ayah; }).join(', ')
+  );
+})();
+
+(function () {
+  // H-7: End of Aal-Imran 3:185 — 8 words
+  // "من زحزح عن النار وأدخل الجنة فقد فاز" — "زحزح" appears nowhere else;
+  // minMatch = floor(8×0.67) = 5; the segment window containing زحزح immediately
+  // satisfies that threshold, so 3:185 is the sole match.
+  var q7 = scoring.tokenize('من زحزح عن النار وأدخل الجنة فقد فاز');
+  var r7 = scoring.searchSegmentsInIndex(segmentIndex, q7, 10);
+  assert(
+    'H-7: 8 words "من زحزح عن النار وأدخل الجنة فقد فاز" from Aal-Imran 3:185 → 3:185 is the first result',
+    r7.length > 0 && r7[0].surah === 3 && r7[0].ayah === 185,
+    'first result: ' + (r7[0] ? r7[0].surah + ':' + r7[0].ayah : 'none') +
+      ' | all: ' + r7.map(function (r) { return r.surah + ':' + r.ayah; }).join(', ')
+  );
+})();
+
+(function () {
+  // H-8: Opening of An-Nisa 4:11 — 7 words
+  // "يوصيكم الله في أولادكم للذكر مثل حظ" — "يوصيكم" is unique to this ayah;
+  // minMatch = floor(7×0.67) = 4; the opening segment window matches easily.
+  var q8 = scoring.tokenize('يوصيكم الله في أولادكم للذكر مثل حظ');
+  var r8 = scoring.searchSegmentsInIndex(segmentIndex, q8, 10);
+  assert(
+    'H-8: 7 words "يوصيكم الله في أولادكم للذكر مثل حظ" from An-Nisa 4:11 → 4:11 is the first result',
+    r8.length > 0 && r8[0].surah === 4 && r8[0].ayah === 11,
+    'first result: ' + (r8[0] ? r8[0].surah + ':' + r8[0].ayah : 'none') +
+      ' | all: ' + r8.map(function (r) { return r.surah + ':' + r.ayah; }).join(', ')
+  );
+})();
+
+(function () {
+  // H-9: Opening of Al-Kahf 18:18 — 7 words
+  // "وتحسبهم أيقاظا وهم رقود ونقلبهم ذات اليمين" — "أيقاظا" and "رقود" together
+  // identify this ayah uniquely; minMatch = floor(7×0.67) = 4.
+  var q9 = scoring.tokenize('وتحسبهم أيقاظا وهم رقود ونقلبهم ذات اليمين');
+  var r9 = scoring.searchSegmentsInIndex(segmentIndex, q9, 10);
+  assert(
+    'H-9: 7 words "وتحسبهم أيقاظا وهم رقود ونقلبهم ذات اليمين" from Al-Kahf 18:18 → 18:18 is the first result',
+    r9.length > 0 && r9[0].surah === 18 && r9[0].ayah === 18,
+    'first result: ' + (r9[0] ? r9[0].surah + ':' + r9[0].ayah : 'none') +
+      ' | all: ' + r9.map(function (r) { return r.surah + ':' + r.ayah; }).join(', ')
+  );
+})();
+
+(function () {
+  // H-10: Middle of An-Nisa 4:56 — 6 words
+  // "كلما نضجت جلودهم بدلناهم جلودا غيرها" — "نضجت" and "بدلناهم" together
+  // are unique to this ayah; minMatch = floor(6×0.67) = 4.
+  var q10 = scoring.tokenize('كلما نضجت جلودهم بدلناهم جلودا غيرها');
+  var r10 = scoring.searchSegmentsInIndex(segmentIndex, q10, 10);
+  assert(
+    'H-10: 6 words "كلما نضجت جلودهم بدلناهم جلودا غيرها" from An-Nisa 4:56 → 4:56 is the first result',
+    r10.length > 0 && r10[0].surah === 4 && r10[0].ayah === 56,
+    'first result: ' + (r10[0] ? r10[0].surah + ':' + r10[0].ayah : 'none') +
+      ' | all: ' + r10.map(function (r) { return r.surah + ':' + r.ayah; }).join(', ')
   );
 })();
 

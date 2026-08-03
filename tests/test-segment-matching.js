@@ -509,6 +509,61 @@ console.log('\n═══ Group H: end-to-end partial-phrase queries (5 tests) �
   );
 })();
 
+// ═══ Group I: 6-token segment-index boundary (2 tests) ════════════════════════
+//
+// buildSegmentIndex skips ayahs with fewer than 6 normalized tokens (< 6).
+// These tests pin the boundary using real ayahs scanned from searchIndex so
+// that any normalization change that shifts a short ayah's token count by ±1
+// is immediately caught.
+//
+//   • Exactly-5-token ayah: 2:1  — tokens ["بسم","الله","الرحمن","الرحيم","الم"]
+//     → must NOT appear in the segment index (threshold is tokens.length < 6)
+//
+//   • Exactly-6-token ayah: 2:18 — tokens ["صم","بكم","عمي","فهم","لا","يرجعون"]
+//     → must appear in the segment index
+
+console.log('\n═══ Group I: 6-token segment-index boundary (2 tests) ═══\n');
+
+(function () {
+  // Verify the pre-condition: 2:1 actually has exactly 5 normalized tokens.
+  var norm21 = scoring.normalize(quran[2][1].arabic);
+  var toks21 = norm21.split(/\s+/).filter(Boolean);
+  if (toks21.length !== 5) {
+    assert(
+      'I-1 pre-condition: 2:1 has exactly 5 normalized tokens (got ' + toks21.length + ')',
+      false,
+      'tokens: ' + JSON.stringify(toks21)
+    );
+  } else {
+    var in21 = segmentIndex.some(function (w) { return w.surah === 2 && w.ayah === 1; });
+    assert(
+      'I-1: exactly-5-token ayah (2:1) is NOT in the segment index (boundary: tokens.length < 6)',
+      !in21,
+      'unexpectedly found 2:1 in segment index'
+    );
+  }
+})();
+
+(function () {
+  // Verify the pre-condition: 2:18 actually has exactly 6 normalized tokens.
+  var norm218 = scoring.normalize(quran[2][18].arabic);
+  var toks218 = norm218.split(/\s+/).filter(Boolean);
+  if (toks218.length !== 6) {
+    assert(
+      'I-2 pre-condition: 2:18 has exactly 6 normalized tokens (got ' + toks218.length + ')',
+      false,
+      'tokens: ' + JSON.stringify(toks218)
+    );
+  } else {
+    var in218 = segmentIndex.some(function (w) { return w.surah === 2 && w.ayah === 18; });
+    assert(
+      'I-2: exactly-6-token ayah (2:18) IS in the segment index (boundary: tokens.length >= 6)',
+      in218,
+      'expected 2:18 in segment index but it was absent'
+    );
+  }
+})();
+
 // ── Summary ───────────────────────────────────────────────────────────────────
 
 const total = passed + failed;

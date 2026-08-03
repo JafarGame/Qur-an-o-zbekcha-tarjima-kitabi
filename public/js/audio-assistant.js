@@ -788,6 +788,144 @@
   };
 
   /* ──────────────────────────────────────────────────────────────────────
+   * § 4b  ARABIC RECITATION MATCHER
+   *
+   *  Normalizes Arabic input (stripping tashkeel, canonicalizing alif
+   *  variants and medial alifs) then scores candidate ayahs from the
+   *  server search API using coverage + Jaccard metrics.
+   *
+   *  Normalization mirrors the server's stripArabicDiacritics so that
+   *  Uthmani-script Quran text and plain user input reach the same form.
+   *
+   *  Public API:
+   *    normalize(text)                  → canonical Arabic string
+   *    tokenize(text)                   → array of normalized words
+   *    scoreCoverage(qToks, ayahAr)     → 0..1 (primary metric)
+   *    scoreJaccard(qToks, ayahAr)      → 0..1 (secondary)
+   *    match(arabicText)                → Promise<{surah,ayah,confidence}|null>
+   *    CONFIDENCE_THRESHOLD             → 90
+   * ────────────────────────────────────────────────────────────────────── */
+  QAA.ArabicMatcher = {
+    CONFIDENCE_THRESHOLD: 90,
+
+    /* Canonical normalization — must mirror web-server.js stripArabicDiacritics
+       so that queries and indexed text reach the same representation.        */
+    normalize(text) {
+      return String(text)
+        // 1. Tashkeel / harakat / tatweel / other combining marks
+        .replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06DC\u06DF-\u06E8\u06EA-\u06ED]/g, '')
+        .replace(/\u0640/g, '')
+        // 2. Alif variants  ٱ آ أ إ  → ا
+        .replace(/[\u0622\u0623\u0625\u0671]/g, '\u0627')
+        // 3. Alif maqsura  ى  → ي
+        .replace(/\u0649/g, '\u064A')
+        // 4. Ta marbuta  ة  → ه
+        .replace(/\u0629/g, '\u0647')
+        // 5. Hamza on waw/ya → ء, then strip all standalone hamza
+        .replace(/[\u0624\u0626]/g, '\u0621')
+        .replace(/\u0621/g, '')
+        // 6. Medial alif: ا between two Arabic letters (matches server step 6)
+        //    Resolves العالمين (user) ↔ العلمين (Uthmani stripped)
+        .replace(/(?<=[\u0600-\u06FF])\u0627(?=[\u0600-\u06FF])/g, '')
+        .replace(/\s+/g, ' ').trim();
+    },
+
+    tokenize(text) {
+      return this.normalize(text).split(/\s+/).filter(Boolean);
+    },
+
+    /* % of query tokens that appear in the ayah — primary metric.
+       Robust for partial recitation: user says fewer words than full ayah. */
+    scoreCoverage(qToks, ayahArabic) {
+      const aSet = new Set(this.tokenize(ayahArabic));
+      const hits = qToks.filter(t => aSet.has(t)).length;
+      return qToks.length ? hits / qToks.length : 0;
+    },
+
+    /* Jaccard similarity |Q∩A| / |Q∪A| — secondary precision metric.     */
+    scoreJaccard(qToks, ayahArabic) {
+      const aSet = new Set(this.tokenize(ayahArabic));
+      const qSet = new Set(qToks);
+      let inter = 0;
+      for (const t of qSet) if (aSet.has(t)) inter++;
+      const union = new Set([...qSet, ...aSet]).size;
+      return union ? inter / union : 0;
+    },
+
+    /* Fetch raw ayah arabic, reusing the QuranSearch LRU cache.           */
+    async _getAyahArabic(surahNum, ayahNum) {
+      const key = 's' + surahNum;
+      let surah;
+      if (QAA.QuranSearch._cache.has(key)) {
+        surah = QAA.QuranSearch._cache.get(key);
+      } else {
+        const res = await fetch('/api/surah/' + surahNum);
+        if (!res.ok) return null;
+        surah = await res.json();
+        QAA.QuranSearch._cache.set(key, surah);
+      }
+      const a = surah.ayahs.find(a => Number(a.number) === ayahNum);
+      return a ? a.arabic : null;
+    },
+
+    /* Full match pipeline:
+         normalize → server search → score each hit →
+         consecutive-ayah pairing bonus → return best with confidence.      */
+    async match(arabicText) {
+      const qNorm = this.normalize(arabicText);
+      const qToks = qNorm.split(/\s+/).filter(Boolean);
+      if (!qToks.length) return null;
+
+      // Fetch candidates via server (token-level matching, ≥67% threshold)
+      const res = await fetch('/api/search?q=' + encodeURIComponent(qNorm));
+      if (!res.ok) return null;
+      const data = await res.json();
+      const hits = data.results || [];
+      console.log('[QAA] ARABIC SEARCH: ' + hits.length + ' candidates for "'
+        + qNorm.slice(0, 40) + (qNorm.length > 40 ? '…' : '') + '"');
+
+      if (!hits.length) return null;
+
+      // Score each candidate: coverage (80 %) + Jaccard (20 %)
+      let best = null, bestScore = -1;
+      for (const h of hits) {
+        const cov   = this.scoreCoverage(qToks, h.arabic);
+        const jac   = this.scoreJaccard(qToks, h.arabic);
+        const score = cov * 0.8 + jac * 0.2;
+        console.log('[QAA]   ' + h.surah + ':' + h.ayah
+          + ' cov=' + (cov * 100).toFixed(0) + '% jac=' + (jac * 100).toFixed(0) + '%');
+        if (score > bestScore) { bestScore = score; best = h; }
+      }
+
+      // Consecutive-ayah pairing: test best + next ayah together.
+      // Handles recitations that span an ayah boundary.
+      if (best) {
+        try {
+          const nextAr = await this._getAyahArabic(best.surah, best.ayah + 1);
+          if (nextAr) {
+            const combined = best.arabic + ' ' + nextAr;
+            const cov2  = this.scoreCoverage(qToks, combined);
+            const jac2  = this.scoreJaccard(qToks, combined);
+            const score2 = cov2 * 0.8 + jac2 * 0.2;
+            if (score2 > bestScore + 0.08) {       // clear improvement threshold
+              console.log('[QAA] PAIR ' + best.surah + ':' + best.ayah
+                + '+' + (best.ayah + 1) + ' score=' + score2.toFixed(3));
+              bestScore = score2;
+              // Keep best.ayah as result (start of the recitation span)
+            }
+          }
+        } catch (_) { /* pairing is opportunistic — ignore errors */ }
+      }
+
+      const confidence = Math.round(Math.min(bestScore, 1) * 100);
+      console.log('[QAA] ARABIC BEST: ' + (best ? best.surah + ':' + best.ayah : 'none')
+        + ' confidence=' + confidence + '%');
+
+      return best ? { surah: best.surah, ayah: best.ayah, confidence } : null;
+    },
+  };
+
+  /* ──────────────────────────────────────────────────────────────────────
    * § 4c  TRANSLITERATION MATCHER
    *
    *  Converts Latin phonetic Arabic ("Alhamdu lillahi rabbil alamin",

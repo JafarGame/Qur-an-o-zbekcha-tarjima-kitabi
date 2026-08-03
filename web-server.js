@@ -52,12 +52,33 @@ surahNames.forEach((name, idx) => {
   surahNameToNumber.set(normalizeName(name), idx + 1);
 });
 
-// Strip Arabic diacritics (tashkeel) and tatweel so search is accent-insensitive.
+// Normalize Arabic text for search — strip all diacritics, canonicalize
+// letter variants so Uthmani script (ٱ, U+0670 superscript alif, etc.)
+// matches plain user input or voice-recognition output.
+//
+// Steps (applied in order):
+//  1. Strip tashkeel / harakat / tatweel / other combining marks
+//  2. Alif variants  ٱ آ أ إ → ا   (Uthmani alif wasla U+0671 included)
+//  3. Alif maqsura  ى        → ي
+//  4. Ta marbuta    ة        → ه
+//  5. Hamza variants ؤ ئ     → ء  then strip standalone hamza ء
+//  6. Strip medial alif — ا between two Arabic letters
+//     Uthmani script uses U+0670 (stripped in step 1) for long-vowel alifs
+//     that ARE written in standard Arabic (e.g. العالمين → العلمين after step 1
+//     but العالمين in user input). Stripping medial alif from both sides makes
+//     them equal: العالمين → العلمين = العلمين ✓
 function stripArabicDiacritics(str) {
-  return String(str).replace(
-    /[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06DC\u06DF-\u06E8\u06EA-\u06ED\u08D4-\u08E1\u08E3-\u08FF\u0640]/g,
-    ""
-  );
+  return String(str)
+    .replace(
+      /[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06DC\u06DF-\u06E8\u06EA-\u06ED\u08D4-\u08E1\u08E3-\u08FF\u0640]/g,
+      ""
+    )
+    .replace(/[\u0622\u0623\u0625\u0671]/g, "\u0627") // alif variants → ا
+    .replace(/\u0649/g, "\u064A")                     // alif maqsura  → ي
+    .replace(/\u0629/g, "\u0647")                     // ta marbuta    → ه
+    .replace(/[\u0624\u0626]/g, "\u0621")             // hamza variants → ء
+    .replace(/\u0621/g, "")                           // strip hamza ء
+    .replace(/(?<=[\u0600-\u06FF])\u0627(?=[\u0600-\u06FF])/g, ""); // medial alif
 }
 
 // Flattened, pre-normalized search index built once from quran.json.
@@ -110,11 +131,33 @@ function searchText(raw, limit) {
   const q = raw.trim();
   const qLower = q.toLowerCase();
   const qArabic = stripArabicDiacritics(q);
+
+  // Token-level Arabic matching: split the normalized query into words and
+  // require ≥ 67 % of them to appear in the ayah.  This tolerates:
+  //   • medial-alif differences (العالمين → العلمين in Uthmani after step 6)
+  //   • minor recitation/normalization divergences
+  //   • partial recitation (user says part of a longer ayah)
+  const qArabicTokens = qArabic.split(/\s+/).filter(t => t.length > 1);
+  // Threshold: 1–2 tokens → all must match; ≥3 tokens → floor(67%) must match.
+  // Math.ceil caused ceil(3 × 0.67) = 3 (100%) for 3-token queries — too strict.
+  const minMatch = qArabicTokens.length <= 2
+    ? qArabicTokens.length                                    // 0/1/2 tokens: all match
+    : Math.max(2, Math.floor(qArabicTokens.length * 0.67));  // ≥3 tokens: ≥67% floor
+
   const results = [];
 
   for (const item of searchIndex) {
-    const matchesArabic = qArabic.length > 0 && item.arabicNormalized.includes(qArabic);
+    let matchesArabic = false;
+    if (qArabicTokens.length > 0) {
+      let hits = 0;
+      for (const tok of qArabicTokens) {
+        if (item.arabicNormalized.includes(tok)) hits++;
+        if (hits >= minMatch) { matchesArabic = true; break; }
+      }
+    }
+
     const matchesTranslation = qLower.length > 0 && item.translationLower.includes(qLower);
+
     if (matchesArabic || matchesTranslation) {
       results.push({
         surah: item.surah,

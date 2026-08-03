@@ -301,6 +301,62 @@ assert('SEG_STEP === 2',
   );
 })();
 
+// ═══ Group G: minMatch threshold locked at 67% (3 tests) ══════════════════════
+
+console.log('\n═══ Group G: minMatch threshold locked at 67% (3 tests) ═══\n');
+
+(function () {
+  // Build a tiny synthetic segment index with one window of known normalized tokens.
+  // We use simple consonants that survive normalization unchanged (no alif, hamza, etc.).
+  const fakeWindowToks = scoring.tokenize('ب ت ث ج خ');   // ['ب','ت','ث','ج','خ']
+  const fakeSeg = [{
+    surah      : 999,
+    ayah       : 1,
+    arabic     : 'synthetic',
+    translation: 'synthetic',
+    windowText : fakeWindowToks.join(' '),   // 'ب ت ث ج خ'
+  }];
+
+  // ── Test G-1: exactly 4/7 matching tokens → FOUND with 0.67 threshold ──────
+  //
+  // For a 7-token query (length > 2):
+  //   Math.floor(7 * 0.67) = Math.floor(4.69) = 4  → minMatch = 4  (found)
+  //   Math.floor(7 * 0.75) = Math.floor(5.25) = 5  → minMatch = 5  (not found)
+  //
+  // Query tokens ب ت ث ج are in the window; د ذ ر are not → exactly 4 hits.
+  const q7hit = scoring.tokenize('ب ت ث ج د ذ ر');   // 4 in window, 3 not
+  const found7 = scoring.searchSegmentsInIndex(fakeSeg, q7hit, 10);
+  assert(
+    'minMatch(67%): 4/7 tokens hit → result returned ' +
+      '[Math.floor(7×0.67)=4 pass; Math.floor(7×0.75)=5 would fail]',
+    found7.some(r => r.surah === 999 && r.ayah === 1),
+    'got: ' + found7.map(r => r.surah + ':' + r.ayah).join(', ')
+  );
+
+  // ── Test G-2: only 3/7 matching tokens → NOT FOUND (below 67% floor) ───────
+  const q7miss = scoring.tokenize('ب ت ث د ذ ر ز');   // 3 in window, 4 not
+  const notFound7 = scoring.searchSegmentsInIndex(fakeSeg, q7miss, 10);
+  assert(
+    'minMatch(67%): 3/7 tokens hit → no result (below threshold)',
+    !notFound7.some(r => r.surah === 999 && r.ayah === 1),
+    'expected not found, got: ' + notFound7.map(r => r.surah + ':' + r.ayah).join(', ')
+  );
+
+  // ── Test G-3: exactly 4/6 matching tokens → FOUND ───────────────────────────
+  //
+  // For a 6-token query:
+  //   Math.floor(6 * 0.67) = Math.floor(4.02) = 4  → minMatch = 4  (found)
+  //   Math.floor(6 * 0.75) = Math.floor(4.50) = 4  → minMatch = 4  (same here)
+  // This confirms the absolute minimum-match count for a 6-token query is 4.
+  const q6 = scoring.tokenize('ب ت ث ج د ذ');   // 4 in window (ب ت ث ج), 2 not
+  const found6 = scoring.searchSegmentsInIndex(fakeSeg, q6, 10);
+  assert(
+    'minMatch(67%): 4/6 tokens hit → result returned [Math.floor(6×0.67)=4]',
+    found6.some(r => r.surah === 999 && r.ayah === 1),
+    'got: ' + found6.map(r => r.surah + ':' + r.ayah).join(', ')
+  );
+})();
+
 // ── Summary ───────────────────────────────────────────────────────────────────
 
 const total = passed + failed;

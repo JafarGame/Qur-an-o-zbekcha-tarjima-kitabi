@@ -185,6 +185,13 @@ app.get("/", (req, res) => {
 app.use("/lib", express.static(path.join(__dirname, "lib")));
 app.use(express.static(path.join(__dirname, "public")));
 
+// Serve quran.json at /data/quran.json for the client-side QuranData module.
+// This avoids duplicating the 2.5 MB file inside public/ — the single source
+// of truth stays at the project root.
+app.get('/data/quran.json', (req, res) => {
+  res.sendFile(path.join(__dirname, 'quran.json'));
+});
+
 app.get("/api/surahs", (req, res) => {
   res.json(surahList);
 });

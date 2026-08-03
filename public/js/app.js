@@ -69,8 +69,7 @@
   }
 
   function runAyahSearch(query) {
-    fetch(`/api/search?q=${encodeURIComponent(query)}`)
-      .then((res) => res.json())
+    QuranData.search(query)
       .then((data) => {
         if (data.type === "ayah") {
           showSearchResults(`
@@ -117,8 +116,7 @@
 
   searchInput.addEventListener("input", applyFilter);
 
-  fetch("/api/surahs")
-    .then((res) => res.json())
+  QuranData.getSurahList()
     .then((data) => {
       surahs = data;
       renderSurahs(surahs);

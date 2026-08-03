@@ -821,18 +821,10 @@
       if (!surahNum || surahNum < 1 || surahNum > 114)
         throw new Error('Invalid surah: ' + surahNum);
 
-      const key = 's' + surahNum;
-      let surah;
-      if (this._cache.has(key)) {
-        surah = this._cache.get(key);
-      } else {
-        const res = await fetch('/api/surah/' + surahNum);
-        if (!res.ok) throw new Error('Surah ' + surahNum + ' not found');
-        surah = await res.json();
-        this._cache.set(key, surah);
-      }
+      const surah = await QuranData.getSurah(surahNum);
+      if (!surah) throw new Error('Surah ' + surahNum + ' not found');
 
-      // Note: surah.ayahs[i].number is a string (Object.keys from server)
+      // Note: surah.ayahs[i].number is a number (from QuranData client index)
       let ayahData = surah.ayahs.find(a => Number(a.number) === ayahNum);
       if (!ayahData) throw new Error('Ayah ' + ayahNum + ' not found');
 
@@ -849,9 +841,7 @@
     },
 
     async textSearch(query) {
-      const res = await fetch('/api/search?q=' + encodeURIComponent(query));
-      if (!res.ok) throw new Error('Search failed');
-      return res.json(); // { type, results: [{surah, ayah, surahName, arabic, translation}] }
+      return QuranData.search(query); // { type, results: [{surah, ayah, surahName, arabic, translation}] }
     },
   };
 
@@ -922,14 +912,9 @@
     async checkAyahCountIntegrity() {
       let list;
       try {
-        const res = await fetch('/api/surahs');
-        if (!res.ok) {
-          console.log('[QAA] SURAH_AYAH_COUNT check skipped — /api/surahs unavailable (status ' + res.status + ')');
-          return;
-        }
-        list = await res.json();
+        list = await QuranData.getSurahList();
       } catch (_) {
-        console.log('[QAA] SURAH_AYAH_COUNT check skipped — server unreachable');
+        console.log('[QAA] SURAH_AYAH_COUNT check skipped — QuranData unavailable');
         return;
       }
 
@@ -957,16 +942,8 @@
 
     /* Fetch raw ayah arabic, reusing the QuranSearch LRU cache.           */
     async _getAyahArabic(surahNum, ayahNum) {
-      const key = 's' + surahNum;
-      let surah;
-      if (QAA.QuranSearch._cache.has(key)) {
-        surah = QAA.QuranSearch._cache.get(key);
-      } else {
-        const res = await fetch('/api/surah/' + surahNum);
-        if (!res.ok) return null;
-        surah = await res.json();
-        QAA.QuranSearch._cache.set(key, surah);
-      }
+      const surah = await QuranData.getSurah(surahNum);
+      if (!surah) return null;
       const a = surah.ayahs.find(a => Number(a.number) === ayahNum);
       return a ? a.arabic : null;
     },
@@ -1007,11 +984,9 @@
       }
       if (!qToks.length) return null;
 
-      // Fetch candidates via server (token-level matching, ≥67% threshold)
-      const res = await fetch('/api/search?q=' + encodeURIComponent(qNorm));
-      if (!res.ok) return null;
-      const data = await res.json();
-      const hits = data.results || [];
+      // Fetch candidates via local index (token-level matching, ≥67% threshold)
+      const data = await QuranData.search(qNorm);
+      const hits = (data && data.results) || [];
       console.log('[QAA] ARABIC SEARCH: ' + hits.length + ' candidates for "'
         + qNorm.slice(0, 40) + (qNorm.length > 40 ? '…' : '') + '"');
 

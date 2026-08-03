@@ -181,12 +181,9 @@
   }
 
   // ── Fetch & render ───────────────────────────────────────────────
-  fetch(`/api/surah/${number}`)
-    .then(res => {
-      if (!res.ok) throw new Error("not found");
-      return res.json();
-    })
+  QuranData.getSurah(number)
     .then(async surah => {
+      if (!surah) throw new Error("not found");
       const displayName = (window.Lang && Lang.surahName(surah.number)) || surah.name;
       document.title = `${surah.number}. ${displayName} | Qur'oni Karim`;
       headerTitle.textContent = `${surah.number}. ${displayName}`;

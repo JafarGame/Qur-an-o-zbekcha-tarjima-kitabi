@@ -357,6 +357,86 @@ console.log('\n═══ Group G: minMatch threshold locked at 67% (3 tests) ═
   );
 })();
 
+// ═══ Group H: end-to-end partial-phrase queries (5 tests) ════════════════════
+//
+// Each test feeds a real partial phrase (4–7 tokens from a known long ayah)
+// through the full pipeline:  normalize → tokenize → searchSegmentsInIndex
+// and asserts the correct surah:ayah is the FIRST result returned.
+// This catches regressions where threshold math is correct but normalization
+// changes cause tokens to stop matching real windowText entries.
+
+console.log('\n═══ Group H: end-to-end partial-phrase queries (5 tests) ═══\n');
+
+(function () {
+  // H-1: Opening into early-middle of Ayat al-Kursi (2:255) — 5 words
+  // "الحي القيوم لا تأخذه سنة" — "القيوم" first appears in 2:255 in the index;
+  // minMatch = floor(5×0.67) = 3 so at least 3 of these 5 distinctive tokens must
+  // hit a window, making it very unlikely any earlier ayah qualifies first.
+  var q1 = scoring.tokenize('الحي القيوم لا تأخذه سنة');
+  var r1 = scoring.searchSegmentsInIndex(segmentIndex, q1, 10);
+  assert(
+    'H-1: 5 words "الحي القيوم لا تأخذه سنة" from Ayat al-Kursi → 2:255 is the first result',
+    r1.length > 0 && r1[0].surah === 2 && r1[0].ayah === 255,
+    'first result: ' + (r1[0] ? r1[0].surah + ':' + r1[0].ayah : 'none') +
+      ' | all: ' + r1.map(function (r) { return r.surah + ':' + r.ayah; }).join(', ')
+  );
+})();
+
+(function () {
+  // H-2: Centre-to-end span of Ayat al-Kursi (2:255) — 6 words
+  // "وسع كرسيه السماوات والأرض ولا يؤوده" —
+  // minMatch = floor(6×0.67) = 4; "كرسيه" and "يؤوده" are unique to 2:255, so any
+  // other ayah would need 4 of the 6 tokens from common words alone, which is
+  // impossible in a 5-token window — guaranteeing 2:255 is the sole (first) match.
+  var q2 = scoring.tokenize('وسع كرسيه السماوات والأرض ولا يؤوده');
+  var r2 = scoring.searchSegmentsInIndex(segmentIndex, q2, 10);
+  assert(
+    'H-2: 6-word span "وسع كرسيه … ولا يؤوده" from Ayat al-Kursi → 2:255 is the first result',
+    r2.length > 0 && r2[0].surah === 2 && r2[0].ayah === 255,
+    'first result: ' + (r2[0] ? r2[0].surah + ':' + r2[0].ayah : 'none') +
+      ' | all: ' + r2.map(function (r) { return r.surah + ':' + r.ayah; }).join(', ')
+  );
+})();
+
+(function () {
+  // H-3: Early-middle of Ayat al-Kursi (2:255) — 5 words
+  // "لا تأخذه سنة ولا نوم" — "سنة" in this meaning is unique to this ayah
+  var q3 = scoring.tokenize('لا تأخذه سنة ولا نوم');
+  var r3 = scoring.searchSegmentsInIndex(segmentIndex, q3, 10);
+  assert(
+    'H-3: 5 words "لا تأخذه سنة ولا نوم" from Ayat al-Kursi → 2:255 is the first result',
+    r3.length > 0 && r3[0].surah === 2 && r3[0].ayah === 255,
+    'first result: ' + (r3[0] ? r3[0].surah + ':' + r3[0].ayah : 'none') +
+      ' | all: ' + r3.map(function (r) { return r.surah + ':' + r.ayah; }).join(', ')
+  );
+})();
+
+(function () {
+  // H-4: End of Ayat al-Kursi (2:255) — last 5 words
+  // "ولا يؤوده حفظهما وهو العلي" — "حفظهما" only appears here
+  var q4 = scoring.tokenize('ولا يؤوده حفظهما وهو العلي');
+  var r4 = scoring.searchSegmentsInIndex(segmentIndex, q4, 10);
+  assert(
+    'H-4: last 5 words of Ayat al-Kursi "ولا يؤوده حفظهما وهو العلي" → 2:255 is the first result',
+    r4.length > 0 && r4[0].surah === 2 && r4[0].ayah === 255,
+    'first result: ' + (r4[0] ? r4[0].surah + ':' + r4[0].ayah : 'none') +
+      ' | all: ' + r4.map(function (r) { return r.surah + ':' + r.ayah; }).join(', ')
+  );
+})();
+
+(function () {
+  // H-5: Middle of Al-Baqarah 2:286 — 6 words from a different long ayah
+  // "لا يكلف الله نفسا إلا وسعها" — tests a different surah/ayah pair
+  var q5 = scoring.tokenize('لا يكلف الله نفسا إلا وسعها');
+  var r5 = scoring.searchSegmentsInIndex(segmentIndex, q5, 10);
+  assert(
+    'H-5: 6 words "لا يكلف الله نفسا إلا وسعها" from 2:286 → 2:286 is the first result',
+    r5.length > 0 && r5[0].surah === 2 && r5[0].ayah === 286,
+    'first result: ' + (r5[0] ? r5[0].surah + ':' + r5[0].ayah : 'none') +
+      ' | all: ' + r5.map(function (r) { return r.surah + ':' + r.ayah; }).join(', ')
+  );
+})();
+
 // ── Summary ───────────────────────────────────────────────────────────────────
 
 const total = passed + failed;

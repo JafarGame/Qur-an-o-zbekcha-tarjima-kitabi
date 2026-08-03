@@ -355,6 +355,21 @@ app.post('/api/transcribe',
   }
 );
 
-app.listen(PORT, "0.0.0.0", () => {
-  console.log(`Quran reading website running on port ${PORT}`);
-});
+// When run directly (`node web-server.js`) start the HTTP server.
+// When required by a test harness, export test helpers instead so the
+// server doesn't bind a port and tests can verify the server's own
+// stripArabicDiacritics binding.
+if (require.main === module) {
+  app.listen(PORT, "0.0.0.0", () => {
+    console.log(`Quran reading website running on port ${PORT}`);
+  });
+} else {
+  module.exports = {
+    // The server's own normalize alias — used to verify it still delegates
+    // to ArabicScoring.normalize and has not been replaced with a local copy.
+    _stripArabicDiacritics : stripArabicDiacritics,
+    // The ArabicScoring module the server required — used to assert reference
+    // equality: stripArabicDiacritics === ArabicScoring.normalize.
+    _ArabicScoring         : ArabicScoring,
+  };
+}

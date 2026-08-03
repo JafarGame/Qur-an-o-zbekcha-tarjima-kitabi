@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node tests/test-segment-matching.js"
+    "test": "node tests/test-segment-matching.js && node tests/test-normalize-parity.js"
   },
   "dependencies": {
     "axios": "^1.18.1",

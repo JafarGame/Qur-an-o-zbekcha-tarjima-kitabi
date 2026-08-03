@@ -55,34 +55,11 @@ surahNames.forEach((name, idx) => {
   surahNameToNumber.set(normalizeName(name), idx + 1);
 });
 
-// Normalize Arabic text for search — strip all diacritics, canonicalize
-// letter variants so Uthmani script (ٱ, U+0670 superscript alif, etc.)
-// matches plain user input or voice-recognition output.
-//
-// Steps (applied in order):
-//  1. Strip tashkeel / harakat / tatweel / other combining marks
-//  2. Alif variants  ٱ آ أ إ → ا   (Uthmani alif wasla U+0671 included)
-//  3. Alif maqsura  ى        → ي
-//  4. Ta marbuta    ة        → ه
-//  5. Hamza variants ؤ ئ     → ء  then strip standalone hamza ء
-//  6. Strip medial alif — ا between two Arabic letters
-//     Uthmani script uses U+0670 (stripped in step 1) for long-vowel alifs
-//     that ARE written in standard Arabic (e.g. العالمين → العلمين after step 1
-//     but العالمين in user input). Stripping medial alif from both sides makes
-//     them equal: العالمين → العلمين = العلمين ✓
-function stripArabicDiacritics(str) {
-  return String(str)
-    .replace(
-      /[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06DC\u06DF-\u06E8\u06EA-\u06ED\u08D4-\u08E1\u08E3-\u08FF\u0640]/g,
-      ""
-    )
-    .replace(/[\u0622\u0623\u0625\u0671]/g, "\u0627") // alif variants → ا
-    .replace(/\u0649/g, "\u064A")                     // alif maqsura  → ي
-    .replace(/\u0629/g, "\u0647")                     // ta marbuta    → ه
-    .replace(/[\u0624\u0626]/g, "\u0621")             // hamza variants → ء
-    .replace(/\u0621/g, "")                           // strip hamza ء
-    .replace(/(?<=[\u0600-\u06FF])\u0627(?=[\u0600-\u06FF])/g, ""); // medial alif
-}
+// Arabic normalization and scoring are provided by lib/arabic-scoring.js so
+// that web-server.js, audio-assistant.js, and the test harness all exercise
+// exactly the same implementation — preventing silent scoring regressions.
+const ArabicScoring = require("./lib/arabic-scoring");
+const stripArabicDiacritics = ArabicScoring.normalize;
 
 // Flattened, pre-normalized search index built once from quran.json.
 // This does not modify quran.json — it is purely an in-memory index.
@@ -109,26 +86,10 @@ Object.keys(quran)
   });
 
 // ── Segment index — overlapping 5-token windows for long ayahs ──────────
-// Long ayahs (e.g. Ayat al-Kursi at ~50 tokens) are penalised by full-ayah
-// Jaccard scoring when a user recites only a short phrase.  Instead we slice
-// each long ayah into overlapping 5-token windows (stride 2) so any 4+
-// consecutive words can match the correct window at high confidence.
-const SEG_WIN  = 5;   // tokens per window
-const SEG_STEP = 2;   // stride between windows
-const segmentIndex = [];
-for (const item of searchIndex) {
-  const tokens = item.arabicNormalized.split(/\s+/).filter(Boolean);
-  if (tokens.length < 6) continue;   // short ayahs are well-served by full match
-  for (let i = 0; i + SEG_WIN <= tokens.length; i += SEG_STEP) {
-    segmentIndex.push({
-      surah      : item.surah,
-      ayah       : item.ayah,
-      arabic     : item.arabic,
-      translation: item.translation,
-      windowText : tokens.slice(i, i + SEG_WIN).join(' '),
-    });
-  }
-}
+// Built by the shared lib so the same constants (SEG_WIN/SEG_STEP) and logic
+// are exercised by both the server and the test harness.
+const { SEG_WIN, SEG_STEP } = ArabicScoring;
+const segmentIndex = ArabicScoring.buildSegmentIndex(searchIndex);
 console.log(
   '[Quran] Segment index: ' + segmentIndex.length + ' windows built from ' +
   searchIndex.filter(it => it.arabicNormalized.split(/\s+/).filter(Boolean).length >= 6).length +
@@ -202,37 +163,17 @@ function searchText(raw, limit) {
   return results;
 }
 
-// Segment search: score query tokens against 5-token windows of long ayahs.
-// Same 67%-token-coverage rule as searchText; deduplicates by surah+ayah.
-// Short queries (≤ 3 tokens) should use full-ayah search only to avoid noise.
+// Segment search: delegates matching to the shared lib, then enriches results
+// with surahName for the client.
 function searchSegments(qNormTokens, limit) {
-  if (!qNormTokens.length) return [];
-  const minMatch = qNormTokens.length <= 2
-    ? qNormTokens.length
-    : Math.max(2, Math.floor(qNormTokens.length * 0.67));
-  const seen = new Set();
-  const results = [];
-  for (const seg of segmentIndex) {
-    const key = seg.surah + ':' + seg.ayah;
-    if (seen.has(key)) continue;     // already found via an earlier window
-    let hits = 0;
-    for (const qt of qNormTokens) {
-      if (seg.windowText.includes(qt)) hits++;
-      if (hits >= minMatch) break;
-    }
-    if (hits >= minMatch) {
-      seen.add(key);
-      results.push({
-        surah      : seg.surah,
-        ayah       : seg.ayah,
-        surahName  : surahNames[seg.surah - 1] || `Surah ${seg.surah}`,
-        arabic     : seg.arabic,
-        translation: seg.translation,
-      });
-      if (results.length >= limit) break;
-    }
-  }
-  return results;
+  const raw = ArabicScoring.searchSegmentsInIndex(segmentIndex, qNormTokens, limit);
+  return raw.map(r => ({
+    surah      : r.surah,
+    ayah       : r.ayah,
+    surahName  : surahNames[r.surah - 1] || `Surah ${r.surah}`,
+    arabic     : r.arabic,
+    translation: r.translation,
+  }));
 }
 
 // Dashboard is the main landing page; surah list remains at /index.html
@@ -240,6 +181,8 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "dashboard.html"));
 });
 
+// Serve lib/ under /lib so the browser can load shared modules (e.g. arabic-scoring.js)
+app.use("/lib", express.static(path.join(__dirname, "lib")));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/api/surahs", (req, res) => {

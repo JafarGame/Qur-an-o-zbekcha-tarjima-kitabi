@@ -21,6 +21,10 @@ args = "Quran Bot"
 task = "workflow.run"
 args = "Quran Web"
 
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "test"
+
 [[workflows.workflow]]
 name = "Quran Bot"
 author = "agent"
@@ -44,6 +48,17 @@ waitForPort = 5000
 [[workflows.workflow.ports]]
 localPort = 5000
 externalPort = 80
+
+[[workflows.workflow]]
+name = "test"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm test"
+
+[workflows.workflow.metadata]
+isValidation = true
 
 [[ports]]
 localPort = 5000

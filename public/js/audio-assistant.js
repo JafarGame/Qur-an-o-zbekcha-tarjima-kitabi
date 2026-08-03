@@ -877,84 +877,15 @@
     CONFIDENCE_THRESHOLD: 90,
     POSSIBLE_THRESHOLD:   60,   // below this confidence → no result shown
 
-    /* Canonical normalization — must mirror web-server.js stripArabicDiacritics
-       so that queries and indexed text reach the same representation.        */
-    normalize(text) {
-      return String(text)
-        // 1. Tashkeel / harakat / tatweel / other combining marks
-        .replace(/[\u0610-\u061A\u064B-\u065F\u0670\u06D6-\u06DC\u06DF-\u06E8\u06EA-\u06ED]/g, '')
-        .replace(/\u0640/g, '')
-        // 2. Alif variants  ٱ آ أ إ  → ا
-        .replace(/[\u0622\u0623\u0625\u0671]/g, '\u0627')
-        // 3. Alif maqsura  ى  → ي
-        .replace(/\u0649/g, '\u064A')
-        // 4. Ta marbuta  ة  → ه
-        .replace(/\u0629/g, '\u0647')
-        // 5. Hamza on waw/ya → ء, then strip all standalone hamza
-        .replace(/[\u0624\u0626]/g, '\u0621')
-        .replace(/\u0621/g, '')
-        // 6. Medial alif: ا between two Arabic letters (matches server step 6)
-        //    Resolves العالمين (user) ↔ العلمين (Uthmani stripped)
-        .replace(/(?<=[\u0600-\u06FF])\u0627(?=[\u0600-\u06FF])/g, '')
-        .replace(/\s+/g, ' ').trim();
-    },
-
-    tokenize(text) {
-      return this.normalize(text).split(/\s+/).filter(Boolean);
-    },
-
-    /* Score a query against an ayah using BOTH full-ayah and sliding-window
-       methods, returning the maximum.
-       For short queries (a phrase from the middle of a long ayah) the window
-       score is much higher because Jaccard is not penalised by the unrelated
-       tokens in the rest of the ayah.
-       Window parameters mirror the server-side segment index:
-         WIN=5 tokens, STEP=2 (same constants as web-server.js SEG_WIN/SEG_STEP). */
-    _scoreWithWindows(qToks, ayahArabic) {
-      const fullCov   = this.scoreCoverage(qToks, ayahArabic);
-      const fullJac   = this.scoreJaccard(qToks, ayahArabic);
-      const fullScore = fullCov * 0.8 + fullJac * 0.2;
-
-      const ayahToks = this.tokenize(ayahArabic);
-      // Only slide a window when the ayah is substantially longer than the query
-      // (avoids wasted work on short ayahs that are already well-scored full-width)
-      if (ayahToks.length < 6 || qToks.length >= Math.ceil(ayahToks.length * 0.7)) {
-        return fullScore;
-      }
-
-      // Window is at least as wide as the query so the query always fits inside.
-      // Stride=1 guarantees we find the optimal alignment regardless of where
-      // the phrase begins within the ayah. Early-exit on perfect score (1.0).
-      const WIN  = Math.max(5, qToks.length);
-      let bestWinScore = 0;
-      for (let i = 0; i + WIN <= ayahToks.length; i++) {
-        const win = ayahToks.slice(i, i + WIN).join(' ');
-        const cov = this.scoreCoverage(qToks, win);
-        const jac = this.scoreJaccard(qToks, win);
-        const s   = cov * 0.8 + jac * 0.2;
-        if (s > bestWinScore) bestWinScore = s;
-        if (bestWinScore >= 1.0) break;
-      }
-      return Math.max(fullScore, bestWinScore);
-    },
-
-    /* % of query tokens that appear in the ayah — primary metric.
-       Robust for partial recitation: user says fewer words than full ayah. */
-    scoreCoverage(qToks, ayahArabic) {
-      const aSet = new Set(this.tokenize(ayahArabic));
-      const hits = qToks.filter(t => aSet.has(t)).length;
-      return qToks.length ? hits / qToks.length : 0;
-    },
-
-    /* Jaccard similarity |Q∩A| / |Q∪A| — secondary precision metric.     */
-    scoreJaccard(qToks, ayahArabic) {
-      const aSet = new Set(this.tokenize(ayahArabic));
-      const qSet = new Set(qToks);
-      let inter = 0;
-      for (const t of qSet) if (aSet.has(t)) inter++;
-      const union = new Set([...qSet, ...aSet]).size;
-      return union ? inter / union : 0;
-    },
+    /* Canonical normalization, tokenization, and scoring are provided by
+       lib/arabic-scoring.js (loaded as window.ArabicScoring via <script> tag
+       before this file).  Delegating here ensures the browser and the test
+       harness both exercise exactly the same implementation.               */
+    normalize(text)                    { return ArabicScoring.normalize(text); },
+    tokenize(text)                     { return ArabicScoring.tokenize(text); },
+    scoreCoverage(qToks, ayahArabic)   { return ArabicScoring.scoreCoverage(qToks, ayahArabic); },
+    scoreJaccard(qToks, ayahArabic)    { return ArabicScoring.scoreJaccard(qToks, ayahArabic); },
+    _scoreWithWindows(qToks, ayahArabic) { return ArabicScoring.scoreWithWindows(qToks, ayahArabic); },
 
     /* Ayah counts per surah (index = surah number, 1-based).
        Used to prevent the consecutive-pair logic from crossing a surah

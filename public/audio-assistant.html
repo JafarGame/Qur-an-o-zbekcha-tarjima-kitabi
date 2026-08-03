@@ -637,6 +637,55 @@ body.aa-no-voice .aa-no-voice-note { display: block; }
 }
 
 /* ════════════════════════════════════════════
+   DEBUG PANEL  (hidden; Ctrl+Shift+D to toggle)
+   ════════════════════════════════════════════ */
+.aa-debug {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  background: rgba(2, 12, 7, 0.97);
+  border-top: 1px solid rgba(100, 220, 140, 0.22);
+  padding: 7px 16px 10px;
+  font-family: 'Courier New', 'Lucida Console', monospace;
+  font-size: 11px;
+  color: #80ffb0;
+  z-index: 500;
+  max-height: 178px;
+  overflow-y: auto;
+}
+.aa-debug[hidden] { display: none !important; }
+.aa-debug-title {
+  font-size: 9.5px;
+  color: rgba(100, 220, 140, 0.38);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 4px;
+}
+.aa-debug-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 1px 0;
+  border-bottom: 1px solid rgba(100,220,140,0.05);
+}
+.aa-debug-lbl {
+  color: rgba(100, 220, 140, 0.48);
+  min-width: 108px;
+  flex-shrink: 0;
+  font-size: 9.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.aa-debug-val { color: #c2ffd4; word-break: break-all; }
+.aa-debug-ar  {
+  font-family: 'Noto Naskh Arabic', 'Traditional Arabic', serif;
+  font-size: 13px;
+  direction: rtl;
+  unicode-bidi: embed;
+}
+.aa-debug-hi  { color: #ffd86e; }   /* highlight: high confidence */
+.aa-debug-lo  { color: #ff8a7a; }   /* highlight: low confidence  */
+
+/* ════════════════════════════════════════════
    TOAST
    ════════════════════════════════════════════ */
 .aa-toast {
@@ -881,6 +930,31 @@ body.aa-no-voice .aa-no-voice-note { display: block; }
 
 <!-- ── Toast ── -->
 <div class="aa-toast" id="aa-toast" role="status" aria-live="polite"></div>
+
+<!-- ══ Debug Panel — hidden by default; Ctrl+Shift+D to toggle ══ -->
+<div id="aa-debug" class="aa-debug" hidden aria-hidden="true">
+  <div class="aa-debug-title">🔍 QAA Debug Panel · Ctrl+Shift+D</div>
+  <div class="aa-debug-row">
+    <span class="aa-debug-lbl">Raw speech</span>
+    <span id="aa-dbg-raw" class="aa-debug-val">—</span>
+  </div>
+  <div class="aa-debug-row">
+    <span class="aa-debug-lbl">Normalized</span>
+    <span id="aa-dbg-norm" class="aa-debug-val aa-debug-ar" dir="rtl" lang="ar">—</span>
+  </div>
+  <div class="aa-debug-row">
+    <span class="aa-debug-lbl">Path</span>
+    <span id="aa-dbg-path" class="aa-debug-val">—</span>
+  </div>
+  <div class="aa-debug-row">
+    <span class="aa-debug-lbl">Matched ayah</span>
+    <span id="aa-dbg-ayah" class="aa-debug-val">—</span>
+  </div>
+  <div class="aa-debug-row">
+    <span class="aa-debug-lbl">Confidence</span>
+    <span id="aa-dbg-conf" class="aa-debug-val">—</span>
+  </div>
+</div>
 
 <!-- ── Scripts ── -->
 <script src="/js/lang.js"></script>

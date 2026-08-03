@@ -233,7 +233,10 @@ app.get("/api/search", (req, res) => {
     return res.json({ type: "not_found" });
   }
 
-  const results = searchText(raw, 30);
+  // Use a larger candidate pool for Arabic queries so late-surah ayahs
+  // (e.g. 55:2 for القرآن) are not cut off by an early limit.
+  const isArabic = /[\u0600-\u06FF]/.test(raw);
+  const results = searchText(raw, isArabic ? 200 : 40);
   return res.json({ type: "results", results, query: raw });
 });
 

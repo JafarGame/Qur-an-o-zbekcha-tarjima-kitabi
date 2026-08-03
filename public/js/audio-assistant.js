@@ -936,12 +936,39 @@
       return a ? a.arabic : null;
     },
 
+    /* Direct lookup table for Quranic isolated letters and opening phrases
+       that are too short or too common for the search API to rank correctly.
+       Checked before hitting the server — returns confidence 100 instantly.  */
+    ARABIC_ALIASES: {
+      'يس'    : { surah: 36, ayah: 1  },   // Yasin opening
+      'كرسيه' : { surah: 2,  ayah: 255 },  // unique to Ayat al-Kursi
+      'الم'   : { surah: 2,  ayah: 1  },   // Baqarah opening
+      'الر'   : { surah: 10, ayah: 1  },   // Yunus opening
+      'المر'  : { surah: 13, ayah: 1  },   // Ra'd opening
+      'المص'  : { surah: 7,  ayah: 1  },   // A'raf opening
+      'حم'    : { surah: 40, ayah: 1  },   // Ghafir opening
+      'طه'    : { surah: 20, ayah: 1  },   // Ta-Ha opening
+      'طس'    : { surah: 27, ayah: 1  },   // Naml opening
+      'طسم'   : { surah: 26, ayah: 1  },   // Shu'ara opening
+      'ص'     : { surah: 38, ayah: 1  },   // Sad
+      'ق'     : { surah: 50, ayah: 1  },   // Qaf
+      'ن'     : { surah: 68, ayah: 1  },   // Qalam
+    },
+
     /* Full match pipeline:
          normalize → server search → score each hit →
          consecutive-ayah pairing bonus → return best with confidence.      */
     async match(arabicText) {
       const qNorm = this.normalize(arabicText);
       const qToks = qNorm.split(/\s+/).filter(Boolean);
+
+      // Fast-path: isolated Quranic letters / fixed opening phrases
+      const alias = this.ARABIC_ALIASES[qNorm.trim()];
+      if (alias) {
+        console.log('[QAA] ARABIC ALIAS hit: ' + qNorm + ' → '
+          + alias.surah + ':' + alias.ayah);
+        return { surah: alias.surah, ayah: alias.ayah, confidence: 100 };
+      }
       if (!qToks.length) return null;
 
       // Fetch candidates via server (token-level matching, ≥67% threshold)
@@ -1097,16 +1124,33 @@
       // Al-Falaq / An-Nas
       'auzubillahi':'أعوذ بالله','audhu':'أعوذ',
       'bishарri':'من شر','min sharri':'من شر',
+      // Quran
+      'quran':'القرآن','quran':'القرآن','quraan':'القرآن','alquran':'القرآن',
+      'koran':'القرآن','qoran':'القرآن',
+      // Yasin / Ar-Rahman vocabulary
+      'yasin':'يس','yaasin':'يس','yaa':'يا','ya':'يا',
+      'walquran':'والقرآن','walquraan':'والقرآن',
+      'allama':'علم','allam':'علم','allamahu':'علم',
+      'khalaq':'خلق','khalaqa':'خلق',
+      'insan':'الإنسان','insaan':'الإنسان',
+      'bayan':'البيان',
+      'shams':'الشمس','qamar':'القمر','najm':'النجم',
+      // Kursi / chair — standalone or combined
+      'kursi':'كرسيه','kursiy':'كرسيه','kursiyy':'كرسيه',
+      'ayatulkursi':'الله لا إله إلا هو','ayat':'آية','ayatul':'آية',
       // General
       'rabb':'رب','nabi':'نبي','rasul':'رسول',
       'subhan':'سبحان','hamd':'الحمد',
+      'wala':'ولا','takhudhu':'تأخذه','tukhzu':'تأخذه',
+      'sinatun':'سنة','walaa':'ولا',
+      'ardu':'الأرض','fis':'في','samawati':'السماوات',
     },
 
     /* Detect: does this Latin text look like a Quran transliteration?
        Anchors on words that almost only appear in Quran/Islamic context.  */
     isLikelyTranslit(text) {
       if (/[\u0600-\u06FF]/.test(text)) return false;
-      return /\b(alhamdu|elhamdu|alhamdulillah|lillahi|bismillah|bismilla|rabbil|robbi|rabbi|alamin|rahman|rahim|iyyaka|nabudu|nastain|sirat|mustaqim|ilaha|hayyu|qayyum|yawmiddin|allahu\s+ahad|qul\s+huw|qul\s+kul|samad|kufuwan)\b/i.test(text);
+      return /\b(alhamdu|elhamdu|alhamdulillah|lillahi|bismillah|bismilla|rabbil|robbi|rabbi|alamin|rahman|rahim|iyyaka|nabudu|nastain|sirat|mustaqim|ilaha|hayyu|qayyum|yawmiddin|allahu\s+ahad|qul\s+huw|qul\s+kul|samad|kufuwan|yasin|yaasin|quran|quraan|koran|qoran|kursi|kursiy|allama|khalaq|bismillah|subhan)\b/i.test(text);
     },
 
     /* Normalize a transliteration string for lookup */
@@ -1171,7 +1215,58 @@
   };
 
   /* ──────────────────────────────────────────────────────────────────────
-   * § 5  AUDIO ENGINE PLACEHOLDER  v1.0
+   * § 4d  DEBUG MODULE
+    *
+    *  Hidden developer panel. Toggle with Ctrl+Shift+D.
+    *  Records: raw SpeechRecognition output, normalized Arabic,
+    *           search path taken, matched ayah, confidence score.
+    * ────────────────────────────────────────────────────────────────────── */
+   QAA.Debug = {
+     enabled: false,
+
+     toggle() {
+       this.enabled = !this.enabled;
+       const panel = document.getElementById('aa-debug');
+       if (panel) {
+         panel.hidden = !this.enabled;
+         panel.removeAttribute('aria-hidden');
+       }
+       console.log('[QAA] Debug panel', this.enabled ? 'ON (Ctrl+Shift+D to hide)' : 'OFF');
+     },
+
+     /* Set one field in the panel. key matches element id suffix (raw/norm/path/ayah/conf). */
+     set(key, value, tone) {   // tone: 'hi' | 'lo' | undefined
+       if (!this.enabled) return;
+       const el = document.getElementById('aa-dbg-' + key);
+       if (!el) return;
+       el.textContent = value || '—';
+       el.className   = 'aa-debug-val'
+         + (key === 'norm' ? ' aa-debug-ar' : '')
+         + (tone === 'hi' ? ' aa-debug-hi' : tone === 'lo' ? ' aa-debug-lo' : '');
+     },
+
+     /* Clear all fields at the start of each new recognition attempt. */
+     clear() {
+       ['raw','norm','path','ayah','conf'].forEach(k => this.set(k, '—'));
+     },
+
+     /* Convenience: show ArabicMatcher result object. */
+     setMatch(match) {
+       if (!match) {
+         this.set('ayah', 'none');
+         this.set('conf', '—', 'lo');
+         return;
+       }
+       this.set('ayah', match.surah + ':' + match.ayah
+         + (match._pairEnd ? '–' + match._pairEnd : ''));
+       const pct = match.confidence + '%';
+       const tone = match.confidence >= QAA.ArabicMatcher.CONFIDENCE_THRESHOLD ? 'hi' : 'lo';
+       this.set('conf', pct, tone);
+     },
+   };
+
+   /* ──────────────────────────────────────────────────────────────────────
+    * § 5  AUDIO ENGINE PLACEHOLDER  v1.0
    * ──────────────────────────────────────────────────────────────────────
    *
    *  CONTRACT for AudioEngine v2.0:
@@ -1423,6 +1518,14 @@
       // Close handle
       const handleRow = results ? results.querySelector('.aa-results-handle-row') : null;
       if (handleRow) handleRow.addEventListener('click', () => this.hideResult());
+
+      // Debug panel toggle — Ctrl+Shift+D
+      document.addEventListener('keydown', e => {
+        if (e.ctrlKey && e.shiftKey && (e.key === 'D' || e.key === 'd')) {
+          e.preventDefault();
+          QAA.Debug.toggle();
+        }
+      });
     },
 
     _handleAction(action) {
@@ -1469,10 +1572,13 @@
         onInterim : t => { console.log('[QAA] INTERIM TRANSCRIPT: "' + t + '"'); this.setTranscript(t); },
         onFinal   : alts => {
           // alts is an array of alternatives ordered by confidence
-          const display = Array.isArray(alts) ? alts[0] : alts;
-          console.log('[QAA] FINAL RECEIVED — trying', Array.isArray(alts) ? alts.length : 1, 'alternatives:', alts);
+          const altsArr  = Array.isArray(alts) ? alts : [alts];
+          const display  = altsArr[0];
+          console.log('[QAA] FINAL RECEIVED — trying', altsArr.length, 'alternatives:', altsArr);
+          QAA.Debug.clear();
+          QAA.Debug.set('raw', altsArr.join(' | '));
           this.setTranscript(display);
-          this._doSearchWithAlternatives(Array.isArray(alts) ? alts : [alts]);
+          this._doSearchWithAlternatives(altsArr);
         },
         onError   : err => {
           console.log('[QAA] VOICE ERROR in UI handler:', err,
@@ -1527,6 +1633,8 @@
       const arabicAlt = alts.find(a => /[\u0600-\u06FF]/.test(a));
       if (arabicAlt) {
         console.log('[QAA] ARABIC RECITATION DETECTED: "' + arabicAlt + '"');
+        QAA.Debug.set('path', 'Arabic recitation (ar-SA)');
+        QAA.Debug.set('norm', QAA.ArabicMatcher.normalize(arabicAlt));
         return this._doArabicSearch(arabicAlt);
       }
 
@@ -1541,6 +1649,10 @@
             const res = await QAA.QuranSearch.findAyah(parsed.surahNum, parsed.ayahNum);
             console.log('[QAA] RESULT FOUND via alt[' + i + ']: surah='
               + res.surah.number + ' ayah=' + Number(res.ayah.number));
+            QAA.Debug.set('path', 'QueryParser (alt ' + i + ')');
+            QAA.Debug.set('norm', alt);
+            QAA.Debug.set('ayah', res.surah.number + ':' + Number(res.ayah.number));
+            QAA.Debug.set('conf', '—');
             this.setTranscript(alt);
             this.showResult(res);
             return;
@@ -1555,6 +1667,7 @@
       const translitAlt = alts.find(a => QAA.TranslitMatcher.isLikelyTranslit(a));
       if (translitAlt) {
         console.log('[QAA] TRANSLIT DETECTED: "' + translitAlt + '"');
+        QAA.Debug.set('path', 'Transliteration');
         return this._doTranslitSearch(translitAlt);
       }
 
@@ -1586,7 +1699,12 @@
       this.setTranscript(text);
       console.log('[QAA] TRANSLIT SEARCH: "' + text + '"');
       try {
+        // Show intermediate Arabic conversion in debug panel
+        const { arabic: dbgAr } = QAA.TranslitMatcher.convertToArabic(text);
+        QAA.Debug.set('norm', dbgAr || '(no conversion)');
+
         const match = await QAA.TranslitMatcher.match(text);
+        QAA.Debug.setMatch(match);
         if (!match) {
           this.showError('Natija topilmadi — aniqroq talaffuz qiling');
           return;
@@ -1612,8 +1730,12 @@
       this.setState('processing');
       this.setTranscript(arabicText);
       console.log('[QAA] ARABIC MATCH ENGINE: "' + arabicText + '"');
+      // norm was set by the caller if coming from _doSearchWithAlternatives;
+      // set it here too so the text-input path also shows it.
+      QAA.Debug.set('norm', QAA.ArabicMatcher.normalize(arabicText));
       try {
         const match = await QAA.ArabicMatcher.match(arabicText);
+        QAA.Debug.setMatch(match);
 
         if (!match) {
           console.log('[QAA] ARABIC: no server hits');
@@ -1641,6 +1763,15 @@
 
     async _doSearch(query) {
       console.log('[QAA] SEARCH QUERY: "' + query + '"');
+      // Detect whether query is Arabic text for debug display
+      const isArabic = /[\u0600-\u06FF]/.test(query);
+      QAA.Debug.set('raw', query);
+      if (isArabic) {
+        QAA.Debug.set('norm', QAA.ArabicMatcher.normalize(query));
+        QAA.Debug.set('path', 'Arabic text input');
+        return this._doArabicSearch(query);
+      }
+
       const parsed = QAA.QueryParser.parse(query);
       console.log('[QAA] QUERY PARSED:', parsed
         ? ('surah=' + parsed.surahNum + ' ayah=' + parsed.ayahNum)
@@ -1649,9 +1780,13 @@
       this.setTranscript(query);
 
       if (parsed) {
+        QAA.Debug.set('path', 'QueryParser');
+        QAA.Debug.set('norm', query);
         try {
           const res = await QAA.QuranSearch.findAyah(parsed.surahNum, parsed.ayahNum);
           console.log('[QAA] RESULT FOUND: surah=' + res.surah.number + ' ayah=' + Number(res.ayah.number));
+          QAA.Debug.set('ayah', res.surah.number + ':' + Number(res.ayah.number));
+          QAA.Debug.set('conf', '—');
           this.showResult(res);
         } catch (e) {
           console.log('[QAA] FIND AYAH ERROR:', e && e.message);
@@ -1670,13 +1805,17 @@
           // One more chance: try transliteration before giving up
           if (QAA.TranslitMatcher.isLikelyTranslit(query)) {
             console.log('[QAA] TEXT SEARCH empty — falling back to TranslitMatcher');
+            QAA.Debug.set('path', 'Transliteration (text fallback)');
             return this._doTranslitSearch(query);
           }
           this.showError('Natija topilmadi');
           return;
         }
+        QAA.Debug.set('path', 'Text search');
         const h = hits[0];
         console.log('[QAA] BEST HIT: surah=' + h.surah + ' ayah=' + h.ayah + ' name=' + h.surahName);
+        QAA.Debug.set('ayah', h.surah + ':' + h.ayah);
+        QAA.Debug.set('conf', '—');
         const res = await QAA.QuranSearch.findAyah(h.surah, h.ayah);
         console.log('[QAA] RESULT FOUND: surah=' + res.surah.number + ' ayah=' + Number(res.ayah.number));
         this.showResult(res);

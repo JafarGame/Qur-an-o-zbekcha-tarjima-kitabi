@@ -614,6 +614,101 @@ console.log('\n═══ Group J: token-count parity — bulk drift guard (2 tes
   );
 })();
 
+// ═══ Group K: token-count histogram snapshot (6 tests) ════════════════════════
+//
+// Records the corpus-wide distribution of ayah token counts across six buckets.
+// A normalization step that merges or splits tokens would shift counts across
+// multiple buckets without necessarily triggering the ±5 guard on the 5/6
+// boundary in Group J.  Pinning the whole histogram at ±10 catches any such
+// wholesale shift before it reaches production.
+//
+//   Baselines (computed 2026-08-03 from current quran.json + arabic-scoring.js):
+//     Bucket  1–4  tokens : 1063
+//     Bucket  5    tokens :  437
+//     Bucket  6    tokens :  373
+//     Bucket  7–9  tokens : 1008
+//     Bucket 10–14 tokens : 1381
+//     Bucket 15+   tokens : 1974
+
+console.log('\n═══ Group K: token-count histogram snapshot (6 tests) ═══\n');
+
+(function () {
+  var BASELINE_1_4   = 1063;
+  var BASELINE_5     =  437;
+  var BASELINE_6     =  373;
+  var BASELINE_7_9   = 1008;
+  var BASELINE_10_14 = 1381;
+  var BASELINE_15P   = 1974;
+  var TOLERANCE      =   10;
+
+  var count1_4   = 0;
+  var count5     = 0;
+  var count6     = 0;
+  var count7_9   = 0;
+  var count10_14 = 0;
+  var count15p   = 0;
+
+  Object.keys(quran)
+    .map(Number)
+    .sort(function (a, b) { return a - b; })
+    .forEach(function (surahNum) {
+      Object.keys(quran[surahNum])
+        .map(Number)
+        .sort(function (a, b) { return a - b; })
+        .forEach(function (ayahNum) {
+          var n = scoring.tokenize(quran[surahNum][ayahNum].arabic).length;
+          if      (n <= 4)  count1_4++;
+          else if (n === 5) count5++;
+          else if (n === 6) count6++;
+          else if (n <= 9)  count7_9++;
+          else if (n <= 14) count10_14++;
+          else              count15p++;
+        });
+    });
+
+  assert(
+    'K-1: bucket 1–4 tokens within ±' + TOLERANCE + ' of baseline ' + BASELINE_1_4 +
+      ' (got ' + count1_4 + ')',
+    Math.abs(count1_4 - BASELINE_1_4) <= TOLERANCE,
+    'count=' + count1_4 + ' baseline=' + BASELINE_1_4 + ' diff=' + Math.abs(count1_4 - BASELINE_1_4)
+  );
+
+  assert(
+    'K-2: bucket 5 tokens within ±' + TOLERANCE + ' of baseline ' + BASELINE_5 +
+      ' (got ' + count5 + ')',
+    Math.abs(count5 - BASELINE_5) <= TOLERANCE,
+    'count=' + count5 + ' baseline=' + BASELINE_5 + ' diff=' + Math.abs(count5 - BASELINE_5)
+  );
+
+  assert(
+    'K-3: bucket 6 tokens within ±' + TOLERANCE + ' of baseline ' + BASELINE_6 +
+      ' (got ' + count6 + ')',
+    Math.abs(count6 - BASELINE_6) <= TOLERANCE,
+    'count=' + count6 + ' baseline=' + BASELINE_6 + ' diff=' + Math.abs(count6 - BASELINE_6)
+  );
+
+  assert(
+    'K-4: bucket 7–9 tokens within ±' + TOLERANCE + ' of baseline ' + BASELINE_7_9 +
+      ' (got ' + count7_9 + ')',
+    Math.abs(count7_9 - BASELINE_7_9) <= TOLERANCE,
+    'count=' + count7_9 + ' baseline=' + BASELINE_7_9 + ' diff=' + Math.abs(count7_9 - BASELINE_7_9)
+  );
+
+  assert(
+    'K-5: bucket 10–14 tokens within ±' + TOLERANCE + ' of baseline ' + BASELINE_10_14 +
+      ' (got ' + count10_14 + ')',
+    Math.abs(count10_14 - BASELINE_10_14) <= TOLERANCE,
+    'count=' + count10_14 + ' baseline=' + BASELINE_10_14 + ' diff=' + Math.abs(count10_14 - BASELINE_10_14)
+  );
+
+  assert(
+    'K-6: bucket 15+ tokens within ±' + TOLERANCE + ' of baseline ' + BASELINE_15P +
+      ' (got ' + count15p + ')',
+    Math.abs(count15p - BASELINE_15P) <= TOLERANCE,
+    'count=' + count15p + ' baseline=' + BASELINE_15P + ' diff=' + Math.abs(count15p - BASELINE_15P)
+  );
+})();
+
 // ── Summary ───────────────────────────────────────────────────────────────────
 
 const total = passed + failed;

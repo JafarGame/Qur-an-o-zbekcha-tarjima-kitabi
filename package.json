@@ -1,15 +1,15 @@
 {
-  "name": "quran-bot",
+  "name": "quran-web",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "web-server.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node web-server.js",
     "test": "node tests/test-segment-matching.js && node tests/test-normalize-parity.js"
   },
   "dependencies": {
     "axios": "^1.18.1",
     "express": "^5.2.1",
-    "multer": "^2.2.0",
-    "node-telegram-bot-api": "^1.1.2"
+    "form-data": "^4.0.3",
+    "multer": "^2.2.0"
   }
 }

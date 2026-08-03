@@ -6,35 +6,7 @@ expertMode = true
 channel = "stable-25_05"
 
 [workflows]
-runButton = "Project"
-
-[[workflows.workflow]]
-name = "Project"
-mode = "parallel"
-author = "agent"
-
-[[workflows.workflow.tasks]]
-task = "workflow.run"
-args = "Quran Bot"
-
-[[workflows.workflow.tasks]]
-task = "workflow.run"
-args = "Quran Web"
-
-[[workflows.workflow.tasks]]
-task = "workflow.run"
-args = "test"
-
-[[workflows.workflow]]
-name = "Quran Bot"
-author = "agent"
-
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "node index.js"
-
-[workflows.workflow.metadata]
-outputType = "console"
+runButton = "Quran Web"
 
 [[workflows.workflow]]
 name = "Quran Web"

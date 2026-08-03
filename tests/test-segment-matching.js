@@ -564,6 +564,56 @@ console.log('\n═══ Group I: 6-token segment-index boundary (2 tests) ═�
   }
 })();
 
+// ═══ Group J: token-count parity — bulk drift guard (2 tests) ════════════════
+//
+// Counts every ayah in the corpus whose normalized token count is exactly 5
+// (excluded from the segment index) or exactly 6 (included).  Both counts are
+// pinned to their baseline ±5 so a normalization change that silently reshuffles
+// a cluster of short ayahs across the 6-token boundary triggers a visible failure
+// long before the individual Group-I examples would catch it.
+//
+//   Baseline (computed 2026-08-03 from current quran.json + arabic-scoring.js):
+//     Exactly-5-token ayahs : 437
+//     Exactly-6-token ayahs : 373
+
+console.log('\n═══ Group J: token-count parity — bulk drift guard (2 tests) ═══\n');
+
+(function () {
+  var BASELINE_5   = 437;
+  var BASELINE_6   = 373;
+  var TOLERANCE    = 5;
+  var count5 = 0;
+  var count6 = 0;
+
+  Object.keys(quran)
+    .map(Number)
+    .sort(function (a, b) { return a - b; })
+    .forEach(function (surahNum) {
+      Object.keys(quran[surahNum])
+        .map(Number)
+        .sort(function (a, b) { return a - b; })
+        .forEach(function (ayahNum) {
+          var n = scoring.tokenize(quran[surahNum][ayahNum].arabic).length;
+          if (n === 5) count5++;
+          if (n === 6) count6++;
+        });
+    });
+
+  assert(
+    'J-1: exactly-5-token ayah count within ±' + TOLERANCE + ' of baseline ' + BASELINE_5 +
+      ' (got ' + count5 + ')',
+    Math.abs(count5 - BASELINE_5) <= TOLERANCE,
+    'count5=' + count5 + ' baseline=' + BASELINE_5 + ' diff=' + Math.abs(count5 - BASELINE_5)
+  );
+
+  assert(
+    'J-2: exactly-6-token ayah count within ±' + TOLERANCE + ' of baseline ' + BASELINE_6 +
+      ' (got ' + count6 + ')',
+    Math.abs(count6 - BASELINE_6) <= TOLERANCE,
+    'count6=' + count6 + ' baseline=' + BASELINE_6 + ' diff=' + Math.abs(count6 - BASELINE_6)
+  );
+})();
+
 // ── Summary ───────────────────────────────────────────────────────────────────
 
 const total = passed + failed;

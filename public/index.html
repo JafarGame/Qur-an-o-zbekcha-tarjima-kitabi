@@ -96,9 +96,13 @@ body.qi-page .qi-back {
   position: absolute;
   left: 16px;
   top: 28px;
+  z-index: 10;           /* stay above the full-width .qi-logo flex container */
   text-decoration: none;
   transition: background 0.2s ease, color 0.2s ease;
   backdrop-filter: blur(6px);
+  /* Ensure a large enough touch target on mobile */
+  min-height: 36px;
+  touch-action: manipulation;
 }
 
 body.qi-page .qi-back:hover {
@@ -113,6 +117,9 @@ body.qi-page .qi-logo {
   filter: drop-shadow(0 0 14px rgba(184,134,11,0.45))
           drop-shadow(0 3px 8px rgba(0,0,0,0.5));
   animation: qi-float 6s ease-in-out infinite;
+  /* Full-width flex container is purely decorative — must not intercept
+     pointer/touch events that are meant for the .qi-back button behind it */
+  pointer-events: none;
 }
 
 @keyframes qi-float {

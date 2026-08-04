@@ -400,18 +400,28 @@
          typeof global.Capacitor.isNativePlatform === 'function' &&
          global.Capacitor.isNativePlatform())
       );
-      // Native speech recognition — preferred in Capacitor APK.
+      // Detect Capacitor native platform — primary signal for native SR.
+      // We check isNativePlatform() (a synchronous flag set by the bridge before
+      // any page script runs) rather than Capacitor.Plugins.SpeechRecognition, because
+      // in Capacitor 8 the plugin-proxy object may not yet be enumerable at page-load
+      // time even though the native layer is fully ready.  The actual plugin call is
+      // deferred to _startNative() which always resolves the object at call time.
+      const isCapacitorNative = typeof global.Capacitor !== 'undefined' &&
+        typeof global.Capacitor.isNativePlatform === 'function' &&
+        global.Capacitor.isNativePlatform();
+
+      // Native speech recognition — preferred in any Capacitor APK context.
       // webkitSpeechRecognition in Android WebView opens the mic and fires onstart
       // but silently never returns a transcript: Google's speech API credentials are
       // bundled into the Chrome *browser*, not into the Chrome WebView engine.
       // @capacitor-community/speech-recognition wraps Android's native SpeechRecognizer
       // which works independently of Chrome and returns text reliably.
-      const hasNativeSR = isAndroidWebView &&
+      const hasNativeSR = isCapacitorNative || (isAndroidWebView &&
         typeof global.Capacitor !== 'undefined' &&
-        !!(global.Capacitor.Plugins && global.Capacitor.Plugins.SpeechRecognition);
+        !!(global.Capacitor.Plugins && global.Capacitor.Plugins.SpeechRecognition));
       console.log('[QAA] PLATFORM — iOS:', isIOS, '| Safari:', isSafari, '| Telegram:', isTelegram,
                   '| Android:', isAndroid, '| AndroidWebView:', isAndroidWebView,
-                  '| NativeSR:', hasNativeSR);
+                  '| CapacitorNative:', isCapacitorNative, '| NativeSR:', hasNativeSR);
 
       if ((!SR && !hasNativeSR) || isTelegram) {
         this.supported = false;
@@ -648,7 +658,22 @@
       const SR = global.Capacitor &&
                  global.Capacitor.Plugins &&
                  global.Capacitor.Plugins.SpeechRecognition;
-      if (!SR) { if (cbs.onError) cbs.onError('not-supported'); return; }
+      if (!SR) {
+        // Plugin proxy not yet available on Capacitor.Plugins.  This should not
+        // happen in a properly synced APK, but guard against it by falling back
+        // to webkitSpeechRecognition when present, or surfacing an error.
+        console.log('[QAA] NATIVE SR — SpeechRecognition not found on Capacitor.Plugins');
+        const browserSR = global.SpeechRecognition || global.webkitSpeechRecognition;
+        if (browserSR) {
+          console.log('[QAA] NATIVE SR — falling back to browser webkitSpeechRecognition');
+          this._isNativeSR = false;
+          this._SR = browserSR;
+          this._attempt(this._LANGS[0]);
+        } else {
+          if (cbs.onError) cbs.onError('not-supported');
+        }
+        return;
+      }
       console.log('[QAA] NATIVE SR — starting via @capacitor-community/speech-recognition');
 
       try {

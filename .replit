@@ -53,4 +53,4 @@ timeoutMs = 60000
 [userenv]
 
 [userenv.shared]
-APK_DOWNLOAD_URL = "https://github.com/JafarGame/Qur-an-o-zbekcha-tarjima-kitabi/releases/download/v1.0.3/quran-karim.apk"
+APK_DOWNLOAD_URL = "https://github.com/JafarGame/Qur-an-o-zbekcha-tarjima-kitabi/releases/download/v1.0.4/quran-karim.apk"

@@ -388,7 +388,20 @@
       const isIOS      = /iP(hone|ad|od)/.test(ua);
       const isSafari   = isIOS || (/^((?!chrome|android).)*safari/i.test(ua));
       const isTelegram = /Telegram/i.test(ua);
-      console.log('[QAA] PLATFORM — iOS:', isIOS, '| Safari:', isSafari, '| Telegram:', isTelegram);
+      const isAndroid  = /Android/i.test(ua);
+      // Android WebView: detected by "wv" token in UA or Capacitor native platform.
+      // webkitSpeechRecognition inside Android WebView/Capacitor behaves differently from
+      // desktop Chrome: interimResults=true can stall finalization, and onend sometimes
+      // never fires — requiring the safety timeout below.
+      const isAndroidWebView = isAndroid && (
+        /; wv\)/.test(ua) ||
+        /WebView/i.test(ua) ||
+        (typeof global.Capacitor !== 'undefined' &&
+         typeof global.Capacitor.isNativePlatform === 'function' &&
+         global.Capacitor.isNativePlatform())
+      );
+      console.log('[QAA] PLATFORM — iOS:', isIOS, '| Safari:', isSafari, '| Telegram:', isTelegram,
+                  '| Android:', isAndroid, '| AndroidWebView:', isAndroidWebView);
 
       if (!SR || isTelegram) {
         this.supported = false;
@@ -396,10 +409,12 @@
         return false;
       }
 
-      this._SR       = SR;
-      this._isSecure = isSecure;
-      this._isIOS    = isIOS;
-      this._isSafari = isSafari;
+      this._SR              = SR;
+      this._isSecure        = isSecure;
+      this._isIOS           = isIOS;
+      this._isSafari        = isSafari;
+      this._isAndroidWebView = isAndroidWebView;
+      this._safetyTimer     = null;
       this.supported = true;
       return true;
     },
@@ -471,8 +486,11 @@
       const r = new this._SR();
       r.lang            = lang;
       r.continuous      = false;
-      r.interimResults  = !this._isIOS;   // iOS Safari crashes with interimResults=true
-      r.maxAlternatives = 5;              // more alternatives → better transcription chance
+      // interimResults=true stalls finalization on iOS Safari AND Android WebView;
+      // both platforms need it off to reliably receive the final transcript.
+      r.interimResults  = !this._isIOS && !this._isAndroidWebView;
+      // Android WebView ignores alternatives beyond 1 and sometimes hangs with >1.
+      r.maxAlternatives = this._isAndroidWebView ? 1 : 5;
       this._active = r;
 
       let gotResult = false;   // true once onresult/onerror fires for THIS instance
@@ -552,6 +570,7 @@
       };
 
       r.onerror = (e) => {
+        if (this._safetyTimer) { clearTimeout(this._safetyTimer); this._safetyTimer = null; }
         const err = e.error;
         console.log('[QAA] VOICE ERROR: ' + err + ' (lang=' + lang + ')');
         gotResult = true;
@@ -568,6 +587,7 @@
       };
 
       r.onend = () => {
+        if (this._safetyTimer) { clearTimeout(this._safetyTimer); this._safetyTimer = null; }
         console.log('[QAA] RECOGNITION END gotResult=' + gotResult + ' lang=' + lang);
         this.isListening = false;
         if (!gotResult && this._cbs.onError) this._cbs.onError('no-speech');
@@ -577,6 +597,22 @@
         r.start();
         this.isListening = true;
         console.log('[QAA] MIC STARTED (lang=' + lang + ')');
+
+        // Safety timeout — Android WebView's webkitSpeechRecognition can silently stall:
+        // onend never fires, leaving the UI permanently in the "listening" state.
+        // After MAX_LISTEN_MS we force-stop and surface a no-speech error.
+        const MAX_LISTEN_MS = 12000;
+        if (this._safetyTimer) clearTimeout(this._safetyTimer);
+        this._safetyTimer = setTimeout(() => {
+          this._safetyTimer = null;
+          if (!gotResult) {
+            console.log('[QAA] SAFETY TIMEOUT (' + MAX_LISTEN_MS + 'ms) — forcing stop (lang=' + lang + ')');
+            gotResult = true;
+            this.isListening = false;
+            try { r.stop(); } catch (_) {}
+            if (this._cbs.onError) this._cbs.onError('no-speech');
+          }
+        }, MAX_LISTEN_MS);
       } catch (ex) {
         this.isListening = false;
         console.log('[QAA] MIC START EXCEPTION:', ex && ex.name, ex);
@@ -586,6 +622,8 @@
     },
 
     stop() {
+      // Cancel any pending safety timeout so it doesn't fire after we stop.
+      if (this._safetyTimer) { clearTimeout(this._safetyTimer); this._safetyTimer = null; }
       if (this._active) {
         try { this._active.stop(); } catch (_) {}
         // Null ALL handlers so stale onend/onerror from the dead instance don't fire

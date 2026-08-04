@@ -171,19 +171,39 @@
   // ── Data loading ──────────────────────────────────────────────────────────
   // quran.json is served at /data/quran.json via web-server.js (single route,
   // no file duplication). Falls back to the API route if that fails.
-  var _ready = fetch('/data/quran.json')
-    .then(function (r) {
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-      return r.json();
-    })
+  // Use XMLHttpRequest — Capacitor's WebViewAssetLoader has intercepted XHR on
+  // all supported Android API levels (6+) since Chrome 44.  Plain fetch() can
+  // return status=0 for local assets in some Capacitor/WebView builds, making
+  // r.ok === false even when the body is valid JSON; XHR avoids that ambiguity.
+  var _ready = new Promise(function (resolve, reject) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', '/data/quran.json', true);
+    xhr.timeout = 30000;
+    xhr.onload = function () {
+      // status 0 = local asset served by Android WebView (treat as success)
+      if (xhr.status === 200 || xhr.status === 0) {
+        if (!xhr.responseText) { reject(new Error('Empty response')); return; }
+        try { resolve(JSON.parse(xhr.responseText)); }
+        catch (e) { reject(new Error('JSON parse: ' + e.message)); }
+      } else {
+        reject(new Error('HTTP ' + xhr.status));
+      }
+    };
+    xhr.onerror   = function () { reject(new Error('Network error loading quran.json')); };
+    xhr.ontimeout = function () { reject(new Error('Timeout loading quran.json (30s)')); };
+    xhr.send();
+  })
     .then(function (data) {
+      if (!root.ArabicScoring) {
+        throw new Error('window.ArabicScoring not found — /lib/arabic-scoring.js failed to load');
+      }
       _quran   = data;
       _buildIndexes();
       _isReady = true;
     })
     .catch(function (err) {
       _error = err;
-      console.error('[QuranData] Failed to load quran.json:', err.message);
+      console.error('[QuranData] Failed to load:', err.message);
       throw err;   // re-throw so callers' .catch() handlers fire
     });
 

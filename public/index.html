@@ -13,6 +13,14 @@
 <link rel="stylesheet" href="/css/style.css" />
 <!-- premium theme variables (dark / light) -->
 <link rel="stylesheet" href="/css/theme.css" />
+<!-- Android APK: redirect to Dashboard on cold launch.
+     document.referrer is empty only on the first app open (not on in-app navigation).
+     window.Capacitor is injected by the native bridge before any page scripts run. -->
+<script>
+  if (typeof Capacitor !== 'undefined' && document.referrer === '') {
+    window.location.replace('/dashboard.html');
+  }
+</script>
 <!-- Language utility — loads before app.js -->
 <script src="/js/lang.js"></script>
 <script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>

@@ -1,5 +1,8 @@
 {
   "appId": "com.qurankarim.app",
   "appName": "Quran Karim",
-  "webDir": "public"
+  "webDir": "public",
+  "android": {
+    "webContentsDebuggingEnabled": true
+  }
 }

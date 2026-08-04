@@ -1,9 +1,15 @@
 modules = ["nodejs-20", "python-base-3.13"]
+
+[env]
+ANDROID_HOME = "/home/runner/workspace/android-sdk"
+JAVA_HOME = "/nix/store/2ds1jrzlmx4n08sp7flga5sxf000l2sl-zulu-ca-jdk-21.0.4"
+
 [agent]
 expertMode = true
 
 [nix]
 channel = "stable-25_05"
+packages = ["zulu21"]
 
 [workflows]
 runButton = "Quran Web"

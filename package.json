@@ -7,6 +7,9 @@
     "test": "node tests/test-segment-matching.js && node tests/test-normalize-parity.js"
   },
   "dependencies": {
+    "@capacitor/android": "^8.5.0",
+    "@capacitor/cli": "^7.6.8",
+    "@capacitor/core": "^8.5.0",
     "axios": "^1.18.1",
     "express": "^5.2.1",
     "form-data": "^4.0.3",

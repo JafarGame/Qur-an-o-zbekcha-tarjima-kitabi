@@ -38,4 +38,9 @@
     <!-- Permissions -->
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- RECORD_AUDIO: required for webkitSpeechRecognition and getUserMedia(audio).
+         Without this declaration Android throws a SecurityException at the native
+         level before the JS error handler can fire, crashing the WebView activity. -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
 </manifest>

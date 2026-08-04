@@ -1,28 +1,53 @@
 /**
- * ClipboardUtils — universal copy + share for Android WebView and all browsers.
+ * ClipboardUtils — universal copy + share.
  *
- * Copy strategy (in order):
- *   1. document.execCommand('copy') — synchronous, works inside any click handler
- *      in all Android WebView versions, even ones that don't expose Clipboard API.
- *   2. navigator.clipboard.writeText — modern async API, used as fallback when
- *      execCommand returns false (removed in some future-browser contexts).
+ * In Android/iOS APK (Capacitor native context):
+ *   Uses @capacitor/clipboard and @capacitor/share native plugins which write
+ *   directly to the system clipboard / open the system share sheet, bypassing
+ *   all WebView clipboard restrictions (execCommand, Clipboard API, etc.).
  *
- * Share strategy:
- *   1. navigator.share (Web Share API) — native share sheet on Android/iOS.
- *   2. Falls back to copy when share is unavailable or fails, then calls onCopied.
+ * In browser:
+ *   1. document.execCommand('copy') — synchronous, in-viewport textarea trick
+ *   2. navigator.clipboard.writeText — modern async API fallback
+ *   3. navigator.share — share sheet on mobile browsers / fall back to copy
  */
 (function (root) {
   'use strict';
 
+  /** True only inside the actual Android / iOS APK (Capacitor native). */
+  function isNative() {
+    return typeof root.Capacitor !== 'undefined' &&
+           typeof root.Capacitor.isNativePlatform === 'function' &&
+           root.Capacitor.isNativePlatform();
+  }
+
   function copy(text) {
-    // ── Primary: execCommand — synchronous, reliable in Android WebView ──────
+    // ── Capacitor native path ────────────────────────────────────────────────
+    // @capacitor/clipboard writes directly to the Android/iOS system clipboard,
+    // bypassing WebView security policies that block execCommand / Clipboard API.
+    if (isNative()) {
+      try {
+        return root.Capacitor.Plugins.Clipboard.write({ string: text });
+      } catch (e) {
+        console.warn('[ClipboardUtils] Capacitor Clipboard unavailable:', e.message);
+        // fall through to browser path
+      }
+    }
+
+    // ── Browser primary: execCommand ─────────────────────────────────────────
+    // Element MUST be in the visible viewport (not at -9999px) for Android WebView
+    // to allow the selection → execCommand copy chain.
     var ta = document.createElement('textarea');
     ta.value = text;
-    ta.setAttribute('readonly', '');
-    ta.style.cssText = 'position:fixed;top:-9999px;left:-9999px;width:1px;height:1px;opacity:0;z-index:-1';
+    ta.style.cssText = [
+      'position:fixed', 'top:0', 'left:0',
+      'width:2em', 'height:2em',
+      'padding:0', 'border:none', 'outline:none',
+      'box-shadow:none', 'background:transparent', 'opacity:0', 'z-index:-1'
+    ].join(';');
     document.body.appendChild(ta);
 
-    // iOS Safari requires a range-based selection
+    // iOS Safari requires a range-based selection instead of .select()
     if (/ipad|iphone/i.test(navigator.userAgent)) {
       var range = document.createRange();
       range.selectNodeContents(ta);
@@ -37,10 +62,9 @@
     var ok = false;
     try { ok = document.execCommand('copy'); } catch (_) {}
     document.body.removeChild(ta);
-
     if (ok) return Promise.resolve();
 
-    // ── Fallback: Clipboard API ───────────────────────────────────────────────
+    // ── Browser fallback: Clipboard API ──────────────────────────────────────
     if (navigator.clipboard && navigator.clipboard.writeText) {
       return navigator.clipboard.writeText(text);
     }
@@ -49,22 +73,41 @@
   }
 
   /**
-   * @param {object}   data      — { title?, text? } forwarded to navigator.share()
-   * @param {function} onCopied  — called when share falls back to a copy
+   * @param {object}   data     — { title?, text? } forwarded to share / copy
+   * @param {function} onCopied — called when share falls back to a copy
    */
   function share(data, onCopied) {
     var fallbackText = (data.title ? data.title + '\n\n' : '') + (data.text || '');
 
+    // ── Capacitor native path ─────────────────────────────────────────────────
+    // @capacitor/share opens the Android/iOS system share sheet natively.
+    if (isNative()) {
+      try {
+        return root.Capacitor.Plugins.Share.share({
+          title:       data.title || '',
+          text:        data.text  || '',
+          dialogTitle: 'Ulashish'
+        }).catch(function (err) {
+          // User cancelled → resolve silently (Share plugin resolves on cancel,
+          // but guard against any rejection that contains 'cancel').
+          if (err && err.message && /cancel/i.test(err.message)) return;
+          // Any other failure → fall back to copy
+          return copy(fallbackText).then(onCopied || function () {});
+        });
+      } catch (e) {
+        console.warn('[ClipboardUtils] Capacitor Share unavailable:', e.message);
+        return copy(fallbackText).then(onCopied || function () {});
+      }
+    }
+
+    // ── Browser path ──────────────────────────────────────────────────────────
     if (navigator.share) {
       return navigator.share(data).catch(function (err) {
-        // User dismissed the share sheet — not an error, nothing to do
         if (err && err.name === 'AbortError') return;
-        // Any other failure → fall back to copy
         return copy(fallbackText).then(onCopied || function () {});
       });
     }
 
-    // No Web Share API — copy instead
     return copy(fallbackText).then(onCopied || function () {});
   }
 

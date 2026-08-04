@@ -191,12 +191,9 @@ app.get('/download/quran-karim.apk', (req, res) => {
   res.download(path.join(__dirname, 'public/downloads/quran-karim.apk'), 'quran-karim.apk');
 });
 
-// Serve quran.json at /data/quran.json for the client-side QuranData module.
-// This avoids duplicating the 2.5 MB file inside public/ — the single source
-// of truth stays at the project root.
-app.get('/data/quran.json', (req, res) => {
-  res.sendFile(path.join(__dirname, 'quran.json'));
-});
+// /data/quran.json is served automatically by the express.static middleware above
+// from public/data/quran.json — no explicit route needed. That file is also
+// bundled into the Capacitor Android APK assets so it works offline in-app.
 
 app.get("/api/surahs", (req, res) => {
   res.json(surahList);

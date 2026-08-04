@@ -10,6 +10,7 @@
     "@capacitor/android": "^8.5.0",
     "@capacitor/cli": "^7.6.8",
     "@capacitor/core": "^8.5.0",
+    "@replit/object-storage": "^1.0.0",
     "axios": "^1.18.1",
     "express": "^5.2.1",
     "form-data": "^4.0.3",

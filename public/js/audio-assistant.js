@@ -429,14 +429,22 @@
         return false;
       }
 
+      // Detect Huawei devices — they often lack Google Mobile Services, so Android's
+      // built-in SpeechRecognizer (which routes to Google's cloud) silently fails.
+      // We store this flag so _startNative() and the error handler can show a targeted
+      // message instead of the generic "try again" text.
+      const isHuawei = /Huawei|HUAWEI|HONOR|HMSCore/i.test(ua);
+
       this._SR               = SR;
       this._isSecure         = isSecure;
       this._isIOS            = isIOS;
       this._isSafari         = isSafari;
       this._isAndroidWebView = isAndroidWebView;
       this._isNativeSR       = hasNativeSR;   // use native plugin in Capacitor APK
+      this._isHuawei         = isHuawei;
       this._safetyTimer      = null;
       this.supported = true;
+      console.log('[QAA] DEVICE — Huawei:', isHuawei);
       return true;
     },
 
@@ -652,16 +660,26 @@
     /* ── Native speech recognition for Capacitor Android APK ──────────────
      * Uses @capacitor-community/speech-recognition which wraps Android's
      * native SpeechRecognizer. Unlike webkitSpeechRecognition in WebView,
-     * this sends audio to Android's system recogniser (not to Google's
-     * Chrome-only endpoint) so it reliably returns a transcript.          */
+     * this sends audio to Android's system recogniser (not Google's
+     * Chrome-only endpoint) so it reliably returns a transcript.
+     *
+     * Language chain: uz-UZ → ar-SA → en-US
+     *   • Retry is automatic only on language-not-supported errors, which
+     *     fire before the user speaks — so the user speaks exactly once.
+     *   • Any other failure (no match, service error, permission) is
+     *     surfaced immediately with an appropriate error code.
+     *
+     * Huawei note: Huawei devices without Google Mobile Services (GMS)
+     *   cannot bind to Android's SpeechRecognizer service (it routes to
+     *   Google's cloud).  SR.available() returns false, or start() throws
+     *   a service/connection error.  We detect this via the UA string and
+     *   show a clear message so the user knows to use text input.          */
     async _startNative(cbs) {
       const SR = global.Capacitor &&
                  global.Capacitor.Plugins &&
                  global.Capacitor.Plugins.SpeechRecognition;
       if (!SR) {
-        // Plugin proxy not yet available on Capacitor.Plugins.  This should not
-        // happen in a properly synced APK, but guard against it by falling back
-        // to webkitSpeechRecognition when present, or surfacing an error.
+        // Plugin proxy not yet on Capacitor.Plugins — fall back to browser SR or error.
         console.log('[QAA] NATIVE SR — SpeechRecognition not found on Capacitor.Plugins');
         const browserSR = global.SpeechRecognition || global.webkitSpeechRecognition;
         if (browserSR) {
@@ -674,21 +692,27 @@
         }
         return;
       }
-      console.log('[QAA] NATIVE SR — starting via @capacitor-community/speech-recognition');
+
+      const isHuawei = this._isHuawei;
+      console.log('[QAA] NATIVE SR — starting via @capacitor-community/speech-recognition' +
+                  (isHuawei ? ' [Huawei device]' : ''));
 
       try {
-        // Check the plugin is functional on this device
+        // ── 1. Availability check ────────────────────────────────────────
+        // On Huawei without GMS the SpeechRecognizer service cannot be
+        // bound at all; available() returns false immediately.
         const { available } = await SR.available();
         if (!available) {
-          console.log('[QAA] NATIVE SR — not available on this device');
-          if (cbs.onError) cbs.onError('not-supported');
+          console.log('[QAA] NATIVE SR — not available on this device' +
+                      (isHuawei ? ' (Huawei/GMS missing)' : ''));
+          if (cbs.onError) cbs.onError('service-unavailable');
           return;
         }
 
-        // Ensure RECORD_AUDIO permission is granted (declared in AndroidManifest.xml)
+        // ── 2. Permission ────────────────────────────────────────────────
         let perm = await SR.checkPermissions();
         if (perm.speechRecognition !== 'granted') {
-          console.log('[QAA] NATIVE SR — requesting permission...');
+          console.log('[QAA] NATIVE SR — requesting RECORD_AUDIO permission...');
           perm = await SR.requestPermissions();
         }
         if (perm.speechRecognition !== 'granted') {
@@ -697,7 +721,15 @@
           return;
         }
 
-        // Safety timeout — in case start() never resolves (device issue or network)
+        // ── 3. Language retry loop: uz-UZ → ar-SA → en-US ───────────────
+        // Automatic retry happens ONLY when the device reports the language
+        // is not installed/supported (fires before the mic opens, so the
+        // user speaks exactly once when a supported language is reached).
+        const NATIVE_LANGS = ['uz-UZ', 'ar-SA', 'en-US'];
+        let langIdx = 0;
+
+        // Safety timeout covers the entire session including language retries.
+        // 15 s (vs 12 s on web) allows one extra retry if needed.
         let done = false;
         if (this._safetyTimer) clearTimeout(this._safetyTimer);
         this._safetyTimer = setTimeout(() => {
@@ -705,48 +737,102 @@
           if (!done) {
             done = true;
             this.isListening = false;
-            console.log('[QAA] NATIVE SR — safety timeout 12s, forcing stop');
+            console.log('[QAA] NATIVE SR — safety timeout 15s, forcing stop');
             try { SR.stop(); } catch (_) {}
             if (cbs.onError) cbs.onError('no-speech');
           }
-        }, 12000);
+        }, 15000);
 
         this.isListening = true;
-        console.log('[QAA] NATIVE SR — start() (language=en-US, maxResults=5, partialResults=false)');
 
-        // start() blocks until the user stops speaking, then resolves {matches: string[]}.
-        const result = await SR.start({
-          language:       'en-US',  // Android SpeechRecognizer handles multilingual input
-          maxResults:     5,
-          partialResults: false,    // simpler: resolves once with final transcript
-          popup:          false,    // no system dialog; use our own UI
-        });
+        while (langIdx < NATIVE_LANGS.length) {
+          if (done) return;   // safety timeout already fired
+          const lang = NATIVE_LANGS[langIdx];
+          console.log('[QAA] NATIVE SR — start() lang=' + lang +
+                      ' (attempt ' + (langIdx + 1) + '/' + NATIVE_LANGS.length + ')');
 
-        // Session complete — clear timer and update state
-        if (this._safetyTimer) { clearTimeout(this._safetyTimer); this._safetyTimer = null; }
-        done = true;
-        this.isListening = false;
+          let result;
+          try {
+            // start() blocks until the user stops speaking, then resolves
+            // with { matches: string[] }.
+            result = await SR.start({
+              language:       lang,
+              maxResults:     5,
+              partialResults: false,   // single final result; no interim events
+              popup:          false,   // use our own UI, no system dialog
+            });
+          } catch (e) {
+            if (done) return;
+            const rawMsg = (e && e.message) ? e.message : '';
+            const msg    = rawMsg.toLowerCase();
+            const code   = String((e && (e.code || e.errorCode)) || '');
+            console.log('[QAA] NATIVE SR (' + lang + ') ERROR: code=' + code + ' msg=' + rawMsg);
 
-        const matches = (result && result.matches) ? result.matches.filter(Boolean) : [];
-        console.log('[QAA] NATIVE SR RESULT (' + matches.length + ' matches):', matches);
+            // Permission / security — fatal, do not retry
+            if (msg.includes('denied') || msg.includes('permission') ||
+                msg.includes('insufficient') || code === '9') {
+              if (this._safetyTimer) { clearTimeout(this._safetyTimer); this._safetyTimer = null; }
+              done = true; this.isListening = false;
+              if (cbs.onError) cbs.onError('not-allowed');
+              return;
+            }
 
-        if (matches.length > 0) {
-          if (cbs.onFinal) cbs.onFinal(matches);   // same callback as webkitSpeechRecognition path
-        } else {
-          if (cbs.onError) cbs.onError('no-speech');
+            // Language not supported/available — fires BEFORE mic opens,
+            // so we can silently skip to the next language.
+            // Android error codes: 15 = LANGUAGE_NOT_SUPPORTED,
+            //                      16 = LANGUAGE_UNAVAILABLE,
+            //                      17 = CANNOT_CHECK_SUPPORT
+            if (msg.includes('language') || msg.includes('not support') ||
+                msg.includes('unavailable') ||
+                code === '15' || code === '16' || code === '17') {
+              console.log('[QAA] NATIVE SR — language not supported: ' + lang + ', trying next');
+              langIdx++;
+              continue;
+            }
+
+            // Service binding / connection failure — typical on Huawei without GMS.
+            // Android error codes: 4 = ERROR_SERVER, 5 = ERROR_CLIENT,
+            //                      8 = ERROR_RECOGNIZER_BUSY, 12 = SERVER_DISCONNECTED
+            const isServiceErr = msg.includes('bind') || msg.includes('connection') ||
+                msg.includes('service') || msg.includes('server') || msg.includes('network') ||
+                code === '4' || code === '5' || code === '8' || code === '12';
+
+            if (this._safetyTimer) { clearTimeout(this._safetyTimer); this._safetyTimer = null; }
+            done = true; this.isListening = false;
+            if (cbs.onError) cbs.onError(isServiceErr ? 'service-unavailable' : 'no-speech');
+            return;
+          }
+
+          // ── start() resolved — process result ────────────────────────
+          if (done) return;
+          if (this._safetyTimer) { clearTimeout(this._safetyTimer); this._safetyTimer = null; }
+          done = true; this.isListening = false;
+
+          const matches = (result && result.matches) ? result.matches.filter(Boolean) : [];
+          console.log('[QAA] NATIVE SR (' + lang + ') RESULT (' + matches.length + ' matches):', matches);
+
+          if (matches.length > 0) {
+            if (cbs.onFinal) cbs.onFinal(matches);   // same callback as webkitSpeechRecognition path
+          } else {
+            if (cbs.onError) cbs.onError('no-speech');
+          }
+          return;
+        }
+
+        // All languages in chain tried — none supported on this device
+        if (!done) {
+          if (this._safetyTimer) { clearTimeout(this._safetyTimer); this._safetyTimer = null; }
+          done = true; this.isListening = false;
+          if (cbs.onError) cbs.onError('service-unavailable');
         }
 
       } catch (e) {
+        // Outer catch: available() / checkPermissions() / requestPermissions() threw.
         if (this._safetyTimer) { clearTimeout(this._safetyTimer); this._safetyTimer = null; }
         this.isListening = false;
-        const msg = (e && e.message) ? e.message.toLowerCase() : '';
-        console.log('[QAA] NATIVE SR ERROR:', msg || e);
-        if (msg.includes('denied') || msg.includes('permission') || msg.includes('not-allowed')) {
-          if (cbs.onError) cbs.onError('not-allowed');
-        } else {
-          // Covers: no match, recognizer error, network, etc.
-          if (cbs.onError) cbs.onError('no-speech');
-        }
+        const msg = ((e && e.message) || '').toLowerCase();
+        console.log('[QAA] NATIVE SR OUTER ERROR:', msg || e);
+        if (cbs.onError) cbs.onError('service-unavailable');
       }
     },
 
@@ -1902,11 +1988,19 @@
             }
           }
 
+          // 'service-unavailable': raised by _startNative() when the Android
+          // SpeechRecognizer service cannot be reached (Huawei without GMS,
+          // offline device, or the recognition service is not installed).
+          const serviceUnavailableMsg = QAA.SpeechInput._isHuawei
+            ? 'Google ovoz xizmati Huawei qurilmada ishlamaydi — matn orqali qidiring'
+            : 'Ovoz tanish xizmati ishlamayapti — qurilmani qayta ishga tushiring yoki matn kiriting';
+
           const MSG = {
             'insecure-context'       : 'Ovoz xizmati bloklangan — HTTPS kerak',
-            'not-allowed'            : 'Mikrofon ruxsati rad etildi — brauzer sozlamalarini tekshiring',
-            'permission-denied'      : 'Mikrofon ruxsati rad etildi — brauzer sozlamalarini tekshiring',
+            'not-allowed'            : 'Mikrofon ruxsati rad etildi — sozlamalarni tekshiring',
+            'permission-denied'      : 'Mikrofon ruxsati rad etildi — sozlamalarni tekshiring',
             'service-not-allowed'    : svcMsg,
+            'service-unavailable'    : serviceUnavailableMsg,
             'audio-capture'          : 'Mikrofon topilmadi yoki ishlamayapti',
             'network'                : 'Tarmoq xatosi — qayta urinib ko\'ring',
             'no-speech'              : 'Ovoz aniq eshitilmadi, qayta urinib ko\'ring',

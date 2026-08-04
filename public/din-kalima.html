@@ -235,6 +235,7 @@ html.dark .ayah-action-btn:hover {
   </main>
 
   <script src="/js/lang.js"></script>
+  <script src="/js/clipboard.js"></script>
 
   <script>
   (function () {
@@ -391,7 +392,7 @@ html.dark .ayah-action-btn:hover {
       if (action === 'copy') {
         var text = entry.arabic + '\n\n' + entry.name + '\n' + entry.uzbek +
                    '\n\n— Din Asillari | LA ILAHA ILLALLAH ning shartlari';
-        navigator.clipboard.writeText(text)
+        ClipboardUtils.copy(text)
           .then(function ()  { showToast('Nusxa olindi ✓'); })
           .catch(function () { showToast('Xatolik yuz berdi'); });
       }
@@ -402,13 +403,8 @@ html.dark .ayah-action-btn:hover {
           text:  entry.arabic + '\n\n' + entry.name + '\n' + entry.uzbek +
                  '\n\n— Din Asillari | LA ILAHA ILLALLAH ning shartlari'
         };
-        if (navigator.share) {
-          navigator.share(shareData).catch(function () {});
-        } else {
-          navigator.clipboard.writeText(shareData.title + '\n\n' + shareData.text)
-            .then(function ()  { showToast('Matn nusxa olindi ✓'); })
-            .catch(function () { showToast('Ulashishda xatolik'); });
-        }
+        ClipboardUtils.share(shareData, function () { showToast('Matn nusxa olindi ✓'); })
+          .catch(function () { showToast('Ulashishda xatolik'); });
       }
     });
 

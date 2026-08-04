@@ -296,7 +296,7 @@
 
         if (action === "copy") {
           const text = `${arabic}\n\n${translation}\n\n— Qur'on Karim, ${displayName} ${Lang.t('surasi')}, ${ayahNum}-${Lang.t('oyat')}`;
-          navigator.clipboard.writeText(text)
+          ClipboardUtils.copy(text)
             .then(() => showActionToast('nusxalandi'))
             .catch(() => showToast(Lang.t('nusxaXatolik')));
         }
@@ -306,13 +306,8 @@
             title: `Qur'on Karim — ${surah.name} ${ayahNum}-oyat`,
             text:  `${arabic}\n\n${translation}\n\n— ${surah.name} surasi, ${ayahNum}-oyat`,
           };
-          if (navigator.share) {
-            navigator.share(shareData).catch(() => {});
-          } else {
-            navigator.clipboard.writeText(`${shareData.title}\n\n${shareData.text}`)
-              .then(() => showToast(Lang.t('matnNusxa')))
-              .catch(() => showToast(Lang.t('ulashishXato')));
-          }
+          ClipboardUtils.share(shareData, () => showToast(Lang.t('matnNusxa')))
+            .catch(() => showToast(Lang.t('ulashishXato')));
         }
 
         if (action === "bookmark") {

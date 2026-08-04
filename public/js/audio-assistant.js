@@ -1673,7 +1673,7 @@
         const text = ayah.arabic
           + '\n\n' + ayah.translation
           + '\n\n— Qur\'on Karim, ' + name + ' ' + surah.number + ':' + num;
-        navigator.clipboard.writeText(text)
+        ClipboardUtils.copy(text)
           .then(()  => this.showToast('Nusxa olindi ✓'))
           .catch(()  => this.showToast('Xatolik'));
       }
@@ -1683,9 +1683,7 @@
           title : 'Qur\'on Karim — ' + name + ' ' + surah.number + ':' + num,
           text  : ayah.arabic + '\n\n' + ayah.translation,
         };
-        if (navigator.share) navigator.share(shareData).catch(() => {});
-        else navigator.clipboard.writeText(shareData.title + '\n\n' + shareData.text)
-          .then(()  => this.showToast('Matn nusxa olindi ✓'))
+        ClipboardUtils.share(shareData, () => this.showToast('Matn nusxa olindi ✓'))
           .catch(() => this.showToast('Xatolik'));
       }
 

@@ -118,6 +118,7 @@
   <!-- Error state -->
   <div class="state-msg" id="hrError" hidden>Hadis topilmadi.</div>
 
+  <script src="/js/clipboard.js"></script>
   <script>
   (function () {
     const SAVE_KEY = "hadith_saved";
@@ -269,7 +270,7 @@
         // ── Copy ──────────────────────────────────────────────────
         hrCopyBtn.addEventListener("click", () => {
           const text = `${hadith.arabic}\n\n— ${hadith.narrator || ""}\n(${hadith.source || ""})`;
-          navigator.clipboard.writeText(text).then(() => {
+          ClipboardUtils.copy(text).then(() => {
             hrCopyLabel.textContent = "Nusxalandi!";
             showToast("Matn nusxalandi ✓");
             setTimeout(() => { hrCopyLabel.textContent = "Nusxa"; }, 2000);
@@ -279,11 +280,8 @@
         // ── Share ─────────────────────────────────────────────────
         hrShareBtn.addEventListener("click", () => {
           const text = `${hadith.arabic}\n\n— ${hadith.narrator || ""}\n(${hadith.source || ""})`;
-          if (navigator.share) {
-            navigator.share({ title: `Hadis #${hadith.number}`, text }).catch(() => {});
-          } else {
-            navigator.clipboard.writeText(text).then(() => showToast("Matn nusxalandi ✓"));
-          }
+          ClipboardUtils.share({ title: `Hadis #${hadith.number}`, text },
+            () => showToast("Matn nusxalandi ✓"));
         });
 
         // ── Save ──────────────────────────────────────────────────

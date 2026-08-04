@@ -186,20 +186,31 @@ app.use("/lib", express.static(path.join(__dirname, "lib")));
 app.use(express.static(path.join(__dirname, "public")));
 
 // Serve the latest debug APK as a direct download.
-// The APK is a large build artefact (~21 MB) that cannot be bundled into the
-// deployment layer.  Place quran-karim.apk in public/downloads/ locally after
-// running `./gradlew assembleDebug` and the route will serve it in dev.
-// In production, upload the file to Replit Object Storage (or any CDN) and
-// redirect to that URL instead.
+// The APK (~21 MB) must NOT live inside the deployment bundle (causes 413).
+// Resolution order:
+//   1. APK_DOWNLOAD_URL env var → 302 redirect (production: set this to any CDN/host URL)
+//   2. public/downloads/quran-karim.apk → direct send (dev: after manual copy)
+//   3. android build output → direct send (dev: after ./gradlew assembleDebug)
+//   4. 503 with instructions
 app.get('/download/quran-karim.apk', (req, res) => {
-  const apkPath = path.join(__dirname, 'public/downloads/quran-karim.apk');
-  if (require('fs').existsSync(apkPath)) {
-    res.download(apkPath, 'quran-karim.apk');
-  } else {
-    res.status(503).json({
-      error: 'APK not available on this server. Build it locally with `./gradlew assembleDebug` and copy to public/downloads/.'
-    });
+  const fs = require('fs');
+
+  if (process.env.APK_DOWNLOAD_URL) {
+    return res.redirect(302, process.env.APK_DOWNLOAD_URL);
   }
+
+  const candidates = [
+    path.join(__dirname, 'public/downloads/quran-karim.apk'),
+    path.join(__dirname, 'android/app/build/outputs/apk/debug/app-debug.apk'),
+  ];
+  const found = candidates.find(p => fs.existsSync(p));
+  if (found) {
+    return res.download(found, 'quran-karim.apk');
+  }
+
+  res.status(503).json({
+    error: 'APK not available in production. Set the APK_DOWNLOAD_URL environment variable to a publicly hosted APK URL and redeploy.'
+  });
 });
 
 // /data/quran.json is served automatically by the express.static middleware above

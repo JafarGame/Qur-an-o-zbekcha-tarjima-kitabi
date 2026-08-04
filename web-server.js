@@ -185,6 +185,15 @@ app.get("/", (req, res) => {
 app.use("/lib", express.static(path.join(__dirname, "lib")));
 app.use(express.static(path.join(__dirname, "public")));
 
+// Serve the latest debug APK as a direct download.
+app.get('/download/quran-karim.apk', (req, res) => {
+  const apkPath = path.join(__dirname, 'android/app/build/outputs/apk/debug/app-debug.apk');
+  if (!require('fs').existsSync(apkPath)) {
+    return res.status(404).send('APK not found — run ./gradlew assembleDebug first.');
+  }
+  res.download(apkPath, 'quran-karim.apk');
+});
+
 // Serve quran.json at /data/quran.json for the client-side QuranData module.
 // This avoids duplicating the 2.5 MB file inside public/ — the single source
 // of truth stays at the project root.

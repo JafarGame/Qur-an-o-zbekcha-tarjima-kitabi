@@ -1,0 +1,9 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "EuDWf8-xNW6Qwuf5cGhlE"
+uri = "file://android/app/build/outputs/apk/debug/app-debug.apk"
+type = "unspecified"
+title = "Quran Karim — Debug APK"
+description = "Android debug build (arm64/x86_64). Install with: adb install app-debug.apk"

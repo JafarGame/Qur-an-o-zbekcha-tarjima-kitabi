@@ -181,12 +181,13 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "dashboard.html"));
 });
 
-// Serve lib/ under /lib so the browser can load shared modules (e.g. arabic-scoring.js)
-app.use("/lib", express.static(path.join(__dirname, "lib")));
-app.use(express.static(path.join(__dirname, "public")));
-
 // Serve the latest APK as a direct download — always with Content-Disposition: attachment
 // so the browser shows its native download notification and the user stays on the page.
+//
+// IMPORTANT: this route must be registered BEFORE express.static so that it is always
+// handled by this handler and never shadowed by a static file (e.g. if a public/download/
+// directory were ever created, express.static would intercept the request first and send
+// the file with the wrong Content-Type / without Content-Disposition).
 //
 // Resolution order:
 //   1. APK_DOWNLOAD_URL env var → PROXY the file (not a redirect) to keep the same origin
@@ -251,6 +252,12 @@ app.get('/download/quran-karim.apk', (req, res) => {
     error: 'APK not available. Set APK_DOWNLOAD_URL to a publicly hosted APK URL.'
   });
 });
+
+// Static file serving comes AFTER the download route so that /download/quran-karim.apk
+// is always handled by the explicit route above, never by express.static.
+// Serve lib/ under /lib so the browser can load shared modules (e.g. arabic-scoring.js)
+app.use("/lib", express.static(path.join(__dirname, "lib")));
+app.use(express.static(path.join(__dirname, "public")));
 
 // /data/quran.json is served automatically by the express.static middleware above
 // from public/data/quran.json — no explicit route needed. That file is also

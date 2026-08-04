@@ -186,9 +186,20 @@ app.use("/lib", express.static(path.join(__dirname, "lib")));
 app.use(express.static(path.join(__dirname, "public")));
 
 // Serve the latest debug APK as a direct download.
-// The file lives in public/downloads/ so it is present in both dev and production.
+// The APK is a large build artefact (~21 MB) that cannot be bundled into the
+// deployment layer.  Place quran-karim.apk in public/downloads/ locally after
+// running `./gradlew assembleDebug` and the route will serve it in dev.
+// In production, upload the file to Replit Object Storage (or any CDN) and
+// redirect to that URL instead.
 app.get('/download/quran-karim.apk', (req, res) => {
-  res.download(path.join(__dirname, 'public/downloads/quran-karim.apk'), 'quran-karim.apk');
+  const apkPath = path.join(__dirname, 'public/downloads/quran-karim.apk');
+  if (require('fs').existsSync(apkPath)) {
+    res.download(apkPath, 'quran-karim.apk');
+  } else {
+    res.status(503).json({
+      error: 'APK not available on this server. Build it locally with `./gradlew assembleDebug` and copy to public/downloads/.'
+    });
+  }
 });
 
 // /data/quran.json is served automatically by the express.static middleware above

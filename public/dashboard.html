@@ -1007,9 +1007,11 @@ body.db-page .db-apk-sub {
     <span class="db-footer-signature">جعفر موحد</span>
   </div>
 
-  <!-- Permanent APK download — always points to the latest release via /download/quran-karim.apk -->
-  <div class="db-apk-row">
-    <a class="db-apk-btn" href="/download/quran-karim.apk" aria-label="Qur'on Karim Android APK yuklab olish">
+  <!-- Permanent APK download — always points to the latest release via /download/quran-karim.apk.
+       Hidden inside the Capacitor APK (web-only feature): see initApkButton() below.          -->
+  <div class="db-apk-row" id="db-apk-row">
+    <a class="db-apk-btn" href="/download/quran-karim.apk" download="quran-karim.apk"
+       aria-label="Qur'on Karim Android APK yuklab olish">
       <!-- Download icon -->
       <svg class="db-apk-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
@@ -1225,6 +1227,20 @@ body.db-page .db-apk-sub {
   langKiril.addEventListener("change", function () {
     if (langKiril.checked && window.Lang) Lang.set("kiril");
   });
+})();
+
+/* ─── Hide APK download button inside Capacitor APK ─────────────────────
+   The button is web-only — there's no point offering an APK download from
+   within the APK itself. We hide it at runtime so the HTML is identical
+   on both platforms and no build-time branching is needed.              */
+(function initApkButton() {
+  var isNative = typeof window.Capacitor !== 'undefined' &&
+                 typeof window.Capacitor.isNativePlatform === 'function' &&
+                 window.Capacitor.isNativePlatform();
+  if (isNative) {
+    var row = document.getElementById('db-apk-row');
+    if (row) row.style.display = 'none';
+  }
 })();
 </script>
 

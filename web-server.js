@@ -185,18 +185,57 @@ app.get("/", (req, res) => {
 app.use("/lib", express.static(path.join(__dirname, "lib")));
 app.use(express.static(path.join(__dirname, "public")));
 
-// Serve the latest debug APK as a direct download.
-// The APK (~21 MB) must NOT live inside the deployment bundle (causes 413).
+// Serve the latest APK as a direct download — always with Content-Disposition: attachment
+// so the browser shows its native download notification and the user stays on the page.
+//
 // Resolution order:
-//   1. APK_DOWNLOAD_URL env var → 302 redirect (production: set this to any CDN/host URL)
-//   2. public/downloads/quran-karim.apk → direct send (dev: after manual copy)
-//   3. android build output → direct send (dev: after ./gradlew assembleDebug)
-//   4. 503 with instructions
+//   1. APK_DOWNLOAD_URL env var → PROXY the file (not a redirect) to keep the same origin
+//      and allow the browser's download attribute / Content-Disposition header to work.
+//   2. public/downloads/quran-karim.apk → direct send (dev build)
+//   3. android build output            → direct send (dev build)
+//   4. 503
+//
+// Why proxy instead of redirect:
+//   A 302 to github.com is cross-origin. Browsers drop the <a download> attribute and
+//   the Content-Disposition hint after the first cross-origin redirect, so the file
+//   opens in a new tab instead of triggering a download notification.
+//   Proxying keeps the URL same-origin throughout and lets us set the header directly.
 app.get('/download/quran-karim.apk', (req, res) => {
-  const fs = require('fs');
+  const fs    = require('fs');
+  const https = require('https');
+  const http  = require('http');
+
+  // Headers that force a download in every browser / WebView
+  res.setHeader('Content-Disposition', 'attachment; filename="quran-karim.apk"');
+  res.setHeader('Content-Type', 'application/vnd.android.package-archive');
+  res.setHeader('Cache-Control', 'no-cache');
 
   if (process.env.APK_DOWNLOAD_URL) {
-    return res.redirect(302, process.env.APK_DOWNLOAD_URL);
+    // Follow redirect chain internally and pipe the final response to the client.
+    function proxyFetch(targetUrl, depth) {
+      if (depth > 10) { if (!res.headersSent) res.status(502).end('Too many redirects'); return; }
+      const mod = targetUrl.startsWith('https') ? https : http;
+      mod.get(targetUrl, (upstream) => {
+        if ([301, 302, 303, 307, 308].includes(upstream.statusCode)) {
+          upstream.resume();                              // discard redirect body
+          proxyFetch(upstream.headers.location, depth + 1);
+          return;
+        }
+        if (upstream.statusCode !== 200) {
+          if (!res.headersSent) res.status(502).end('Upstream error: ' + upstream.statusCode);
+          return;
+        }
+        if (upstream.headers['content-length']) {
+          res.setHeader('Content-Length', upstream.headers['content-length']);
+        }
+        upstream.pipe(res);
+      }).on('error', (e) => {
+        console.error('[APK proxy]', e.message);
+        if (!res.headersSent) res.status(502).end('Proxy error');
+      });
+    }
+    proxyFetch(process.env.APK_DOWNLOAD_URL, 0);
+    return;
   }
 
   const candidates = [
@@ -209,7 +248,7 @@ app.get('/download/quran-karim.apk', (req, res) => {
   }
 
   res.status(503).json({
-    error: 'APK not available in production. Set the APK_DOWNLOAD_URL environment variable to a publicly hosted APK URL and redeploy.'
+    error: 'APK not available. Set APK_DOWNLOAD_URL to a publicly hosted APK URL.'
   });
 });
 

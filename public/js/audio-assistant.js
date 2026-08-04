@@ -400,21 +400,32 @@
          typeof global.Capacitor.isNativePlatform === 'function' &&
          global.Capacitor.isNativePlatform())
       );
+      // Native speech recognition — preferred in Capacitor APK.
+      // webkitSpeechRecognition in Android WebView opens the mic and fires onstart
+      // but silently never returns a transcript: Google's speech API credentials are
+      // bundled into the Chrome *browser*, not into the Chrome WebView engine.
+      // @capacitor-community/speech-recognition wraps Android's native SpeechRecognizer
+      // which works independently of Chrome and returns text reliably.
+      const hasNativeSR = isAndroidWebView &&
+        typeof global.Capacitor !== 'undefined' &&
+        !!(global.Capacitor.Plugins && global.Capacitor.Plugins.SpeechRecognition);
       console.log('[QAA] PLATFORM — iOS:', isIOS, '| Safari:', isSafari, '| Telegram:', isTelegram,
-                  '| Android:', isAndroid, '| AndroidWebView:', isAndroidWebView);
+                  '| Android:', isAndroid, '| AndroidWebView:', isAndroidWebView,
+                  '| NativeSR:', hasNativeSR);
 
-      if (!SR || isTelegram) {
+      if ((!SR && !hasNativeSR) || isTelegram) {
         this.supported = false;
         if (isTelegram) console.log('[QAA] Telegram browser — voice disabled, use text input');
         return false;
       }
 
-      this._SR              = SR;
-      this._isSecure        = isSecure;
-      this._isIOS           = isIOS;
-      this._isSafari        = isSafari;
+      this._SR               = SR;
+      this._isSecure         = isSecure;
+      this._isIOS            = isIOS;
+      this._isSafari         = isSafari;
       this._isAndroidWebView = isAndroidWebView;
-      this._safetyTimer     = null;
+      this._isNativeSR       = hasNativeSR;   // use native plugin in Capacitor APK
+      this._safetyTimer      = null;
       this.supported = true;
       return true;
     },
@@ -476,6 +487,13 @@
             console.log('[QAA] MediaRecorder init (non-fatal):', e && e.message);
             resolveBlobReady(null);   // unblock any awaiter with null
           });
+      }
+
+      // In Capacitor APK: bypass webkitSpeechRecognition entirely and use the
+      // native Android SpeechRecognizer via @capacitor-community/speech-recognition.
+      if (this._isNativeSR) {
+        this._startNative(cbs);
+        return;
       }
 
       this._attempt(this._LANGS[0]);
@@ -621,9 +639,101 @@
       }
     },
 
+    /* ── Native speech recognition for Capacitor Android APK ──────────────
+     * Uses @capacitor-community/speech-recognition which wraps Android's
+     * native SpeechRecognizer. Unlike webkitSpeechRecognition in WebView,
+     * this sends audio to Android's system recogniser (not to Google's
+     * Chrome-only endpoint) so it reliably returns a transcript.          */
+    async _startNative(cbs) {
+      const SR = global.Capacitor &&
+                 global.Capacitor.Plugins &&
+                 global.Capacitor.Plugins.SpeechRecognition;
+      if (!SR) { if (cbs.onError) cbs.onError('not-supported'); return; }
+      console.log('[QAA] NATIVE SR — starting via @capacitor-community/speech-recognition');
+
+      try {
+        // Check the plugin is functional on this device
+        const { available } = await SR.available();
+        if (!available) {
+          console.log('[QAA] NATIVE SR — not available on this device');
+          if (cbs.onError) cbs.onError('not-supported');
+          return;
+        }
+
+        // Ensure RECORD_AUDIO permission is granted (declared in AndroidManifest.xml)
+        let perm = await SR.checkPermissions();
+        if (perm.speechRecognition !== 'granted') {
+          console.log('[QAA] NATIVE SR — requesting permission...');
+          perm = await SR.requestPermissions();
+        }
+        if (perm.speechRecognition !== 'granted') {
+          console.log('[QAA] NATIVE SR — permission denied:', perm.speechRecognition);
+          if (cbs.onError) cbs.onError('not-allowed');
+          return;
+        }
+
+        // Safety timeout — in case start() never resolves (device issue or network)
+        let done = false;
+        if (this._safetyTimer) clearTimeout(this._safetyTimer);
+        this._safetyTimer = setTimeout(() => {
+          this._safetyTimer = null;
+          if (!done) {
+            done = true;
+            this.isListening = false;
+            console.log('[QAA] NATIVE SR — safety timeout 12s, forcing stop');
+            try { SR.stop(); } catch (_) {}
+            if (cbs.onError) cbs.onError('no-speech');
+          }
+        }, 12000);
+
+        this.isListening = true;
+        console.log('[QAA] NATIVE SR — start() (language=en-US, maxResults=5, partialResults=false)');
+
+        // start() blocks until the user stops speaking, then resolves {matches: string[]}.
+        const result = await SR.start({
+          language:       'en-US',  // Android SpeechRecognizer handles multilingual input
+          maxResults:     5,
+          partialResults: false,    // simpler: resolves once with final transcript
+          popup:          false,    // no system dialog; use our own UI
+        });
+
+        // Session complete — clear timer and update state
+        if (this._safetyTimer) { clearTimeout(this._safetyTimer); this._safetyTimer = null; }
+        done = true;
+        this.isListening = false;
+
+        const matches = (result && result.matches) ? result.matches.filter(Boolean) : [];
+        console.log('[QAA] NATIVE SR RESULT (' + matches.length + ' matches):', matches);
+
+        if (matches.length > 0) {
+          if (cbs.onFinal) cbs.onFinal(matches);   // same callback as webkitSpeechRecognition path
+        } else {
+          if (cbs.onError) cbs.onError('no-speech');
+        }
+
+      } catch (e) {
+        if (this._safetyTimer) { clearTimeout(this._safetyTimer); this._safetyTimer = null; }
+        this.isListening = false;
+        const msg = (e && e.message) ? e.message.toLowerCase() : '';
+        console.log('[QAA] NATIVE SR ERROR:', msg || e);
+        if (msg.includes('denied') || msg.includes('permission') || msg.includes('not-allowed')) {
+          if (cbs.onError) cbs.onError('not-allowed');
+        } else {
+          // Covers: no match, recognizer error, network, etc.
+          if (cbs.onError) cbs.onError('no-speech');
+        }
+      }
+    },
+
     stop() {
       // Cancel any pending safety timeout so it doesn't fire after we stop.
       if (this._safetyTimer) { clearTimeout(this._safetyTimer); this._safetyTimer = null; }
+      // Stop native speech recognition if it is the active session
+      if (this._isNativeSR) {
+        const nativeSR = global.Capacitor && global.Capacitor.Plugins &&
+                         global.Capacitor.Plugins.SpeechRecognition;
+        if (nativeSR) { try { nativeSR.stop(); } catch (_) {} }
+      }
       if (this._active) {
         try { this._active.stop(); } catch (_) {}
         // Null ALL handlers so stale onend/onerror from the dead instance don't fire

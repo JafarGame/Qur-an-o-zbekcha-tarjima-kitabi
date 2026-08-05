@@ -1,0 +1,137 @@
+Bismillah.
+
+Continue the hadith project carefully and follow all previous project rules.
+
+IMPORTANT: This project requires high accuracy because it contains Islamic texts. Do not make careless automatic replacements that may change meanings.
+
+## 1. Preserve all existing project rules
+
+- Do not modify Quran files.
+- Do not modify Quran Arabic text.
+- Do not modify Quran translations.
+- Do not modify Quran reading system.
+- Do not modify unrelated HTML, JavaScript, or server files.
+- Keep WEB version and APK bundle synchronized at all times.
+
+Hadith data exists in two locations:
+
+1. Web source:
+public/data/hadith/
+
+2. APK bundle:
+android/app/src/main/assets/public/data/hadith/
+
+Always verify both locations contain identical data after any future changes.
+
+---
+
+## 2. Perform a complete audit after the migration
+
+Audit these files:
+
+- bukhari.json
+- muslim.json
+- abudawud.json
+- tirmidhi.json
+- related books and chapters files
+
+Check:
+
+- JSON structure
+- missing fields
+- duplicate IDs
+- incorrect IDs
+- collection names
+- book numbers
+- chapter numbers
+- hadith numbers
+- narrator information
+- Arabic text preservation
+- Uzbek translations
+- source references
+- grade values
+
+---
+
+## 3. Islamic terminology and spelling consistency check
+
+Review all Uzbek text fields and titles.
+
+Correct spelling inconsistencies according to project style.
+
+Examples:
+
+Incorrect:
+- Rosulloh
+
+Correct:
+- Rasulullah ﷺ
+
+Incorrect:
+- Farishtalar
+
+Correct:
+- malaikalar
+
+Incorrect:
+- inconsistent Allah naming
+
+Correct:
+- ALLAH
+
+Rules:
+
+- Keep ALLAH written exactly according to project style.
+- Use Rasulullah ﷺ consistently when referring to the Messenger of ALLAH.
+- Use malaikalar consistently instead of Farishtalar.
+- Keep Arabic names accurate.
+- Keep honorific symbols such as ﷺ where appropriate.
+- Do not change Arabic hadith text.
+- Do not translate or rewrite religious meanings automatically.
+- Only correct clear spelling and terminology inconsistencies.
+
+---
+
+## 4. Check the migrated 35 hadith records
+
+Verify:
+
+- Correct collection
+- Correct book assignment
+- Correct chapter assignment
+- Correct hadith number
+- Correct narrator name
+- Correct narrator Arabic name
+- Correct Uzbek translation
+- Correct source format
+- Correct grade format
+
+Make a list of every issue found.
+
+---
+
+## 5. Do NOT import external bulk hadith data yet
+
+Do not add:
+- full Bukhari database
+- full Muslim database
+- full Abu Dawud database
+- full Tirmidhi database
+
+First make the existing migrated data perfect.
+
+---
+
+## 6. IMPORTANT: Audit first, modify later
+
+Before changing any file:
+
+Create a detailed report:
+
+1. Files checked
+2. Current problems found
+3. Suggested corrections
+4. Files that will be changed
+5. Confirmation that Quran files remain untouched
+
+DO NOT modify any file until the audit report is complete and reviewed.

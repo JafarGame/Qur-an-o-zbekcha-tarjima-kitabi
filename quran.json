@@ -148,11 +148,11 @@
     },
     "30": {
       "arabic": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى جَاعِلٌۭ فِى ٱلْأَرْضِ خَلِيفَةًۭ ۖ قَالُوٓا۟ أَتَجْعَلُ فِيهَا مَن يُفْسِدُ فِيهَا وَيَسْفِكُ ٱلدِّمَآءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّسُ لَكَ ۖ قَالَ إِنِّىٓ أَعْلَمُ مَا لَا تَعْلَمُونَ",
-      "translation": "Eslang, Rabbingiz farishtalarga: «Men yerda xalifa qilaman», deganida, ular: «Unda buzg‘unchilik qiladigan va qon to‘kadigan kishini qilasanmi? Holbuki biz Seni hamd bilan tasbeh aytamiz va poklaymiz», dedilar. U dedi: «Albatta, Men sizlar bilmagan narsani bilaman»."
+      "translation": "Eslang, Rabbingiz malaikalarga: «Men yerda xalifa qilaman», deganida, ular: «Unda buzg‘unchilik qiladigan va qon to‘kadigan kishini qilasanmi? Holbuki biz Seni hamd bilan tasbeh aytamiz va poklaymiz», dedilar. U dedi: «Albatta, Men sizlar bilmagan narsani bilaman»."
     },
     "31": {
       "arabic": "وَعَلَّمَ ءَادَمَ ٱلْأَسْمَآءَ كُلَّهَا ثُمَّ عَرَضَهُمْ عَلَى ٱلْمَلَٰٓئِكَةِ فَقَالَ أَنۢبِـُٔونِى بِأَسْمَآءِ هَٰٓؤُلَآءِ إِن كُنتُمْ صَٰدِقِينَ",
-      "translation": "U Odamga barcha nomlarni o‘rgatdi, so‘ng ularni farishtalarga ko‘rsatib: «Agar rostgo‘y bo‘lsangiz, mana bularning nomlarini Menga aytinglar», dedi."
+      "translation": "U Odamga barcha nomlarni o‘rgatdi, so‘ng ularni malaikalarga ko‘rsatib: «Agar rostgo‘y bo‘lsangiz, mana bularning nomlarini Menga aytinglar», dedi."
     },
     "32": {
       "arabic": "قَالُوا۟ سُبْحَٰنَكَ لَا عِلْمَ لَنَآ إِلَّا مَا عَلَّمْتَنَآ ۖ إِنَّكَ أَنتَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
@@ -164,7 +164,7 @@
     },
     "34": {
       "arabic": "وَإِذْ قُلْنَا لِلْمَلَٰٓئِكَةِ ٱسْجُدُوا۟ لِءَادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ أَبَىٰ وَٱسْتَكْبَرَ وَكَانَ مِنَ ٱلْكَٰفِرِينَ",
-      "translation": "Farishtalarga: «Odamga sajda qilinglar», deganimizda, ular sajda qildilar. Faqat Iblis bosh tortdi, kibr qildi va kofirlardan bo‘ldi."
+      "translation": "Malaikalarga: «Odamga sajda qilinglar», deganimizda, ular sajda qildilar. Faqat Iblis bosh tortdi, kibr qildi va kofirlardan bo‘ldi."
     },
     "35": {
       "arabic": "وَقُلْنَا يَٰٓـَٔادَمُ ٱسْكُنْ أَنتَ وَزَوْجُكَ ٱلْجَنَّةَ وَكُلَا مِنْهَا رَغَدًا حَيْثُ شِئْتُمَا وَلَا تَقْرَبَا هَٰذِهِ ٱلشَّجَرَةَ فَتَكُونَا مِنَ ٱلظَّٰلِمِينَ",
@@ -420,7 +420,7 @@
     },
     "98": {
       "arabic": "مَن كَانَ عَدُوًّۭا لِّلَّهِ وَمَلَٰٓئِكَتِهِۦ وَرُسُلِهِۦ وَجِبْرِيلَ وَمِيكَىٰلَ فَإِنَّ ٱللَّهَ عَدُوٌّۭ لِّلْكَٰفِرِينَ",
-      "translation": "Kim Allahga, Uning farishtalariga, payg‘ambarlariga, Jibrilga va Mikailga dushman bo‘lsa — albatta, Allah ham kofirlarga dushmandir."
+      "translation": "Kim Allahga, Uning malaikalariga, payg‘ambarlariga, Jibrilga va Mikailga dushman bo‘lsa — albatta, Allah ham kofirlarga dushmandir."
     },
     "99": {
       "arabic": "وَلَقَدْ أَنزَلْنَآ إِلَيْكَ ءَايَٰتٍۭ بَيِّنَٰتٍۢ ۖ وَمَا يَكْفُرُ بِهَآ إِلَّا ٱلْفَٰسِقُونَ",
@@ -436,7 +436,7 @@
     },
     "102": {
       "arabic": "وَٱتَّبَعُوا۟ مَا تَتْلُوا۟ ٱلشَّيَٰطِينُ عَلَىٰ مُلْكِ سُلَيْمَٰنَ ۖ وَمَا كَفَرَ سُلَيْمَٰنُ وَلَٰكِنَّ ٱلشَّيَٰطِينَ كَفَرُوا۟ يُعَلِّمُونَ ٱلنَّاسَ ٱلسِّحْرَ وَمَآ أُنزِلَ عَلَى ٱلْمَلَكَيْنِ بِبَابِلَ هَٰرُوتَ وَمَٰرُوتَ ۚ وَمَا يُعَلِّمَانِ مِنْ أَحَدٍ حَتَّىٰ يَقُولَآ إِنَّمَا نَحْنُ فِتْنَةٌۭ فَلَا تَكْفُرْ ۖ فَيَتَعَلَّمُونَ مِنْهُمَا مَا يُفَرِّقُونَ بِهِۦ بَيْنَ ٱلْمَرْءِ وَزَوْجِهِۦ ۚ وَمَا هُم بِضَآرِّينَ بِهِۦ مِنْ أَحَدٍ إِلَّا بِإِذْنِ ٱللَّهِ ۚ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ ۚ وَلَقَدْ عَلِمُوا۟ لَمَنِ ٱشْتَرَىٰهُ مَا لَهُۥ فِى ٱلْءَاخِرَةِ مِنْ خَلَٰقٍۢ ۚ وَلَبِئْسَ مَا شَرَوْا۟ بِهِۦٓ أَنفُسَهُمْ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
-      "translation": "Ular Sulaymon podshohligi haqida shaytonlar o‘qigan narsaga ergashdilar. Sulaymon kufr keltirmadi, balki shaytonlar kufr keltirdilar — odamlarga sehrni va Bobilda Harut va Marut nomli ikki farishtaga nozil qilingan narsani o‘rgatardilar. Ular: «Biz faqat sinovmiz, kufr keltirma», demaguncha hech kimga o‘rgatmas edilar. Odamlar ulardan er-xotin orasini ajratadigan narsani o‘rganardilar. Ular bilan Allahning iznisiz hech kimga zarar yetkaza olmaydilar. Ular o‘zlariga zarar yetkazadigan va foyda bermaydigan narsani o‘rganardilar. Bilgan edilar: kim uni sotib olsa, oxiratda ularga nasiba yo‘q. O‘zlarini sotgan narsalari naqadar yomon! Koshki bilsalar edi."
+      "translation": "Ular Sulaymon podshohligi haqida shaytonlar o‘qigan narsaga ergashdilar. Sulaymon kufr keltirmadi, balki shaytonlar kufr keltirdilar — odamlarga sehrni va Bobilda Harut va Marut nomli ikki malaikaga nozil qilingan narsani o‘rgatardilar. Ular: «Biz faqat sinovmiz, kufr keltirma», demaguncha hech kimga o‘rgatmas edilar. Odamlar ulardan er-xotin orasini ajratadigan narsani o‘rganardilar. Ular bilan Allahning iznisiz hech kimga zarar yetkaza olmaydilar. Ular o‘zlariga zarar yetkazadigan va foyda bermaydigan narsani o‘rganardilar. Bilgan edilar: kim uni sotib olsa, oxiratda ularga nasiba yo‘q. O‘zlarini sotgan narsalari naqadar yomon! Koshki bilsalar edi."
     },
     "103": {
       "arabic": "وَلَوْ أَنَّهُمْ ءَامَنُوا۟ وَٱتَّقَوْا۟ لَمَثُوبَةٌۭ مِّنْ عِندِ ٱللَّهِ خَيْرٌۭ ۖ لَّوْ كَانُوا۟ يَعْلَمُونَ",
@@ -672,7 +672,7 @@
     },
     "161": {
       "arabic": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَمَاتُوا۟ وَهُمْ كُفَّارٌ أُو۟لَٰٓئِكَ عَلَيْهِمْ لَعْنَةُ ٱللَّهِ وَٱلْمَلَٰٓئِكَةِ وَٱلنَّاسِ أَجْمَعِينَ",
-      "translation": "Albatta, kufr keltirgan va kofir bo‘lgan holda o‘lganlar — ana o‘shalarga Allahning, farishtalarning va barcha odamlarning la’nati bordir."
+      "translation": "Albatta, kufr keltirgan va kofir bo‘lgan holda o‘lganlar — ana o‘shalarga Allahning, malaikalarning va barcha odamlarning la’nati bordir."
     },
     "162": {
       "arabic": "خَٰلِدِينَ فِيهَا ۖ لَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ",
@@ -736,7 +736,7 @@
     },
     "177": {
       "arabic": "۞ لَّيْسَ ٱلْبِرَّ أَن تُوَلُّوا۟ وُجُوهَكُمْ قِبَلَ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ وَلَٰكِنَّ ٱلْبِرَّ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَٱلْمَلَٰٓئِكَةِ وَٱلْكِتَٰبِ وَٱلنَّبِيِّۦنَ وَءَاتَى ٱلْمَالَ عَلَىٰ حُبِّهِۦ ذَوِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينَ وَٱبْنَ ٱلسَّبِيلِ وَٱلسَّآئِلِينَ وَفِى ٱلرِّقَابِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَٱلْمُوفُونَ بِعَهْدِهِمْ إِذَا عَٰهَدُوا۟ ۖ وَٱلصَّٰبِرِينَ فِى ٱلْبَأْسَآءِ وَٱلضَّرَّآءِ وَحِينَ ٱلْبَأْسِ ۗ أُو۟لَٰٓئِكَ ٱلَّذِينَ صَدَقُوا۟ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُتَّقُونَ",
-      "translation": "Yaxshilik — yuzlaringizni sharq va g‘arbga burish emas. Balki yaxshilik — kim Allahga, oxirat kuniga, farishtalarga, Kitobga va payg‘ambarlarga iymon keltirsa, molini — unga muhabbati bo‘lishiga qaramay — qarindoshlarga, yetimlarga, miskinlarga, musofirlarga, so‘rovchilarga va qullarni ozod qilishga bersa, namozni to‘kis ado etsa, zakotni bersa, ahd qilganlarida ado etsa, qiyinchilikda, zaruratda va jang paytida sabr qilsa — ana o‘shalar rostgo‘ylar va ana o‘shalar taqvodorlardir."
+      "translation": "Yaxshilik — yuzlaringizni sharq va g‘arbga burish emas. Balki yaxshilik — kim Allahga, oxirat kuniga, malaikalarga, Kitobga va payg‘ambarlarga iymon keltirsa, molini — unga muhabbati bo‘lishiga qaramay — qarindoshlarga, yetimlarga, miskinlarga, musofirlarga, so‘rovchilarga va qullarni ozod qilishga bersa, namozni to‘kis ado etsa, zakotni bersa, ahd qilganlarida ado etsa, qiyinchilikda, zaruratda va jang paytida sabr qilsa — ana o‘shalar rostgo‘ylar va ana o‘shalar taqvodorlardir."
     },
     "178": {
       "arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلْقِصَاصُ فِى ٱلْقَتْلَى ۖ ٱلْحُرُّ بِٱلْحُرِّ وَٱلْعَبْدُ بِٱلْعَبْدِ وَٱلْأُنثَىٰ بِٱلْأُنثَىٰ ۚ فَمَنْ عُفِىَ لَهُۥ مِنْ أَخِيهِ شَىْءٌۭ فَٱتِّبَاعٌۢ بِٱلْمَعْرُوفِ وَأَدَآءٌ إِلَيْهِ بِإِحْسَٰنٍۢ ۗ ذَٰلِكَ تَخْفِيفٌۭ مِّن رَّبِّكُمْ وَرَحْمَةٌۭ ۗ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌۭ",
@@ -868,7 +868,7 @@
     },
     "210": {
       "arabic": "هَلْ يَنظُرُونَ إِلَّآ أَن يَأْتِيَهُمُ ٱللَّهُ فِى ظُلَلٍۢ مِّنَ ٱلْغَمَامِ وَٱلْمَلَٰٓئِكَةُ وَقُضِىَ ٱلْأَمْرُ ۚ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ",
-      "translation": "Ular faqat Allah va farishtalar bulutlar soyasida kelishini va ish tugashini kutyaptlarmi? Barcha ishlar Allahga qaytariladi."
+      "translation": "Ular faqat Allah va malaikalar bulutlar soyasida kelishini va ish tugashini kutyaptlarmi? Barcha ishlar Allahga qaytariladi."
     },
     "211": {
       "arabic": "سَلْ بَنِىٓ إِسْرَٰٓءِيلَ كَمْ ءَاتَيْنَٰهُم مِّنْ ءَايَةٍۭ بَيِّنَةٍۢ ۗ وَمَن يُبَدِّلْ نِعْمَةَ ٱللَّهِ مِنۢ بَعْدِ مَا جَآءَتْهُ فَإِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
@@ -1020,7 +1020,7 @@
     },
     "248": {
       "arabic": "وَقَالَ لَهُمْ نَبِيُّهُمْ إِنَّ ءَايَةَ مُلْكِهِۦٓ أَن يَأْتِيَكُمُ ٱلتَّابُوتُ فِيهِ سَكِينَةٌۭ مِّن رَّبِّكُمْ وَبَقِيَّةٌۭ مِّمَّا تَرَكَ ءَالُ مُوسَىٰ وَءَالُ هَٰرُونَ تَحْمِلُهُ ٱلْمَلَٰٓئِكَةُ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
-      "translation": "Payg‘ambarlari ularga dedi: «Uning podshohligining belgisi — sizlarga sandiq kelishidir. Unda Rabbingizdan taskin va Musa va Harun oilasidan qolgan narsalar bor, uni farishtalar ko‘tarib keladi. Agar mo‘min bo‘lsangizlar, bunda sizlar uchun albatta belgi bor»."
+      "translation": "Payg‘ambarlari ularga dedi: «Uning podshohligining belgisi — sizlarga sandiq kelishidir. Unda Rabbingizdan taskin va Musa va Harun oilasidan qolgan narsalar bor, uni malaikalar ko‘tarib keladi. Agar mo‘min bo‘lsangizlar, bunda sizlar uchun albatta belgi bor»."
     },
     "249": {
       "arabic": "فَلَمَّا فَصَلَ طَالُوتُ بِٱلْجُنُودِ قَالَ إِنَّ ٱللَّهَ مُبْتَلِيكُم بِنَهَرٍۢ فَمَن شَرِبَ مِنْهُ فَلَيْسَ مِنِّى وَمَن لَّمْ يَطْعَمْهُ فَإِنَّهُۥ مِنِّىٓ إِلَّا مَنِ ٱغْتَرَفَ غُرْفَةًۢ بِيَدِهِۦ ۚ فَشَرِبُوا۟ مِنْهُ إِلَّا قَلِيلًۭا مِّنْهُمْ ۚ فَلَمَّا جَاوَزَهُۥ هُوَ وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ قَالُوا۟ لَا طَاقَةَ لَنَا ٱلْيَوْمَ بِجَالُوتَ وَجُنُودِهِۦ ۚ قَالَ ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَٰقُوا۟ ٱللَّهِ كَم مِّن فِئَةٍۢ قَلِيلَةٍ غَلَبَتْ فِئَةًۭ كَثِيرَةًۢ بِإِذْنِ ٱللَّهِ ۗ وَٱللَّهُ مَعَ ٱلصَّٰبِرِينَ",
@@ -1168,7 +1168,7 @@
     },
     "285": {
       "arabic": "ءَامَنَ ٱلرَّسُولُ بِمَآ أُنزِلَ إِلَيْهِ مِن رَّبِّهِۦ وَٱلْمُؤْمِنُونَ ۚ كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّن رُّسُلِهِۦ ۚ وَقَالُوا۟ سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِيرُ",
-      "translation": "Payg‘ambar Rabbisidan o‘ziga nozil qilingan narsaga iymon keltirdi va mo‘minlar ham. Barchalari Allahga, Uning farishtalariga, kitoblariga va payg‘ambarlariga iymon keltirdilar. «Payg‘ambarlaridan hech birini ajratmaymiz», dedilar va: «Eshitdik va itoat qildik. Rabbimiz, Sening mag‘firatingni so‘raymiz va qaytish faqat Senga», dedilar."
+      "translation": "Payg‘ambar Rabbisidan o‘ziga nozil qilingan narsaga iymon keltirdi va mo‘minlar ham. Barchalari Allahga, Uning malaikalariga, kitoblariga va payg‘ambarlariga iymon keltirdilar. «Payg‘ambarlaridan hech birini ajratmaymiz», dedilar va: «Eshitdik va itoat qildik. Rabbimiz, Sening mag‘firatingni so‘raymiz va qaytish faqat Senga», dedilar."
     },
     "286": {
       "arabic": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًۭا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
@@ -1246,7 +1246,7 @@
     },
     "18": {
       "arabic": "شَهِدَ ٱللَّهُ أَنَّهُۥ لَآ إِلَٰهَ إِلَّا هُوَ وَٱلْمَلَٰٓئِكَةُ وَأُو۟لُوا۟ ٱلْعِلْمِ قَآئِمًۢا بِٱلْقِسْطِ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
-      "translation": "Allah guvohlik berdi — Undan boshqa iloh yo‘q. Farishtalar va ilm egalari ham adolat bilan (guvohlik berdilar). Undan boshqa iloh yo‘q — U Aziz va Hikmatlidir."
+      "translation": "Allah guvohlik berdi — Undan boshqa iloh yo‘q. Malaikalar va ilm egalari ham adolat bilan (guvohlik berdilar). Undan boshqa iloh yo‘q — U Aziz va Hikmatlidir."
     },
     "19": {
       "arabic": "إِنَّ ٱلدِّينَ عِندَ ٱللَّهِ ٱلْإِسْلَٰمُ ۗ وَمَا ٱخْتَلَفَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْعِلْمُ بَغْيًۢا بَيْنَهُمْ ۗ وَمَن يَكْفُرْ بِـَٔايَٰتِ ٱللَّهِ فَإِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ",
@@ -1330,7 +1330,7 @@
     },
     "39": {
       "arabic": "فَنَادَتْهُ ٱلْمَلَٰٓئِكَةُ وَهُوَ قَآئِمٌۭ يُصَلِّى فِى ٱلْمِحْرَابِ أَنَّ ٱللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًۢا بِكَلِمَةٍۢ مِّنَ ٱللَّهِ وَسَيِّدًۭا وَحَصُورًۭا وَنَبِيًّۭا مِّنَ ٱلصَّٰلِحِينَ",
-      "translation": "U mehrobda namoz o‘qib turganida farishtalar uni chaqirdilar: «Allah senga Yahyoni xushxabar qiladi — u Allahning Kalimasini tasdiqlovchi, ulug‘, o‘zini tiyuvchi va solih payg‘ambarlardan bo‘ladi»."
+      "translation": "U mehrobda namoz o‘qib turganida malaikalar uni chaqirdilar: «Allah senga Yahyoni xushxabar qiladi — u Allahning Kalimasini tasdiqlovchi, ulug‘, o‘zini tiyuvchi va solih payg‘ambarlardan bo‘ladi»."
     },
     "40": {
       "arabic": "قَالَ رَبِّ أَنَّىٰ يَكُونُ لِى غُلَٰمٌۭ وَقَدْ بَلَغَنِىَ ٱلْكِبَرُ وَٱمْرَأَتِى عَاقِرٌۭ ۖ قَالَ كَذَٰلِكَ ٱللَّهُ يَفْعَلُ مَا يَشَآءُ",

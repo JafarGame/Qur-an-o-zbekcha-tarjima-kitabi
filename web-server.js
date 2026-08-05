@@ -181,45 +181,97 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "dashboard.html"));
 });
 
+// ── APK CDN URL resolver ──────────────────────────────────────────────────────
+// GitHub release download URLs (github.com/…/releases/download/…) redirect to a
+// time-limited signed Azure CDN URL (release-assets.githubusercontent.com/…).
+// We resolve that redirect chain server-side so the browser is sent directly to
+// the CDN — github.com never appears in the browser's address bar or history.
+//
+// The signed CDN URL is valid for ~1 hour; we cache our resolved copy for 30
+// minutes so every user gets a fresh-enough URL and we only pay the resolution
+// cost once per cache window.  On any error we fall back to APK_DOWNLOAD_URL.
+const https = require('https');
+const http  = require('http');
+
+let _apkCdnUrl    = null;   // cached final CDN URL
+let _apkCdnExpiry = 0;      // epoch ms when the cache expires
+
+/**
+ * Follow HTTP 3xx redirects with HEAD requests and return the final URL.
+ * Does not download any body — only reads Location headers.
+ */
+function resolveRedirectChain(startUrl) {
+  return new Promise((resolve, reject) => {
+    const follow = (url, depth) => {
+      if (depth > 10) return reject(new Error('Too many redirects'));
+      const mod = url.startsWith('https') ? https : http;
+      const req = mod.request(url, { method: 'HEAD' }, (res) => {
+        res.resume(); // discard any body
+        if ([301, 302, 303, 307, 308].includes(res.statusCode) && res.headers.location) {
+          const next = res.headers.location.startsWith('http')
+            ? res.headers.location
+            : new URL(res.headers.location, url).href;
+          follow(next, depth + 1);
+        } else {
+          resolve(url); // no more redirects — this is the CDN URL
+        }
+      });
+      req.setTimeout(10000, () => { req.destroy(); reject(new Error('Timeout')); });
+      req.on('error', reject);
+      req.end();
+    };
+    follow(startUrl, 0);
+  });
+}
+
+/**
+ * Return the cached CDN URL, refreshing it if stale.
+ * Falls back to APK_DOWNLOAD_URL on any network error.
+ */
+async function getApkCdnUrl() {
+  if (_apkCdnUrl && Date.now() < _apkCdnExpiry) return _apkCdnUrl;
+  try {
+    const resolved = await resolveRedirectChain(process.env.APK_DOWNLOAD_URL);
+    _apkCdnUrl    = resolved;
+    _apkCdnExpiry = Date.now() + 30 * 60 * 1000; // 30-minute cache
+    console.log('[APK] CDN URL resolved and cached for 30 min');
+    return _apkCdnUrl;
+  } catch (e) {
+    console.error('[APK] resolve failed, falling back to APK_DOWNLOAD_URL:', e.message);
+    return process.env.APK_DOWNLOAD_URL; // graceful fallback
+  }
+}
+
 // Serve the latest APK as a direct download.
 //
-// IMPORTANT: this route must be registered BEFORE express.static so that it is always
-// handled by this handler and never shadowed by a static file.
+// IMPORTANT: registered BEFORE express.static so it is never shadowed by a
+// static file in public/.
 //
-// Resolution order:
-//   1. APK_DOWNLOAD_URL env var → 302 redirect to the GitHub release asset.
-//      GitHub's CDN (Azure Blob) already sets:
-//        Content-Disposition: attachment; filename=quran-karim.apk
-//        Content-Type: application/vnd.android.package-archive
-//      in the rscd/rsct query params of its signed URL, so the browser
-//      downloads the file with the correct name and type without any proxying.
+// Flow (production):
+//   Browser → GET /download/quran-karim.apk
+//          ← 302 → release-assets.githubusercontent.com/…  (Azure CDN, direct)
+//          ← 200  Content-Type: application/vnd.android.package-archive
+//                 Content-Disposition: attachment; filename=quran-karim.apk
 //
-//      Why redirect instead of proxy:
-//        The previous proxy approach streamed 34 MB through the autoscale
-//        instance. Autoscale (Google Cloud) closes idle/slow connections well
-//        before the transfer finishes, so users received 0 bytes. A 302 hands
-//        the transfer off to GitHub's CDN directly — the server only sends a
-//        tiny redirect response.
+// The github.com release page is resolved server-side and never seen by the
+// browser.  The CDN's own signed-URL query params carry the Content-Disposition
+// and Content-Type so the browser downloads the file with the correct name.
 //
-//      The <a download> attribute is ignored for cross-origin URLs by Chrome
-//      (by spec), but that is fine — the CDN's own Content-Disposition header
-//      forces the attachment behaviour and supplies the filename.
-//
-//   2. public/downloads/quran-karim.apk → direct send (dev/local fallback)
-//   3. android build output             → direct send (dev/local fallback)
-//   4. 503
+// Fallback (local dev): stream from public/downloads/ or android build output.
 app.get('/download/quran-karim.apk', (req, res) => {
   const fs = require('fs');
-
-  // Never cache the redirect — APK_DOWNLOAD_URL changes with every release.
   res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate');
 
   if (process.env.APK_DOWNLOAD_URL) {
-    // 302 so the browser always re-checks for a fresh signed URL on each click.
-    return res.redirect(302, process.env.APK_DOWNLOAD_URL);
+    getApkCdnUrl().then(cdnUrl => {
+      res.redirect(302, cdnUrl);
+    }).catch(() => {
+      res.redirect(302, process.env.APK_DOWNLOAD_URL);
+    });
+    return;
   }
 
-  // Local fallback (dev builds only — production always has APK_DOWNLOAD_URL set).
+  // Local fallback (dev builds only).
   const candidates = [
     path.join(__dirname, 'public/downloads/quran-karim.apk'),
     path.join(__dirname, 'android/app/build/outputs/apk/debug/app-debug.apk'),
@@ -423,6 +475,10 @@ app.post('/api/transcribe',
 if (require.main === module) {
   app.listen(PORT, "0.0.0.0", () => {
     console.log(`Quran reading website running on port ${PORT}`);
+    // Pre-warm the APK CDN URL cache so the first user gets an instant redirect.
+    if (process.env.APK_DOWNLOAD_URL) {
+      getApkCdnUrl().catch(() => {}); // errors already logged inside getApkCdnUrl
+    }
   });
 } else {
   module.exports = {

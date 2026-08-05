@@ -13,7 +13,7 @@
         "chapter": 1,
         "number": 1,
         "arabic": "إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ فَهِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَوِ امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ.",
-        "uzbek": "Albatta, amallar niyatlarga bog'liqdir. Va albatta, har bir kishi uchun niyat qilgani (hosil bo'ladi). Kimning hijrati Alloh va uning Rasuliga bo'lsa, uning hijrati Alloh va uning Rasuli uchun bo'ladi. Kimning hijrati dunyo manfaati yoki uylanmoqchi bo'lgan ayolga erishish uchun bo'lsa, uning hijrati mana shu niyat qilgan narsasi uchun bo'ladi.",
+        "uzbek": "Albatta, amallar niyatlarga bog'liqdir. Va albatta, har bir kishi uchun niyat qilgani (hosil bo'ladi). Kimning hijrati ALLAH va uning Rasuliga bo'lsa, uning hijrati ALLAH va uning Rasuli uchun bo'ladi. Kimning hijrati dunyo manfaati yoki uylanmoqchi bo'lgan ayolga erishish uchun bo'lsa, uning hijrati mana shu niyat qilgan narsasi uchun bo'ladi.",
         "narrator": "Umar ibn al-Xattob",
         "narrator_arabic": "عمر بن الخطاب",
         "source": "Sahih Buxoriy 1:1",
@@ -29,7 +29,7 @@
     "chapter_number": 2,
     "hadiths": [],
     "id": "bukhari-book-1-chapter-2",
-    "uzbek_title": "Alloh taoloning: 'Biz har bir payg'ambarni faqat o'z qavmining tilida yubordik' oyati haqida"
+    "uzbek_title": "ALLAH taoloning: 'Biz har bir payg'ambarni faqat o'z qavmining tilida yubordik' oyati haqida"
   },
   {
     "arabic_title": "باب فَضلِ مَن عَلِمَ وعَلَّمَ",
@@ -85,7 +85,7 @@
     "chapter_number": 2,
     "hadiths": [],
     "id": "bukhari-book-2-chapter-2",
-    "uzbek_title": "Iymon va Payg'ambarning ﷺ: 'Islom besh narsa ustiga qurilgan' so'zi"
+    "uzbek_title": "Iymon va Rasulullah ﷺ ning ﷺ: 'Islom besh narsa ustiga qurilgan' so'zi"
   },
   {
     "arabic_title": "باب أُمُورُ الإِيمَانِ",
@@ -133,7 +133,7 @@
     "chapter_number": 8,
     "hadiths": [],
     "id": "bukhari-book-2-chapter-8",
-    "uzbek_title": "Mo'min Alloh vafot ettirganda rahmlanishi"
+    "uzbek_title": "Mo'min ALLAH vafot ettirganda rahmlanishi"
   },
   {
     "arabic_title": "باب حُبُّ الرَّسُولِ ﷺ مِنَ الإِيمَانِ",
@@ -301,7 +301,7 @@
     "chapter_number": 29,
     "hadiths": [],
     "id": "bukhari-book-2-chapter-29",
-    "uzbek_title": "Iymon Allohning so'zi degan kimsalar"
+    "uzbek_title": "Iymon ALLAHning so'zi degan kimsalar"
   },
   {
     "arabic_title": "باب: سُؤَالُ جِبرِيلَ النَّبِيَّ ﷺ عَنِ الإِيمَانِ",
@@ -309,7 +309,7 @@
     "chapter_number": 30,
     "hadiths": [],
     "id": "bukhari-book-2-chapter-30",
-    "uzbek_title": "Jibroyilning Payg'ambardan ﷺ iymon haqida so'rashi"
+    "uzbek_title": "Jibroyilning Rasulullah ﷺ dan ﷺ iymon haqida so'rashi"
   },
   {
     "arabic_title": "باب الإِيمَانُ يَزِيدُ وَيَنقُصُ",
@@ -405,7 +405,7 @@
     "chapter_number": 42,
     "hadiths": [],
     "id": "bukhari-book-2-chapter-42",
-    "uzbek_title": "Payg'ambarning ﷺ: 'Din muomaladur' so'zi"
+    "uzbek_title": "Rasulullah ﷺ ning ﷺ: 'Din muomaladur' so'zi"
   },
   {
     "arabic_title": "باب فَضلُ مَن استَبرَأَ لِدِينِهِ",
@@ -469,7 +469,7 @@
     "chapter_number": 6,
     "hadiths": [],
     "id": "bukhari-book-3-chapter-6",
-    "uzbek_title": "Alloh xayr xohlagan kishini dinda faqih qilishi"
+    "uzbek_title": "ALLAH xayr xohlagan kishini dinda faqih qilishi"
   },
   {
     "arabic_title": "باب الفَهمُ فِي العِلمِ",
@@ -701,7 +701,7 @@
     "chapter_number": 35,
     "hadiths": [],
     "id": "bukhari-book-3-chapter-35",
-    "uzbek_title": "Allohning: 'Sizga oz ilmgina berildi' oyati"
+    "uzbek_title": "ALLAHning: 'Sizga oz ilmgina berildi' oyati"
   },
   {
     "arabic_title": "باب مَن عُرِضَت عَلَيهِ عِلمٌ أَو أَمرٌ بِشُبهَةٍ",
@@ -821,7 +821,7 @@
     "chapter_number": 1,
     "hadiths": [],
     "id": "bukhari-book-4-chapter-1",
-    "uzbek_title": "Vazu haqida kelganlar va Allohning: 'Namozga turganingizda...' oyati"
+    "uzbek_title": "Vazu haqida kelganlar va ALLAHning: 'Namozga turganingizda...' oyati"
   },
   {
     "arabic_title": "باب لَا تُقبَلُ صَلَاةٌ بِغَيرِ طُهُورٍ",
@@ -1605,7 +1605,7 @@
     "chapter_number": 28,
     "hadiths": [],
     "id": "bukhari-book-5-chapter-28",
-    "uzbek_title": "Payg'ambarning ﷺ qibla tomonga g'usl qilishdan nahy qilishi"
+    "uzbek_title": "Rasulullah ﷺ ning ﷺ qibla tomonga g'usl qilishdan nahy qilishi"
   },
   {
     "arabic_title": "باب كَيفَ كَانَ بَدءُ الحَيضِ",
@@ -1837,7 +1837,7 @@
     "chapter_number": 1,
     "hadiths": [],
     "id": "bukhari-book-7-chapter-1",
-    "uzbek_title": "Tayammum va Allohning: 'Pak tuproq bilan tayammum qiling' oyati"
+    "uzbek_title": "Tayammum va ALLAHning: 'Pak tuproq bilan tayammum qiling' oyati"
   },
   {
     "arabic_title": "باب الصَّعِيدُ الطَّيِّبُ وَضُوءُ المُسلِمِ",
@@ -2221,7 +2221,7 @@
     "chapter_number": 40,
     "hadiths": [],
     "id": "bukhari-book-8-chapter-40",
-    "uzbek_title": "Payg'ambarning ﷺ: 'Yer masjid va tahorat qilindi' so'zi"
+    "uzbek_title": "Rasulullah ﷺ ning ﷺ: 'Yer masjid va tahorat qilindi' so'zi"
   },
   {
     "arabic_title": "باب الصَّلَاةُ فِي مَرَابِضِ الغَنَمِ",
@@ -2501,7 +2501,7 @@
     "chapter_number": 75,
     "hadiths": [],
     "id": "bukhari-book-8-chapter-75",
-    "uzbek_title": "Allohumma Rabbana va lakal-hamd fazilati"
+    "uzbek_title": "ALLAHumma Rabbana va lakal-hamd fazilati"
   },
   {
     "arabic_title": "باب فَضلُ التَّأمِينِ",
@@ -2669,7 +2669,7 @@
     "chapter_number": 96,
     "hadiths": [],
     "id": "bukhari-book-8-chapter-96",
-    "uzbek_title": "Allohning: 'Osmoni muhofaza qilingan tom qildik' oyati"
+    "uzbek_title": "ALLAHning: 'Osmoni muhofaza qilingan tom qildik' oyati"
   },
   {
     "arabic_title": "باب دُعَاءُ النَّبِيِّ ﷺ",
@@ -2677,7 +2677,7 @@
     "chapter_number": 97,
     "hadiths": [],
     "id": "bukhari-book-8-chapter-97",
-    "uzbek_title": "Payg'ambarning ﷺ du'osi"
+    "uzbek_title": "Rasulullah ﷺ ning ﷺ du'osi"
   },
   {
     "arabic_title": "باب ذِكرُ الأَذَانِ",
@@ -3621,7 +3621,7 @@
     "chapter_number": 63,
     "hadiths": [],
     "id": "bukhari-book-10-chapter-63",
-    "uzbek_title": "Allohni zikr qilish fazilati"
+    "uzbek_title": "ALLAHni zikr qilish fazilati"
   },
   {
     "arabic_title": "باب الدُّعَاءُ بَعدَ الصَّلَاةِ",
@@ -3637,7 +3637,7 @@
     "chapter_number": 65,
     "hadiths": [],
     "id": "bukhari-book-10-chapter-65",
-    "uzbek_title": "Namozdan keyin Allohni zikr qilish"
+    "uzbek_title": "Namozdan keyin ALLAHni zikr qilish"
   },
   {
     "arabic_title": "باب مَن جَلَسَ فِي المَسجِدِ يَنتَظِرُ الصَّلَاةَ",
@@ -4157,7 +4157,7 @@
     "chapter_number": 130,
     "hadiths": [],
     "id": "bukhari-book-10-chapter-130",
-    "uzbek_title": "Payg'ambarning ﷺ ruku' va sajdada qiroatdan nahy qilishi"
+    "uzbek_title": "Rasulullah ﷺ ning ﷺ ruku' va sajdada qiroatdan nahy qilishi"
   },
   {
     "arabic_title": "باب مَا يَقُولُ الإِمَامُ وَمَن خَلفَهُ إِذَا رَفَعَ رَأسَهُ مِنَ الرُّكُوعِ",
@@ -4173,7 +4173,7 @@
     "chapter_number": 132,
     "hadiths": [],
     "id": "bukhari-book-10-chapter-132",
-    "uzbek_title": "Allohumma rabbana va lakal-hamd fazilati"
+    "uzbek_title": "ALLAHumma rabbana va lakal-hamd fazilati"
   },
   {
     "arabic_title": "باب الطُّمَأنِينَةُ حِينَ يَرفَعُ رَأسَهُ مِنَ الرُّكُوعِ",
@@ -4981,7 +4981,7 @@
     "chapter_number": 21,
     "hadiths": [],
     "id": "bukhari-book-13-chapter-21",
-    "uzbek_title": "Payg'ambarning: 'Biz oxirgimiz, ammo ilgarilovchimiz' so'zi"
+    "uzbek_title": "Rasulullah ﷺ ning: 'Biz oxirgimiz, ammo ilgarilovchimiz' so'zi"
   },
   {
     "arabic_title": "باب كَلَامُ الإِمَامِ وَالنَّاسِ فِي خُطبَةِ العِيدِ",
@@ -5165,7 +5165,7 @@
     "chapter_number": 6,
     "hadiths": [],
     "id": "bukhari-book-15-chapter-6",
-    "uzbek_title": "Payg'ambarning ﷺ odamlarga orqa o'girishi"
+    "uzbek_title": "Rasulullah ﷺ ning ﷺ odamlarga orqa o'girishi"
   },
   {
     "arabic_title": "باب الاستِسقَاءُ فِي خُطبَةِ الجُمُعَةِ",
@@ -5229,7 +5229,7 @@
     "chapter_number": 14,
     "hadiths": [],
     "id": "bukhari-book-15-chapter-14",
-    "uzbek_title": "Payg'ambarning ﷺ: 'Sharqiy shamol bilan g'alaba qozondim' so'zi"
+    "uzbek_title": "Rasulullah ﷺ ning ﷺ: 'Sharqiy shamol bilan g'alaba qozondim' so'zi"
   },
   {
     "arabic_title": "باب مَا قِيلَ فِي الزَّلَازِلِ وَالآيَاتِ",
@@ -5693,7 +5693,7 @@
     "chapter_number": 5,
     "hadiths": [],
     "id": "bukhari-book-19-chapter-5",
-    "uzbek_title": "Payg'ambarning ﷺ Ramazon va boshqa oyda tun namozi"
+    "uzbek_title": "Rasulullah ﷺ ning ﷺ Ramazon va boshqa oyda tun namozi"
   },
   {
     "arabic_title": "باب عَقدُ الشَّيطَانِ عَلَى قَافِيَةِ الرَّأسِ",
@@ -5909,7 +5909,7 @@
     "chapter_number": 32,
     "hadiths": [],
     "id": "bukhari-book-19-chapter-32",
-    "uzbek_title": "Payg'ambarning ﷺ namozi qanday edi"
+    "uzbek_title": "Rasulullah ﷺ ning ﷺ namozi qanday edi"
   },
   {
     "arabic_title": "باب قِيَامُ النَّبِيِّ ﷺ بِاللَّيلِ",
@@ -5917,7 +5917,7 @@
     "chapter_number": 33,
     "hadiths": [],
     "id": "bukhari-book-19-chapter-33",
-    "uzbek_title": "Payg'ambarning ﷺ tun namozi"
+    "uzbek_title": "Rasulullah ﷺ ning ﷺ tun namozi"
   },
   {
     "arabic_title": "باب مَا يُكرَهُ مِن تَركِ قِيَامِ اللَّيلِ لِمَن كَانَ يَقُومُهُ",
@@ -6277,7 +6277,7 @@
     "chapter_number": 10,
     "hadiths": [],
     "id": "bukhari-book-23-chapter-10",
-    "uzbek_title": "Payg'ambarning ﷺ: 'Mayit oilasining ba'zi yig'lashidan azoblanadi' so'zi"
+    "uzbek_title": "Rasulullah ﷺ ning ﷺ: 'Mayit oilasining ba'zi yig'lashidan azoblanadi' so'zi"
   },
   {
     "arabic_title": "باب قَولُ النَّبِيِّ ﷺ: الفَقِيدُ يُعَذَّبُ بِبُكَاءِ أَهلِهِ عَلَيهِ",
@@ -6677,7 +6677,7 @@
     "chapter_number": 60,
     "hadiths": [],
     "id": "bukhari-book-23-chapter-60",
-    "uzbek_title": "Payg'ambarning ﷺ Sa'd ibn Havlani ulug'lashi"
+    "uzbek_title": "Rasulullah ﷺ ning ﷺ Sa'd ibn Havlani ulug'lashi"
   },
   {
     "arabic_title": "باب الصَّلَاةُ عَلَى الجَنَازَةِ فِي المُصَلَّى",
@@ -6773,7 +6773,7 @@
     "chapter_number": 72,
     "hadiths": [],
     "id": "bukhari-book-23-chapter-72",
-    "uzbek_title": "Payg'ambarning ﷺ mayit oila yig'lashidan azoblanadi so'zi"
+    "uzbek_title": "Rasulullah ﷺ ning ﷺ mayit oila yig'lashidan azoblanadi so'zi"
   },
   {
     "arabic_title": "باب مَن أَحَبَّ أَن لَا يُبكَى عَلَيهِ",
@@ -6829,7 +6829,7 @@
     "chapter_number": 79,
     "hadiths": [],
     "id": "bukhari-book-23-chapter-79",
-    "uzbek_title": "Allohning: 'Alloh zarra qadar ham zulm qilmaydi' oyati"
+    "uzbek_title": "ALLAHning: 'ALLAH zarra qadar ham zulm qilmaydi' oyati"
   },
   {
     "arabic_title": "باب ثَنَاءُ النَّاسِ عَلَى المَيِّتِ",
@@ -6933,7 +6933,7 @@
     "chapter_number": 92,
     "hadiths": [],
     "id": "bukhari-book-23-chapter-92",
-    "uzbek_title": "Alloh bilan uchrashishni yaxshi ko'rgan kishi"
+    "uzbek_title": "ALLAH bilan uchrashishni yaxshi ko'rgan kishi"
   },
   {
     "arabic_title": "باب مَن كَرِهَ أَن يَتَمَنَّى المَوتَ",
@@ -7853,7 +7853,7 @@
     "chapter_number": 28,
     "hadiths": [],
     "id": "bukhari-book-26-chapter-28",
-    "uzbek_title": "Payg'ambarning ﷺ Baytga kirishi"
+    "uzbek_title": "Rasulullah ﷺ ning ﷺ Baytga kirishi"
   },
   {
     "arabic_title": "باب الصَّلَاةُ فِي الكَعبَةِ",
@@ -8133,7 +8133,7 @@
     "chapter_number": 63,
     "hadiths": [],
     "id": "bukhari-book-26-chapter-63",
-    "uzbek_title": "Payg'ambarning ﷺ Kaabada namozi"
+    "uzbek_title": "Rasulullah ﷺ ning ﷺ Kaabada namozi"
   },
   {
     "arabic_title": "باب التَّمَتُّعُ وَالإِفرَادُ وَالقِرَانُ",
@@ -8621,7 +8621,7 @@
     "chapter_number": 124,
     "hadiths": [],
     "id": "bukhari-book-26-chapter-124",
-    "uzbek_title": "Alloh va Oxirat kuniga iymon keltirgan manasikdan keyin Makkada yashamas"
+    "uzbek_title": "ALLAH va Oxirat kuniga iymon keltirgan manasikdan keyin Makkada yashamas"
   },
   {
     "arabic_title": "باب إِذَا احتَاجَ المُحرِمُ إِلَى الحِلَاقَةِ لِأَذًى",
@@ -9245,7 +9245,7 @@
     "chapter_number": 11,
     "hadiths": [],
     "id": "bukhari-book-30-chapter-11",
-    "uzbek_title": "Harom va Payg'ambarning ﷺ duosi"
+    "uzbek_title": "Harom va Rasulullah ﷺ ning ﷺ duosi"
   },
   {
     "arabic_title": "باب غَزوَةُ خَيبَرَ",
@@ -9453,7 +9453,7 @@
     "chapter_number": 23,
     "hadiths": [],
     "id": "bukhari-book-31-chapter-23",
-    "uzbek_title": "Payg'ambarning ﷺ: 'Hech kim Ramazonga oldinda bormaydi' so'zi"
+    "uzbek_title": "Rasulullah ﷺ ning ﷺ: 'Hech kim Ramazonga oldinda bormaydi' so'zi"
   },
   {
     "arabic_title": "باب صَومُ شَعبَانَ",
@@ -9717,7 +9717,7 @@
     "chapter_number": 56,
     "hadiths": [],
     "id": "bukhari-book-31-chapter-56",
-    "uzbek_title": "Ustiga soya qilgan kishi haqida Payg'ambarning ﷺ so'zi"
+    "uzbek_title": "Ustiga soya qilgan kishi haqida Rasulullah ﷺ ning ﷺ so'zi"
   },
   {
     "arabic_title": "باب لَم يَعِبِ النَّبِيُّ ﷺ عَلَى مَن أَفطَرَ فِي السَّفَرِ",
@@ -13956,7 +13956,7 @@
     "book_id": 60,
     "chapter_number": 3,
     "arabic_title": "بَابُ ذِكْرِ الْمَلاَئِكَةِ",
-    "uzbek_title": "Farishtalar haqida",
+    "uzbek_title": "malaikalar haqida",
     "hadiths": []
   },
   {
@@ -14036,7 +14036,7 @@
     "book_id": 60,
     "chapter_number": 13,
     "arabic_title": "بَابُ قَوْلِهِ تَعَالَى وَإِذْ قُلْنَا لِلْمَلاَئِكَةِ",
-    "uzbek_title": "'Farishtalar, Odamga sajda qiling' degan oyat",
+    "uzbek_title": "'malaikalar, Odamga sajda qiling' degan oyat",
     "hadiths": []
   },
   {
@@ -15692,7 +15692,7 @@
     "book_id": 66,
     "chapter_number": 15,
     "arabic_title": "بَابُ نُزُولِ السَّكِينَةِ وَالْمَلاَئِكَةِ عِنْدَ قِرَاءَةِ الْقُرْآنِ",
-    "uzbek_title": "Qur'on o'qishda sakina va farishtalar tushishi",
+    "uzbek_title": "Qur'on o'qishda sakina va malaikalar tushishi",
     "hadiths": []
   },
   {
@@ -16508,7 +16508,7 @@
     "book_id": 70,
     "chapter_number": 23,
     "arabic_title": "بَابُ اللَّهُمَّ بَارِكْ لَنَا فِيمَا رَزَقْتَنَا",
-    "uzbek_title": "'Allohim, ризқimizni barakali qil' duosi",
+    "uzbek_title": "'ALLAHim, ризқimizni barakali qil' duosi",
     "hadiths": []
   },
   {
@@ -16612,7 +16612,7 @@
     "book_id": 72,
     "chapter_number": 2,
     "arabic_title": "بَابُ مَا أُهِلَّ لِغَيْرِ اللَّهِ بِهِ",
-    "uzbek_title": "Allohdan boshqasiga atab so'yilgan",
+    "uzbek_title": "ALLAHdan boshqasiga atab so'yilgan",
     "hadiths": []
   },
   {
@@ -17580,7 +17580,7 @@
     "book_id": 76,
     "chapter_number": 25,
     "arabic_title": "بَابُ لاَ عَدْوَى",
-    "uzbek_title": "Yuqumlilik yo'q (Allohning irodasisiz)",
+    "uzbek_title": "Yuqumlilik yo'q (ALLAHning irodasisiz)",
     "hadiths": []
   },
   {
@@ -18204,7 +18204,7 @@
     "book_id": 78,
     "chapter_number": 30,
     "arabic_title": "بَابُ أَحَبُّ الأَسْمَاءِ إِلَى اللَّهِ",
-    "uzbek_title": "Allohga eng sevimli ismlar",
+    "uzbek_title": "ALLAHga eng sevimli ismlar",
     "hadiths": []
   },
   {
@@ -18236,7 +18236,7 @@
     "book_id": 78,
     "chapter_number": 34,
     "arabic_title": "بَابُ الأَخُ فِي اللَّهِ",
-    "uzbek_title": "Alloh yo'lida aka-ukalik",
+    "uzbek_title": "ALLAH yo'lida aka-ukalik",
     "hadiths": []
   },
   {
@@ -18692,7 +18692,7 @@
     "book_id": 80,
     "chapter_number": 20,
     "arabic_title": "بَابُ فَضْلُ ذِكْرِ اللَّهِ عَزَّ وَجَلَّ",
-    "uzbek_title": "Alloh zikrining fazilati",
+    "uzbek_title": "ALLAH zikrining fazilati",
     "hadiths": []
   },
   {
@@ -18716,7 +18716,7 @@
     "book_id": 80,
     "chapter_number": 23,
     "arabic_title": "بَابُ مَنْ أَحَبَّ لِقَاءَ اللَّهِ",
-    "uzbek_title": "Allohga qovushishni sevgan kishi",
+    "uzbek_title": "ALLAHga qovushishni sevgan kishi",
     "hadiths": []
   },
   {
@@ -18724,7 +18724,7 @@
     "book_id": 80,
     "chapter_number": 24,
     "arabic_title": "بَابُ الْخَوْفُ مِنَ اللَّهِ",
-    "uzbek_title": "Allohdan qo'rqish",
+    "uzbek_title": "ALLAHdan qo'rqish",
     "hadiths": []
   },
   {
@@ -18780,7 +18780,7 @@
     "book_id": 81,
     "chapter_number": 1,
     "arabic_title": "بَابُ مَا جَاءَ فِي قَوْلِ اللَّهِ تَعَالَى أَلَا إِنَّ أَوْلِيَاءَ اللَّهِ لاَ خَوْفٌ عَلَيْهِمْ",
-    "uzbek_title": "'Allohning do'stlariga qo'rquv yo'q' oyati",
+    "uzbek_title": "'ALLAHning do'stlariga qo'rquv yo'q' oyati",
     "hadiths": []
   },
   {
@@ -18836,7 +18836,7 @@
     "book_id": 81,
     "chapter_number": 8,
     "arabic_title": "بَابُ مَنْ أَحَبَّ لِقَاءَ اللَّهِ",
-    "uzbek_title": "Alloh bilan uchrashishni sevgan kishi",
+    "uzbek_title": "ALLAH bilan uchrashishni sevgan kishi",
     "hadiths": []
   },
   {
@@ -18876,7 +18876,7 @@
     "book_id": 81,
     "chapter_number": 13,
     "arabic_title": "بَابُ الْخَوْفُ مِنَ اللَّهِ",
-    "uzbek_title": "Allohdan qo'rquv",
+    "uzbek_title": "ALLAHdan qo'rquv",
     "hadiths": []
   },
   {
@@ -19068,7 +19068,7 @@
     "book_id": 81,
     "chapter_number": 37,
     "arabic_title": "بَابُ مَنْ أَحَبَّ لِقَاءَ اللَّهِ أَحَبَّ اللَّهُ لِقَاءَهُ",
-    "uzbek_title": "Allohga qovushishni sevgan, Allah ham uni sevadi",
+    "uzbek_title": "ALLAHga qovushishni sevgan, Allah ham uni sevadi",
     "hadiths": []
   },
   {
@@ -19076,7 +19076,7 @@
     "book_id": 81,
     "chapter_number": 38,
     "arabic_title": "بَابُ الْبُكَاءُ مِنْ خَشْيَةِ اللَّهِ",
-    "uzbek_title": "Alloh qo'rquvidan yig'lash",
+    "uzbek_title": "ALLAH qo'rquvidan yig'lash",
     "hadiths": []
   },
   {
@@ -19172,7 +19172,7 @@
     "book_id": 81,
     "chapter_number": 50,
     "arabic_title": "بَابُ مَنْ جَاهَدَ نَفْسَهُ فِي طَاعَةِ اللَّهِ",
-    "uzbek_title": "Alloh itoatida nafsiga qarshi kurashgan",
+    "uzbek_title": "ALLAH itoatida nafsiga qarshi kurashgan",
     "hadiths": []
   },
   {
@@ -19276,7 +19276,7 @@
     "book_id": 82,
     "chapter_number": 10,
     "arabic_title": "بَابُ جَفَّ الْقَلَمُ عَلَى عِلْمِ اللَّهِ",
-    "uzbek_title": "Allohning ilmiga ko'ra qalam qurib bo'lgan",
+    "uzbek_title": "ALLAHning ilmiga ko'ra qalam qurib bo'lgan",
     "hadiths": []
   },
   {
@@ -19316,7 +19316,7 @@
     "book_id": 83,
     "chapter_number": 2,
     "arabic_title": "بَابُ قَوْلِ الرَّجُلِ لاَ وَاللَّهِ وَبَلَى وَاللَّهِ",
-    "uzbek_title": "'Yo'q, Allohga qasamki' yoki 'Ha, Allohga qasamki' deyish",
+    "uzbek_title": "'Yo'q, ALLAHga qasamki' yoki 'Ha, ALLAHga qasamki' deyish",
     "hadiths": []
   },
   {
@@ -19764,7 +19764,7 @@
     "book_id": 86,
     "chapter_number": 4,
     "arabic_title": "بَابُ إِقَامَةُ الْحُدُودِ وَالاِنْتِقَامُ لِحُرُمَاتِ اللَّهِ",
-    "uzbek_title": "Had jazolarini o'rnatish va Alloh hurmatlarini himoya qilish",
+    "uzbek_title": "Had jazolarini o'rnatish va ALLAH hurmatlarini himoya qilish",
     "hadiths": []
   },
   {
@@ -20188,7 +20188,7 @@
     "book_id": 89,
     "chapter_number": 3,
     "arabic_title": "بَابُ لاَ يُعَذَّبُ بِعَذَابِ اللَّهِ",
-    "uzbek_title": "Alloh azobiga o'xshash azob qilinmaydi",
+    "uzbek_title": "ALLAH azobiga o'xshash azob qilinmaydi",
     "hadiths": []
   },
   {
@@ -20396,7 +20396,7 @@
     "book_id": 92,
     "chapter_number": 2,
     "arabic_title": "بَابُ الرُّؤْيَا مِنَ اللَّهِ",
-    "uzbek_title": "Tush Allohdan",
+    "uzbek_title": "Tush ALLAHdan",
     "hadiths": []
   },
   {
@@ -20468,7 +20468,7 @@
     "book_id": 92,
     "chapter_number": 11,
     "arabic_title": "بَابُ الرُّؤْيَا الْحَسَنَةُ مِنَ اللَّهِ",
-    "uzbek_title": "Yaxshi tush Allohdan",
+    "uzbek_title": "Yaxshi tush ALLAHdan",
     "hadiths": []
   },
   {
@@ -21140,7 +21140,7 @@
     "book_id": 94,
     "chapter_number": 23,
     "arabic_title": "بَابُ مَنْ حَكَمَ بِغَيْرِ مَا أَنْزَلَ اللَّهُ",
-    "uzbek_title": "Alloh nozil qilmagani bilan hukm qilgan",
+    "uzbek_title": "ALLAH nozil qilmagani bilan hukm qilgan",
     "hadiths": []
   },
   {
@@ -21180,7 +21180,7 @@
     "book_id": 94,
     "chapter_number": 28,
     "arabic_title": "بَابُ فَضِيلَةُ مَنْ يَمُوتُ وَهُوَ يَخَافُ اللَّهَ",
-    "uzbek_title": "Allohdan qo'rqib vafot etganning fazilati",
+    "uzbek_title": "ALLAHdan qo'rqib vafot etganning fazilati",
     "hadiths": []
   },
   {
@@ -21444,7 +21444,7 @@
     "book_id": 97,
     "chapter_number": 17,
     "arabic_title": "بَابُ الإِيمَانُ وَقَوْلُ النَّبِيِّ ﷺ وَأَعْلَمُ الْبَشَرَ بِاللَّهِ",
-    "uzbek_title": "Iymon va Nabi ﷺ: men Allohni eng yaxshi biluvchi insonman",
+    "uzbek_title": "Iymon va Nabi ﷺ: men ALLAHni eng yaxshi biluvchi insonman",
     "hadiths": []
   },
   {
@@ -21452,7 +21452,7 @@
     "book_id": 97,
     "chapter_number": 18,
     "arabic_title": "بَابُ الاِنْتِهَاءُ إِلَى أَمْرِ اللَّهِ وَنَهْيِهِ",
-    "uzbek_title": "Alloh amri va nahyiga rioya qilish",
+    "uzbek_title": "ALLAH amri va nahyiga rioya qilish",
     "hadiths": []
   },
   {
@@ -21468,7 +21468,7 @@
     "book_id": 97,
     "chapter_number": 20,
     "arabic_title": "بَابُ قَوْلُ اللَّهِ تَعَالَى لِيَحْكُمَ بَيْنَهُمْ بِمَا أَنْزَلَ اللَّهُ",
-    "uzbek_title": "'Alloh nozil qilgani bilan hukm qilsin' oyati",
+    "uzbek_title": "'ALLAH nozil qilgani bilan hukm qilsin' oyati",
     "hadiths": []
   },
   {
@@ -21484,7 +21484,7 @@
     "book_id": 97,
     "chapter_number": 22,
     "arabic_title": "بَابُ مَنْ حَكَمَ بِكِتَابِ اللَّهِ",
-    "uzbek_title": "Allohning kitobi bilan hukm qilgan",
+    "uzbek_title": "ALLAHning kitobi bilan hukm qilgan",
     "hadiths": []
   },
   {

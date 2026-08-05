@@ -3,6 +3,6 @@
   "appName": "Quran Karim",
   "webDir": "public",
   "android": {
-    "webContentsDebuggingEnabled": true
+    "webContentsDebuggingEnabled": false
   }
 }

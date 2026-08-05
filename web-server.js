@@ -181,70 +181,53 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "dashboard.html"));
 });
 
-// Serve the latest APK as a direct download — always with Content-Disposition: attachment
-// so the browser shows its native download notification and the user stays on the page.
+// Serve the latest APK as a direct download.
 //
 // IMPORTANT: this route must be registered BEFORE express.static so that it is always
-// handled by this handler and never shadowed by a static file (e.g. if a public/download/
-// directory were ever created, express.static would intercept the request first and send
-// the file with the wrong Content-Type / without Content-Disposition).
+// handled by this handler and never shadowed by a static file.
 //
 // Resolution order:
-//   1. APK_DOWNLOAD_URL env var → PROXY the file (not a redirect) to keep the same origin
-//      and allow the browser's download attribute / Content-Disposition header to work.
-//   2. public/downloads/quran-karim.apk → direct send (dev build)
-//   3. android build output            → direct send (dev build)
-//   4. 503
+//   1. APK_DOWNLOAD_URL env var → 302 redirect to the GitHub release asset.
+//      GitHub's CDN (Azure Blob) already sets:
+//        Content-Disposition: attachment; filename=quran-karim.apk
+//        Content-Type: application/vnd.android.package-archive
+//      in the rscd/rsct query params of its signed URL, so the browser
+//      downloads the file with the correct name and type without any proxying.
 //
-// Why proxy instead of redirect:
-//   A 302 to github.com is cross-origin. Browsers drop the <a download> attribute and
-//   the Content-Disposition hint after the first cross-origin redirect, so the file
-//   opens in a new tab instead of triggering a download notification.
-//   Proxying keeps the URL same-origin throughout and lets us set the header directly.
+//      Why redirect instead of proxy:
+//        The previous proxy approach streamed 34 MB through the autoscale
+//        instance. Autoscale (Google Cloud) closes idle/slow connections well
+//        before the transfer finishes, so users received 0 bytes. A 302 hands
+//        the transfer off to GitHub's CDN directly — the server only sends a
+//        tiny redirect response.
+//
+//      The <a download> attribute is ignored for cross-origin URLs by Chrome
+//      (by spec), but that is fine — the CDN's own Content-Disposition header
+//      forces the attachment behaviour and supplies the filename.
+//
+//   2. public/downloads/quran-karim.apk → direct send (dev/local fallback)
+//   3. android build output             → direct send (dev/local fallback)
+//   4. 503
 app.get('/download/quran-karim.apk', (req, res) => {
-  const fs    = require('fs');
-  const https = require('https');
-  const http  = require('http');
+  const fs = require('fs');
 
-  // Headers that force a download in every browser / WebView
-  res.setHeader('Content-Disposition', 'attachment; filename="quran-karim.apk"');
-  res.setHeader('Content-Type', 'application/vnd.android.package-archive');
-  res.setHeader('Cache-Control', 'no-cache');
+  // Never cache the redirect — APK_DOWNLOAD_URL changes with every release.
+  res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate');
 
   if (process.env.APK_DOWNLOAD_URL) {
-    // Follow redirect chain internally and pipe the final response to the client.
-    function proxyFetch(targetUrl, depth) {
-      if (depth > 10) { if (!res.headersSent) res.status(502).end('Too many redirects'); return; }
-      const mod = targetUrl.startsWith('https') ? https : http;
-      mod.get(targetUrl, (upstream) => {
-        if ([301, 302, 303, 307, 308].includes(upstream.statusCode)) {
-          upstream.resume();                              // discard redirect body
-          proxyFetch(upstream.headers.location, depth + 1);
-          return;
-        }
-        if (upstream.statusCode !== 200) {
-          if (!res.headersSent) res.status(502).end('Upstream error: ' + upstream.statusCode);
-          return;
-        }
-        if (upstream.headers['content-length']) {
-          res.setHeader('Content-Length', upstream.headers['content-length']);
-        }
-        upstream.pipe(res);
-      }).on('error', (e) => {
-        console.error('[APK proxy]', e.message);
-        if (!res.headersSent) res.status(502).end('Proxy error');
-      });
-    }
-    proxyFetch(process.env.APK_DOWNLOAD_URL, 0);
-    return;
+    // 302 so the browser always re-checks for a fresh signed URL on each click.
+    return res.redirect(302, process.env.APK_DOWNLOAD_URL);
   }
 
+  // Local fallback (dev builds only — production always has APK_DOWNLOAD_URL set).
   const candidates = [
     path.join(__dirname, 'public/downloads/quran-karim.apk'),
     path.join(__dirname, 'android/app/build/outputs/apk/debug/app-debug.apk'),
   ];
   const found = candidates.find(p => fs.existsSync(p));
   if (found) {
+    res.setHeader('Content-Disposition', 'attachment; filename="quran-karim.apk"');
+    res.setHeader('Content-Type', 'application/vnd.android.package-archive');
     return res.download(found, 'quran-karim.apk');
   }
 

@@ -111,6 +111,65 @@
     color: rgba(253,250,240,0.7);
     margin-bottom: 2px;
   }
+
+  /* ── Hadith cards ─────────────────────────────────────────────── */
+  .hadith-list { display: flex; flex-direction: column; gap: 16px; }
+
+  .hadith-card {
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 22px 20px 18px;
+    box-shadow: var(--shadow);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hadith-card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 4px; height: 100%;
+    background: linear-gradient(180deg, var(--color-primary), var(--color-gold));
+  }
+
+  .hadith-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+
+  .hadith-num-badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 32px; height: 32px; border-radius: 50%;
+    background: radial-gradient(circle, #fff8e6 0%, #f4e6bd 100%);
+    border: 1.5px solid var(--color-gold);
+    color: var(--color-primary-dark); font-weight: 700;
+    font-size: 0.78rem; font-family: "Poppins", sans-serif; flex-shrink: 0;
+  }
+
+  html.dark .hadith-num-badge { background: radial-gradient(circle, #2a2010 0%, #1e1808 100%); color: var(--color-gold); }
+
+  .hadith-grade-chip {
+    font-size: 0.7rem; font-weight: 700; letter-spacing: 0.05em;
+    text-transform: uppercase; padding: 3px 10px; border-radius: 999px;
+    background: rgba(15,81,50,0.1); color: var(--color-primary-dark);
+  }
+
+  html.dark .hadith-grade-chip { background: rgba(15,81,50,0.25); color: #a0d4b0; }
+
+  .hadith-arabic {
+    font-family: "Amiri", serif; font-size: clamp(1.15rem, 3.5vw, 1.45rem);
+    direction: rtl; text-align: right; color: var(--color-text);
+    line-height: 2; margin-bottom: 14px; padding-bottom: 14px;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .hadith-uzbek { font-size: 0.93rem; line-height: 1.75; color: var(--color-text); margin-bottom: 16px; }
+
+  .hadith-meta { display: flex; flex-wrap: wrap; gap: 8px 18px; padding-top: 12px; border-top: 1px solid var(--color-border); }
+
+  .hadith-meta-item { font-size: 0.78rem; color: var(--color-muted); display: flex; align-items: center; gap: 5px; }
+
+  .hadith-meta-label { font-weight: 600; color: var(--color-primary-dark); }
+
+  html.dark .hadith-meta-label { color: #a0d4b0; }
 </style>
 </head>
 <body>
@@ -140,7 +199,10 @@
       <div class="mh-chapter-uzbek"  id="chapterUzbek"></div>
     </div>
 
-    <!-- Coming soon -->
+    <!-- Hadith list -->
+    <div class="hadith-list" id="hadithList" hidden></div>
+
+    <!-- Coming soon (shown only when no hadiths are available) -->
     <div class="mh-soon-block" id="soonBlock" hidden>
       <div class="mh-soon-icon">📖</div>
       <div class="mh-soon-title">Hadislar tez orada qo'shiladi</div>
@@ -169,6 +231,7 @@
     const chapterNumEl   = document.getElementById("chapterNum");
     const chapterArabic  = document.getElementById("chapterArabic");
     const chapterUzbek   = document.getElementById("chapterUzbek");
+    const hadithList     = document.getElementById("hadithList");
     const soonBlock      = document.getElementById("soonBlock");
     const errorMsg       = document.getElementById("errorMsg");
 
@@ -178,19 +241,29 @@
       errorMsg.hidden = false;
     }
 
-    if (!bookNum || !chapterNum) {
-      showError("Bob topilmadi.");
-      return;
+    function renderCard(h) {
+      const grade  = h.grade   ? `<span class="hadith-grade-chip">${h.grade}</span>` : '';
+      const arabic = h.arabic  ? `<div class="hadith-arabic">${h.arabic}</div>` : '';
+      const uzbek  = h.uzbek   ? `<div class="hadith-uzbek">${h.uzbek}</div>` : '';
+      const nar    = h.narrator ? `<div class="hadith-meta-item"><span class="hadith-meta-label">Rivoyatchi:</span> ${h.narrator}</div>` : '';
+      const src    = h.source  ? `<div class="hadith-meta-item"><span class="hadith-meta-label">Manba:</span> ${h.source}</div>` : '';
+      const meta   = (nar || src) ? `<div class="hadith-meta">${nar}${src}</div>` : '';
+      return `<div class="hadith-card">
+        <div class="hadith-header"><span class="hadith-num-badge">${h.number}</span>${grade}</div>
+        ${arabic}${uzbek}${meta}
+      </div>`;
     }
 
-    // Update back link to this book's chapter list
+    if (!bookNum || !chapterNum) { showError("Bob topilmadi."); return; }
+
     backLink.href = "/muslim-chapters.html?book=" + bookNum;
 
     Promise.all([
       fetch("/data/hadith/muslim-books.json").then(r => { if (!r.ok) throw new Error(); return r.json(); }),
-      fetch("/data/hadith/muslim-chapters.json").then(r => { if (!r.ok) throw new Error(); return r.json(); })
+      fetch("/data/hadith/muslim-chapters.json").then(r => { if (!r.ok) throw new Error(); return r.json(); }),
+      fetch("/data/hadith/muslim.json").then(r => { if (!r.ok) throw new Error(); return r.json(); })
     ])
-    .then(([books, allChapters]) => {
+    .then(([books, allChapters, allHadiths]) => {
       const book = books.find(b => b.book_number === bookNum);
       if (!book) { showError("Bunday kitob mavjud emas."); return; }
 
@@ -199,24 +272,29 @@
       );
       if (!chapter) { showError("Bunday bob mavjud emas."); return; }
 
-      // Page title
       document.title        = chapter.uzbek_title + " | Sahih Muslim";
       pageTitle.textContent = bookNum + "-kitob, " + chapterNum + "-bob";
 
-      // Info bar
       infoBreadcrumb.textContent = book.uzbek_title + " · " + bookNum + "-kitob";
       infoArabic.textContent     = chapter.arabic_title;
       infoChip.textContent       = chapterNum + "-bob";
       infoBar.hidden = false;
 
-      // Chapter card
       chapterNumEl.textContent  = chapterNum + "-bob";
       chapterArabic.textContent = chapter.arabic_title;
       chapterUzbek.textContent  = chapter.uzbek_title;
       chapterCard.hidden = false;
 
-      // Always show coming soon — hadiths not yet populated
-      soonBlock.hidden = false;
+      const hadiths = allHadiths.filter(
+        h => h.book === bookNum && h.chapter === chapterNum
+      );
+      if (hadiths.length > 0) {
+        hadithList.innerHTML = hadiths.map(renderCard).join('');
+        hadithList.hidden = false;
+        soonBlock.hidden  = true;
+      } else {
+        soonBlock.hidden = false;
+      }
     })
     .catch(() => {
       showError("Ma'lumotlarni yuklashda xatolik yuz berdi.");

@@ -60,7 +60,7 @@
     "book_id": 2,
     "chapter_number": 2,
     "arabic_title": "بَابُ الْأَمْرِ بِقِتَالِ النَّاسِ حَتَّى يَقُولُوا: لَا إِلَهَ إِلَّا اللهُ مُحَمَّدٌ رَسُولُ اللهِ",
-    "uzbek_title": "Odamlar «La ilaha illallah, Muhammadun rasulullah» deyguncha urushish buyrug'i haqida"
+    "uzbek_title": "Odamlar «La ilaha illALLAH, Muhammadun rasulullah» deyguncha urushish buyrug'i haqida"
   },
   {
     "id": "muslim-book-2-chapter-3",
@@ -137,7 +137,7 @@
     "book_id": 2,
     "chapter_number": 13,
     "arabic_title": "بَابُ قَوْلِهِ ﷺ: مَنْ غَشَّنَا فَلَيْسَ مِنَّا",
-    "uzbek_title": "Payg'ambar ﷺ ning «Bizni aldagan bizdan emas» so'zi haqida"
+    "uzbek_title": "Rasulullah ﷺ ning «Bizni aldagan bizdan emas» so'zi haqida"
   },
   {
     "id": "muslim-book-2-chapter-14",
@@ -256,7 +256,7 @@
     "book_id": 2,
     "chapter_number": 30,
     "arabic_title": "بَابُ بَيَانِ قَوْلِ النَّبِيِّ ﷺ: أَنَا أَعْلَمُكُمْ بِاللهِ وَأَتْقَاكُمْ لَهُ",
-    "uzbek_title": "Payg'ambar ﷺ ning «Sizlar orasida ALLAHni eng ko'p biluvchi va undan eng ko'p qo'rquvchi menman» so'zining bayoni"
+    "uzbek_title": "Rasulullah ﷺ ning «Sizlar orasida ALLAHni eng ko'p biluvchi va undan eng ko'p qo'rquvchi menman» so'zining bayoni"
   },
   {
     "id": "muslim-book-2-chapter-31",
@@ -396,7 +396,7 @@
     "book_id": 2,
     "chapter_number": 50,
     "arabic_title": "بَابُ وُجُوبِ الْإِيمَانِ بِرِسَالَةِ نَبِيِّنَا ﷺ إِلَى جَمِيعِ النَّاسِ وَنَسْخِ الْمِلَلِ بِمِلَّتِهِ",
-    "uzbek_title": "Payg'ambarimiz ﷺ ning risоlatiga barcha insonlar uchun iymon keltirish vajibligi va uning dini bilan boshqa dinlarning bekor qilinishi"
+    "uzbek_title": "Rasulullah ﷺ ning risоlatiga barcha insonlar uchun iymon keltirish vajibligi va uning dini bilan boshqa dinlarning bekor qilinishi"
   },
   {
     "id": "muslim-book-2-chapter-51",
@@ -445,7 +445,7 @@
     "book_id": 2,
     "chapter_number": 57,
     "arabic_title": "بَابُ تَحْرِيمِ قَتْلِ الْكَافِرِ بَعْدَ أَنْ قَالَ: لَا إِلَهَ إِلَّا اللهُ",
-    "uzbek_title": "«La ilaha illallah» dеgandan keyin kafirni o'ldirish haromligi"
+    "uzbek_title": "«La ilaha illALLAH» dеgandan keyin kafirni o'ldirish haromligi"
   },
   {
     "id": "muslim-book-2-chapter-58",
@@ -557,7 +557,7 @@
     "book_id": 2,
     "chapter_number": 73,
     "arabic_title": "بَابُ بَيَانِ أَنَّهُ لَا يَكْفِي مُجَرَّدُ قَوْلِ لَا إِلَهَ إِلَّا اللهُ دُونَ الْيَقِينِ بِالْقَلْبِ",
-    "uzbek_title": "Yurakdan yaqin bo'lmasdan shunchaki «La ilaha illallah» deyishning kifoya qilmasligi bayoni"
+    "uzbek_title": "Yurakdan yaqin bo'lmasdan shunchaki «La ilaha illALLAH» deyishning kifoya qilmasligi bayoni"
   },
   {
     "id": "muslim-book-2-chapter-74",
@@ -613,7 +613,7 @@
     "book_id": 2,
     "chapter_number": 81,
     "arabic_title": "بَابُ قَوْلِ النَّبِيِّ ﷺ: الْكَيِّسُ مَنْ دَانَ نَفْسَهُ وَعَمِلَ لِمَا بَعْدَ الْمَوْتِ",
-    "uzbek_title": "Payg'ambar ﷺ ning «Aqlli kishi o'zini hisobga tortib, o'limdan keyiniga amal qiluvchidir» so'zi"
+    "uzbek_title": "Rasulullah ﷺ ning «Aqlli kishi o'zini hisobga tortib, o'limdan keyiniga amal qiluvchidir» so'zi"
   },
   {
     "id": "muslim-book-2-chapter-82",
@@ -641,7 +641,7 @@
     "book_id": 2,
     "chapter_number": 85,
     "arabic_title": "بَابُ بَيَانِ مَعْنَى قَوْلِهِ ﷺ: كُلُّ أُمَّتِي يَدْخُلُونَ الْجَنَّةَ إِلَّا مَنْ أَبَى",
-    "uzbek_title": "Payg'ambar ﷺ ning «Bosh tortganlardan boshqa ummatimning barchasi jannatga kiradi» so'zi mazmunining bayoni"
+    "uzbek_title": "Rasulullah ﷺ ning «Bosh tortganlardan boshqa ummatimning barchasi jannatga kiradi» so'zi mazmunining bayoni"
   },
   {
     "id": "muslim-book-2-chapter-86",
@@ -6619,7 +6619,7 @@
     "book_id": 44,
     "chapter_number": 7,
     "arabic_title": "بَابُ مِنْ فَضَائِلِ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ رَضِيَ اللَّهُ عَنْهُ",
-    "uzbek_title": "Abdulloh ibn Mas'ud roziyALLAHu anhning fazilatlari"
+    "uzbek_title": "Abdullah ibn Mas'ud roziyALLAHu anhning fazilatlari"
   },
   {
     "id": "muslim-book-44-chapter-8",
@@ -6927,7 +6927,7 @@
     "book_id": 48,
     "chapter_number": 3,
     "arabic_title": "بَابُ فَضْلِ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ",
-    "uzbek_title": "'La ilaha illallohu vahidahu la sharika lah'ning fazilati"
+    "uzbek_title": "'La ilaha illALLAH vahidahu la sharika lah'ning fazilati"
   },
   {
     "id": "muslim-book-48-chapter-4",

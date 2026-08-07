@@ -45,9 +45,7 @@
       "category": "Jome'"
     }
   ],
-
   "hadiths": [
-
     {
       "id": "muslim-1-1",
       "collection": "muslim",
@@ -56,13 +54,12 @@
       "book_name": "Imon kitobi",
       "number": 1,
       "arabic": "بُنِيَ الإِسْلاَمُ عَلَى خَمْسٍ: شَهَادَةِ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ، وَإِقَامِ الصَّلاَةِ، وَإِيتَاءِ الزَّكَاةِ، وَحَجِّ الْبَيْتِ، وَصَوْمِ رَمَضَانَ.",
-      "uzbek": "Islom besh narsaning ustiga qurilgan: Allohdan boshqa iloh yo'qligiga va Muhammadning Uning bandasi va rasuli ekanligiga guvohlik berish, namoz o'qish, zakot berish, Baytullohga haj qilish va Ramazon ro'zasini tutish.",
-      "narrator": "Abdulloh ibn Umar",
+      "uzbek": "Islom besh narsaning ustiga qurilgan: ALLAHdan boshqa iloh yo'qligiga va Muhammadning Uning bandasi va rasuli ekanligiga guvohlik berish, namoz o'qish, zakot berish, Baytullohga haj qilish va Ramazon ro'zasini tutish.",
+      "narrator": "Abdullah ibn Umar",
       "narrator_arabic": "عبد الله بن عمر",
       "source": "Sahih Muslim 1:1",
       "grade": "Sahih"
     },
-
     {
       "id": "muslim-45-2564",
       "collection": "muslim",
@@ -77,7 +74,6 @@
       "source": "Sahih Muslim 45:2564",
       "grade": "Sahih"
     },
-
     {
       "id": "muslim-47-2699",
       "collection": "muslim",
@@ -92,7 +88,6 @@
       "source": "Sahih Muslim 47:2699",
       "grade": "Sahih"
     },
-
     {
       "id": "abudawud-1-1",
       "collection": "abudawud",
@@ -107,7 +102,6 @@
       "source": "Sahih Muslim 2:432; Abu Dovud 1:1",
       "grade": "Sahih"
     },
-
     {
       "id": "abudawud-43-4833",
       "collection": "abudawud",
@@ -122,7 +116,6 @@
       "source": "Abu Dovud 43:4833",
       "grade": "Hasan"
     },
-
     {
       "id": "abudawud-2-479",
       "collection": "abudawud",
@@ -137,7 +130,6 @@
       "source": "Abu Dovud 2:479",
       "grade": "Sahih"
     },
-
     {
       "id": "tirmidhi-27-1987",
       "collection": "tirmidhi",
@@ -152,7 +144,6 @@
       "source": "At-Termiziy 27:1987",
       "grade": "Hasan Sahih"
     },
-
     {
       "id": "tirmidhi-36-2516",
       "collection": "tirmidhi",
@@ -167,7 +158,6 @@
       "source": "At-Termiziy 36:2516",
       "grade": "Sahih"
     },
-
     {
       "id": "tirmidhi-27-2004",
       "collection": "tirmidhi",
@@ -176,13 +166,12 @@
       "book_name": "Yaxshi axloq kitobi",
       "number": 2004,
       "arabic": "اتَّقِ اللَّهَ حَيْثُمَا كُنْتَ، وَأَتْبِعِ السَّيِّئَةَ الْحَسَنَةَ تَمْحُهَا، وَخَالِقِ النَّاسَ بِخُلُقٍ حَسَنٍ.",
-      "uzbek": "Qaerda bo'lsang Allohdan qo'rq. Yomon amalning ketidan yaxshi amal qil, uni o'chiradi. Va odamlar bilan yaxshi axloq bilan muomala qil.",
+      "uzbek": "Qaerda bo'lsang ALLAHdan qo'rq. Yomon amalning ketidan yaxshi amal qil, uni o'chiradi. Va odamlar bilan yaxshi axloq bilan muomala qil.",
       "narrator": "Abu Zarr va Muoz ibn Jabal",
       "narrator_arabic": "أبو ذر ومعاذ بن جبل",
       "source": "At-Termiziy 27:2004",
       "grade": "Hasan"
     },
-
     {
       "id": "muslim-32-2564",
       "collection": "muslim",
@@ -196,7 +185,6 @@
       "source": "Sahih Muslim 32:1631",
       "grade": "Sahih"
     },
-
     {
       "id": "muslim-48-2742",
       "collection": "muslim",
@@ -210,7 +198,6 @@
       "source": "Sahih Muslim 48:2742",
       "grade": "Sahih"
     },
-
     {
       "id": "abudawud-35-4273",
       "collection": "abudawud",
@@ -224,7 +211,6 @@
       "source": "Abu Dovud 35:4273",
       "grade": "Sahih"
     },
-
     {
       "id": "abudawud-43-4800",
       "collection": "abudawud",
@@ -233,12 +219,11 @@
       "book_name": "Odob kitobi",
       "number": 4800,
       "arabic": "إِنَّ مِنْ أَحَبِّكُمْ إِلَيَّ وَأَقْرَبِكُمْ مِنِّي مَجْلِسًا يَوْمَ الْقِيَامَةِ أَحَاسِنَكُمْ أَخْلَاقًا.",
-      "narrator": "Jabir ibn Abdulloh",
+      "narrator": "Jabir ibn Abdullah",
       "narrator_arabic": "جابر بن عبد الله",
       "source": "Abu Dovud 43:4800",
       "grade": "Hasan"
     },
-
     {
       "id": "tirmidhi-9-614",
       "collection": "tirmidhi",
@@ -252,7 +237,6 @@
       "source": "At-Termiziy 9:614",
       "grade": "Sahih"
     },
-
     {
       "id": "tirmidhi-34-2406",
       "collection": "tirmidhi",
@@ -261,11 +245,10 @@
       "book_name": "Qiyomat tasviri kitobi",
       "number": 2406,
       "arabic": "كُنْ فِي الدُّنْيَا كَأَنَّكَ غَرِيبٌ أَوْ عَابِرُ سَبِيلٍ.",
-      "narrator": "Abdulloh ibn Umar",
+      "narrator": "Abdullah ibn Umar",
       "narrator_arabic": "عبد الله بن عمر",
       "source": "At-Termiziy 34:2406",
       "grade": "Sahih"
     }
-
   ]
 }

@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>LA ILAHA ILLALLAH ning shartlari | Din Asillari</title>
-<meta name="description" content="LA ILAHA ILLALLAH ning 8 ta sharti — to'liq tushuncha, arabcha matn va o'zbekcha sharh bilan." />
+<title>La ilaha illALLAH ning shartlari | Din Asillari</title>
+<meta name="description" content="La ilaha illALLAH ning 8 ta sharti — to'liq tushuncha, arabcha matn va o'zbekcha sharh bilan." />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -206,7 +206,7 @@ html.dark .ayah-action-btn:hover {
 
   <header class="site-header">
     <a class="back-link" href="/din-asillari.html">← Din Asillari</a>
-    <h1>LA ILAHA ILLALLAH</h1>
+    <h1>La ilaha illALLAH</h1>
   </header>
 
   <main class="container">
@@ -214,7 +214,7 @@ html.dark .ayah-action-btn:hover {
     <!-- Kalima banner -->
     <div class="kalima-banner">
       <span class="kalima-banner-arabic">لَا إِلَٰهَ إِلَّا اللَّهُ</span>
-      <div class="kalima-banner-latin">LA ILAHA ILLALLAH — ning 8 ta sharti</div>
+      <div class="kalima-banner-latin">La ilaha illALLAH — ning 8 ta sharti</div>
     </div>
 
     <!-- Reading controls -->
@@ -283,7 +283,7 @@ html.dark .ayah-action-btn:hover {
         shart: '6-SHART',
         name: 'AL-IKHLOS — IKHLOS',
         arabic: 'الشَّرْطُ السَّادِسُ: الْإِخْلَاصُ',
-        uzbek: 'Bu kalimani faqat ALLAH rizoyi uchun aytish, unda hech qanday riyodan, shirk va ko\'z-ko\'z qilishdan xoli bo\'lish. Payg\'ambar ﷺ aytdilar: "Qaysi biri ikhlos bilan «LA ILAHA ILLALLAH» desa — ALLAH uni jahannamga harom qilur." (Buxoriy). Riyokor niyat bu shartni buzadi.'
+        uzbek: 'Bu kalimani faqat ALLAH rizoyi uchun aytish, unda hech qanday riyodan, shirk va ko\'z-ko\'z qilishdan xoli bo\'lish. Payg\'ambar ﷺ aytdilar: "Qaysi biri ikhlos bilan «La ilaha illALLAH» desa — ALLAH uni jahannamga harom qilur." (Buxoriy). Riyokor niyat bu shartni buzadi.'
       },
       {
         num: 7,
@@ -391,7 +391,7 @@ html.dark .ayah-action-btn:hover {
 
       if (action === 'copy') {
         var text = entry.arabic + '\n\n' + entry.name + '\n' + entry.uzbek +
-                   '\n\n— Din Asillari | LA ILAHA ILLALLAH ning shartlari';
+                   '\n\n— Din Asillari | La ilaha illALLAH ning shartlari';
         ClipboardUtils.copy(text)
           .then(function ()  { showToast('Nusxa olindi ✓'); })
           .catch(function () { showToast('Xatolik yuz berdi'); });
@@ -399,9 +399,9 @@ html.dark .ayah-action-btn:hover {
 
       if (action === 'share') {
         var shareData = {
-          title: 'LA ILAHA ILLALLAH — ' + entry.shart,
+          title: 'La ilaha illALLAH — ' + entry.shart,
           text:  entry.arabic + '\n\n' + entry.name + '\n' + entry.uzbek +
-                 '\n\n— Din Asillari | LA ILAHA ILLALLAH ning shartlari'
+                 '\n\n— Din Asillari | La ilaha illALLAH ning shartlari'
         };
         ClipboardUtils.share(shareData, function () { showToast('Matn nusxa olindi ✓'); })
           .catch(function () { showToast('Ulashishda xatolik'); });
@@ -419,9 +419,9 @@ html.dark .ayah-action-btn:hover {
     if (window.Lang && Lang.isKiril()) {
       var bl = document.querySelector('.back-link');
       if (bl) bl.textContent = '← Дин Асиллари';
-      document.title = 'LA ILAHA ILLALLAH нинг шартлари | Дин Асиллари';
+      document.title = 'La ilaha illALLAH нинг шартлари | Дин Асиллари';
       var banner = document.querySelector('.kalima-banner-latin');
-      if (banner) banner.textContent = 'LA ILAHA ILLALLAH — нинг 7 та шарти';
+      if (banner) banner.textContent = 'La ilaha illALLAH — нинг 7 та шарти';
       if (toggleBtn) toggleBtn.textContent = showTrans ? 'Таржимани яшириш' : 'Таржимани кўрсатиш';
       document.querySelectorAll('.rc-size-btn').forEach(function (b) {
         var map = { small: 'Кичик', medium: 'Ўрта', large: 'Катта' };

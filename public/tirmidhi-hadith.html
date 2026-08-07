@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css" />
+<script src="/js/clipboard.js"></script>
 <script>if(localStorage.getItem("darkMode")==="true")document.documentElement.classList.add("dark");</script>
 <style>
   .mh-chapter-card {
@@ -224,6 +225,60 @@
   }
 
   html.dark .hadith-meta-label { color: #a0d4b0; }
+
+  /* ── Hadith copy / share action bar ─────────────────────────── */
+  .hadith-action-bar {
+    display: flex;
+    gap: 8px;
+    padding: 10px 16px 12px;
+    border-top: 1px solid var(--color-border);
+  }
+  .hadith-action-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: var(--color-primary-dark);
+    background: rgba(15,81,50,0.07);
+    border: 1px solid rgba(15,81,50,0.15);
+    border-radius: 999px;
+    padding: 5px 14px;
+    cursor: pointer;
+    transition: background 0.15s;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .hadith-action-btn:active { background: rgba(15,81,50,0.16); }
+  html.dark .hadith-action-btn {
+    color: #a0d4b0;
+    background: rgba(15,81,50,0.2);
+    border-color: rgba(160,212,176,0.2);
+  }
+  html.dark .hadith-action-btn:active { background: rgba(15,81,50,0.35); }
+  .hadith-action-btn svg { width: 13px; height: 13px; flex-shrink: 0; }
+  /* Toast notification */
+  .hadith-toast {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%) translateY(80px);
+    background: var(--color-primary-dark);
+    color: #fff;
+    font-size: 0.82rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 22px;
+    border-radius: 999px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.22);
+    transition: transform 0.22s ease, opacity 0.22s ease;
+    opacity: 0;
+    z-index: 9999;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+  .hadith-toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
 </style>
 </head>
 <body>
@@ -293,7 +348,10 @@
       errorMsg.hidden = false;
     }
 
+    var _hadithMap = {};
     function renderCard(h) {
+      var key = String(h.number);
+      _hadithMap[key] = h;
       const grade = h.grade ? `<span class="hadith-grade-chip">${h.grade}</span>` : '';
       const arabicBlock = h.arabic
         ? `<div class="hadith-arabic-block"><div class="hadith-arabic">${h.arabic}</div></div>` : '';
@@ -302,9 +360,19 @@
       const src   = h.source  ? `<div class="hadith-meta-item"><span class="hadith-meta-label">Manba:</span> ${h.source}</div>` : '';
       const meta  = (nar || src) ? `<div class="hadith-meta">${nar}${src}</div>` : '';
       const content = (uzbek || meta) ? `<div class="hadith-content">${uzbek}${meta}</div>` : '';
+      const actions = `<div class="hadith-action-bar">
+        <button class="hadith-action-btn" data-hid="${key}" data-action="copy" type="button">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="9" height="11" rx="1.5"/><path d="M3 12H2a1 1 0 01-1-1V2a1 1 0 011-1h8a1 1 0 011 1v1"/></svg>
+          Nusxa
+        </button>
+        <button class="hadith-action-btn" data-hid="${key}" data-action="share" type="button">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="13" cy="3" r="1.8"/><circle cx="3" cy="8" r="1.8"/><circle cx="13" cy="13" r="1.8"/><path d="M4.8 9l6.4 3M11.2 4L4.8 7"/></svg>
+          Ulashish
+        </button>
+      </div>`;
       return `<div class="hadith-card">
         <div class="hadith-header"><span class="hadith-num-badge">${h.number}</span>${grade}</div>
-        ${arabicBlock}${content}
+        ${arabicBlock}${content}${actions}
       </div>`;
     }
 
@@ -353,8 +421,41 @@
     .catch(() => {
       showError("Ma'lumotlarni yuklashda xatolik yuz berdi.");
     });
+
+    // ── Copy / Share ──────────────────────────────────────────────
+    var _toastTimer;
+    function showHadithToast(msg) {
+      var t = document.getElementById('hadithToast');
+      t.textContent = msg;
+      t.classList.add('show');
+      clearTimeout(_toastTimer);
+      _toastTimer = setTimeout(function() { t.classList.remove('show'); }, 2200);
+    }
+    function buildShareText(h) {
+      var parts = [];
+      if (h.arabic) parts.push(h.arabic);
+      if (h.uzbek)  { parts.push(''); parts.push(h.uzbek); }
+      var meta = [];
+      if (h.narrator) meta.push('Rivoyatchi: ' + h.narrator);
+      if (h.source)   meta.push('Manba: '      + h.source);
+      if (meta.length) { parts.push(''); parts.push(meta.join('\n')); }
+      return parts.join('\n');
+    }
+    hadithList.addEventListener('click', function(e) {
+      var btn = e.target.closest('[data-action]');
+      if (!btn) return;
+      var h = _hadithMap[btn.dataset.hid];
+      if (!h) return;
+      var text = buildShareText(h);
+      if (btn.dataset.action === 'copy') {
+        ClipboardUtils.copy(text).then(function() { showHadithToast('Nusxa olindi ✓'); });
+      } else {
+        ClipboardUtils.share({ title: 'Hadis', text: text }, function() { showHadithToast('Nusxa olindi ✓'); });
+      }
+    });
   })();
   </script>
 
+  <div class="hadith-toast" id="hadithToast"></div>
 </body>
 </html>
